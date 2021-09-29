@@ -1,3 +1,5 @@
+from getpass import getpass
+
 from mysql.connector import connect, Error
 
 
@@ -13,7 +15,7 @@ class Connection:
             cnx = connect(
                 host="localhost",
                 user="pascal",
-                password="anno1602",
+                password=getpass("Password: "),
                 database="nfl_fantasy_stats_yearly")
             print("Login to database successful.")
             return cnx
