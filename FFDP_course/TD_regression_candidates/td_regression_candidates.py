@@ -17,17 +17,7 @@ PREPROCESSED_BASIS = False
 PREPROCESSED_EST = False
 PREPROCESSED_ACTUAL = False
 
-PLAYERS = ["L.FOURNETTE", "A.JONES", "A.KAMARA", "C.MCCAFFREY", "R.MOSTERT"]
-
-team_name_map = {
-    "TAM": "TB",
-    "KAN": "KC",
-    "LAR": "LA",
-    "NOR": "NO",
-    "GNB": "GB",
-    "NWE": "NE",
-    "SFO": "SF"
-}
+PLAYERS = []
 
 
 def fix_yardline(row):
@@ -93,7 +83,7 @@ if not PREPROCESSED_EST:
     # modify yardline records
     rushing_df_estimate["yardline_100"] = rushing_df_estimate.apply(fix_yardline, axis=1)
 
-    # rename columns
+    # rename features
     rushing_df_estimate = rushing_df_estimate.rename({
         "RushingPlayer": "Player",
         "OffenseTeam": "Tm"
@@ -145,7 +135,7 @@ else:
 data = actual.merge(data, how="left", on=["Player", "Tm"]).dropna()
 data = data.drop("Pos", axis=1)
 
-# rename columns and calculate rank of actual touchdowns
+# rename features and calculate rank of actual touchdowns
 data = data.rename({"RushingTD": "Actual touchdowns"}, axis=1)
 data["Actual touchdowns rank"] = data["Actual touchdowns"].rank(ascending=False)
 
