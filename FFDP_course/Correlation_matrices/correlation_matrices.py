@@ -1,4 +1,15 @@
 """
+Analyzes the correlation in fantasy points between positions for a
+given year over the course of a league.
+
+This correlation can be used to check if stacking a position might
+offer better returns in points. The generated heatmap can be used
+to decide if stacking a position might be useful.
+
+Stacking a position means that one puts e.g. a WR2 and WR3 of a team
+on the active rooster. If the correlation between the two position is
+high, one position does not out-score the other one and vice-versa.
+
 Code source:
     https://www.fantasyfootballdatapros.com/course/section/9
 """
@@ -11,16 +22,23 @@ import utils.data_handling as dh
 
 sns.set_style("whitegrid")
 
+# YEAR year to analyse
+# SELECTOR scoring scheme to analyse
 YEAR = 2019
 SELECTOR = "PPRFantasyPoints"
 
+# define number of spots per position
 position_spots = {
     "QB": 1,
     "RB": 2,
     "WR": 3,
     "TE": 2,
 }
+
+# positions to analyse correlation
 positions = ["QB", "RB", "WR", "TE"]
+
+# features to select for overall stats
 features = ["Player", "Tm", "Pos", "Week", SELECTOR]
 
 
@@ -44,8 +62,9 @@ def get_top_n_player_at_each_pos(data, pos, n):
 # load accumulated weekly stats
 df = dh.concat_weekly_stats(YEAR)
 
-# replace team names with standard abbreviations
+# replace team names and positions with standard abbreviations
 df = dh.replace_team_names(df)
+df = dh.replace_positions(df)
 
 # limit to offensive players
 df = df.loc[df["Pos"].isin(positions)]
