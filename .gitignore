@@ -130,3 +130,6 @@ dmypy.json
 
 # PyCharm
 .idea/
+
+# Project specifics
+FFDP_course/TD_regression_candidates/data/nfl_playbyplay_2009to2018_v5.csv
