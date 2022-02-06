@@ -13,10 +13,11 @@ team_name_map = {
 
 position_map = {
     "HB": "RB",
+    "FB": "RB",
     "WR/RS": "WR",
-    "WR/PS": "WR",
+    "WR/PR": "WR",
     "FB/TE": "TE",
-    "FB/HB": "RB"
+    "FB/RB": "RB"
 }
 
 
