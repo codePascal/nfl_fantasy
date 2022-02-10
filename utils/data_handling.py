@@ -21,6 +21,10 @@ position_map = {
 }
 
 
+def read_csv_file(path):
+    return pd.read_csv(path)
+
+
 def concat_weekly_stats(year):
     """
     Concatenates weekly stats for a given year.
