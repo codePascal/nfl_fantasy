@@ -7,11 +7,9 @@ recent development in terms of QB efficiency. Recent famous QB such
 as Patrick Mahomes and Joe Burrow developed a style that leads to
 more rushing yards by a QB instead of just throwing.
 """
-import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-from sklearn.linear_model import LinearRegression
 
 import utils.fantasy_pros as fp
 import utils.data_handling as dh
@@ -69,7 +67,3 @@ if __name__ == "__main__":
     plt.title("QB rating vs. fantasy points scored in {}".format(YEAR))
     sns.scatterplot(x="rating", y="fantasy points", data=yearly)
     plt.show()
-
-
-
-
