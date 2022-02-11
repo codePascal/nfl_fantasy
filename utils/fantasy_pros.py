@@ -4,6 +4,23 @@ FANTASYPROS. It is assumed that the data is ordered regarding fantasy
 points made during a season (FPTS).
 """
 
+map_type_def = {
+    "rank": int,
+    "player": str,
+    "sacks": int,
+    "ints": int,
+    "fumble_recovery": int,
+    "fumble_forced": int,
+    "defense_td": int,
+    "safety": int,
+    "spc_td": int,
+    "misc_g": int,
+    "misc_fpts": float,
+    "misc_fptsg": float,
+    "misc_rost": float,
+    "team": str
+}
+
 map_type_qb = {
     "rank": int,
     "player": str,
@@ -89,6 +106,30 @@ map_type_wr = {
     "misc_rost": float,
     "team": str
 }
+
+
+def clean_stats_def(df):
+    """
+    Cleans the defensive statistics found here:
+    https://www.fantasypros.com/nfl/stats/dst.php
+
+    :param df: data loaded from csv
+    :type df: pandas.DataFrame
+    :return: cleaned data
+    :rtype: pandas.DataFrame
+    """
+    # rename column names in a more descriptive manner
+    df.columns = list(map_type_def.keys())[:-1]
+
+    # transform column entries
+    df["team"] = df.apply(get_team, axis=1)
+    df["player"] = df["player"].apply(transform_name)
+    df["misc_rost"] = df["misc_rost"].apply(transform_rost)
+
+    # set types
+    df = df.astype(map_type_def)
+
+    return df
 
 
 def clean_stats_qb(df):

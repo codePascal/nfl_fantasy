@@ -13,7 +13,7 @@ import utils.data_handling as dh
 
 sns.set_style("whitegrid")
 
-POSITION = "QB"
+POSITION = "DEF"
 YEAR = 2021
 
 if __name__ == "__main__":
@@ -30,6 +30,8 @@ if __name__ == "__main__":
         df = fp.clean_stats_te(df)
     elif POSITION == "WR":
         df = fp.clean_stats_wr(df)
+    elif POSITION == "DEF":
+        df = fp.clean_stats_def(df)
     else:
         sys.exit("Position not implemented.")
 
