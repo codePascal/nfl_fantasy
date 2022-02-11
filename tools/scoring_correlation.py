@@ -3,7 +3,6 @@ Analyzes the fantasy scoring relation w.r.t. to statistics such as
 passing attempts and receiving targets for a specific position in a
 given year.
 """
-
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
@@ -42,4 +41,5 @@ if __name__ == "__main__":
     plt.title("Scoring correlation for {pos} during season {year}".format(pos=POSITION, year=YEAR))
     sns.heatmap(df.corr(), annot=True, cmap=sns.diverging_palette(0, 250), mask=np.triu(df.corr()))
     plt.tight_layout()
+    plt.savefig("../plots/scoring_correlation/correlation_{pos}_{year}.png".format(pos=POSITION, year=YEAR))
     plt.show()
