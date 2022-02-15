@@ -7,13 +7,13 @@ points made during a season (FPTS).
 map_type_def = {
     "rank": int,
     "player": str,
-    "sacks": int,
-    "ints": int,
+    "defense_sacks": int,
+    "defense_ints": int,
     "fumble_recovery": int,
     "fumble_forced": int,
     "defense_td": int,
-    "safety": int,
-    "spc_td": int,
+    "defense_safety": int,
+    "defense_spc_td": int,
     "misc_g": int,
     "misc_fpts": float,
     "misc_fptsg": float,
@@ -287,3 +287,53 @@ def transform_rost(rost):
     :rtype: str
     """
     return rost[:-1]
+
+
+def clean_schedule(df):
+    """
+    Cleans up schedule and sets team as index.
+
+    :param df: schedule as read from csv
+    :type df: pandas.DataFrame
+    :return: clean schedule
+    :rtype: pandas.DataFrame
+    """
+    df.columns = ["team"] + [str(i) for i in range(1, df.shape[1])]
+    df.set_index("team", drop=True, inplace=True)
+    return df
+
+
+def get_opponent(df, team, week):
+    """
+    Returns the opponent.
+    :param df: schedule
+    :type df: pandas.DataFrame
+    :param team: abbreviation of team
+    :type team: str
+    :param week: week to get opponent for
+    :type week: int
+    :return: opponent
+    :rtype: str
+    """
+    return df.loc[team, str(week)].split()[1]
+
+
+def get_place(df, team, week):
+    """
+    Returns if the team has played home.
+
+    :param df: cleaned schedule
+    :type df: pandas.DataFrame
+    :param team: abbreviation of team
+    :type team: str
+    :param week: week to get location for
+    :type week: int
+    :return: true if home, false if away
+    :rtype: bool
+    """
+    loc = df.loc[team, str(week)].split()[0]
+    if loc == "@":
+        return False
+    else:
+        return True
+
