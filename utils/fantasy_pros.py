@@ -21,6 +21,27 @@ map_type_def = {
     "team": str
 }
 
+map_type_k = {
+    "rank": int,
+    "player": str,
+    "fg": int,
+    "fga": int,
+    "pct": float,
+    "lg": int,
+    "1-19": int,
+    "20-29": int,
+    "30-39": int,
+    "40-49": int,
+    "50+": int,
+    "XPT": int,
+    "XPA": int,
+    "misc_g": int,
+    "misc_fpts": float,
+    "misc_fptsg": float,
+    "misc_rost": float,
+    "team": str
+}
+
 map_type_qb = {
     "rank": int,
     "player": str,
@@ -128,6 +149,30 @@ def clean_stats_def(df):
 
     # set types
     df = df.astype(map_type_def)
+
+    return df
+
+
+def clean_stats_k(df):
+    """
+    Cleans the kicker statistics found here:
+    https://www.fantasypros.com/nfl/stats/k.php
+
+    :param df: data loaded from csv
+    :type df: pandas.DataFrame
+    :return: cleaned data
+    :rtype: pandas.DataFrame
+    """
+    # rename column names in a more descriptive manner
+    df.columns = list(map_type_k.keys())[:-1]
+
+    # transform column entries
+    df["team"] = df.apply(get_team, axis=1)
+    df["player"] = df["player"].apply(transform_name)
+    df["misc_rost"] = df["misc_rost"].apply(transform_rost)
+
+    # set types
+    df = df.astype(map_type_k)
 
     return df
 
