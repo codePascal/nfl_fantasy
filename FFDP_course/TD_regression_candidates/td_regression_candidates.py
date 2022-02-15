@@ -19,6 +19,17 @@ PREPROCESSED_ACTUAL = False
 
 PLAYERS = []
 
+team_name_map = {
+    "TAM": "TB",
+    "KAN": "KC",
+    "LAR": "LA",
+    "NOR": "NO",
+    "GNB": "GB",
+    "NWE": "NE",
+    "SFO": "SF",
+    # "OAK": "LV"
+}
+
 
 def fix_yardline(row):
     yardline = row["YardLineFixed"]
@@ -38,7 +49,7 @@ def fix_player_names(name):
 
 if not PREPROCESSED_BASIS:
     # load in single chunks
-    chunks = pd.read_csv("data/nfl_playbyplay_2009to2018_v5.csv", iterator=True, low_memory=False, chunksize=10000)
+    chunks = pd.read_csv("../../data/play-by-play/pbp_2009to2018.csv", iterator=True, low_memory=False, chunksize=10000)
 
     # concat
     df = pd.DataFrame()
