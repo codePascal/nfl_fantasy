@@ -55,14 +55,14 @@ if __name__ == "__main__":
 
     # use only QB that have played number of games
     games_threshold = 10
-    yearly = yearly.loc[(yearly["misc_g"] > games_threshold), :]
+    yearly = yearly.loc[(yearly["games"] > games_threshold), :]
 
     # get the rank of the rating
     yearly["rating_rank"] = yearly["rating"].rank(ascending=False)
     yearly = yearly.astype({"rating_rank": int})
 
     # plot the rating vs fantasy points
-    yearly.rename(columns={"misc_fpts": "fantasy points"}, inplace=True)
+    yearly.rename(columns={"fantasy_points": "fantasy points"}, inplace=True)
     plt.figure()
     plt.title("QB rating vs. fantasy points scored in {}".format(YEAR))
     sns.scatterplot(x="rating", y="fantasy points", data=yearly)

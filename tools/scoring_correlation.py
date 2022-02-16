@@ -22,23 +22,10 @@ if __name__ == "__main__":
     df = df.dropna()
 
     # clean data
-    if POSITION == "QB":
-        df = fp.clean_stats_qb(df)
-    elif POSITION == "RB":
-        df = fp.clean_stats_rb(df)
-    elif POSITION == "TE":
-        df = fp.clean_stats_te(df)
-    elif POSITION == "WR":
-        df = fp.clean_stats_wr(df)
-    elif POSITION == "DST":
-        df = fp.clean_stats_def(df)
-    elif POSITION == "K":
-        df = fp.clean_stats_k(df)
-    else:
-        sys.exit("Position not implemented.")
+    df = fp.clean_stats(df, POSITION)
 
     # drop unnecessary columns
-    df.drop(["rank", "player", "team", "misc_g", "misc_fpts", "misc_rost"], axis=1, inplace=True)
+    df.drop(["rank", "player", "team", "games", "fantasy_points", "rost"], axis=1, inplace=True)
 
     # plot the correlation heatmap
     plt.figure(figsize=(8, 7))

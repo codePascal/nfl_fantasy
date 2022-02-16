@@ -16,7 +16,7 @@ sns.set_style("whitegrid")
 
 PREPROCESSED_BASIS = True
 PREPROCESSED_EST = True
-PREPROCESSED_ACTUAL = True
+PREPROCESSED_ACTUAL = False
 
 PLAY = "rec"  # rush, pass, rec
 POSITION = "RB"  # QB, RB, TE, WR
@@ -64,10 +64,10 @@ if __name__ == "__main__":
         df_prob = df_prob.drop("touchdown", axis=1)
 
         # save preprocessed probability data
-        df_prob.to_csv(f"../preprocessed/preprocessed_probability_{PLAY}.csv", index=False)
+        df_prob.to_csv(f"../preprocessed/td_regression/preprocessed_probability_{PLAY}.csv", index=False)
     else:
         # load preprocessed probability data
-        df_prob = pd.read_csv(f"../preprocessed/preprocessed_probability_{PLAY}.csv")
+        df_prob = pd.read_csv(f"../preprocessed/td_regression/preprocessed_probability_{PLAY}.csv")
 
     # plot probability of scoring a touchdown
     df_prob.plot(x="yardline_100", y="probability_of_touchdown", title=f"Probability for {PLAY}ing TD")
@@ -95,10 +95,10 @@ if __name__ == "__main__":
         df_train = df_train.rename(columns={df_train.columns[0]: "player", "posteam": "team"})
 
         # save preprocessed training data
-        df_train.to_csv(f"../preprocessed/preprocessed_training_{PLAY}.csv", index=False)
+        df_train.to_csv(f"../preprocessed/td_regression/preprocessed_training_{PLAY}.csv", index=False)
     else:
         # load preprocessed training data
-        df_train = pd.read_csv(f"../preprocessed/preprocessed_training_{PLAY}.csv")
+        df_train = pd.read_csv(f"../preprocessed/td_regression/preprocessed_training_{PLAY}.csv")
 
     # join probability with training
     data = df_train.merge(df_prob, how="left", on="yardline_100")
@@ -113,7 +113,7 @@ if __name__ == "__main__":
 
     if not PREPROCESSED_ACTUAL:
         # load final stats
-        chunks = pd.read_csv(f"../data/yearly/{POSITION}/{POSITION}_2019.csv", iterator=True, low_memory=False,
+        chunks = pd.read_csv(f"../data/yearly_stats/{POSITION}/{POSITION}_2019.csv", iterator=True, low_memory=False,
                              chunksize=10000)
         df = pd.DataFrame()
         for chunk in chunks:
@@ -121,15 +121,7 @@ if __name__ == "__main__":
         df = df.dropna()
 
         # clean stats for defined position
-        df_actual = pd.DataFrame()
-        if POSITION == "QB":
-            df_actual = fp.clean_stats_qb(df)
-        elif POSITION == "RB":
-            df_actual = fp.clean_stats_rb(df)
-        elif POSITION == "TE":
-            df_actual = fp.clean_stats_te(df)
-        elif POSITION == "WR":
-            df_actual = fp.clean_stats_wr(df)
+        df_actual = fp.clean_stats(df, POSITION)
 
         # get player, team and td
         if PLAY == "pass":
@@ -146,9 +138,9 @@ if __name__ == "__main__":
         df_actual["player"] = df_actual["player"].apply(fix_player_names)
 
         # save preprocessed player data
-        df_actual.to_csv(f"../preprocessed/preprocessed_actual_{PLAY}_{POSITION}.csv", index=False)
+        df_actual.to_csv(f"../preprocessed/td_regression/preprocessed_actual_{PLAY}_{POSITION}.csv", index=False)
     else:
-        df_actual = pd.read_csv(f"../preprocessed/preprocessed_actual_{PLAY}_{POSITION}.csv")
+        df_actual = pd.read_csv(f"../preprocessed/td_regression/preprocessed_actual_{PLAY}_{POSITION}.csv")
 
     # merge data and drop position
     data = df_actual.merge(data, how="left", on=["player", "team"]).dropna()
