@@ -164,7 +164,6 @@ def concat_weekly_offensive_stats(year, weeks):
     for position in ["QB", "RB", "WR", "TE", "K"]:
         for week in range(1, weeks + 1):
             df = pd.read_csv(f"../data/weekly_stats/{year}/{position}/week_{week}.csv")
-            df.drop(df.columns[0], axis=1, inplace=True)
             df = clean_stats(df, position)
             df["week"] = week
             df["position"] = position
@@ -193,7 +192,6 @@ def concat_weekly_snapcounts(year, weeks):
 
     for week in range(1, weeks + 1):
         df = pd.read_csv(f"../data/weekly_snapcounts/{year}/week_{week}.csv")
-        df.drop(df.columns[0], axis=1, inplace=True)
         df = clean_snapcount_analysis(df)
         df["week"] = week
         snapcount_stats = pd.concat([snapcount_stats, df])
@@ -214,6 +212,10 @@ def clean_stats(df, position):
     :return: cleaned data
     :rtype: pandas.DataFrame
     """
+    # drop unnamed column
+    df.drop(df.columns[0], axis=1, inplace=True)
+
+    # clean up depending on position
     if position == "DST":
         return clean_stats_dst(df)
     elif position == "K":
@@ -501,6 +503,9 @@ def clean_snapcount_analysis(df):
     :return: cleaned snapcount analysis
     :rtype: pandas.DataFrame
     """
+    # drop unnamed column
+    df.drop(df.columns[0], axis=1, inplace=True)
+
     # rename column names in a more descriptive manner
     df.columns = list(map_type_snapcount.keys())
 
