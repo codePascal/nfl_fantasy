@@ -27,17 +27,17 @@ def read_csv_file(path):
 
 def concat_weekly_stats(year):
     """
-    Concatenates weekly stats for a given year.
+    Concatenates weekly_stats stats for a given year.
 
-    :param year: year to concatenate weekly stats
+    :param year: year to concatenate weekly_stats stats
     :type year: int
-    :return: weekly stats concatenated
+    :return: weekly_stats stats concatenated
     :rtype: pandas.DataFrame
     """
     stats = pd.DataFrame()
     for week in range(1, 18):
         weekly_stats = pd.read_csv(
-            "/home/pascal/git/nfl-fantasy/data/weekly/{year}/week{week}.csv".format(year=year, week=week))
+            "/home/pascal/git/nfl-fantasy/data/weekly_stats/{year}/week{week}.csv".format(year=year, week=week))
         weekly_stats["Week"] = week
         stats = pd.concat([stats, weekly_stats])
     return stats

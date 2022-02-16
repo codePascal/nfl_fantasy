@@ -19,6 +19,6 @@ for ((i = 1; i <= $2; i++))
   do
     for position in $positions
       do
-        python ../utils/stats_scraper.py $1 $position --week $i
+        python ../scraper/stats_scraper.py $1 $position --week $i
     done
 done

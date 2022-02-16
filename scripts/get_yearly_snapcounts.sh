@@ -1,20 +1,17 @@
 ###############################################################################
-# get weekly snapcounts
+# get yearly snapcounts
 #
-# Gets weekly snapcounts from
+# Gets yearly snapcounts from
 # https://www.fantasypros.com/nfl/reports/snap-count-analysis/ for the offense.
 #
 # Usage example:
-# ./get_weekly_snapcounts.sh year weeks
-# ./get_weekly_snapcounts.sh 2021 18
+# ./get_yearly_snapcounts.sh year
+# ./get_yearly_snapcounts.sh 2021
 ###############################################################################
 
-if [ -z "$2" ]
+if [ -z "$1" ]
   then
     echo "Incorrect number of arguments."
 fi
 
-for ((i = 1; i <= $2; i++))
-  do
-    python ../scraper/snapcounts_scraper.py $1 $i
-done
+python ../scraper/snapcounts_scraper.py $1
