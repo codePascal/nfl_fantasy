@@ -34,7 +34,7 @@ df = df.groupby(['player_id', 'tm', 'player', 'pos', 'season'], as_index=False).
     'half_ppr_fantasy_points': np.sum
 })
 
-# keep only seasons where snapcounts are recorded
+# keep only seasons where weekly_snapcounts are recorded
 df = df.loc[(df["season"]) >= 2012]
 
 # features to store

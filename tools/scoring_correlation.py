@@ -17,8 +17,8 @@ POSITION = "K"
 YEAR = 2021
 
 if __name__ == "__main__":
-    # get yearly data
-    df = dh.read_csv_file("../data/yearly/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
+    # get yearly_stats data
+    df = dh.read_csv_file("../data/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
     df = df.dropna()
 
     # clean data

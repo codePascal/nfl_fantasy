@@ -44,7 +44,7 @@ def get_qb_rating(player):
 
 if __name__ == "__main__":
     # load data
-    yearly = dh.read_csv_file("../data/yearly/QB/QB_{}.csv".format(YEAR))
+    yearly = dh.read_csv_file("../data/yearly_stats/QB/QB_{}.csv".format(YEAR))
     yearly = yearly.dropna()
 
     # clean up the data

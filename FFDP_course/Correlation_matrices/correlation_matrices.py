@@ -59,7 +59,7 @@ def get_top_n_player_at_each_pos(data, pos, n):
     return data.groupby("Tm", as_index=False).apply(lambda x: x.nlargest(n, [SELECTOR]).min())
 
 
-# load accumulated weekly stats
+# load accumulated weekly_stats stats
 df = dh.concat_weekly_stats(YEAR)
 
 # replace team names and positions with standard abbreviations
