@@ -30,7 +30,7 @@ if __name__ == "__main__":
         df = fp.clean_stats_te(df)
     elif POSITION == "WR":
         df = fp.clean_stats_wr(df)
-    elif POSITION == "DEF":
+    elif POSITION == "DST":
         df = fp.clean_stats_def(df)
     elif POSITION == "K":
         df = fp.clean_stats_k(df)

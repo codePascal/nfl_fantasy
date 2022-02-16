@@ -34,7 +34,7 @@ if __name__ == "__main__":
         home = fp.get_place(schedule, player_stats["team"], week)
 
         # get stats of defense
-        defense_stats = dh.read_csv_file("../data/weekly/2021/DEF/week_{}.csv".format(week))
+        defense_stats = dh.read_csv_file("../data/weekly/2021/DST/week_{}.csv".format(week))
         defense_stats = defense_stats.dropna()
         defense_stats = fp.clean_stats_def(defense_stats)
         defense_stats.set_index("team", drop=True, inplace=True)
