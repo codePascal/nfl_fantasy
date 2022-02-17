@@ -1,0 +1,33 @@
+,Rank,Player,SACK,INT,FR,FF,DEF TD,SFTY,SPC TD,G,FPTS,FPTS/G,ROST
+0,1,Buffalo Bills(BUF),1,3,1,1,1,0,1,1,21.0,21.0,95.9%
+1,2,Los Angeles Rams(LAR),4,1,0,1,1,1,0,1,20.0,20.0,74.5%
+2,3,New Orleans Saints(NO),3,5,0,0,0,0,0,1,17.0,17.0,79.3%
+3,4,Baltimore Ravens(BAL),0,2,0,0,0,0,0,1,11.0,11.0,51.9%
+4,5,Arizona Cardinals(ARI),2,1,1,1,0,0,0,1,10.0,10.0,60.9%
+5,6,Denver Broncos(DEN),3,2,2,2,0,0,0,1,10.0,10.0,48.5%
+6,7,Washington Commanders(WAS),3,2,1,0,0,0,0,1,10.0,10.0,27.5%
+7,8,Indianapolis Colts(IND),6,0,1,1,0,0,0,1,9.0,9.0,66.4%
+8,9,New York Giants(NYG),6,1,0,0,0,0,0,1,9.0,9.0,4.5%
+9,10,Philadelphia Eagles(PHI),3,2,0,0,0,0,0,1,8.0,8.0,52.5%
+10,11,New England Patriots(NE),3,2,0,0,0,0,0,1,8.0,8.0,93.2%
+11,12,Green Bay Packers(GB),1,1,1,1,0,0,0,1,6.0,6.0,60.6%
+12,13,Dallas Cowboys(DAL),2,1,1,0,0,0,0,1,6.0,6.0,82.9%
+13,14,Tampa Bay Buccaneers(TB),1,0,2,2,0,0,0,1,5.0,5.0,98.0%
+14,15,Seattle Seahawks(SEA),3,0,1,1,0,0,0,1,5.0,5.0,39.4%
+15,16,Los Angeles Chargers(LAC),1,0,1,0,0,1,0,1,5.0,5.0,44.3%
+16,17,Las Vegas Raiders(LV),2,0,0,0,0,0,0,1,5.0,5.0,7.6%
+17,18,Pittsburgh Steelers(PIT),4,0,0,0,0,0,0,1,4.0,4.0,44.6%
+18,19,Cleveland Browns(CLE),1,1,0,0,0,0,0,1,3.0,3.0,40.8%
+19,20,Tennessee Titans(TEN),4,1,0,0,0,0,0,1,2.0,2.0,48.4%
+20,21,San Francisco 49ers(SF),2,0,0,0,0,0,0,1,2.0,2.0,79.5%
+21,22,New York Jets(NYJ),3,0,0,1,0,0,0,1,2.0,2.0,3.3%
+22,23,Carolina Panthers(CAR),2,0,0,1,0,0,0,1,1.0,1.0,27.8%
+23,24,Miami Dolphins(MIA),1,2,0,0,0,0,0,1,1.0,1.0,60.2%
+24,25,Minnesota Vikings(MIN),1,1,1,0,0,0,0,1,1.0,1.0,28.0%
+25,26,Jacksonville Jaguars(JAC),0,1,0,0,0,0,0,1,1.0,1.0,6.9%
+26,27,Houston Texans(HOU),2,0,1,2,0,0,0,1,0.0,0.0,6.4%
+27,28,Atlanta Falcons(ATL),1,1,0,0,0,0,0,1,-1.0,-1.0,5.8%
+28,29,Kansas City Chiefs(KC),3,0,0,0,0,0,0,1,-1.0,-1.0,45.7%
+29,30,Detroit Lions(DET),3,0,0,2,0,0,0,1,-1.0,-1.0,1.1%
+30,31,Chicago Bears(CHI),1,0,1,0,0,0,0,1,-1.0,-1.0,35.9%
+31,32,Cincinnati Bengals(CIN),0,1,0,0,0,0,0,1,-2.0,-2.0,14.7%
