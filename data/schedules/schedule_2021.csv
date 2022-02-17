@@ -1,35 +1,33 @@
-"","1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18"
-"ARI","@ TEN","vs MIN","@ JAC","@ LAR","vs SF","@ CLE","vs HOU","vs GB","@ SF","vs CAR","@ SEA","BYE","@ CHI","vs LAR","@ DET","vs IND","@ DAL","vs SEA"
-"ATL","vs PHI","@ TB","@ NYG","vs WAS","vs NYJ","BYE","@ MIA","vs CAR","@ NO","@ DAL","vs NE","@ JAC","vs TB","@ CAR","@ SF","vs DET","@ BUF","vs NO"
-"BAL","@ LV","vs KC","@ DET","@ DEN","vs IND","vs LAC","vs CIN","BYE","vs MIN","@ MIA","@ CHI","vs CLE","@ PIT","@ CLE","vs GB","@ CIN","vs LAR","vs PIT"
-"BUF","vs PIT","@ MIA","vs WAS","vs HOU","@ KC","@ TEN","BYE","vs MIA","@ JAC","@ NYJ","vs IND","@ NO","vs NE","@ TB","vs CAR","@ NE","vs ATL","vs NYJ"
-"CAR","vs NYJ","vs NO","@ HOU","@ DAL","vs PHI","vs MIN","@ NYG","@ ATL","vs NE","@ ARI","vs WAS","@ MIA","BYE","vs ATL","@ BUF","vs TB","@ NO","@ TB"
-"CHI","@ LAR","vs CIN","@ CLE","vs DET","@ LV","vs GB","@ TB","vs SF","@ PIT","BYE","vs BAL","@ DET","vs ARI","@ GB","vs MIN","@ SEA","vs NYG","@ MIN"
-"CIN","vs MIN","@ CHI","@ PIT","vs JAC","vs GB","@ DET","@ BAL","@ NYJ","vs CLE","BYE","@ LV","vs PIT","vs LAC","vs SF","@ DEN","vs BAL","vs KC","@ CLE"
-"CLE","@ KC","vs HOU","vs CHI","@ MIN","@ LAC","vs ARI","vs DEN","vs PIT","@ CIN","@ NE","vs DET","@ BAL","BYE","vs BAL","vs LV","@ GB","@ PIT","vs CIN"
-"DAL","@ TB","@ LAC","vs PHI","vs CAR","vs NYG","@ NE","BYE","@ MIN","vs DEN","vs ATL","@ KC","vs LV","@ NO","@ WAS","@ NYG","vs WAS","vs ARI","@ PHI"
-"DEN","@ NYG","@ JAC","vs NYJ","vs BAL","@ PIT","vs LV","@ CLE","vs WAS","@ DAL","vs PHI","BYE","vs LAC","@ KC","vs DET","vs CIN","@ LV","@ LAC","vs KC"
-"DET","vs SF","@ GB","vs BAL","@ CHI","@ MIN","vs CIN","@ LAR","vs PHI","BYE","@ PIT","@ CLE","vs CHI","vs MIN","@ DEN","vs ARI","@ ATL","@ SEA","vs GB"
-"GB","@ NO","vs DET","@ SF","vs PIT","@ CIN","@ CHI","vs WAS","@ ARI","@ KC","vs SEA","@ MIN","vs LAR","BYE","vs CHI","@ BAL","vs CLE","vs MIN","@ DET"
-"HOU","vs JAC","@ CLE","vs CAR","@ BUF","vs NE","@ IND","@ ARI","vs LAR","@ MIA","BYE","@ TEN","vs NYJ","vs IND","vs SEA","@ JAC","vs LAC","@ SF","vs TEN"
-"IND","vs SEA","vs LAR","@ TEN","@ MIA","@ BAL","vs HOU","@ SF","vs TEN","vs NYJ","vs JAC","@ BUF","vs TB","@ HOU","BYE","vs NE","@ ARI","vs LV","@ JAC"
-"JAC","@ HOU","vs DEN","vs ARI","@ CIN","vs TEN","vs MIA","BYE","@ SEA","vs BUF","@ IND","vs SF","vs ATL","@ LAR","@ TEN","vs HOU","@ NYJ","@ NE","vs IND"
-"KC","vs CLE","@ BAL","vs LAC","@ PHI","vs BUF","@ WAS","@ TEN","vs NYG","vs GB","@ LV","vs DAL","BYE","vs DEN","vs LV","@ LAC","vs PIT","@ CIN","@ DEN"
-"MIA","@ NE","vs BUF","@ LV","vs IND","@ TB","@ JAC","vs ATL","@ BUF","vs HOU","vs BAL","@ NYJ","vs CAR","vs NYG","BYE","vs NYJ","@ NO","@ TEN","vs NE"
-"MIN","@ CIN","@ ARI","vs SEA","vs CLE","vs DET","@ CAR","BYE","vs DAL","@ BAL","@ LAC","vs GB","@ SF","@ DET","vs PIT","@ CHI","vs LAR","@ GB","vs CHI"
-"NE","vs MIA","@ NYJ","vs NO","vs TB","@ HOU","vs DAL","vs NYJ","@ LAC","@ CAR","vs CLE","@ ATL","vs TEN","@ BUF","BYE","@ IND","vs BUF","vs JAC","@ MIA"
-"NO","vs GB","@ CAR","@ NE","vs NYG","@ WAS","BYE","@ SEA","vs TB","vs ATL","@ TEN","@ PHI","vs BUF","vs DAL","@ NYJ","@ TB","vs MIA","vs CAR","@ ATL"
-"NYG","vs DEN","@ WAS","vs ATL","@ NO","@ DAL","vs LAR","vs CAR","@ KC","vs LV","BYE","@ TB","vs PHI","@ MIA","@ LAC","vs DAL","@ PHI","@ CHI","vs WAS"
-"NYJ","@ CAR","vs NE","@ DEN","vs TEN","@ ATL","BYE","@ NE","vs CIN","@ IND","vs BUF","vs MIA","@ HOU","vs PHI","vs NO","@ MIA","vs JAC","vs TB","@ BUF"
-"LV","vs BAL","@ PIT","vs MIA","@ LAC","vs CHI","@ DEN","vs PHI","BYE","@ NYG","vs KC","vs CIN","@ DAL","vs WAS","@ KC","@ CLE","vs DEN","@ IND","vs LAC"
-"PHI","@ ATL","vs SF","@ DAL","vs KC","@ CAR","vs TB","@ LV","@ DET","vs LAC","@ DEN","vs NO","@ NYG","@ NYJ","BYE","vs WAS","vs NYG","@ WAS","vs DAL"
-"PIT","@ BUF","vs LV","vs CIN","@ GB","vs DEN","vs SEA","BYE","@ CLE","vs CHI","vs DET","@ LAC","@ CIN","vs BAL","@ MIN","vs TEN","@ KC","vs CLE","@ BAL"
-"LAC","@ WAS","vs DAL","@ KC","vs LV","vs CLE","@ BAL","BYE","vs NE","@ PHI","vs MIN","vs PIT","@ DEN","@ CIN","vs NYG","vs KC","@ HOU","vs DEN","@ LV"
-"SEA","@ IND","vs TEN","@ MIN","@ SF","vs LAR","@ PIT","vs NO","vs JAC","BYE","@ GB","vs ARI","@ WAS","vs SF","@ HOU","@ LAR","vs CHI","vs DET","@ ARI"
-"SF","@ DET","@ PHI","vs GB","vs SEA","@ ARI","BYE","vs IND","@ CHI","vs ARI","vs LAR","@ JAC","vs MIN","@ SEA","@ CIN","vs ATL","@ TEN","vs HOU","@ LAR"
-"LAR","vs CHI","@ IND","vs TB","vs ARI","@ SEA","@ NYG","vs DET","@ HOU","vs TEN","@ SF","BYE","@ GB","vs JAC","@ ARI","vs SEA","@ MIN","@ BAL","vs SF"
-"TB","vs DAL","vs ATL","@ LAR","@ NE","vs MIA","@ PHI","vs CHI","@ NO","BYE","@ WAS","vs NYG","@ IND","@ ATL","vs BUF","vs NO","@ CAR","@ NYJ","vs CAR"
-"TEN","vs ARI","@ SEA","vs IND","@ NYJ","@ JAC","vs BUF","vs KC","@ IND","@ LAR","vs NO","vs HOU","@ NE","BYE","vs JAC","@ PIT","vs SF","vs MIA","@ HOU"
-"WAS","vs LAC","vs NYG","@ BUF","@ ATL","vs NO","vs KC","@ GB","@ DEN","BYE","vs TB","@ CAR","vs SEA","@ LV","vs DAL","@ PHI","@ DAL","vs PHI","@ NYG"
-""
-""
+,,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18
+0,ARI,@TEN,vsMIN,@JAC,@LAR,vsSF,@CLE,vsHOU,vsGB,@SF,vsCAR,@SEA,BYE,@CHI,vsLAR,@DET,vsIND,@DAL,vsSEA
+1,ATL,vsPHI,@TB,@NYG,vsWAS,vsNYJ,BYE,@MIA,vsCAR,@NO,@DAL,vsNE,@JAC,vsTB,@CAR,@SF,vsDET,@BUF,vsNO
+2,BAL,@LV,vsKC,@DET,@DEN,vsIND,vsLAC,vsCIN,BYE,vsMIN,@MIA,@CHI,vsCLE,@PIT,@CLE,vsGB,@CIN,vsLAR,vsPIT
+3,BUF,vsPIT,@MIA,vsWAS,vsHOU,@KC,@TEN,BYE,vsMIA,@JAC,@NYJ,vsIND,@NO,vsNE,@TB,vsCAR,@NE,vsATL,vsNYJ
+4,CAR,vsNYJ,vsNO,@HOU,@DAL,vsPHI,vsMIN,@NYG,@ATL,vsNE,@ARI,vsWAS,@MIA,BYE,vsATL,@BUF,vsTB,@NO,@TB
+5,CHI,@LAR,vsCIN,@CLE,vsDET,@LV,vsGB,@TB,vsSF,@PIT,BYE,vsBAL,@DET,vsARI,@GB,vsMIN,@SEA,vsNYG,@MIN
+6,CIN,vsMIN,@CHI,@PIT,vsJAC,vsGB,@DET,@BAL,@NYJ,vsCLE,BYE,@LV,vsPIT,vsLAC,vsSF,@DEN,vsBAL,vsKC,@CLE
+7,CLE,@KC,vsHOU,vsCHI,@MIN,@LAC,vsARI,vsDEN,vsPIT,@CIN,@NE,vsDET,@BAL,BYE,vsBAL,vsLV,@GB,@PIT,vsCIN
+8,DAL,@TB,@LAC,vsPHI,vsCAR,vsNYG,@NE,BYE,@MIN,vsDEN,vsATL,@KC,vsLV,@NO,@WAS,@NYG,vsWAS,vsARI,@PHI
+9,DEN,@NYG,@JAC,vsNYJ,vsBAL,@PIT,vsLV,@CLE,vsWAS,@DAL,vsPHI,BYE,vsLAC,@KC,vsDET,vsCIN,@LV,@LAC,vsKC
+10,DET,vsSF,@GB,vsBAL,@CHI,@MIN,vsCIN,@LAR,vsPHI,BYE,@PIT,@CLE,vsCHI,vsMIN,@DEN,vsARI,@ATL,@SEA,vsGB
+11,GB,@NO,vsDET,@SF,vsPIT,@CIN,@CHI,vsWAS,@ARI,@KC,vsSEA,@MIN,vsLAR,BYE,vsCHI,@BAL,vsCLE,vsMIN,@DET
+12,HOU,vsJAC,@CLE,vsCAR,@BUF,vsNE,@IND,@ARI,vsLAR,@MIA,BYE,@TEN,vsNYJ,vsIND,vsSEA,@JAC,vsLAC,@SF,vsTEN
+13,IND,vsSEA,vsLAR,@TEN,@MIA,@BAL,vsHOU,@SF,vsTEN,vsNYJ,vsJAC,@BUF,vsTB,@HOU,BYE,vsNE,@ARI,vsLV,@JAC
+14,JAC,@HOU,vsDEN,vsARI,@CIN,vsTEN,vsMIA,BYE,@SEA,vsBUF,@IND,vsSF,vsATL,@LAR,@TEN,vsHOU,@NYJ,@NE,vsIND
+15,KC,vsCLE,@BAL,vsLAC,@PHI,vsBUF,@WAS,@TEN,vsNYG,vsGB,@LV,vsDAL,BYE,vsDEN,vsLV,@LAC,vsPIT,@CIN,@DEN
+16,MIA,@NE,vsBUF,@LV,vsIND,@TB,@JAC,vsATL,@BUF,vsHOU,vsBAL,@NYJ,vsCAR,vsNYG,BYE,vsNYJ,@NO,@TEN,vsNE
+17,MIN,@CIN,@ARI,vsSEA,vsCLE,vsDET,@CAR,BYE,vsDAL,@BAL,@LAC,vsGB,@SF,@DET,vsPIT,@CHI,vsLAR,@GB,vsCHI
+18,NE,vsMIA,@NYJ,vsNO,vsTB,@HOU,vsDAL,vsNYJ,@LAC,@CAR,vsCLE,@ATL,vsTEN,@BUF,BYE,@IND,vsBUF,vsJAC,@MIA
+19,NO,vsGB,@CAR,@NE,vsNYG,@WAS,BYE,@SEA,vsTB,vsATL,@TEN,@PHI,vsBUF,vsDAL,@NYJ,@TB,vsMIA,vsCAR,@ATL
+20,NYG,vsDEN,@WAS,vsATL,@NO,@DAL,vsLAR,vsCAR,@KC,vsLV,BYE,@TB,vsPHI,@MIA,@LAC,vsDAL,@PHI,@CHI,vsWAS
+21,NYJ,@CAR,vsNE,@DEN,vsTEN,@ATL,BYE,@NE,vsCIN,@IND,vsBUF,vsMIA,@HOU,vsPHI,vsNO,@MIA,vsJAC,vsTB,@BUF
+22,LV,vsBAL,@PIT,vsMIA,@LAC,vsCHI,@DEN,vsPHI,BYE,@NYG,vsKC,vsCIN,@DAL,vsWAS,@KC,@CLE,vsDEN,@IND,vsLAC
+23,PHI,@ATL,vsSF,@DAL,vsKC,@CAR,vsTB,@LV,@DET,vsLAC,@DEN,vsNO,@NYG,@NYJ,BYE,vsWAS,vsNYG,@WAS,vsDAL
+24,PIT,@BUF,vsLV,vsCIN,@GB,vsDEN,vsSEA,BYE,@CLE,vsCHI,vsDET,@LAC,@CIN,vsBAL,@MIN,vsTEN,@KC,vsCLE,@BAL
+25,LAC,@WAS,vsDAL,@KC,vsLV,vsCLE,@BAL,BYE,vsNE,@PHI,vsMIN,vsPIT,@DEN,@CIN,vsNYG,vsKC,@HOU,vsDEN,@LV
+26,SEA,@IND,vsTEN,@MIN,@SF,vsLAR,@PIT,vsNO,vsJAC,BYE,@GB,vsARI,@WAS,vsSF,@HOU,@LAR,vsCHI,vsDET,@ARI
+27,SF,@DET,@PHI,vsGB,vsSEA,@ARI,BYE,vsIND,@CHI,vsARI,vsLAR,@JAC,vsMIN,@SEA,@CIN,vsATL,@TEN,vsHOU,@LAR
+28,LAR,vsCHI,@IND,vsTB,vsARI,@SEA,@NYG,vsDET,@HOU,vsTEN,@SF,BYE,@GB,vsJAC,@ARI,vsSEA,@MIN,@BAL,vsSF
+29,TB,vsDAL,vsATL,@LAR,@NE,vsMIA,@PHI,vsCHI,@NO,BYE,@WAS,vsNYG,@IND,@ATL,vsBUF,vsNO,@CAR,@NYJ,vsCAR
+30,TEN,vsARI,@SEA,vsIND,@NYJ,@JAC,vsBUF,vsKC,@IND,@LAR,vsNO,vsHOU,@NE,BYE,vsJAC,@PIT,vsSF,vsMIA,@HOU
+31,WAS,vsLAC,vsNYG,@BUF,@ATL,vsNO,vsKC,@GB,@DEN,BYE,vsTB,@CAR,vsSEA,@LV,vsDAL,@PHI,@DAL,vsPHI,@NYG
