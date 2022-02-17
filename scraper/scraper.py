@@ -14,9 +14,9 @@ def get_html_content(url):
     # observe HTML output -> https://webformatter.com/html
     # print(req.text)
 
-    # get table data
+    # get table raw
     soup = bs4.BeautifulSoup(req.content, "html.parser")
-    table = soup.find(id="data")
+    table = soup.find(id="raw")
     data = get_table_data(table)
 
     # return as pandas DataFrame

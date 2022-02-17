@@ -17,7 +17,7 @@ if __name__ == "__main__":
     # get table
     df = scp.get_html_content(scp.get_url_schedule(args.year))
 
-    # store data
-    if not os.path.exists(os.path.join(os.getcwd(), f"../data/schedules")):
-        os.makedirs(os.path.join(os.getcwd(), f"../data/schedules"))
-    df.to_csv(f"../data/schedules/schedule_{args.year}.csv")
+    # store raw
+    if not os.path.exists(os.path.join(os.getcwd(), f"../raw/schedules")):
+        os.makedirs(os.path.join(os.getcwd(), f"../raw/schedules"))
+    df.to_csv(f"../raw/schedules/schedule_{args.year}.csv")

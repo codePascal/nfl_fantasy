@@ -12,7 +12,7 @@ if __name__ == "__main__":
     player = "Kyler Murray"
 
     # yearly_stats schedule
-    schedule = dh.read_csv_file("../data/schedules/schedule_2021.csv")
+    schedule = dh.read_csv_file("../raw/schedules/schedule_2021.csv")
     schedule = schedule.dropna()
     schedule = fp.clean_schedule(schedule)
 
@@ -21,7 +21,7 @@ if __name__ == "__main__":
     y_data = pd.Series(dtype=float)
     for week in range(1, 8):
         # get player statistics of defined week
-        player_stats = dh.read_csv_file("../data/weekly_stats/2021/QB/week_{}.csv".format(week))
+        player_stats = dh.read_csv_file("../raw/weekly_stats/2021/QB/week_{}.csv".format(week))
         player_stats = player_stats.dropna()
         player_stats = fp.clean_stats_qb(player_stats)
 
@@ -34,7 +34,7 @@ if __name__ == "__main__":
         home = fp.get_place(schedule, player_stats["team"], week)
 
         # get stats of defense
-        defense_stats = dh.read_csv_file("../data/weekly_stats/2021/DST/week_{}.csv".format(week))
+        defense_stats = dh.read_csv_file("../raw/weekly_stats/2021/DST/week_{}.csv".format(week))
         defense_stats = defense_stats.dropna()
         defense_stats = fp.clean_stats_def(defense_stats)
         defense_stats.set_index("team", drop=True, inplace=True)

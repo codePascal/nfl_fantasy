@@ -18,7 +18,7 @@ if __name__ == "__main__":
     # get table
     df = scp.get_html_content(scp.get_url_projections(args.position, args.week))
 
-    # store data
-    if not os.path.exists(os.path.join(os.getcwd(), f"../data/projections/{args.position.upper()}")):
-        os.makedirs(os.path.join(os.getcwd(), f"../data/projections/{args.position.upper()}"))
-    df.to_csv(f"../data/projections/{args.position.upper()}/week_{args.week}.csv")
+    # store raw
+    if not os.path.exists(os.path.join(os.getcwd(), f"../raw/projections/{args.position.upper()}")):
+        os.makedirs(os.path.join(os.getcwd(), f"../raw/projections/{args.position.upper()}"))
+    df.to_csv(f"../raw/projections/{args.position.upper()}/week_{args.week}.csv")

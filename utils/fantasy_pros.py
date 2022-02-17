@@ -1,6 +1,6 @@
 """
-Implements functions specifically designed for the data presented by
-FANTASYPROS. It is assumed that the data is ordered regarding fantasy
+Implements functions specifically designed for the raw presented by
+FANTASYPROS. It is assumed that the raw is ordered regarding fantasy
 points made during a season (FPTS).
 """
 import numpy as np
@@ -163,7 +163,7 @@ def concat_weekly_offensive_stats(year, weeks):
 
     for position in ["QB", "RB", "WR", "TE", "K"]:
         for week in range(1, weeks + 1):
-            df = pd.read_csv(f"../data/weekly_stats/{year}/{position}/week_{week}.csv")
+            df = pd.read_csv(f"../raw/weekly_stats/{year}/{position}/week_{week}.csv")
             df = clean_stats(df, position)
             df["week"] = week
             df["position"] = position
@@ -191,7 +191,7 @@ def concat_weekly_snapcounts(year, weeks):
     snapcount_stats = pd.DataFrame()
 
     for week in range(1, weeks + 1):
-        df = pd.read_csv(f"../data/weekly_snapcounts/{year}/week_{week}.csv")
+        df = pd.read_csv(f"../raw/weekly_snapcounts/{year}/week_{week}.csv")
         df = clean_snapcount_analysis(df)
         df["week"] = week
         snapcount_stats = pd.concat([snapcount_stats, df])
@@ -205,11 +205,11 @@ def clean_stats(df, position):
     Clean the stats found here:
     https://www.fantasypros.com/nfl/stats/
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
     :param position: position to clean
     :type position: str
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # drop unnamed column
@@ -235,9 +235,9 @@ def clean_stats_dst(df):
     Cleans the defensive statistics found here:
     https://www.fantasypros.com/nfl/stats/dst.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner
@@ -259,9 +259,9 @@ def clean_stats_k(df):
     Cleans the kicker statistics found here:
     https://www.fantasypros.com/nfl/stats/k.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner
@@ -283,9 +283,9 @@ def clean_stats_qb(df):
     Cleans the QB statistics found here:
     https://www.fantasypros.com/nfl/stats/qb.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner
@@ -309,9 +309,9 @@ def clean_stats_rb(df):
     Cleans the RB statistics found here:
     https://www.fantasypros.com/nfl/stats/rb.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner
@@ -335,9 +335,9 @@ def clean_stats_te(df):
     Cleans the TE statistics found here:
     https://www.fantasypros.com/nfl/stats/te.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner
@@ -361,9 +361,9 @@ def clean_stats_wr(df):
     Cleans the WR statistics found here:
     https://www.fantasypros.com/nfl/stats/wr.php
 
-    :param df: data loaded from csv
+    :param df: raw loaded from csv
     :type df: pandas.DataFrame
-    :return: cleaned data
+    :return: cleaned raw
     :rtype: pandas.DataFrame
     """
     # rename column names in a more descriptive manner

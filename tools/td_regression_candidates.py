@@ -1,6 +1,8 @@
 """
 Evaluates the TD regression candidates for a given position regarding
-the mean.
+the mean. A high or low touchdown total is not predictive for future
+performance as these players will often regress towards the mean or
+average the following year.
 
 Play-by-play source season 2009-2018:
     https://www.kaggle.com/maxhorowitz/nflplaybyplay2009to2016?select=NFL+Play+by+Play+2009-2018+%28v5%29.csv
@@ -31,10 +33,10 @@ def fix_player_names(name):
 
 if __name__ == "__main__":
     # calculate probability of scoring a touchdown depending on
-    # distance to endzone based on historical play-by-play data
+    # distance to endzone based on historical play-by-play raw
     if not PREPROCESSED_BASIS:
         # load in single chunks
-        chunks = pd.read_csv("../data/play-by-play/pbp_2009to2018.csv", iterator=True, low_memory=False,
+        chunks = pd.read_csv("../raw/play-by-play/pbp_2009to2018.csv", iterator=True, low_memory=False,
                              chunksize=10000)
 
         # concat to dataframe
@@ -63,10 +65,10 @@ if __name__ == "__main__":
         df_prob = df_prob.loc[(df_prob["touchdown"] == 1)]
         df_prob = df_prob.drop("touchdown", axis=1)
 
-        # save preprocessed probability data
+        # save preprocessed probability raw
         df_prob.to_csv(f"../preprocessed/td_regression/preprocessed_probability_{PLAY}.csv", index=False)
     else:
-        # load preprocessed probability data
+        # load preprocessed probability raw
         df_prob = pd.read_csv(f"../preprocessed/td_regression/preprocessed_probability_{PLAY}.csv")
 
     # plot probability of scoring a touchdown
@@ -74,8 +76,8 @@ if __name__ == "__main__":
     plt.savefig(f"../plots/td_regression_candidates/touchdown_probability_{PLAY}.png")
 
     if not PREPROCESSED_EST:
-        # load 2019 play-by-play data
-        chunks = pd.read_csv("../data/play-by-play/play_by_play_2019.csv", iterator=True, low_memory=False, chunksize=10000,
+        # load 2019 play-by-play raw
+        chunks = pd.read_csv("../raw/play-by-play/play_by_play_2019.csv", iterator=True, low_memory=False, chunksize=10000,
                              index_col=0)
         df = pd.DataFrame()
         for chunk in chunks:
@@ -94,10 +96,10 @@ if __name__ == "__main__":
         # rename features
         df_train = df_train.rename(columns={df_train.columns[0]: "player", "posteam": "team"})
 
-        # save preprocessed training data
+        # save preprocessed training raw
         df_train.to_csv(f"../preprocessed/td_regression/preprocessed_training_{PLAY}.csv", index=False)
     else:
-        # load preprocessed training data
+        # load preprocessed training raw
         df_train = pd.read_csv(f"../preprocessed/td_regression/preprocessed_training_{PLAY}.csv")
 
     # join probability with training
@@ -113,7 +115,7 @@ if __name__ == "__main__":
 
     if not PREPROCESSED_ACTUAL:
         # load final stats
-        chunks = pd.read_csv(f"../data/yearly_stats/{POSITION}/{POSITION}_2019.csv", iterator=True, low_memory=False,
+        chunks = pd.read_csv(f"../raw/yearly_stats/{POSITION}/{POSITION}_2019.csv", iterator=True, low_memory=False,
                              chunksize=10000)
         df = pd.DataFrame()
         for chunk in chunks:
@@ -137,12 +139,12 @@ if __name__ == "__main__":
         # clean up player names
         df_actual["player"] = df_actual["player"].apply(fix_player_names)
 
-        # save preprocessed player data
+        # save preprocessed player raw
         df_actual.to_csv(f"../preprocessed/td_regression/preprocessed_actual_{PLAY}_{POSITION}.csv", index=False)
     else:
         df_actual = pd.read_csv(f"../preprocessed/td_regression/preprocessed_actual_{PLAY}_{POSITION}.csv")
 
-    # merge data and drop position
+    # merge raw and drop position
     data = df_actual.merge(data, how="left", on=["player", "team"]).dropna()
 
     # rename features and calculate rank of actual touchdowns

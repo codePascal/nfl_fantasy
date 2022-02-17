@@ -18,12 +18,12 @@ if __name__ == "__main__":
     # get table
     df = scp.get_html_content(scp.get_url_stats(args.year, args.position, args.week))
 
-    # store data
+    # store raw
     if args.week is not None:
-        if not os.path.exists(os.path.join(os.getcwd(), f"../data/weekly_stats/{args.year}/{args.position.upper()}")):
-            os.makedirs(os.path.join(os.getcwd(), f"../data/weekly_stats/{args.year}/{args.position.upper()}"))
-        df.to_csv(f"../data/weekly_stats/{args.year}/{args.position.upper()}/week_{args.week}.csv")
+        if not os.path.exists(os.path.join(os.getcwd(), f"../raw/weekly_stats/{args.year}/{args.position.upper()}")):
+            os.makedirs(os.path.join(os.getcwd(), f"../raw/weekly_stats/{args.year}/{args.position.upper()}"))
+        df.to_csv(f"../raw/weekly_stats/{args.year}/{args.position.upper()}/week_{args.week}.csv")
     else:
-        if not os.path.exists(os.path.join(os.getcwd(), f"../data/yearly_stats/{args.position.upper()}")):
-            os.makedirs(os.path.join(os.getcwd(), f"../data/yearly_stats/{args.position.upper()}"))
-        df.to_csv(f"../data/yearly_stats/{args.position.upper()}/{args.position.upper()}_{args.year}.csv")
+        if not os.path.exists(os.path.join(os.getcwd(), f"../raw/yearly_stats/{args.position.upper()}")):
+            os.makedirs(os.path.join(os.getcwd(), f"../raw/yearly_stats/{args.position.upper()}"))
+        df.to_csv(f"../raw/yearly_stats/{args.position.upper()}/{args.position.upper()}_{args.year}.csv")

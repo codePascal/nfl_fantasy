@@ -17,11 +17,11 @@ POSITION = "K"
 YEAR = 2021
 
 if __name__ == "__main__":
-    # get yearly_stats data
-    df = dh.read_csv_file("../data/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
+    # get yearly_stats raw
+    df = dh.read_csv_file("../raw/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
     df = df.dropna()
 
-    # clean data
+    # clean raw
     df = fp.clean_stats(df, POSITION)
 
     # drop unnecessary columns

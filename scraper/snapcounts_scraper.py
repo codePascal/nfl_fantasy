@@ -18,12 +18,12 @@ if __name__ == "__main__":
     # get table
     df = scp.get_html_content(scp.get_url_snapcounts(args.year, args.week))
 
-    # store data
+    # store raw
     if args.week is not None:
-        if not os.path.exists(os.path.join(os.getcwd(), f"../data/weekly_snapcounts/{args.year}")):
-            os.makedirs(os.path.join(os.getcwd(), f"../data/weekly_snapcounts/{args.year}"))
-        df.to_csv(f"../data/weekly_snapcounts/{args.year}/week_{args.week}.csv")
+        if not os.path.exists(os.path.join(os.getcwd(), f"../raw/weekly_snapcounts/{args.year}")):
+            os.makedirs(os.path.join(os.getcwd(), f"../raw/weekly_snapcounts/{args.year}"))
+        df.to_csv(f"../raw/weekly_snapcounts/{args.year}/week_{args.week}.csv")
     else:
-        if not os.path.exists(os.path.join(os.getcwd(), f"../data/yearly_snapcounts")):
-            os.makedirs(os.path.join(os.getcwd(), f"../data/yearly_snapcounts"))
-        df.to_csv(f"../data/yearly_snapcounts/snapcounts_{args.year}.csv")
+        if not os.path.exists(os.path.join(os.getcwd(), f"../raw/yearly_snapcounts")):
+            os.makedirs(os.path.join(os.getcwd(), f"../raw/yearly_snapcounts"))
+        df.to_csv(f"../raw/yearly_snapcounts/snapcounts_{args.year}.csv")

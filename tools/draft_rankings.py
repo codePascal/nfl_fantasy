@@ -55,7 +55,7 @@ def assign_tiers(labels):
 
 
 # load ECR for draft
-df = pd.read_csv("../data/ECR/ecr_2022.csv", index_col=0)
+df = pd.read_csv("../raw/ECR/ecr_2022.csv", index_col=0)
 df.reset_index(inplace=True)
 
 # make plot for each position only
