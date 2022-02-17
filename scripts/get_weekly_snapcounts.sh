@@ -16,5 +16,5 @@ fi
 
 for ((i = 1; i <= $2; i++))
   do
-    python ../scraper/snapcounts_scraper.py $1 $i
+    python ../scraper/snapcounts_scraper.py $1 --week $i
 done
