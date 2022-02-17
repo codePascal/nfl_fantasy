@@ -443,6 +443,9 @@ def clean_schedule(df):
     :return: clean schedule
     :rtype: pandas.DataFrame
     """
+    # drop unnamed column
+    df.drop(df.columns[0], axis=1, inplace=True)
+
     # prepare schedule first
     df.columns = ["team"] + [str(i) for i in range(1, df.shape[1])]
     df.set_index("team", drop=True, inplace=True)
@@ -473,7 +476,10 @@ def get_opponent(game):
     """
     if game == "BYE":
         return game
-    return game.split()[1]
+    elif game.startswith("@"):
+        return game[1:]
+    elif game.startswith("vs"):
+        return game[2:]
 
 
 def get_location(game):
