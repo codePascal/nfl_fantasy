@@ -45,6 +45,10 @@ def get_url_projections(position, week):
     return f"https://www.fantasypros.com/nfl/projections/{position}.php?week={week}"
 
 
+def get_url_schedule(year):
+    return f"https://www.fantasypros.com/nfl/schedule/grid.php?year={year}"
+
+
 def get_url_snapcounts(year, week=None):
     if week is None:
         return f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?year={year}&snaps=0&range=full"
