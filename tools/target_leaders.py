@@ -6,6 +6,7 @@ is an opportunity to accumulate a reception, receiving yards or a
 touchdown
 """
 import matplotlib.pyplot as plt
+import matplotlib.patches as mp
 import numpy as np
 import pandas as pd
 
@@ -94,15 +95,27 @@ if __name__ == "__main__":
         df_pos = df.loc[(df["position"] == position)]
         df_pos = df_pos.sort_values(by="total_receiving_tgt", ascending=False)
         df_pos["rank"] = df_pos["total_receiving_tgt"].rank(ascending=False)
-        df_pos = df_pos.loc[df_pos["rank"] < 50]
+        df_pos = df_pos.loc[df_pos["rank"] < 40]
 
-        # select only weeks to plot
+        # split into single weeks and averages per game
         df_pos.set_index("player", drop=True, inplace=True)
-        df_pos = df_pos.loc[:, [f"week_{i}" for i in weeks]]
+        df_weeks = df_pos.loc[:, [f"week_{i}" for i in weeks]]
+        df_avgs = df_pos.loc[:, "receiving_tgt_per_game"]
 
-        # plot horizontal barplot
-        ax = df_pos.plot.barh(stacked=True, legend=False, figsize=(10, 30))
-        plt.title(f"Receiving targets per game - Top {position}")
-        plt.xlabel("total receiving targets")
+        # plot stacked horizontal bar plot
+        cmap = plt.colormaps["tab20c"]
+        colors_dict = dict(zip(range(1, len(weeks) + 1), cmap([i for i in range(len(weeks))])))
+        df_weeks.plot.barh(stacked=True, legend=False, figsize=(10, 20), color=cmap([i for i in range(len(weeks))]))
+
+        # patches
+        patches = list()
+        for week, color in colors_dict.items():
+            patch = mp.Patch(color=color, label=f"week {week}")
+            patches.append(patch)
+
+        # setup axis
+        plt.legend(handles=patches, borderpad=1, fontsize=8)
+        plt.title(f"Receiving targets - Top {position}")
+        plt.xlabel("received targets")
         plt.tight_layout()
-        plt.savefig(f"../plots/target_leaders/target_leaders_{position}_{year}.png")
+        plt.savefig(f"../reports/target_leaders/target_leaders_{position}_{year}.png")
