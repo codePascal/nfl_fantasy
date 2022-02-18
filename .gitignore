@@ -131,5 +131,6 @@ dmypy.json
 # PyCharm
 .idea/
 
-# Project specifics -> play-by-play data
-data/play-by-play
+# Project specifics -> play-by-play raw
+raw/play-by-play
+preprocessed/play-by-play
