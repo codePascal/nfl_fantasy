@@ -1,0 +1,57 @@
+RK,TIERS,PLAYER NAME,TEAM,POS,BEST,WORST,AVG.,STD.DEV
+10,1,Cooper Kupp,LAR,WR1,10,11,10.4,0.5
+11,1,Ja'Marr Chase,CIN,WR2,10,15,12.4,1.9
+13,1,Justin Jefferson,MIN,WR3,11,15,13.4,1.4
+14,1,Davante Adams,GB,WR4,11,21,14.1,3.0
+15,1,Deebo Samuel,SF,WR5,13,23,15.7,2.6
+20,1,Tyreek Hill,KC,WR6,16,21,20.1,1.9
+22,1,Stefon Diggs,BUF,WR7,23,24,23.2,0.4
+23,1,A.J. Brown,TEN,WR8,21,29,24.4,1.8
+24,1,CeeDee Lamb,DAL,WR9,24,29,26.6,2.3
+28,2,Michael Thomas,NO,WR10,25,37,30.7,2.9
+29,2,D.K. Metcalf,SEA,WR11,25,41,31.2,4.4
+30,2,DeAndre Hopkins,ARI,WR12,30,39,32.8,2.3
+32,2,Diontae Johnson,PIT,WR13,30,37,34.0,2.1
+33,2,Mike Evans,TB,WR14,30,37,34.5,2.5
+36,2,Jaylen Waddle,MIA,WR15,30,41,36.3,3.4
+38,2,Keenan Allen,LAC,WR16,30,45,36.8,4.4
+39,2,Tee Higgins,CIN,WR17,35,43,37.5,3.0
+41,2,Tyler Lockett,SEA,WR18,37,45,40.6,2.8
+42,2,Chris Godwin,TB,WR19,37,58,44.4,5.8
+44,2,Elijah Moore,NYJ,WR20,41,55,46.6,4.7
+48,3,DJ Moore,CAR,WR21,41,67,52.7,7.8
+50,3,Amari Cooper,DAL,WR22,48,65,54.2,5.1
+54,3,Brandin Cooks,HOU,WR23,48,73,56.1,9.3
+57,3,Michael Pittman Jr.,IND,WR24,45,74,57.2,10.4
+58,3,Terry McLaurin,WAS,WR25,50,65,57.8,6.5
+59,3,Calvin Ridley,ATL,WR26,52,75,58.4,8.3
+61,3,Hunter Renfrow,LV,WR27,50,72,61.2,7.3
+62,3,DeVonta Smith,PHI,WR28,49,72,62.4,6.0
+64,3,Adam Thielen,MIN,WR29,49,81,64.7,8.5
+69,4,Odell Beckham Jr.,LAR,WR30,62,75,69.9,4.5
+71,4,Amon-Ra St. Brown,DET,WR31,48,101,73.5,17.8
+73,4,Robert Woods,LAR,WR32,65,82,74.6,4.8
+74,4,Brandon Aiyuk,SF,WR33,72,81,75.9,2.9
+76,4,Darnell Mooney,CHI,WR34,73,82,77.5,2.9
+77,4,Mike Williams,LAC,WR35,67,88,77.8,5.6
+80,4,Chase Claypool,PIT,WR36,73,97,81.2,8.5
+81,4,Marquise Brown,BAL,WR37,67,88,82.7,6.7
+85,5,Jerry Jeudy,DEN,WR38,79,99,88.5,6.5
+86,5,Gabriel Davis,BUF,WR39,64,124,88.6,21.1
+92,5,Allen Robinson II,CHI,WR40,81,107,94.9,7.9
+93,5,Van Jefferson,LAR,WR41,90,102,95.0,4.1
+94,5,D.J. Chark Jr.,JAC,WR42,86,111,97.1,8.5
+95,5,Courtland Sutton,DEN,WR43,88,107,97.5,6.0
+101,6,DeVante Parker,MIA,WR44,101,122,106.0,6.4
+106,6,Michael Gallup,DAL,WR45,90,138,112.0,15.6
+111,6,Rashod Bateman,BAL,WR46,96,129,114.2,9.7
+114,6,Christian Kirk,ARI,WR47,90,147,116.1,16.3
+116,6,Corey Davis,NYJ,WR48,101,141,117.2,12.7
+117,6,Jarvis Landry,CLE,WR49,102,129,117.8,8.5
+122,7,Kadarius Toney,NYG,WR50,107,151,122.6,14.1
+125,7,Tyler Boyd,CIN,WR51,99,151,126.0,18.0
+127,7,Jakobi Meyers,NE,WR52,109,148,127.7,14.2
+132,7,Russell Gage,ATL,WR53,101,157,134.6,14.7
+133,7,JuJu Smith-Schuster,PIT,WR54,97,155,135.6,19.8
+139,8,Jameson Williams,FA,WR55,48,242,142.2,57.0
+143,8,Sterling Shepard,NYG,WR56,128,174,150.6,13.3
