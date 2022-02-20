@@ -11,14 +11,16 @@ from bs4 import BeautifulSoup as BS
 
 URL = 'https://www.fantasyfootballdatapros.com/table'
 
-req = requests.get(URL)
 
-if req.ok:
-    print('Response was OK!')
+if __name__ == "__main__":
+    req = requests.get(URL)
 
-    soup = BS(req.content, "html.parser")
-    table = soup.find("table")
+    if req.ok:
+        print('Response was OK!')
 
-    df = pd.read_html(str(table))[0]
-    df = df.iloc[:, 1:]
-    print(df)
+        soup = BS(req.content, "html.parser")
+        table = soup.find("table")
+
+        df = pd.read_html(str(table))[0]
+        df = df.iloc[:, 1:]
+        print(df)

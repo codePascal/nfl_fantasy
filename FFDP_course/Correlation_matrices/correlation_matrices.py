@@ -18,8 +18,6 @@ import numpy as np
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-import utils.data_handling as dh
-
 sns.set_style("whitegrid")
 
 # YEAR year to analyse
@@ -41,6 +39,26 @@ positions = ["QB", "RB", "WR", "TE"]
 # features to select for overall stats
 features = ["Player", "Tm", "Pos", "Week", SELECTOR]
 
+team_name_map = {
+    "TAM": "TB",
+    "KAN": "KC",
+    "LAR": "LA",
+    "NOR": "NO",
+    "GNB": "GB",
+    "NWE": "NE",
+    "SFO": "SF",
+    # "OAK": "LV"
+}
+
+position_map = {
+    "HB": "RB",
+    "FB": "RB",
+    "WR/RS": "WR",
+    "WR/PR": "WR",
+    "FB/TE": "TE",
+    "FB/RB": "RB"
+}
+
 
 def get_top_n_player_at_each_pos(data, pos, n):
     """
@@ -59,32 +77,75 @@ def get_top_n_player_at_each_pos(data, pos, n):
     return data.groupby("Tm", as_index=False).apply(lambda x: x.nlargest(n, [SELECTOR]).min())
 
 
-# load accumulated weekly_stats stats
-df = dh.concat_weekly_stats(YEAR)
+def concat_weekly_stats(year):
+    """
+    Concatenates weekly_stats stats for a given year.
 
-# replace team names and positions with standard abbreviations
-df = dh.replace_team_names(df)
-df = dh.replace_positions(df)
+    :param year: year to concatenate weekly stats
+    :type year: int
+    :return: weekly stats concatenated
+    :rtype: pandas.DataFrame
+    """
+    stats = pd.DataFrame()
+    for week in range(1, 18):
+        weekly_stats = pd.read_csv(
+            f"https://raw.githubusercontent.com/fantasydatapros/data/master/weekly/{year}/week{week}.csv")
+        weekly_stats["Week"] = week
+        stats = pd.concat([stats, weekly_stats])
+    return stats
 
-# limit to offensive players
-df = df.loc[df["Pos"].isin(positions)]
 
-# accumulate average of points for each player
-df = df[features].groupby(["Player", "Tm", "Pos"], as_index=False).agg({SELECTOR: np.mean})
+def replace_team_names(df):
+    """
+    Replaces team names to given standards.
 
-# get scored points per spot
-corr_df = pd.DataFrame()
-for pos, n_spots in position_spots.items():
-    for n in range(1, n_spots + 1):
-        pos_df = get_top_n_player_at_each_pos(df, pos, n)
-        pos_df = pos_df.rename({SELECTOR: f"{pos}{n}"}, axis=1)
-        corr_df = pd.concat([corr_df, pos_df], axis=1)
+    :param df: data to replace team names
+    :type df: pandas.DataFrame
+    :return: data with team names replaced
+    :rtype: pandas.DataFrame
+    """
+    return df.replace({"Tm": team_name_map})
 
-# clean up data
-corr_df = corr_df.dropna()
-corr_df = corr_df.drop(["Pos", "Player", "Tm"], axis=1)
 
-# plot the correlation heatmap
-plt.figure(figsize=(10, 7))
-sns.heatmap(corr_df.corr(), annot=True, cmap=sns.diverging_palette(0, 250))
-plt.savefig("plots/heatmap_{selector}_{year}.png".format(selector=SELECTOR, year=YEAR))
+def replace_positions(df):
+    """
+    Replaces positions to given standards.
+
+    :param df: data to replace positions
+    :type df: pandas.DataFrame
+    :return: data with positions replaced
+    :rtype: pandas.DataFrame
+    """
+    return df.replace({"Pos": position_map})
+
+
+if __name__ == "__main__":
+    # load accumulated weekly_stats stats
+    df = concat_weekly_stats(YEAR)
+
+    # replace team names and positions with standard abbreviations
+    df = replace_team_names(df)
+    df = replace_positions(df)
+
+    # limit to offensive players
+    df = df.loc[df["Pos"].isin(positions)]
+
+    # accumulate average of points for each player
+    df = df[features].groupby(["Player", "Tm", "Pos"], as_index=False).agg({SELECTOR: np.mean})
+
+    # get scored points per spot
+    corr_df = pd.DataFrame()
+    for pos, n_spots in position_spots.items():
+        for n in range(1, n_spots + 1):
+            pos_df = get_top_n_player_at_each_pos(df, pos, n)
+            pos_df = pos_df.rename({SELECTOR: f"{pos}{n}"}, axis=1)
+            corr_df = pd.concat([corr_df, pos_df], axis=1)
+
+    # clean up raw
+    corr_df = corr_df.dropna()
+    corr_df = corr_df.drop(["Pos", "Player", "Tm"], axis=1)
+
+    # plot the correlation heatmap
+    plt.figure(figsize=(10, 7))
+    sns.heatmap(corr_df.corr(), annot=True, cmap=sns.diverging_palette(0, 250))
+    plt.savefig("heatmap_{selector}_{year}.png".format(selector=SELECTOR, year=YEAR))
