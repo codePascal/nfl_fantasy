@@ -5,11 +5,10 @@ given year.
 """
 import matplotlib.pyplot as plt
 import numpy as np
+import pandas as pd
 import seaborn as sns
-import sys
 
 import utils.fantasy_pros as fp
-import utils.data_handling as dh
 
 sns.set_style("whitegrid")
 
@@ -18,7 +17,7 @@ YEAR = 2021
 
 if __name__ == "__main__":
     # get yearly_stats raw
-    df = dh.read_csv_file("../raw/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
+    df = pd.read_csv("../raw/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
     df = df.dropna()
 
     # clean raw
@@ -32,5 +31,5 @@ if __name__ == "__main__":
     plt.title("Scoring correlation for {pos} during season {year}".format(pos=POSITION, year=YEAR))
     sns.heatmap(df.corr(), annot=True, cmap=sns.diverging_palette(0, 250), mask=np.triu(df.corr()))
     plt.tight_layout()
-    plt.savefig("../plots/scoring_correlation/correlation_{pos}_{year}.png".format(pos=POSITION, year=YEAR))
+    plt.savefig("../reports/scoring_correlation/correlation_{pos}_{year}.png".format(pos=POSITION, year=YEAR))
     plt.show()
