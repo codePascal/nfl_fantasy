@@ -1,0 +1,117 @@
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,week,position
+Christian McCaffreyCAR,16.6,69.8,0.6,5.3,47.2,0.2,0.1,16.3,CaffreyCAR,11,RB
+Nick ChubbCLE,18.7,95.3,0.8,1.8,14.7,0.1,0.1,16.1,CLE,11,RB
+Najee HarrisPIT,20.5,81.2,0.6,4.1,32.0,0.2,0.1,15.5,PIT,11,RB
+Austin EkelerLAC,14.5,64.2,0.5,4.7,40.8,0.3,0.1,15.3,LAC,11,RB
+Dalvin CookMIN,19.0,86.9,0.6,3.0,22.8,0.1,0.1,15.0,MIN,11,RB
+Jonathan TaylorIND,17.0,82.0,0.7,2.9,22.9,0.1,0.1,14.9,IND,11,RB
+AJ DillonGB,18.0,79.8,0.6,2.6,23.4,0.1,0.1,14.0,GB,11,RB
+Ezekiel ElliottDAL,16.4,71.0,0.6,2.9,22.3,0.1,0.1,13.4,DAL,11,RB
+Joe MixonCIN,16.0,68.1,0.6,2.6,20.4,0.1,0.1,13.2,CIN,11,RB
+Leonard FournetteTB,15.7,63.2,0.6,3.6,26.6,0.1,0.1,13.1,TB,11,RB
+D'Andre SwiftDET,14.0,56.2,0.5,4.5,38.2,0.2,0.1,12.9,DET,11,RB
+James ConnerARI,16.3,65.4,0.7,2.4,19.4,0.1,0.1,12.7,ARI,11,RB
+Mark Ingram IINO,16.5,65.5,0.5,3.0,24.6,0.1,0.1,12.6,INO,11,RB
+Jeff Wilson Jr.SF,15.3,67.4,0.6,1.7,15.8,0.1,0.1,12.5,SF,11,RB
+David MontgomeryCHI,15.6,64.4,0.5,2.6,21.5,0.1,0.1,12.1,CHI,11,RB
+James RobinsonJAC,14.3,61.9,0.6,2.5,18.5,0.1,0.1,11.7,JAC,11,RB
+Myles GaskinMIA,13.8,54.6,0.5,3.6,25.5,0.2,0.1,11.6,MIA,11,RB
+Michael CarterNYJ,13.1,52.4,0.5,3.3,27.2,0.1,0.1,11.3,NYJ,11,RB
+Saquon BarkleyNYG,13.4,54.3,0.4,3.5,26.2,0.1,0.1,11.3,NYG,11,RB
+Josh JacobsLV,13.1,53.2,0.6,2.8,21.1,0.1,0.1,11.0,LV,11,RB
+Damien HarrisNE,14.4,64.9,0.6,0.9,6.7,0.0,0.1,10.9,NE,11,RB
+Antonio GibsonWAS,15.1,60.9,0.5,1.9,14.4,0.1,0.1,10.9,WAS,11,RB
+D'Onta ForemanTEN,13.8,53.9,0.5,1.4,13.6,0.1,0.1,9.8,TEN,11,RB
+Alex CollinsSEA,14.2,59.5,0.4,1.2,9.5,0.0,0.1,9.1,SEA,11,RB
+Rhamondre StevensonNE,9.5,40.1,0.5,2.1,18.1,0.1,0.1,8.8,NE,11,RB
+Darrel WilliamsKC,8.3,35.4,0.4,2.5,20.5,0.1,0.0,8.6,KC,11,RB
+Miles SandersPHI,9.9,43.7,0.2,2.3,19.6,0.1,0.1,8.1,PHI,11,RB
+Adrian PetersonSEA,10.9,50.3,0.4,0.6,4.6,0.0,0.1,7.9,SEA,11,RB
+Clyde Edwards-HelaireKC,9.9,40.5,0.2,2.2,17.7,0.1,0.1,7.6,HelaireKC,11,RB
+Mike DavisATL,10.5,37.9,0.2,3.2,20.6,0.1,0.1,7.4,ATL,11,RB
+Devonta FreemanBAL,8.8,41.3,0.2,1.9,14.1,0.1,0.1,7.1,BAL,11,RB
+D'Ernest JohnsonCLE,9.1,38.5,0.2,1.4,12.7,0.0,0.1,6.7,CLE,11,RB
+Tony PollardDAL,7.2,34.4,0.2,2.1,17.6,0.1,0.1,6.5,DAL,11,RB
+Zack MossBUF,8.7,32.2,0.2,1.7,14.3,0.1,0.1,6.4,BUF,11,RB
+Kenyan DrakeLV,6.2,27.2,0.2,2.6,21.5,0.1,0.1,6.4,LV,11,RB
+David JohnsonHOU,6.9,29.7,0.1,2.5,20.8,0.1,0.1,6.3,HOU,11,RB
+Devin SingletaryBUF,7.9,34.5,0.2,1.9,12.4,0.1,0.1,5.8,BUF,11,RB
+Latavius MurrayBAL,9.3,37.1,0.2,0.9,6.6,0.0,0.1,5.8,BAL,11,RB
+J.D. McKissicWAS,4.0,16.9,0.1,4.2,30.1,0.1,0.1,5.7,KissicWAS,11,RB
+Jamaal WilliamsDET,7.6,30.6,0.2,1.7,11.8,0.0,0.0,5.4,DET,11,RB
+Wayne Gallman Jr.MIN,9.2,31.6,0.2,1.1,9.2,0.0,0.1,5.1,MIN,11,RB
+Ty JohnsonNYJ,4.7,18.9,0.1,2.4,20.5,0.1,0.0,5.1,NYJ,11,RB
+Brandon BoldenNE,3.8,16.8,0.1,2.4,20.8,0.1,0.0,4.8,NE,11,RB
+Jordan HowardPHI,7.9,31.0,0.2,0.3,3.0,0.0,0.1,4.7,PHI,11,RB
+Duke Johnson Jr.MIA,5.3,20.4,0.2,1.7,14.4,0.1,0.1,4.7,MIA,11,RB
+Samaje PerineCIN,5.9,24.9,0.2,1.1,8.4,0.1,0.1,4.5,CIN,11,RB
+Phillip LindsayMIA,8.4,32.2,0.1,0.4,2.8,0.0,0.1,4.3,MIA,11,RB
+Nyheim HinesIND,4.0,16.3,0.1,2.5,18.1,0.1,0.0,4.2,IND,11,RB
+Khalil HerbertCHI,6.0,24.2,0.1,1.1,8.9,0.0,0.1,4.2,CHI,11,RB
+Tony Jones Jr.NO,4.6,19.6,0.1,1.3,11.4,0.0,0.0,4.0,NO,11,RB
+Trey SermonSF,5.9,23.2,0.2,0.6,5.2,0.0,0.0,3.9,SF,11,RB
+Boston ScottPHI,5.0,19.0,0.1,1.3,11.2,0.0,0.0,3.9,PHI,11,RB
+Rex BurkheadHOU,4.3,15.2,0.1,1.3,11.2,0.1,0.0,3.8,HOU,11,RB
+Eno BenjaminARI,5.9,21.7,0.1,0.9,7.4,0.0,0.1,3.8,ARI,11,RB
+Alexander MattisonMIN,5.0,20.5,0.1,1.0,8.0,0.0,0.0,3.6,MIN,11,RB
+Ronald Jones IITB,5.2,22.7,0.2,0.4,3.2,0.0,0.0,3.6,ITB,11,RB
+Chuba HubbardCAR,4.3,17.3,0.1,1.0,9.4,0.0,0.0,3.4,CAR,11,RB
+Patrick Taylor Jr.GB,4.2,16.5,0.1,0.9,7.7,0.0,0.0,3.3,GB,11,RB
+Salvon AhmedMIA,5.0,19.0,0.0,2.0,13.0,0.0,0.0,3.2,MIA,11,RB
+Giovani BernardTB,2.5,10.0,0.1,1.8,12.8,0.1,0.0,3.1,TB,11,RB
+Joshua KelleyLAC,4.0,14.0,0.1,1.1,11.0,0.1,0.0,3.1,LAC,11,RB
+Devontae BookerNYG,3.5,15.4,0.1,1.2,7.7,0.0,0.0,3.1,NYG,11,RB
+Carlos HydeJAC,4.5,17.9,0.1,1.0,6.3,0.0,0.0,3.0,JAC,11,RB
+Justin JacksonLAC,3.8,18.6,0.1,0.7,5.3,0.0,0.0,2.9,LAC,11,RB
+Demetric FeltonCLE,1.1,5.7,0.0,1.4,15.0,0.1,0.0,2.8,CLE,11,RB
+Kyle JuszczykSF,1.3,3.9,0.0,1.7,16.1,0.1,0.0,2.8,SF,11,RB
+Dontrell HilliardTEN,3.9,13.3,0.1,0.7,6.2,0.0,0.0,2.7,TEN,11,RB
+Travis HomerSEA,2.1,9.6,0.0,1.3,11.3,0.1,0.0,2.6,SEA,11,RB
+Tevin ColemanNYJ,3.7,15.4,0.1,0.4,3.4,0.0,0.0,2.5,NYJ,11,RB
+Kenneth GainwellPHI,3.0,13.0,0.0,1.0,12.0,0.0,0.0,2.5,PHI,11,RB
+Rashaad PennySEA,3.8,16.1,0.1,0.3,2.5,0.0,0.0,2.5,SEA,11,RB
+Peyton BarberLV,2.1,12.9,0.1,0.4,2.9,0.0,0.0,2.3,LV,11,RB
+Larry Rountree IIILAC,3.8,13.6,0.1,0.3,2.6,0.0,0.0,2.3,IILAC,11,RB
+Ameer AbdullahCAR,2.0,8.6,0.0,1.2,9.5,0.0,0.0,2.2,CAR,11,RB
+Ty'Son WilliamsBAL,2.7,11.9,0.1,0.6,4.6,0.0,0.0,2.2,BAL,11,RB
+Matt BreidaBUF,2.8,11.5,0.1,0.6,4.4,0.0,0.1,2.1,BUF,11,RB
+Jaret PattersonWAS,3.3,13.2,0.1,0.3,2.0,0.0,0.0,2.0,WAS,11,RB
+Derrick GoreKC,2.8,10.0,0.1,0.3,3.0,0.0,0.0,1.9,KC,11,RB
+DeeJay DallasSEA,2.0,7.0,0.1,1.0,8.0,0.0,0.0,1.8,SEA,11,RB
+Jerick McKinnonKC,1.2,6.5,0.1,0.9,6.9,0.0,0.0,1.8,KinnonKC,11,RB
+Chris EvansCIN,1.0,3.3,0.0,1.0,8.9,0.1,0.0,1.7,CIN,11,RB
+Tavien FeasterARI,0.0,9.5,0.1,0.7,3.1,0.0,0.0,1.7,ARI,11,RB
+Qadree OllisonATL,2.1,7.7,0.1,0.4,2.9,0.0,0.0,1.5,ATL,11,RB
+Patrick RicardBAL,0.3,0.7,0.0,1.0,8.3,0.1,0.0,1.4,BAL,11,RB
+Alec IngoldLV,0.7,2.9,0.0,0.8,7.0,0.0,0.0,1.4,LV,11,RB
+Kalen BallagePIT,1.9,5.6,0.1,0.6,3.8,0.0,0.0,1.3,PIT,11,RB
+Elijhaa PennyNYG,1.3,6.7,0.1,0.2,1.6,0.0,0.0,1.2,NYG,11,RB
+Tarik CohenCHI,1.7,6.7,0.0,0.7,4.7,0.0,0.0,1.1,CHI,11,RB
+C.J. HamMIN,0.5,2.0,0.0,0.9,6.9,0.0,0.0,1.1,MIN,11,RB
+Patrick LairdMIA,1.0,3.0,0.0,0.6,4.4,0.0,0.0,0.9,MIA,11,RB
+Dwayne WashingtonNO,1.2,5.2,0.0,0.3,3.1,0.0,0.0,0.9,NO,11,RB
+Corey ClementDAL,1.8,6.4,0.0,0.3,1.6,0.0,0.0,0.9,DAL,11,RB
+Keith SmithATL,0.9,2.5,0.0,0.6,4.6,0.0,0.0,0.8,ATL,11,RB
+Benny Snell Jr.PIT,1.4,4.9,0.0,0.2,1.4,0.0,0.0,0.8,PIT,11,RB
+Dare OgunbowaleJAC,0.9,3.4,0.0,0.4,3.0,0.0,0.0,0.7,JAC,11,RB
+Kene NwangwuMIN,0.6,3.9,0.0,0.2,1.7,0.0,0.0,0.7,MIN,11,RB
+Ke'Shawn VaughnTB,1.6,6.0,0.0,0.1,1.0,0.0,0.0,0.7,TB,11,RB
+Godwin IgwebuikeDET,0.9,3.6,0.0,0.1,1.3,0.0,0.0,0.7,DET,11,RB
+Alex Armah Jr.WAS,0.7,2.0,0.0,0.3,1.8,0.0,0.0,0.6,WAS,11,RB
+Trenton CannonSF,1.3,2.0,0.0,0.3,3.2,0.0,0.0,0.5,SF,11,RB
+Deon JacksonIND,0.2,1.8,0.0,0.4,2.2,0.0,0.0,0.5,IND,11,RB
+Taiwan JonesBUF,0.5,2.1,0.0,0.2,2.3,0.0,0.0,0.5,BUF,11,RB
+Ryan NallCHI,0.3,0.9,0.0,0.3,3.3,0.0,0.0,0.5,CHI,11,RB
+Johnny StantonCLE,0.7,3.0,0.0,0.2,2.0,0.0,0.0,0.5,CLE,11,RB
+Andy JanovichCLE,0.5,0.4,0.0,0.2,1.9,0.0,0.0,0.5,CLE,11,RB
+Gary BrightwellNYG,0.5,2.5,0.0,0.1,1.0,0.0,0.0,0.4,NYG,11,RB
+Jakob JohnsonNE,0.2,0.4,0.0,0.4,3.4,0.0,0.0,0.4,NE,11,RB
+Reggie GilliamBUF,0.5,2.0,0.0,0.1,2.0,0.0,0.0,0.4,BUF,11,RB
+Giovanni RicciCAR,0.0,0.0,0.0,0.3,4.0,0.0,0.0,0.4,CAR,11,RB
+Jason CabindaDET,0.9,1.5,0.0,0.2,1.4,0.0,0.0,0.3,DET,11,RB
+Michael BurtonKC,0.6,1.3,0.0,0.2,1.2,0.0,0.0,0.3,KC,11,RB
+Tory CarterTEN,0.0,0.0,0.0,0.3,3.0,0.0,0.0,0.3,TEN,11,RB
+Nick BawdenNYJ,0.1,0.2,0.0,0.2,1.3,0.0,0.0,0.2,NYJ,11,RB
+Nick BelloreSEA,0.3,0.7,0.0,0.1,1.1,0.0,0.0,0.2,SEA,11,RB
+Derek WattPIT,0.2,0.8,0.0,0.2,1.0,0.0,0.0,0.2,PIT,11,RB
+Cullen GillaspiaNYG,0.1,0.0,0.0,0.1,0.6,0.0,0.0,0.1,NYG,11,RB

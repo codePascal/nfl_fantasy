@@ -1,21 +1,31 @@
-from positions.helpers import concat_weekly_stats
+"""
+Concatenates weekly kicker stats for a whole season.
+"""
+import src.preprocessing.statistics.positions.helpers as helpers
 
 
-def concat_weekly_kicker_stats(year, weeks):
+def get_accumulated_stats_weekly_kicker(year):
     """
-    Concatenates weekly kicker stats.
+    Returns the accumulated weekly kicker stats.
 
     :param year: year to evaluate
     :type year: int
-    :param weeks: number of weeks of the season
-    :type weeks: int
     :return: summarized weekly stats for season
     :rtype: pandas.DataFrame
     """
-    return concat_weekly_stats(year, weeks, ["K"])
+    return helpers.get_accumulated_stats_weekly(year, ["K"], f"../preprocessed/stats/kicker_{year}.csv")
+
+
+def store_accumulated_stats_weekly_kicker(year):
+    """
+    Stores the accumulated weekly kicker stats.
+
+    :param year: year to evaluate
+    :type year: int
+    :return: None
+    """
+    helpers.store_accumulated_stats_weekly(year, ["K"], f"../preprocessed/stats/kicker_{year}.csv")
 
 
 if __name__ == "__main__":
-    year = 2021
-    weeks = 18
-    df = concat_weekly_kicker_stats(year, weeks)
+    pass

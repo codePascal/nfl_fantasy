@@ -1,33 +1,33 @@
-,Rank,Player,SACK,INT,FR,FF,DEF TD,SFTY,SPC TD,G,FPTS,FPTS/G,ROST
-0,1,New England Patriots(NE),1,3,1,1,1,0,1,1,31.0,31.0,93.2%
-1,2,Denver Broncos(DEN),7,3,0,1,0,0,0,1,23.0,23.0,48.5%
-2,3,Carolina Panthers(CAR),7,5,2,2,0,0,0,1,21.0,21.0,27.8%
-3,4,Pittsburgh Steelers(PIT),1,2,1,0,1,0,0,1,14.0,14.0,44.6%
-4,5,New York Giants(NYG),3,1,1,1,1,0,0,1,14.0,14.0,4.5%
-5,6,New Orleans Saints(NO),2,1,0,0,0,0,0,1,11.0,11.0,79.3%
-6,7,Washington Commanders(WAS),5,2,0,1,0,0,0,1,10.0,10.0,27.5%
-7,8,San Francisco 49ers(SF),4,0,1,1,0,0,0,1,10.0,10.0,79.5%
-8,9,Minnesota Vikings(MIN),2,2,1,1,0,0,0,1,9.0,9.0,28.0%
-9,10,Seattle Seahawks(SEA),0,3,1,1,0,0,0,1,7.0,7.0,39.4%
-10,11,Jacksonville Jaguars(JAC),3,0,0,1,0,0,0,1,7.0,7.0,6.9%
-11,12,Detroit Lions(DET),1,1,2,1,0,0,0,1,7.0,7.0,1.1%
-12,13,Los Angeles Rams(LAR),2,1,1,1,0,0,0,1,7.0,7.0,74.5%
-13,14,Houston Texans(HOU),1,1,1,1,0,0,0,1,5.0,5.0,6.4%
-14,15,Kansas City Chiefs(KC),0,2,1,1,0,0,0,1,5.0,5.0,45.7%
-15,16,Baltimore Ravens(BAL),2,1,0,0,0,0,0,1,5.0,5.0,51.9%
-16,17,Tennessee Titans(TEN),1,1,0,1,0,0,0,1,4.0,4.0,48.4%
-17,18,Dallas Cowboys(DAL),2,1,0,0,0,0,0,1,4.0,4.0,82.9%
-18,19,Cleveland Browns(CLE),3,0,1,2,0,0,0,1,4.0,4.0,40.8%
-19,20,Green Bay Packers(GB),3,0,0,0,0,0,0,1,3.0,3.0,60.6%
-20,21,Cincinnati Bengals(CIN),1,0,1,1,0,0,1,1,3.0,3.0,14.7%
-21,22,Los Angeles Chargers(LAC),0,1,0,0,0,0,0,1,3.0,3.0,44.3%
-22,23,Arizona Cardinals(ARI),2,0,0,1,0,0,0,1,1.0,1.0,60.9%
-23,24,Philadelphia Eagles(PHI),1,1,1,1,0,0,0,1,1.0,1.0,52.5%
-24,25,New York Jets(NYJ),1,0,0,0,0,0,0,1,1.0,1.0,3.3%
-25,26,Miami Dolphins(MIA),0,0,0,0,0,0,0,1,1.0,1.0,60.2%
-26,27,Las Vegas Raiders(LV),0,0,0,0,0,0,0,0,0,0,7.6%
-27,28,Indianapolis Colts(IND),0,0,0,0,0,0,0,0,0,0,66.4%
-28,29,Chicago Bears(CHI),0,0,0,0,0,0,0,0,0,0,35.9%
-29,30,Tampa Bay Buccaneers(TB),2,0,1,0,0,0,0,1,0.0,0.0,98.0%
-30,31,Buffalo Bills(BUF),0,0,0,0,0,0,0,0,0,0,95.9%
-31,32,Atlanta Falcons(ATL),0,0,0,0,0,0,0,1,-1.0,-1.0,5.8%
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,week,position
+1,New England Patriots,1,3,1,1,1,0,1,1,31.0,31.0,93.2,NE,6,DST
+2,Denver Broncos,7,3,0,1,0,0,0,1,23.0,23.0,48.5,DEN,6,DST
+3,Carolina Panthers,7,5,2,2,0,0,0,1,21.0,21.0,27.8,CAR,6,DST
+4,Pittsburgh Steelers,1,2,1,0,1,0,0,1,14.0,14.0,44.6,PIT,6,DST
+5,New York Giants,3,1,1,1,1,0,0,1,14.0,14.0,4.5,NYG,6,DST
+6,New Orleans Saints,2,1,0,0,0,0,0,1,11.0,11.0,79.3,NO,6,DST
+7,Washington Commanders,5,2,0,1,0,0,0,1,10.0,10.0,27.5,WAS,6,DST
+8,San Francisco 49ers,4,0,1,1,0,0,0,1,10.0,10.0,79.5,SF,6,DST
+9,Minnesota Vikings,2,2,1,1,0,0,0,1,9.0,9.0,28.0,MIN,6,DST
+10,Seattle Seahawks,0,3,1,1,0,0,0,1,7.0,7.0,39.4,SEA,6,DST
+11,Jacksonville Jaguars,3,0,0,1,0,0,0,1,7.0,7.0,6.9,JAC,6,DST
+12,Detroit Lions,1,1,2,1,0,0,0,1,7.0,7.0,1.1,DET,6,DST
+13,Los Angeles Rams,2,1,1,1,0,0,0,1,7.0,7.0,74.5,LAR,6,DST
+14,Houston Texans,1,1,1,1,0,0,0,1,5.0,5.0,6.4,HOU,6,DST
+15,Kansas City Chiefs,0,2,1,1,0,0,0,1,5.0,5.0,45.7,KC,6,DST
+16,Baltimore Ravens,2,1,0,0,0,0,0,1,5.0,5.0,51.9,BAL,6,DST
+17,Tennessee Titans,1,1,0,1,0,0,0,1,4.0,4.0,48.4,TEN,6,DST
+18,Dallas Cowboys,2,1,0,0,0,0,0,1,4.0,4.0,82.9,DAL,6,DST
+19,Cleveland Browns,3,0,1,2,0,0,0,1,4.0,4.0,40.8,CLE,6,DST
+20,Green Bay Packers,3,0,0,0,0,0,0,1,3.0,3.0,60.6,GB,6,DST
+21,Cincinnati Bengals,1,0,1,1,0,0,1,1,3.0,3.0,14.7,CIN,6,DST
+22,Los Angeles Chargers,0,1,0,0,0,0,0,1,3.0,3.0,44.3,LAC,6,DST
+23,Arizona Cardinals,2,0,0,1,0,0,0,1,1.0,1.0,60.9,ARI,6,DST
+24,Philadelphia Eagles,1,1,1,1,0,0,0,1,1.0,1.0,52.5,PHI,6,DST
+25,New York Jets,1,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,6,DST
+26,Miami Dolphins,0,0,0,0,0,0,0,1,1.0,1.0,60.2,MIA,6,DST
+27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,6,DST
+28,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,6,DST
+29,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,6,DST
+30,Tampa Bay Buccaneers,2,0,1,0,0,0,0,1,0.0,0.0,98.0,TB,6,DST
+31,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,6,DST
+32,Atlanta Falcons,0,0,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,6,DST

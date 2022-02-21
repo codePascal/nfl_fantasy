@@ -1,0 +1,29 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,week,position
+Indianapolis Colts,2.6,1.1,0.7,1.1,0.2,0.0,18.0,312.5,8.4,,6,DST
+Green Bay Packers,3.1,0.9,0.5,0.6,0.2,0.0,19.6,292.8,8.1,,6,DST
+Pittsburgh Steelers,2.6,0.9,0.6,0.9,0.2,0.0,18.8,329.5,7.5,,6,DST
+Minnesota Vikings,2.8,1.1,0.5,0.8,0.2,0.0,22.1,347.6,7.2,,6,DST
+Los Angeles Rams,2.7,0.9,0.7,1.1,0.2,0.0,20.4,336.9,6.9,,6,DST
+Tampa Bay Buccaneers,2.7,0.8,0.7,0.9,0.2,0.0,21.5,337.3,6.7,,6,DST
+Buffalo Bills,2.6,0.9,0.7,1.1,0.2,0.0,21.6,351.6,6.6,,6,DST
+Miami Dolphins,2.1,1.1,0.6,1.0,0.2,0.0,21.7,358.7,6.5,,6,DST
+Dallas Cowboys,2.2,1.0,0.6,1.0,0.2,0.0,22.5,346.3,6.5,,6,DST
+Arizona Cardinals,2.3,0.8,0.7,1.2,0.2,0.1,24.2,357.0,6.4,,6,DST
+Kansas City Chiefs,1.9,1.1,0.6,0.8,0.2,0.0,25.2,356.9,6.2,,6,DST
+Los Angeles Chargers,2.4,0.8,0.6,0.8,0.1,0.1,26.0,378.8,6.1,,6,DST
+Detroit Lions,2.5,0.8,0.6,0.9,0.1,0.0,24.4,364.8,6.1,,6,DST
+Cleveland Browns,2.3,0.9,0.6,0.7,0.1,0.0,23.5,364.4,6.1,,6,DST
+Denver Broncos,2.2,0.8,0.6,0.9,0.2,0.1,20.1,354.8,6.0,,6,DST
+Cincinnati Bengals,2.1,0.8,0.6,0.8,0.2,0.0,21.3,345.9,5.9,,6,DST
+Houston Texans,2.5,0.7,0.6,0.8,0.1,0.1,27.2,364.5,5.9,,6,DST
+Las Vegas Raiders,2.3,0.8,0.6,0.8,0.1,0.0,24.1,355.5,5.9,,6,DST
+Jacksonville Jaguars,2.2,0.8,0.5,0.8,0.2,0.0,23.8,345.0,5.8,,6,DST
+Baltimore Ravens,2.1,0.7,0.6,0.9,0.1,0.1,24.0,389.3,5.7,,6,DST
+Carolina Panthers,2.3,0.6,0.6,0.9,0.1,0.0,22.6,356.5,5.6,,6,DST
+New England Patriots,2.1,0.7,0.5,0.8,0.1,0.0,25.2,391.7,5.4,,6,DST
+Washington Commanders,1.9,0.8,0.6,1.0,0.1,0.0,28.7,400.6,5.4,,6,DST
+Chicago Bears,2.2,0.5,0.6,1.0,0.1,0.0,23.3,363.6,5.3,,6,DST
+Philadelphia Eagles,2.0,0.7,0.5,0.8,0.1,0.0,28.3,382.0,5.2,,6,DST
+Tennessee Titans,1.8,0.7,0.6,0.8,0.1,0.0,29.3,400.5,5.1,,6,DST
+Seattle Seahawks,1.6,0.8,0.5,0.8,0.1,0.0,23.5,335.6,5.0,,6,DST
+New York Giants,1.9,0.7,0.5,0.8,0.1,0.0,26.6,385.3,5.0,,6,DST

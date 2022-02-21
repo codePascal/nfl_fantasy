@@ -1,22 +1,33 @@
-from positions.helpers import concat_weekly_stats
+"""
+Concatenates weekly offense stats for a whole season.
+"""
+import src.preprocessing.statistics.positions.helpers as helpers
 
 
-def concat_weekly_offensive_stats(year, weeks):
+def get_accumulated_stats_weekly_offense(year):
     """
-    Concatenates weekly offensive stats. Takes only players into
-    account that have played that week.
+    Returns accumulated weekly offensive stats. Takes only players
+    into account that have played that week.
 
     :param year: year to evaluate
     :type year: int
-    :param weeks: number of weeks of the season
-    :type weeks: int
-    :return: summarized weekly stats for season
+    :return: summarized weekly offense stats for season
     :rtype: pandas.DataFrame
     """
-    return concat_weekly_stats(year, weeks, ["QB", "RB", "TE", "WR"])
+    return helpers.get_accumulated_stats_weekly(year, ["QB", "RB", "TE", "WR"],
+                                                f"../preprocessed/stats/offense_{year}.csv")
+
+
+def store_accumulated_stats_weekly_offense(year):
+    """
+    Stores the accumulated weekly offensive stats.
+
+    :param year: year to evaluate
+    :type year: int
+    :return: None
+    """
+    helpers.store_accumulated_stats_weekly(year, ["QB", "RB", "TE", "WR"], f"../preprocessed/stats/offense_{year}.csv")
 
 
 if __name__ == "__main__":
-    year = 2021
-    weeks = 18
-    df = concat_weekly_offensive_stats(year, weeks)
+    pass

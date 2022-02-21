@@ -1,10 +1,15 @@
+"""
+Concatenates statistics including schedule and snapcounts
+(if available).
+"""
 import pandas as pd
 
-import positions.offense as offense
-import positions.defense as defense
-import positions.kicker as kicker
-import schedule
-import snapcounts
+import src.preprocessing.statistics.positions.defense as defense
+import src.preprocessing.statistics.positions.kicker as kicker
+import src.preprocessing.statistics.positions.offense as offense
+import src.preprocessing.statistics.snapcounts.snapcounts as snapcounts
+
+import src.loader.schedule.schedule as schedule
 
 
 def clean_up_teams(player):
@@ -21,21 +26,58 @@ def clean_up_teams(player):
     return player["team_x"]
 
 
-def concat_offense_stats(year, weeks):
+def concat_defense_stats(year):
+    """
+    Summarizes weekly stats and schedule for defense into one.
+
+    :param year: year to summarize
+    :type year: int
+    :return: weekly stats and schedule for defense
+    :rtype: pandas.DataFrame
+    """
+    # merge stats with schedule
+    season = pd.merge(defense.get_accumulated_tats_weekly_defense(year),
+                      schedule.get_schedule(year),
+                      how="outer",
+                      on=["team", "week"])
+
+    # drop unnecessary columns
+    return season.drop(["fantasy_points_per_game"], axis=1)
+
+
+def concat_kicker_stats(year):
+    """
+    Summarizes weekly stats and schedule for defense kickers into
+    one.
+
+    :param year: year to summarize
+    :type year: int
+    :return: weekly stats and schedule for kickers
+    :rtype: pandas.DataFrame
+    """
+    # merge stats with schedule
+    season = pd.merge(kicker.get_accumulated_stats_weekly_kicker(year),
+                      schedule.get_schedule(year),
+                      how="outer",
+                      on=["team", "week"])
+
+    # drop unnecessary columns
+    return season.drop(["fantasy_points_per_game"], axis=1)
+
+
+def concat_offense_stats(year):
     """
     Summarizes weekly stats, snapcounts and schedule for offense into
     one.
 
     :param year: year to summarize
     :type year: int
-    :param weeks: weeks in the season
-    :type weeks: int
     :return: weekly stats, snacounts and schedule for offense
     :rtype: pandas.DataFrame
     """
     # summarize weekly stats and snapcounts
-    stats = pd.merge(offense.concat_weekly_offensive_stats(year, weeks),
-                     snapcounts.concat_weekly_snapcounts(year, weeks),
+    stats = pd.merge(offense.get_accumulated_stats_weekly_offense(year),
+                     snapcounts.get_accumulated_snapcounts_weekly(year),
                      how="outer",
                      on=["player", "week", "fantasy_points", "games", "position"])
 
@@ -52,54 +94,10 @@ def concat_offense_stats(year, weeks):
     return season
 
 
-def concat_defense_stats(year, weeks):
-    """
-    Summarizes weekly stats and schedule for defense into one.
-
-    :param year: year to summarize
-    :type year: int
-    :param weeks: weeks in the season
-    :type weeks: int
-    :return: weekly stats and schedule for defense
-    :rtype: pandas.DataFrame
-    """
-    # merge stats with schedule
-    season = pd.merge(defense.concat_weekly_defensive_stats(year, weeks),
-                      schedule.get_schedule(year),
-                      how="outer",
-                      on=["team", "week"])
-
-    # drop unnecessary columns
-    return season.drop(["fantasy_points_per_game"], axis=1)
-
-
-def concat_kicker_stats(year, weeks):
-    """
-    Summarizes weekly stats and schedule for defense kickers into
-    one.
-
-    :param year: year to summarize
-    :type year: int
-    :param weeks: weeks in the season
-    :type weeks: int
-    :return: weekly stats and schedule for kickers
-    :rtype: pandas.DataFrame
-    """
-    # merge stats with schedule
-    season = pd.merge(kicker.concat_weekly_kicker_stats(year, weeks),
-                      schedule.get_schedule(year),
-                      how="outer",
-                      on=["team", "week"])
-
-    # drop unnecessary columns
-    return season.drop(["fantasy_points_per_game"], axis=1)
-
-
 if __name__ == "__main__":
     year = 2021
-    weeks = 18
-    concat_offense_stats(year, weeks).to_csv(f"../preprocessed/stats/offense_summary_{year}.csv", index=False)
-    concat_defense_stats(year, weeks).to_csv(f"../preprocessed/stats/defense_summary_{year}.csv", index=False)
-    concat_kicker_stats(year, weeks).to_csv(f"../preprocessed/stats/kicker_summary_{year}.csv", index=False)
+    concat_offense_stats(year).to_csv(f"../preprocessed/stats/offense_summary_{year}.csv", index=False)
+    concat_defense_stats(year).to_csv(f"../preprocessed/stats/defense_summary_{year}.csv", index=False)
+    concat_kicker_stats(year).to_csv(f"../preprocessed/stats/kicker_summary_{year}.csv", index=False)
 
 

@@ -1,0 +1,33 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,week,position
+Buffalo Bills,2.8,0.9,0.6,1.0,0.2,0.0,15.3,309.1,8.2,,4,DST
+Tennessee Titans,2.7,1.2,0.4,0.6,0.2,0.0,19.1,317.6,8.1,,4,DST
+New Orleans Saints,2.9,0.9,0.7,1.0,0.2,0.0,16.7,312.7,8.0,,4,DST
+Cincinnati Bengals,2.3,1.2,0.6,0.9,0.2,0.0,18.8,333.6,7.8,,4,DST
+Chicago Bears,2.1,0.8,0.6,0.8,0.2,0.0,19.0,338.8,7.0,,4,DST
+Los Angeles Rams,2.6,0.9,0.6,0.8,0.2,0.0,23.1,356.1,6.6,,4,DST
+New York Giants,2.3,1.1,0.6,0.9,0.2,0.0,25.0,331.4,6.6,,4,DST
+Miami Dolphins,2.7,0.8,0.6,1.0,0.2,0.1,20.3,349.8,6.6,,4,DST
+Dallas Cowboys,2.4,0.9,0.6,0.9,0.2,0.0,22.1,353.0,6.6,,4,DST
+San Francisco 49ers,3.0,0.7,0.6,0.8,0.1,0.1,24.0,349.6,6.6,,4,DST
+Seattle Seahawks,2.4,0.9,0.7,1.1,0.2,0.0,25.4,363.9,6.5,,4,DST
+Tampa Bay Buccaneers,2.4,0.9,0.6,0.8,0.2,0.0,21.0,332.0,6.5,,4,DST
+Kansas City Chiefs,2.6,0.8,0.6,0.8,0.2,0.0,22.9,361.1,6.4,,4,DST
+Green Bay Packers,1.6,0.9,0.5,0.7,0.2,0.0,19.9,328.5,6.4,,4,DST
+Detroit Lions,2.8,0.9,0.5,0.6,0.1,0.0,22.4,325.8,6.4,,4,DST
+Washington Commanders,2.8,0.8,0.6,0.8,0.1,0.0,22.3,341.3,6.4,,4,DST
+Denver Broncos,2.5,0.8,0.6,0.6,0.2,0.1,22.0,334.9,6.3,,4,DST
+Carolina Panthers,2.5,0.8,0.7,1.2,0.1,0.0,26.1,368.7,6.2,,4,DST
+Atlanta Falcons,2.0,1.0,0.7,1.2,0.2,0.0,23.4,348.4,6.2,,4,DST
+Arizona Cardinals,2.6,0.7,0.7,1.2,0.1,0.0,26.8,365.0,6.2,,4,DST
+Cleveland Browns,2.5,0.8,0.6,0.9,0.1,0.1,24.9,362.3,6.1,,4,DST
+Minnesota Vikings,2.1,0.8,0.6,0.9,0.2,0.0,25.6,384.3,6.0,,4,DST
+Indianapolis Colts,2.3,0.7,0.6,0.9,0.2,0.0,21.7,321.8,5.9,,4,DST
+Baltimore Ravens,2.2,0.8,0.6,1.0,0.2,0.0,21.9,352.3,5.9,,4,DST
+Jacksonville Jaguars,2.3,0.8,0.6,0.9,0.1,0.0,26.1,354.7,5.9,,4,DST
+Las Vegas Raiders,2.1,0.8,0.6,0.9,0.1,0.0,26.5,396.9,5.7,,4,DST
+Los Angeles Chargers,1.9,0.7,0.6,1.0,0.1,0.0,23.6,381.5,5.5,,4,DST
+New York Jets,2.0,0.7,0.6,0.9,0.1,0.0,24.4,358.7,5.4,,4,DST
+New England Patriots,1.8,0.8,0.5,0.7,0.1,0.0,26.3,373.5,5.3,,4,DST
+Houston Texans,1.9,0.7,0.6,0.9,0.1,0.0,30.9,397.8,5.2,,4,DST
+Pittsburgh Steelers,2.1,0.5,0.6,0.9,0.1,0.0,24.6,357.6,5.1,,4,DST
+Philadelphia Eagles,1.9,0.6,0.6,0.9,0.1,0.1,28.6,405.1,5.0,,4,DST

@@ -1,0 +1,33 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,week,position
+Washington Commanders,3.0,0.9,0.7,1.1,0.2,0.0,17.8,313.3,8.3,,2,DST
+Tampa Bay Buccaneers,2.9,0.8,0.6,1.1,0.2,0.0,19.6,335.1,7.8,,2,DST
+New Orleans Saints,2.6,1.1,0.5,0.7,0.2,0.0,19.9,309.8,7.8,,2,DST
+Cleveland Browns,2.9,0.7,0.5,0.9,0.2,0.0,18.1,330.2,7.5,,2,DST
+New England Patriots,2.5,1.0,0.4,0.6,0.1,0.0,14.5,319.8,7.1,,2,DST
+Green Bay Packers,2.0,1.0,0.5,0.7,0.2,0.0,18.4,341.2,7.1,,2,DST
+San Francisco 49ers,3.0,0.9,0.7,1.2,0.2,0.0,22.6,340.1,7.0,,2,DST
+Los Angeles Rams,2.9,0.8,0.6,0.9,0.2,0.1,21.6,304.8,7.0,,2,DST
+Philadelphia Eagles,2.7,0.8,0.7,1.2,0.2,0.0,24.1,363.3,6.6,,2,DST
+Carolina Panthers,2.4,1.0,0.6,1.0,0.2,0.0,24.5,346.0,6.6,,2,DST
+Arizona Cardinals,2.7,0.7,0.7,1.2,0.2,0.1,22.3,360.6,6.5,,2,DST
+New York Giants,2.4,0.9,0.7,1.1,0.1,0.1,22.4,332.5,6.5,,2,DST
+Denver Broncos,2.5,0.9,0.5,0.7,0.2,0.0,20.1,328.8,6.5,,2,DST
+Chicago Bears,2.9,0.7,0.6,1.1,0.1,0.0,20.8,343.8,6.4,,2,DST
+Pittsburgh Steelers,2.4,0.8,0.7,1.4,0.2,0.0,20.6,352.1,6.4,,2,DST
+New York Jets,2.0,0.7,0.4,0.9,0.1,0.0,18.7,351.8,6.2,,2,DST
+Buffalo Bills,2.4,0.9,0.6,0.9,0.2,0.0,22.4,318.0,6.2,,2,DST
+Kansas City Chiefs,2.4,0.8,0.6,0.9,0.2,0.1,25.0,350.9,6.2,,2,DST
+Minnesota Vikings,2.2,0.8,0.6,1.0,0.2,0.0,26.8,384.9,6.1,,2,DST
+Tennessee Titans,2.6,0.7,0.6,0.7,0.1,0.1,27.8,376.9,6.1,,2,DST
+Indianapolis Colts,2.4,0.7,0.6,1.0,0.2,0.0,24.1,372.7,6.0,,2,DST
+Cincinnati Bengals,2.2,0.9,0.5,0.8,0.2,0.0,23.8,337.9,6.0,,2,DST
+Miami Dolphins,2.1,0.8,0.6,1.1,0.1,0.0,24.7,392.2,5.9,,2,DST
+Seattle Seahawks,2.2,0.7,0.6,0.9,0.1,0.0,22.3,359.4,5.6,,2,DST
+Los Angeles Chargers,2.0,0.8,0.5,0.8,0.1,0.0,24.9,391.6,5.6,,2,DST
+Dallas Cowboys,1.9,0.7,0.6,1.2,0.1,0.0,27.6,398.8,5.5,,2,DST
+Jacksonville Jaguars,1.9,0.7,0.6,0.7,0.2,0.0,25.3,381.9,5.4,,2,DST
+Houston Texans,1.8,0.7,0.6,0.8,0.1,0.0,29.1,400.5,5.1,,2,DST
+Baltimore Ravens,1.7,0.6,0.6,1.1,0.1,0.0,26.1,408.2,5.1,,2,DST
+Las Vegas Raiders,1.3,0.8,0.6,0.9,0.1,0.0,26.8,354.4,4.9,,2,DST
+Atlanta Falcons,1.5,0.7,0.6,1.0,0.1,0.0,30.4,399.7,4.8,,2,DST
+Detroit Lions,1.8,0.5,0.6,0.8,0.1,0.0,29.1,393.0,4.6,,2,DST
