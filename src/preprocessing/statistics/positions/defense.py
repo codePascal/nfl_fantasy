@@ -4,7 +4,7 @@ Concatenates weekly defense stats for a whole season.
 import src.preprocessing.statistics.positions.helpers as helpers
 
 
-def get_accumulated_tats_weekly_defense(year):
+def get_accumulated_stats_weekly_defense(year):
     """
     Returns the accumulated weekly defensive stats.
 
