@@ -1,0 +1,545 @@
+player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,rost,team,week,position,opponent,home
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,1,DST,NE,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,1,DST,TEN,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,1,DST,MIN,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,1,DST,ATL,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,1,DST,SF,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,1,DST,LAR,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,1,DST,MIA,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,1,DST,KC,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,1,DST,WAS,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,1,DST,CLE,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,1,DST,NO,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,1,DST,CIN,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,1,DST,DAL,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,1,DST,LV,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,1,DST,ARI,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,1,DST,SEA,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,1,DST,TB,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,1,DST,LAC,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,1,DST,GB,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,1,DST,DET,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,1,DST,CHI,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,1,DST,JAC,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,1,DST,IND,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,1,DST,CAR,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,1,DST,NYG,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,1,DST,PHI,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,1,DST,NYJ,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,1,DST,HOU,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,1,DST,DEN,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,1,DST,BAL,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,1,DST,BUF,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,1,DST,PIT,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,2,DST,TB,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,2,DST,GB,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,2,DST,DET,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,2,DST,ARI,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,2,DST,SEA,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,2,DST,CAR,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,2,DST,LAR,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,2,DST,JAC,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,2,DST,CIN,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,2,DST,CHI,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,2,DST,ATL,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,2,DST,BUF,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,2,DST,NO,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,2,DST,NYG,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,2,DST,MIA,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,2,DST,NE,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,2,DST,LV,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,2,DST,HOU,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,2,DST,LAC,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,2,DST,DEN,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,2,DST,KC,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,2,DST,MIN,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,2,DST,TEN,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,2,DST,IND,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,2,DST,WAS,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,2,DST,BAL,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,2,DST,PIT,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,2,DST,PHI,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,2,DST,SF,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,2,DST,NYJ,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,2,DST,CLE,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,2,DST,DAL,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,3,DST,BUF,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,3,DST,CAR,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,3,DST,LV,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,3,DST,LAR,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,3,DST,TB,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,3,DST,SEA,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,3,DST,SF,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,3,DST,IND,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,3,DST,PHI,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,3,DST,PIT,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,3,DST,TEN,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,3,DST,KC,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,3,DST,WAS,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,3,DST,ATL,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,3,DST,HOU,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,3,DST,CLE,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,3,DST,NO,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,3,DST,NYJ,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,3,DST,BAL,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,3,DST,LAC,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,3,DST,NE,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,3,DST,DET,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,3,DST,GB,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,3,DST,CIN,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,3,DST,CHI,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,3,DST,MIA,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,3,DST,DEN,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,3,DST,DAL,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,3,DST,MIN,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,3,DST,ARI,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,3,DST,JAC,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,3,DST,NYG,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,4,DST,LAR,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,4,DST,NYG,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,4,DST,HOU,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,4,DST,DEN,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,4,DST,ARI,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,4,DST,DAL,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,4,DST,NYJ,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,4,DST,NO,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,4,DST,KC,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,4,DST,BYE,
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,4,DST,BAL,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,4,DST,SEA,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,4,DST,MIN,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,4,DST,LAC,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,4,DST,BUF,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,4,DST,CIN,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,4,DST,CAR,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,4,DST,PIT,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,4,DST,IND,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,4,DST,JAC,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,4,DST,TEN,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,4,DST,BYE,
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,4,DST,CHI,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,4,DST,TB,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,4,DST,SF,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,4,DST,WAS,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,4,DST,MIA,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,4,DST,DET,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,4,DST,ATL,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,4,DST,NE,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,4,DST,LV,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,4,DST,CLE,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,5,DST,SF,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,5,DST,HOU,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,5,DST,MIA,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,5,DST,CAR,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,5,DST,BUF,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,5,DST,ARI,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,5,DST,BYE,
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,5,DST,LV,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,5,DST,NYJ,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,5,DST,DET,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,5,DST,LAC,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,5,DST,PIT,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,5,DST,GB,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,5,DST,BYE,
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,5,DST,CLE,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,5,DST,TEN,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,5,DST,DEN,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,5,DST,BYE,
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,5,DST,BYE,
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,5,DST,CHI,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,5,DST,MIN,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,5,DST,NYG,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,5,DST,PHI,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,5,DST,ATL,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,5,DST,CIN,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,5,DST,NE,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,5,DST,DAL,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,5,DST,IND,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,5,DST,TB,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,5,DST,LAR,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,5,DST,WAS,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,5,DST,BAL,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,6,DST,NYJ,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,6,DST,BYE,
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,6,DST,CLE,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,6,DST,BYE,
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,6,DST,DET,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,6,DST,BUF,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,6,DST,ATL,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,6,DST,DEN,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,6,DST,MIA,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,6,DST,WAS,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,6,DST,KC,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,6,DST,ARI,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,6,DST,BAL,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,6,DST,CAR,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,6,DST,CIN,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,6,DST,PIT,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,6,DST,SEA,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,6,DST,LV,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,6,DST,CHI,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,6,DST,HOU,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,6,DST,IND,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,6,DST,DAL,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,6,DST,LAR,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,6,DST,LAC,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,6,DST,GB,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,6,DST,TEN,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,6,DST,NE,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,6,DST,JAC,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,6,DST,NO,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,6,DST,SF,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,6,DST,NYG,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,6,DST,PHI,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,7,DST,SEA,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,7,DST,PHI,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,7,DST,IND,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,7,DST,SF,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,7,DST,NYG,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,7,DST,TB,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,7,DST,ARI,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,7,DST,ATL,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,7,DST,NE,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,7,DST,MIN,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,7,DST,JAC,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,7,DST,BAL,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,7,DST,LAR,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,7,DST,KC,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,7,DST,PIT,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,7,DST,BUF,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,7,DST,LAC,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,7,DST,NO,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,7,DST,LV,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,7,DST,TEN,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,7,DST,DEN,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,7,DST,CHI,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,7,DST,WAS,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,7,DST,HOU,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,7,DST,BYE,
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,7,DST,CIN,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,7,DST,CLE,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,7,DST,GB,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,7,DST,BYE,
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,7,DST,MIA,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,7,DST,NYJ,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,7,DST,DET,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,8,DST,CAR,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,8,DST,CHI,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,8,DST,JAC,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,8,DST,LV,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,8,DST,BYE,
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,8,DST,BYE,
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,8,DST,NO,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,8,DST,DEN,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,8,DST,BYE,
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,8,DST,DAL,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,8,DST,TB,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,8,DST,CLE,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,8,DST,BYE,
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,8,DST,SEA,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,8,DST,BUF,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,8,DST,BYE,
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,8,DST,GB,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,8,DST,IND,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,8,DST,TEN,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,8,DST,KC,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,8,DST,DET,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,8,DST,ATL,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,8,DST,HOU,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,8,DST,LAC,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,8,DST,PHI,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,8,DST,NYJ,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,8,DST,WAS,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,8,DST,MIN,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,8,DST,ARI,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,8,DST,NE,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,8,DST,BYE,
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,8,DST,CIN,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,9,DST,BYE,
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,9,DST,DET,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,9,DST,LAC,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,9,DST,ATL,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,9,DST,CAR,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,9,DST,NO,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,9,DST,BUF,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,9,DST,TEN,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,9,DST,BAL,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,9,DST,NYG,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,9,DST,DEN,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,9,DST,MIA,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,9,DST,PHI,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,9,DST,SF,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,9,DST,BYE,
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,9,DST,NYJ,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,9,DST,TB,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,9,DST,JAC,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,9,DST,KC,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,9,DST,GB,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,9,DST,BYE,
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,9,DST,IND,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,9,DST,MIN,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,9,DST,LV,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,9,DST,CLE,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,9,DST,DAL,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,9,DST,BYE,
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,9,DST,BYE,
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,9,DST,LAR,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,9,DST,SEA,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,9,DST,PIT,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,9,DST,BYE,
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,10,DST,SF,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,10,DST,WAS,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,10,DST,GB,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,10,DST,CHI,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,10,DST,NYJ,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,10,DST,ARI,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,10,DST,NE,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,10,DST,MIA,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,10,DST,DAL,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,10,DST,ATL,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,10,DST,,
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,10,DST,LAR,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,10,DST,CIN,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,10,DST,DEN,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,10,DST,SEA,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,10,DST,LAC,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,10,DST,PHI,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,10,DST,CAR,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,10,DST,HOU,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,10,DST,BYE,
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,10,DST,JAC,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,10,DST,TEN,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,10,DST,BYE,
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,10,DST,NO,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,10,DST,PIT,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,10,DST,BAL,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,10,DST,NYG,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,10,DST,TB,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,10,DST,KC,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,10,DST,BYE,
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,10,DST,CLE,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,10,DST,MIN,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,11,DST,MIN,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,11,DST,ARI,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,11,DST,IND,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,11,DST,KC,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,11,DST,MIA,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,11,DST,NE,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,11,DST,PHI,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,11,DST,,
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,11,DST,CLE,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,11,DST,SEA,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,11,DST,HOU,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,11,DST,BYE,
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,11,DST,CHI,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,11,DST,CAR,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,11,DST,SF,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,11,DST,LAR,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,11,DST,BYE,
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,11,DST,TB,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,11,DST,DET,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,11,DST,TEN,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,11,DST,LV,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,11,DST,WAS,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,11,DST,JAC,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,11,DST,BYE,
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,11,DST,BAL,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,11,DST,PIT,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,11,DST,BUF,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,11,DST,NYG,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,11,DST,NO,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,11,DST,CIN,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,11,DST,DAL,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,11,DST,GB,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,12,DST,ATL,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,12,DST,DET,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,12,DST,CHI,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,12,DST,SEA,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,12,DST,NO,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,12,DST,MIA,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,12,DST,TB,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,12,DST,HOU,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,12,DST,IND,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,12,DST,GB,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,12,DST,CAR,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,12,DST,NE,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,12,DST,CLE,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,12,DST,LAR,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,12,DST,NYJ,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,12,DST,SF,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,12,DST,ARI,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,12,DST,DEN,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,12,DST,BUF,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,12,DST,PIT,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,12,DST,LAC,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,12,DST,PHI,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,12,DST,MIN,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,12,DST,KC,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,12,DST,WAS,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,12,DST,NYG,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,12,DST,BAL,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,12,DST,TEN,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,12,DST,LV,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,12,DST,JAC,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,12,DST,CIN,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,12,DST,DAL,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,13,DST,WAS,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,13,DST,DAL,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,13,DST,BYE,
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,13,DST,LAC,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,13,DST,NE,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,13,DST,CHI,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,13,DST,CAR,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,13,DST,TB,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,13,DST,NYG,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,13,DST,CIN,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,13,DST,BUF,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,13,DST,IND,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,13,DST,PIT,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,13,DST,DET,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,13,DST,LAR,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,13,DST,BAL,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,13,DST,KC,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,13,DST,ATL,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,13,DST,DEN,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,13,DST,NYJ,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,13,DST,GB,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,13,DST,HOU,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,13,DST,NO,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,13,DST,JAC,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,13,DST,MIN,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,13,DST,BYE,
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,13,DST,PHI,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,13,DST,SF,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,13,DST,SEA,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,13,DST,LV,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,13,DST,MIA,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,13,DST,ARI,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,14,DST,MIA,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,14,DST,JAC,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,14,DST,DEN,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,14,DST,NO,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,14,DST,ATL,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,14,DST,NYJ,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,14,DST,GB,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,14,DST,CAR,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,14,DST,BUF,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,14,DST,WAS,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,14,DST,KC,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,14,DST,SF,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,14,DST,DAL,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,14,DST,TB,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,14,DST,BAL,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,14,DST,ARI,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,14,DST,LAR,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,14,DST,LV,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,14,DST,MIN,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,14,DST,HOU,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,14,DST,IND,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,14,DST,SEA,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,14,DST,CHI,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,14,DST,TEN,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,14,DST,NYG,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,14,DST,CIN,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,14,DST,CLE,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,14,DST,DET,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,14,DST,LAC,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,14,DST,PIT,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,14,DST,NE,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,14,DST,PHI,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,15,DST,NO,True
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,15,DST,IND,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,15,DST,KC,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,15,DST,DAL,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,15,DST,SEA,False
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,15,DST,ATL,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,15,DST,LAR,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,15,DST,LV,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,15,DST,CIN,False
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,15,DST,BAL,False
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,15,DST,LAC,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,15,DST,MIA,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,15,DST,DET,True
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,15,DST,ARI,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,15,DST,DEN,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,15,DST,NYJ,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,15,DST,SF,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,15,DST,TEN,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,15,DST,HOU,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,15,DST,MIN,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,15,DST,JAC,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,15,DST,CHI,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,15,DST,NYG,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,15,DST,NE,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,15,DST,TB,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,15,DST,BUF,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,15,DST,PIT,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,15,DST,GB,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,15,DST,WAS,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,15,DST,CLE,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,15,DST,PHI,True
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,15,DST,CAR,True
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,16,DST,SEA,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,16,DST,GB,False
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,16,DST,JAC,False
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,16,DST,NO,False
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,16,DST,SF,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,16,DST,LAR,False
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,16,DST,ARI,True
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,16,DST,CLE,False
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,16,DST,BAL,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,16,DST,NYG,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,16,DST,IND,True
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,16,DST,NE,False
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,16,DST,PHI,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,16,DST,TB,True
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,16,DST,NYJ,True
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,16,DST,BUF,False
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,16,DST,CAR,False
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,16,DST,DEN,True
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,16,DST,TEN,True
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,16,DST,LV,False
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,16,DST,CIN,True
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,16,DST,MIN,True
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,16,DST,DAL,False
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,16,DST,KC,False
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,16,DST,DET,True
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,16,DST,LAC,True
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,16,DST,HOU,False
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,16,DST,WAS,True
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,16,DST,ATL,True
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,16,DST,MIA,True
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,16,DST,PIT,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,16,DST,CHI,False
+Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,60.9,ARI,17,DST,LAR,False
+Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,28.0,MIN,17,DST,CHI,True
+Tennessee Titans,0,0,0,0,0,0,0,0,0.0,48.4,TEN,17,DST,HOU,True
+Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,98.0,TB,17,DST,CAR,True
+Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,74.5,LAR,17,DST,ARI,True
+San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,79.5,SF,17,DST,SEA,True
+Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,39.4,SEA,17,DST,SF,False
+Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,44.3,LAC,17,DST,KC,True
+Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,44.6,PIT,17,DST,CLE,True
+Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,52.5,PHI,17,DST,DAL,True
+Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,7.6,LV,17,DST,DEN,False
+New York Jets,0,0,0,0,0,0,0,0,0.0,3.3,NYJ,17,DST,BUF,True
+New York Giants,0,0,0,0,0,0,0,0,0.0,4.5,NYG,17,DST,WAS,False
+New Orleans Saints,0,0,0,0,0,0,0,0,0.0,79.3,NO,17,DST,ATL,False
+New England Patriots,0,0,0,0,0,0,0,0,0.0,93.2,NE,17,DST,MIA,False
+Miami Dolphins,0,0,0,0,0,0,0,0,0.0,60.2,MIA,17,DST,NE,True
+Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,5.8,ATL,17,DST,NO,True
+Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,45.7,KC,17,DST,LAC,False
+Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,6.9,JAC,17,DST,IND,False
+Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,66.4,IND,17,DST,JAC,True
+Houston Texans,0,0,0,0,0,0,0,0,0.0,6.4,HOU,17,DST,TEN,False
+Green Bay Packers,0,0,0,0,0,0,0,0,0.0,60.6,GB,17,DST,DET,False
+Detroit Lions,0,0,0,0,0,0,0,0,0.0,1.1,DET,17,DST,GB,True
+Denver Broncos,0,0,0,0,0,0,0,0,0.0,48.5,DEN,17,DST,LV,True
+Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,82.9,DAL,17,DST,PHI,False
+Cleveland Browns,0,0,0,0,0,0,0,0,0.0,40.8,CLE,17,DST,PIT,False
+Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,14.7,CIN,17,DST,BAL,True
+Chicago Bears,0,0,0,0,0,0,0,0,0.0,35.9,CHI,17,DST,MIN,False
+Carolina Panthers,0,0,0,0,0,0,0,0,0.0,27.8,CAR,17,DST,TB,False
+Buffalo Bills,0,0,0,0,0,0,0,0,0.0,95.9,BUF,17,DST,NYJ,False
+Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,51.9,BAL,17,DST,CIN,False
+Washington Commanders,0,0,0,0,0,0,0,0,0.0,27.5,WAS,17,DST,NYG,True
