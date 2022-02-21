@@ -5,11 +5,15 @@ performance as these players will often regress towards the mean or
 average the following year.
 """
 import argparse
+import os
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 import seaborn as sns
 import tqdm
+
+import src.preprocessing.playbyplay.playbyplay as pbp
+import src.preprocessing.statistics.statistics as stats
 
 sns.set_style("whitegrid")
 
@@ -29,20 +33,25 @@ if __name__ == "__main__":
     parser.add_argument("position", type=str)
     args = parser.parse_args()
 
+    # weeks
+    weeks = 18
+
     # status
     print(f"TD regression analysis for {args.play} {args.position} in season {args.year}.")
 
-    # calculate probability of scoring a touchdown depending on
-    # distance to endzone based on historical play-by-play raw
-    chunks = pd.read_csv("../preprocessed/play-by-play/pbp_1999to2021.csv", iterator=True, low_memory=False,
-                         chunksize=10000)
-
-    # concat only necessary columns to dataframe
-    df_prob = pd.DataFrame()
-    for chunk in tqdm.tqdm(chunks):
-        chunk = chunk.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown", "yardline_100",
+    # load historical play-by-play data
+    if not os.path.exists(f"../preprocessed/play-by-play/pbp_1999to{args.year}.csv"):
+        df_prob = pbp.concat_playbyplay_data((1999, args.year))
+        df_prob = df_prob.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown", "yardline_100",
                               "two_point_attempt", "year"]]
-        df_prob = pd.concat([df_prob, chunk])
+    else:
+        df_prob = pd.DataFrame()
+        chunks = pd.read_csv(f"../preprocessed/play-by-play/pbp_1999to{args.year}.csv", iterator=True, low_memory=False,
+                             chunksize=10000)
+        for chunk in tqdm.tqdm(chunks):
+            chunk = chunk.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown", "yardline_100",
+                                  "two_point_attempt", "year"]]
+            df_prob = pd.concat([df_prob, chunk])
 
     # select data from previous years
     df_prob = df_prob.loc[(df_prob["year"] < args.year)]
@@ -72,12 +81,15 @@ if __name__ == "__main__":
     df_prob.plot(x="yardline_100", y="probability_of_touchdown", title=f"Probability for {args.play}ing TD")
     plt.savefig(f"../reports/td_regression_candidates/touchdown_probability_{args.play}.png")
 
-    # load latest play-by-play data
-    chunks = pd.read_csv(f"../raw/play-by-play/play_by_play_{args.year}.csv", iterator=True, low_memory=False,
-                         chunksize=10000, index_col=0)
-    df_train = pd.DataFrame()
-    for chunk in tqdm.tqdm(chunks):
-        df_train = pd.concat([df_train, chunk])
+    # load play-by-play data for defined year
+    if not os.path.exists(f"../raw/play-by-play/play_by_play_{args.year}.csv"):
+        df_train = pbp.get_playbyplay_data(args.year)
+    else:
+        df_train = pd.DataFrame()
+        chunks = pd.read_csv(f"../raw/play-by-play/play_by_play_{args.year}.csv", iterator=True, low_memory=False,
+                             chunksize=10000, index_col=0)
+        for chunk in tqdm.tqdm(chunks):
+            df_train = pd.concat([df_train, chunk])
 
     # get player, team and distance to endzone
     if args.play == "pass":
@@ -103,11 +115,14 @@ if __name__ == "__main__":
     data["Expected touchdowns rank"] = data["Expected touchdowns"].rank(ascending=False)
 
     # load final stats
-    chunks = pd.read_csv(f"../preprocessed/stats/offense_summary_{args.year}.csv", iterator=True, low_memory=False,
-                         chunksize=10000)
-    df = pd.DataFrame()
-    for chunk in tqdm.tqdm(chunks):
-        df = pd.concat([df, chunk])
+    if not os.path.exists(f"../preprocessed/stats/offense_summary_{args.year}.csv"):
+        df = stats.concat_offense_stats(args.year, weeks)
+    else:
+        df = pd.DataFrame()
+        chunks = pd.read_csv(f"../preprocessed/stats/offense_summary_{args.year}.csv", iterator=True, low_memory=False,
+                             chunksize=10000)
+        for chunk in tqdm.tqdm(chunks):
+            df = pd.concat([df, chunk])
 
     # get only defined position
     df_actual = df.loc[(df["position"] == args.position)]

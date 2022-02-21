@@ -6,12 +6,14 @@ it consistently produces fantasy points.
 The games are rated based on the average points scored of the top
 players per week on this position over the last recent years.
 """
+import os
 import matplotlib.pyplot as plt
 import matplotlib.patches as mp
 import numpy as np
 import pandas as pd
 import scipy.stats
-import tqdm
+
+import src.preprocessing.statistics.statistics as stats
 
 SNAPS_THRESHOLD = 30
 
@@ -22,32 +24,41 @@ position_map = {
     "TE": 3
 }
 
+week_mapping = {
+    2021: 18,
+    2020: 17,
+    2019: 17,
+    2018: 17,
+    2017: 17,
+    2016: 17
+}
+
 if __name__ == "__main__":
     # load the stats of the recent years
     df = pd.DataFrame()
     yearly = pd.DataFrame()
     for year in range(2016, 2021 + 1):
-        chunks = pd.read_csv(f"../preprocessed/stats/offense_summary_{year}.csv", iterator=True, low_memory=False,
-                             chunksize=10000)
+        # load summary of offense
+        if not os.path.exists(f"../preprocessed/stats/offense_summary_{year}.csv"):
+            yearly = stats.concat_offense_stats(year, week_mapping[year])
+        else:
+            yearly = pd.read_csv(f"../preprocessed/stats/offense_summary_{year}.csv")
 
-        # concat the years
-        for chunk in tqdm.tqdm(chunks):
-            # get necessary data
-            chunk = chunk.loc[:, ["position", "fantasy_points", "snaps_percent", "week"]]
+        # get necessary data
+        yearly = yearly.loc[:, ["position", "fantasy_points", "snaps_percent", "week"]]
 
-            # select only relevant positions
-            chunk = chunk[chunk["position"].isin(list(position_map.keys()))]
+        # select only relevant positions
+        yearly = yearly[yearly["position"].isin(list(position_map.keys()))]
 
-            # use only if player saw snaps during the game
-            chunk = chunk.loc[(chunk["snaps_percent"] > SNAPS_THRESHOLD)]
-            chunk.drop(["snaps_percent"], axis=1, inplace=True)
+        # use only if player saw snaps during the game
+        yearly = yearly.loc[(yearly["snaps_percent"] > SNAPS_THRESHOLD)]
+        yearly.drop(["snaps_percent"], axis=1, inplace=True)
 
-            # drop players that have no fantasy points record
-            chunk.dropna(subset=["fantasy_points"], inplace=True)
+        # drop players that have no fantasy points record
+        yearly.dropna(subset=["fantasy_points"], inplace=True)
 
-            # add the year
-            chunk["year"] = year
-            yearly = pd.concat([yearly, chunk])
+        # add the year
+        yearly["year"] = year
 
         # concat to dataframe
         df = pd.concat([df, yearly])
@@ -76,7 +87,11 @@ if __name__ == "__main__":
     plt.savefig("../reports/game_rating/scoring_distribution_2016to2021.png")
 
     # load stats from the latest season
-    df = pd.read_csv("../preprocessed/stats/offense_summary_2021.csv")
+    # load summary of offense
+    if not os.path.exists(f"../preprocessed/stats/offense_summary_2021.csv"):
+        df = stats.concat_offense_stats(2021, week_mapping[2021])
+    else:
+        df = pd.read_csv(f"../preprocessed/stats/offense_summary_2021.csv")
     df = df.loc[:, ["player", "position", "fantasy_points", "team", "opponent", "snaps_percent"]]
     df = df[df["position"].isin(list(position_map.keys()))]
 
