@@ -48,7 +48,12 @@ def concat_offense_stats(year):
     stats.drop(["fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
 
     # merge stats with schedule
-    return pd.merge(stats, schedule.get_schedule(year), how="outer", on=["week", "team"])
+    season = pd.merge(stats, schedule.get_schedule(year), how="outer", on=["week", "team"])
+
+    # add year
+    season["year"] = year
+
+    return season
 
 
 def get_offense_stats_summary(year):

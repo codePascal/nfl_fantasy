@@ -26,7 +26,12 @@ def concat_kicker_stats(year):
                       on=["team", "week"])
 
     # drop unnecessary columns
-    return season.drop(["fantasy_points_per_game"], axis=1)
+    season.drop(["fantasy_points_per_game"], axis=1, inplace=True)
+
+    # add year
+    season["year"] = year
+
+    return season
 
 
 def get_kicker_stats_summary(year):
