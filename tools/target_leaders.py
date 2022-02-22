@@ -7,23 +7,17 @@ touchdown
 """
 import matplotlib.pyplot as plt
 import matplotlib.patches as mp
-import os
 import numpy as np
-import pandas as pd
 
-import src.preprocessing.statistics.statistics as stats
+import src.preprocessing.statistics.summary.offense as offense
 
 
 if __name__ == "__main__":
     # year
-    year = 2020
-    weeks = 17
+    year = 2021
 
     # load summary of offense
-    if not os.path.exists(f"../preprocessed/stats/offense_summary_{year}.csv"):
-        df = stats.concat_offense_stats(year, weeks)
-    else:
-        df = pd.read_csv(f"../preprocessed/stats/offense_summary_{year}.csv")
+    df = offense.get_offense_stats_summary(year)
 
     # extract player, week and receiving targets
     df = df.loc[:, ["player", "week", "team", "games", "receiving_tgt", "position"]]
