@@ -6,6 +6,7 @@ summarized per position and are available for each week.
 import os
 import pandas as pd
 
+import config.mapping as mapping
 import src.loader.loader as loader
 
 # check which year is currently presented on webpage
@@ -150,11 +151,10 @@ def get_team(player):
     :return: players team
     :rtype: str
     """
-    # TODO Fixme
-    last_team = player["player"].split()[-1]
-    for i in range(1, len(last_team)):
-        if last_team[i].isupper():
-            return last_team[i:]
+    for subname in player["player"].split():
+        for team in mapping.teams:
+            if team in subname:
+                return team
 
 
 def get_url_projections(position, week):
@@ -192,8 +192,12 @@ def transform_name(name):
     :return: player name only
     :rtype: str
     """
-    # TODO Fixme
-    return name.split('(')[0]
+    to_drop = ""
+    for subname in name.split():
+        for team in mapping.teams:
+            if team in subname:
+                to_drop = team
+    return name.replace(to_drop, "")
 
 
 if __name__ == "__main__":
