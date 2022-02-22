@@ -1,153 +1,155 @@
 player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,week,position
-Justin JeffersonMIN,6.9,104.9,0.7,0.4,2.3,0.0,0.1,15.0,MIN,14,WR
-Davante AdamsGB,7.8,102.1,0.8,0.0,0.0,0.0,0.1,14.8,GB,14,WR
-Cooper KuppLAR,8.0,100.3,0.7,0.1,0.3,0.0,0.1,14.1,LAR,14,WR
-Deebo SamuelSF,4.6,67.8,0.5,3.2,24.3,0.2,0.1,13.3,SF,14,WR
-Tyreek HillKC,6.5,81.0,0.7,0.8,5.0,0.0,0.1,12.8,KC,14,WR
-Stefon DiggsBUF,6.9,85.3,0.7,0.0,0.2,0.0,0.1,12.4,BUF,14,WR
-Diontae JohnsonPIT,6.7,81.8,0.6,0.2,1.8,0.0,0.1,11.7,PIT,14,WR
-Chris GodwinTB,6.7,77.2,0.5,0.3,2.1,0.0,0.1,11.3,TB,14,WR
-Cordarrelle PattersonATL,3.0,33.4,0.2,9.9,43.8,0.4,0.1,11.1,ATL,14,WR
-CeeDee LambDAL,5.5,74.8,0.5,0.6,3.5,0.0,0.1,11.0,DAL,14,WR
-Mike WilliamsLAC,5.5,76.0,0.6,0.0,0.0,0.0,0.0,11.0,LAC,14,WR
-Hunter RenfrowLV,6.9,78.2,0.5,0.1,0.4,0.0,0.1,10.5,LV,14,WR
-Mike EvansTB,5.0,67.8,0.6,0.0,0.2,0.0,0.0,10.4,TB,14,WR
-DeAndre HopkinsARI,5.3,68.1,0.6,0.0,0.1,0.0,0.1,10.3,ARI,14,WR
-DJ MooreCAR,5.4,72.5,0.5,0.4,2.2,0.0,0.1,10.3,CAR,14,WR
-Tee HigginsCIN,5.5,70.5,0.5,0.1,0.4,0.0,0.1,10.2,CIN,14,WR
-Tyler LockettSEA,5.1,70.5,0.5,0.0,0.0,0.0,0.1,10.2,SEA,14,WR
-Terry McLaurinWAS,5.6,73.5,0.5,0.1,0.3,0.0,0.1,10.2,LaurinWAS,14,WR
-D.K. MetcalfSEA,4.4,64.1,0.6,0.0,0.1,0.0,0.0,9.8,SEA,14,WR
-Brandin CooksHOU,5.7,71.9,0.4,0.3,2.0,0.0,0.1,9.8,HOU,14,WR
-Amari CooperDAL,5.0,66.3,0.5,0.1,0.1,0.0,0.1,9.7,DAL,14,WR
-Ja'Marr ChaseCIN,4.9,69.7,0.4,0.5,2.2,0.0,0.1,9.6,CIN,14,WR
-Jarvis LandryCLE,4.9,63.5,0.4,0.5,3.3,0.0,0.1,9.3,CLE,14,WR
-Julio JonesTEN,4.3,64.0,0.4,0.0,0.0,0.0,0.0,9.0,TEN,14,WR
-Darnell MooneyCHI,4.6,62.5,0.4,0.2,1.1,0.0,0.0,8.9,CHI,14,WR
-Marquise BrownBAL,5.4,68.4,0.3,0.1,0.2,0.0,0.1,8.8,BAL,14,WR
-Jerry JeudyDEN,4.3,58.2,0.4,0.2,0.8,0.0,0.0,8.3,DEN,14,WR
-Odell Beckham Jr.LAR,3.8,52.4,0.4,0.2,1.3,0.0,0.0,8.0,LAR,14,WR
-Chase ClaypoolPIT,3.9,57.2,0.2,1.0,5.8,0.0,0.0,7.8,PIT,14,WR
-Jamison CrowderNYJ,4.7,53.8,0.4,0.0,0.1,0.0,0.1,7.7,NYJ,14,WR
-Brandon AiyukSF,4.3,56.4,0.3,0.5,2.6,0.0,0.1,7.6,SF,14,WR
-Michael GallupDAL,3.8,53.7,0.3,0.0,0.0,0.0,0.0,7.0,DAL,14,WR
-Van JeffersonLAR,4.2,53.7,0.3,0.0,0.0,0.0,0.0,7.0,LAR,14,WR
-Marquez Valdes-ScantlingGB,3.0,50.8,0.3,0.1,0.4,0.0,0.0,6.7,ScantlingGB,14,WR
-Cole BeasleyBUF,5.1,52.2,0.3,0.0,0.0,0.0,0.0,6.7,BUF,14,WR
-Russell GageATL,4.9,53.4,0.2,0.1,0.2,0.0,0.0,6.6,ATL,14,WR
-Courtland SuttonDEN,3.6,52.1,0.2,0.0,0.1,0.0,0.0,6.5,DEN,14,WR
-Marvin Jones Jr.JAC,3.9,50.4,0.2,0.0,0.0,0.0,0.0,6.5,JAC,14,WR
-Kenny GolladayNYG,3.8,53.6,0.2,0.0,0.0,0.0,0.0,6.4,NYG,14,WR
-Amon-Ra St. BrownDET,5.0,52.5,0.2,0.2,1.1,0.0,0.0,6.4,DET,14,WR
-Sterling ShepardNYG,5.1,51.6,0.2,0.1,1.0,0.0,0.1,6.4,NYG,14,WR
-Emmanuel SandersBUF,3.9,47.4,0.2,0.1,0.7,0.0,0.0,6.2,BUF,14,WR
-K.J. OsbornMIN,3.9,47.5,0.2,0.1,0.2,0.0,0.0,6.2,MIN,14,WR
-Tre'Quan SmithNO,3.2,44.5,0.3,0.0,0.1,0.0,0.0,6.1,NO,14,WR
-Christian KirkARI,3.7,46.0,0.2,0.1,0.6,0.0,0.0,6.0,ARI,14,WR
-Josh ReynoldsDET,3.9,50.2,0.2,0.0,0.1,0.0,0.0,6.0,DET,14,WR
-Allen Robinson IICHI,3.8,47.1,0.2,0.0,0.0,0.0,0.0,5.9,ICHI,14,WR
-Tyler BoydCIN,4.2,44.9,0.2,0.1,0.7,0.0,0.1,5.8,CIN,14,WR
-Tim PatrickDEN,3.1,42.9,0.3,0.0,0.0,0.0,0.0,5.8,DEN,14,WR
-Laviska Shenault Jr.JAC,4.2,42.5,0.2,1.1,4.8,0.0,0.1,5.7,JAC,14,WR
-Donovan Peoples-JonesCLE,2.7,43.2,0.2,0.0,0.0,0.0,0.0,5.7,JonesCLE,14,WR
-Jalen GuytonLAC,3.1,43.4,0.2,0.3,1.3,0.0,0.0,5.7,LAC,14,WR
-Robby AndersonCAR,3.8,42.7,0.2,0.1,0.4,0.0,0.0,5.6,CAR,14,WR
-Bryan EdwardsLV,2.9,43.3,0.2,0.0,0.1,0.0,0.0,5.3,LV,14,WR
-Marquez CallawayNO,2.7,39.1,0.2,0.0,0.0,0.0,0.0,5.2,NO,14,WR
-Allen LazardGB,2.8,35.5,0.3,0.1,0.2,0.0,0.0,5.1,GB,14,WR
-A.J. GreenARI,2.8,39.5,0.2,0.0,0.0,0.0,0.0,5.1,ARI,14,WR
-Nick Westbrook-IkhineTEN,3.0,36.2,0.2,0.0,0.1,0.0,0.0,5.0,IkhineTEN,14,WR
-Kalif RaymondDET,3.0,39.0,0.1,0.1,0.2,0.0,0.0,4.8,DET,14,WR
-Laquon TreadwellJAC,3.1,37.9,0.1,0.0,0.1,0.0,0.0,4.4,JAC,14,WR
-DeSean JacksonLV,2.0,35.8,0.1,0.1,0.6,0.0,0.0,4.4,LV,14,WR
-Olamide ZaccheausATL,2.5,31.9,0.2,0.1,0.1,0.0,0.0,4.3,ATL,14,WR
-Darius SlaytonNYG,2.7,33.9,0.2,0.1,0.1,0.0,0.0,4.3,NYG,14,WR
-DeAndre CarterWAS,2.6,33.2,0.1,0.3,2.0,0.0,0.0,4.3,WAS,14,WR
-Joshua PalmerLAC,2.8,32.5,0.2,0.0,0.4,0.0,0.0,4.2,LAC,14,WR
-Rondale MooreARI,2.7,27.7,0.1,0.9,4.9,0.0,0.0,4.2,ARI,14,WR
-Curtis SamuelWAS,2.1,24.3,0.1,1.2,6.8,0.1,0.0,4.2,WAS,14,WR
-Rashod BatemanBAL,2.7,35.0,0.1,0.0,0.2,0.0,0.0,4.2,BAL,14,WR
-Keelan Cole Sr.NYJ,2.3,34.0,0.1,0.0,0.0,0.0,0.0,4.2,NYJ,14,WR
-Rashard HigginsCLE,2.0,31.0,0.2,0.0,0.0,0.0,0.0,4.2,CLE,14,WR
-Sammy WatkinsBAL,2.6,34.1,0.1,0.0,0.2,0.0,0.0,4.1,BAL,14,WR
-Nico CollinsHOU,2.9,33.8,0.1,0.0,0.2,0.0,0.0,4.0,HOU,14,WR
-Braxton BerriosNYJ,2.5,30.5,0.1,0.1,0.7,0.0,0.0,3.9,NYJ,14,WR
-Zay JonesLV,2.4,30.3,0.1,0.1,0.3,0.0,0.0,3.8,LV,14,WR
-Cody HollisterTEN,2.3,28.1,0.2,0.0,0.2,0.0,0.0,3.7,TEN,14,WR
-Mecole HardmanKC,2.1,26.4,0.1,0.3,1.9,0.0,0.0,3.6,KC,14,WR
-Byron PringleKC,2.2,28.1,0.1,0.0,0.0,0.0,0.0,3.6,KC,14,WR
-Denzel MimsNYJ,2.1,28.8,0.1,0.0,0.0,0.0,0.0,3.6,NYJ,14,WR
-Gabriel DavisBUF,1.6,23.8,0.2,0.0,0.0,0.0,0.0,3.5,BUF,14,WR
-Adam HumphriesWAS,2.5,27.5,0.1,0.0,0.1,0.0,0.0,3.4,WAS,14,WR
-Tajae SharpeATL,2.2,26.6,0.1,0.0,0.0,0.0,0.0,3.3,ATL,14,WR
-Chris ConleyHOU,2.0,27.9,0.1,0.0,0.0,0.0,0.0,3.3,HOU,14,WR
-Breshad PerrimanTB,1.6,22.9,0.2,0.1,0.2,0.0,0.0,3.3,TB,14,WR
-Chester RogersTEN,2.0,23.7,0.1,0.0,0.3,0.0,0.0,3.1,TEN,14,WR
-Kenny StillsNO,1.6,22.9,0.1,0.0,0.1,0.0,0.0,3.1,NO,14,WR
-Juwan JohnsonNO,1.5,18.0,0.2,0.0,0.0,0.0,0.0,3.0,NO,14,WR
-Dede WestbrookMIN,2.0,20.6,0.2,0.0,0.0,0.0,0.0,3.0,MIN,14,WR
-Dez FitzpatrickTEN,2.3,26.5,0.1,0.0,0.0,0.0,0.0,3.0,TEN,14,WR
-Ray-Ray McCloudPIT,1.8,18.8,0.1,0.5,2.5,0.0,0.0,2.8,CloudPIT,14,WR
-Brandon ZylstraCAR,1.5,19.1,0.1,0.0,0.0,0.0,0.0,2.7,CAR,14,WR
-Cedrick Wilson Jr.DAL,1.5,18.6,0.1,0.1,0.2,0.0,0.0,2.6,DAL,14,WR
-Demarcus RobinsonKC,1.5,18.8,0.1,0.0,0.0,0.0,0.0,2.6,KC,14,WR
-Devin DuvernayBAL,1.6,17.4,0.1,0.2,1.3,0.0,0.0,2.5,BAL,14,WR
-James WashingtonPIT,1.4,18.8,0.1,0.1,0.4,0.0,0.0,2.5,PIT,14,WR
-Freddie SwainSEA,1.4,17.0,0.1,0.1,0.8,0.0,0.0,2.4,SEA,14,WR
-Davion DavisHOU,1.6,18.4,0.1,0.0,0.0,0.0,0.0,2.3,HOU,14,WR
-Jauan JenningsSF,1.4,18.5,0.1,0.0,0.1,0.0,0.0,2.3,SF,14,WR
-Terrace Marshall Jr.CAR,1.5,17.0,0.1,0.0,0.1,0.0,0.0,2.3,CAR,14,WR
-Josh GordonKC,1.1,16.2,0.1,0.0,0.1,0.0,0.0,2.2,KC,14,WR
-Damiere ByrdCHI,1.4,18.2,0.1,0.0,0.0,0.0,0.0,2.2,CHI,14,WR
-Lil'Jordan HumphreyNO,1.3,15.0,0.1,0.0,0.0,0.0,0.0,2.1,NO,14,WR
-Tyler JohnsonTB,1.5,16.5,0.1,0.0,0.1,0.0,0.0,2.1,TB,14,WR
-Ben SkowronekLAR,1.2,13.6,0.1,0.0,0.1,0.0,0.0,2.1,LAR,14,WR
-Tavon AustinJAC,1.3,14.4,0.1,0.0,0.2,0.0,0.1,2.0,JAC,14,WR
-D'Wayne EskridgeSEA,1.1,13.8,0.1,0.2,1.8,0.0,0.0,2.0,SEA,14,WR
-John RossNYG,1.0,14.5,0.1,0.1,1.1,0.0,0.0,2.0,NYG,14,WR
-Shi SmithCAR,1.3,13.0,0.1,0.0,0.0,0.0,0.0,1.9,CAR,14,WR
-Isaiah McKenzieBUF,0.7,6.7,0.1,0.8,4.5,0.0,0.0,1.7,KenzieBUF,14,WR
-Equanimeous St. BrownGB,0.9,12.2,0.1,0.0,0.4,0.0,0.0,1.7,GB,14,WR
-Dyami BrownWAS,1.0,13.1,0.1,0.1,0.1,0.0,0.0,1.7,WAS,14,WR
-Trent SherfieldSF,1.0,11.4,0.1,0.0,0.0,0.0,0.0,1.6,SF,14,WR
-Kendall HintonDEN,0.9,11.6,0.1,0.1,0.4,0.0,0.0,1.5,DEN,14,WR
-Kevin WhiteNO,0.7,11.1,0.1,0.0,0.1,0.0,0.0,1.5,NO,14,WR
-Jason Moore Jr.LAC,0.9,10.1,0.1,0.0,0.0,0.0,0.0,1.4,LAC,14,WR
-KhaDarel HodgeDET,0.9,10.8,0.0,0.0,0.0,0.0,0.0,1.4,DET,14,WR
-Jaydon MickensJAC,0.9,10.8,0.0,0.0,0.1,0.0,0.0,1.4,JAC,14,WR
-Antoine WesleyARI,0.7,8.5,0.1,0.0,0.0,0.0,0.0,1.3,ARI,14,WR
-Marquez StevensonBUF,0.6,8.3,0.1,0.0,0.3,0.0,0.0,1.3,BUF,14,WR
-Jeff SmithNYJ,0.7,8.9,0.0,0.0,0.0,0.0,0.0,1.1,NYJ,14,WR
-Andre RobertsLAC,0.7,9.6,0.0,0.1,0.8,0.0,0.1,1.1,LAC,14,WR
-Mohamed Sanu Sr.SF,1.0,11.0,0.0,0.0,0.0,0.0,0.0,1.1,SF,14,WR
-Ihmir Smith-MarsetteMIN,0.7,8.0,0.0,0.0,0.1,0.0,0.0,1.0,MarsetteMIN,14,WR
-Racey McMathTEN,0.5,7.6,0.0,0.0,0.2,0.0,0.0,1.0,MathTEN,14,WR
-Cam SimsWAS,0.6,7.5,0.0,0.0,0.3,0.0,0.0,1.0,WAS,14,WR
-Dan ChisenaMIN,0.6,7.8,0.0,0.0,0.1,0.0,0.0,1.0,MIN,14,WR
-D.J. MontgomeryNYJ,0.6,7.6,0.0,0.0,0.2,0.0,0.0,1.0,NYJ,14,WR
-Phillip Dorsett IIHOU,0.6,8.3,0.0,0.0,0.2,0.0,0.0,1.0,IHOU,14,WR
-Malik TurnerDAL,0.6,7.4,0.0,0.0,0.0,0.0,0.0,1.0,DAL,14,WR
-Mike ThomasCIN,0.5,7.1,0.0,0.0,0.0,0.0,0.0,1.0,CIN,14,WR
-Chris MooreHOU,0.9,9.0,0.0,0.0,0.0,0.0,0.0,0.9,HOU,14,WR
-Vyncint SmithTB,0.5,6.9,0.0,0.0,0.1,0.0,0.0,0.9,TB,14,WR
-Tom KennedyDET,0.6,7.2,0.0,0.0,0.0,0.0,0.0,0.9,DET,14,WR
-Tyron JohnsonLV,0.5,6.8,0.0,0.0,0.2,0.0,0.0,0.9,LV,14,WR
-Jaelon DardenTB,0.3,4.8,0.0,0.0,0.5,0.0,0.0,0.6,TB,14,WR
-Penny HartSEA,0.4,4.8,0.0,0.1,0.0,0.0,0.0,0.6,SEA,14,WR
-Scotty MillerTB,0.5,6.0,0.0,0.0,0.0,0.0,0.0,0.6,TB,14,WR
-Malik TaylorGB,0.3,4.2,0.0,0.0,0.2,0.0,0.0,0.6,GB,14,WR
-Frank DarbyATL,0.3,4.0,0.0,0.0,0.1,0.0,0.0,0.5,ATL,14,WR
-Stanley Morgan Jr.CIN,0.3,4.0,0.0,0.0,0.1,0.0,0.0,0.5,CIN,14,WR
-Pooka Williams Jr.CIN,0.2,2.0,0.0,0.7,3.0,0.0,0.0,0.5,CIN,14,WR
-Marcus KempKC,0.2,3.2,0.0,0.0,0.1,0.0,0.0,0.4,KC,14,WR
-James Proche IIBAL,0.2,3.1,0.0,0.0,0.1,0.0,0.0,0.3,IBAL,14,WR
-Tylan WallaceBAL,0.2,2.8,0.0,0.0,0.1,0.0,0.0,0.3,BAL,14,WR
-Amari RodgersGB,0.2,2.6,0.0,0.0,0.1,0.0,0.0,0.3,GB,14,WR
-Travis BenjaminSF,0.2,2.8,0.0,0.0,0.1,0.0,0.0,0.3,SF,14,WR
-Dillon StonerLV,0.2,3.0,0.0,0.0,0.0,0.0,0.0,0.3,LV,14,WR
-Alex EricksonCAR,0.2,2.2,0.0,0.1,0.2,0.0,0.0,0.3,CAR,14,WR
-Diontae SpencerDEN,0.1,1.8,0.0,0.1,0.9,0.0,0.0,0.3,DEN,14,WR
-Christian BlakeATL,0.2,1.8,0.0,0.0,0.0,0.0,0.0,0.2,ATL,14,WR
-Jake KumerowBUF,0.1,2.0,0.0,0.0,0.0,0.0,0.0,0.2,BUF,14,WR
-Trenton IrwinCIN,0.2,2.0,0.0,0.0,0.0,0.0,0.0,0.2,CIN,14,WR
-Matt ColeSEA,0.3,2.0,0.0,0.0,0.0,0.0,0.0,0.2,SEA,14,WR
+Justin Jefferson,6.9,104.9,0.7,0.4,2.3,0.0,0.1,15.0,MIN,14,WR
+Davante Adams,7.8,102.1,0.8,0.0,0.0,0.0,0.1,14.8,GB,14,WR
+Cooper Kupp,8.0,100.3,0.7,0.1,0.3,0.0,0.1,14.1,LAR,14,WR
+Deebo Samuel,4.6,67.8,0.5,3.2,24.3,0.2,0.1,13.3,SF,14,WR
+Tyreek Hill,6.5,81.0,0.7,0.8,5.0,0.0,0.1,12.8,KC,14,WR
+Stefon Diggs,6.9,85.3,0.7,0.0,0.2,0.0,0.1,12.4,BUF,14,WR
+Diontae Johnson,6.7,81.8,0.6,0.2,1.8,0.0,0.1,11.7,PIT,14,WR
+Chris Godwin,6.7,77.2,0.5,0.3,2.1,0.0,0.1,11.3,TB,14,WR
+Cordarrelle Patterson,3.0,33.4,0.2,9.9,43.8,0.4,0.1,11.1,ATL,14,WR
+CeeDee Lamb,5.5,74.8,0.5,0.6,3.5,0.0,0.1,11.0,DAL,14,WR
+Mike Williams,5.5,76.0,0.6,0.0,0.0,0.0,0.0,11.0,LAC,14,WR
+Hunter Renfrow,6.9,78.2,0.5,0.1,0.4,0.0,0.1,10.5,LV,14,WR
+Mike Evans,5.0,67.8,0.6,0.0,0.2,0.0,0.0,10.4,TB,14,WR
+DeAndre Hopkins,5.3,68.1,0.6,0.0,0.1,0.0,0.1,10.3,ARI,14,WR
+DJ Moore,5.4,72.5,0.5,0.4,2.2,0.0,0.1,10.3,CAR,14,WR
+Tee Higgins,5.5,70.5,0.5,0.1,0.4,0.0,0.1,10.2,CIN,14,WR
+Tyler Lockett,5.1,70.5,0.5,0.0,0.0,0.0,0.1,10.2,SEA,14,WR
+Terry McLaurin,5.6,73.5,0.5,0.1,0.3,0.0,0.1,10.2,WAS,14,WR
+D.K. Metcalf,4.4,64.1,0.6,0.0,0.1,0.0,0.0,9.8,SEA,14,WR
+Brandin Cooks,5.7,71.9,0.4,0.3,2.0,0.0,0.1,9.8,HOU,14,WR
+Amari Cooper,5.0,66.3,0.5,0.1,0.1,0.0,0.1,9.7,DAL,14,WR
+Ja'Marr Chase,4.9,69.7,0.4,0.5,2.2,0.0,0.1,9.6,CIN,14,WR
+Jarvis Landry,4.9,63.5,0.4,0.5,3.3,0.0,0.1,9.3,CLE,14,WR
+Julio Jones,4.3,64.0,0.4,0.0,0.0,0.0,0.0,9.0,TEN,14,WR
+Darnell Mooney,4.6,62.5,0.4,0.2,1.1,0.0,0.0,8.9,CHI,14,WR
+Marquise Brown,5.4,68.4,0.3,0.1,0.2,0.0,0.1,8.8,BAL,14,WR
+Jerry Jeudy,4.3,58.2,0.4,0.2,0.8,0.0,0.0,8.3,DEN,14,WR
+Odell Beckham Jr.,3.8,52.4,0.4,0.2,1.3,0.0,0.0,8.0,LAR,14,WR
+Chase Claypool,3.9,57.2,0.2,1.0,5.8,0.0,0.0,7.8,PIT,14,WR
+Jamison Crowder,4.7,53.8,0.4,0.0,0.1,0.0,0.1,7.7,NYJ,14,WR
+Brandon Aiyuk,4.3,56.4,0.3,0.5,2.6,0.0,0.1,7.6,SF,14,WR
+Michael Gallup,3.8,53.7,0.3,0.0,0.0,0.0,0.0,7.0,DAL,14,WR
+Van Jefferson,4.2,53.7,0.3,0.0,0.0,0.0,0.0,7.0,LAR,14,WR
+Marquez Valdes-Scantling,3.0,50.8,0.3,0.1,0.4,0.0,0.0,6.7,GB,14,WR
+Cole Beasley,5.1,52.2,0.3,0.0,0.0,0.0,0.0,6.7,BUF,14,WR
+Russell Gage,4.9,53.4,0.2,0.1,0.2,0.0,0.0,6.6,ATL,14,WR
+Courtland Sutton,3.6,52.1,0.2,0.0,0.1,0.0,0.0,6.5,DEN,14,WR
+Marvin Jones Jr.,3.9,50.4,0.2,0.0,0.0,0.0,0.0,6.5,JAC,14,WR
+Kenny Golladay,3.8,53.6,0.2,0.0,0.0,0.0,0.0,6.4,NYG,14,WR
+Amon-Ra St. Brown,5.0,52.5,0.2,0.2,1.1,0.0,0.0,6.4,DET,14,WR
+Sterling Shepard,5.1,51.6,0.2,0.1,1.0,0.0,0.1,6.4,NYG,14,WR
+Emmanuel Sanders,3.9,47.4,0.2,0.1,0.7,0.0,0.0,6.2,BUF,14,WR
+K.J. Osborn,3.9,47.5,0.2,0.1,0.2,0.0,0.0,6.2,MIN,14,WR
+Tre'Quan Smith,3.2,44.5,0.3,0.0,0.1,0.0,0.0,6.1,NO,14,WR
+Christian Kirk,3.7,46.0,0.2,0.1,0.6,0.0,0.0,6.0,ARI,14,WR
+Josh Reynolds,3.9,50.2,0.2,0.0,0.1,0.0,0.0,6.0,DET,14,WR
+Allen Robinson II,3.8,47.1,0.2,0.0,0.0,0.0,0.0,5.9,CHI,14,WR
+Tyler Boyd,4.2,44.9,0.2,0.1,0.7,0.0,0.1,5.8,CIN,14,WR
+Tim Patrick,3.1,42.9,0.3,0.0,0.0,0.0,0.0,5.8,DEN,14,WR
+Laviska Shenault Jr.,4.2,42.5,0.2,1.1,4.8,0.0,0.1,5.7,JAC,14,WR
+Donovan Peoples-Jones,2.7,43.2,0.2,0.0,0.0,0.0,0.0,5.7,CLE,14,WR
+Jalen Guyton,3.1,43.4,0.2,0.3,1.3,0.0,0.0,5.7,LAC,14,WR
+Robby Anderson,3.8,42.7,0.2,0.1,0.4,0.0,0.0,5.6,CAR,14,WR
+Bryan Edwards,2.9,43.3,0.2,0.0,0.1,0.0,0.0,5.3,LV,14,WR
+Marquez Callaway,2.7,39.1,0.2,0.0,0.0,0.0,0.0,5.2,NO,14,WR
+Allen Lazard,2.8,35.5,0.3,0.1,0.2,0.0,0.0,5.1,GB,14,WR
+A.J. Green,2.8,39.5,0.2,0.0,0.0,0.0,0.0,5.1,ARI,14,WR
+Nick Westbrook-Ikhine,3.0,36.2,0.2,0.0,0.1,0.0,0.0,5.0,TEN,14,WR
+Kalif Raymond,3.0,39.0,0.1,0.1,0.2,0.0,0.0,4.8,DET,14,WR
+Laquon Treadwell,3.1,37.9,0.1,0.0,0.1,0.0,0.0,4.4,JAC,14,WR
+DeSean Jackson,2.0,35.8,0.1,0.1,0.6,0.0,0.0,4.4,LV,14,WR
+Olamide Zaccheaus,2.5,31.9,0.2,0.1,0.1,0.0,0.0,4.3,ATL,14,WR
+Darius Slayton,2.7,33.9,0.2,0.1,0.1,0.0,0.0,4.3,NYG,14,WR
+DeAndre Carter,2.6,33.2,0.1,0.3,2.0,0.0,0.0,4.3,WAS,14,WR
+Joshua Palmer,2.8,32.5,0.2,0.0,0.4,0.0,0.0,4.2,LAC,14,WR
+Rondale Moore,2.7,27.7,0.1,0.9,4.9,0.0,0.0,4.2,ARI,14,WR
+Curtis Samuel,2.1,24.3,0.1,1.2,6.8,0.1,0.0,4.2,WAS,14,WR
+Rashod Bateman,2.7,35.0,0.1,0.0,0.2,0.0,0.0,4.2,BAL,14,WR
+Keelan Cole Sr.,2.3,34.0,0.1,0.0,0.0,0.0,0.0,4.2,NYJ,14,WR
+Rashard Higgins,2.0,31.0,0.2,0.0,0.0,0.0,0.0,4.2,CLE,14,WR
+Sammy Watkins,2.6,34.1,0.1,0.0,0.2,0.0,0.0,4.1,BAL,14,WR
+Nico Collins,2.9,33.8,0.1,0.0,0.2,0.0,0.0,4.0,HOU,14,WR
+Braxton Berrios,2.5,30.5,0.1,0.1,0.7,0.0,0.0,3.9,NYJ,14,WR
+Zay Jones,2.4,30.3,0.1,0.1,0.3,0.0,0.0,3.8,LV,14,WR
+Cody Hollister,2.3,28.1,0.2,0.0,0.2,0.0,0.0,3.7,TEN,14,WR
+Mecole Hardman,2.1,26.4,0.1,0.3,1.9,0.0,0.0,3.6,KC,14,WR
+Byron Pringle,2.2,28.1,0.1,0.0,0.0,0.0,0.0,3.6,KC,14,WR
+Denzel Mims,2.1,28.8,0.1,0.0,0.0,0.0,0.0,3.6,NYJ,14,WR
+Gabriel Davis,1.6,23.8,0.2,0.0,0.0,0.0,0.0,3.5,BUF,14,WR
+Adam Humphries,2.5,27.5,0.1,0.0,0.1,0.0,0.0,3.4,WAS,14,WR
+Tajae Sharpe,2.2,26.6,0.1,0.0,0.0,0.0,0.0,3.3,ATL,14,WR
+Chris Conley,2.0,27.9,0.1,0.0,0.0,0.0,0.0,3.3,HOU,14,WR
+Breshad Perriman,1.6,22.9,0.2,0.1,0.2,0.0,0.0,3.3,TB,14,WR
+Chester Rogers,2.0,23.7,0.1,0.0,0.3,0.0,0.0,3.1,TEN,14,WR
+Kenny Stills,1.6,22.9,0.1,0.0,0.1,0.0,0.0,3.1,NO,14,WR
+Juwan Johnson,1.5,18.0,0.2,0.0,0.0,0.0,0.0,3.0,NO,14,WR
+Dede Westbrook,2.0,20.6,0.2,0.0,0.0,0.0,0.0,3.0,MIN,14,WR
+Dez Fitzpatrick,2.3,26.5,0.1,0.0,0.0,0.0,0.0,3.0,TEN,14,WR
+Ray-Ray McCloud,1.8,18.8,0.1,0.5,2.5,0.0,0.0,2.8,PIT,14,WR
+Brandon Zylstra,1.5,19.1,0.1,0.0,0.0,0.0,0.0,2.7,CAR,14,WR
+Cedrick Wilson Jr.,1.5,18.6,0.1,0.1,0.2,0.0,0.0,2.6,DAL,14,WR
+Demarcus Robinson,1.5,18.8,0.1,0.0,0.0,0.0,0.0,2.6,KC,14,WR
+Devin Duvernay,1.6,17.4,0.1,0.2,1.3,0.0,0.0,2.5,BAL,14,WR
+James Washington,1.4,18.8,0.1,0.1,0.4,0.0,0.0,2.5,PIT,14,WR
+Freddie Swain,1.4,17.0,0.1,0.1,0.8,0.0,0.0,2.4,SEA,14,WR
+Davion Davis,1.6,18.4,0.1,0.0,0.0,0.0,0.0,2.3,HOU,14,WR
+Jauan Jennings,1.4,18.5,0.1,0.0,0.1,0.0,0.0,2.3,SF,14,WR
+Terrace Marshall Jr.,1.5,17.0,0.1,0.0,0.1,0.0,0.0,2.3,CAR,14,WR
+Josh Gordon,1.1,16.2,0.1,0.0,0.1,0.0,0.0,2.2,KC,14,WR
+Damiere Byrd,1.4,18.2,0.1,0.0,0.0,0.0,0.0,2.2,CHI,14,WR
+Lil'Jordan Humphrey,1.3,15.0,0.1,0.0,0.0,0.0,0.0,2.1,NO,14,WR
+Tyler Johnson,1.5,16.5,0.1,0.0,0.1,0.0,0.0,2.1,TB,14,WR
+Ben Skowronek,1.2,13.6,0.1,0.0,0.1,0.0,0.0,2.1,LAR,14,WR
+Tavon Austin,1.3,14.4,0.1,0.0,0.2,0.0,0.1,2.0,JAC,14,WR
+D'Wayne Eskridge,1.1,13.8,0.1,0.2,1.8,0.0,0.0,2.0,SEA,14,WR
+John Ross,1.0,14.5,0.1,0.1,1.1,0.0,0.0,2.0,NYG,14,WR
+Shi Smith,1.3,13.0,0.1,0.0,0.0,0.0,0.0,1.9,CAR,14,WR
+Isaiah McKenzie,0.7,6.7,0.1,0.8,4.5,0.0,0.0,1.7,BUF,14,WR
+Equanimeous St. Brown,0.9,12.2,0.1,0.0,0.4,0.0,0.0,1.7,GB,14,WR
+Dyami Brown,1.0,13.1,0.1,0.1,0.1,0.0,0.0,1.7,WAS,14,WR
+Trent Sherfield,1.0,11.4,0.1,0.0,0.0,0.0,0.0,1.6,SF,14,WR
+Kendall Hinton,0.9,11.6,0.1,0.1,0.4,0.0,0.0,1.5,DEN,14,WR
+Kevin White,0.7,11.1,0.1,0.0,0.1,0.0,0.0,1.5,NO,14,WR
+Jason Moore Jr.,0.9,10.1,0.1,0.0,0.0,0.0,0.0,1.4,LAC,14,WR
+Cameron Batson,0.8,9.5,0.1,0.0,0.0,0.0,0.0,1.4,TEN,14,WR
+KhaDarel Hodge,0.9,10.8,0.0,0.0,0.0,0.0,0.0,1.4,DET,14,WR
+Jaydon Mickens,0.9,10.8,0.0,0.0,0.1,0.0,0.0,1.4,JAC,14,WR
+Antoine Wesley,0.7,8.5,0.1,0.0,0.0,0.0,0.0,1.3,ARI,14,WR
+Marquez Stevenson,0.6,8.3,0.1,0.0,0.3,0.0,0.0,1.3,BUF,14,WR
+Jeff Smith,0.7,8.9,0.0,0.0,0.0,0.0,0.0,1.1,NYJ,14,WR
+Andre Roberts,0.7,9.6,0.0,0.1,0.8,0.0,0.1,1.1,LAC,14,WR
+Mohamed Sanu Sr.,1.0,11.0,0.0,0.0,0.0,0.0,0.0,1.1,SF,14,WR
+Ihmir Smith-Marsette,0.7,8.0,0.0,0.0,0.1,0.0,0.0,1.0,MIN,14,WR
+Cam Sims,0.6,7.5,0.0,0.0,0.3,0.0,0.0,1.0,WAS,14,WR
+Racey McMath,0.5,7.6,0.0,0.0,0.2,0.0,0.0,1.0,TEN,14,WR
+Dan Chisena,0.6,7.8,0.0,0.0,0.1,0.0,0.0,1.0,MIN,14,WR
+D.J. Montgomery,0.6,7.6,0.0,0.0,0.2,0.0,0.0,1.0,NYJ,14,WR
+Phillip Dorsett II,0.6,8.3,0.0,0.0,0.2,0.0,0.0,1.0,HOU,14,WR
+Malik Turner,0.6,7.4,0.0,0.0,0.0,0.0,0.0,1.0,DAL,14,WR
+Mike Thomas,0.5,7.1,0.0,0.0,0.0,0.0,0.0,1.0,CIN,14,WR
+Chris Moore,0.9,9.0,0.0,0.0,0.0,0.0,0.0,0.9,HOU,14,WR
+Vyncint Smith,0.5,6.9,0.0,0.0,0.1,0.0,0.0,0.9,TB,14,WR
+Tom Kennedy,0.6,7.2,0.0,0.0,0.0,0.0,0.0,0.9,DET,14,WR
+Tyron Johnson,0.5,6.8,0.0,0.0,0.2,0.0,0.0,0.9,LV,14,WR
+Jaelon Darden,0.3,4.8,0.0,0.0,0.5,0.0,0.0,0.6,TB,14,WR
+Penny Hart,0.4,4.8,0.0,0.1,0.0,0.0,0.0,0.6,SEA,14,WR
+Collin Johnson,0.7,6.0,0.0,0.0,0.0,0.0,0.0,0.6,NYG,14,WR
+Scotty Miller,0.5,6.0,0.0,0.0,0.0,0.0,0.0,0.6,TB,14,WR
+Malik Taylor,0.3,4.2,0.0,0.0,0.2,0.0,0.0,0.6,GB,14,WR
+Frank Darby,0.3,4.0,0.0,0.0,0.1,0.0,0.0,0.5,ATL,14,WR
+Stanley Morgan Jr.,0.3,4.0,0.0,0.0,0.1,0.0,0.0,0.5,CIN,14,WR
+Pooka Williams Jr.,0.2,2.0,0.0,0.7,3.0,0.0,0.0,0.5,CIN,14,WR
+Marcus Kemp,0.2,3.2,0.0,0.0,0.1,0.0,0.0,0.4,KC,14,WR
+James Proche II,0.2,3.1,0.0,0.0,0.1,0.0,0.0,0.3,BAL,14,WR
+Tylan Wallace,0.2,2.8,0.0,0.0,0.1,0.0,0.0,0.3,BAL,14,WR
+Amari Rodgers,0.2,2.6,0.0,0.0,0.1,0.0,0.0,0.3,GB,14,WR
+Travis Benjamin,0.2,2.8,0.0,0.0,0.1,0.0,0.0,0.3,SF,14,WR
+Dillon Stoner,0.2,3.0,0.0,0.0,0.0,0.0,0.0,0.3,LV,14,WR
+Alex Erickson,0.2,2.2,0.0,0.1,0.2,0.0,0.0,0.3,CAR,14,WR
+Diontae Spencer,0.1,1.8,0.0,0.1,0.9,0.0,0.0,0.3,DEN,14,WR
+Christian Blake,0.2,1.8,0.0,0.0,0.0,0.0,0.0,0.2,ATL,14,WR
+Jake Kumerow,0.1,2.0,0.0,0.0,0.0,0.0,0.0,0.2,BUF,14,WR
+Trenton Irwin,0.2,2.0,0.0,0.0,0.0,0.0,0.0,0.2,CIN,14,WR
+Matt Cole,0.3,2.0,0.0,0.0,0.0,0.0,0.0,0.2,SEA,14,WR
