@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-import config.config as config
+import config.mapping as mapping
 import src.loader.stats.weekly as stats
 
 
@@ -22,7 +22,7 @@ def concat_stats_weekly(year, positions):
 
     # get statistics for each week and concat
     for position in positions:
-        for week in range(1, config.week_map[year] + 1):
+        for week in range(1, mapping.week_map[year] + 1):
             df = stats.get_stats_weekly(year, position, week)
             df.drop("rank", axis=1, inplace=True)
             weekly_stats = pd.concat([weekly_stats, df])

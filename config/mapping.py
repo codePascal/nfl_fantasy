@@ -47,3 +47,6 @@ team_map = {
     "Tennessee Titans": "TEN",
     "Washington Commanders": "WAS"
 }
+
+# stores list of team abbreviations
+teams = list(team_map.values())

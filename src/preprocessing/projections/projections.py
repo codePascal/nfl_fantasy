@@ -4,7 +4,7 @@ Concatenates weekly projections for a whole season.
 import os
 import pandas as pd
 
-import config as config
+import config.mapping as mapping
 import src.loader.projections.projections as projections
 
 
@@ -23,7 +23,7 @@ def concat_projections_weekly(year, position):
     proj = pd.DataFrame()
 
     # get snapcounts for each week and concat
-    for week in range(1, config.week_map[year] + 1):
+    for week in range(1, mapping.week_map[year] + 1):
         df = projections.get_projections(position, week)
         proj = pd.concat([proj, df])
 

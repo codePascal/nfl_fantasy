@@ -4,7 +4,7 @@ Concatenates weekly snapcount analysis for a whole season.
 import os
 import pandas as pd
 
-import config.config as config
+import config.mapping as mapping
 import src.loader.snapcounts.weekly as snapcounts
 
 
@@ -21,7 +21,7 @@ def concat_snapcounts_weekly(year):
     snapcount_stats = pd.DataFrame()
 
     # get snapcounts for each week and concat
-    for week in range(1, config.week_map[year] + 1):
+    for week in range(1, mapping.week_map[year] + 1):
         df = snapcounts.get_snapcounts_weekly(year, week)
         snapcount_stats = pd.concat([snapcount_stats, df])
 
