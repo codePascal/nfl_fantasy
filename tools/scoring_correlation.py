@@ -5,31 +5,30 @@ given year.
 """
 import matplotlib.pyplot as plt
 import numpy as np
-import pandas as pd
 import seaborn as sns
 
-import utils.fantasy_pros as fp
+import src.loader.stats.yearly as stats
+
 
 sns.set_style("whitegrid")
 
-POSITION = "K"
-YEAR = 2021
 
 if __name__ == "__main__":
-    # get yearly_stats raw
-    df = pd.read_csv("../raw/yearly_stats/{pos}/{pos}_{year}.csv".format(pos=POSITION, year=YEAR))
-    df = df.dropna()
+    # position and year
+    positions = ["DST", "K", "QB", "RB", "TE", "WR"]
+    year = 2021
 
-    # clean raw
-    df = fp.clean_stats(df, POSITION)
+    for position in positions:
+        # get yearly_stats raw
+        df = stats.get_stats_yearly(year, position)
 
-    # drop unnecessary columns
-    df.drop(["rank", "player", "team", "games", "fantasy_points", "rost"], axis=1, inplace=True)
+        # drop unnecessary columns
+        df.drop(["rank", "player", "team", "games", "fantasy_points", "rost", "year"], axis=1, inplace=True)
 
-    # plot the correlation heatmap
-    plt.figure(figsize=(8, 7))
-    plt.title("Scoring correlation for {pos} during season {year}".format(pos=POSITION, year=YEAR))
-    sns.heatmap(df.corr(), annot=True, cmap=sns.diverging_palette(0, 250), mask=np.triu(df.corr()))
-    plt.tight_layout()
-    plt.savefig("../reports/scoring_correlation/correlation_{pos}_{year}.png".format(pos=POSITION, year=YEAR))
-    plt.show()
+        # plot the correlation heatmap
+        plt.figure(figsize=(8, 7))
+        plt.title("Scoring correlation for {pos} during season {year}".format(pos=position, year=year))
+        sns.heatmap(df.corr(), annot=True, cmap=sns.diverging_palette(0, 250), mask=np.triu(df.corr()))
+        plt.tight_layout()
+        plt.savefig("../reports/scoring_correlation/correlation_{pos}_{year}.png".format(pos=position, year=year))
+        plt.show()
