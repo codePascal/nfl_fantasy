@@ -7,6 +7,9 @@ Preliminary for offense only.
 
 - Feature selection: Correlation of offense stats, snapcounts, defense stats
 - Weekly stats -> years * weeks
+
+- Caveats: requires stats from player to predict points
+- Solution: predict performance of player in a week and predict points based on that
 """
 import matplotlib.pyplot as plt
 import numpy as np
@@ -145,4 +148,3 @@ if __name__ == "__main__":
 
     print("Maximum error for fantasy pros predictions:", round(max_fp, 3))
     print("Maximum error for linear regression model:", round(max_pred, 3))
-
