@@ -43,7 +43,7 @@ team_map = {
     "Pittsburgh Steelers": "PIT",
     "San Francisco 49ers": "SF",
     "Seattle Seahawks": "SEA",
-    "Tampa Bay Buccaneers": "TA",
+    "Tampa Bay Buccaneers": "TB",
     "Tennessee Titans": "TEN",
     "Washington Commanders": "WAS"
 }
