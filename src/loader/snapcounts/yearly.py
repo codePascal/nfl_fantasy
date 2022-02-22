@@ -73,5 +73,5 @@ def store_snapcounts_yearly(year):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_snapcounts((2016, 2021))
 

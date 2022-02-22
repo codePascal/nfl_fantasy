@@ -139,4 +139,4 @@ def store_schedule(year):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_schedules((2016, 2021))

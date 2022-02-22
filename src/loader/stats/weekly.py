@@ -6,7 +6,7 @@ week and position.
 import os
 import pandas as pd
 
-import config as config
+import config.mapping as mapping
 import src.loader.loader as loader
 import src.loader.stats.helpers as helpers
 
@@ -68,7 +68,7 @@ def store_all_stats(years):
     """
     for position in ["QB", "WR", "RB", "TE", "DST", "K"]:
         for year in range(years[0], years[1] + 1):
-            for week in range(1, config.week_map[year] + 1):
+            for week in range(1, mapping.week_map[year] + 1):
                 store_stats_weekly(year, position, week)
 
 
@@ -91,4 +91,4 @@ def store_stats_weekly(year, position, week):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_stats((2016, 2021))

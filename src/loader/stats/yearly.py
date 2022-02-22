@@ -83,5 +83,5 @@ def store_stats_yearly(year, position):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_stats((2016, 2021))
 

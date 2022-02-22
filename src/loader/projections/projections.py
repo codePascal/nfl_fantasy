@@ -201,4 +201,4 @@ def transform_name(name):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_projections()

@@ -5,7 +5,7 @@ https://www.fantasypros.com/nfl/reports/snap-count-analysis/.
 import os
 import pandas as pd
 
-import config as config
+import config.mapping as mapping
 import src.loader.loader as loader
 import src.loader.snapcounts.helpers as helpers
 
@@ -61,7 +61,7 @@ def store_all_snapcounts(years):
     :return: None
     """
     for year in range(years[0], years[1] + 1):
-        for week in range(1, config.week_map[year] + 1):
+        for week in range(1, mapping.week_map[year] + 1):
             store_snapcounts_weekly(year, week)
 
 
@@ -81,4 +81,4 @@ def store_snapcounts_weekly(year, week):
 
 
 if __name__ == "__main__":
-    pass
+    store_all_snapcounts((2016, 2021))
