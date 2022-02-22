@@ -1,7 +1,7 @@
 import os
 import pandas as pd
 
-import config as config
+import config.config as config
 import src.loader.stats.weekly as stats
 
 
