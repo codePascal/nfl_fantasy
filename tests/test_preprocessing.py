@@ -48,8 +48,8 @@ class TestPreprocessing(unittest.TestCase):
         print(df)
 
         # test entries
-        # self.assertEqual(df.iloc[0, 1], "Arizona Cardinals")
-        # self.assertEqual(df.iloc[-1, 1], "Andre Roberts")
+        self.assertEqual(df.iloc[0, 1], "Arizona Cardinals")
+        self.assertEqual(df.iloc[-1, 1], "Jakeem Grant Sr.")
 
 
 if __name__ == "__main__":
