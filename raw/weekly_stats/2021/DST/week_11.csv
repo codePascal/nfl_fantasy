@@ -1,33 +1,33 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,week,position
-1,New England Patriots,4,4,0,0,1,0,0,1,28.0,28.0,93.2,NE,11,DST
-2,Houston Texans,2,4,1,2,0,0,0,1,16.0,16.0,6.4,HOU,11,DST
-3,Kansas City Chiefs,5,2,1,2,0,0,0,1,15.0,15.0,45.7,KC,11,DST
-4,Tampa Bay Buccaneers,2,2,1,1,0,0,0,1,12.0,12.0,98.0,TB,11,DST
-5,San Francisco 49ers,3,0,2,1,0,0,0,1,11.0,11.0,79.5,SF,11,DST
-6,Philadelphia Eagles,0,2,1,1,1,0,0,1,11.0,11.0,52.5,PHI,11,DST
-7,Cincinnati Bengals,2,1,1,1,0,0,0,1,10.0,10.0,14.7,CIN,11,DST
-8,Indianapolis Colts,1,3,1,1,0,0,0,1,10.0,10.0,66.4,IND,11,DST
-9,Baltimore Ravens,3,0,1,1,0,0,0,1,9.0,9.0,51.9,BAL,11,DST
-10,Chicago Bears,6,1,0,1,0,0,0,1,9.0,9.0,35.9,CHI,11,DST
-11,Detroit Lions,1,2,0,0,0,0,0,1,9.0,9.0,1.1,DET,11,DST
-12,Arizona Cardinals,4,0,0,1,0,0,0,1,8.0,8.0,60.9,ARI,11,DST
-13,Cleveland Browns,0,2,0,0,0,0,0,1,8.0,8.0,40.8,CLE,11,DST
-14,Dallas Cowboys,3,1,1,1,0,0,0,1,8.0,8.0,82.9,DAL,11,DST
-15,Atlanta Falcons,3,1,0,0,0,0,0,1,6.0,6.0,5.8,ATL,11,DST
-16,Miami Dolphins,2,0,1,1,0,0,0,1,5.0,5.0,60.2,MIA,11,DST
-17,Carolina Panthers,3,0,1,1,0,0,0,1,5.0,5.0,27.8,CAR,11,DST
-18,Las Vegas Raiders,3,0,1,1,0,0,0,1,4.0,4.0,7.6,LV,11,DST
-19,New Orleans Saints,3,0,1,1,0,0,0,1,4.0,4.0,79.3,NO,11,DST
-20,New York Giants,1,1,0,0,0,0,0,1,2.0,2.0,4.5,NYG,11,DST
-21,New York Jets,0,1,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,11,DST
-22,Pittsburgh Steelers,2,1,0,0,0,0,0,1,2.0,2.0,44.6,PIT,11,DST
-23,Seattle Seahawks,2,0,0,2,0,0,0,1,2.0,2.0,39.4,SEA,11,DST
-24,Jacksonville Jaguars,2,0,0,1,0,0,0,1,1.0,1.0,6.9,JAC,11,DST
-25,Minnesota Vikings,2,0,0,1,0,0,0,1,1.0,1.0,28.0,MIN,11,DST
-26,Green Bay Packers,2,0,0,1,0,0,0,1,1.0,1.0,60.6,GB,11,DST
-27,Washington Commanders,1,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,11,DST
-28,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,11,DST
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,11,DST
-30,Tennessee Titans,0,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,11,DST
-31,Los Angeles Chargers,3,0,0,1,0,0,0,1,-1.0,-1.0,44.3,LAC,11,DST
-32,Buffalo Bills,0,0,0,0,0,0,0,1,-4.0,-4.0,95.9,BUF,11,DST
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,New England Patriots,4,4,0,0,1,0,0,1,28.0,28.0,93.2,NE,DST,11,2021
+2,Houston Texans,2,4,1,2,0,0,0,1,16.0,16.0,6.4,HOU,DST,11,2021
+3,Kansas City Chiefs,5,2,1,2,0,0,0,1,15.0,15.0,45.7,KC,DST,11,2021
+4,Tampa Bay Buccaneers,2,2,1,1,0,0,0,1,12.0,12.0,98.0,TB,DST,11,2021
+5,San Francisco 49ers,3,0,2,1,0,0,0,1,11.0,11.0,79.5,SF,DST,11,2021
+6,Philadelphia Eagles,0,2,1,1,1,0,0,1,11.0,11.0,52.5,PHI,DST,11,2021
+7,Cincinnati Bengals,2,1,1,1,0,0,0,1,10.0,10.0,14.7,CIN,DST,11,2021
+8,Indianapolis Colts,1,3,1,1,0,0,0,1,10.0,10.0,66.4,IND,DST,11,2021
+9,Baltimore Ravens,3,0,1,1,0,0,0,1,9.0,9.0,51.9,BAL,DST,11,2021
+10,Chicago Bears,6,1,0,1,0,0,0,1,9.0,9.0,35.9,CHI,DST,11,2021
+11,Detroit Lions,1,2,0,0,0,0,0,1,9.0,9.0,1.1,DET,DST,11,2021
+12,Arizona Cardinals,4,0,0,1,0,0,0,1,8.0,8.0,60.9,ARI,DST,11,2021
+13,Cleveland Browns,0,2,0,0,0,0,0,1,8.0,8.0,40.8,CLE,DST,11,2021
+14,Dallas Cowboys,3,1,1,1,0,0,0,1,8.0,8.0,82.9,DAL,DST,11,2021
+15,Atlanta Falcons,3,1,0,0,0,0,0,1,6.0,6.0,5.8,ATL,DST,11,2021
+16,Miami Dolphins,2,0,1,1,0,0,0,1,5.0,5.0,60.2,MIA,DST,11,2021
+17,Carolina Panthers,3,0,1,1,0,0,0,1,5.0,5.0,27.8,CAR,DST,11,2021
+18,Las Vegas Raiders,3,0,1,1,0,0,0,1,4.0,4.0,7.6,LV,DST,11,2021
+19,New Orleans Saints,3,0,1,1,0,0,0,1,4.0,4.0,79.3,NO,DST,11,2021
+20,New York Giants,1,1,0,0,0,0,0,1,2.0,2.0,4.5,NYG,DST,11,2021
+21,New York Jets,0,1,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,11,2021
+22,Pittsburgh Steelers,2,1,0,0,0,0,0,1,2.0,2.0,44.6,PIT,DST,11,2021
+23,Seattle Seahawks,2,0,0,2,0,0,0,1,2.0,2.0,39.4,SEA,DST,11,2021
+24,Jacksonville Jaguars,2,0,0,1,0,0,0,1,1.0,1.0,6.9,JAC,DST,11,2021
+25,Minnesota Vikings,2,0,0,1,0,0,0,1,1.0,1.0,28.0,MIN,DST,11,2021
+26,Green Bay Packers,2,0,0,1,0,0,0,1,1.0,1.0,60.6,GB,DST,11,2021
+27,Washington Commanders,1,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,DST,11,2021
+28,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,11,2021
+29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,11,2021
+30,Tennessee Titans,0,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,11,2021
+31,Los Angeles Chargers,3,0,0,1,0,0,0,1,-1.0,-1.0,44.3,LAC,DST,11,2021
+32,Buffalo Bills,0,0,0,0,0,0,0,1,-4.0,-4.0,95.9,BUF,DST,11,2021

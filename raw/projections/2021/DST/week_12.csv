@@ -1,31 +1,31 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,week,position
-New England Patriots,2.5,1.0,0.6,0.7,0.2,0.0,18.1,334.4,7.6,,12,DST
-Houston Texans,3.0,1.2,0.6,0.9,0.2,0.0,20.4,342.1,7.5,,12,DST
-Carolina Panthers,2.3,1.0,0.7,1.1,0.2,0.0,19.4,316.9,7.4,,12,DST
-Buffalo Bills,2.2,0.9,0.6,1.0,0.2,0.0,19.7,294.2,7.1,,12,DST
-Chicago Bears,2.3,0.8,0.6,0.8,0.2,0.0,19.3,312.7,6.9,,12,DST
-Pittsburgh Steelers,2.7,0.9,0.6,1.0,0.1,0.0,23.7,346.9,6.7,,12,DST
-Cleveland Browns,2.8,0.9,0.5,0.7,0.1,0.1,25.4,382.4,6.6,,12,DST
-Baltimore Ravens,2.5,0.9,0.6,0.9,0.2,0.0,20.9,359.4,6.5,,12,DST
-Philadelphia Eagles,2.6,0.8,0.6,0.9,0.2,0.0,20.6,327.8,6.5,,12,DST
-Seattle Seahawks,2.2,0.9,0.6,0.9,0.2,0.0,22.1,340.0,6.4,,12,DST
-Miami Dolphins,2.6,0.8,0.6,1.1,0.2,0.0,21.1,345.4,6.4,,12,DST
-Tennessee Titans,2.2,0.9,0.6,0.8,0.2,0.0,24.7,338.3,6.2,,12,DST
-Minnesota Vikings,2.1,0.8,0.7,1.2,0.1,0.0,25.5,379.2,6.1,,12,DST
-Washington Commanders,2.9,0.7,0.5,0.7,0.1,0.0,22.7,324.3,6.0,,12,DST
-New York Jets,2.4,0.8,0.6,0.9,0.1,0.0,23.8,329.7,6.0,,12,DST
-Tampa Bay Buccaneers,2.3,0.7,0.6,1.0,0.2,0.1,25.1,329.1,6.0,,12,DST
-Dallas Cowboys,2.1,0.9,0.6,0.9,0.2,0.0,21.7,373.9,6.0,,12,DST
-Los Angeles Chargers,2.5,0.7,0.5,0.8,0.2,0.0,22.4,337.8,5.9,,12,DST
-Detroit Lions,2.3,0.8,0.5,0.7,0.1,0.0,21.7,332.7,5.9,,12,DST
-New Orleans Saints,1.9,0.9,0.6,0.8,0.1,0.0,24.6,381.9,5.7,,12,DST
-Green Bay Packers,2.0,0.9,0.5,0.7,0.1,0.0,22.6,375.9,5.6,,12,DST
-Jacksonville Jaguars,2.0,0.9,0.5,0.6,0.1,0.0,21.7,349.2,5.6,,12,DST
-Denver Broncos,1.9,0.8,0.5,0.7,0.1,0.0,23.9,384.4,5.5,,12,DST
-Las Vegas Raiders,1.9,0.7,0.6,1.1,0.1,0.0,28.4,385.8,5.5,,12,DST
-San Francisco 49ers,2.0,0.6,0.6,1.0,0.2,0.0,23.0,361.7,5.4,,12,DST
-New York Giants,2.0,0.7,0.6,0.8,0.1,0.0,23.2,345.7,5.4,,12,DST
-Indianapolis Colts,1.7,0.8,0.6,1.1,0.1,0.0,26.5,385.6,5.4,,12,DST
-Atlanta Falcons,1.6,0.8,0.6,1.0,0.2,0.0,21.2,335.3,5.4,,12,DST
-Los Angeles Rams,2.4,0.5,0.5,0.7,0.1,0.0,22.9,344.6,5.2,,12,DST
-Cincinnati Bengals,1.9,0.6,0.5,0.8,0.1,0.0,20.7,341.3,5.1,,12,DST
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+New England Patriots,2.5,1.0,0.6,0.7,0.2,0.0,18.1,334.4,7.6,,DST,12,2021
+Houston Texans,3.0,1.2,0.6,0.9,0.2,0.0,20.4,342.1,7.5,,DST,12,2021
+Carolina Panthers,2.3,1.0,0.7,1.1,0.2,0.0,19.4,316.9,7.4,,DST,12,2021
+Buffalo Bills,2.2,0.9,0.6,1.0,0.2,0.0,19.7,294.2,7.1,,DST,12,2021
+Chicago Bears,2.3,0.8,0.6,0.8,0.2,0.0,19.3,312.7,6.9,,DST,12,2021
+Pittsburgh Steelers,2.7,0.9,0.6,1.0,0.1,0.0,23.7,346.9,6.7,,DST,12,2021
+Cleveland Browns,2.8,0.9,0.5,0.7,0.1,0.1,25.4,382.4,6.6,,DST,12,2021
+Baltimore Ravens,2.5,0.9,0.6,0.9,0.2,0.0,20.9,359.4,6.5,,DST,12,2021
+Philadelphia Eagles,2.6,0.8,0.6,0.9,0.2,0.0,20.6,327.8,6.5,,DST,12,2021
+Seattle Seahawks,2.2,0.9,0.6,0.9,0.2,0.0,22.1,340.0,6.4,,DST,12,2021
+Miami Dolphins,2.6,0.8,0.6,1.1,0.2,0.0,21.1,345.4,6.4,,DST,12,2021
+Tennessee Titans,2.2,0.9,0.6,0.8,0.2,0.0,24.7,338.3,6.2,,DST,12,2021
+Minnesota Vikings,2.1,0.8,0.7,1.2,0.1,0.0,25.5,379.2,6.1,,DST,12,2021
+Washington Commanders,2.9,0.7,0.5,0.7,0.1,0.0,22.7,324.3,6.0,,DST,12,2021
+New York Jets,2.4,0.8,0.6,0.9,0.1,0.0,23.8,329.7,6.0,,DST,12,2021
+Tampa Bay Buccaneers,2.3,0.7,0.6,1.0,0.2,0.1,25.1,329.1,6.0,,DST,12,2021
+Dallas Cowboys,2.1,0.9,0.6,0.9,0.2,0.0,21.7,373.9,6.0,,DST,12,2021
+Los Angeles Chargers,2.5,0.7,0.5,0.8,0.2,0.0,22.4,337.8,5.9,,DST,12,2021
+Detroit Lions,2.3,0.8,0.5,0.7,0.1,0.0,21.7,332.7,5.9,,DST,12,2021
+New Orleans Saints,1.9,0.9,0.6,0.8,0.1,0.0,24.6,381.9,5.7,,DST,12,2021
+Green Bay Packers,2.0,0.9,0.5,0.7,0.1,0.0,22.6,375.9,5.6,,DST,12,2021
+Jacksonville Jaguars,2.0,0.9,0.5,0.6,0.1,0.0,21.7,349.2,5.6,,DST,12,2021
+Denver Broncos,1.9,0.8,0.5,0.7,0.1,0.0,23.9,384.4,5.5,,DST,12,2021
+Las Vegas Raiders,1.9,0.7,0.6,1.1,0.1,0.0,28.4,385.8,5.5,,DST,12,2021
+San Francisco 49ers,2.0,0.6,0.6,1.0,0.2,0.0,23.0,361.7,5.4,,DST,12,2021
+New York Giants,2.0,0.7,0.6,0.8,0.1,0.0,23.2,345.7,5.4,,DST,12,2021
+Indianapolis Colts,1.7,0.8,0.6,1.1,0.1,0.0,26.5,385.6,5.4,,DST,12,2021
+Atlanta Falcons,1.6,0.8,0.6,1.0,0.2,0.0,21.2,335.3,5.4,,DST,12,2021
+Los Angeles Rams,2.4,0.5,0.5,0.7,0.1,0.0,22.9,344.6,5.2,,DST,12,2021
+Cincinnati Bengals,1.9,0.6,0.5,0.8,0.1,0.0,20.7,341.3,5.1,,DST,12,2021

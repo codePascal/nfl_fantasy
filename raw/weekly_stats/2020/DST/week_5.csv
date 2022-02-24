@@ -1,33 +1,33 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,week,position
-1,Baltimore Ravens,7,1,2,3,1,0,0,1,26.0,26.0,51.9,BAL,5,DST
-2,Cleveland Browns,1,2,0,0,1,1,0,1,13.0,13.0,40.8,CLE,5,DST
-3,Miami Dolphins,5,2,1,2,0,0,0,1,12.0,12.0,60.2,MIA,5,DST
-4,Los Angeles Rams,8,0,0,1,0,0,0,1,12.0,12.0,74.5,LAR,5,DST
-5,Indianapolis Colts,1,2,0,1,0,0,1,1,12.0,12.0,66.4,IND,5,DST
-6,New York Giants,2,1,1,0,1,0,0,1,11.0,11.0,4.5,NYG,5,DST
-7,Houston Texans,4,0,2,1,0,0,0,1,9.0,9.0,6.4,HOU,5,DST
-8,Dallas Cowboys,2,0,1,1,1,0,0,1,9.0,9.0,82.9,DAL,5,DST
-9,Tennessee Titans,1,2,1,1,0,0,0,1,8.0,8.0,48.4,TEN,5,DST
-10,Pittsburgh Steelers,5,2,0,0,0,0,0,1,8.0,8.0,44.6,PIT,5,DST
-11,Seattle Seahawks,3,1,1,2,0,0,0,1,7.0,7.0,39.4,SEA,5,DST
-12,Arizona Cardinals,3,0,0,0,0,0,0,1,7.0,7.0,60.9,ARI,5,DST
-13,Tampa Bay Buccaneers,3,1,0,1,0,0,0,1,6.0,6.0,98.0,TB,5,DST
-14,Minnesota Vikings,4,1,0,0,0,0,0,1,6.0,6.0,28.0,MIN,5,DST
-15,Chicago Bears,3,0,1,1,0,0,0,1,6.0,6.0,35.9,CHI,5,DST
-16,Carolina Panthers,2,1,0,1,0,0,0,1,5.0,5.0,27.8,CAR,5,DST
-17,Las Vegas Raiders,3,1,0,0,0,0,0,1,4.0,4.0,7.6,LV,5,DST
-18,Jacksonville Jaguars,1,2,0,0,0,0,0,1,4.0,4.0,6.9,JAC,5,DST
-19,Cincinnati Bengals,1,1,0,0,0,0,0,1,3.0,3.0,14.7,CIN,5,DST
-20,New Orleans Saints,3,0,0,0,0,0,0,1,3.0,3.0,79.3,NO,5,DST
-21,Los Angeles Chargers,2,1,0,1,0,0,0,1,3.0,3.0,44.3,LAC,5,DST
-22,Washington Commanders,1,1,0,1,0,0,0,1,2.0,2.0,27.5,WAS,5,DST
-23,New York Jets,1,1,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,5,DST
-24,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,5,DST
-25,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,5,DST
-26,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,5,DST
-27,Atlanta Falcons,0,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,5,DST
-28,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,5,DST
-29,Philadelphia Eagles,1,0,1,1,0,0,0,1,-1.0,-1.0,52.5,PHI,5,DST
-30,Kansas City Chiefs,1,1,0,0,0,0,0,1,-1.0,-1.0,45.7,KC,5,DST
-31,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,5,DST
-32,Buffalo Bills,0,0,0,0,0,0,0,1,-4.0,-4.0,95.9,BUF,5,DST
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Baltimore Ravens,7,1,2,3,1,0,0,1,26.0,26.0,51.9,BAL,DST,5,2020
+2,Cleveland Browns,1,2,0,0,1,1,0,1,13.0,13.0,40.8,CLE,DST,5,2020
+3,Miami Dolphins,5,2,1,2,0,0,0,1,12.0,12.0,60.2,MIA,DST,5,2020
+4,Los Angeles Rams,8,0,0,1,0,0,0,1,12.0,12.0,74.5,LAR,DST,5,2020
+5,Indianapolis Colts,1,2,0,1,0,0,1,1,12.0,12.0,66.4,IND,DST,5,2020
+6,New York Giants,2,1,1,0,1,0,0,1,11.0,11.0,4.5,NYG,DST,5,2020
+7,Houston Texans,4,0,2,1,0,0,0,1,9.0,9.0,6.4,HOU,DST,5,2020
+8,Dallas Cowboys,2,0,1,1,1,0,0,1,9.0,9.0,82.9,DAL,DST,5,2020
+9,Tennessee Titans,1,2,1,1,0,0,0,1,8.0,8.0,48.4,TEN,DST,5,2020
+10,Pittsburgh Steelers,5,2,0,0,0,0,0,1,8.0,8.0,44.6,PIT,DST,5,2020
+11,Seattle Seahawks,3,1,1,2,0,0,0,1,7.0,7.0,39.4,SEA,DST,5,2020
+12,Arizona Cardinals,3,0,0,0,0,0,0,1,7.0,7.0,60.9,ARI,DST,5,2020
+13,Tampa Bay Buccaneers,3,1,0,1,0,0,0,1,6.0,6.0,98.0,TB,DST,5,2020
+14,Minnesota Vikings,4,1,0,0,0,0,0,1,6.0,6.0,28.0,MIN,DST,5,2020
+15,Chicago Bears,3,0,1,1,0,0,0,1,6.0,6.0,35.9,CHI,DST,5,2020
+16,Carolina Panthers,2,1,0,1,0,0,0,1,5.0,5.0,27.8,CAR,DST,5,2020
+17,Las Vegas Raiders,3,1,0,0,0,0,0,1,4.0,4.0,7.6,LV,DST,5,2020
+18,Jacksonville Jaguars,1,2,0,0,0,0,0,1,4.0,4.0,6.9,JAC,DST,5,2020
+19,Cincinnati Bengals,1,1,0,0,0,0,0,1,3.0,3.0,14.7,CIN,DST,5,2020
+20,New Orleans Saints,3,0,0,0,0,0,0,1,3.0,3.0,79.3,NO,DST,5,2020
+21,Los Angeles Chargers,2,1,0,1,0,0,0,1,3.0,3.0,44.3,LAC,DST,5,2020
+22,Washington Commanders,1,1,0,1,0,0,0,1,2.0,2.0,27.5,WAS,DST,5,2020
+23,New York Jets,1,1,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,5,2020
+24,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,5,2020
+25,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,5,2020
+26,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,5,2020
+27,Atlanta Falcons,0,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,DST,5,2020
+28,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,5,2020
+29,Philadelphia Eagles,1,0,1,1,0,0,0,1,-1.0,-1.0,52.5,PHI,DST,5,2020
+30,Kansas City Chiefs,1,1,0,0,0,0,0,1,-1.0,-1.0,45.7,KC,DST,5,2020
+31,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,DST,5,2020
+32,Buffalo Bills,0,0,0,0,0,0,0,1,-4.0,-4.0,95.9,BUF,DST,5,2020

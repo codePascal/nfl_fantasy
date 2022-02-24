@@ -1,33 +1,33 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,week,position
-1,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,4,DST
-2,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,4,DST
-3,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,4,DST
-4,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,4,DST
-5,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,4,DST
-6,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,4,DST
-7,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,4,DST
-8,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,4,DST
-9,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,4,DST
-10,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,4,DST
-11,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,4,DST
-12,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,4,DST
-13,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,4,DST
-14,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,4,DST
-15,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,4,DST
-16,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,4,DST
-17,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,4,DST
-18,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,4,DST
-19,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,4,DST
-20,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,4,DST
-21,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,4,DST
-22,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,4,DST
-23,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,4,DST
-24,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,4,DST
-25,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,4,DST
-26,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,4,DST
-27,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,4,DST
-28,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,4,DST
-29,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,4,DST
-30,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,4,DST
-31,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,4,DST
-32,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,4,DST
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,4,2017
+2,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,4,2017
+3,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,4,2017
+4,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,4,2017
+5,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2017
+6,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,4,2017
+7,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,4,2017
+8,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2017
+9,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,4,2017
+10,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,4,2017
+11,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2017
+12,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,4,2017
+13,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,4,2017
+14,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,4,2017
+15,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,4,2017
+16,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,4,2017
+17,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,4,2017
+18,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,4,2017
+19,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,4,2017
+20,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,4,2017
+21,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,4,2017
+22,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,4,2017
+23,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,4,2017
+24,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,4,2017
+25,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,4,2017
+26,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,4,2017
+27,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,4,2017
+28,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,4,2017
+29,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,4,2017
+30,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,4,2017
+31,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,4,2017
+32,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,4,2017

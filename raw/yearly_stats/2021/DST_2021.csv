@@ -1,33 +1,33 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,year,position
-1,Dallas Cowboys,41,26,8,13,6,0,3,17,185.0,10.9,82.9,DAL,2021,DST
-2,New England Patriots,36,23,7,11,3,0,0,17,161.0,9.5,93.2,NE,2021,DST
-3,Miami Dolphins,48,14,13,14,5,0,1,17,155.0,9.1,60.2,MIA,2021,DST
-4,Buffalo Bills,42,19,11,10,1,0,0,17,150.0,8.8,95.9,BUF,2021,DST
-5,New Orleans Saints,46,18,7,12,2,0,0,17,145.0,8.5,79.3,NO,2021,DST
-6,Tampa Bay Buccaneers,47,17,12,15,2,0,0,17,141.0,8.3,98.0,TB,2021,DST
-7,Indianapolis Colts,33,19,14,17,1,1,2,17,138.0,8.1,66.4,IND,2021,DST
-8,Kansas City Chiefs,31,15,14,18,4,0,0,17,131.0,7.7,45.7,KC,2021,DST
-9,Arizona Cardinals,41,13,14,20,2,0,0,17,126.0,7.4,60.9,ARI,2021,DST
-10,Minnesota Vikings,51,16,8,13,2,0,2,17,124.0,7.3,28.0,MIN,2021,DST
-11,Tennessee Titans,43,16,6,10,3,0,0,17,123.0,7.2,48.4,TEN,2021,DST
-12,Los Angeles Rams,50,19,6,13,0,0,1,17,121.0,7.1,74.5,LAR,2021,DST
-13,Denver Broncos,36,13,6,6,1,0,0,17,119.0,7.0,48.5,DEN,2021,DST
-14,San Francisco 49ers,48,9,11,21,2,0,0,17,118.0,6.9,79.5,SF,2021,DST
-15,Green Bay Packers,39,18,8,9,2,0,0,17,117.0,6.9,60.6,GB,2021,DST
-16,Philadelphia Eagles,29,12,4,11,5,0,0,17,111.0,6.5,52.5,PHI,2021,DST
-17,Pittsburgh Steelers,55,13,9,16,0,0,1,17,111.0,6.5,44.6,PIT,2021,DST
-18,Cincinnati Bengals,42,13,8,14,2,0,0,17,108.0,6.4,14.7,CIN,2021,DST
-19,Chicago Bears,49,8,8,12,2,1,1,17,105.0,6.2,35.9,CHI,2021,DST
-20,Cleveland Browns,43,13,6,12,2,0,0,17,104.0,6.1,40.8,CLE,2021,DST
-21,Seattle Seahawks,34,11,7,8,0,1,1,17,95.0,5.6,39.4,SEA,2021,DST
-22,Washington Commanders,38,11,7,9,2,0,1,17,92.0,5.4,27.5,WAS,2021,DST
-23,Carolina Panthers,39,9,7,11,0,1,1,17,89.0,5.2,27.8,CAR,2021,DST
-24,Houston Texans,32,17,8,15,1,1,1,17,87.0,5.1,6.4,HOU,2021,DST
-25,New York Giants,34,15,7,10,1,1,0,17,86.0,5.1,4.5,NYG,2021,DST
-26,Baltimore Ravens,34,9,6,8,1,0,0,17,85.0,5.0,51.9,BAL,2021,DST
-27,Los Angeles Chargers,35,11,10,18,1,0,1,17,78.0,4.6,44.3,LAC,2021,DST
-28,Las Vegas Raiders,35,6,9,9,0,1,0,17,65.0,3.8,7.6,LV,2021,DST
-29,Atlanta Falcons,18,12,8,10,2,1,0,17,65.0,3.8,5.8,ATL,2021,DST
-30,Jacksonville Jaguars,32,7,2,6,0,0,1,17,64.0,3.8,6.9,JAC,2021,DST
-31,New York Jets,33,7,7,12,1,0,1,17,58.0,3.4,3.3,NYJ,2021,DST
-32,Detroit Lions,30,11,8,11,0,0,0,17,58.0,3.4,1.1,DET,2021,DST
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+1,Dallas Cowboys,41,26,8,13,6,0,3,17,185.0,10.9,82.9,DAL,DST,2021
+2,New England Patriots,36,23,7,11,3,0,0,17,161.0,9.5,93.2,NE,DST,2021
+3,Miami Dolphins,48,14,13,14,5,0,1,17,155.0,9.1,60.2,MIA,DST,2021
+4,Buffalo Bills,42,19,11,10,1,0,0,17,150.0,8.8,95.9,BUF,DST,2021
+5,New Orleans Saints,46,18,7,12,2,0,0,17,145.0,8.5,79.3,NO,DST,2021
+6,Tampa Bay Buccaneers,47,17,12,15,2,0,0,17,141.0,8.3,98.0,TB,DST,2021
+7,Indianapolis Colts,33,19,14,17,1,1,2,17,138.0,8.1,66.4,IND,DST,2021
+8,Kansas City Chiefs,31,15,14,18,4,0,0,17,131.0,7.7,45.7,KC,DST,2021
+9,Arizona Cardinals,41,13,14,20,2,0,0,17,126.0,7.4,60.9,ARI,DST,2021
+10,Minnesota Vikings,51,16,8,13,2,0,2,17,124.0,7.3,28.0,MIN,DST,2021
+11,Tennessee Titans,43,16,6,10,3,0,0,17,123.0,7.2,48.4,TEN,DST,2021
+12,Los Angeles Rams,50,19,6,13,0,0,1,17,121.0,7.1,74.5,LAR,DST,2021
+13,Denver Broncos,36,13,6,6,1,0,0,17,119.0,7.0,48.5,DEN,DST,2021
+14,San Francisco 49ers,48,9,11,21,2,0,0,17,118.0,6.9,79.5,SF,DST,2021
+15,Green Bay Packers,39,18,8,9,2,0,0,17,117.0,6.9,60.6,GB,DST,2021
+16,Philadelphia Eagles,29,12,4,11,5,0,0,17,111.0,6.5,52.5,PHI,DST,2021
+17,Pittsburgh Steelers,55,13,9,16,0,0,1,17,111.0,6.5,44.6,PIT,DST,2021
+18,Cincinnati Bengals,42,13,8,14,2,0,0,17,108.0,6.4,14.7,CIN,DST,2021
+19,Chicago Bears,49,8,8,12,2,1,1,17,105.0,6.2,35.9,CHI,DST,2021
+20,Cleveland Browns,43,13,6,12,2,0,0,17,104.0,6.1,40.8,CLE,DST,2021
+21,Seattle Seahawks,34,11,7,8,0,1,1,17,95.0,5.6,39.4,SEA,DST,2021
+22,Washington Commanders,38,11,7,9,2,0,1,17,92.0,5.4,27.5,WAS,DST,2021
+23,Carolina Panthers,39,9,7,11,0,1,1,17,89.0,5.2,27.8,CAR,DST,2021
+24,Houston Texans,32,17,8,15,1,1,1,17,87.0,5.1,6.4,HOU,DST,2021
+25,New York Giants,34,15,7,10,1,1,0,17,86.0,5.1,4.5,NYG,DST,2021
+26,Baltimore Ravens,34,9,6,8,1,0,0,17,85.0,5.0,51.9,BAL,DST,2021
+27,Los Angeles Chargers,35,11,10,18,1,0,1,17,78.0,4.6,44.3,LAC,DST,2021
+28,Las Vegas Raiders,35,6,9,9,0,1,0,17,65.0,3.8,7.6,LV,DST,2021
+29,Atlanta Falcons,18,12,8,10,2,1,0,17,65.0,3.8,5.8,ATL,DST,2021
+30,Jacksonville Jaguars,32,7,2,6,0,0,1,17,64.0,3.8,6.9,JAC,DST,2021
+31,New York Jets,33,7,7,12,1,0,1,17,58.0,3.4,3.3,NYJ,DST,2021
+32,Detroit Lions,30,11,8,11,0,0,0,17,58.0,3.4,1.1,DET,DST,2021

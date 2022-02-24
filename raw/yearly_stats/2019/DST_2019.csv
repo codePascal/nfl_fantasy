@@ -1,33 +1,33 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,year,position
-1,New England Patriots,47,25,11,14,5,1,2,16,236.0,14.8,93.2,NE,2019,DST
-2,Pittsburgh Steelers,54,20,18,19,3,0,1,16,173.0,10.8,44.6,PIT,2019,DST
-3,San Francisco 49ers,48,12,15,21,5,0,0,16,163.0,10.2,79.5,SF,2019,DST
-4,Baltimore Ravens,37,13,12,15,6,1,0,16,154.0,9.6,51.9,BAL,2019,DST
-5,Los Angeles Rams,50,13,11,13,4,1,0,16,146.0,9.1,74.5,LAR,2019,DST
-6,Minnesota Vikings,48,17,14,18,2,1,0,16,142.0,8.9,28.0,MIN,2019,DST
-7,New York Jets,35,12,9,8,5,2,1,16,137.0,8.6,3.3,NYJ,2019,DST
-8,Kansas City Chiefs,45,16,7,12,3,0,1,16,136.0,8.5,45.7,KC,2019,DST
-9,New Orleans Saints,51,13,10,11,3,1,1,16,135.0,8.4,79.3,NO,2019,DST
-10,Tampa Bay Buccaneers,47,12,16,20,6,0,0,16,134.0,8.4,98.0,TB,2019,DST
-11,Tennessee Titans,43,14,9,10,3,1,1,16,131.0,8.2,48.4,TEN,2019,DST
-12,Buffalo Bills,44,14,9,15,0,1,1,16,130.0,8.1,95.9,BUF,2019,DST
-13,Seattle Seahawks,28,16,16,18,3,0,0,16,118.0,7.4,39.4,SEA,2019,DST
-14,Indianapolis Colts,41,15,8,13,1,2,2,16,114.0,7.1,66.4,IND,2019,DST
-15,Philadelphia Eagles,43,11,9,15,3,0,0,16,109.0,6.8,52.5,PHI,2019,DST
-16,Green Bay Packers,41,17,7,12,0,0,0,16,108.0,6.8,60.6,GB,2019,DST
-17,Jacksonville Jaguars,47,10,9,13,2,0,0,16,99.0,6.2,6.9,JAC,2019,DST
-18,Denver Broncos,40,10,6,8,1,0,0,16,99.0,6.2,48.5,DEN,2019,DST
-19,Dallas Cowboys,39,7,10,13,1,0,0,16,99.0,6.2,82.9,DAL,2019,DST
-20,Chicago Bears,32,10,9,12,1,1,1,16,96.0,6.0,35.9,CHI,2019,DST
-21,Carolina Panthers,53,14,7,8,1,2,0,16,91.0,5.7,27.8,CAR,2019,DST
-22,Atlanta Falcons,28,12,8,13,2,0,1,16,90.0,5.6,5.8,ATL,2019,DST
-23,Houston Texans,31,12,10,14,2,0,0,16,90.0,5.6,6.4,HOU,2019,DST
-24,Cleveland Browns,38,14,6,12,1,0,0,16,87.0,5.4,40.8,CLE,2019,DST
-25,Washington Commanders,46,13,9,15,0,0,1,16,86.0,5.4,27.5,WAS,2019,DST
-26,New York Giants,36,10,6,8,2,1,0,16,83.0,5.2,4.5,NYG,2019,DST
-27,Los Angeles Chargers,30,11,3,5,0,0,1,16,76.0,4.8,44.3,LAC,2019,DST
-28,Las Vegas Raiders,32,9,6,8,2,0,0,16,70.0,4.4,7.6,LV,2019,DST
-29,Arizona Cardinals,40,7,10,19,0,0,0,16,68.0,4.3,60.9,ARI,2019,DST
-30,Detroit Lions,28,7,11,13,1,0,2,16,66.0,4.1,1.1,DET,2019,DST
-31,Cincinnati Bengals,31,11,5,9,0,1,1,16,61.0,3.8,14.7,CIN,2019,DST
-32,Miami Dolphins,23,13,3,9,1,1,1,16,44.0,2.8,60.2,MIA,2019,DST
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+1,New England Patriots,47,25,11,14,5,1,2,16,236.0,14.8,93.2,NE,DST,2019
+2,Pittsburgh Steelers,54,20,18,19,3,0,1,16,173.0,10.8,44.6,PIT,DST,2019
+3,San Francisco 49ers,48,12,15,21,5,0,0,16,163.0,10.2,79.5,SF,DST,2019
+4,Baltimore Ravens,37,13,12,15,6,1,0,16,154.0,9.6,51.9,BAL,DST,2019
+5,Los Angeles Rams,50,13,11,13,4,1,0,16,146.0,9.1,74.5,LAR,DST,2019
+6,Minnesota Vikings,48,17,14,18,2,1,0,16,142.0,8.9,28.0,MIN,DST,2019
+7,New York Jets,35,12,9,8,5,2,1,16,137.0,8.6,3.3,NYJ,DST,2019
+8,Kansas City Chiefs,45,16,7,12,3,0,1,16,136.0,8.5,45.7,KC,DST,2019
+9,New Orleans Saints,51,13,10,11,3,1,1,16,135.0,8.4,79.3,NO,DST,2019
+10,Tampa Bay Buccaneers,47,12,16,20,6,0,0,16,134.0,8.4,98.0,TB,DST,2019
+11,Tennessee Titans,43,14,9,10,3,1,1,16,131.0,8.2,48.4,TEN,DST,2019
+12,Buffalo Bills,44,14,9,15,0,1,1,16,130.0,8.1,95.9,BUF,DST,2019
+13,Seattle Seahawks,28,16,16,18,3,0,0,16,118.0,7.4,39.4,SEA,DST,2019
+14,Indianapolis Colts,41,15,8,13,1,2,2,16,114.0,7.1,66.4,IND,DST,2019
+15,Philadelphia Eagles,43,11,9,15,3,0,0,16,109.0,6.8,52.5,PHI,DST,2019
+16,Green Bay Packers,41,17,7,12,0,0,0,16,108.0,6.8,60.6,GB,DST,2019
+17,Jacksonville Jaguars,47,10,9,13,2,0,0,16,99.0,6.2,6.9,JAC,DST,2019
+18,Denver Broncos,40,10,6,8,1,0,0,16,99.0,6.2,48.5,DEN,DST,2019
+19,Dallas Cowboys,39,7,10,13,1,0,0,16,99.0,6.2,82.9,DAL,DST,2019
+20,Chicago Bears,32,10,9,12,1,1,1,16,96.0,6.0,35.9,CHI,DST,2019
+21,Carolina Panthers,53,14,7,8,1,2,0,16,91.0,5.7,27.8,CAR,DST,2019
+22,Atlanta Falcons,28,12,8,13,2,0,1,16,90.0,5.6,5.8,ATL,DST,2019
+23,Houston Texans,31,12,10,14,2,0,0,16,90.0,5.6,6.4,HOU,DST,2019
+24,Cleveland Browns,38,14,6,12,1,0,0,16,87.0,5.4,40.8,CLE,DST,2019
+25,Washington Commanders,46,13,9,15,0,0,1,16,86.0,5.4,27.5,WAS,DST,2019
+26,New York Giants,36,10,6,8,2,1,0,16,83.0,5.2,4.5,NYG,DST,2019
+27,Los Angeles Chargers,30,11,3,5,0,0,1,16,76.0,4.8,44.3,LAC,DST,2019
+28,Las Vegas Raiders,32,9,6,8,2,0,0,16,70.0,4.4,7.6,LV,DST,2019
+29,Arizona Cardinals,40,7,10,19,0,0,0,16,68.0,4.3,60.9,ARI,DST,2019
+30,Detroit Lions,28,7,11,13,1,0,2,16,66.0,4.1,1.1,DET,DST,2019
+31,Cincinnati Bengals,31,11,5,9,0,1,1,16,61.0,3.8,14.7,CIN,DST,2019
+32,Miami Dolphins,23,13,3,9,1,1,1,16,44.0,2.8,60.2,MIA,DST,2019
