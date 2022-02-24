@@ -1,4 +1,9 @@
-""" Implements the data loading for schedules. """
+"""
+Implements the data loading for schedules.
+
+If this script is run, all schedules for denoted year range are
+stored.
+"""
 import numpy as np
 import pandas as pd
 
@@ -64,4 +69,15 @@ def get_location(game):
     else:
         # bye week
         return np.nan
+
+
+def store_all():
+    """ Stores all schedules for given year range. """
+    years = (2016, 2021)
+    for year in range(years[0], years[1] + 1):
+        Schedule(year).store_data()
+
+
+if __name__ == "__main__":
+    store_all()
 

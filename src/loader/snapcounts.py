@@ -9,10 +9,13 @@ Most recent years are available for that analysis. Currently, only
 offensive players are available to fetch. These are drafted as single
 players compared to the defenses that are drafted as one. Kickers are
 not considered. All players are fetched that had more than 0 snaps.
+
+If this script is run, all snapcounts for denoted year range are
+stored.
 """
 from abc import ABC
 
-from config.mapping import snapcounts_type
+from config.mapping import snapcounts_type, week_map
 from src.loader.loader import Loader
 
 # TODO fix duplicated code fragments
@@ -82,6 +85,19 @@ def transform_snaps(snaps):
         return int(str(snaps).replace(",", ""))
     else:
         return snaps
+
+
+def store_all():
+    """ Stores all snapcounts for given year range. """
+    years = (2016, 2021)
+    for year in range(years[0], years[1] + 1):
+        YearlySnapcounts(year).store_data()
+        for week in range(1, week_map[year] + 1):
+            WeeklySnapcounts(week, year).store_data()
+
+
+if __name__ == "__main__":
+    store_all()
 
 
 

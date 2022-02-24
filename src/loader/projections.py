@@ -5,10 +5,12 @@ players.
 Currently, only the weekly projections for season 2021 are
 available. Unfortunately, if a player has retired at the end of the
 season, e.g. Tom Brady, its projections are not available anymore.
+
+If this script is run, all projections for denoted year are stored.
 """
 from abc import ABC
 
-from config.mapping import projections_type, teams
+from config.mapping import projections_type, teams, week_map
 from src.loader.loader import Loader
 
 
@@ -61,4 +63,15 @@ def transform_name(name):
             if team in subname:
                 to_drop = team
     return name.replace(to_drop, "")
+
+
+def store_all():
+    """ Stores all projections. """
+    for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
+        for week in range(1, week_map[2021] + 1):
+            Projections(position, week).store_data()
+
+
+if __name__ == "__main__":
+    store_all()
 

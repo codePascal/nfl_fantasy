@@ -1,7 +1,11 @@
-""" Implements the data loading for weekly and yearly stats. """
+"""
+Implements the data loading for weekly and yearly stats.
+
+If this script is run, all stats for denoted year range are stored.
+"""
 from abc import ABC
 
-from config.mapping import stats_type
+from config.mapping import stats_type, week_map
 from src.loader.loader import Loader
 
 # TODO fix duplicated code fragments
@@ -131,3 +135,17 @@ def transform_yards(yards):
         return int(str(yards).replace(",", ""))
     else:
         return yards
+
+
+def store_all():
+    """ Stores all stats for given year range. """
+    years = (2016, 2021)
+    for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
+        for year in range(years[0], years[1] + 1):
+            YearlyStats(position, year).store_data()
+            for week in range(1, week_map[year] + 1):
+                WeeklyStats(position, week, year).store_data()
+
+
+if __name__ == "__main__":
+    store_all()

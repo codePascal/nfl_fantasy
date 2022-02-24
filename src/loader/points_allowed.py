@@ -14,6 +14,9 @@ cases, e.g. Las Vegas Raiders, the name of the team has changed.
 Since team names are kept up to date, the points allowed for such a
 team are not available. Further, the points of the previous name are
 not available too.
+
+If this script is run, all points allowed for denoted year range are
+stored.
 """
 import bs4
 import pandas as pd
@@ -79,3 +82,14 @@ class PointsAllowed(Loader, ABC):
 def add_team_shortcut(team):
     """ Replaces team name with commonly used shortcut. """
     return team_map[team]
+
+
+def store_all():
+    """ Stores all points allowed for given year range. """
+    years = (2016, 2021)
+    for year in range(years[0], years[1] + 1):
+        PointsAllowed(year).store_data()
+
+
+if __name__ == "__main__":
+    store_all()
