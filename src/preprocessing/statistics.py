@@ -44,21 +44,26 @@ class Statistics(Preprocessing, ABC):
         # merge schedule
         df = pd.merge(df, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
 
+        print(df.loc[df["team"] == "FA"])
+
         return df
 
 
 def clean_up_teams(player):
     """ Takes players team from snapcounts if available. """
     # TODO still missing teams
-    if player["team_x"] == "FA":
+    if player["team_x"] == "FA" and player["team_y"] is not np.nan:
         return player["team_y"]
     return player["team_x"]
 
 
 def fix_teams(team):
-    """ Updates team abbreviations to latest ones. """
+    """ Updates team abbreviations to the latest ones. """
     if team not in teams and team is not np.nan:
-        return team_changes_map[team]
+        if team in team_changes_map.keys():
+            return team_changes_map[team]
+        elif team != "FA":
+            print("Team abbreviation", team, "not available.")
     return team
 
 
