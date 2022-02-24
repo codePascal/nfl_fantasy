@@ -45,7 +45,6 @@ class TestPreprocessing(unittest.TestCase):
 
     def test_statistics(self):
         df = Statistics(2021).get_accumulated_data()
-        print(df)
 
         # test entries
         self.assertEqual(df.iloc[0, 1], "Arizona Cardinals")
