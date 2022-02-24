@@ -266,3 +266,9 @@ pa_type = {
     "rank_dst": int,
     "pa_dst": float
 }
+
+# map team changes
+team_changes_map = {
+    "OAK": "LV",  # changed in 2020
+    "SD": "LAC",  # changed in 2016
+}
