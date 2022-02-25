@@ -9,7 +9,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mp
 import numpy as np
 
-import src.preprocessing.statistics.summary.offense as offense
+from src.preprocessing.statistics import Statistics
 
 
 if __name__ == "__main__":
@@ -17,7 +17,7 @@ if __name__ == "__main__":
     year = 2021
 
     # load summary of offense
-    df = offense.get_offense_stats_summary(year)
+    df = Statistics(2021).get_accumulated_data()
 
     # extract player, week and receiving targets
     df = df.loc[:, ["player", "week", "team", "games", "receiving_tgt", "position"]]

@@ -12,7 +12,7 @@ import seaborn as sns
 import tqdm
 
 import src.preprocessing.playbyplay.playbyplay as pbp
-import src.preprocessing.statistics.summary.offense as offense
+from src.preprocessing.statistics import Statistics
 
 sns.set_style("whitegrid")
 
@@ -107,7 +107,7 @@ if __name__ == "__main__":
         data["Expected touchdowns rank"] = data["Expected touchdowns"].rank(ascending=False)
 
         # load final stats
-        df = offense.get_offense_stats_summary(year)
+        df = Statistics(year).get_accumulated_data()
 
         # get only defined position
         df_actual = df.loc[(df["position"] == position)]

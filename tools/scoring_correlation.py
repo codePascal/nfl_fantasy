@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-import src.loader.stats.yearly as stats
+from src.loader.stats import YearlyStats
 
 
 sns.set_style("whitegrid")
@@ -20,7 +20,7 @@ if __name__ == "__main__":
 
     for position in positions:
         # get yearly_stats raw
-        df = stats.get_stats_yearly(year, position)
+        df = YearlyStats(position, year).get_data()
 
         # drop unnecessary columns
         df.drop(["rank", "player", "team", "games", "fantasy_points", "rost", "year"], axis=1, inplace=True)

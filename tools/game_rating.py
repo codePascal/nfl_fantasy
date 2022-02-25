@@ -13,7 +13,7 @@ import numpy as np
 import pandas as pd
 import scipy.stats
 
-import src.preprocessing.statistics.statistics as stats
+from src.preprocessing.statistics import Statistics
 
 SNAPS_THRESHOLD = 30
 
@@ -24,25 +24,13 @@ position_map = {
     "TE": 3
 }
 
-week_mapping = {
-    2021: 18,
-    2020: 17,
-    2019: 17,
-    2018: 17,
-    2017: 17,
-    2016: 17
-}
-
 if __name__ == "__main__":
     # load the stats of the recent years
     df = pd.DataFrame()
     yearly = pd.DataFrame()
     for year in range(2016, 2021 + 1):
         # load summary of offense
-        if not os.path.exists(f"../preprocessed/stats/offense_summary_{year}.csv"):
-            yearly = stats.concat_offense_stats(year, week_mapping[year])
-        else:
-            yearly = pd.read_csv(f"../preprocessed/stats/offense_summary_{year}.csv")
+        yearly = Statistics(year).get_accumulated_data()
 
         # get necessary data
         yearly = yearly.loc[:, ["position", "fantasy_points", "snaps_percent", "week"]]
@@ -87,11 +75,7 @@ if __name__ == "__main__":
     plt.savefig("../reports/game_rating/scoring_distribution_2016to2021.png")
 
     # load stats from the latest season
-    # load summary of offense
-    if not os.path.exists(f"../preprocessed/stats/offense_summary_2021.csv"):
-        df = stats.concat_offense_stats(2021, week_mapping[2021])
-    else:
-        df = pd.read_csv(f"../preprocessed/stats/offense_summary_2021.csv")
+    df = Statistics(2021).get_accumulated_data()
     df = df.loc[:, ["player", "position", "fantasy_points", "team", "opponent", "snaps_percent"]]
     df = df[df["position"].isin(list(position_map.keys()))]
 

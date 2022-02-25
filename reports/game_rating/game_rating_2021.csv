@@ -1,5 +1,5 @@
 player,position,team,fantasy_points,great_game,poor_game,quality_game,games
-A.J. Brown,WR,TEN,117.6,5.0,4.0,3.0,12.0
+A.J. Brown,WR,TEN,117.6,5.0,3.0,4.0,12.0
 A.J. Green,WR,ARI,102.8,5.0,6.0,5.0,16.0
 AJ Dillon,RB,GB,145.0,4.0,4.0,5.0,13.0
 Aaron Jones,RB,GB,177.0,6.0,4.0,5.0,15.0
@@ -8,7 +8,7 @@ Adam Humphries,WR,WAS,38.3,0.0,15.0,2.0,17.0
 Adam Prentice,RB,NO,0.8999999999999999,0.0,2.0,0.0,2.0
 Adam Shaheen,TE,MIA,11.0,0.0,5.0,3.0,8.0
 Adam Thielen,WR,MIN,132.8,7.0,2.0,3.0,12.0
-Adam Trautman,TE,NO,36.300000000000004,2.0,6.0,3.0,11.0
+Adam Trautman,TE,NO,36.300000000000004,2.0,5.0,4.0,11.0
 Adrian Peterson,RB,SEA,2.0,0.0,1.0,0.0,1.0
 Albert Okwuegbunam,TE,DEN,41.9,2.0,4.0,6.0,12.0
 Albert Wilson,WR,MIA,21.9,1.0,8.0,0.0,9.0
@@ -16,8 +16,8 @@ Alec Ingold,RB,LV,6.1,0.0,1.0,0.0,1.0
 Alex Bachman,WR,NYG,-0.3,0.0,1.0,0.0,1.0
 Alex Collins,RB,SEA,54.800000000000004,2.0,6.0,0.0,8.0
 Alexander Mattison,RB,MIN,82.0,4.0,3.0,1.0,8.0
-Allen Lazard,WR,GB,102.5,5.0,7.0,2.0,14.0
-Allen Robinson II,WR,CHI,49.0,0.0,8.0,4.0,12.0
+Allen Lazard,WR,GB,102.5,5.0,6.0,3.0,14.0
+Allen Robinson II,WR,CHI,49.0,0.0,7.0,5.0,12.0
 Alvin Kamara,RB,NO,187.7,9.0,3.0,1.0,13.0
 Amari Cooper,WR,DAL,134.5,6.0,5.0,4.0,15.0
 Amari Rodgers,WR,GB,0.5,0.0,1.0,0.0,1.0
@@ -39,7 +39,7 @@ Austin Hooper,TE,CLE,54.5,3.0,4.0,8.0,15.0
 Austin Walter,RB,NYJ,4.9,0.0,1.0,0.0,1.0
 Baker Mayfield,QB,CLE,193.8,1.0,7.0,6.0,14.0
 Ben Roethlisberger,QB,PIT,228.0,2.0,8.0,6.0,16.0
-Ben Skowronek,WR,LAR,6.8,0.0,3.0,0.0,3.0
+Ben Skowronek,WR,LAR,6.8,0.0,2.0,1.0,3.0
 Benny Snell Jr.,RB,PIT,2.2,0.0,1.0,0.0,1.0
 Blake Bell,TE,KC,7.9,0.0,4.0,2.0,6.0
 Blake Jarwin,TE,DAL,21.0,1.0,3.0,3.0,7.0
@@ -58,7 +58,7 @@ Brycen Hopkins,TE,LAR,0.9,0.0,1.0,0.0,1.0
 Byron Pringle,WR,KC,64.5,2.0,7.0,3.0,12.0
 C.J. Board,WR,NYG,4.5,0.0,2.0,0.0,2.0
 C.J. Ham,RB,MIN,11.0,0.0,10.0,0.0,10.0
-C.J. Uzomah,TE,CIN,79.3,3.0,6.0,7.0,16.0
+C.J. Uzomah,TE,CIN,79.3,3.0,5.0,8.0,16.0
 Calvin Ridley,WR,ATL,40.1,1.0,0.0,4.0,5.0
 Cam Newton,QB,CAR,79.1,2.0,2.0,1.0,5.0
 Cam Sims,WR,WAS,21.2,1.0,4.0,1.0,6.0
@@ -67,7 +67,7 @@ Cameron Brate,TE,TB,28.9,2.0,4.0,4.0,10.0
 Carlos Hyde,RB,JAC,30.6,0.0,6.0,0.0,6.0
 Carson Wentz,QB,IND,264.9,5.0,7.0,5.0,17.0
 Case Keenum,QB,CLE,29.4,0.0,3.0,0.0,3.0
-Cedrick Wilson Jr.,WR,DAL,101.0,4.0,6.0,3.0,13.0
+Cedrick Wilson Jr.,WR,DAL,101.0,4.0,5.0,4.0,13.0
 CeeDee Lamb,WR,DAL,153.8,7.0,3.0,6.0,16.0
 Charlie Woerner,TE,SF,4.1,0.0,2.0,1.0,3.0
 Chase Claypool,WR,PIT,107.6,5.0,4.0,6.0,15.0
@@ -80,17 +80,17 @@ Chris Godwin,WR,TB,139.5,8.0,1.0,4.0,13.0
 Chris Hogan,WR,NO,1.6,0.0,1.0,0.0,1.0
 Chris Manhertz,TE,JAC,12.0,1.0,8.0,0.0,9.0
 Chris Moore,WR,HOU,32.1,2.0,2.0,0.0,4.0
-Chris Myarick,TE,CIN,7.1,1.0,0.0,0.0,1.0
-Chris Streveler,QB,ARI,1.8,0.0,1.0,0.0,1.0
+Chris Myarick,TE,NYG,7.1,1.0,0.0,0.0,1.0
+Chris Streveler,QB,MIA,1.8,0.0,1.0,0.0,1.0
 Christian Blake,WR,ATL,0.0,0.0,2.0,0.0,2.0
 Christian Kirk,WR,ARI,130.6,6.0,3.0,8.0,17.0
 Christian McCaffrey,RB,CAR,86.5,4.0,1.0,1.0,6.0
-Chuba Hubbard,RB,CAR,98.3,2.0,4.0,5.0,11.0
+Chuba Hubbard,RB,CAR,98.3,3.0,4.0,4.0,11.0
 Clyde Edwards-Helaire,RB,KC,86.0,4.0,3.0,1.0,8.0
 Cody Hollister,WR,TEN,3.3000000000000003,0.0,3.0,0.0,3.0
 Cody White,WR,PIT,1.6,0.0,1.0,0.0,1.0
 Colby Parkinson,TE,SEA,1.5,0.0,3.0,0.0,3.0
-Cole Beasley,WR,BUF,75.8,3.0,9.0,3.0,15.0
+Cole Beasley,WR,BUF,75.8,3.0,8.0,4.0,15.0
 Cole Kmet,TE,CHI,61.2,3.0,5.0,9.0,17.0
 Collin Johnson,WR,NYG,8.2,0.0,3.0,1.0,4.0
 Colt McCoy,QB,ARI,40.4,1.0,1.0,1.0,3.0
@@ -113,16 +113,16 @@ D.K. Metcalf,WR,SEA,169.3,8.0,3.0,6.0,17.0
 DJ Moore,WR,CAR,144.5,7.0,3.0,7.0,17.0
 Dak Prescott,QB,DAL,330.4,11.0,5.0,0.0,16.0
 Dallas Goedert,TE,PHI,106.2,9.0,1.0,4.0,14.0
-Dalton Schultz,TE,DAL,130.8,8.0,4.0,5.0,17.0
+Dalton Schultz,TE,DAL,130.8,8.0,3.0,6.0,17.0
 Dalvin Cook,RB,MIN,172.3,6.0,2.0,5.0,13.0
 Damien Harris,RB,NE,158.3,5.0,3.0,5.0,13.0
 Damien Williams,RB,CHI,31.4,2.0,1.0,0.0,3.0
-Damiere Byrd,WR,CHI,37.9,1.0,7.0,1.0,9.0
+Damiere Byrd,WR,CHI,37.9,1.0,5.0,3.0,9.0
 Dan Arnold,TE,JAC,34.4,2.0,2.0,5.0,9.0
 Daniel Jones,QB,NYG,173.6,3.0,4.0,4.0,11.0
 Danny Amendola,WR,HOU,34.5,1.0,3.0,1.0,5.0
 Dante Pettis,WR,NYG,15.3,1.0,0.0,1.0,2.0
-Dare Ogunbowale,RB,JAC,31.5,1.0,1.0,1.0,3.0
+Dare Ogunbowale,RB,JAC,31.5,2.0,1.0,0.0,3.0
 Darius Slayton,WR,NYG,41.8,1.0,8.0,3.0,12.0
 Darnell Mooney,WR,CHI,138.7,7.0,6.0,4.0,17.0
 Darrel Williams,RB,KC,141.6,3.0,5.0,6.0,14.0
@@ -130,10 +130,10 @@ Darrell Daniels,TE,ARI,0.0,0.0,8.0,0.0,8.0
 Darrell Henderson Jr.,RB,LAR,130.0,6.0,3.0,1.0,10.0
 Darren Fells,TE,DET,4.1,0.0,1.0,1.0,2.0
 Darren Waller,TE,LV,75.2,5.0,0.0,5.0,10.0
-Davante Adams,WR,GB,221.3,10.0,1.0,5.0,16.0
+Davante Adams,WR,GB,221.3,10.0,0.0,6.0,16.0
 David Johnson,RB,HOU,33.9,0.0,9.0,0.0,9.0
 David Montgomery,RB,CHI,154.0,5.0,3.0,5.0,13.0
-David Njoku,TE,CLE,71.60000000000001,5.0,7.0,3.0,15.0
+David Njoku,TE,CLE,71.60000000000001,5.0,5.0,5.0,15.0
 David Sills V,WR,NYG,1.2,0.0,2.0,0.0,2.0
 Davion Davis,WR,HOU,0.0,0.0,1.0,0.0,1.0
 Davis Mills,QB,HOU,167.0,3.0,7.0,3.0,13.0
@@ -143,7 +143,7 @@ Dazz Newsome,WR,CHI,1.0,0.0,2.0,0.0,2.0
 DeAndre Carter,WR,WAS,50.8,2.0,5.0,3.0,10.0
 DeAndre Hopkins,WR,ARI,98.60000000000001,6.0,1.0,2.0,9.0
 DeSean Jackson,WR,LV,42.9,2.0,4.0,1.0,7.0
-DeVante Parker,WR,MIA,63.5,2.0,4.0,4.0,10.0
+DeVante Parker,WR,MIA,63.5,2.0,2.0,6.0,10.0
 DeVonta Smith,WR,PHI,117.5,5.0,7.0,4.0,16.0
 Dede Westbrook,WR,MIN,0.2,0.0,4.0,0.0,4.0
 DeeJay Dallas,RB,SEA,31.799999999999997,0.0,3.0,2.0,5.0
@@ -199,7 +199,7 @@ Giovani Bernard,RB,TB,11.1,0.0,0.0,1.0,1.0
 Giovanni Ricci,TE,CAR,0.0,0.0,1.0,0.0,1.0
 Godwin Igwebuike,RB,DET,2.6,0.0,2.0,0.0,2.0
 Greg Ward,WR,PHI,9.100000000000001,0.0,3.0,1.0,4.0
-Harrison Bryant,TE,CLE,24.1,1.0,8.0,3.0,12.0
+Harrison Bryant,TE,CLE,24.1,1.0,7.0,4.0,12.0
 Hayden Hurst,TE,ATL,34.8,3.0,5.0,3.0,11.0
 Henry Ruggs III,WR,LV,60.5,2.0,1.0,4.0,7.0
 Hunter Henry,TE,NE,114.3,8.0,2.0,6.0,16.0
@@ -225,7 +225,7 @@ Jakob Johnson,RB,NE,3.2,0.0,3.0,0.0,3.0
 Jakobi Meyers,WR,NE,103.30000000000001,4.0,3.0,9.0,16.0
 Jalen Camp,WR,HOU,0.0,0.0,1.0,0.0,1.0
 Jalen Guyton,WR,LAC,66.2,2.0,11.0,3.0,16.0
-Jalen Hurts,QB,PHI,321.2,10.0,3.0,2.0,15.0
+Jalen Hurts,QB,PHI,321.2,9.0,3.0,3.0,15.0
 Jalen Reagor,WR,PHI,43.0,1.0,12.0,3.0,16.0
 Jamaal Williams,RB,DET,79.5,1.0,3.0,5.0,9.0
 Jamal Agnew,WR,JAC,40.2,2.0,1.0,2.0,5.0
@@ -238,7 +238,7 @@ James Washington,WR,PIT,39.9,1.0,7.0,3.0,11.0
 James White,RB,NE,18.6,0.0,1.0,1.0,2.0
 Jamison Crowder,WR,NYJ,57.1,2.0,6.0,3.0,11.0
 Jared Cook,TE,LAC,84.4,7.0,1.0,8.0,16.0
-Jared Goff,QB,DET,202.4,4.0,8.0,2.0,14.0
+Jared Goff,QB,DET,202.4,3.0,8.0,3.0,14.0
 Jaret Patterson,RB,WAS,15.8,1.0,0.0,0.0,1.0
 Jarvis Landry,WR,CLE,80.1,4.0,3.0,4.0,11.0
 Jason Huntley,RB,PHI,5.1,0.0,1.0,0.0,1.0
@@ -253,7 +253,7 @@ Jeremy Sprinkle,TE,DAL,1.0,0.0,1.0,0.0,1.0
 Jerick McKinnon,RB,KC,5.8,0.0,3.0,0.0,3.0
 Jerry Jeudy,WR,DEN,47.0,0.0,4.0,6.0,10.0
 Jesse James,TE,CHI,12.200000000000001,1.0,2.0,1.0,4.0
-Jimmy Garoppolo,QB,SF,239.5,4.0,3.0,8.0,15.0
+Jimmy Garoppolo,QB,SF,239.5,3.0,4.0,8.0,15.0
 Joe Burrow,QB,CIN,328.1,8.0,4.0,4.0,16.0
 Joe Flacco,QB,NYJ,17.9,0.0,0.0,1.0,1.0
 Joe Mixon,RB,CIN,236.4,7.0,3.0,5.0,15.0
@@ -268,7 +268,7 @@ Jordan Howard,RB,PHI,36.5,1.0,3.0,1.0,5.0
 Jordan Love,QB,GB,22.200000000000003,0.0,2.0,0.0,2.0
 Josh Allen,QB,BUF,417.7,12.0,2.0,3.0,17.0
 Josh Gordon,WR,KC,7.6000000000000005,0.0,2.0,1.0,3.0
-Josh Jacobs,RB,LV,172.0,6.0,4.0,5.0,15.0
+Josh Jacobs,RB,LV,172.0,7.0,4.0,4.0,15.0
 Josh Johnson,QB,BAL,45.7,2.0,0.0,0.0,2.0
 Josh Reynolds,WR,DET,50.800000000000004,2.0,4.0,3.0,9.0
 Joshua Kelley,RB,LAC,2.4,0.0,2.0,0.0,2.0
@@ -307,10 +307,10 @@ Kirk Cousins,QB,MIN,307.3,8.0,3.0,5.0,16.0
 Kristian Wilkerson,WR,NE,16.2,1.0,0.0,0.0,1.0
 Kyle Juszczyk,RB,SF,43.8,0.0,14.0,1.0,15.0
 Kyle Pitts,TE,ATL,108.6,7.0,2.0,8.0,17.0
-Kyle Rudolph,TE,NYG,30.9,2.0,7.0,4.0,13.0
+Kyle Rudolph,TE,NYG,30.9,2.0,6.0,5.0,13.0
 Kylen Granson,TE,IND,2.3,0.0,4.0,0.0,4.0
-Kyler Murray,QB,ARI,310.5,10.0,3.0,1.0,14.0
-Lamar Jackson,QB,BAL,251.79999999999998,6.0,1.0,4.0,11.0
+Kyler Murray,QB,ARI,310.5,8.0,3.0,3.0,14.0
+Lamar Jackson,QB,BAL,251.79999999999998,5.0,2.0,4.0,11.0
 Laquon Treadwell,WR,JAC,49.4,0.0,3.0,7.0,10.0
 Latavius Murray,RB,BAL,78.5,1.0,5.0,4.0,10.0
 Laviska Shenault Jr.,WR,JAC,62.7,1.0,8.0,6.0,15.0
@@ -338,12 +338,12 @@ Marvin Jones Jr.,WR,JAC,107.2,4.0,7.0,6.0,17.0
 Mason Rudolph,QB,PIT,16.3,0.0,0.0,1.0,1.0
 Matt Breida,RB,BUF,18.2,0.0,1.0,1.0,2.0
 Matt Ryan,QB,ATL,234.8,3.0,11.0,3.0,17.0
-Matthew Stafford,QB,LAR,346.8,10.0,2.0,5.0,17.0
+Matthew Stafford,QB,LAR,346.8,9.0,2.0,6.0,17.0
 Maxx Williams,TE,ARI,25.3,2.0,2.0,1.0,5.0
 Mecole Hardman,WR,KC,78.2,2.0,6.0,7.0,15.0
 Melvin Gordon III,RB,DEN,167.2,6.0,6.0,4.0,16.0
 Michael Carter,RB,NYJ,110.1,2.0,4.0,6.0,12.0
-Michael Gallup,WR,DAL,56.5,3.0,3.0,3.0,9.0
+Michael Gallup,WR,DAL,56.5,3.0,2.0,4.0,9.0
 Michael Pittman Jr.,WR,IND,150.6,7.0,4.0,6.0,17.0
 Mike Davis,RB,ATL,94.2,1.0,12.0,4.0,17.0
 Mike Evans,WR,TB,187.1,11.0,3.0,1.0,15.0
@@ -355,7 +355,7 @@ Mike White,QB,NYJ,44.2,1.0,2.0,0.0,3.0
 Mike Williams,WR,LAC,170.6,8.0,5.0,3.0,16.0
 Miles Sanders,RB,PHI,83.7,3.0,6.0,1.0,10.0
 Mitchell Wilcox,TE,CIN,1.6,0.0,1.0,0.0,1.0
-Mo Alie-Cox,TE,IND,55.6,3.0,9.0,5.0,17.0
+Mo Alie-Cox,TE,IND,55.6,3.0,8.0,6.0,17.0
 Mohamed Sanu Sr.,WR,SF,17.700000000000003,0.0,6.0,1.0,7.0
 MyCole Pruitt,TE,TEN,31.1,3.0,6.0,2.0,11.0
 Myles Gaskin,RB,MIA,121.0,4.0,7.0,3.0,14.0
@@ -412,9 +412,9 @@ Rondale Moore,WR,ARI,47.3,2.0,9.0,1.0,12.0
 Ross Dwelley,TE,SF,3.0,0.0,1.0,1.0,2.0
 Royce Freeman,RB,HOU,14.3,0.0,5.0,0.0,5.0
 Russell Gage,WR,ATL,97.0,5.0,4.0,4.0,13.0
-Russell Wilson,QB,SEA,248.7,7.0,4.0,3.0,14.0
+Russell Wilson,QB,SEA,248.7,6.0,4.0,4.0,14.0
 Ryan Griffin,TE,NYJ,38.1,2.0,6.0,6.0,14.0
-Ryan Tannehill,QB,TEN,282.3,4.0,4.0,9.0,17.0
+Ryan Tannehill,QB,TEN,282.3,4.0,5.0,8.0,17.0
 Salvon Ahmed,RB,MIA,4.0,0.0,2.0,0.0,2.0
 Sam Darnold,QB,CAR,170.5,3.0,6.0,3.0,12.0
 Samaje Perine,RB,CIN,38.9,2.0,3.0,0.0,5.0
@@ -424,7 +424,7 @@ Scotty Miller,WR,TB,2.9000000000000004,0.0,2.0,0.0,2.0
 Sean Mannion,QB,MIN,13.0,0.0,1.0,0.0,1.0
 Sean McKeon,TE,DAL,1.5,0.0,1.0,0.0,1.0
 Seth Williams,WR,DEN,3.4,0.0,1.0,0.0,1.0
-Shane Zylstra,TE,DET,3.4000000000000004,0.0,2.0,0.0,2.0
+Shane Zylstra,TE,DET,3.4000000000000004,0.0,1.0,1.0,2.0
 Shi Smith,WR,CAR,-0.5,0.0,2.0,0.0,2.0
 Sony Michel,RB,LAR,105.6,3.0,1.0,5.0,9.0
 Stanley Morgan Jr.,WR,CIN,1.1,0.0,2.0,0.0,2.0
@@ -436,9 +436,9 @@ T.Y. Hilton,WR,IND,49.2,2.0,5.0,2.0,9.0
 Tajae Sharpe,WR,ATL,18.3,0.0,8.0,2.0,10.0
 Tarik Black,WR,NYJ,1.0,0.0,1.0,0.0,1.0
 Tavon Austin,WR,JAC,17.5,0.0,4.0,2.0,6.0
-Taylor Heinicke,QB,WAS,236.7,5.0,8.0,3.0,16.0
+Taylor Heinicke,QB,WAS,236.7,5.0,9.0,2.0,16.0
 Taysom Hill,QB,NO,118.39999999999999,2.0,5.0,2.0,9.0
-Teddy Bridgewater,QB,DEN,209.8,5.0,5.0,4.0,14.0
+Teddy Bridgewater,QB,DEN,209.8,4.0,5.0,5.0,14.0
 Tee Higgins,WR,CIN,145.1,7.0,2.0,5.0,14.0
 Terrace Marshall Jr.,WR,CAR,13.799999999999999,0.0,8.0,1.0,9.0
 Terry McLaurin,WR,WAS,136.5,5.0,5.0,7.0,17.0
@@ -449,9 +449,9 @@ Tom Brady,QB,TB,386.7,11.0,3.0,3.0,17.0
 Tom Kennedy,WR,DET,1.6,0.0,2.0,0.0,2.0
 Tommy Hudson,TE,TEN,0.3,0.0,1.0,0.0,1.0
 Tommy Sweeney,TE,BUF,4.0,0.0,2.0,1.0,3.0
-Tommy Tremble,TE,CAR,23.4,1.0,8.0,4.0,13.0
+Tommy Tremble,TE,CAR,23.4,1.0,7.0,5.0,13.0
 Tony Jones Jr.,RB,NO,8.0,0.0,2.0,0.0,2.0
-Tony Pollard,RB,DAL,97.8,2.0,4.0,4.0,10.0
+Tony Pollard,RB,DAL,97.8,3.0,4.0,3.0,10.0
 Tory Carter,RB,TEN,0.0,0.0,1.0,0.0,1.0
 Travis Homer,RB,SEA,5.2,0.0,2.0,0.0,2.0
 Travis Kelce,TE,KC,170.8,12.0,1.0,3.0,16.0
@@ -473,21 +473,21 @@ Ty Montgomery,RB,NO,13.200000000000001,0.0,9.0,0.0,9.0
 Ty'Son Williams,RB,BAL,26.900000000000002,1.0,1.0,1.0,3.0
 Tylan Wallace,WR,BAL,1.8,0.0,1.0,0.0,1.0
 Tyler Boyd,WR,CIN,116.8,6.0,6.0,4.0,16.0
-Tyler Conklin,TE,MIN,77.3,3.0,4.0,10.0,17.0
+Tyler Conklin,TE,MIN,77.3,3.0,3.0,11.0,17.0
 Tyler Davis,TE,GB,3.1,0.0,2.0,1.0,3.0
 Tyler Higbee,TE,LAR,86.0,6.0,2.0,7.0,15.0
 Tyler Huntley,QB,BAL,84.1,1.0,3.0,1.0,5.0
-Tyler Johnson,WR,TB,35.0,0.0,9.0,3.0,12.0
+Tyler Johnson,WR,TB,35.0,0.0,8.0,4.0,12.0
 Tyler Kroft,TE,NYJ,19.5,1.0,4.0,3.0,8.0
 Tyler Lockett,WR,SEA,168.4,8.0,6.0,2.0,16.0
 Tyree Jackson,TE,PHI,8.2,1.0,0.0,0.0,1.0
-Tyreek Hill,WR,KC,185.3,7.0,5.0,4.0,16.0
+Tyreek Hill,WR,KC,185.3,7.0,4.0,5.0,16.0
 Tyrell Williams,WR,DET,1.4,0.0,1.0,0.0,1.0
 Tyrod Taylor,QB,HOU,86.7,1.0,2.0,3.0,6.0
-Van Jefferson,WR,LAR,118.2,6.0,8.0,3.0,17.0
+Van Jefferson,WR,LAR,118.2,6.0,7.0,4.0,17.0
 Wayne Gallman Jr.,RB,MIN,7.6,0.0,0.0,1.0,1.0
 Will Dissly,TE,SEA,29.1,1.0,6.0,6.0,13.0
-Will Fuller V,WR,MIA,4.0,0.0,1.0,0.0,1.0
+William Fuller V,WR,MIA,4.0,0.0,1.0,0.0,1.0
 Zach Ertz,TE,ARI,106.7,6.0,3.0,8.0,17.0
 Zach Gentry,TE,PIT,15.9,0.0,5.0,3.0,8.0
 Zach Pascal,WR,IND,56.5,2.0,10.0,4.0,16.0
