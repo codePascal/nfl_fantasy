@@ -44,8 +44,6 @@ class Statistics(Preprocessing, ABC):
         # merge schedule
         df = pd.merge(df, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
 
-        print(df.loc[df["team"] == "FA"])
-
         return df
 
 
@@ -67,10 +65,9 @@ def fix_teams(team):
     return team
 
 
-
 def store_all():
     """ Accumulates and stores the accumulated statistics. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for year in range(years[0], years[1] + 1):
         Statistics(year).store_accumulated_data()
 
