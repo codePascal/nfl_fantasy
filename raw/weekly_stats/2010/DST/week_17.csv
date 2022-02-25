@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Dallas Cowboys,5,3,1,2,1,0,0,1,29.0,29.0,82.9,DAL,DST,17,2010
+2,New York Jets,3,4,2,3,1,0,0,1,28.0,28.0,3.3,NYJ,DST,17,2010
+3,San Francisco 49ers,6,2,0,2,1,0,0,1,26.0,26.0,79.5,SF,DST,17,2010
+4,Minnesota Vikings,1,1,1,1,1,0,0,1,21.0,21.0,28.0,MIN,DST,17,2010
+5,New York Giants,2,1,3,3,0,0,0,1,20.0,20.0,4.5,NYG,DST,17,2010
+6,Pittsburgh Steelers,4,3,0,2,0,0,0,1,20.0,20.0,44.6,PIT,DST,17,2010
+7,Green Bay Packers,6,2,0,0,0,0,0,1,20.0,20.0,60.6,GB,DST,17,2010
+8,Baltimore Ravens,0,2,3,2,0,0,0,1,20.0,20.0,51.9,BAL,DST,17,2010
+9,New England Patriots,5,1,1,1,0,0,1,1,19.0,19.0,93.2,NE,DST,17,2010
+10,Tampa Bay Buccaneers,3,1,2,2,0,0,0,1,19.0,19.0,98.0,TB,DST,17,2010
+11,Cincinnati Bengals,4,1,1,1,0,0,0,1,18.0,18.0,14.7,CIN,DST,17,2010
+12,New Orleans Saints,3,0,2,2,0,0,0,1,17.0,17.0,79.3,NO,DST,17,2010
+13,Atlanta Falcons,3,1,1,1,0,0,1,1,17.0,17.0,5.8,ATL,DST,17,2010
+14,Denver Broncos,5,1,0,2,0,0,1,1,17.0,17.0,48.5,DEN,DST,17,2010
+15,Chicago Bears,2,1,1,1,0,0,0,1,16.0,16.0,35.9,CHI,DST,17,2010
+16,Buffalo Bills,1,1,0,0,1,0,0,1,16.0,16.0,95.9,BUF,DST,17,2010
+17,Houston Texans,2,1,1,1,0,0,0,1,16.0,16.0,6.4,HOU,DST,17,2010
+18,Kansas City Chiefs,4,0,1,1,0,0,0,1,16.0,16.0,45.7,KC,DST,17,2010
+19,Seattle Seahawks,3,1,0,1,0,0,0,1,15.0,15.0,39.4,SEA,DST,17,2010
+20,Indianapolis Colts,1,0,1,0,0,0,0,1,13.0,13.0,66.4,IND,DST,17,2010
+21,Tennessee Titans,1,0,1,1,0,0,0,1,13.0,13.0,48.4,TEN,DST,17,2010
+22,Carolina Panthers,1,0,1,2,0,0,0,1,13.0,13.0,27.8,CAR,DST,17,2010
+23,Washington Commanders,0,1,0,0,0,0,0,1,12.0,12.0,27.5,WAS,DST,17,2010
+24,Miami Dolphins,0,0,1,1,0,0,0,1,12.0,12.0,60.2,MIA,DST,17,2010
+25,Cleveland Browns,2,0,0,0,0,0,0,1,12.0,12.0,40.8,CLE,DST,17,2010
+26,Detroit Lions,3,1,0,0,0,0,0,1,12.0,12.0,1.1,DET,DST,17,2010
+27,Philadelphia Eagles,2,0,1,0,0,0,0,1,11.0,11.0,52.5,PHI,DST,17,2010
+28,Jacksonville Jaguars,0,0,0,0,0,0,0,1,10.0,10.0,6.9,JAC,DST,17,2010
+29,Arizona Cardinals,2,0,0,0,0,0,0,1,9.0,9.0,60.9,ARI,DST,17,2010
+30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,17,2010
+31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,17,2010
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,17,2010

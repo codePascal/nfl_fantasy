@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Seattle Seahawks,3,3,2,1,0,1,0,1,22.0,22.0,39.4,SEA,DST,2,2013
+2,New England Patriots,4,3,1,2,0,0,0,1,16.0,16.0,93.2,NE,DST,2,2013
+3,Tampa Bay Buccaneers,4,2,0,1,1,0,0,1,15.0,15.0,98.0,TB,DST,2,2013
+4,Minnesota Vikings,1,2,2,2,1,0,1,1,15.0,15.0,28.0,MIN,DST,2,2013
+5,Chicago Bears,1,1,2,1,1,0,0,1,13.0,13.0,35.9,CHI,DST,2,2013
+6,Baltimore Ravens,5,0,0,0,0,0,0,1,12.0,12.0,51.9,BAL,DST,2,2013
+7,Tennessee Titans,2,2,0,0,1,0,0,1,11.0,11.0,48.4,TEN,DST,2,2013
+8,Cincinnati Bengals,2,1,1,1,0,0,0,1,10.0,10.0,14.7,CIN,DST,2,2013
+9,New Orleans Saints,1,1,1,1,0,0,0,1,9.0,9.0,79.3,NO,DST,2,2013
+10,Detroit Lions,1,1,0,0,1,0,0,1,9.0,9.0,1.1,DET,DST,2,2013
+11,Denver Broncos,1,4,0,0,0,0,1,1,9.0,9.0,48.5,DEN,DST,2,2013
+12,Kansas City Chiefs,3,0,2,2,0,0,0,1,8.0,8.0,45.7,KC,DST,2,2013
+13,Atlanta Falcons,0,1,0,0,1,0,0,1,8.0,8.0,5.8,ATL,DST,2,2013
+14,Buffalo Bills,6,1,0,0,0,0,0,1,8.0,8.0,95.9,BUF,DST,2,2013
+15,Houston Texans,4,0,0,0,0,1,0,1,7.0,7.0,6.4,HOU,DST,2,2013
+16,Indianapolis Colts,5,0,1,2,0,0,0,1,7.0,7.0,66.4,IND,DST,2,2013
+17,San Francisco 49ers,4,1,0,0,0,0,0,1,6.0,6.0,79.5,SF,DST,2,2013
+18,Jacksonville Jaguars,3,0,1,2,0,0,0,1,6.0,6.0,6.9,JAC,DST,2,2013
+19,Dallas Cowboys,4,0,0,0,0,0,0,1,6.0,6.0,82.9,DAL,DST,2,2013
+20,Miami Dolphins,3,1,0,1,0,0,0,1,6.0,6.0,60.2,MIA,DST,2,2013
+21,Arizona Cardinals,1,0,1,0,0,0,0,1,5.0,5.0,60.9,ARI,DST,2,2013
+22,Cleveland Browns,2,0,1,1,0,0,0,1,5.0,5.0,40.8,CLE,DST,2,2013
+23,New York Jets,1,0,0,0,0,0,0,1,5.0,5.0,3.3,NYJ,DST,2,2013
+24,Carolina Panthers,1,1,1,1,0,0,0,1,5.0,5.0,27.8,CAR,DST,2,2013
+25,Philadelphia Eagles,1,0,2,2,0,0,0,1,4.0,4.0,52.5,PHI,DST,2,2013
+26,Green Bay Packers,1,1,0,0,0,0,0,1,4.0,4.0,60.6,GB,DST,2,2013
+27,Pittsburgh Steelers,0,0,0,0,0,0,0,1,1.0,1.0,44.6,PIT,DST,2,2013
+28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2013
+29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2013
+30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2013
+31,Washington Commanders,4,0,0,1,0,0,0,1,0.0,0.0,27.5,WAS,DST,2,2013
+32,New York Giants,0,0,1,2,0,0,0,1,-2.0,-2.0,4.5,NYG,DST,2,2013

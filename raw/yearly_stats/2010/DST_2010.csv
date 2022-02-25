@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+1,New England Patriots,36,25,13,11,5,0,4,16,310.0,19.4,93.2,NE,DST,2010
+2,Pittsburgh Steelers,48,21,14,20,3,0,1,16,294.0,18.4,44.6,PIT,DST,2010
+3,Arizona Cardinals,33,17,13,11,7,0,2,16,292.0,18.3,60.9,ARI,DST,2010
+4,Green Bay Packers,47,24,8,14,4,0,0,16,292.0,18.3,60.6,GB,DST,2010
+5,New York Giants,46,16,23,30,0,0,0,16,280.0,17.5,4.5,NYG,DST,2010
+6,New York Jets,40,12,18,17,3,2,2,16,280.0,17.5,3.3,NYJ,DST,2010
+7,Detroit Lions,44,14,15,16,3,1,1,16,276.0,17.3,1.1,DET,DST,2010
+8,Philadelphia Eagles,39,23,11,10,2,0,1,16,270.0,16.9,52.5,PHI,DST,2010
+9,Dallas Cowboys,35,20,10,12,4,0,3,16,268.0,16.8,82.9,DAL,DST,2010
+10,Atlanta Falcons,31,22,9,12,3,0,2,16,265.0,16.6,5.8,ATL,DST,2010
+11,Chicago Bears,34,21,14,23,1,0,3,16,263.0,16.4,35.9,CHI,DST,2010
+12,Seattle Seahawks,37,12,10,15,2,1,4,16,259.0,16.2,39.4,SEA,DST,2010
+13,San Francisco 49ers,36,15,7,12,3,0,1,16,259.0,16.2,79.5,SF,DST,2010
+14,Tennessee Titans,40,17,8,14,1,2,2,16,259.0,16.2,48.4,TEN,DST,2010
+15,Baltimore Ravens,27,19,8,12,3,0,1,16,259.0,16.2,51.9,BAL,DST,2010
+16,Cleveland Browns,29,19,9,8,3,0,0,16,257.0,16.1,40.8,CLE,DST,2010
+17,Kansas City Chiefs,39,14,9,15,3,0,1,16,257.0,16.1,45.7,KC,DST,2010
+18,Tampa Bay Buccaneers,26,19,9,11,3,0,1,16,254.0,15.9,98.0,TB,DST,2010
+19,Indianapolis Colts,30,10,11,10,3,0,2,16,254.0,15.9,66.4,IND,DST,2010
+20,New Orleans Saints,33,9,16,22,2,1,0,16,249.0,15.6,79.3,NO,DST,2010
+21,Washington Commanders,29,14,13,15,2,0,1,16,248.0,15.5,27.5,WAS,DST,2010
+22,Carolina Panthers,31,17,12,13,1,1,0,16,246.0,15.4,27.8,CAR,DST,2010
+23,Buffalo Bills,27,11,11,12,3,0,1,16,243.0,15.2,95.9,BUF,DST,2010
+24,Miami Dolphins,39,11,8,12,1,1,0,16,240.0,15.0,60.2,MIA,DST,2010
+25,Minnesota Vikings,31,15,10,11,2,0,1,16,238.0,14.9,28.0,MIN,DST,2010
+26,Cincinnati Bengals,27,16,10,9,2,0,0,16,236.0,14.8,14.7,CIN,DST,2010
+27,Denver Broncos,23,10,8,12,1,0,1,16,225.0,14.1,48.5,DEN,DST,2010
+28,Houston Texans,30,13,5,8,0,0,0,16,221.0,13.8,6.4,HOU,DST,2010
+29,Jacksonville Jaguars,26,13,5,5,0,0,1,16,217.0,13.6,6.9,JAC,DST,2010
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2010
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2010
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2010

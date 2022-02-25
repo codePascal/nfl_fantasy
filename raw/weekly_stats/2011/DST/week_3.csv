@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Baltimore Ravens,5,1,1,1,1,0,0,1,25.0,25.0,51.9,BAL,DST,3,2011
+2,Buffalo Bills,0,4,0,0,1,0,0,1,24.0,24.0,95.9,BUF,DST,3,2011
+3,Indianapolis Colts,3,1,2,2,1,0,0,1,22.0,22.0,66.4,IND,DST,3,2011
+4,Tampa Bay Buccaneers,4,1,2,2,0,0,0,1,20.0,20.0,98.0,TB,DST,3,2011
+5,Cincinnati Bengals,5,0,1,3,0,1,0,1,19.0,19.0,14.7,CIN,DST,3,2011
+6,Cleveland Browns,5,1,1,1,0,0,0,1,19.0,19.0,40.8,CLE,DST,3,2011
+7,Dallas Cowboys,3,1,1,1,0,0,0,1,18.0,18.0,82.9,DAL,DST,3,2011
+8,New York Giants,2,3,0,1,0,0,0,1,18.0,18.0,4.5,NYG,DST,3,2011
+9,Seattle Seahawks,3,2,0,2,0,0,0,1,17.0,17.0,39.4,SEA,DST,3,2011
+10,San Francisco 49ers,1,2,1,0,0,0,0,1,17.0,17.0,79.5,SF,DST,3,2011
+11,Green Bay Packers,3,2,0,0,0,0,0,1,17.0,17.0,60.6,GB,DST,3,2011
+12,Arizona Cardinals,4,1,0,0,0,0,0,1,16.0,16.0,60.9,ARI,DST,3,2011
+13,Kansas City Chiefs,2,2,0,2,0,0,0,1,16.0,16.0,45.7,KC,DST,3,2011
+14,Denver Broncos,2,0,2,1,0,0,0,1,16.0,16.0,48.5,DEN,DST,3,2011
+15,Houston Texans,2,2,0,0,0,0,0,1,16.0,16.0,6.4,HOU,DST,3,2011
+16,Chicago Bears,2,1,1,2,0,0,0,1,16.0,16.0,35.9,CHI,DST,3,2011
+17,Carolina Panthers,2,1,0,1,0,1,0,1,16.0,16.0,27.8,CAR,DST,3,2011
+18,Pittsburgh Steelers,1,0,1,1,1,0,0,1,16.0,16.0,44.6,PIT,DST,3,2011
+19,Tennessee Titans,1,2,0,0,0,0,0,1,15.0,15.0,48.4,TEN,DST,3,2011
+20,Washington Commanders,1,1,1,3,0,0,0,1,15.0,15.0,27.5,WAS,DST,3,2011
+21,Minnesota Vikings,5,0,0,1,0,0,0,1,15.0,15.0,28.0,MIN,DST,3,2011
+22,New Orleans Saints,2,1,0,0,0,0,0,1,14.0,14.0,79.3,NO,DST,3,2011
+23,Atlanta Falcons,0,2,0,0,0,0,0,1,14.0,14.0,5.8,ATL,DST,3,2011
+24,Detroit Lions,4,0,0,1,0,0,0,1,14.0,14.0,1.1,DET,DST,3,2011
+25,Philadelphia Eagles,3,0,0,0,0,0,0,1,13.0,13.0,52.5,PHI,DST,3,2011
+26,Miami Dolphins,0,1,0,0,0,0,0,1,12.0,12.0,60.2,MIA,DST,3,2011
+27,New York Jets,1,0,0,0,0,0,0,1,11.0,11.0,3.3,NYJ,DST,3,2011
+28,New England Patriots,0,2,0,0,0,0,0,1,11.0,11.0,93.2,NE,DST,3,2011
+29,Jacksonville Jaguars,0,0,0,0,0,0,0,1,10.0,10.0,6.9,JAC,DST,3,2011
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,3,2011
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,3,2011
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,3,2011

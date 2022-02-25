@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+1,Detroit Lions,41,21,13,17,7,1,0,16,308.0,19.3,1.1,DET,DST,2011
+2,Green Bay Packers,29,31,7,12,5,0,2,16,295.0,18.4,60.6,GB,DST,2011
+3,Chicago Bears,33,20,11,13,6,1,3,16,287.0,17.9,35.9,CHI,DST,2011
+4,Seattle Seahawks,33,22,9,10,4,1,1,16,287.0,17.9,39.4,SEA,DST,2011
+5,San Francisco 49ers,42,23,15,18,1,1,2,16,286.0,17.9,79.5,SF,DST,2011
+6,Buffalo Bills,29,20,11,13,6,1,1,16,283.0,17.7,95.9,BUF,DST,2011
+7,New England Patriots,40,23,11,10,3,0,1,16,283.0,17.7,93.2,NE,DST,2011
+8,Baltimore Ravens,48,15,11,21,4,0,1,16,281.0,17.6,51.9,BAL,DST,2011
+9,Philadelphia Eagles,50,15,9,9,4,1,0,16,280.0,17.5,52.5,PHI,DST,2011
+10,New York Giants,48,20,11,10,1,2,0,16,272.0,17.0,4.5,NYG,DST,2011
+11,New York Jets,35,19,12,15,2,3,2,16,270.0,16.9,3.3,NYJ,DST,2011
+12,Cincinnati Bengals,45,10,12,16,3,1,1,16,267.0,16.7,14.7,CIN,DST,2011
+13,Jacksonville Jaguars,31,17,11,16,3,0,1,16,266.0,16.6,6.9,JAC,DST,2011
+14,Houston Texans,44,17,10,10,1,0,1,16,263.0,16.4,6.4,HOU,DST,2011
+15,Atlanta Falcons,33,19,10,12,3,0,0,16,254.0,15.9,5.8,ATL,DST,2011
+16,Kansas City Chiefs,29,20,6,12,2,0,0,16,253.0,15.8,45.7,KC,DST,2011
+17,Minnesota Vikings,50,8,15,18,0,1,1,16,250.0,15.6,28.0,MIN,DST,2011
+18,Miami Dolphins,41,16,3,6,1,0,0,16,250.0,15.6,60.2,MIA,DST,2011
+19,Dallas Cowboys,42,15,9,12,1,0,0,16,249.0,15.6,82.9,DAL,DST,2011
+20,Tampa Bay Buccaneers,23,14,10,13,4,1,0,16,249.0,15.6,98.0,TB,DST,2011
+21,Washington Commanders,41,13,8,17,1,0,0,16,247.0,15.4,27.5,WAS,DST,2011
+22,Denver Broncos,41,9,9,10,3,0,2,16,246.0,15.4,48.5,DEN,DST,2011
+23,New Orleans Saints,33,9,7,14,3,0,1,16,245.0,15.3,79.3,NO,DST,2011
+24,Arizona Cardinals,42,10,9,11,0,0,4,16,242.0,15.1,60.9,ARI,DST,2011
+25,Carolina Panthers,31,14,10,10,0,2,1,16,240.0,15.0,27.8,CAR,DST,2011
+26,Tennessee Titans,28,11,12,14,1,0,2,16,239.0,14.9,48.4,TEN,DST,2011
+27,Pittsburgh Steelers,35,11,4,6,1,2,1,16,233.0,14.6,44.6,PIT,DST,2011
+28,Indianapolis Colts,29,8,9,14,3,0,0,16,230.0,14.4,66.4,IND,DST,2011
+29,Cleveland Browns,32,9,11,15,0,0,1,16,229.0,14.3,40.8,CLE,DST,2011
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2011
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2011
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2011

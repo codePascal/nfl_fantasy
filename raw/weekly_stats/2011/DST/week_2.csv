@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Detroit Lions,2,3,3,2,0,0,0,1,24.0,24.0,1.1,DET,DST,2,2011
+2,New York Jets,2,4,0,0,0,1,0,1,22.0,22.0,3.3,NYJ,DST,2,2011
+3,New York Giants,2,0,2,1,1,0,0,1,22.0,22.0,4.5,NYG,DST,2,2011
+4,Green Bay Packers,4,3,1,1,0,0,0,1,22.0,22.0,60.6,GB,DST,2,2011
+5,New England Patriots,2,2,2,2,0,0,0,1,20.0,20.0,93.2,NE,DST,2,2011
+6,Tennessee Titans,3,2,1,2,0,0,0,1,19.0,19.0,48.4,TEN,DST,2,2011
+7,Philadelphia Eagles,4,2,0,0,0,0,0,1,18.0,18.0,52.5,PHI,DST,2,2011
+8,New Orleans Saints,6,0,1,2,0,0,0,1,18.0,18.0,79.3,NO,DST,2,2011
+9,Dallas Cowboys,6,1,0,0,0,0,0,1,18.0,18.0,82.9,DAL,DST,2,2011
+10,Washington Commanders,3,1,1,2,0,0,0,1,17.0,17.0,27.5,WAS,DST,2,2011
+11,Houston Texans,2,1,1,1,0,0,0,1,17.0,17.0,6.4,HOU,DST,2,2011
+12,Atlanta Falcons,0,1,2,3,0,0,0,1,16.0,16.0,5.8,ATL,DST,2,2011
+13,Arizona Cardinals,1,2,0,0,0,0,0,1,16.0,16.0,60.9,ARI,DST,2,2011
+14,Cincinnati Bengals,2,0,2,2,0,0,0,1,16.0,16.0,14.7,CIN,DST,2,2011
+15,Cleveland Browns,2,1,1,1,0,0,0,1,16.0,16.0,40.8,CLE,DST,2,2011
+16,Jacksonville Jaguars,1,2,0,0,0,0,0,1,15.0,15.0,6.9,JAC,DST,2,2011
+17,San Francisco 49ers,1,2,0,2,0,0,0,1,15.0,15.0,79.5,SF,DST,2,2011
+18,Pittsburgh Steelers,5,0,0,0,0,0,0,1,15.0,15.0,44.6,PIT,DST,2,2011
+19,Tampa Bay Buccaneers,2,0,1,1,0,0,0,1,14.0,14.0,98.0,TB,DST,2,2011
+20,Minnesota Vikings,2,1,0,0,0,0,0,1,14.0,14.0,28.0,MIN,DST,2,2011
+21,Buffalo Bills,0,1,1,1,0,0,0,1,14.0,14.0,95.9,BUF,DST,2,2011
+22,Indianapolis Colts,1,0,1,4,0,0,0,1,13.0,13.0,66.4,IND,DST,2,2011
+23,Miami Dolphins,3,0,0,0,0,0,0,1,13.0,13.0,60.2,MIA,DST,2,2011
+24,Carolina Panthers,1,0,1,0,0,0,0,1,13.0,13.0,27.8,CAR,DST,2,2011
+25,Chicago Bears,1,0,1,1,0,0,0,1,13.0,13.0,35.9,CHI,DST,2,2011
+26,Seattle Seahawks,2,0,0,0,0,0,0,1,12.0,12.0,39.4,SEA,DST,2,2011
+27,Denver Broncos,2,0,0,0,0,0,0,1,12.0,12.0,48.5,DEN,DST,2,2011
+28,Kansas City Chiefs,0,1,0,1,0,0,0,1,12.0,12.0,45.7,KC,DST,2,2011
+29,Baltimore Ravens,0,1,0,0,0,0,0,1,12.0,12.0,51.9,BAL,DST,2,2011
+30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2011
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2011
+32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2011

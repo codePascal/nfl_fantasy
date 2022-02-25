@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Dallas Cowboys,0,4,0,0,2,0,0,1,27.0,27.0,82.9,DAL,DST,13,2010
+2,New York Giants,4,2,4,6,0,0,0,1,26.0,26.0,4.5,NYG,DST,13,2010
+3,Buffalo Bills,1,4,0,0,1,0,0,1,25.0,25.0,95.9,BUF,DST,13,2010
+4,Seattle Seahawks,3,1,0,0,1,0,0,1,21.0,21.0,39.4,SEA,DST,13,2010
+5,Minnesota Vikings,1,1,4,2,0,0,0,1,18.0,18.0,28.0,MIN,DST,13,2010
+6,Cleveland Browns,1,3,0,0,0,0,0,1,18.0,18.0,40.8,CLE,DST,13,2010
+7,New England Patriots,1,3,0,0,0,0,0,1,17.0,17.0,93.2,NE,DST,13,2010
+8,Indianapolis Colts,2,0,0,0,0,0,1,1,16.0,16.0,66.4,IND,DST,13,2010
+9,Pittsburgh Steelers,4,0,1,1,0,0,0,1,16.0,16.0,44.6,PIT,DST,13,2010
+10,Philadelphia Eagles,2,1,1,1,0,0,0,1,16.0,16.0,52.5,PHI,DST,13,2010
+11,Detroit Lions,4,0,1,1,0,0,0,1,16.0,16.0,1.1,DET,DST,13,2010
+12,Green Bay Packers,4,1,0,0,0,0,0,1,16.0,16.0,60.6,GB,DST,13,2010
+13,Kansas City Chiefs,4,0,1,1,0,0,0,1,16.0,16.0,45.7,KC,DST,13,2010
+14,Baltimore Ravens,3,1,0,1,0,0,0,1,15.0,15.0,51.9,BAL,DST,13,2010
+15,Jacksonville Jaguars,1,2,0,0,0,0,0,1,15.0,15.0,6.9,JAC,DST,13,2010
+16,Tampa Bay Buccaneers,0,2,0,0,0,0,0,1,14.0,14.0,98.0,TB,DST,13,2010
+17,Arizona Cardinals,2,1,0,0,0,0,0,1,14.0,14.0,60.9,ARI,DST,13,2010
+18,Denver Broncos,2,0,1,1,0,0,0,1,14.0,14.0,48.5,DEN,DST,13,2010
+19,Cincinnati Bengals,2,1,0,1,0,0,0,1,14.0,14.0,14.7,CIN,DST,13,2010
+20,Carolina Panthers,3,2,0,0,0,0,0,1,14.0,14.0,27.8,CAR,DST,13,2010
+21,San Francisco 49ers,4,0,0,0,0,0,0,1,14.0,14.0,79.5,SF,DST,13,2010
+22,Atlanta Falcons,1,1,0,0,0,0,1,1,13.0,13.0,5.8,ATL,DST,13,2010
+23,Houston Texans,1,1,0,0,0,0,0,1,13.0,13.0,6.4,HOU,DST,13,2010
+24,New Orleans Saints,3,0,0,1,0,0,0,1,13.0,13.0,79.3,NO,DST,13,2010
+25,New York Jets,3,0,0,0,0,0,0,1,13.0,13.0,3.3,NYJ,DST,13,2010
+26,Tennessee Titans,1,0,0,0,0,0,0,1,12.0,12.0,48.4,TEN,DST,13,2010
+27,Miami Dolphins,2,0,0,0,0,0,0,1,12.0,12.0,60.2,MIA,DST,13,2010
+28,Chicago Bears,2,0,0,1,0,0,0,1,12.0,12.0,35.9,CHI,DST,13,2010
+29,Washington Commanders,0,1,0,0,0,0,0,1,12.0,12.0,27.5,WAS,DST,13,2010
+30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2010
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2010
+32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2010

@@ -1,0 +1,33 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Chicago Bears,3,2,1,1,2,0,0,1,28.0,28.0,35.9,CHI,DST,5,2012
+2,Carolina Panthers,2,2,1,0,1,1,0,1,17.0,17.0,27.8,CAR,DST,5,2012
+3,Baltimore Ravens,0,2,2,1,0,0,0,1,15.0,15.0,51.9,BAL,DST,5,2012
+4,Seattle Seahawks,4,0,2,3,0,0,0,1,15.0,15.0,39.4,SEA,DST,5,2012
+5,Miami Dolphins,3,2,1,2,0,0,0,1,13.0,13.0,60.2,MIA,DST,5,2012
+6,Kansas City Chiefs,4,1,1,0,0,0,0,1,12.0,12.0,45.7,KC,DST,5,2012
+7,San Francisco 49ers,1,1,1,1,0,0,0,1,12.0,12.0,79.5,SF,DST,5,2012
+8,Atlanta Falcons,3,2,0,0,0,0,0,1,11.0,11.0,5.8,ATL,DST,5,2012
+9,Washington Commanders,1,1,1,0,1,0,0,1,11.0,11.0,27.5,WAS,DST,5,2012
+10,Minnesota Vikings,2,1,1,2,0,0,0,1,10.0,10.0,28.0,MIN,DST,5,2012
+11,New Orleans Saints,5,1,1,1,0,0,0,1,9.0,9.0,79.3,NO,DST,5,2012
+12,Houston Texans,3,2,0,1,0,0,0,1,8.0,8.0,6.4,HOU,DST,5,2012
+13,Pittsburgh Steelers,3,0,2,4,0,0,0,1,8.0,8.0,44.6,PIT,DST,5,2012
+14,New England Patriots,2,0,3,3,0,0,0,1,8.0,8.0,93.2,NE,DST,5,2012
+15,Cincinnati Bengals,2,0,2,1,0,0,0,1,7.0,7.0,14.7,CIN,DST,5,2012
+16,Indianapolis Colts,5,1,0,0,0,0,0,1,7.0,7.0,66.4,IND,DST,5,2012
+17,New York Giants,0,2,1,0,0,0,0,1,6.0,6.0,4.5,NYG,DST,5,2012
+18,Denver Broncos,4,0,1,2,0,0,0,1,5.0,5.0,48.5,DEN,DST,5,2012
+19,Green Bay Packers,4,1,0,1,0,0,0,1,5.0,5.0,60.6,GB,DST,5,2012
+20,Tennessee Titans,1,2,0,0,0,0,0,1,4.0,4.0,48.4,TEN,DST,5,2012
+21,Arizona Cardinals,1,1,0,0,0,0,0,1,4.0,4.0,60.9,ARI,DST,5,2012
+22,Jacksonville Jaguars,1,1,0,0,0,0,0,1,2.0,2.0,6.9,JAC,DST,5,2012
+23,New York Jets,0,1,0,0,0,0,1,1,2.0,2.0,3.3,NYJ,DST,5,2012
+24,Philadelphia Eagles,0,0,0,0,0,0,0,1,1.0,1.0,52.5,PHI,DST,5,2012
+25,Cleveland Browns,0,1,1,0,0,0,0,1,0.0,0.0,40.8,CLE,DST,5,2012
+26,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,5,2012
+27,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,5,2012
+28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2012
+29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2012
+30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2012
+31,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,5,2012
+32,Buffalo Bills,0,0,1,1,0,0,0,1,-2.0,-2.0,95.9,BUF,DST,5,2012
