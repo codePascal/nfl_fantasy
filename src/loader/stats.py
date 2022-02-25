@@ -139,7 +139,7 @@ def transform_yards(yards):
 
 def store_all():
     """ Stores all stats for given year range. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
         for year in range(years[0], years[1] + 1):
             YearlyStats(position, year).store_data()

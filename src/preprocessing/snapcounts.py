@@ -33,7 +33,7 @@ class Snapcounts(Preprocessing, ABC):
 
 def store_all():
     """ Accumulates and stores all weekly snapcounts for a season. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for year in range(years[0], years[1] + 1):
         Snapcounts(year).store_accumulated_data()
 

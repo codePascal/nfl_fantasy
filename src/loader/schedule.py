@@ -73,7 +73,7 @@ def get_location(game):
 
 def store_all():
     """ Stores all schedules for given year range. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for year in range(years[0], years[1] + 1):
         Schedule(year).store_data()
 

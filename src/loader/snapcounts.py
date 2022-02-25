@@ -89,7 +89,7 @@ def transform_snaps(snaps):
 
 def store_all():
     """ Stores all snapcounts for given year range. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for year in range(years[0], years[1] + 1):
         YearlySnapcounts(year).store_data()
         for week in range(1, week_map[year] + 1):

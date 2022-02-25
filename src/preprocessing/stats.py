@@ -34,7 +34,7 @@ class Stats(Preprocessing, ABC):
 
 def store_all():
     """ Accumulates and stores all weekly stats for a season. """
-    years = (2016, 2021)
+    years = (2010, 2021)
     for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
         for year in range(years[0], years[1] + 1):
             Stats(year).store_accumulated_data()
