@@ -16,6 +16,8 @@ import pandas as pd
 import requests
 
 # TODO how to re-clean data if changes in implementation
+# TODO Split into different sources of data
+# TODO find sources except from fantasy pros -> separate base class of base class
 
 
 class Loader:
