@@ -17,7 +17,7 @@ week_map = {
     2009: 17,
 }
 
-# maps team names to commonly used abbreviations
+# maps the current team names to commonly used abbreviations
 team_map = {
     "Arizona Cardinals": "ARI",
     "Atlanta Falcons": "ATL",
@@ -58,6 +58,13 @@ teams = list(team_map.values())
 
 # map team changes
 team_changes_map = {
-    "OAK": "LV",  # changed in 2020
-    "SD": "LAC",  # changed in 2016
+    "OAK": "LV",
+    "Oakland Raiders": "Las Vegas Raiders",
+    "Washington": "Washington Commanders",
+    "Washington Redskins": "Washington Commanders",
+    "SD": "LAC",
+    "San Diego Chargers": "Los Angeles Chargers",
+    "STL": "LAR",
+    "St. Louis Rams": "Los Angeles Rams",
+
 }
