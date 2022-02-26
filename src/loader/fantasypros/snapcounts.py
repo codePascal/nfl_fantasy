@@ -11,7 +11,7 @@ players compared to the defenses that are drafted as one. Kickers are
 not considered. All players are fetched that had more than 0 snaps.
 
 If this script is run, all snapcounts for denoted year range are
-stored.
+stored or refreshed if already available offline.
 """
 from abc import ABC
 
@@ -19,69 +19,60 @@ from config.fantasypros import snapcounts_type
 from config.mapping import week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
-# TODO fix duplicated code fragments
+
+class Snapcounts(Loader, ABC):
+    def __init__(self, year, refresh=False):
+        Loader.__init__(self, year, refresh)
+        self.mapping = snapcounts_type
+        self.to_add = dict()
+
+        self.original_columns = ['Player', 'Pos', 'Team', 'Games', 'Snaps', 'Snaps/Gm', 'Snap %', 'Rush %', 'Tgt %',
+                                 'Touch %', 'Util %', 'Fantasy Pts', 'Pts/100 Snaps']
+
+    def clean_data(self, df):
+        """ Cleans the snapcount data. """
+        # map column names
+        df = self.map_columns(df)
+
+        # transform snaps
+        df["snaps"] = df["snaps"].apply(transform_snaps)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        # set types
+        return df.astype(self.mapping)
+
+    def get_mapping(self):
+        """ Returns mapping for original columns. """
+        return self.mapping
 
 
-class WeeklySnapcounts(Loader, ABC):
-    def __init__(self, week, year):
-        Loader.__init__(self)
-
+class WeeklySnapcounts(Snapcounts, ABC):
+    def __init__(self, week, year, refresh=False):
+        Snapcounts.__init__(self, year, refresh)
         self.week = week
-        self.year = year
+        self.to_add = {"week": self.week, "year": self.year}
 
         self.filename = f"week_{self.week}.csv"
         self.dir = f"../raw/weekly_snapcounts/{self.year}"
         self.url = f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?week={self.week}&snaps=0&range=week&year={self.year}"
 
-    def clean_data(self, df):
-        """ Cleans the data specifically for weekly snapcounts. """
-        # drop unnamed columns
-        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
-        # rename column names in a more descriptive manner
-        df.columns = list(snapcounts_type.keys())
-
-        # transform snaps
-        df["snaps"] = df["snaps"].apply(transform_snaps)
-
-        # add week and year
-        df["week"] = self.week
-        df["year"] = self.year
-
-        # set types
-        return df.astype(snapcounts_type)
-
-
-class YearlySnapcounts(Loader, ABC):
-    def __init__(self, year):
-        Loader.__init__(self)
-
-        self.year = year
+class YearlySnapcounts(Snapcounts, ABC):
+    def __init__(self, year, refresh=False):
+        Snapcounts.__init__(self, year, refresh)
+        self.to_add = {"year": self.year}
 
         self.filename = f"snapcounts_{self.year}.csv"
         self.dir = f"../raw/yearly_snapcounts"
         self.url = f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?year={self.year}&snaps=0&range=full"
 
-    def clean_data(self, df):
-        """ Cleans the data specifically for yearly snapcounts. """
-        # drop unnamed columns
-        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
-
-        # rename column names in a more descriptive manner
-        df.columns = list(snapcounts_type.keys())
-
-        # transform snaps
-        df["snaps"] = df["snaps"].apply(transform_snaps)
-
-        # add the year
-        df["year"] = self.year
-
-        # set types
-        return df.astype(snapcounts_type)
-
 
 def transform_snaps(snaps):
     """ Removes comma in snap stats denoting a thousand. """
+    # TODO make function to alter a thousand notation
     if "," in str(snaps):
         return int(str(snaps).replace(",", ""))
     else:
@@ -92,14 +83,13 @@ def store_all():
     """ Stores all snapcounts for given year range. """
     years = (2010, 2021)
     for year in range(years[0], years[1] + 1):
-        YearlySnapcounts(year).store_data()
+        YearlySnapcounts(year, refresh=True).store_data()
         for week in range(1, week_map[year] + 1):
-            WeeklySnapcounts(week, year).store_data()
+            WeeklySnapcounts(week, year, refresh=True).store_data()
 
 
 if __name__ == "__main__":
     store_all()
-
 
 
 

@@ -2,7 +2,9 @@
 Implements the data loading for schedules.
 
 If this script is run, all schedules for denoted year range are
-stored.
+stored. Different to other loading implementations, this class
+does not offer refreshing of the data since the data is altered in a
+may more complex way.
 """
 import numpy as np
 import pandas as pd
@@ -13,14 +15,16 @@ from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 
 class Schedule(Loader, ABC):
-    def __init__(self, year):
-        Loader.__init__(self)
-
-        self.year = year
+    def __init__(self, year, refresh=False):
+        Loader.__init__(self, year, refresh)
 
         self.filename = f"schedule_{self.year}.csv"
         self.dir = f"../raw/schedules"
         self.url = f"https://www.fantasypros.com/nfl/schedule/grid.php?year={self.year}"
+
+        # no refreshing available for schedules
+        # TODO split into loading and preprocessing
+        self.refresh = False
 
     def clean_data(self, df):
         """ Restructures schedule. """

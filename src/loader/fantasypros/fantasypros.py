@@ -16,9 +16,13 @@ from src.loader.loader import Loader
 
 
 class FantasyProsLoader(Loader, ABC):
-    def __init__(self):
-        Loader.__init__(self)
+    def __init__(self, year, refresh=False):
+        Loader.__init__(self, refresh)
+        self.year = year
 
-
-
-
+    def restore_data(self, df):
+        """ Restores dataframe back to original columns and column
+        names """
+        df = df.loc[:, list(self.mapping.keys())[:len(self.original_columns)]]
+        df.columns = self.original_columns
+        return df

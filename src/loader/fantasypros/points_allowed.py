@@ -32,31 +32,31 @@ from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 
 class PointsAllowed(Loader, ABC):
-    def __init__(self, year):
-        Loader.__init__(self)
-
-        self.year = year
+    def __init__(self, year, refresh=False):
+        Loader.__init__(self, year, refresh)
+        self.mapping = pa_type
+        self.to_add = {"year": self.year}
 
         self.filename = f"points_allowed_{self.year}.csv"
         self.dir = f"../raw/points_allowed"
         self.url = f"https://www.fantasypros.com/nfl/points-allowed.php?year={self.year}"
 
+        # TODO add restoring
+        self.refresh = False
+
     def clean_data(self, df):
         """ Cleans data specifically for points allowed. """
-        # drop unnamed columns
-        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
-
-        # assign better column names
-        df.columns = list(pa_type.keys())
+        df = self.map_columns(df)
 
         # assign team shortcut
         df["team"] = df["team"].apply(add_team_shortcut)
 
-        # add year
-        df["year"] = self.year
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
 
         # set column types
-        return df.astype(pa_type)
+        return df.astype(self.mapping)
 
     def get_html_content(self):
         """ Reads HTML content and returns data table. """

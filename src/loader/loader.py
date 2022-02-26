@@ -1,29 +1,21 @@
 """
-Implements the data loading. If the data is not available offline, it
-is freshly fetched from https://www.fantasypros.com/nfl.
-
-This is the base class for loading the data. The cleaning of the data
-is implemented in the corresponding child classes. Make sure that the
-data is available for the specified parameters.
-
-The recorded fantasy points correspond to standard scoring. For other
-scoring schemes, e.g. PPR or Half-PPR, the stats can be used to
-compute points scored in that specific scheme.
+Implements the data loading from various websites. If the data is not
+available offline, it is freshly fetched from corresponding website.
 """
 import bs4
 import os
 import pandas as pd
 import requests
 
-# TODO Split into different sources of data
-# TODO find sources except from fantasy pros -> separate base class of base class
-
 
 class Loader:
-    def __init__(self):
-        self.filename = "some_filename"
-        self.dir = "some_dir"
-        self.url = "some_url"
+    def __init__(self, refresh=False):
+        self.filename = str()
+        self.dir = str()
+        self.url = str()
+        self.original_columns = list()
+        self.refresh = refresh
+        self.mapping = dict()
 
     def clean_data(self, df):
         raise NotImplementedError
@@ -33,11 +25,14 @@ class Loader:
         return self.get_html_content()
 
     def get_data(self):
-        """ Returns loaded or fetched and cleaned data. """
+        """ Returns data. """
         if not os.path.exists(os.path.join(self.dir, self.filename)):
+            self.refresh = False
             return self.clean_data(self.fetch_data())
+        elif self.refresh:
+            return self.refresh_data()
         else:
-            return pd.read_csv(os.path.join(self.dir, self.filename))
+            return self.load_data()
 
     def get_html_content(self):
         """ Reads HTML content and returns data table. """
@@ -89,8 +84,21 @@ class Loader:
 
         return data
 
+    def load_data(self):
+        """ Loads data from file path. """
+        return pd.read_csv(os.path.join(self.dir, self.filename))
+
+    def map_columns(self, df):
+        """ Maps descriptive column names. """
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
+        df.columns = list(self.mapping.keys())
+        return df
+
     def refresh_data(self):
-        # TODO how to re-clean data if changes in implementation
+        """ Refreshes stored data by cleaning the data again. """
+        return self.clean_data(self.restore_data(self.load_data()))
+
+    def restore_data(self, df):
         raise NotImplementedError
 
     def store_data(self):
