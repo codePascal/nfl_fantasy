@@ -15,7 +15,8 @@ stored.
 """
 from abc import ABC
 
-from config.mapping import snapcounts_type, week_map
+from config.fantasypros import snapcounts_type
+from config.mapping import week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 # TODO fix duplicated code fragments

@@ -24,7 +24,8 @@ import requests
 
 from abc import ABC
 
-from config.mapping import pa_type, team_map
+from config.fantasypros import pa_type
+from config.mapping import team_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 # TODO find other source, recent years are not complete

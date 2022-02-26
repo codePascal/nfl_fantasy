@@ -10,7 +10,8 @@ If this script is run, all projections for denoted year are stored.
 """
 from abc import ABC
 
-from config.mapping import projections_type, teams, week_map
+from config.fantasypros import projections_type
+from config.mapping import teams, week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader
 
 

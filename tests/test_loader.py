@@ -2,7 +2,8 @@
 import unittest
 import numpy as np
 
-from config.mapping import stats_type, snapcounts_type, projections_type, pa_type, teams
+from config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
+from config.mapping import teams
 
 from loader.fantasypros.points_allowed import PointsAllowed
 from loader.fantasypros.projections import Projections
@@ -16,7 +17,7 @@ from loader.fantasypros.stats import WeeklyStats, YearlyStats
 # TODO make clean with test functions
 
 
-class TestLoader(unittest.TestCase):
+class TestFantasyProsLoader(unittest.TestCase):
     def test_weekly_stats(self):
         df = WeeklyStats("QB", 1, 2021).get_data()
 
