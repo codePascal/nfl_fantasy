@@ -1,0 +1,545 @@
+rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+1,Dallas Cowboys,3,3,3,2,2,0,0,1,26.0,26.0,82.9,DAL,DST,1,2013
+2,Kansas City Chiefs,6,2,0,0,1,0,0,1,23.0,23.0,45.7,KC,DST,1,2013
+3,Miami Dolphins,6,3,0,1,0,0,0,1,16.0,16.0,60.2,MIA,DST,1,2013
+4,Buffalo Bills,3,1,2,1,1,0,0,1,15.0,15.0,95.9,BUF,DST,1,2013
+5,Tennessee Titans,5,1,1,0,0,0,0,1,13.0,13.0,48.4,TEN,DST,1,2013
+6,Washington Commanders,3,0,2,2,1,0,0,1,12.0,12.0,27.5,WAS,DST,1,2013
+7,Detroit Lions,3,3,1,0,0,0,0,1,11.0,11.0,1.1,DET,DST,1,2013
+8,Philadelphia Eagles,3,2,1,1,0,1,0,1,11.0,11.0,52.5,PHI,DST,1,2013
+9,Arizona Cardinals,0,1,1,2,1,0,0,1,10.0,10.0,60.9,ARI,DST,1,2013
+10,New York Jets,3,1,1,1,0,1,0,1,10.0,10.0,3.3,NYJ,DST,1,2013
+11,Tampa Bay Buccaneers,5,1,1,2,0,0,0,1,10.0,10.0,98.0,TB,DST,1,2013
+12,Denver Broncos,4,2,0,1,0,0,0,1,9.0,9.0,48.5,DEN,DST,1,2013
+13,Seattle Seahawks,1,0,2,2,0,0,0,1,9.0,9.0,39.4,SEA,DST,1,2013
+14,Houston Texans,2,1,0,0,1,0,0,1,9.0,9.0,6.4,HOU,DST,1,2013
+15,New Orleans Saints,3,1,1,2,0,0,0,1,8.0,8.0,79.3,NO,DST,1,2013
+16,Carolina Panthers,2,0,1,1,0,0,0,1,8.0,8.0,27.8,CAR,DST,1,2013
+17,Chicago Bears,1,2,1,2,0,0,0,1,7.0,7.0,35.9,CHI,DST,1,2013
+18,Cleveland Browns,4,1,0,0,0,0,0,1,6.0,6.0,40.8,CLE,DST,1,2013
+19,Indianapolis Colts,1,2,0,0,0,0,0,1,6.0,6.0,66.4,IND,DST,1,2013
+20,San Francisco 49ers,2,1,1,1,0,0,0,1,5.0,5.0,79.5,SF,DST,1,2013
+21,New England Patriots,0,0,2,2,0,0,0,1,5.0,5.0,93.2,NE,DST,1,2013
+22,New York Giants,2,1,0,1,0,0,0,1,4.0,4.0,4.5,NYG,DST,1,2013
+23,Jacksonville Jaguars,1,0,0,0,0,1,0,1,4.0,4.0,6.9,JAC,DST,1,2013
+24,Atlanta Falcons,2,1,0,0,0,0,0,1,4.0,4.0,5.8,ATL,DST,1,2013
+25,Pittsburgh Steelers,1,0,0,0,0,1,0,1,4.0,4.0,44.6,PIT,DST,1,2013
+26,Minnesota Vikings,0,1,1,1,0,0,0,1,3.0,3.0,28.0,MIN,DST,1,2013
+27,Cincinnati Bengals,0,1,0,0,0,0,0,1,2.0,2.0,14.7,CIN,DST,1,2013
+28,Green Bay Packers,2,0,0,0,0,0,0,1,1.0,1.0,60.6,GB,DST,1,2013
+29,Baltimore Ravens,3,0,1,1,0,0,0,1,1.0,1.0,51.9,BAL,DST,1,2013
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,1,2013
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,1,2013
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,1,2013
+1,Seattle Seahawks,3,3,2,1,0,1,0,1,22.0,22.0,39.4,SEA,DST,2,2013
+2,New England Patriots,4,3,1,2,0,0,0,1,16.0,16.0,93.2,NE,DST,2,2013
+3,Tampa Bay Buccaneers,4,2,0,1,1,0,0,1,15.0,15.0,98.0,TB,DST,2,2013
+4,Minnesota Vikings,1,2,2,2,1,0,1,1,15.0,15.0,28.0,MIN,DST,2,2013
+5,Chicago Bears,1,1,2,1,1,0,0,1,13.0,13.0,35.9,CHI,DST,2,2013
+6,Baltimore Ravens,5,0,0,0,0,0,0,1,12.0,12.0,51.9,BAL,DST,2,2013
+7,Tennessee Titans,2,2,0,0,1,0,0,1,11.0,11.0,48.4,TEN,DST,2,2013
+8,Cincinnati Bengals,2,1,1,1,0,0,0,1,10.0,10.0,14.7,CIN,DST,2,2013
+9,New Orleans Saints,1,1,1,1,0,0,0,1,9.0,9.0,79.3,NO,DST,2,2013
+10,Detroit Lions,1,1,0,0,1,0,0,1,9.0,9.0,1.1,DET,DST,2,2013
+11,Denver Broncos,1,4,0,0,0,0,1,1,9.0,9.0,48.5,DEN,DST,2,2013
+12,Kansas City Chiefs,3,0,2,2,0,0,0,1,8.0,8.0,45.7,KC,DST,2,2013
+13,Atlanta Falcons,0,1,0,0,1,0,0,1,8.0,8.0,5.8,ATL,DST,2,2013
+14,Buffalo Bills,6,1,0,0,0,0,0,1,8.0,8.0,95.9,BUF,DST,2,2013
+15,Houston Texans,4,0,0,0,0,1,0,1,7.0,7.0,6.4,HOU,DST,2,2013
+16,Indianapolis Colts,5,0,1,2,0,0,0,1,7.0,7.0,66.4,IND,DST,2,2013
+17,San Francisco 49ers,4,1,0,0,0,0,0,1,6.0,6.0,79.5,SF,DST,2,2013
+18,Jacksonville Jaguars,3,0,1,2,0,0,0,1,6.0,6.0,6.9,JAC,DST,2,2013
+19,Dallas Cowboys,4,0,0,0,0,0,0,1,6.0,6.0,82.9,DAL,DST,2,2013
+20,Miami Dolphins,3,1,0,1,0,0,0,1,6.0,6.0,60.2,MIA,DST,2,2013
+21,Arizona Cardinals,1,0,1,0,0,0,0,1,5.0,5.0,60.9,ARI,DST,2,2013
+22,Cleveland Browns,2,0,1,1,0,0,0,1,5.0,5.0,40.8,CLE,DST,2,2013
+23,New York Jets,1,0,0,0,0,0,0,1,5.0,5.0,3.3,NYJ,DST,2,2013
+24,Carolina Panthers,1,1,1,1,0,0,0,1,5.0,5.0,27.8,CAR,DST,2,2013
+25,Philadelphia Eagles,1,0,2,2,0,0,0,1,4.0,4.0,52.5,PHI,DST,2,2013
+26,Green Bay Packers,1,1,0,0,0,0,0,1,4.0,4.0,60.6,GB,DST,2,2013
+27,Pittsburgh Steelers,0,0,0,0,0,0,0,1,1.0,1.0,44.6,PIT,DST,2,2013
+28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2013
+29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2013
+30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2013
+31,Washington Commanders,4,0,0,1,0,0,0,1,0.0,0.0,27.5,WAS,DST,2,2013
+32,New York Giants,0,0,1,2,0,0,0,1,-2.0,-2.0,4.5,NYG,DST,2,2013
+1,Chicago Bears,3,2,3,3,2,0,0,1,25.0,25.0,35.9,CHI,DST,3,2013
+2,Kansas City Chiefs,6,2,3,1,1,0,0,1,23.0,23.0,45.7,KC,DST,3,2013
+3,Carolina Panthers,7,2,1,1,0,0,0,1,23.0,23.0,27.8,CAR,DST,3,2013
+4,Green Bay Packers,4,1,3,3,1,0,0,1,18.0,18.0,60.6,GB,DST,3,2013
+5,Baltimore Ravens,3,1,0,0,1,0,1,1,15.0,15.0,51.9,BAL,DST,3,2013
+6,New Orleans Saints,4,2,0,0,0,0,0,1,12.0,12.0,79.3,NO,DST,3,2013
+7,New England Patriots,3,1,0,0,0,0,0,1,12.0,12.0,93.2,NE,DST,3,2013
+8,Cincinnati Bengals,4,2,2,1,0,0,0,1,12.0,12.0,14.7,CIN,DST,3,2013
+9,Cleveland Browns,6,1,2,2,0,0,0,1,12.0,12.0,40.8,CLE,DST,3,2013
+10,Dallas Cowboys,6,0,1,1,0,0,0,1,12.0,12.0,82.9,DAL,DST,3,2013
+11,Indianapolis Colts,3,1,1,1,0,0,0,1,11.0,11.0,66.4,IND,DST,3,2013
+12,Minnesota Vikings,3,3,1,0,0,0,0,1,10.0,10.0,28.0,MIN,DST,3,2013
+13,Seattle Seahawks,3,2,1,0,0,0,0,1,10.0,10.0,39.4,SEA,DST,3,2013
+14,Atlanta Falcons,5,1,1,2,0,0,0,1,9.0,9.0,5.8,ATL,DST,3,2013
+15,Washington Commanders,1,1,0,0,1,0,0,1,9.0,9.0,27.5,WAS,DST,3,2013
+16,New York Jets,8,0,0,2,0,0,0,1,9.0,9.0,3.3,NYJ,DST,3,2013
+17,Detroit Lions,2,1,1,1,0,0,0,1,7.0,7.0,1.1,DET,DST,3,2013
+18,Philadelphia Eagles,5,0,0,0,0,0,0,1,6.0,6.0,52.5,PHI,DST,3,2013
+19,Tennessee Titans,2,0,1,0,0,0,0,1,6.0,6.0,48.4,TEN,DST,3,2013
+20,Tampa Bay Buccaneers,3,1,0,0,0,0,0,1,5.0,5.0,98.0,TB,DST,3,2013
+21,Arizona Cardinals,4,1,0,0,0,0,0,1,5.0,5.0,60.9,ARI,DST,3,2013
+22,Miami Dolphins,0,1,1,0,0,0,0,1,4.0,4.0,60.2,MIA,DST,3,2013
+23,Buffalo Bills,0,2,0,0,0,0,0,1,4.0,4.0,95.9,BUF,DST,3,2013
+24,Denver Broncos,3,0,0,0,0,0,0,1,3.0,3.0,48.5,DEN,DST,3,2013
+25,Jacksonville Jaguars,2,1,1,1,0,0,0,1,2.0,2.0,6.9,JAC,DST,3,2013
+26,Pittsburgh Steelers,2,0,0,1,0,0,0,1,2.0,2.0,44.6,PIT,DST,3,2013
+27,Houston Texans,2,0,0,1,0,0,0,1,2.0,2.0,6.4,HOU,DST,3,2013
+28,New York Giants,1,1,1,0,0,0,0,1,1.0,1.0,4.5,NYG,DST,3,2013
+29,San Francisco 49ers,1,0,0,0,0,0,0,1,1.0,1.0,79.5,SF,DST,3,2013
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,3,2013
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,3,2013
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,3,2013
+1,Tennessee Titans,5,2,2,2,1,0,0,1,23.0,23.0,48.4,TEN,DST,4,2013
+2,Indianapolis Colts,4,3,0,0,1,0,0,1,23.0,23.0,66.4,IND,DST,4,2013
+3,Washington Commanders,7,1,2,2,1,0,0,1,20.0,20.0,27.5,WAS,DST,4,2013
+4,Seattle Seahawks,4,2,1,2,1,0,0,1,17.0,17.0,39.4,SEA,DST,4,2013
+5,Detroit Lions,3,3,1,1,1,0,0,1,16.0,16.0,1.1,DET,DST,4,2013
+6,Buffalo Bills,4,5,0,0,0,0,0,1,15.0,15.0,95.9,BUF,DST,4,2013
+7,San Francisco 49ers,5,1,1,1,0,0,0,1,13.0,13.0,79.5,SF,DST,4,2013
+8,New Orleans Saints,4,3,1,1,0,0,0,1,13.0,13.0,79.3,NO,DST,4,2013
+9,Cleveland Browns,2,1,1,1,0,0,0,1,13.0,13.0,40.8,CLE,DST,4,2013
+10,Kansas City Chiefs,3,1,2,1,0,0,1,1,13.0,13.0,45.7,KC,DST,4,2013
+11,Arizona Cardinals,2,2,1,0,0,0,0,1,12.0,12.0,60.9,ARI,DST,4,2013
+12,Denver Broncos,3,0,0,0,0,0,2,1,11.0,11.0,48.5,DEN,DST,4,2013
+13,Tampa Bay Buccaneers,1,2,1,2,0,0,0,1,11.0,11.0,98.0,TB,DST,4,2013
+14,Houston Texans,5,1,1,1,0,0,0,1,10.0,10.0,6.4,HOU,DST,4,2013
+15,Minnesota Vikings,5,1,1,1,0,0,0,1,9.0,9.0,28.0,MIN,DST,4,2013
+16,Dallas Cowboys,1,1,0,0,1,0,0,1,8.0,8.0,82.9,DAL,DST,4,2013
+17,Baltimore Ravens,2,2,1,4,0,0,0,1,8.0,8.0,51.9,BAL,DST,4,2013
+18,Chicago Bears,1,1,2,4,0,0,0,1,6.0,6.0,35.9,CHI,DST,4,2013
+19,New York Giants,1,2,1,0,0,0,0,1,6.0,6.0,4.5,NYG,DST,4,2013
+20,Cincinnati Bengals,3,0,0,0,0,0,0,1,5.0,5.0,14.7,CIN,DST,4,2013
+21,New England Patriots,2,1,0,1,0,0,0,1,4.0,4.0,93.2,NE,DST,4,2013
+22,Jacksonville Jaguars,2,1,0,0,0,0,0,1,3.0,3.0,6.9,JAC,DST,4,2013
+23,New York Jets,2,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,4,2013
+24,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2013
+25,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,4,2013
+26,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,4,2013
+27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2013
+28,Pittsburgh Steelers,1,0,0,1,0,0,0,1,0.0,0.0,44.6,PIT,DST,4,2013
+29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2013
+30,Miami Dolphins,2,0,1,1,0,0,0,1,0.0,0.0,60.2,MIA,DST,4,2013
+31,Atlanta Falcons,0,0,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,DST,4,2013
+32,Philadelphia Eagles,1,0,0,0,0,0,0,1,-3.0,-3.0,52.5,PHI,DST,4,2013
+1,Arizona Cardinals,7,3,1,1,0,1,0,1,24.0,24.0,60.9,ARI,DST,5,2013
+2,San Francisco 49ers,1,3,1,1,1,0,0,1,22.0,22.0,79.5,SF,DST,5,2013
+3,Kansas City Chiefs,3,2,1,1,1,0,0,1,16.0,16.0,45.7,KC,DST,5,2013
+4,Cincinnati Bengals,4,1,1,3,0,0,0,1,15.0,15.0,14.7,CIN,DST,5,2013
+5,New England Patriots,4,1,1,1,0,0,0,1,12.0,12.0,93.2,NE,DST,5,2013
+6,Indianapolis Colts,2,1,1,1,0,0,1,1,12.0,12.0,66.4,IND,DST,5,2013
+7,Miami Dolphins,2,1,1,1,1,0,0,1,12.0,12.0,60.2,MIA,DST,5,2013
+8,Cleveland Browns,4,1,0,0,1,0,1,1,12.0,12.0,40.8,CLE,DST,5,2013
+9,Green Bay Packers,5,0,0,1,0,0,0,1,9.0,9.0,60.6,GB,DST,5,2013
+10,Philadelphia Eagles,1,3,1,0,0,0,0,1,9.0,9.0,52.5,PHI,DST,5,2013
+11,Carolina Panthers,2,3,0,0,0,0,0,1,8.0,8.0,27.8,CAR,DST,5,2013
+12,Seattle Seahawks,2,0,2,1,0,1,0,1,8.0,8.0,39.4,SEA,DST,5,2013
+13,Tennessee Titans,2,1,1,1,0,0,0,1,7.0,7.0,48.4,TEN,DST,5,2013
+14,Baltimore Ravens,6,0,0,0,0,0,0,1,7.0,7.0,51.9,BAL,DST,5,2013
+15,New Orleans Saints,3,0,1,1,0,0,0,1,6.0,6.0,79.3,NO,DST,5,2013
+16,New York Jets,2,0,1,2,0,0,0,1,4.0,4.0,3.3,NYJ,DST,5,2013
+17,Denver Broncos,4,1,1,1,0,0,0,1,4.0,4.0,48.5,DEN,DST,5,2013
+18,Buffalo Bills,5,0,0,2,0,0,0,1,4.0,4.0,95.9,BUF,DST,5,2013
+19,Atlanta Falcons,4,0,0,0,0,0,0,1,3.0,3.0,5.8,ATL,DST,5,2013
+20,Jacksonville Jaguars,2,0,0,1,0,0,0,1,1.0,1.0,6.9,JAC,DST,5,2013
+21,Detroit Lions,1,0,0,1,0,0,0,1,1.0,1.0,1.1,DET,DST,5,2013
+22,Chicago Bears,1,0,0,1,0,0,0,1,1.0,1.0,35.9,CHI,DST,5,2013
+23,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2013
+24,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,5,2013
+25,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2013
+26,Houston Texans,1,0,0,0,0,0,0,1,0.0,0.0,6.4,HOU,DST,5,2013
+27,Dallas Cowboys,0,1,1,2,0,0,0,1,0.0,0.0,82.9,DAL,DST,5,2013
+28,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2013
+29,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,5,2013
+30,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,5,2013
+31,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,5,2013
+32,New York Giants,1,0,0,0,0,0,0,1,-3.0,-3.0,4.5,NYG,DST,5,2013
+1,Kansas City Chiefs,9,3,0,0,1,0,0,1,25.0,25.0,45.7,KC,DST,6,2013
+2,Pittsburgh Steelers,3,2,0,1,0,0,0,1,14.0,14.0,44.6,PIT,DST,6,2013
+3,Chicago Bears,1,3,0,0,1,0,0,1,13.0,13.0,35.9,CHI,DST,6,2013
+4,Tennessee Titans,2,0,2,4,1,0,0,1,13.0,13.0,48.4,TEN,DST,6,2013
+5,San Francisco 49ers,1,2,2,2,0,1,0,1,12.0,12.0,79.5,SF,DST,6,2013
+6,Carolina Panthers,3,2,0,1,0,0,0,1,11.0,11.0,27.8,CAR,DST,6,2013
+7,Seattle Seahawks,3,2,0,0,0,0,0,1,11.0,11.0,39.4,SEA,DST,6,2013
+8,Denver Broncos,2,2,0,1,0,0,0,1,10.0,10.0,48.5,DEN,DST,6,2013
+9,Green Bay Packers,5,0,1,2,0,0,0,1,8.0,8.0,60.6,GB,DST,6,2013
+10,Baltimore Ravens,3,1,1,2,0,0,0,1,8.0,8.0,51.9,BAL,DST,6,2013
+11,Dallas Cowboys,3,1,1,2,0,0,1,1,8.0,8.0,82.9,DAL,DST,6,2013
+12,Jacksonville Jaguars,0,1,2,1,1,0,0,1,8.0,8.0,6.9,JAC,DST,6,2013
+13,Cincinnati Bengals,5,0,1,1,0,0,0,1,7.0,7.0,14.7,CIN,DST,6,2013
+14,Detroit Lions,2,2,0,1,0,0,0,1,7.0,7.0,1.1,DET,DST,6,2013
+15,New Orleans Saints,5,1,0,0,0,0,0,1,6.0,6.0,79.3,NO,DST,6,2013
+16,New England Patriots,1,1,1,0,0,0,0,1,5.0,5.0,93.2,NE,DST,6,2013
+17,Arizona Cardinals,2,1,1,1,0,0,0,1,5.0,5.0,60.9,ARI,DST,6,2013
+18,Philadelphia Eagles,2,1,0,0,0,0,0,1,5.0,5.0,52.5,PHI,DST,6,2013
+19,Buffalo Bills,3,1,0,0,0,0,0,1,5.0,5.0,95.9,BUF,DST,6,2013
+20,New York Jets,4,0,0,1,0,0,0,1,5.0,5.0,3.3,NYJ,DST,6,2013
+21,Indianapolis Colts,2,0,0,0,0,0,0,1,3.0,3.0,66.4,IND,DST,6,2013
+22,Tampa Bay Buccaneers,1,0,1,1,0,0,0,1,2.0,2.0,98.0,TB,DST,6,2013
+23,Washington Commanders,1,1,0,0,0,0,0,1,2.0,2.0,27.5,WAS,DST,6,2013
+24,Cleveland Browns,1,1,0,0,0,0,0,1,2.0,2.0,40.8,CLE,DST,6,2013
+25,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,6,2013
+26,New York Giants,0,0,0,0,0,0,0,1,0.0,0.0,4.5,NYG,DST,6,2013
+27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,6,2013
+28,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,6,2013
+29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,6,2013
+30,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,6,2013
+31,Minnesota Vikings,1,0,0,0,0,0,0,1,-3.0,-3.0,28.0,MIN,DST,6,2013
+32,Houston Texans,0,0,0,0,0,0,0,1,-4.0,-4.0,6.4,HOU,DST,6,2013
+1,Carolina Panthers,4,1,2,3,1,0,0,1,17.0,17.0,27.8,CAR,DST,7,2013
+2,Dallas Cowboys,3,3,0,0,0,0,0,1,16.0,16.0,82.9,DAL,DST,7,2013
+3,San Francisco 49ers,3,1,1,0,1,0,0,1,14.0,14.0,79.5,SF,DST,7,2013
+4,Buffalo Bills,2,2,1,1,1,0,0,1,14.0,14.0,95.9,BUF,DST,7,2013
+5,New York Jets,4,1,0,2,1,0,0,1,12.0,12.0,3.3,NYJ,DST,7,2013
+6,New England Patriots,4,1,0,1,1,0,0,1,12.0,12.0,93.2,NE,DST,7,2013
+7,Seattle Seahawks,7,2,0,2,0,0,0,1,11.0,11.0,39.4,SEA,DST,7,2013
+8,New York Giants,1,1,2,0,0,0,0,1,11.0,11.0,4.5,NYG,DST,7,2013
+9,Indianapolis Colts,4,1,2,2,0,1,0,1,11.0,11.0,66.4,IND,DST,7,2013
+10,Atlanta Falcons,3,0,1,2,1,0,0,1,11.0,11.0,5.8,ATL,DST,7,2013
+11,Green Bay Packers,3,1,0,0,0,0,0,1,9.0,9.0,60.6,GB,DST,7,2013
+12,Kansas City Chiefs,5,0,1,2,0,0,0,1,8.0,8.0,45.7,KC,DST,7,2013
+13,Miami Dolphins,4,1,0,1,0,0,0,1,7.0,7.0,60.2,MIA,DST,7,2013
+14,Philadelphia Eagles,2,2,0,0,0,0,0,1,7.0,7.0,52.5,PHI,DST,7,2013
+15,Houston Texans,2,1,1,1,0,0,0,1,7.0,7.0,6.4,HOU,DST,7,2013
+16,Arizona Cardinals,3,0,2,3,0,0,0,1,6.0,6.0,60.9,ARI,DST,7,2013
+17,Baltimore Ravens,3,0,1,1,0,0,0,1,6.0,6.0,51.9,BAL,DST,7,2013
+18,Washington Commanders,2,1,0,0,1,0,0,1,6.0,6.0,27.5,WAS,DST,7,2013
+19,Minnesota Vikings,2,0,1,1,0,0,1,1,4.0,4.0,28.0,MIN,DST,7,2013
+20,Pittsburgh Steelers,1,0,0,0,0,0,0,1,2.0,2.0,44.6,PIT,DST,7,2013
+21,Tampa Bay Buccaneers,0,0,1,0,0,0,0,1,2.0,2.0,98.0,TB,DST,7,2013
+22,Tennessee Titans,2,0,0,0,0,0,0,1,2.0,2.0,48.4,TEN,DST,7,2013
+23,Jacksonville Jaguars,1,0,0,0,0,0,0,1,1.0,1.0,6.9,JAC,DST,7,2013
+24,Detroit Lions,1,0,0,0,0,0,0,1,1.0,1.0,1.1,DET,DST,7,2013
+25,Cincinnati Bengals,0,0,0,0,0,0,0,1,1.0,1.0,14.7,CIN,DST,7,2013
+26,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,7,2013
+27,Denver Broncos,2,0,1,1,0,0,0,1,0.0,0.0,48.5,DEN,DST,7,2013
+28,Cleveland Browns,1,0,0,0,0,0,0,1,0.0,0.0,40.8,CLE,DST,7,2013
+29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,7,2013
+30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,7,2013
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,7,2013
+32,Chicago Bears,1,1,0,0,0,0,1,1,-1.0,-1.0,35.9,CHI,DST,7,2013
+1,Cincinnati Bengals,4,2,0,0,2,0,0,1,24.0,24.0,14.7,CIN,DST,8,2013
+2,Denver Broncos,3,4,1,2,1,0,0,1,20.0,20.0,48.5,DEN,DST,8,2013
+3,New York Giants,4,2,1,3,0,0,0,1,17.0,17.0,4.5,NYG,DST,8,2013
+4,Arizona Cardinals,4,4,0,0,0,0,0,1,16.0,16.0,60.9,ARI,DST,8,2013
+5,New England Patriots,6,2,1,1,0,0,0,1,14.0,14.0,93.2,NE,DST,8,2013
+6,San Francisco 49ers,0,0,1,1,1,0,0,1,12.0,12.0,79.5,SF,DST,8,2013
+7,Washington Commanders,2,3,1,1,1,0,0,1,12.0,12.0,27.5,WAS,DST,8,2013
+8,New Orleans Saints,4,1,2,3,0,0,0,1,11.0,11.0,79.3,NO,DST,8,2013
+9,Seattle Seahawks,3,2,0,1,0,0,0,1,11.0,11.0,39.4,SEA,DST,8,2013
+10,Philadelphia Eagles,1,0,1,0,1,0,0,1,10.0,10.0,52.5,PHI,DST,8,2013
+11,Carolina Panthers,3,0,1,0,0,0,0,1,9.0,9.0,27.8,CAR,DST,8,2013
+12,Pittsburgh Steelers,2,2,1,1,0,0,0,1,8.0,8.0,44.6,PIT,DST,8,2013
+13,Dallas Cowboys,1,2,2,2,0,0,0,1,8.0,8.0,82.9,DAL,DST,8,2013
+14,Cleveland Browns,6,0,0,0,0,0,0,1,6.0,6.0,40.8,CLE,DST,8,2013
+15,Miami Dolphins,3,1,0,0,0,0,0,1,5.0,5.0,60.2,MIA,DST,8,2013
+16,Atlanta Falcons,3,1,0,1,0,0,0,1,5.0,5.0,5.8,ATL,DST,8,2013
+17,Kansas City Chiefs,1,0,1,0,0,0,0,1,4.0,4.0,45.7,KC,DST,8,2013
+18,Tampa Bay Buccaneers,3,0,0,0,0,0,0,1,2.0,2.0,98.0,TB,DST,8,2013
+19,Green Bay Packers,3,0,0,0,0,0,1,1,2.0,2.0,60.6,GB,DST,8,2013
+20,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,8,2013
+21,Buffalo Bills,4,0,0,0,0,0,0,1,0.0,0.0,95.9,BUF,DST,8,2013
+22,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,8,2013
+23,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,8,2013
+24,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,8,2013
+25,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,8,2013
+26,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,8,2013
+27,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,8,2013
+28,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,8,2013
+29,New York Jets,1,1,0,0,0,0,0,1,-1.0,-1.0,3.3,NYJ,DST,8,2013
+30,Detroit Lions,0,0,0,0,0,0,0,1,-1.0,-1.0,1.1,DET,DST,8,2013
+31,Minnesota Vikings,2,0,0,0,0,0,1,1,-2.0,-2.0,28.0,MIN,DST,8,2013
+32,Jacksonville Jaguars,0,0,1,1,0,0,0,1,-2.0,-2.0,6.9,JAC,DST,8,2013
+1,Miami Dolphins,5,3,1,1,1,1,0,1,22.0,22.0,60.2,MIA,DST,9,2013
+2,Kansas City Chiefs,0,2,1,1,2,0,0,1,22.0,22.0,45.7,KC,DST,9,2013
+3,Carolina Panthers,1,3,1,1,1,0,0,1,19.0,19.0,27.8,CAR,DST,9,2013
+4,Dallas Cowboys,2,1,1,2,1,0,0,1,12.0,12.0,82.9,DAL,DST,9,2013
+5,Cleveland Browns,5,1,1,0,0,0,0,1,10.0,10.0,40.8,CLE,DST,9,2013
+6,New England Patriots,5,2,1,1,0,0,0,1,10.0,10.0,93.2,NE,DST,9,2013
+7,Chicago Bears,5,1,0,2,0,0,0,1,8.0,8.0,35.9,CHI,DST,9,2013
+8,Philadelphia Eagles,3,2,0,0,0,0,0,1,8.0,8.0,52.5,PHI,DST,9,2013
+9,New York Jets,2,2,0,1,0,0,0,1,7.0,7.0,3.3,NYJ,DST,9,2013
+10,Tennessee Titans,2,0,2,1,0,0,0,1,6.0,6.0,48.4,TEN,DST,9,2013
+11,Buffalo Bills,2,0,0,1,0,0,0,1,6.0,6.0,95.9,BUF,DST,9,2013
+12,Cincinnati Bengals,3,0,1,1,0,0,0,1,6.0,6.0,14.7,CIN,DST,9,2013
+13,Tampa Bay Buccaneers,0,2,1,0,0,0,0,1,6.0,6.0,98.0,TB,DST,9,2013
+14,Minnesota Vikings,3,1,0,0,0,0,0,1,5.0,5.0,28.0,MIN,DST,9,2013
+15,Washington Commanders,1,2,0,0,0,0,0,1,5.0,5.0,27.5,WAS,DST,9,2013
+16,Houston Texans,4,0,0,0,0,0,0,1,5.0,5.0,6.4,HOU,DST,9,2013
+17,Baltimore Ravens,2,0,1,1,0,0,0,1,4.0,4.0,51.9,BAL,DST,9,2013
+18,Atlanta Falcons,1,2,0,1,0,0,0,1,4.0,4.0,5.8,ATL,DST,9,2013
+19,Seattle Seahawks,3,0,0,0,0,0,0,1,3.0,3.0,39.4,SEA,DST,9,2013
+20,New Orleans Saints,2,0,0,0,0,0,0,1,2.0,2.0,79.3,NO,DST,9,2013
+21,Green Bay Packers,1,0,0,0,0,0,0,1,2.0,2.0,60.6,GB,DST,9,2013
+22,Indianapolis Colts,1,0,0,0,0,0,0,1,1.0,1.0,66.4,IND,DST,9,2013
+23,Pittsburgh Steelers,3,0,1,1,0,0,0,1,1.0,1.0,44.6,PIT,DST,9,2013
+24,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,9,2013
+25,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,9,2013
+26,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2013
+27,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,9,2013
+28,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,9,2013
+29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,9,2013
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,9,2013
+31,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,9,2013
+32,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,9,2013
+1,Jacksonville Jaguars,1,1,3,3,1,1,0,1,17.0,17.0,6.9,JAC,DST,10,2013
+2,New York Giants,4,1,1,1,0,0,1,1,16.0,16.0,4.5,NYG,DST,10,2013
+3,Carolina Panthers,6,1,1,1,0,0,0,1,14.0,14.0,27.8,CAR,DST,10,2013
+4,Cincinnati Bengals,5,2,1,1,0,0,0,1,12.0,12.0,14.7,CIN,DST,10,2013
+5,Arizona Cardinals,3,0,1,1,1,0,0,1,12.0,12.0,60.9,ARI,DST,10,2013
+6,Baltimore Ravens,5,3,0,0,0,0,0,1,12.0,12.0,51.9,BAL,DST,10,2013
+7,San Francisco 49ers,3,1,1,1,0,0,0,1,11.0,11.0,79.5,SF,DST,10,2013
+8,Pittsburgh Steelers,3,1,0,0,0,0,0,1,9.0,9.0,44.6,PIT,DST,10,2013
+9,Philadelphia Eagles,1,2,0,1,0,0,0,1,9.0,9.0,52.5,PHI,DST,10,2013
+10,Seattle Seahawks,2,0,1,1,0,0,0,1,8.0,8.0,39.4,SEA,DST,10,2013
+11,Tennessee Titans,3,2,0,1,0,0,0,1,7.0,7.0,48.4,TEN,DST,10,2013
+12,Tampa Bay Buccaneers,2,1,0,0,0,1,0,1,7.0,7.0,98.0,TB,DST,10,2013
+13,Houston Texans,1,1,2,2,0,0,0,1,7.0,7.0,6.4,HOU,DST,10,2013
+14,Buffalo Bills,4,1,0,1,0,0,0,1,6.0,6.0,95.9,BUF,DST,10,2013
+15,Detroit Lions,2,1,0,0,0,0,0,1,5.0,5.0,1.1,DET,DST,10,2013
+16,Green Bay Packers,3,0,1,1,0,0,0,1,5.0,5.0,60.6,GB,DST,10,2013
+17,Denver Broncos,4,0,0,0,0,0,0,1,5.0,5.0,48.5,DEN,DST,10,2013
+18,New Orleans Saints,3,0,0,0,0,0,0,1,4.0,4.0,79.3,NO,DST,10,2013
+19,Miami Dolphins,2,1,0,0,0,0,0,1,4.0,4.0,60.2,MIA,DST,10,2013
+20,Minnesota Vikings,4,0,0,0,0,0,0,1,4.0,4.0,28.0,MIN,DST,10,2013
+21,Chicago Bears,0,1,0,0,0,0,0,1,2.0,2.0,35.9,CHI,DST,10,2013
+22,Washington Commanders,1,1,0,1,0,0,0,1,2.0,2.0,27.5,WAS,DST,10,2013
+23,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,10,2013
+24,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,10,2013
+25,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,10,2013
+26,Atlanta Falcons,1,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,DST,10,2013
+27,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,10,2013
+28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,10,2013
+29,Indianapolis Colts,2,0,1,0,0,0,0,1,0.0,0.0,66.4,IND,DST,10,2013
+30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,10,2013
+31,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,10,2013
+32,Dallas Cowboys,1,0,1,0,0,0,0,1,-1.0,-1.0,82.9,DAL,DST,10,2013
+1,Cincinnati Bengals,4,3,1,2,1,0,1,1,26.0,26.0,14.7,CIN,DST,11,2013
+2,Buffalo Bills,4,3,1,1,1,0,0,1,19.0,19.0,95.9,BUF,DST,11,2013
+3,Seattle Seahawks,2,3,1,1,1,0,0,1,17.0,17.0,39.4,SEA,DST,11,2013
+4,New York Giants,0,3,0,0,1,0,0,1,16.0,16.0,4.5,NYG,DST,11,2013
+5,Tampa Bay Buccaneers,3,2,1,1,1,0,0,1,15.0,15.0,98.0,TB,DST,11,2013
+6,Chicago Bears,3,2,0,1,1,0,0,1,14.0,14.0,35.9,CHI,DST,11,2013
+7,Cleveland Browns,0,2,0,0,1,0,0,1,9.0,9.0,40.8,CLE,DST,11,2013
+8,Philadelphia Eagles,4,1,1,2,0,0,0,1,9.0,9.0,52.5,PHI,DST,11,2013
+9,Pittsburgh Steelers,2,1,2,2,0,0,0,1,8.0,8.0,44.6,PIT,DST,11,2013
+10,Arizona Cardinals,2,2,0,0,0,0,0,1,7.0,7.0,60.9,ARI,DST,11,2013
+11,Carolina Panthers,2,1,1,1,0,0,0,1,7.0,7.0,27.8,CAR,DST,11,2013
+12,New Orleans Saints,3,1,0,0,0,0,0,1,6.0,6.0,79.3,NO,DST,11,2013
+13,Miami Dolphins,3,1,0,0,0,0,0,1,6.0,6.0,60.2,MIA,DST,11,2013
+14,Green Bay Packers,4,1,0,0,0,0,0,1,6.0,6.0,60.6,GB,DST,11,2013
+15,Denver Broncos,3,0,1,1,0,0,0,1,6.0,6.0,48.5,DEN,DST,11,2013
+16,San Francisco 49ers,1,1,1,1,0,0,0,1,5.0,5.0,79.5,SF,DST,11,2013
+17,Indianapolis Colts,2,0,1,0,0,0,0,1,4.0,4.0,66.4,IND,DST,11,2013
+18,Baltimore Ravens,2,0,0,1,0,0,0,1,3.0,3.0,51.9,BAL,DST,11,2013
+19,Jacksonville Jaguars,3,0,0,0,0,0,0,1,3.0,3.0,6.9,JAC,DST,11,2013
+20,Washington Commanders,3,0,0,0,0,0,0,1,3.0,3.0,27.5,WAS,DST,11,2013
+21,New England Patriots,3,0,0,0,0,0,0,1,3.0,3.0,93.2,NE,DST,11,2013
+22,Kansas City Chiefs,0,0,1,0,0,0,0,1,2.0,2.0,45.7,KC,DST,11,2013
+23,Houston Texans,2,0,0,0,0,0,1,1,1.0,1.0,6.4,HOU,DST,11,2013
+24,New York Jets,1,0,0,0,0,0,0,1,0.0,0.0,3.3,NYJ,DST,11,2013
+25,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,11,2013
+26,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,11,2013
+27,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,11,2013
+28,Tennessee Titans,1,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,11,2013
+29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,11,2013
+30,Atlanta Falcons,2,0,0,0,0,0,0,1,-2.0,-2.0,5.8,ATL,DST,11,2013
+31,Detroit Lions,1,0,0,0,0,0,0,1,-3.0,-3.0,1.1,DET,DST,11,2013
+32,Minnesota Vikings,1,0,0,1,0,0,0,1,-3.0,-3.0,28.0,MIN,DST,11,2013
+1,Pittsburgh Steelers,5,1,3,3,1,0,0,1,23.0,23.0,44.6,PIT,DST,12,2013
+2,Tampa Bay Buccaneers,2,4,1,2,1,0,0,1,19.0,19.0,98.0,TB,DST,12,2013
+3,Baltimore Ravens,3,2,1,0,0,0,0,1,16.0,16.0,51.9,BAL,DST,12,2013
+4,San Francisco 49ers,6,1,0,1,0,0,0,1,15.0,15.0,79.5,SF,DST,12,2013
+5,Denver Broncos,3,0,3,4,1,0,0,1,14.0,14.0,48.5,DEN,DST,12,2013
+6,Arizona Cardinals,1,1,0,0,1,0,0,1,13.0,13.0,60.9,ARI,DST,12,2013
+7,Jacksonville Jaguars,2,1,0,0,0,0,0,1,11.0,11.0,6.9,JAC,DST,12,2013
+8,New Orleans Saints,5,0,1,1,0,0,0,1,11.0,11.0,79.3,NO,DST,12,2013
+9,Dallas Cowboys,2,0,1,1,1,0,0,1,10.0,10.0,82.9,DAL,DST,12,2013
+10,New England Patriots,2,1,3,1,0,0,0,1,10.0,10.0,93.2,NE,DST,12,2013
+11,Houston Texans,4,0,0,0,0,0,0,1,9.0,9.0,6.4,HOU,DST,12,2013
+12,Green Bay Packers,6,0,1,1,0,0,0,1,8.0,8.0,60.6,GB,DST,12,2013
+13,New York Jets,4,1,0,0,0,0,0,1,7.0,7.0,3.3,NYJ,DST,12,2013
+14,New York Giants,4,1,0,1,0,0,0,1,7.0,7.0,4.5,NYG,DST,12,2013
+15,Miami Dolphins,3,1,0,0,0,0,0,1,7.0,7.0,60.2,MIA,DST,12,2013
+16,Carolina Panthers,3,1,0,0,0,0,0,1,6.0,6.0,27.8,CAR,DST,12,2013
+17,Detroit Lions,4,0,0,0,0,0,0,1,5.0,5.0,1.1,DET,DST,12,2013
+18,Tennessee Titans,0,1,1,1,0,0,0,1,5.0,5.0,48.4,TEN,DST,12,2013
+19,Washington Commanders,2,0,1,1,0,0,0,1,4.0,4.0,27.5,WAS,DST,12,2013
+20,Indianapolis Colts,3,0,0,1,0,0,0,1,3.0,3.0,66.4,IND,DST,12,2013
+21,Minnesota Vikings,2,0,0,0,0,0,0,1,2.0,2.0,28.0,MIN,DST,12,2013
+22,Atlanta Falcons,1,0,0,0,0,0,0,1,2.0,2.0,5.8,ATL,DST,12,2013
+23,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,12,2013
+24,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,12,2013
+25,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,12,2013
+26,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,12,2013
+27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,12,2013
+28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,12,2013
+29,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,12,2013
+30,Cleveland Browns,0,0,0,0,0,0,0,1,0.0,0.0,40.8,CLE,DST,12,2013
+31,Chicago Bears,2,0,0,1,0,0,0,1,-2.0,-2.0,35.9,CHI,DST,12,2013
+32,Kansas City Chiefs,1,0,0,1,0,0,0,1,-3.0,-3.0,45.7,KC,DST,12,2013
+1,Detroit Lions,7,1,2,1,0,1,0,1,22.0,22.0,1.1,DET,DST,13,2013
+2,Miami Dolphins,4,2,1,0,0,0,0,1,17.0,17.0,60.2,MIA,DST,13,2013
+3,Carolina Panthers,5,1,1,0,0,0,0,1,16.0,16.0,27.8,CAR,DST,13,2013
+4,Seattle Seahawks,1,0,1,1,1,0,0,1,13.0,13.0,39.4,SEA,DST,13,2013
+5,Cincinnati Bengals,2,1,2,2,0,0,0,1,12.0,12.0,14.7,CIN,DST,13,2013
+6,Philadelphia Eagles,5,2,1,1,0,0,0,1,11.0,11.0,52.5,PHI,DST,13,2013
+7,Green Bay Packers,1,2,2,2,1,0,0,1,11.0,11.0,60.6,GB,DST,13,2013
+8,Indianapolis Colts,1,3,1,1,0,0,0,1,10.0,10.0,66.4,IND,DST,13,2013
+9,Jacksonville Jaguars,3,2,1,2,0,1,0,1,10.0,10.0,6.9,JAC,DST,13,2013
+10,San Francisco 49ers,3,1,0,0,0,0,0,1,9.0,9.0,79.5,SF,DST,13,2013
+11,New York Giants,5,0,1,1,0,0,0,1,8.0,8.0,4.5,NYG,DST,13,2013
+12,Minnesota Vikings,4,0,1,2,0,0,0,1,7.0,7.0,28.0,MIN,DST,13,2013
+13,Tennessee Titans,5,1,0,2,0,0,0,1,7.0,7.0,48.4,TEN,DST,13,2013
+14,Buffalo Bills,6,0,1,0,0,0,0,1,7.0,7.0,95.9,BUF,DST,13,2013
+15,Chicago Bears,5,1,0,0,0,0,0,1,7.0,7.0,35.9,CHI,DST,13,2013
+16,Arizona Cardinals,5,0,0,0,0,0,0,1,5.0,5.0,60.9,ARI,DST,13,2013
+17,Washington Commanders,3,1,0,1,0,0,0,1,5.0,5.0,27.5,WAS,DST,13,2013
+18,Dallas Cowboys,0,1,1,0,0,0,0,1,4.0,4.0,82.9,DAL,DST,13,2013
+19,Tampa Bay Buccaneers,0,2,0,0,0,0,0,1,4.0,4.0,98.0,TB,DST,13,2013
+20,Atlanta Falcons,0,0,2,2,0,0,0,1,3.0,3.0,5.8,ATL,DST,13,2013
+21,New York Jets,1,1,0,0,0,0,0,1,3.0,3.0,3.3,NYJ,DST,13,2013
+22,Cleveland Browns,2,1,0,0,0,0,0,1,3.0,3.0,40.8,CLE,DST,13,2013
+23,New England Patriots,1,1,0,0,0,0,0,1,2.0,2.0,93.2,NE,DST,13,2013
+24,Houston Texans,1,1,0,0,0,0,0,1,2.0,2.0,6.4,HOU,DST,13,2013
+25,Pittsburgh Steelers,2,0,0,1,0,0,0,1,2.0,2.0,44.6,PIT,DST,13,2013
+26,Denver Broncos,0,1,0,1,0,0,0,1,1.0,1.0,48.5,DEN,DST,13,2013
+27,Baltimore Ravens,0,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,13,2013
+28,Kansas City Chiefs,0,2,0,0,0,0,1,1,0.0,0.0,45.7,KC,DST,13,2013
+29,New Orleans Saints,1,0,0,1,0,0,0,1,0.0,0.0,79.3,NO,DST,13,2013
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2013
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2013
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2013
+1,Tampa Bay Buccaneers,7,4,1,0,0,0,0,1,24.0,24.0,98.0,TB,DST,14,2013
+2,Arizona Cardinals,4,2,0,1,1,1,0,1,20.0,20.0,60.9,ARI,DST,14,2013
+3,Atlanta Falcons,5,1,1,1,1,0,0,1,15.0,15.0,5.8,ATL,DST,14,2013
+4,Kansas City Chiefs,6,1,1,2,0,0,2,1,14.0,14.0,45.7,KC,DST,14,2013
+5,New York Jets,3,1,0,0,0,0,0,1,12.0,12.0,3.3,NYJ,DST,14,2013
+6,Pittsburgh Steelers,2,1,0,0,1,0,0,1,9.0,9.0,44.6,PIT,DST,14,2013
+7,New Orleans Saints,5,0,0,0,0,0,0,1,9.0,9.0,79.3,NO,DST,14,2013
+8,Jacksonville Jaguars,3,2,0,1,0,0,0,1,8.0,8.0,6.9,JAC,DST,14,2013
+9,Philadelphia Eagles,0,0,3,2,0,0,0,1,8.0,8.0,52.5,PHI,DST,14,2013
+10,Cleveland Browns,4,1,1,1,0,0,0,1,8.0,8.0,40.8,CLE,DST,14,2013
+11,Minnesota Vikings,2,3,0,1,0,0,0,1,7.0,7.0,28.0,MIN,DST,14,2013
+12,San Francisco 49ers,2,1,0,1,0,0,0,1,6.0,6.0,79.5,SF,DST,14,2013
+13,Miami Dolphins,3,0,1,1,0,0,0,1,6.0,6.0,60.2,MIA,DST,14,2013
+14,Green Bay Packers,1,1,1,1,0,0,0,1,6.0,6.0,60.6,GB,DST,14,2013
+15,Denver Broncos,2,1,1,1,0,0,0,1,5.0,5.0,48.5,DEN,DST,14,2013
+16,Seattle Seahawks,2,1,0,0,0,0,0,1,5.0,5.0,39.4,SEA,DST,14,2013
+17,Buffalo Bills,1,2,0,0,0,0,0,1,5.0,5.0,95.9,BUF,DST,14,2013
+18,Baltimore Ravens,0,0,1,3,0,0,1,1,2.0,2.0,51.9,BAL,DST,14,2013
+19,Detroit Lions,0,1,0,0,0,0,2,1,1.0,1.0,1.1,DET,DST,14,2013
+20,New England Patriots,1,0,0,0,0,0,0,1,1.0,1.0,93.2,NE,DST,14,2013
+21,Houston Texans,1,0,0,0,0,0,0,1,1.0,1.0,6.4,HOU,DST,14,2013
+22,Chicago Bears,2,0,0,0,0,0,0,1,1.0,1.0,35.9,CHI,DST,14,2013
+23,Carolina Panthers,2,0,0,1,0,0,0,1,1.0,1.0,27.8,CAR,DST,14,2013
+24,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,14,2013
+25,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,14,2013
+26,New York Giants,2,0,1,1,0,0,0,1,0.0,0.0,4.5,NYG,DST,14,2013
+27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,14,2013
+28,Cincinnati Bengals,0,0,0,0,0,0,0,1,-1.0,-1.0,14.7,CIN,DST,14,2013
+29,Washington Commanders,0,1,0,0,0,0,0,1,-2.0,-2.0,27.5,WAS,DST,14,2013
+30,Dallas Cowboys,1,0,0,0,0,0,0,1,-3.0,-3.0,82.9,DAL,DST,14,2013
+31,Tennessee Titans,0,0,0,0,0,0,0,1,-4.0,-4.0,48.4,TEN,DST,14,2013
+32,Indianapolis Colts,0,0,0,0,0,0,0,1,-4.0,-4.0,66.4,IND,DST,14,2013
+1,Seattle Seahawks,4,5,0,2,0,0,0,1,24.0,24.0,39.4,SEA,DST,15,2013
+2,Cleveland Browns,2,2,1,1,2,0,0,1,19.0,19.0,40.8,CLE,DST,15,2013
+3,Kansas City Chiefs,0,5,2,0,1,0,0,1,19.0,19.0,45.7,KC,DST,15,2013
+4,Indianapolis Colts,4,2,0,3,0,1,0,1,17.0,17.0,66.4,IND,DST,15,2013
+5,San Francisco 49ers,4,1,1,0,1,0,0,1,15.0,15.0,79.5,SF,DST,15,2013
+6,Atlanta Falcons,1,2,5,3,0,0,0,1,15.0,15.0,5.8,ATL,DST,15,2013
+7,Arizona Cardinals,3,2,1,1,1,0,0,1,14.0,14.0,60.9,ARI,DST,15,2013
+8,Carolina Panthers,4,1,0,0,1,0,0,1,14.0,14.0,27.8,CAR,DST,15,2013
+9,Buffalo Bills,5,2,1,3,0,0,0,1,12.0,12.0,95.9,BUF,DST,15,2013
+10,Chicago Bears,0,2,0,0,1,0,0,1,11.0,11.0,35.9,CHI,DST,15,2013
+11,Baltimore Ravens,1,3,0,0,0,0,0,1,8.0,8.0,51.9,BAL,DST,15,2013
+12,Jacksonville Jaguars,4,1,1,1,0,0,0,1,8.0,8.0,6.9,JAC,DST,15,2013
+13,Washington Commanders,3,1,1,1,0,0,0,1,7.0,7.0,27.5,WAS,DST,15,2013
+14,New York Giants,4,1,0,0,0,0,0,1,6.0,6.0,4.5,NYG,DST,15,2013
+15,New England Patriots,4,0,1,0,0,0,0,1,6.0,6.0,93.2,NE,DST,15,2013
+16,Minnesota Vikings,4,1,0,0,0,0,0,1,5.0,5.0,28.0,MIN,DST,15,2013
+17,Miami Dolphins,1,1,0,0,0,0,0,1,4.0,4.0,60.2,MIA,DST,15,2013
+18,Pittsburgh Steelers,1,0,1,1,0,0,1,1,4.0,4.0,44.6,PIT,DST,15,2013
+19,Green Bay Packers,3,2,0,0,0,0,0,1,3.0,3.0,60.6,GB,DST,15,2013
+20,Houston Texans,1,1,0,1,0,0,0,1,3.0,3.0,6.4,HOU,DST,15,2013
+21,New York Jets,2,0,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,15,2013
+22,Denver Broncos,2,0,0,0,0,0,0,1,2.0,2.0,48.5,DEN,DST,15,2013
+23,Detroit Lions,1,0,0,1,0,0,0,1,2.0,2.0,1.1,DET,DST,15,2013
+24,Cincinnati Bengals,1,1,0,0,0,0,0,1,2.0,2.0,14.7,CIN,DST,15,2013
+25,Tampa Bay Buccaneers,2,0,0,2,0,0,0,1,2.0,2.0,98.0,TB,DST,15,2013
+26,Philadelphia Eagles,3,1,0,0,0,0,0,1,1.0,1.0,52.5,PHI,DST,15,2013
+27,Tennessee Titans,2,0,0,0,0,0,0,1,1.0,1.0,48.4,TEN,DST,15,2013
+28,New Orleans Saints,0,0,0,0,0,0,0,1,0.0,0.0,79.3,NO,DST,15,2013
+29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,15,2013
+30,Dallas Cowboys,2,1,0,0,0,0,0,1,0.0,0.0,82.9,DAL,DST,15,2013
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,15,2013
+32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,15,2013
+1,New England Patriots,4,3,1,0,2,0,0,1,28.0,28.0,93.2,NE,DST,16,2013
+2,Buffalo Bills,7,2,0,0,0,0,0,1,21.0,21.0,95.9,BUF,DST,16,2013
+3,Philadelphia Eagles,5,1,1,1,1,1,0,1,21.0,21.0,52.5,PHI,DST,16,2013
+4,Cincinnati Bengals,4,3,1,1,1,0,0,1,19.0,19.0,14.7,CIN,DST,16,2013
+5,Indianapolis Colts,5,1,3,3,0,0,0,1,17.0,17.0,66.4,IND,DST,16,2013
+6,New York Giants,2,2,1,1,1,0,0,1,15.0,15.0,4.5,NYG,DST,16,2013
+7,Carolina Panthers,6,2,0,0,0,0,0,1,14.0,14.0,27.8,CAR,DST,16,2013
+8,Arizona Cardinals,4,1,1,1,0,0,0,1,12.0,12.0,60.9,ARI,DST,16,2013
+9,Pittsburgh Steelers,3,1,1,1,1,0,0,1,12.0,12.0,44.6,PIT,DST,16,2013
+10,San Francisco 49ers,1,2,0,0,1,0,0,1,11.0,11.0,79.5,SF,DST,16,2013
+11,Seattle Seahawks,2,4,0,0,0,0,0,1,11.0,11.0,39.4,SEA,DST,16,2013
+12,Denver Broncos,3,2,0,1,0,0,0,1,11.0,11.0,48.5,DEN,DST,16,2013
+13,New York Jets,3,2,0,0,0,0,0,1,11.0,11.0,3.3,NYJ,DST,16,2013
+14,Detroit Lions,2,1,1,1,0,1,0,1,9.0,9.0,1.1,DET,DST,16,2013
+15,New Orleans Saints,4,1,0,0,0,0,0,1,7.0,7.0,79.3,NO,DST,16,2013
+16,Tennessee Titans,2,1,0,0,0,0,0,1,6.0,6.0,48.4,TEN,DST,16,2013
+17,Washington Commanders,2,1,1,1,0,0,0,1,6.0,6.0,27.5,WAS,DST,16,2013
+18,Jacksonville Jaguars,3,1,0,0,0,0,0,1,6.0,6.0,6.9,JAC,DST,16,2013
+19,Tampa Bay Buccaneers,1,0,2,2,0,0,0,1,5.0,5.0,98.0,TB,DST,16,2013
+20,Green Bay Packers,1,1,1,1,0,0,0,1,4.0,4.0,60.6,GB,DST,16,2013
+21,Miami Dolphins,1,1,0,1,0,0,0,1,4.0,4.0,60.2,MIA,DST,16,2013
+22,Atlanta Falcons,3,0,0,0,0,0,0,1,2.0,2.0,5.8,ATL,DST,16,2013
+23,Dallas Cowboys,0,1,0,0,0,0,0,1,2.0,2.0,82.9,DAL,DST,16,2013
+24,Kansas City Chiefs,1,0,0,1,0,0,0,1,1.0,1.0,45.7,KC,DST,16,2013
+25,Baltimore Ravens,2,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,16,2013
+26,Minnesota Vikings,2,0,1,1,0,0,0,1,0.0,0.0,28.0,MIN,DST,16,2013
+27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,16,2013
+28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,16,2013
+29,Cleveland Browns,0,0,0,0,0,0,0,1,0.0,0.0,40.8,CLE,DST,16,2013
+30,Chicago Bears,2,0,1,1,0,0,0,1,0.0,0.0,35.9,CHI,DST,16,2013
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,16,2013
+32,Houston Texans,1,0,0,0,0,0,0,1,-3.0,-3.0,6.4,HOU,DST,16,2013
+1,Carolina Panthers,9,1,0,0,1,0,0,1,18.0,18.0,27.8,CAR,DST,17,2013
+2,New York Giants,3,2,2,2,0,0,0,1,18.0,18.0,4.5,NYG,DST,17,2013
+3,Seattle Seahawks,2,2,0,0,1,0,0,1,16.0,16.0,39.4,SEA,DST,17,2013
+4,Cincinnati Bengals,2,3,0,0,1,0,0,1,15.0,15.0,14.7,CIN,DST,17,2013
+5,Tennessee Titans,1,2,2,1,0,0,0,1,13.0,13.0,48.4,TEN,DST,17,2013
+6,Pittsburgh Steelers,3,1,1,1,0,0,0,1,11.0,11.0,44.6,PIT,DST,17,2013
+7,Indianapolis Colts,3,1,1,1,0,0,0,1,11.0,11.0,66.4,IND,DST,17,2013
+8,New York Jets,0,3,0,0,0,0,0,1,10.0,10.0,3.3,NYJ,DST,17,2013
+9,Minnesota Vikings,5,0,0,1,0,0,0,1,9.0,9.0,28.0,MIN,DST,17,2013
+10,Washington Commanders,1,2,1,1,0,0,0,1,8.0,8.0,27.5,WAS,DST,17,2013
+11,Detroit Lions,3,1,1,1,0,0,0,1,8.0,8.0,1.1,DET,DST,17,2013
+12,Baltimore Ravens,0,4,0,1,0,0,0,1,7.0,7.0,51.9,BAL,DST,17,2013
+13,Dallas Cowboys,5,0,1,1,0,0,0,1,7.0,7.0,82.9,DAL,DST,17,2013
+14,Atlanta Falcons,1,1,1,1,0,0,0,1,6.0,6.0,5.8,ATL,DST,17,2013
+15,Philadelphia Eagles,0,2,1,1,0,0,0,1,6.0,6.0,52.5,PHI,DST,17,2013
+16,Cleveland Browns,1,2,0,1,0,0,0,1,6.0,6.0,40.8,CLE,DST,17,2013
+17,San Francisco 49ers,1,1,1,1,0,0,0,1,6.0,6.0,79.5,SF,DST,17,2013
+18,Chicago Bears,3,2,0,1,0,0,0,1,6.0,6.0,35.9,CHI,DST,17,2013
+19,Kansas City Chiefs,3,1,0,0,0,0,0,1,5.0,5.0,45.7,KC,DST,17,2013
+20,New England Patriots,4,0,0,1,0,0,0,1,5.0,5.0,93.2,NE,DST,17,2013
+21,New Orleans Saints,2,1,0,0,0,0,0,1,5.0,5.0,79.3,NO,DST,17,2013
+22,Denver Broncos,2,0,1,0,0,0,0,1,5.0,5.0,48.5,DEN,DST,17,2013
+23,Green Bay Packers,1,1,1,1,0,0,0,1,4.0,4.0,60.6,GB,DST,17,2013
+24,Houston Texans,1,1,0,2,0,0,0,1,4.0,4.0,6.4,HOU,DST,17,2013
+25,Arizona Cardinals,2,0,0,0,0,0,0,1,2.0,2.0,60.9,ARI,DST,17,2013
+26,Buffalo Bills,1,1,0,2,0,0,0,1,2.0,2.0,95.9,BUF,DST,17,2013
+27,Miami Dolphins,0,0,0,0,0,0,0,1,1.0,1.0,60.2,MIA,DST,17,2013
+28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,17,2013
+29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,17,2013
+30,Jacksonville Jaguars,1,0,0,1,0,0,0,1,0.0,0.0,6.9,JAC,DST,17,2013
+31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,17,2013
+32,Tampa Bay Buccaneers,1,0,0,0,0,0,0,1,-3.0,-3.0,98.0,TB,DST,17,2013
