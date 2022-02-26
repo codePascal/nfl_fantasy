@@ -15,7 +15,6 @@ import os
 import pandas as pd
 import requests
 
-# TODO how to re-clean data if changes in implementation
 # TODO Split into different sources of data
 # TODO find sources except from fantasy pros -> separate base class of base class
 
@@ -89,6 +88,10 @@ class Loader:
             data.append(self.get_row_data(row))
 
         return data
+
+    def refresh_data(self):
+        # TODO how to re-clean data if changes in implementation
+        raise NotImplementedError
 
     def store_data(self):
         """ Stores fetched data. """
