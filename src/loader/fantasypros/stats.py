@@ -70,10 +70,6 @@ class Stats(Loader, ABC):
 
         return df.astype(self.mapping)
 
-    def get_mapping(self):
-        """ Returns mapping for original columns. """
-        return self.mapping
-
     def restore_data(self, df):
         """ Restores data specifically for stats since some columns
         are altered during cleaning and should not be changed. """

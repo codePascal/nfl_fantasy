@@ -44,10 +44,6 @@ class Snapcounts(Loader, ABC):
         # set types
         return df.astype(self.mapping)
 
-    def get_mapping(self):
-        """ Returns mapping for original columns. """
-        return self.mapping
-
 
 class WeeklySnapcounts(Snapcounts, ABC):
     def __init__(self, week, year, refresh=False):

@@ -52,10 +52,6 @@ class Projections(Loader, ABC):
         # set column types
         return df.astype(self.mapping)
 
-    def get_mapping(self):
-        """ Returns mapping for original columns. """
-        return self.mapping
-
     def restore_data(self, df):
         """ Restores data specifically for projections since some
         columns are altered during cleaning and should not be

@@ -51,6 +51,10 @@ class Loader:
         # return as pandas DataFrame
         return pd.DataFrame(data[1:], columns=data[0])
 
+    def get_mapping(self):
+        """ Returns mapping for original columns. """
+        return self.mapping
+
     @staticmethod
     def get_row_data(tr, tag='td'):
         """ Extracts data from row and creates list.
