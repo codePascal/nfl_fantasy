@@ -10,7 +10,7 @@ import pandas as pd
 from abc import ABC
 
 from config.mapping import week_map
-from src.loader.snapcounts import WeeklySnapcounts as Loader
+from loader.fantasypros.snapcounts import WeeklySnapcounts as Loader
 from src.preprocessing.preprocessing import Preprocessing
 
 

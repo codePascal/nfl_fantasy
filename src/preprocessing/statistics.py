@@ -9,8 +9,8 @@ import pandas as pd
 
 from abc import ABC
 
-from config.mapping import teams, team_map, team_changes_map
-from src.loader.schedule import Schedule
+from config.mapping import teams, team_changes_map
+from loader.fantasypros.schedule import Schedule
 from src.preprocessing.preprocessing import Preprocessing
 from src.preprocessing.snapcounts import Snapcounts
 from src.preprocessing.stats import Stats
@@ -28,6 +28,7 @@ class Statistics(Preprocessing, ABC):
     def concat_data(self):
         """ Concatenates weekly stats, snapcounts and schedule. """
         # merge stats with snapcounts
+        # TODO Fix that players are NOT added twice, once for stats, once for snapcounts
         df = pd.merge(Stats(self.year).get_accumulated_data(),
                       Snapcounts(self.year).get_accumulated_data(),
                       how="outer",

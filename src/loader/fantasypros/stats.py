@@ -6,7 +6,7 @@ If this script is run, all stats for denoted year range are stored.
 from abc import ABC
 
 from config.mapping import stats_type, week_map
-from src.loader.loader import Loader
+from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 # TODO fix duplicated code fragments
 # TODO fix free agents with team during season

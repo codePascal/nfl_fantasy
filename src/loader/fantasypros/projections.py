@@ -11,12 +11,12 @@ If this script is run, all projections for denoted year are stored.
 from abc import ABC
 
 from config.mapping import projections_type, teams, week_map
-from src.loader.loader import Loader
+from src.loader.fantasypros.fantasypros import FantasyProsLoader
 
 
-class Projections(Loader, ABC):
+class Projections(FantasyProsLoader, ABC):
     def __init__(self, position, week):
-        Loader.__init__(self)
+        FantasyProsLoader.__init__(self)
 
         self.position = position
         self.week = week

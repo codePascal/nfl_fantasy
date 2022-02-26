@@ -9,7 +9,7 @@ import pandas as pd
 
 from abc import ABC
 
-from src.loader.loader import Loader
+from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 
 class Schedule(Loader, ABC):

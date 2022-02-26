@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sns
 
-from src.loader.stats import YearlyStats
+from loader.fantasypros.stats import YearlyStats
 
 
 sns.set_style("whitegrid")

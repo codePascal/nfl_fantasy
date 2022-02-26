@@ -25,7 +25,9 @@ import requests
 from abc import ABC
 
 from config.mapping import pa_type, team_map
-from src.loader.loader import Loader
+from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
+
+# TODO find other source, recent years are not complete
 
 
 class PointsAllowed(Loader, ABC):

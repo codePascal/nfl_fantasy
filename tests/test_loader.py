@@ -4,11 +4,11 @@ import numpy as np
 
 from config.mapping import stats_type, snapcounts_type, projections_type, pa_type, teams
 
-from src.loader.points_allowed import PointsAllowed
-from src.loader.projections import Projections
-from src.loader.schedule import Schedule
-from src.loader.snapcounts import WeeklySnapcounts, YearlySnapcounts
-from src.loader.stats import WeeklyStats, YearlyStats
+from loader.fantasypros.points_allowed import PointsAllowed
+from loader.fantasypros.projections import Projections
+from loader.fantasypros.schedule import Schedule
+from loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
+from loader.fantasypros.stats import WeeklyStats, YearlyStats
 
 
 # TODO implement more specific tests
