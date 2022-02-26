@@ -1,0 +1,27 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+Arizona Cardinals,2.8,1.2,0.7,1.2,0.2,0.0,14.9,308.5,9.0,ARI,DST,7,2021
+Tampa Bay Buccaneers,3.5,1.0,0.6,0.8,0.2,0.1,17.5,275.3,8.8,TB,DST,7,2021
+New England Patriots,2.9,1.3,0.5,0.6,0.2,0.0,16.3,296.0,8.7,NE,DST,7,2021
+New Orleans Saints,2.7,1.0,0.5,0.7,0.2,0.1,18.6,311.5,8.0,NO,DST,7,2021
+Carolina Panthers,2.5,0.9,0.7,1.2,0.2,0.0,20.0,339.5,7.7,CAR,DST,7,2021
+Baltimore Ravens,2.6,0.9,0.6,1.0,0.2,0.0,19.7,340.2,7.7,BAL,DST,7,2021
+Los Angeles Rams,2.4,0.9,0.6,0.9,0.2,0.0,16.7,316.1,7.5,LAR,DST,7,2021
+Cleveland Browns,2.5,0.9,0.5,0.8,0.2,0.0,19.9,347.6,7.2,CLE,DST,7,2021
+Las Vegas Raiders,2.5,0.8,0.6,0.8,0.2,0.0,22.2,352.1,6.5,LV,DST,7,2021
+Green Bay Packers,1.9,1.2,0.6,0.9,0.2,0.0,20.3,327.7,6.4,GB,DST,7,2021
+Seattle Seahawks,2.1,1.1,0.6,0.7,0.2,0.0,22.7,331.2,6.4,SEA,DST,7,2021
+New York Giants,2.4,0.9,0.5,0.8,0.2,0.0,22.5,342.6,6.3,NYG,DST,7,2021
+New York Jets,2.1,0.9,0.6,1.0,0.2,0.0,24.5,331.0,6.2,NYJ,DST,7,2021
+Cincinnati Bengals,2.4,0.9,0.5,0.7,0.1,0.1,26.2,368.5,6.2,CIN,DST,7,2021
+Indianapolis Colts,2.2,0.8,0.7,1.2,0.2,0.0,22.1,361.1,6.1,IND,DST,7,2021
+Kansas City Chiefs,2.5,0.7,0.6,0.9,0.1,0.0,27.2,385.7,6.0,KC,DST,7,2021
+San Francisco 49ers,2.5,0.7,0.6,0.8,0.1,0.1,20.1,316.3,5.9,SF,DST,7,2021
+Philadelphia Eagles,2.4,0.7,0.6,0.8,0.1,0.1,24.7,373.1,5.9,PHI,DST,7,2021
+Atlanta Falcons,2.2,0.8,0.6,1.0,0.2,0.0,23.2,332.8,5.9,ATL,DST,7,2021
+Miami Dolphins,2.3,0.7,0.6,1.0,0.1,0.0,23.7,378.0,5.8,MIA,DST,7,2021
+Houston Texans,2.1,0.7,0.7,0.8,0.1,0.0,32.7,406.0,5.7,HOU,DST,7,2021
+Denver Broncos,2.1,0.7,0.6,0.7,0.1,0.0,22.0,329.1,5.6,DEN,DST,7,2021
+Tennessee Titans,1.8,0.8,0.6,0.9,0.1,0.0,28.7,422.8,5.3,TEN,DST,7,2021
+Chicago Bears,2.0,0.7,0.5,0.8,0.1,0.0,28.2,385.7,5.3,CHI,DST,7,2021
+Washington Commanders,2.1,0.5,0.5,0.8,0.1,0.0,27.9,365.0,4.9,WAS,DST,7,2021
+Detroit Lions,1.8,0.7,0.5,0.8,0.1,0.0,31.2,417.8,4.8,DET,DST,7,2021

@@ -1,0 +1,31 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+Baltimore Ravens,3.5,1.1,0.7,0.7,0.2,0.0,19.7,302.0,9.1,BAL,DST,11,2021
+Tennessee Titans,2.9,0.9,0.6,0.9,0.2,0.1,16.8,305.4,8.1,TEN,DST,11,2021
+Tampa Bay Buccaneers,2.8,0.9,0.7,1.2,0.2,0.0,18.9,321.5,8.0,TB,DST,11,2021
+Carolina Panthers,2.4,1.0,0.7,1.0,0.2,0.0,19.1,317.4,7.9,CAR,DST,11,2021
+Cleveland Browns,2.6,0.9,0.6,0.7,0.2,0.0,16.2,309.9,7.7,CLE,DST,11,2021
+Buffalo Bills,2.3,0.8,0.7,1.0,0.2,0.1,19.5,323.8,7.3,BUF,DST,11,2021
+New England Patriots,2.2,1.0,0.5,0.7,0.2,0.0,19.9,331.4,7.2,NE,DST,11,2021
+San Francisco 49ers,1.9,0.9,0.6,1.0,0.2,0.0,19.0,315.6,6.9,SF,DST,11,2021
+Miami Dolphins,2.5,1.0,0.6,1.0,0.2,0.0,20.4,332.1,6.6,MIA,DST,11,2021
+Washington Commanders,2.7,0.9,0.5,0.8,0.2,0.0,23.4,340.7,6.6,WAS,DST,11,2021
+Las Vegas Raiders,2.7,0.9,0.6,0.9,0.1,0.0,24.3,351.2,6.6,LV,DST,11,2021
+Chicago Bears,2.4,1.0,0.6,0.8,0.2,0.1,20.9,353.6,6.5,CHI,DST,11,2021
+New York Jets,2.3,0.9,0.7,1.1,0.2,0.0,24.0,355.7,6.4,NYJ,DST,11,2021
+Seattle Seahawks,2.4,0.9,0.6,0.7,0.2,0.0,20.3,334.9,6.4,SEA,DST,11,2021
+Arizona Cardinals,3.0,0.6,0.7,1.2,0.1,0.0,22.8,315.5,6.4,ARI,DST,11,2021
+New Orleans Saints,2.1,0.8,0.6,0.8,0.1,0.0,21.4,329.0,5.9,NO,DST,11,2021
+Indianapolis Colts,2.0,0.8,0.7,1.1,0.1,0.0,27.1,386.9,5.8,IND,DST,11,2021
+Cincinnati Bengals,2.1,0.8,0.6,0.7,0.1,0.1,24.6,375.4,5.7,CIN,DST,11,2021
+Pittsburgh Steelers,2.2,0.7,0.6,0.8,0.1,0.0,25.3,369.9,5.7,PIT,DST,11,2021
+Jacksonville Jaguars,1.9,0.8,0.6,0.9,0.1,0.0,24.8,379.8,5.7,JAC,DST,11,2021
+Philadelphia Eagles,2.4,0.7,0.5,0.8,0.1,0.0,21.0,327.0,5.6,PHI,DST,11,2021
+Dallas Cowboys,1.9,0.8,0.6,1.1,0.1,0.0,26.9,404.6,5.6,DAL,DST,11,2021
+Houston Texans,2.3,0.7,0.6,1.0,0.1,0.0,27.8,373.4,5.6,HOU,DST,11,2021
+Kansas City Chiefs,2.0,0.8,0.6,0.9,0.1,0.0,25.6,412.4,5.6,KC,DST,11,2021
+Green Bay Packers,1.9,0.7,0.6,0.9,0.1,0.0,22.9,364.4,5.5,GB,DST,11,2021
+Detroit Lions,2.2,0.7,0.6,0.8,0.1,0.0,26.8,377.6,5.5,DET,DST,11,2021
+Atlanta Falcons,1.8,0.7,0.6,1.0,0.1,0.0,26.4,358.2,5.4,ATL,DST,11,2021
+Los Angeles Chargers,1.7,0.7,0.5,0.9,0.1,0.0,20.9,332.5,5.0,LAC,DST,11,2021
+New York Giants,1.6,0.7,0.5,0.9,0.1,0.0,29.2,375.5,5.0,NYG,DST,11,2021
+Minnesota Vikings,2.1,0.5,0.5,0.9,0.1,0.0,23.5,360.6,4.9,MIN,DST,11,2021

@@ -1,0 +1,29 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+Green Bay Packers,3.3,1.2,0.6,0.8,0.2,0.0,16.2,302.5,9.2,GB,DST,14,2021
+New Orleans Saints,3.1,1.4,0.5,0.6,0.2,0.0,18.4,301.6,9.0,NO,DST,14,2021
+Seattle Seahawks,2.9,1.0,0.6,0.8,0.2,0.0,16.0,302.3,8.2,SEA,DST,14,2021
+Cleveland Browns,3.2,1.0,0.5,0.7,0.2,0.1,21.3,360.5,7.5,CLE,DST,14,2021
+Carolina Panthers,2.4,0.9,0.6,0.9,0.2,0.0,18.6,318.8,7.3,CAR,DST,14,2021
+Los Angeles Chargers,2.1,1.0,0.5,1.0,0.2,0.0,17.2,309.9,7.2,LAC,DST,14,2021
+San Francisco 49ers,2.8,0.9,0.7,1.2,0.1,0.0,23.9,333.1,7.0,SF,DST,14,2021
+Kansas City Chiefs,2.2,0.8,0.6,0.9,0.2,0.0,19.9,366.6,7.0,KC,DST,14,2021
+Dallas Cowboys,2.4,1.1,0.7,1.0,0.2,0.0,21.1,350.5,6.9,DAL,DST,14,2021
+Tennessee Titans,2.0,0.9,0.6,1.0,0.2,0.0,17.2,313.1,6.9,TEN,DST,14,2021
+Denver Broncos,2.1,0.8,0.5,0.7,0.2,0.0,15.5,304.5,6.9,DEN,DST,14,2021
+Los Angeles Rams,2.6,0.9,0.7,0.8,0.2,0.0,25.8,341.7,6.7,LAR,DST,14,2021
+Tampa Bay Buccaneers,2.0,1.0,0.7,1.2,0.2,0.0,24.1,358.7,6.5,TB,DST,14,2021
+Cincinnati Bengals,2.2,0.9,0.7,1.1,0.2,0.0,24.0,368.3,6.4,CIN,DST,14,2021
+Atlanta Falcons,2.2,0.9,0.6,0.8,0.2,0.0,22.6,332.6,6.3,ATL,DST,14,2021
+New York Jets,2.3,0.9,0.5,0.9,0.2,0.0,23.4,346.7,6.2,NYJ,DST,14,2021
+Baltimore Ravens,2.5,0.8,0.6,0.9,0.1,0.0,21.9,353.9,6.1,BAL,DST,14,2021
+Houston Texans,2.7,0.6,0.6,0.9,0.1,0.1,23.5,334.5,5.9,HOU,DST,14,2021
+Arizona Cardinals,2.1,0.8,0.6,1.2,0.1,0.0,22.8,364.8,5.8,ARI,DST,14,2021
+Jacksonville Jaguars,2.2,0.8,0.6,0.6,0.1,0.0,25.8,356.6,5.8,JAC,DST,14,2021
+New York Giants,2.0,0.8,0.6,0.8,0.1,0.0,25.6,375.1,5.7,NYG,DST,14,2021
+Pittsburgh Steelers,2.2,0.6,0.6,0.9,0.1,0.0,24.4,366.9,5.7,PIT,DST,14,2021
+Detroit Lions,2.2,0.7,0.5,0.8,0.1,0.0,25.5,364.5,5.6,DET,DST,14,2021
+Buffalo Bills,1.6,0.9,0.6,0.9,0.1,0.0,25.9,351.7,5.4,BUF,DST,14,2021
+Washington Commanders,1.9,0.7,0.6,0.9,0.1,0.0,25.6,386.9,5.4,WAS,DST,14,2021
+Minnesota Vikings,1.8,0.7,0.5,0.9,0.2,0.0,20.9,341.7,5.3,MIN,DST,14,2021
+Las Vegas Raiders,1.8,0.7,0.6,1.1,0.1,0.0,27.7,379.1,5.2,LV,DST,14,2021
+Chicago Bears,2.1,0.4,0.5,0.9,0.1,0.0,26.9,367.5,4.8,CHI,DST,14,2021

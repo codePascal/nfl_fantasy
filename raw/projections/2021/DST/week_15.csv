@@ -1,0 +1,33 @@
+player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+Miami Dolphins,3.0,1.2,0.5,0.9,0.2,0.0,16.6,305.2,8.8,MIA,DST,15,2021
+Buffalo Bills,2.4,1.2,0.6,0.9,0.2,0.0,15.2,299.3,8.4,BUF,DST,15,2021
+Dallas Cowboys,2.4,1.1,0.6,1.2,0.2,0.0,16.6,311.4,8.2,DAL,DST,15,2021
+Green Bay Packers,2.7,1.1,0.6,1.0,0.2,0.0,20.0,345.9,8.2,GB,DST,15,2021
+Arizona Cardinals,2.7,0.8,0.8,1.3,0.2,0.0,16.8,298.2,8.0,ARI,DST,15,2021
+Philadelphia Eagles,2.5,1.0,0.7,0.9,0.2,0.0,18.2,318.8,7.9,PHI,DST,15,2021
+Tampa Bay Buccaneers,2.5,1.0,0.6,1.1,0.2,0.0,19.1,321.4,7.7,TB,DST,15,2021
+Minnesota Vikings,3.2,1.1,0.6,0.7,0.2,0.0,20.8,319.9,7.6,MIN,DST,15,2021
+Los Angeles Rams,2.9,0.7,0.6,0.7,0.2,0.1,19.5,309.8,7.6,LAR,DST,15,2021
+San Francisco 49ers,2.3,0.9,0.7,1.1,0.2,0.0,18.2,322.9,7.5,SF,DST,15,2021
+Jacksonville Jaguars,2.4,0.9,0.5,0.7,0.2,0.0,17.2,311.6,7.2,JAC,DST,15,2021
+Pittsburgh Steelers,2.7,0.9,0.7,1.0,0.2,0.0,21.8,351.4,6.8,PIT,DST,15,2021
+Denver Broncos,2.6,1.0,0.5,0.8,0.2,0.0,21.5,350.2,6.7,DEN,DST,15,2021
+Cleveland Browns,2.3,0.8,0.7,1.0,0.2,0.0,21.0,350.4,6.3,CLE,DST,15,2021
+Kansas City Chiefs,2.2,0.9,0.6,0.9,0.2,0.0,24.6,385.6,6.3,KC,DST,15,2021
+New England Patriots,2.1,0.8,0.7,0.9,0.2,0.1,22.7,343.5,6.2,NE,DST,15,2021
+Carolina Panthers,2.1,0.8,0.7,1.0,0.1,0.0,26.4,361.1,6.1,CAR,DST,15,2021
+Houston Texans,2.1,0.9,0.7,1.0,0.2,0.0,20.7,334.7,6.1,HOU,DST,15,2021
+Cincinnati Bengals,2.4,0.8,0.6,0.9,0.2,0.0,22.4,344.5,6.1,CIN,DST,15,2021
+Indianapolis Colts,2.1,0.8,0.7,1.1,0.2,0.0,21.9,327.8,6.1,IND,DST,15,2021
+Tennessee Titans,2.2,0.8,0.5,0.8,0.2,0.0,22.4,331.0,5.9,TEN,DST,15,2021
+Los Angeles Chargers,2.1,0.8,0.6,1.1,0.2,0.0,25.4,375.9,5.9,LAC,DST,15,2021
+Las Vegas Raiders,2.1,0.9,0.6,0.9,0.1,0.0,20.8,346.8,5.8,LV,DST,15,2021
+Atlanta Falcons,1.9,0.8,0.7,1.1,0.2,0.0,26.6,372.2,5.8,ATL,DST,15,2021
+New York Jets,2.1,0.7,0.6,1.0,0.2,0.0,25.8,351.8,5.7,NYJ,DST,15,2021
+New York Giants,2.0,0.8,0.6,0.9,0.1,0.0,24.4,388.5,5.7,NYG,DST,15,2021
+Chicago Bears,2.1,0.6,0.6,0.9,0.2,0.0,25.3,381.5,5.6,CHI,DST,15,2021
+Washington Commanders,2.0,0.7,0.6,0.9,0.2,0.0,24.9,337.1,5.6,WAS,DST,15,2021
+Detroit Lions,2.0,0.8,0.6,0.6,0.1,0.0,28.9,388.6,5.5,DET,DST,15,2021
+New Orleans Saints,1.8,0.9,0.5,0.7,0.1,0.0,27.2,368.9,5.4,NO,DST,15,2021
+Seattle Seahawks,1.8,0.8,0.4,0.7,0.2,0.0,24.9,373.7,5.2,SEA,DST,15,2021
+Baltimore Ravens,2.0,0.5,0.6,0.9,0.1,0.0,24.8,381.0,4.8,BAL,DST,15,2021
