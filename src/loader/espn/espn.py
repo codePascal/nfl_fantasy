@@ -17,6 +17,7 @@ class EspnLoader(Loader, ABC):
         self.year = year
         self.season = season
         self.seasontype = get_season_type(self.season)
+        self.skip = 0
 
     def get_html_content(self):
         """ Reads HTML content and returns data table. """
@@ -32,6 +33,11 @@ class EspnLoader(Loader, ABC):
         tables = soup.find(class_="ResponsiveTable").find_all("table")
         idx = list(itertools.chain.from_iterable(self.get_table_data(tables[0])))
         content = self.get_table_data(tables[1])
+
+        # in case table has two headers:
+        if self.skip > 0:
+            idx = idx[self.skip:]
+            content = content[self.skip:]
 
         # parse to table
         data = pd.DataFrame(content[1:], index=idx[1:], columns=content[0])

@@ -1,11 +1,16 @@
 """
-...
+Implements the yearly team stats loading from ESPN on
+https://www.espn.com/nfl/stats.
+
+Running this as a single script will fetch and store all passing,
+rushing, receiving and downs statistics over a given year range for
+defense and offense.
 """
 from abc import ABC
 
 from config.mapping import team_map, team_changes_map
-from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map
-from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map
+from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
+from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from src.loader.espn.espn import EspnLoader as Loader
 
 
@@ -108,6 +113,39 @@ class ReceivingOffense(OffenseStats, ABC):
         return df.astype(self.mapping)
 
 
+class DownsOffense(OffenseStats, ABC):
+    def __init__(self, year, season, refresh=False):
+        TeamStats.__init__(self, year, season, refresh)
+        self.mapping = offense_downs_map
+        self.original_columns = ['Team', 'GP', 'TOTAL', 'RUSH', 'PASS', 'PEN', 'MADE', 'ATT', 'PCT', 'MADE', 'ATT',
+                                 'PCT', 'TOTAL', 'YDS']
+
+        self.filename = f"offense_downs_{self.year}_{self.season}.csv"
+        self.dir = f"../raw/teamstats/{self.year}/"
+        self.url = f"https://www.espn.com/nfl/stats/team/_/view/offense/stat/downs/season/{self.year}/seasontype/{self.seasontype}"
+
+        # ugly but yes, table has two headers...
+        self.skip = 1
+
+    def clean_data(self, df):
+        """ Cleans the downs offense data. """
+        # map columns
+        df = self.map_columns(df)
+
+        # put team abbreviation instead of full name
+        df["team"] = df["team"].apply(add_team_abbreviation)
+
+        # clean up yards in total
+        df["penalties_yds"] = df["penalties_yds"].apply(transform_yards)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        # set types
+        return df.astype(self.mapping)
+
+
 class DefenseStats(TeamStats, ABC):
     def __init__(self, year, season, refresh=False):
         TeamStats.__init__(self, year, season, refresh)
@@ -183,7 +221,7 @@ class ReceivingDefense(DefenseStats, ABC):
         self.url = f"https://www.espn.com/nfl/stats/team/_/view/defense/stat/receiving/season/{self.year}/seasontype/{self.seasontype}"
 
     def clean_data(self, df):
-        """ Cleans the rushing defense data. """
+        """ Cleans the receiving defense data. """
         # map columns
         df = self.map_columns(df)
 
@@ -192,6 +230,39 @@ class ReceivingDefense(DefenseStats, ABC):
 
         # clean up yards in total
         df["receiving_yds_against"] = df["receiving_yds_against"].apply(transform_yards)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        # set types
+        return df.astype(self.mapping)
+
+
+class DownsDefense(DefenseStats, ABC):
+    def __init__(self, year, season, refresh=False):
+        TeamStats.__init__(self, year, season, refresh)
+        self.mapping = defense_downs_map
+        self.original_columns = ['Team', 'GP', 'TOTAL', 'RUSH', 'PASS', 'PEN', 'MADE', 'ATT', 'PCT', 'MADE', 'ATT',
+                                 'PCT', 'TOTAL', 'YDS']
+
+        self.filename = f"defense_downs_{self.year}_{self.season}.csv"
+        self.dir = f"../raw/teamstats/{self.year}/"
+        self.url = f"https://www.espn.com/nfl/stats/team/_/view/defense/stat/downs/season/{self.year}/seasontype/{self.seasontype}"
+
+        # ugly but yes, table has two headers...
+        self.skip = 1
+
+    def clean_data(self, df):
+        """ Cleans the downs defense data. """
+        # map columns
+        df = self.map_columns(df)
+
+        # put team abbreviation instead of full name
+        df["team"] = df["team"].apply(add_team_abbreviation)
+
+        # clean up yards in total
+        df["penalties_yds"] = df["penalties_yds"].apply(transform_yards)
 
         # add specified data to dataframe
         for key, val in self.to_add.items():
@@ -227,9 +298,11 @@ def store_all():
         PassingDefense(year, "REG").store_data()
         RushingDefense(year, "REG").store_data()
         ReceivingDefense(year, "REG").store_data()
+        DownsDefense(year, "REG").store_data()
         PassingOffense(year, "REG").store_data()
         RushingOffense(year, "REG").store_data()
         ReceivingOffense(year, "REG").store_data()
+        DownsOffense(year, "REG").store_data()
 
 
 if __name__ == "__main__":

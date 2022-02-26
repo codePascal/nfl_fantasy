@@ -45,6 +45,24 @@ defense_receiving_map = {
     "receiving_fumbles_lost": int
 }
 
+# maps the column names and types for defense downs
+defense_downs_map = {
+    "team": str,
+    "games": int,
+    "first_downs_total_against": int,
+    "first_downs_rush_against": int,
+    "first_downs_pass_against": int,
+    "first_downs_penalty_against": int,
+    "third_downs_made_against": int,
+    "third_downs_att_against": int,
+    "third_downs_percentage_against": float,
+    "fourth_downs_made_against": int,
+    "fourth_downs_att_against": int,
+    "fourth_downs_percentage_against": float,
+    "penalties": int,
+    "penalties_yds": int
+}
+
 # maps the column names and types for offense passing
 offense_passing_map = {
     "team": str,
@@ -89,4 +107,22 @@ offense_receiving_map = {
     "receiving_td": int,
     "receiving_fumbles": int,
     "receiving_fumbles_lost": int
+}
+
+# maps the column names and types for defense downs
+offense_downs_map = {
+    "team": str,
+    "games": int,
+    "first_downs_total": int,
+    "first_downs_rush": int,
+    "first_downs_pass": int,
+    "first_downs_penalty": int,
+    "third_downs_made": int,
+    "third_downs_att": int,
+    "third_downs_percentage": float,
+    "fourth_downs_made": int,
+    "fourth_downs_att": int,
+    "fourth_downs_percentage": float,
+    "penalties": int,
+    "penalties_yds": int
 }

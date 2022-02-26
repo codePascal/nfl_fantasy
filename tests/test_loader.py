@@ -3,8 +3,8 @@ import unittest
 import numpy as np
 
 from config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
-from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map
-from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map
+from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
+from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from config.mapping import teams
 
 from loader.fantasypros.points_allowed import PointsAllowed
@@ -13,8 +13,8 @@ from loader.fantasypros.schedule import Schedule
 from loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
 from loader.fantasypros.stats import WeeklyStats, YearlyStats
 
-from loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense
-from loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense
+from loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense, DownsDefense
+from loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, DownsOffense
 
 
 # TODO implement more specific tests
@@ -264,6 +264,42 @@ class TestEspnLoader(unittest.TestCase):
 
         # test entries
         entries_should = ["TB", 17, 492, 5383, 10.9, 316.6, 62, 43, 7, 4, 2021]
+        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+
+    def test_defense_downs(self):
+        df = DownsDefense(2021, "REG").get_data()
+
+        # test shape
+        self.assertEqual(32, df.shape[0])
+        self.assertEqual(15, df.shape[1])
+
+        # test column names
+        cols_should = list(defense_downs_map.keys()) + ["year"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
+
+        # test entries
+        entries_should = ["BUF", 17, 285, 108, 138, 39, 66, 214, 30.8, 16, 35, 45.7, 102, 844, 2021]
+        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+
+    def test_offense_downs(self):
+        df = DownsOffense(2021, "REG").get_data()
+
+        # test shape
+        self.assertEqual(32, df.shape[0])
+        self.assertEqual(15, df.shape[1])
+
+        # test column names
+        cols_should = list(offense_downs_map.keys()) + ["year"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
+
+        # test entries
+        entries_should = ["KC", 17, 419, 119, 267, 33, 107, 205, 52.2, 10, 15, 66.7, 111, 925, 2021]
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
 
