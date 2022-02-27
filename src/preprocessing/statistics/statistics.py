@@ -22,19 +22,19 @@ class Statistics(Preprocessing, ABC):
         self.position = position
         self.year = year
 
-        self.filename = f"statistics_{self.year}.csv"
-        self.dir = f"../preprocessed/statistics"
+        self.filename = f"statistics_{self.position}_{self.year}.csv"
+        self.dir = f"../preprocessed/statistics/{self.year}"
 
     def concat_data(self):
         """ Concatenates weekly stats, snapcounts and schedule
         for given position. """
         # get snapcounts only for position
-        snapcounts = Snapcounts(self.year).get_accumulated_data()
+        snapcounts = Snapcounts(self.year, refresh=self.refresh).get_accumulated_data()
         snapcounts = snapcounts.loc[snapcounts["position"] == self.position]
 
         # merge with weekly accumulated stats
         stats = pd.merge(snapcounts,
-                         Stats(self.position, self.year).get_accumulated_data(),
+                         Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
                          how="inner",
                          on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
 
@@ -65,7 +65,7 @@ def store_all():
     years = (2010, 2021)
     for position in ["QB", "RB", "TE", "WR"]:
         for year in range(years[0], years[1] + 1):
-            Statistics(position, year).store_accumulated_data()
+            Statistics(position, year, refresh=True).store_accumulated_data()
 
 
 if __name__ == "__main__":
