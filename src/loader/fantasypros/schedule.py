@@ -1,16 +1,17 @@
 """
-Implements the data loading for schedules.
+Implements the data loading for schedules from fantasy pros.
 
 If this script is run, all schedules for denoted year range are
 stored. Different to other loading implementations, this class
 does not offer refreshing of the data since the data is altered in a
-may more complex way.
+more complex way.
 """
 import numpy as np
 import pandas as pd
 
 from abc import ABC
 
+from config.mapping import week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 
@@ -77,8 +78,7 @@ def get_location(game):
 
 def store_all():
     """ Stores all schedules for given year range. """
-    years = (2010, 2021)
-    for year in range(years[0], years[1] + 1):
+    for year in week_map.keys():
         Schedule(year).store_data()
 
 

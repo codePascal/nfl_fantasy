@@ -1,6 +1,6 @@
 """
 Implement the data loading for latest projections for fantasy
-players.
+players from fantasy pros.
 
 Currently, only the weekly projections for season 2021 are
 available. Unfortunately, if a player has retired at the end of the

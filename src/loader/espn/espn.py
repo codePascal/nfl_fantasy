@@ -1,5 +1,7 @@
 """
-...
+Implements data handling for data fetched from
+https://www.espn.com/nfl/stats. If the data is not available offline,
+it is freshly fetched from the website.
 """
 import bs4
 import itertools

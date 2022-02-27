@@ -4,11 +4,12 @@ https://www.espn.com/nfl/stats.
 
 Running this as a single script will fetch and store all passing,
 rushing, receiving and downs statistics over a given year range for
-defense and offense.
+defense and offense. If the data is already available offline, the
+data is only refreshed and stored again.
 """
 from abc import ABC
 
-from config.mapping import teams, team_map, team_changes_map
+from config.mapping import teams, team_map, team_changes_map, week_map
 from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
 from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from src.loader.espn.espn import EspnLoader as Loader
@@ -162,8 +163,7 @@ def add_team_abbreviation(team):
 
 def store_all():
     """ Stores all team stats for given year range. """
-    years = (2010, 2021)
-    for year in range(years[0], years[1] + 1):
+    for year in week_map.keys():
         PassingDefense(year, "REG").store_data()
         RushingDefense(year, "REG").store_data()
         ReceivingDefense(year, "REG").store_data()

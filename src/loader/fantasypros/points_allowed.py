@@ -1,5 +1,5 @@
 """
-Implements the data loading for points allowed.
+Implements the data loading for points allowed from fantasypros.
 
 Fantasy Points Allowed is a metric that indicates how good or bad
 each NFL defense is at limiting fantasy production to their
@@ -19,13 +19,14 @@ If this script is run, all points allowed for denoted year range are
 stored.
 """
 import bs4
+import numpy as np
 import pandas as pd
 import requests
 
 from abc import ABC
 
 from config.fantasypros import pa_type
-from config.mapping import team_map
+from config.mapping import team_map, week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 
 # TODO find other source, recent years are not complete
@@ -46,6 +47,8 @@ class PointsAllowed(Loader, ABC):
 
     def clean_data(self, df):
         """ Cleans data specifically for points allowed. """
+        # back in 2015, points against only features offense positions
+        self.mapping = dict([item for item in self.mapping.items()][:df.shape[1]])
         df = self.map_columns(df)
 
         # assign team shortcut
@@ -54,6 +57,13 @@ class PointsAllowed(Loader, ABC):
         # add specified data to dataframe
         for key, val in self.to_add.items():
             df[key] = val
+
+        # ranks might contain an empty string
+        for i, column in enumerate(df.columns.to_list()):
+            if "rank_" in column:
+                for j in range(32):
+                    if df.iloc[j, i] == "":
+                        df.iloc[j, i] = np.nan
 
         # set column types
         return df.astype(self.mapping)
@@ -75,8 +85,8 @@ class PointsAllowed(Loader, ABC):
         # in that specific case, the content of the table is within one single list
         data_mod = list()
         data_mod.append(data[0])
-        for i in range(0, len(data[1]), 13):
-            data_mod.append(data[1][i:i+13])
+        for i in range(0, len(data[1]), len(data[0])):
+            data_mod.append(data[1][i:i+len(data[0])])
 
         # return as pandas DataFrame
         return pd.DataFrame(data_mod[1:], columns=data[0])
@@ -89,9 +99,9 @@ def add_team_shortcut(team):
 
 def store_all():
     """ Stores all points allowed for given year range. """
-    years = (2016, 2021)
-    for year in range(years[0], years[1] + 1):
-        PointsAllowed(year).store_data()
+    # only available for 2011 and after
+    for year in range(2011, 2021):
+        PointsAllowed(year, refresh=True).store_data()
 
 
 if __name__ == "__main__":

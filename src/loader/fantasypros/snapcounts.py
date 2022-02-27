@@ -1,5 +1,6 @@
 """
-Implements the data loading for weekly and yearly snapcount analysis.
+Implements the data loading for weekly and yearly snapcount analysis
+from fantasy pros.
 
 Snap counts represent the total number of offensive plays a player
 participated in. Higher snap counts and percentages indicate that
@@ -53,8 +54,7 @@ class YearlySnapcounts(Snapcounts, ABC):
 
 def store_all():
     """ Stores all snapcounts for given year range. """
-    years = (2010, 2021)
-    for year in range(years[0], years[1] + 1):
+    for year in week_map.keys():
         YearlySnapcounts(year, refresh=True).store_data()
         for week in range(1, week_map[year] + 1):
             WeeklySnapcounts(week, year, refresh=True).store_data()

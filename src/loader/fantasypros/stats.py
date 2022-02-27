@@ -1,5 +1,6 @@
 """
-Implements the data loading for weekly and yearly stats.
+Implements the data loading for weekly and yearly stats from
+fantasy pros.
 
 If this script is run, all stats for denoted year range are stored
 or refreshed if already available offline.
@@ -124,9 +125,8 @@ def transform_rost(rost):
 
 def store_all():
     """ Stores all stats for given year range. """
-    years = (2010, 2021)
     for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
-        for year in range(years[0], years[1] + 1):
+        for year in week_map.keys():
             YearlyStats(position, year, refresh=True).store_data()
             for week in range(1, week_map[year] + 1):
                 WeeklyStats(position, week, year, refresh=True).store_data()
