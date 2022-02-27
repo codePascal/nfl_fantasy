@@ -9,7 +9,7 @@ import pandas as pd
 
 from abc import ABC
 
-from config.mapping import teams, team_changes_map
+from config.mapping import teams, team_changes_map, week_map
 from src.loader.fantasypros.schedule import Schedule
 from src.preprocessing.preprocessing import Preprocessing
 from src.preprocessing.statistics.snapcounts import Snapcounts
@@ -62,9 +62,8 @@ def fix_teams(team):
 
 def store_all():
     """ Accumulates and stores the accumulated statistics. """
-    years = (2010, 2021)
     for position in ["QB", "RB", "TE", "WR"]:
-        for year in range(years[0], years[1] + 1):
+        for year in range(2016, 2021):
             Statistics(position, year, refresh=True).store_accumulated_data()
 
 

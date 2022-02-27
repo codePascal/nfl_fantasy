@@ -11,6 +11,8 @@ offensive players are available to fetch. These are drafted as single
 players compared to the defenses that are drafted as one. Kickers are
 not considered. All players are fetched that had more than 0 snaps.
 
+Snapcounts are only available back to season 2016.
+
 If this script is run, all snapcounts for denoted year range are
 stored or refreshed if already available offline.
 """
@@ -54,7 +56,7 @@ class YearlySnapcounts(Snapcounts, ABC):
 
 def store_all():
     """ Stores all snapcounts for given year range. """
-    for year in week_map.keys():
+    for year in range(2016, 2021 + 1):
         YearlySnapcounts(year, refresh=True).store_data()
         for week in range(1, week_map[year] + 1):
             WeeklySnapcounts(week, year, refresh=True).store_data()
