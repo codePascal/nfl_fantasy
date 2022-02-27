@@ -29,21 +29,6 @@ class Snapcounts(Loader, ABC):
         self.original_columns = ['Player', 'Pos', 'Team', 'Games', 'Snaps', 'Snaps/Gm', 'Snap %', 'Rush %', 'Tgt %',
                                  'Touch %', 'Util %', 'Fantasy Pts', 'Pts/100 Snaps']
 
-    def clean_data(self, df):
-        """ Cleans the snapcount data. """
-        # map column names
-        df = self.map_columns(df)
-
-        # transform snaps
-        df["snaps"] = df["snaps"].apply(transform_snaps)
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        # set types
-        return df.astype(self.mapping)
-
 
 class WeeklySnapcounts(Snapcounts, ABC):
     def __init__(self, week, year, refresh=False):
@@ -64,15 +49,6 @@ class YearlySnapcounts(Snapcounts, ABC):
         self.filename = f"snapcounts_{self.year}.csv"
         self.dir = f"../raw/yearly_snapcounts"
         self.url = f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?year={self.year}&snaps=0&range=full"
-
-
-def transform_snaps(snaps):
-    """ Removes comma in snap stats denoting a thousand. """
-    # TODO make function to alter a thousand notation
-    if "," in str(snaps):
-        return int(str(snaps).replace(",", ""))
-    else:
-        return snaps
 
 
 def store_all():

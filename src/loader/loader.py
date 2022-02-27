@@ -2,30 +2,53 @@
 Implements the data loading from various websites. If the data is not
 available offline, it is freshly fetched from corresponding website.
 """
-import bs4
 import os
 import pandas as pd
-import requests
 
 
 class Loader:
     def __init__(self, refresh=False):
+        # path to store data
         self.filename = str()
         self.dir = str()
+
+        # url to fetch data from
         self.url = str()
+
+        # original columns to restore data back to original
         self.original_columns = list()
+
+        # boolean denoting to refresh stored data
         self.refresh = refresh
+
+        # column names and type mapping
         self.mapping = dict()
 
+        # data to add as columns to dataframe
+        self.to_add = dict()
+
     def clean_data(self, df):
-        raise NotImplementedError
+        """ Cleans the data by mapping new column names and
+        adding defined columns to data. """
+        # map column names
+        df = self.map_columns(df)
+
+        # fix a thousand notations
+        for column in df.columns.to_list():
+            df[column] = df[column].apply(self.fix_thousands)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        return df.astype(self.mapping)
 
     def fetch_data(self):
         """ Returns fetched data from URL. """
         return self.get_html_content()
 
     def get_data(self):
-        """ Returns data. """
+        """ Returns data by fetching, refreshing or only loading. """
         if not os.path.exists(os.path.join(self.dir, self.filename)):
             self.refresh = False
             return self.clean_data(self.fetch_data())
@@ -35,21 +58,8 @@ class Loader:
             return self.load_data()
 
     def get_html_content(self):
-        """ Reads HTML content and returns data table. """
-        # get HTML config
-        print("Fetching from", self.url)
-        req = requests.get(self.url)
-
-        # observe HTML output -> https://webformatter.com/html
-        # print(req.text)
-
-        # get table raw
-        soup = bs4.BeautifulSoup(req.content, "html.parser")
-        table = soup.find(id="data")
-        data = self.get_table_data(table)
-
-        # return as pandas DataFrame
-        return pd.DataFrame(data[1:], columns=data[0])
+        """ Transforms URL content to table. """
+        raise NotImplementedError
 
     def get_mapping(self):
         """ Returns mapping for original columns. """
@@ -103,10 +113,22 @@ class Loader:
         return self.clean_data(self.restore_data(self.load_data()))
 
     def restore_data(self, df):
-        raise NotImplementedError
+        """ Restores dataframe back to original columns and column
+        names. """
+        df = df.iloc[:, :len(self.original_columns)]
+        df.columns = self.original_columns
+        return df
 
     def store_data(self):
-        """ Stores fetched data. """
+        """ Stores fetched or refreshed data. """
         if not os.path.exists(self.dir):
             os.makedirs(os.path.join(os.getcwd(), self.dir))
         self.get_data().to_csv(os.path.join(self.dir, self.filename), index=False)
+
+    @staticmethod
+    def fix_thousands(number):
+        """ Removes trailing comma in integer number. """
+        if "," in str(number):
+            return int(str(number).replace(",", ""))
+        else:
+            return number

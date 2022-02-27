@@ -7,14 +7,14 @@ from config.espn import defense_passing_map, defense_rushing_map, defense_receiv
 from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from config.mapping import teams
 
-from loader.fantasypros.points_allowed import PointsAllowed
-from loader.fantasypros.projections import Projections
-from loader.fantasypros.schedule import Schedule
-from loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
-from loader.fantasypros.stats import WeeklyStats, YearlyStats
+from src.loader.fantasypros.points_allowed import PointsAllowed
+from src.loader.fantasypros.projections import Projections
+from src.loader.fantasypros.schedule import Schedule
+from src.loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
+from src.loader.fantasypros.stats import WeeklyStats, YearlyStats
 
-from loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense, DownsDefense
-from loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, DownsOffense
+from src.loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense, DownsDefense
+from src.loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, DownsOffense
 
 
 # TODO implement more specific tests
@@ -24,7 +24,7 @@ from loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, 
 
 class TestFantasyProsLoader(unittest.TestCase):
     def test_weekly_stats(self):
-        df = WeeklyStats("QB", 1, 2021).get_data()
+        df = WeeklyStats("QB", 1, 2021, refresh=True).get_data()
 
         # test shape
         self.assertEqual(120, df.shape[0])
@@ -43,7 +43,7 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_yearly_stats(self):
-        df = YearlyStats("QB", 2021).get_data()
+        df = YearlyStats("QB", 2021, refresh=True).get_data()
 
         # test shape
         self.assertEqual(121, df.shape[0])
@@ -62,7 +62,7 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_weekly_snapcounts(self):
-        df = WeeklySnapcounts(1, 2021).get_data()
+        df = WeeklySnapcounts(1, 2021, refresh=True).get_data()
 
         # test shape
         self.assertEqual(339, df.shape[0])
@@ -81,7 +81,7 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[1, :].to_list())
 
     def test_yearly_snapcounts(self):
-        df = YearlySnapcounts(2021).get_data()
+        df = YearlySnapcounts(2021, refresh=True).get_data()
 
         # test shape
         self.assertEqual(631, df.shape[0])
@@ -119,7 +119,7 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_predictions(self):
-        df = Projections("QB", 1).get_data()
+        df = Projections("QB", 1, refresh=True).get_data()
 
         # test shape
         self.assertEqual(66, df.shape[0])
@@ -139,7 +139,7 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_points_allowed(self):
-        df = PointsAllowed(2020).get_data()
+        df = PointsAllowed(2020, refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -159,7 +159,7 @@ class TestFantasyProsLoader(unittest.TestCase):
 
 class TestEspnLoader(unittest.TestCase):
     def test_defense_passing(self):
-        df = PassingDefense(2021, "REG").get_data()
+        df = PassingDefense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -177,7 +177,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_defense_rushing(self):
-        df = RushingDefense(2021, "REG").get_data()
+        df = RushingDefense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -195,7 +195,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_defense_receiving(self):
-        df = ReceivingDefense(2021, "REG").get_data()
+        df = ReceivingDefense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -213,7 +213,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_offense_passing(self):
-        df = PassingOffense(2021, "REG").get_data()
+        df = PassingOffense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -231,7 +231,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_offense_rushing(self):
-        df = RushingOffense(2021, "REG").get_data()
+        df = RushingOffense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -249,7 +249,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_offense_receiving(self):
-        df = ReceivingOffense(2021, "REG").get_data()
+        df = ReceivingOffense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -267,7 +267,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_defense_downs(self):
-        df = DownsDefense(2021, "REG").get_data()
+        df = DownsDefense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])
@@ -285,7 +285,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_offense_downs(self):
-        df = DownsOffense(2021, "REG").get_data()
+        df = DownsOffense(2021, "REG", refresh=True).get_data()
 
         # test shape
         self.assertEqual(32, df.shape[0])

@@ -52,17 +52,17 @@ class Stats(Loader, ABC):
         elif self.position == "K":
             pass
         elif self.position == "QB":
-            df["passing_yds"] = df["passing_yds"].apply(transform_yards)
-            df["rushing_yds"] = df["rushing_yds"].apply(transform_yards)
+            df["passing_yds"] = df["passing_yds"].apply(self.fix_thousands)
+            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
         elif self.position == "RB":
-            df["rushing_yds"] = df["rushing_yds"].apply(transform_yards)
-            df["receiving_yds"] = df["receiving_yds"].apply(transform_yards)
+            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
+            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
         elif self.position == "TE":
-            df["receiving_yds"] = df["receiving_yds"].apply(transform_yards)
-            df["rushing_yds"] = df["rushing_yds"].apply(transform_yards)
+            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
+            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
         elif self.position == "WR":
-            df["receiving_yds"] = df["receiving_yds"].apply(transform_yards)
-            df["rushing_yds"] = df["rushing_yds"].apply(transform_yards)
+            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
+            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
 
         # add specified data to dataframe
         for key, val in self.to_add.items():
@@ -94,7 +94,6 @@ class WeeklyStats(Stats, ABC):
         self.url = f"https://www.fantasypros.com/nfl/stats/{self.position.lower()}.php?year={self.year}&week={self.week}&range=week"
 
 
-
 class YearlyStats(Stats, ABC):
     def __init__(self, position, year, refresh=False):
         Stats.__init__(self, position, year, refresh)
@@ -121,14 +120,6 @@ def transform_rost(rost):
         return str(rost).replace("%", "")
     else:
         return rost
-
-
-def transform_yards(yards):
-    """ Removes comma in yards stats denoting a thousand. """
-    if "," in str(yards):
-        return int(str(yards).replace(",", ""))
-    else:
-        return yards
 
 
 def store_all():
