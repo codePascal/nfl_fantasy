@@ -12,7 +12,7 @@ import seaborn as sns
 import tqdm
 
 import src.preprocessing.playbyplay.playbyplay as pbp
-from src.preprocessing.statistics import Statistics
+from src.preprocessing.statistics.statistics import Statistics
 
 sns.set_style("whitegrid")
 
@@ -34,15 +34,15 @@ if __name__ == "__main__":
         # load historical play-by-play data
         if not os.path.exists(f"../preprocessed/play-by-play/pbp_1999to{year}.csv"):
             df_prob = pbp.concat_playbyplay_data((1999, year))
-            df_prob = df_prob.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown", "yardline_100",
-                                  "two_point_attempt", "year"]]
+            df_prob = df_prob.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown",
+                                      "yardline_100", "two_point_attempt", "year"]]
         else:
             df_prob = pd.DataFrame()
             chunks = pd.read_csv(f"../preprocessed/play-by-play/pbp_1999to{year}.csv", iterator=True, low_memory=False,
                                  chunksize=10000)
             for chunk in tqdm.tqdm(chunks):
-                chunk = chunk.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown", "yardline_100",
-                                      "two_point_attempt", "year"]]
+                chunk = chunk.loc[:, ["rush_attempt", "rush_touchdown", "pass_attempt", "pass_touchdown",
+                                      "yardline_100", "two_point_attempt", "year"]]
                 df_prob = pd.concat([df_prob, chunk])
 
         # select data from previous years
@@ -107,10 +107,7 @@ if __name__ == "__main__":
         data["Expected touchdowns rank"] = data["Expected touchdowns"].rank(ascending=False)
 
         # load final stats
-        df = Statistics(year).get_accumulated_data()
-
-        # get only defined position
-        df_actual = df.loc[(df["position"] == position)]
+        df_actual = Statistics(position, year).get_accumulated_data()
 
         # get player, team and td
         if play == "pass":

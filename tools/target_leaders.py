@@ -3,27 +3,27 @@ Analyzes target leaders overall. Targets represent the number of
 times a pass is thrown to a player, regardless whether a catch was
 made. Highly targeted players offer greater upside, since each target
 is an opportunity to accumulate a reception, receiving yards or a
-touchdown
+touchdown.
 """
 import matplotlib.pyplot as plt
 import matplotlib.patches as mp
 import numpy as np
 
-from src.preprocessing.statistics import Statistics
+from src.preprocessing.statistics.statistics import Statistics
 
 
 if __name__ == "__main__":
     # year
     year = 2021
 
-    # load summary of offense
-    df = Statistics(2021).get_accumulated_data()
+    # position
+    position = "WR"  # RB, TE, WR
 
-    # extract player, week and receiving targets
-    df = df.loc[:, ["player", "week", "team", "games", "receiving_tgt", "position"]]
+    # load position data
+    df = Statistics(position, year).get_accumulated_data()
 
-    # take only RB, WR, TE
-    df = df.loc[(df["position"].isin(["RB", "TE", "WR"]))]
+    # extract data
+    df = df.loc[:, ["player", "week", "team", "games", "receiving_tgt"]]
 
     # add weekly targets as column
     weeks = df.week.unique()
@@ -35,7 +35,7 @@ if __name__ == "__main__":
 
     # group to reduce size
     if len(weeks) == 17:
-        df = df.groupby(["player", "team", "position"], as_index=False).agg({
+        df = df.groupby(["player", "team"], as_index=False).agg({
             "games": np.sum,
             "week_1": np.sum,
             "week_2": np.sum,
@@ -56,7 +56,7 @@ if __name__ == "__main__":
             "week_17": np.sum,
         })
     elif len(weeks) == 18:
-        df = df.groupby(["player", "team", "position"], as_index=False).agg({
+        df = df.groupby(["player", "team"], as_index=False).agg({
             "games": np.sum,
             "week_1": np.sum,
             "week_2": np.sum,
@@ -89,34 +89,33 @@ if __name__ == "__main__":
     df["receiving_tgt_per_game_rank"] = df["receiving_tgt_per_game"].rank(ascending=False)
 
     # store
-    df.to_csv(f"../reports/target_leaders/target_leaders_{year}.csv", index=False)
+    df.to_csv(f"../reports/target_leaders/target_leaders_{position}_{year}.csv", index=False)
 
     # limit to top 30 of position
-    for position in ["WR", "RB", "TE"]:
-        df_pos = df.loc[(df["position"] == position)]
-        df_pos = df_pos.sort_values(by="total_receiving_tgt", ascending=False)
-        df_pos["rank"] = df_pos["total_receiving_tgt"].rank(ascending=False)
-        df_pos = df_pos.loc[df_pos["rank"] < 40]
+    df_pos = df.loc[(df["position"] == position)]
+    df_pos = df_pos.sort_values(by="total_receiving_tgt", ascending=False)
+    df_pos["rank"] = df_pos["total_receiving_tgt"].rank(ascending=False)
+    df_pos = df_pos.loc[df_pos["rank"] < 40]
 
-        # split into single weeks and averages per game
-        df_pos.set_index("player", drop=True, inplace=True)
-        df_weeks = df_pos.loc[:, [f"week_{i}" for i in weeks]]
-        df_avgs = df_pos.loc[:, "receiving_tgt_per_game"]
+    # split into single weeks and averages per game
+    df_pos.set_index("player", drop=True, inplace=True)
+    df_weeks = df_pos.loc[:, [f"week_{i}" for i in weeks]]
+    df_avgs = df_pos.loc[:, "receiving_tgt_per_game"]
 
-        # plot stacked horizontal bar plot
-        cmap = plt.colormaps["tab20c"]
-        colors_dict = dict(zip(range(1, len(weeks) + 1), cmap([i for i in range(len(weeks))])))
-        df_weeks.plot.barh(stacked=True, legend=False, figsize=(10, 20), color=cmap([i for i in range(len(weeks))]))
+    # plot stacked horizontal bar plot
+    cmap = plt.colormaps["tab20c"]
+    colors_dict = dict(zip(range(1, len(weeks) + 1), cmap([i for i in range(len(weeks))])))
+    df_weeks.plot.barh(stacked=True, legend=False, figsize=(10, 20), color=cmap([i for i in range(len(weeks))]))
 
-        # patches
-        patches = list()
-        for week, color in colors_dict.items():
-            patch = mp.Patch(color=color, label=f"week {week}")
-            patches.append(patch)
+    # patches
+    patches = list()
+    for week, color in colors_dict.items():
+        patch = mp.Patch(color=color, label=f"week {week}")
+        patches.append(patch)
 
-        # setup axis
-        plt.legend(handles=patches, borderpad=1, fontsize=8)
-        plt.title(f"Receiving targets - Top {position}")
-        plt.xlabel("received targets")
-        plt.tight_layout()
-        plt.savefig(f"../reports/target_leaders/target_leaders_{position}_{year}.png")
+    # setup axis
+    plt.legend(handles=patches, borderpad=1, fontsize=8)
+    plt.title(f"Receiving targets - Top {position}")
+    plt.xlabel("received targets")
+    plt.tight_layout()
+    plt.savefig(f"../reports/target_leaders/target_leaders_{position}_{year}.png")
