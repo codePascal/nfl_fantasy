@@ -77,7 +77,7 @@ class Stats(Loader, ABC):
         df["player"] = df["player"] + "(" + df["team"] + ")"
 
         # standard restoring
-        df = df.loc[:, list(self.mapping.keys())[:len(self.original_columns)]]
+        df = df.iloc[:, :len(self.original_columns)]
         df.columns = self.original_columns
 
         return df
