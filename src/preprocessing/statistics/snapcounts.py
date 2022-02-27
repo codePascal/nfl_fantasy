@@ -8,12 +8,13 @@ the stats itself are refreshed.
 Running this script will store all summaries for a denoted year
 range or refresh them if available offline.
 """
+import numpy as np
 import pandas as pd
 import sys
 
 from abc import ABC
 
-from config.mapping import week_map
+from config.mapping import week_map, team_changes_map, teams
 from src.loader.fantasypros.snapcounts import WeeklySnapcounts as Loader
 from src.preprocessing.preprocessing import Preprocessing
 
@@ -35,7 +36,21 @@ class Snapcounts(Preprocessing, ABC):
         for week in range(1, week_map[self.year] + 1):
             df = pd.concat([df, Loader(week, self.year, self.refresh).get_data()])
         df = df.loc[df["games"] == 1]
+        df["team"] = df["team"].apply(fix_team)
         return df.reset_index(drop=True)
+
+
+def fix_team(team):
+    """ Checks that latest team abbreviations are used. """
+    if team not in teams and team is not np.nan:
+        if team in team_changes_map.keys():
+            return team_changes_map[team]
+        else:
+            print("Team abbreviation", team, "not available.")
+    else:
+        return team
+
+
 
 
 def store_all():

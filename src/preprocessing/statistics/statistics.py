@@ -30,6 +30,8 @@ class Statistics(Preprocessing, ABC):
         for given position. """
         # snapcounts only available back to 2016
         if self.year < 2016:
+            # TODO fix free agents -> snapcounts are correct
+            #  stats not, if player changed his team, stats are updated recursively somehow
             stats = Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data()
             stats.drop(["rank", "rost", "fantasy_points_per_game"], axis=1, inplace=True)
         else:
@@ -41,13 +43,14 @@ class Statistics(Preprocessing, ABC):
             stats = pd.merge(snapcounts,
                              Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
                              how="outer",
-                             on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
+                             on=["player", "week", "year", "fantasy_points", "games", "position"])
 
             # drop not relevant columns
             stats.drop(["rank", "rost", "fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
 
-        # clean up teams to latest names
-        stats["team"] = stats["team"].apply(fix_teams)
+            # clean up teams
+            stats["team"] = stats.apply(check_teams, axis=1)
+            stats.drop(["team_x", "team_y"], axis=1, inplace=True)
 
         # merge schedule
         stats = pd.merge(stats, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
@@ -55,14 +58,35 @@ class Statistics(Preprocessing, ABC):
         return stats
 
 
-def fix_teams(team):
-    """ Updates team abbreviations to the latest ones. """
-    if team not in teams and team is not np.nan:
-        if team in team_changes_map.keys():
-            return team_changes_map[team]
-        elif team != "FA":
-            print("Team abbreviation", team, "not available.")
-    return team
+def check_teams(player):
+    """ Compares the team from stats and snapcounts and finds
+    correct one. """
+    team_x = player["team_x"]  # team from snapcounts
+    team_y = player["team_y"]  # team from stats
+    if team_x == "FA" and team_y != "FA":
+        # fix free agent
+        return team_y
+    elif team_x != "FA" and team_y == "FA":
+        # fix free agent
+        return team_x
+    elif team_x == team_y:
+        # same teams but check abbreviations
+        team = team_x
+        if team not in teams and team is not np.nan:
+            # check for new abbreviation
+            if team in team_changes_map.keys():
+                return team_changes_map[team]
+            else:
+                print("Team abbreviation", team, "not available.")
+        else:
+            return team
+    elif team_x is None or team_x is np.nan:
+        return team_y
+    elif team_y is None or team_y is np.nan:
+        return team_x
+    else:
+        # snapcounts are correct
+        return team_x
 
 
 def store_all():
