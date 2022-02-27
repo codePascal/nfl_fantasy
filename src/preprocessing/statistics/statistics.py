@@ -29,8 +29,9 @@ class Statistics(Preprocessing, ABC):
         """ Concatenates weekly stats, snapcounts and schedule
         for given position. """
         # snapcounts only available back to 2016
-        if self.year < 2015:
+        if self.year < 2016:
             stats = Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data()
+            stats.drop(["rank", "rost", "fantasy_points_per_game"], axis=1, inplace=True)
         else:
             # get snapcounts only for position
             snapcounts = Snapcounts(self.year, refresh=self.refresh).get_accumulated_data()
@@ -42,8 +43,8 @@ class Statistics(Preprocessing, ABC):
                              how="outer",
                              on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
 
-        # drop not relevant columns
-        stats.drop(["rank", "rost", "fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
+            # drop not relevant columns
+            stats.drop(["rank", "rost", "fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
 
         # clean up teams to latest names
         stats["team"] = stats["team"].apply(fix_teams)
