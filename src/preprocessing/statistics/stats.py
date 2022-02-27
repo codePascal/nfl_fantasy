@@ -14,7 +14,7 @@ import pandas as pd
 from abc import ABC
 
 from config.mapping import week_map
-from loader.fantasypros.stats import WeeklyStats as Loader
+from src.loader.fantasypros.stats import WeeklyStats as Loader
 from src.preprocessing.preprocessing import Preprocessing
 
 
