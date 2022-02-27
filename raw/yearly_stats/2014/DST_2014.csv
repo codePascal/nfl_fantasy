@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Houston Texans,38,20,14,16,5,1,1,16,171.0,10.7,6.4,HOU,DST,2014
 2,Philadelphia Eagles,49,12,16,22,4,0,6,16,159.0,9.9,52.5,PHI,DST,2014
 3,Buffalo Bills,54,19,11,13,1,1,2,16,158.0,9.9,95.9,BUF,DST,2014

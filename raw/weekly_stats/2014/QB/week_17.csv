@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Geno Smith,20,25,80.0,358,14.3,3,0,1,5,18,0,1,1,26.1,26.1,0.6,SEA,QB,17,2014
 2,Aaron Rodgers,17,22,77.3,226,10.3,2,0,0,2,14,1,0,1,24.4,24.4,97.4,GB,QB,17,2014
 3,Matthew Stafford,20,41,48.8,217,5.3,3,0,2,4,29,0,1,1,21.6,21.6,97.2,LAR,QB,17,2014

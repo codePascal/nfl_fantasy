@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,21,30,70.0,345,11.5,5,0,2,4,14,0,0,1,35.2,35.2,90.4,SEA,QB,12,2015
 2,Matthew Stafford,27,38,71.1,337,8.9,5,0,2,2,13,0,0,1,34.8,34.8,97.2,LAR,QB,12,2015
 3,Ryan Fitzpatrick,22,37,59.5,277,7.5,4,0,1,5,21,0,0,1,29.2,29.2,6.1,WAS,QB,12,2015

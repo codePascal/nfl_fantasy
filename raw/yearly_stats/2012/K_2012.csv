@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Stephen Gostkowski,29,35,82.9,53,0,8,10,9,2,66,66,16,166.0,10.4,0.1,FA,K,2012
 2,Justin Tucker,30,33,90.9,56,0,8,8,10,4,42,42,16,150.0,9.4,98.0,BAL,K,2012
 3,Matt Prater,26,32,81.3,53,1,7,10,5,3,55,55,16,144.0,9.0,52.8,ARI,K,2012

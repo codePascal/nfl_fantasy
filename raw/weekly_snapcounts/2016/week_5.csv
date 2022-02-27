@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,80,80,100,6,0,63,63,15.9,19.9,5,2016
 Ben Roethlisberger,QB,PIT,1,74,74,97,0,0,64,64,29.2,39.5,5,2016
 Brian Hoyer,QB,CHI,1,66,66,100,2,0,67,67,23.8,36.1,5,2016

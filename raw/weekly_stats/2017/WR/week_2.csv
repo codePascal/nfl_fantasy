@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Michael Crabtree,6,6,80,13.3,26,3,3,0,0,0,0,1,26.0,26.0,0.0,FA,WR,2,2017
 2,Jermaine Kearse,4,5,64,16.0,34,1,2,0,0,0,0,1,18.4,18.4,0.0,FA,WR,2,2017
 3,Emmanuel Sanders,6,8,62,10.3,25,1,2,0,0,0,0,1,18.2,18.2,46.6,BUF,WR,2,2017

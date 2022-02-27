@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Michael Gallup,5,7,98,19.6,45,2,3,0,0,0,0,1,27.8,27.8,72.8,DAL,WR,17,2019
 2,Deebo Samuel,5,5,102,20.4,30,3,0,2,33,1,0,1,19.5,19.5,98.8,SF,WR,17,2019
 3,Breshad Perriman,5,8,134,26.8,37,4,1,0,0,0,0,1,19.4,19.4,2.5,TB,WR,17,2019

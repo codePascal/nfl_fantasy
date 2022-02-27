@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Las Vegas Raiders,2,4,1,2,0,0,0,1,16.0,16.0,7.6,LV,DST,10,2020
 2,New Orleans Saints,2,2,2,0,0,0,0,1,14.0,14.0,79.3,NO,DST,10,2020
 3,Los Angeles Rams,6,2,1,0,0,0,0,1,13.0,13.0,74.5,LAR,DST,10,2020

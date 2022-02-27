@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kyler Murray,29,36,80.6,400,11.1,3,2,3,5,31,1,0,1,35.1,35.1,99.3,ARI,QB,2,2021
 2,Lamar Jackson,18,26,69.2,239,9.2,1,2,1,16,107,2,0,1,34.3,34.3,94.0,BAL,QB,2,2021
 3,Tom Brady,24,36,66.7,276,7.7,5,0,3,1,6,0,1,1,29.6,29.6,99.1,FA,QB,2,2021

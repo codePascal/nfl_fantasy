@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Richie James Jr.,9,13,184,20.4,47,0,1,0,0,0,0,1,24.4,24.4,0.0,SF,WR,9,2020
 2,Tyreek Hill,9,18,113,12.6,28,0,2,1,8,0,0,1,24.1,24.1,100.0,KC,WR,9,2020
 3,Davante Adams,10,12,173,17.3,49,0,1,0,0,0,0,1,23.3,23.3,100.0,GB,WR,9,2020

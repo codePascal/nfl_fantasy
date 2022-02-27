@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Robby Anderson,3,5,123,41.0,76,2,2,0,0,0,0,1,24.3,24.3,42.2,CAR,WR,5,2018
 2,Odell Beckham Jr.,8,14,131,16.4,33,1,1,0,0,0,1,1,23.4,23.4,90.8,LAR,WR,5,2018
 3,Tre'Quan Smith,3,3,111,37.0,62,2,2,0,0,0,0,1,23.1,23.1,7.5,NO,WR,5,2018

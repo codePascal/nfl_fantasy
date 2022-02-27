@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,4,3,2,3,1,0,0,1,21.0,21.0,35.9,CHI,DST,3,2019
 2,New York Jets,1,1,1,0,2,0,0,1,16.0,16.0,3.3,NYJ,DST,3,2019
 3,Jacksonville Jaguars,9,0,1,2,0,0,0,1,15.0,15.0,6.9,JAC,DST,3,2019

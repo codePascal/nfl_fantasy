@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alvin Kamara,10,68,6.8,17,0,1,6,7,84,14.0,1,1,1,25.2,25.2,100.0,NO,RB,9,2017
 2,Corey Clement,12,51,4.3,28,1,2,1,1,15,15.0,1,0,1,24.6,24.6,0.8,DAL,RB,9,2017
 3,Todd Gurley II,16,59,3.7,36,1,2,2,3,45,22.5,0,0,1,22.4,22.4,0.4,FA,RB,9,2017

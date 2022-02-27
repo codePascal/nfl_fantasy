@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Baltimore Ravens,4,3,4,4,0,0,0,1,28.0,28.0,51.9,BAL,DST,1,2011
 2,New York Jets,4,1,2,1,0,0,1,1,27.0,27.0,3.3,NYJ,DST,1,2011
 3,Chicago Bears,5,1,2,1,1,0,0,1,24.0,24.0,35.9,CHI,DST,1,2011

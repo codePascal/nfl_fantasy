@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Carolina Panthers,6,2,1,1,2,0,0,1,31.0,31.0,27.8,CAR,DST,17,2014
 2,Seattle Seahawks,4,2,0,2,1,0,0,1,21.0,21.0,39.4,SEA,DST,17,2014
 3,Dallas Cowboys,3,2,2,2,1,0,0,1,18.0,18.0,82.9,DAL,DST,17,2014

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeSean Jackson,9,15,193,21.4,61,4,1,0,0,0,0,1,25.3,25.3,4.4,LV,WR,2,2013
 2,Julio Jones,11,14,182,16.5,81,2,1,0,0,0,0,1,24.2,24.2,60.7,TEN,WR,2,2013
 3,Dez Bryant,9,13,141,15.7,53,2,1,0,0,0,0,1,20.1,20.1,2.6,FA,WR,2,2013

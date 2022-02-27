@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Tyreek Hill,87,137,1479,17.0,75,27,12,22,151,1,0,16,241.0,15.1,100.0,KC,WR,2018
 2,Antonio Brown,104,169,1297,12.5,78,17,15,0,0,0,0,15,219.7,14.6,84.1,FA,WR,2018
 3,Davante Adams,111,169,1386,12.5,57,18,13,0,0,0,0,15,218.6,14.6,100.0,GB,WR,2018

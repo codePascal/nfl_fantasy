@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cooper Kupp,10,13,156,15.6,59,0,2,0,0,0,0,1,27.6,27.6,100.0,LAR,WR,7,2021
 2,Ja'Marr Chase,8,10,201,25.1,82,0,1,0,0,0,0,1,26.1,26.1,98.5,CIN,WR,7,2021
 3,Mike Evans,6,10,76,12.7,46,0,3,0,0,0,0,1,25.6,25.6,97.8,TB,WR,7,2021

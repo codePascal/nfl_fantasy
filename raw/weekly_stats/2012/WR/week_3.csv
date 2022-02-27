@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,A.J. Green,9,11,183,20.3,73,3,1,1,11,0,0,1,25.4,25.4,51.8,ARI,WR,3,2012
 2,Golden Tate,3,7,68,22.7,41,2,2,0,0,0,0,1,18.8,18.8,0.1,FA,WR,3,2012
 3,Larry Fitzgerald,9,9,114,12.7,37,2,1,0,0,0,0,1,17.4,17.4,0.3,FA,WR,3,2012

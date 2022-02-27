@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Nick Folk,1,1,100.0,28,0,1,0,0,0,0,0,1,3.0,3.0,81.8,NE,K,17,2010
 2,Ryan Succop,1,1,100.0,30,0,1,0,0,0,0,0,1,3.0,3.0,57.4,TB,K,17,2010
 3,Mason Crosby,1,1,100.0,23,0,1,0,0,0,0,0,1,3.0,3.0,40.7,GB,K,17,2010

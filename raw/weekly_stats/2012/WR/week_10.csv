@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Golden Tate,2,2,51,25.5,38,1,1,0,0,0,0,1,16.0,16.0,0.1,FA,WR,10,2012
 2,Dez Bryant,3,5,87,29.0,49,2,1,0,0,0,0,1,14.7,14.7,2.6,FA,WR,10,2012
 3,A.J. Green,7,10,85,12.1,56,1,1,0,0,0,0,1,14.5,14.5,51.8,ARI,WR,10,2012

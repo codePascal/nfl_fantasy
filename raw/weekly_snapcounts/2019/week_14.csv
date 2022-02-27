@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,60,60,98,8,0,55,55,11.4,19.0,14,2019
 Adrian Peterson,RB,WAS,1,28,28,44,71,0,71,71,13.6,48.6,14,2019
 Benjamin Watson,TE,NE,1,32,32,48,0,9,3,9,0.7,2.2,14,2019

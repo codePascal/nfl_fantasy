@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tim Hightower,27,122,4.5,26,1,2,3,3,47,15.7,0,0,1,28.9,28.9,0.0,FA,RB,16,2015
 2,DeAngelo Williams,17,100,5.9,30,1,2,6,6,53,8.8,0,1,1,27.3,27.3,0.1,FA,RB,16,2015
 3,Jerick McKinnon,7,89,12.7,68,1,2,2,3,8,4.0,0,0,1,21.7,21.7,0.8,KC,RB,16,2015

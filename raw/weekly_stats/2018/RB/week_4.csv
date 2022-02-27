@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alvin Kamara,19,134,7.1,49,1,3,5,9,47,9.4,0,0,1,36.1,36.1,100.0,NO,RB,4,2018
 2,Ezekiel Elliott,25,152,6.1,41,1,0,4,4,88,22.0,1,0,1,30.0,30.0,99.7,DAL,RB,4,2018
 3,Mike Davis,21,101,4.8,20,1,2,4,4,23,5.8,0,0,1,24.4,24.4,49.7,ATL,RB,4,2018

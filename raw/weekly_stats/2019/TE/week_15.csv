@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,11,13,142,12.9,21,1,0,0,0,0,0,1,14.2,14.2,100.0,KC,TE,15,2019
 2,George Kittle,13,17,134,10.3,21,2,0,0,0,0,0,1,13.4,13.4,99.7,SF,TE,15,2019
 3,Ricky Seals-Jones,3,4,29,9.7,26,1,2,0,0,0,1,1,12.9,12.9,10.8,WAS,TE,15,2019

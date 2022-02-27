@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Greg Olsen,1,1,39,39.0,39,0,1,0,0,0,0,1,9.9,9.9,7.0,FA,TE,2,2010
 2,Marcedes Lewis,5,9,70,14.0,26,0,0,0,0,0,0,1,7.0,7.0,0.2,GB,TE,2,2010
 3,Jason Witten,5,8,51,10.2,23,0,0,0,0,0,0,1,5.1,5.1,0.1,FA,TE,2,2010

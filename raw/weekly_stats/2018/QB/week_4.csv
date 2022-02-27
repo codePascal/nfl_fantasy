@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mitchell Trubisky,19,26,73.1,354,13.6,6,0,1,3,53,0,0,1,43.5,43.5,0.4,BUF,QB,4,2018
 2,Jared Goff,26,33,78.8,465,14.1,5,0,1,2,7,0,0,1,39.3,39.3,5.3,DET,QB,4,2018
 3,Andrew Luck,40,62,64.5,464,7.5,4,0,4,3,11,0,1,1,35.7,35.7,2.2,FA,QB,4,2018

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matthew Stafford,34,49,69.4,352,7.2,3,1,2,4,12,1,0,1,31.3,31.3,97.2,LAR,QB,8,2012
 2,Tom Brady,23,35,65.7,304,8.7,4,0,0,1,3,0,0,1,28.5,28.5,99.1,FA,QB,8,2012
 3,Matt Ryan,22,29,75.9,262,9.0,3,0,2,3,18,0,0,1,24.3,24.3,36.3,ATL,QB,8,2012

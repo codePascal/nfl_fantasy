@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Lamar Jackson,17,20,85.0,324,16.2,5,0,1,3,6,0,0,1,33.6,33.6,94.0,BAL,QB,1,2019
 2,Dak Prescott,25,32,78.1,405,12.7,4,0,0,4,12,0,0,1,33.4,33.4,98.2,DAL,QB,1,2019
 3,Deshaun Watson,20,30,66.7,268,8.9,3,1,6,4,40,1,0,1,31.7,31.7,5.0,HOU,QB,1,2019

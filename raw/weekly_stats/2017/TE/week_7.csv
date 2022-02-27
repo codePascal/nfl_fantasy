@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,O.J. Howard,6,6,98,16.3,33,2,2,0,0,0,0,1,21.8,21.8,1.2,TB,TE,7,2017
 2,Jordan Reed,8,10,64,8.0,20,1,2,0,0,0,0,1,18.4,18.4,19.0,FA,TE,7,2017
 3,Zach Ertz,5,5,89,17.8,46,2,1,0,0,0,0,1,14.9,14.9,85.8,ARI,TE,7,2017

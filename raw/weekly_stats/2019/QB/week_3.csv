@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,32,50,64.0,406,8.1,2,0,0,7,51,2,0,1,41.3,41.3,90.4,SEA,QB,3,2019
 2,Daniel Jones,23,36,63.9,336,9.3,2,0,5,4,28,2,2,1,34.2,34.2,13.6,NYG,QB,3,2019
 3,Patrick Mahomes II,27,37,73.0,374,10.1,3,0,1,4,9,0,0,1,27.9,27.9,100.0,KC,QB,3,2019

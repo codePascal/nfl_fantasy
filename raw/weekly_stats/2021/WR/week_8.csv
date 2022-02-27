@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,A.J. Brown,10,11,155,15.5,57,0,1,0,0,0,0,1,21.5,21.5,97.8,TEN,WR,8,2021
 2,Michael Pittman Jr.,10,15,86,8.6,38,0,2,0,0,0,0,1,20.6,20.6,92.6,IND,WR,8,2021
 3,Chris Godwin,8,12,140,17.5,44,0,1,0,0,0,0,1,20.0,20.0,67.1,TB,WR,8,2021

@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,61,61,100,5,0,56,56,12.0,19.7,15,2016
 Adrian Peterson,RB,MIN,1,12,12,21,50,8,58,58,0.3,2.5,15,2016
 Alex Smith,QB,KC,1,58,58,100,7,0,55,55,11.6,20.0,15,2016

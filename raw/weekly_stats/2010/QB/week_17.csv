@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ben Roethlisberger,15,22,68.2,280,12.7,2,0,0,4,24,0,0,1,21.6,21.6,23.8,FA,QB,17,2010
 2,Alex Smith,15,29,51.7,276,9.5,2,0,2,1,-1,0,0,1,18.9,18.9,5.0,FA,QB,17,2010
 3,Matt Ryan,22,32,68.8,236,7.4,2,0,1,2,7,0,0,1,18.1,18.1,36.3,ATL,QB,17,2010

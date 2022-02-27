@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chris Godwin,12,14,172,14.3,30,1,2,0,0,0,0,1,29.2,29.2,67.1,TB,WR,4,2019
 2,A.J. Brown,3,3,94,31.3,55,2,2,0,0,0,0,1,21.4,21.4,97.8,TEN,WR,4,2019
 3,Kenny Golladay,5,9,67,13.4,33,1,2,0,0,0,0,1,18.7,18.7,51.8,NYG,WR,4,2019

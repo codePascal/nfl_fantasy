@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mason Crosby,2,2,100.0,44,0,1,0,1,0,0,0,1,7.0,7.0,40.7,GB,K,2,2010
 2,Graham Gano,2,4,50.0,41,0,1,0,1,0,0,0,1,7.0,7.0,31.4,NYG,K,2,2010
 3,Mike Nugent,5,5,100.0,46,0,0,1,0,0,0,0,1,3.0,3.0,1.0,FA,K,2,2010

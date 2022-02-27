@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deebo Samuel,1,4,12,12.0,12,0,0,6,66,2,0,1,19.8,19.8,98.8,SF,WR,12,2021
 2,Jaylen Waddle,9,10,137,15.2,57,0,1,0,0,0,0,1,19.7,19.7,94.6,MIA,WR,12,2021
 3,Adam Thielen,5,7,62,12.4,29,0,2,0,0,0,0,1,18.2,18.2,82.7,MIN,WR,12,2021

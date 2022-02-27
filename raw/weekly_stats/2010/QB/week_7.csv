@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ryan Fitzpatrick,29,43,67.4,382,8.9,4,2,1,4,20,0,0,1,29.3,29.3,6.1,WAS,QB,7,2010
 2,Matt Ryan,24,33,72.7,299,9.1,3,1,0,1,5,0,0,1,22.5,22.5,36.3,ATL,QB,7,2010
 3,Joe Flacco,16,31,51.6,250,8.1,3,0,2,2,-1,0,1,1,19.9,19.9,0.3,NYJ,QB,7,2010

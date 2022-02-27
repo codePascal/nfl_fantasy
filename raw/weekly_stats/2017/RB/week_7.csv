@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ezekiel Elliott,26,147,5.7,25,1,2,1,3,72,72.0,1,0,1,39.9,39.9,99.7,DAL,RB,7,2017
 2,LeSean McCoy,23,91,4.0,23,1,2,5,7,31,6.2,0,1,1,22.2,22.2,2.0,FA,RB,7,2017
 3,Todd Gurley II,22,106,4.8,18,0,1,4,8,48,12.0,0,0,1,21.4,21.4,0.4,FA,RB,7,2017

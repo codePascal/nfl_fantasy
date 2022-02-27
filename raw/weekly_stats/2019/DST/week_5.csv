@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Philadelphia Eagles,10,2,1,2,2,0,0,1,35.0,35.0,52.5,PHI,DST,5,2019
 2,San Francisco 49ers,4,2,2,2,0,0,0,1,19.0,19.0,79.5,SF,DST,5,2019
 3,New England Patriots,6,1,1,2,0,0,0,1,14.0,14.0,93.2,NE,DST,5,2019

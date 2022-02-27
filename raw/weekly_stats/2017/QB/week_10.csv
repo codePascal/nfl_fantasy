@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cam Newton,21,35,60.0,254,7.3,4,0,0,5,95,0,0,1,35.7,35.7,20.3,CAR,QB,10,2017
 2,Kirk Cousins,26,45,57.8,327,7.3,1,1,1,4,5,2,0,1,27.6,27.6,70.7,MIN,QB,10,2017
 3,Jared Goff,25,37,67.6,355,9.6,3,0,3,4,3,0,0,1,26.5,26.5,5.3,DET,QB,10,2017

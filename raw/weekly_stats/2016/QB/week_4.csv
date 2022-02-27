@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Ryan,28,37,75.7,503,13.6,4,1,3,4,14,0,0,1,35.5,35.5,36.3,ATL,QB,4,2016
 2,Ben Roethlisberger,22,27,81.5,300,11.1,5,0,2,1,-1,0,0,1,33.9,33.9,23.8,FA,QB,4,2016
 3,Blake Bortles,19,33,57.6,207,6.3,2,0,3,7,36,1,0,1,25.9,25.9,0.1,NO,QB,4,2016

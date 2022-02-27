@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Herbert,30,41,73.2,382,9.3,3,1,2,9,90,0,0,1,35.3,35.3,98.8,LAC,QB,11,2021
 2,Aaron Rodgers,23,33,69.7,385,11.7,4,0,2,2,21,0,0,1,33.5,33.5,97.4,GB,QB,11,2021
 3,Jalen Hurts,13,24,54.2,147,6.1,0,0,3,18,69,3,0,1,30.8,30.8,94.4,PHI,QB,11,2021

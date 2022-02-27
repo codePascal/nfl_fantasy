@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,A.J. Green,10,13,227,22.7,80,3,2,0,0,0,0,1,34.7,34.7,51.8,ARI,WR,3,2015
 2,Steve Smith,13,17,186,14.3,50,3,2,0,0,0,0,1,30.6,30.6,0.0,FA,WR,3,2015
 3,Julio Jones,12,20,164,13.7,45,2,2,0,0,0,0,1,28.4,28.4,60.7,TEN,WR,3,2015

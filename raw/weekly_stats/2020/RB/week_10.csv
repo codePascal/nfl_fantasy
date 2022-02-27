@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alvin Kamara,8,15,1.9,8,0,2,7,8,83,11.9,1,0,1,27.8,27.8,100.0,NO,RB,10,2020
 2,Josh Jacobs,21,112,5.3,24,0,2,4,4,24,6.0,0,0,1,25.6,25.6,98.0,LV,RB,10,2020
 3,Ronald Jones II,23,192,8.3,98,0,1,1,2,6,6.0,0,1,1,23.8,23.8,83.5,TB,RB,10,2020

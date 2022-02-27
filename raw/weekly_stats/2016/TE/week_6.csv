@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,7,9,162,23.1,38,4,1,0,0,0,0,1,22.2,22.2,97.7,TB,TE,6,2016
 2,Coby Fleener,6,7,74,12.3,50,1,1,1,2,1,0,1,19.6,19.6,0.0,FA,TE,6,2016
 3,C.J. Fiedorowicz,6,7,85,14.2,26,2,1,0,0,0,0,1,14.5,14.5,0.0,FA,TE,6,2016

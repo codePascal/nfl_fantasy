@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeAndre Hopkins,10,15,148,14.8,29,2,2,0,0,0,0,1,26.8,26.8,69.3,ARI,WR,6,2015
 2,Martavis Bryant,6,8,137,22.8,88,2,2,1,8,0,0,1,26.5,26.5,0.0,FA,WR,6,2015
 3,Calvin Johnson,6,9,166,27.7,57,3,1,0,0,0,0,1,22.6,22.6,0.1,FA,WR,6,2015

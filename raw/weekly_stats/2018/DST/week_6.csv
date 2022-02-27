@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Baltimore Ravens,11,0,0,1,0,0,0,1,21.0,21.0,51.9,BAL,DST,6,2018
 2,Houston Texans,2,2,1,0,1,0,0,1,18.0,18.0,6.4,HOU,DST,6,2018
 3,Seattle Seahawks,6,0,2,3,0,0,0,1,17.0,17.0,39.4,SEA,DST,6,2018

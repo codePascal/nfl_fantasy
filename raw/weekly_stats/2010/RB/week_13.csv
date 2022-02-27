@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adrian Peterson,16,107,6.7,43,0,3,1,1,1,1.0,0,0,1,28.8,28.8,4.9,SEA,RB,13,2010
 2,LeSean McCoy,12,44,3.7,13,0,1,8,8,86,10.8,1,0,1,25.0,25.0,2.0,FA,RB,13,2010
 3,Sewo Olonilua,0,0,0.0,0,0,0,0,0,0,0.0,0,0,0,0.0,0.0,0.0,DAL,RB,13,2010

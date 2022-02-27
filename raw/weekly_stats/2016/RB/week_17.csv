@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rex Burkhead,27,119,4.4,17,0,2,2,2,25,12.5,0,0,1,26.4,26.4,31.5,HOU,RB,17,2016
 2,Devonta Freeman,12,96,8.0,75,1,1,5,5,81,16.2,0,0,1,23.7,23.7,74.2,BAL,RB,17,2016
 3,Charcandrick West,16,58,3.6,14,0,0,5,5,58,11.6,2,0,1,23.6,23.6,0.0,FA,RB,17,2016

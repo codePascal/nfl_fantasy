@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,63,63,95,5,0,44,44,26.1,41.4,16,2020
 Adrian Peterson,RB,DET,1,6,6,11,67,0,67,67,1.0,16.7,16,2020
 Ben Roethlisberger,QB,PIT,1,68,68,100,3,0,75,75,25.5,37.5,16,2020

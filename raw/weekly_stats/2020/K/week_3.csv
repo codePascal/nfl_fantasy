@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Stephen Gostkowski,6,6,100.0,55,0,0,3,0,3,1,1,1,25.0,25.0,0.1,FA,K,3,2020
 2,Mason Crosby,3,3,100.0,52,0,0,1,1,1,4,4,1,16.0,16.0,40.7,GB,K,3,2020
 3,Joey Slye,5,5,100.0,31,0,3,2,0,0,0,1,1,15.0,15.0,1.6,WAS,K,3,2020

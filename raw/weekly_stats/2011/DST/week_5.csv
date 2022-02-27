@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Seattle Seahawks,3,3,2,2,1,1,0,1,31.0,31.0,39.4,SEA,DST,5,2011
 2,Buffalo Bills,0,4,1,1,1,0,0,1,26.0,26.0,95.9,BUF,DST,5,2011
 3,San Francisco 49ers,3,2,1,1,1,0,0,1,25.0,25.0,79.5,SF,DST,5,2011

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ryan Fitzpatrick,21,28,75.0,417,14.9,4,0,0,12,36,1,0,1,42.3,42.3,6.1,WAS,QB,1,2018
 2,Drew Brees,37,45,82.2,439,9.8,3,0,1,0,0,0,0,1,31.6,31.6,35.7,FA,QB,1,2018
 3,Philip Rivers,34,51,66.7,424,8.3,3,1,1,0,0,0,0,1,29.0,29.0,20.6,FA,QB,1,2018

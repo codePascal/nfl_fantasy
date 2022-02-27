@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Carolina Panthers,4,1,2,3,1,0,0,1,17.0,17.0,27.8,CAR,DST,7,2013
 2,Dallas Cowboys,3,3,0,0,0,0,0,1,16.0,16.0,82.9,DAL,DST,7,2013
 3,San Francisco 49ers,3,1,1,0,1,0,0,1,14.0,14.0,79.5,SF,DST,7,2013

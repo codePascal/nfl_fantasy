@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,6,10,102,17.0,28,0,1,0,0,0,0,1,16.2,16.2,97.7,TB,TE,17,2010
 2,Jason Witten,4,9,46,11.5,33,0,1,0,0,0,0,1,10.6,10.6,0.1,FA,TE,17,2010
 3,Jimmy Graham,2,2,15,7.5,11,0,1,0,0,0,0,1,7.5,7.5,0.8,CHI,TE,17,2010

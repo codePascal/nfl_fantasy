@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chris Godwin,7,8,184,26.3,71,5,2,0,0,0,0,1,30.4,30.4,67.1,TB,WR,12,2019
 2,Jarvis Landry,10,13,148,14.8,37,2,2,0,0,0,0,1,26.8,26.8,72.5,CLE,WR,12,2019
 3,DJ Moore,6,9,126,21.0,52,2,2,1,8,0,0,1,25.4,25.4,95.7,CAR,WR,12,2019

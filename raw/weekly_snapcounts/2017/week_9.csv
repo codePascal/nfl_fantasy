@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,ARI,1,59,59,77,63,7,66,69,14.7,24.9,9,2017
 Alex Smith,QB,KC,1,57,57,100,9,0,68,68,18.4,32.3,9,2017
 Benjamin Watson,TE,BAL,1,69,69,91,0,14,10,14,4.1,5.9,9,2017

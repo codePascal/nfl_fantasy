@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,73,73,100,3,0,53,53,15.7,21.5,8,2011
 Ben Roethlisberger,QB,PIT,1,74,74,100,1,0,47,47,14.6,19.7,8,2011
 Danny Amendola,WR,HOU,1,39,39,64,0,13,5,13,0.3,0.8,8,2011

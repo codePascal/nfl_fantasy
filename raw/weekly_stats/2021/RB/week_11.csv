@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jonathan Taylor,32,185,5.8,40,0,4,3,3,19,6.3,1,0,1,50.4,50.4,100.0,IND,RB,11,2021
 2,Austin Ekeler,11,50,4.5,12,0,2,6,7,65,10.8,2,0,1,35.5,35.5,99.9,LAC,RB,11,2021
 3,Joe Mixon,30,123,4.1,20,0,2,0,0,0,0.0,0,0,1,24.3,24.3,98.1,CIN,RB,11,2021

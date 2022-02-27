@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,17,26,65.4,224,8.6,3,1,1,9,95,2,0,1,40.5,40.5,100.0,BUF,QB,17,2018
 2,Dak Prescott,27,44,61.4,387,8.8,4,0,4,4,0,0,0,1,33.5,33.5,98.2,DAL,QB,17,2018
 3,Jameis Winston,22,35,62.9,345,9.9,4,1,1,2,23,0,0,1,30.1,30.1,5.2,NO,QB,17,2018

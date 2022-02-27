@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,6,6,74,12.3,40,1,2,1,18,0,0,1,21.2,21.2,60.7,TEN,WR,15,2012
 2,T.Y. Hilton,3,6,78,26.0,61,1,1,0,0,0,0,1,13.8,13.8,16.8,IND,WR,15,2012
 3,Travis Benjamin,1,1,69,69.0,69,1,1,0,0,0,0,1,12.9,12.9,0.0,SF,WR,15,2012

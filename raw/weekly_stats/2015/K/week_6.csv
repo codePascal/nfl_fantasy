@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chris Boswell,4,4,100.0,51,0,1,0,2,1,1,1,1,17.0,17.0,51.0,PIT,K,6,2015
 2,Phil Dawson,4,4,100.0,53,0,1,1,1,1,1,1,1,16.0,16.0,0.1,FA,K,6,2015
 3,Stephen Hauschka,3,3,100.0,50,0,0,1,1,1,2,2,1,14.0,14.0,0.0,FA,K,6,2015

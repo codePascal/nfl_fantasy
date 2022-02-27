@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Todd Gurley II,22,118,5.4,34,1,0,10,13,158,15.8,2,0,1,39.6,39.6,0.4,FA,RB,16,2017
 2,Dion Lewis,24,129,5.4,16,0,1,5,5,24,4.8,1,0,1,27.3,27.3,2.0,FA,RB,16,2017
 3,Giovani Bernard,23,116,5.0,25,1,1,7,7,52,7.4,0,0,1,22.8,22.8,5.4,TB,RB,16,2017

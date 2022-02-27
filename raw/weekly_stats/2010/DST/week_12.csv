@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Carolina Panthers,2,2,1,2,1,0,0,1,24.0,24.0,27.8,CAR,DST,12,2010
 2,New York Jets,3,2,1,0,0,1,1,1,21.0,21.0,3.3,NYJ,DST,12,2010
 3,Seattle Seahawks,0,0,1,1,0,0,1,1,20.0,20.0,39.4,SEA,DST,12,2010

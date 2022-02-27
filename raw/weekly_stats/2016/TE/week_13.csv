@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dwayne Allen,4,4,72,18.0,23,3,3,0,0,0,0,1,25.2,25.2,0.0,FA,TE,13,2016
 2,Dennis Pitta,9,11,90,10.0,25,1,2,0,0,0,1,1,19.0,19.0,0.0,FA,TE,13,2016
 3,Ladarius Green,6,11,110,18.3,37,3,1,0,0,0,0,1,17.0,17.0,0.0,FA,TE,13,2016

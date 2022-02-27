@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Adrian Peterson,283,1298,4.6,80,0,12,36,50,341,9.5,1,1,15,239.9,16.0,4.9,SEA,RB,2010
 2,LeSean McCoy,207,1080,5.2,62,0,7,78,90,592,7.6,2,1,15,219.2,14.6,2.0,FA,RB,2010
 3,Frank Gore,203,853,4.2,64,0,3,46,72,452,9.8,2,2,11,156.5,14.2,12.2,FA,RB,2010

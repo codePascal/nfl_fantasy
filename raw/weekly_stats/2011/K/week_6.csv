@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Robbie Gould,3,3,100.0,51,0,2,0,0,1,0,0,1,11.0,11.0,22.5,SF,K,6,2011
 2,Dan Bailey,3,3,100.0,48,0,2,0,1,0,0,0,1,10.0,10.0,0.0,FA,K,6,2011
 3,Graham Gano,2,2,100.0,50,0,1,0,0,1,0,0,1,8.0,8.0,31.4,NYG,K,6,2011

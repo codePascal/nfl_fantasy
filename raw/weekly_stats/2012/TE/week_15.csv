@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jason Witten,5,8,43,8.6,17,0,1,0,0,0,0,1,10.3,10.3,0.1,FA,TE,15,2012
 2,Jimmy Graham,5,9,69,13.8,24,1,0,0,0,0,0,1,6.9,6.9,0.8,CHI,TE,15,2012
 3,Greg Olsen,5,9,56,11.2,26,1,0,0,0,0,0,1,5.6,5.6,7.0,FA,TE,15,2012

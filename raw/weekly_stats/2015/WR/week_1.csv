@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,9,11,141,15.7,44,2,2,0,0,0,0,1,26.1,26.1,60.7,TEN,WR,1,2015
 2,DeAndre Hopkins,9,13,98,10.9,17,0,2,0,0,0,0,1,23.8,23.8,69.3,ARI,WR,1,2015
 3,Antonio Brown,9,11,133,14.8,37,2,1,0,0,0,0,1,19.3,19.3,84.1,FA,WR,1,2015

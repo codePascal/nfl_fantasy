@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mark Ingram II,13,48,3.7,11,0,0,3,4,37,12.3,2,0,1,20.5,20.5,39.1,NO,RB,11,2019
 2,Christian McCaffrey,14,70,5.0,18,0,0,11,15,121,11.0,0,0,1,19.1,19.1,47.2,CAR,RB,11,2019
 3,Ezekiel Elliott,16,45,2.8,8,0,1,2,3,28,14.0,1,1,1,17.3,17.3,99.7,DAL,RB,11,2019

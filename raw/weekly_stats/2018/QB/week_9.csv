@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,25,36,69.4,346,9.6,4,0,0,4,16,0,0,1,31.4,31.4,35.7,FA,QB,9,2018
 2,Jared Goff,28,40,70.0,391,9.8,3,1,0,3,17,0,0,1,29.3,29.3,5.3,DET,QB,9,2018
 3,Matt Ryan,26,38,68.4,350,9.2,4,1,2,0,0,0,0,1,28.0,28.0,36.3,ATL,QB,9,2018

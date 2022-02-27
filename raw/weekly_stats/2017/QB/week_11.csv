@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,26,42,61.9,258,6.1,2,1,3,7,86,1,1,1,30.9,30.9,90.4,SEA,QB,11,2017
 2,Ben Roethlisberger,30,45,66.7,299,6.6,4,0,3,1,10,0,0,1,29.0,29.0,23.8,FA,QB,11,2017
 3,Kirk Cousins,22,32,68.8,322,10.1,3,0,2,3,11,0,0,1,26.0,26.0,70.7,MIN,QB,11,2017

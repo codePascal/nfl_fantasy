@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jordan Howard,21,109,5.2,42,1,2,1,2,5,5.0,0,0,1,23.4,23.4,18.7,PHI,RB,17,2018
 2,C.J. Anderson,23,132,5.7,13,0,1,3,3,22,7.3,0,0,1,21.4,21.4,1.0,FA,RB,17,2018
 3,Saquon Barkley,17,109,6.4,68,2,1,4,8,33,8.3,0,0,1,20.2,20.2,97.6,NYG,RB,17,2018

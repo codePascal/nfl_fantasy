@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,35,47,74.5,353,7.5,3,1,3,9,26,0,0,1,29.7,29.7,100.0,BUF,QB,6,2021
 2,Kirk Cousins,33,48,68.8,373,7.8,3,0,0,2,16,0,0,1,28.5,28.5,70.7,MIN,QB,6,2021
 3,Dak Prescott,36,51,70.6,445,8.7,3,1,0,3,10,0,1,1,27.8,27.8,98.2,DAL,QB,6,2021

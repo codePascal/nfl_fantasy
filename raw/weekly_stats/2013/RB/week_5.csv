@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,LeSean McCoy,20,46,2.3,17,0,1,6,8,46,7.7,0,0,1,15.2,15.2,2.0,FA,RB,5,2013
 2,Frank Gore,17,81,4.8,26,2,1,0,0,0,0.0,0,0,1,14.1,14.1,12.2,FA,RB,5,2013
 3,Brandon Bolden,5,24,4.8,12,0,0,6,8,40,6.7,0,0,1,6.4,6.4,10.7,NE,RB,5,2013

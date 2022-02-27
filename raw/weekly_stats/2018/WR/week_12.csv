@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Amari Cooper,8,9,180,22.5,90,2,2,0,0,0,0,1,30.0,30.0,97.7,DAL,WR,12,2018
 2,JuJu Smith-Schuster,13,17,189,14.5,97,1,1,0,0,0,0,1,24.9,24.9,18.5,FA,WR,12,2018
 3,Corey Davis,4,4,96,24.0,48,2,1,1,39,0,0,1,19.5,19.5,29.9,NYJ,WR,12,2018

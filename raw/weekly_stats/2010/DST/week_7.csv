@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cleveland Browns,3,4,0,0,2,0,0,1,33.0,33.0,40.8,CLE,DST,7,2010
 2,Washington Commanders,4,4,2,2,1,0,0,1,29.0,29.0,27.5,WAS,DST,7,2010
 3,Tennessee Titans,1,2,2,1,1,0,0,1,25.0,25.0,48.4,TEN,DST,7,2010

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Houston Texans,6,3,3,2,0,0,0,1,22.0,22.0,6.4,HOU,DST,13,2012
 2,Arizona Cardinals,3,3,1,1,0,0,0,1,15.0,15.0,60.9,ARI,DST,13,2012
 3,Atlanta Falcons,1,5,0,0,0,0,0,1,15.0,15.0,5.8,ATL,DST,13,2012

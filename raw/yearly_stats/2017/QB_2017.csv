@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Russell Wilson,339,553,61.3,3983,7.2,34,11,43,95,586,3,3,16,347.8,21.7,90.4,SEA,QB,2017
 2,Cam Newton,291,492,59.1,3302,6.7,22,16,35,139,754,6,1,16,299.5,18.7,20.3,CAR,QB,2017
 3,Tom Brady,385,581,66.3,4577,7.9,32,8,35,25,28,0,3,16,295.9,18.5,99.1,FA,QB,2017

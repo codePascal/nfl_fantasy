@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,22,30,73.3,310,10.3,3,0,1,8,47,0,0,1,29.1,29.1,90.4,SEA,QB,13,2013
 2,Cam Newton,18,29,62.1,263,9.1,2,2,0,5,68,1,0,1,27.3,27.3,20.3,CAR,QB,13,2013
 3,Nick Foles,21,34,61.8,237,7.0,3,0,5,9,22,0,0,1,23.7,23.7,0.7,CHI,QB,13,2013

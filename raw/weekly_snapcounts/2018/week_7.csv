@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,WAS,1,34,34,57,71,6,74,76,10.7,31.5,7,2018
 Alex Smith,QB,WAS,1,60,60,100,7,0,48,48,12.7,21.2,7,2018
 Benjamin Watson,TE,NO,1,36,36,51,0,17,17,17,10.3,28.6,7,2018

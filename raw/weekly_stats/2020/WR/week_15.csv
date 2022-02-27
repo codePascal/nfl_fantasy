@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Calvin Ridley,10,14,163,16.3,33,0,1,0,0,0,0,1,22.3,22.3,56.8,ATL,WR,15,2020
 2,DeAndre Hopkins,9,11,169,18.8,45,0,1,1,1,0,1,1,21.0,21.0,69.3,ARI,WR,15,2020
 3,Zach Pascal,5,6,79,15.8,26,0,2,0,0,0,0,1,19.9,19.9,3.5,IND,WR,15,2020

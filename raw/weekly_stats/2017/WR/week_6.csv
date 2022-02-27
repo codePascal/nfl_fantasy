@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Antonio Brown,8,10,155,19.4,51,3,1,0,0,0,0,1,21.5,21.5,84.1,FA,WR,6,2017
 2,Larry Fitzgerald,10,11,138,13.8,29,3,1,0,0,0,1,1,17.8,17.8,0.3,FA,WR,6,2017
 3,Golden Tate,7,7,96,13.7,45,1,1,0,0,0,0,1,15.6,15.6,0.1,FA,WR,6,2017

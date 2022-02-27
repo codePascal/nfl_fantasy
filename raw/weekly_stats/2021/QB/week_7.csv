@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tua Tagovailoa,32,40,80.0,291,7.3,4,2,1,4,29,0,0,1,28.5,28.5,44.2,MIA,QB,7,2021
 2,Joe Burrow,23,38,60.5,416,10.9,3,1,1,1,0,0,0,1,27.6,27.6,88.3,CIN,QB,7,2021
 3,Matthew Stafford,28,41,68.3,334,8.1,3,0,1,2,-2,0,0,1,27.2,27.2,97.2,LAR,QB,7,2021

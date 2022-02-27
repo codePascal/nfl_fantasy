@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Graham Gano,5,5,100.0,55,0,1,1,1,2,2,2,1,22.0,22.0,31.4,NYG,K,2,2021
 2,Daniel Carlson,4,4,100.0,46,0,0,1,3,0,2,2,1,17.0,17.0,74.3,LV,K,2,2021
 3,Nick Folk,4,4,100.0,49,0,1,1,2,0,1,2,1,15.0,15.0,81.8,NE,K,2,2021

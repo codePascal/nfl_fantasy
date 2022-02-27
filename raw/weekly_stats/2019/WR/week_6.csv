@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Stefon Diggs,7,11,167,23.9,62,2,3,2,18,0,0,1,36.5,36.5,100.0,BUF,WR,6,2019
 2,Terry McLaurin,4,7,100,25.0,33,3,2,0,0,0,0,1,22.0,22.0,97.0,WAS,WR,6,2019
 3,Tyreek Hill,5,10,80,16.0,46,1,2,0,0,0,0,1,20.0,20.0,100.0,KC,WR,6,2019

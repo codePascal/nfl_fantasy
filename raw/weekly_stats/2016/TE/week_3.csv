@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Zach Miller,8,9,78,9.8,26,1,2,0,0,0,0,1,19.8,19.8,0.0,FA,TE,3,2016
 2,Coby Fleener,7,11,109,15.6,36,3,1,0,0,0,0,1,16.9,16.9,0.0,FA,TE,3,2016
 3,Cameron Brate,5,10,46,9.2,20,1,2,0,0,0,0,1,16.6,16.6,2.8,TB,TE,3,2016

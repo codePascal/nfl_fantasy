@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Le'Veon Bell,24,57,2.4,8,0,1,5,5,50,10.0,0,0,1,16.7,16.7,5.4,FA,RB,15,2013
 2,Cordarrelle Patterson,2,15,7.5,12,0,0,5,6,35,7.0,1,0,1,11.0,11.0,95.1,ATL,RB,15,2013
 3,LeSean McCoy,8,38,4.8,16,0,0,5,7,68,13.6,0,0,1,10.6,10.6,2.0,FA,RB,15,2013

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Seattle Seahawks,44,28,11,14,4,2,0,16,196.0,12.3,39.4,SEA,DST,2013
 2,Carolina Panthers,60,20,10,11,4,0,0,16,190.0,11.9,27.8,CAR,DST,2013
 3,Kansas City Chiefs,47,21,15,12,7,0,4,16,180.0,11.3,45.7,KC,DST,2013

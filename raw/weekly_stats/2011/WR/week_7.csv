@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dez Bryant,5,8,90,18.0,34,0,1,0,0,0,0,1,15.0,15.0,2.6,FA,WR,7,2011
 2,Emmanuel Sanders,5,7,46,9.2,20,0,1,0,0,0,0,1,10.6,10.6,46.6,BUF,WR,7,2011
 3,Antonio Brown,7,9,102,14.6,20,0,0,0,0,0,0,1,10.2,10.2,84.1,FA,WR,7,2011

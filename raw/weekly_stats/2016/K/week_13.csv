@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Prater,5,5,100.0,52,0,3,1,0,1,1,1,1,18.0,18.0,52.8,ARI,K,13,2016
 2,Stephen Gostkowski,4,4,100.0,48,0,1,0,3,0,2,2,1,17.0,17.0,0.1,FA,K,13,2016
 3,Stephen Hauschka,4,4,100.0,37,0,2,2,0,0,4,4,1,16.0,16.0,0.0,FA,K,13,2016

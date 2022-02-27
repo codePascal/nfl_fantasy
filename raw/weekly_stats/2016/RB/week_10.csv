@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ezekiel Elliott,21,114,5.4,32,1,2,2,2,95,47.5,1,0,1,38.9,38.9,99.7,DAL,RB,10,2016
 2,Ryan Mathews,19,109,5.7,21,2,2,2,2,30,15.0,0,0,1,27.9,27.9,0.0,FA,RB,10,2016
 3,DeMarco Murray,17,123,7.2,75,1,1,2,3,33,16.5,0,0,1,26.0,26.0,0.1,FA,RB,10,2016

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Davante Adams,10,13,121,12.1,38,0,2,0,0,0,0,1,24.1,24.1,100.0,GB,WR,14,2021
 2,Tyler Lockett,5,9,142,28.4,55,0,1,0,0,0,0,1,22.2,22.2,97.5,SEA,WR,14,2021
 3,Ja'Marr Chase,5,8,77,15.4,32,0,2,1,6,0,0,1,20.3,20.3,98.5,CIN,WR,14,2021

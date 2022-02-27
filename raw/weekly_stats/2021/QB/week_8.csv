@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,29,42,69.0,249,5.9,2,0,0,8,55,1,0,1,29.5,29.5,100.0,BUF,QB,8,2021
 2,Mike White,37,45,82.2,405,9.0,3,2,2,5,-1,0,0,1,28.1,28.1,0.8,NYJ,QB,8,2021
 3,Jimmy Garoppolo,17,28,60.7,322,11.5,0,0,0,5,4,2,0,1,27.3,27.3,23.3,SF,QB,8,2021

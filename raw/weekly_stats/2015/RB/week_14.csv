@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Isaiah Crowell,20,145,7.3,54,2,2,1,1,9,9.0,0,0,1,27.4,27.4,0.1,FA,RB,14,2015
 2,Todd Gurley II,16,140,8.8,49,3,2,1,2,7,7.0,0,0,1,26.7,26.7,0.4,FA,RB,14,2015
 3,James Starks,11,71,6.5,30,1,1,4,4,32,8.0,1,0,1,22.3,22.3,0.0,FA,RB,14,2015

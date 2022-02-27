@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,9,13,168,18.7,31,4,0,0,0,0,0,1,18.8,18.8,97.7,TB,TE,15,2017
 2,Greg Olsen,9,12,116,12.9,30,2,1,0,0,0,0,1,17.6,17.6,7.0,FA,TE,15,2017
 3,Richard Rodgers,4,4,77,19.3,36,2,1,0,0,0,0,1,13.7,13.7,0.0,PHI,TE,15,2017

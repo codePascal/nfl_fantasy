@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dallas Cowboys,2,2,2,1,0,0,1,1,15.0,15.0,82.9,DAL,DST,15,2020
 2,Buffalo Bills,3,0,1,1,1,0,0,1,12.0,12.0,95.9,BUF,DST,15,2020
 3,Arizona Cardinals,6,0,0,3,0,1,0,1,10.0,10.0,60.9,ARI,DST,15,2020

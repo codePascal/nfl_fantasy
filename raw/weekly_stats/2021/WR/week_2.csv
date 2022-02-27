@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cooper Kupp,9,11,163,18.1,44,0,2,1,-5,0,0,1,27.8,27.8,100.0,LAR,WR,2,2021
 2,Tyler Lockett,8,11,178,22.3,63,0,1,0,0,0,0,1,23.8,23.8,97.5,SEA,WR,2,2021
 3,Mike Evans,5,9,75,15.0,26,0,2,0,0,0,0,1,19.5,19.5,97.8,TB,WR,2,2021

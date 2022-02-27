@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Martellus Bennett,6,8,67,11.2,37,1,3,0,0,0,0,1,24.7,24.7,23.0,FA,TE,5,2016
 2,Greg Olsen,9,13,181,20.1,34,6,0,0,0,0,0,1,18.1,18.1,7.0,FA,TE,5,2016
 3,Hunter Henry,3,4,74,24.7,59,1,1,0,0,0,0,1,13.4,13.4,65.9,NE,TE,5,2016

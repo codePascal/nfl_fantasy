@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,8,10,127,15.9,22,0,1,0,0,0,0,1,18.9,18.9,100.0,KC,TE,11,2020
 2,Mark Andrews,5,7,96,19.2,31,0,1,0,0,0,0,1,15.6,15.6,99.9,BAL,TE,11,2020
 3,Darren Waller,7,7,88,12.6,26,0,1,0,0,0,0,1,14.8,14.8,92.6,LV,TE,11,2020

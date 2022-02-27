@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,C.J. Uzomah,3,3,91,30.3,55,0,2,0,0,0,0,1,21.1,21.1,20.8,CIN,TE,7,2021
 2,Kyle Pitts,7,8,163,23.3,39,0,0,0,0,0,0,1,16.3,16.3,97.4,ATL,TE,7,2021
 3,Mike Gesicki,7,8,85,12.1,27,0,1,0,0,0,0,1,14.5,14.5,87.6,MIA,TE,7,2021

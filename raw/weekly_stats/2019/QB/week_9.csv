@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,29,43,67.4,378,8.8,5,0,3,1,21,0,0,1,39.2,39.2,90.4,SEA,QB,9,2019
 2,Jimmy Garoppolo,28,37,75.7,317,8.6,4,0,1,3,2,0,0,1,28.9,28.9,23.3,SF,QB,9,2019
 3,Lamar Jackson,17,23,73.9,163,7.1,1,0,1,16,61,2,0,1,28.6,28.6,94.0,BAL,QB,9,2019

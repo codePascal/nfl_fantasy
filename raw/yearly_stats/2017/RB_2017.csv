@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Todd Gurley II,279,1305,4.7,57,8,13,64,87,788,12.3,6,2,15,319.3,21.3,0.4,FA,RB,2017
 2,Le'Veon Bell,321,1291,4.0,27,3,9,85,106,655,7.7,2,2,15,256.6,17.1,5.4,FA,RB,2017
 3,Kareem Hunt,272,1327,4.9,69,12,8,53,63,455,8.6,3,1,16,242.2,15.1,82.1,CLE,RB,2017

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Noah Fant,6,7,92,15.3,35,0,1,0,0,0,0,1,15.2,15.2,80.3,DEN,TE,17,2021
 2,Rob Gronkowski,7,10,115,16.4,24,0,0,0,0,0,0,1,11.5,11.5,97.7,TB,TE,17,2021
 3,Mark Andrews,6,6,89,14.8,33,0,0,0,0,0,0,1,8.9,8.9,99.9,BAL,TE,17,2021

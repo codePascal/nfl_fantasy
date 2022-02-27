@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,C.J. Uzomah,5,6,95,19.0,31,0,2,0,0,0,0,1,21.5,21.5,20.8,CIN,TE,4,2021
 2,Mo Alie-Cox,3,5,42,14.0,28,0,2,0,0,0,0,1,16.2,16.2,2.2,IND,TE,4,2021
 3,Dawson Knox,5,8,37,7.4,25,0,2,0,0,0,0,1,15.7,15.7,87.2,BUF,TE,4,2021

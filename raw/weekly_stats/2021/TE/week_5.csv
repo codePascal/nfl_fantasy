@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mark Andrews,11,13,147,13.4,28,0,2,0,0,0,0,1,30.7,30.7,99.9,BAL,TE,5,2021
 2,David Njoku,7,7,149,21.3,71,0,1,0,0,0,0,1,20.9,20.9,12.9,CLE,TE,5,2021
 3,Kyle Pitts,9,10,119,13.2,39,0,1,0,0,0,0,1,17.9,17.9,97.4,ATL,TE,5,2021

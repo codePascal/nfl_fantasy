@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,3,4,0,1,0,1,0,1,20.0,20.0,35.9,CHI,DST,14,2018
 2,New York Giants,5,3,0,0,1,0,0,1,18.0,18.0,4.5,NYG,DST,14,2018
 3,Detroit Lions,3,1,0,2,1,0,0,1,18.0,18.0,1.1,DET,DST,14,2018

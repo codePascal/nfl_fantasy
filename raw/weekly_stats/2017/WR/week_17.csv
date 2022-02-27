@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Keenan Allen,9,12,133,14.8,28,3,1,0,0,0,0,1,25.3,25.3,99.3,LAC,WR,17,2017
 2,Doug Baldwin,4,5,90,22.5,29,3,2,0,0,0,0,1,21.0,21.0,0.0,FA,WR,17,2017
 3,JuJu Smith-Schuster,9,10,143,15.9,46,3,1,0,0,0,0,1,20.3,20.3,18.5,FA,WR,17,2017

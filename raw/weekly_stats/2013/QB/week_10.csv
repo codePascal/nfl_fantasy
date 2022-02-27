@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,34,41,82.9,392,9.6,4,0,1,0,0,0,0,1,31.7,31.7,35.7,FA,QB,10,2013
 2,Robert Griffin III,24,37,64.9,281,7.6,3,0,4,7,44,0,0,1,27.6,27.6,0.6,FA,QB,10,2013
 3,Ryan Fitzpatrick,22,33,66.7,264,8.0,2,0,1,3,13,1,1,1,23.9,23.9,6.1,WAS,QB,10,2013

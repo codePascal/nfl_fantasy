@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Herbert,26,43,60.5,398,9.3,4,0,2,4,29,1,0,1,42.8,42.8,98.8,LAC,QB,5,2021
 2,Lamar Jackson,37,43,86.0,442,10.3,4,0,2,14,62,0,1,1,41.9,41.9,94.0,BAL,QB,5,2021
 3,Tom Brady,30,41,73.2,411,10.0,5,0,2,1,13,0,0,1,37.7,37.7,99.1,FA,QB,5,2021

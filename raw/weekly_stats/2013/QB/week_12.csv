@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tom Brady,34,50,68.0,344,6.9,3,0,3,2,0,0,1,1,23.8,23.8,99.1,FA,QB,12,2013
 2,Ryan Fitzpatrick,30,42,71.4,320,7.6,2,0,2,5,26,0,0,1,23.4,23.4,6.1,WAS,QB,12,2013
 3,Alex Smith,26,38,68.4,294,7.7,3,1,3,2,-3,0,0,1,21.5,21.5,5.0,FA,QB,12,2013

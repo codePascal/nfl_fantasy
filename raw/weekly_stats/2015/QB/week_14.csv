@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,23,32,71.9,292,9.1,5,0,0,1,6,0,0,1,32.3,32.3,90.4,SEA,QB,14,2015
 2,Eli Manning,27,31,87.1,337,10.9,4,0,0,3,-2,0,1,1,27.3,27.3,2.3,FA,QB,14,2015
 3,Blake Bortles,16,30,53.3,250,8.3,3,0,3,4,17,1,2,1,25.7,25.7,0.1,NO,QB,14,2015

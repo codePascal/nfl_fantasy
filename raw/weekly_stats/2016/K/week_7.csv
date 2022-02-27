@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Sebastian Janikowski,4,4,100.0,52,0,1,1,1,1,3,3,1,18.0,18.0,20.0,FA,K,7,2016
 2,Josh Lambo,4,4,100.0,42,0,0,2,2,0,3,3,1,17.0,17.0,3.2,FA,K,7,2016
 3,Justin Tucker,3,3,100.0,50,0,0,0,2,1,1,1,1,14.0,14.0,98.0,BAL,K,7,2016

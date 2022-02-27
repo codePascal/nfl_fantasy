@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Robbie Gould,3,3,100.0,50,0,1,0,1,1,0,0,1,12.0,12.0,22.5,SF,K,11,2010
 2,Graham Gano,4,6,66.7,48,1,0,0,2,0,0,0,1,11.0,11.0,31.4,NYG,K,11,2010
 3,Mason Crosby,1,1,100.0,42,0,0,0,1,0,0,0,1,4.0,4.0,40.7,GB,K,11,2010

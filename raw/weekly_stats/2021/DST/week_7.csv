@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tampa Bay Buccaneers,4,3,2,3,0,0,0,1,21.0,21.0,98.0,TB,DST,7,2021
 2,Tennessee Titans,4,1,2,3,0,0,0,1,17.0,17.0,48.4,TEN,DST,7,2021
 3,New York Giants,6,1,0,0,0,1,0,1,17.0,17.0,4.5,NYG,DST,7,2021

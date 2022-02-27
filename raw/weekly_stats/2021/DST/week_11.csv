@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New England Patriots,4,4,0,0,1,0,0,1,28.0,28.0,93.2,NE,DST,11,2021
 2,Houston Texans,2,4,1,2,0,0,0,1,16.0,16.0,6.4,HOU,DST,11,2021
 3,Kansas City Chiefs,5,2,1,2,0,0,0,1,15.0,15.0,45.7,KC,DST,11,2021

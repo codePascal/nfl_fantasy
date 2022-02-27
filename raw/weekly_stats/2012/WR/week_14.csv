@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,5,11,66,13.2,21,1,1,0,0,0,0,1,12.6,12.6,60.7,TEN,WR,14,2012
 2,Alshon Jeffery,3,6,57,19.0,30,2,1,0,0,0,0,1,11.7,11.7,0.1,FA,WR,14,2012
 3,Randall Cobb,7,7,102,14.6,38,3,0,0,0,0,0,1,10.2,10.2,7.6,GB,WR,14,2012

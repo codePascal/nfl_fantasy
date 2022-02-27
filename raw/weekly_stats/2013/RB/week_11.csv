@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,LeSean McCoy,20,77,3.9,16,0,2,4,4,73,18.3,0,0,1,27.0,27.0,2.0,FA,RB,11,2013
 2,Alfred Morris,22,93,4.2,22,1,0,0,0,0,0.0,0,0,1,9.3,9.3,0.0,NYG,RB,11,2013
 3,Le'Veon Bell,18,36,2.0,13,0,0,4,5,52,13.0,0,0,1,8.8,8.8,5.4,FA,RB,11,2013

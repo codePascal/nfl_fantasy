@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Larry Fitzgerald,80,154,1411,17.6,73,0,8,0,0,0,0,16,189.1,11.8,0.3,FA,WR,2011
 2,A.J. Green,65,115,1057,16.3,58,0,7,5,53,0,0,15,153.0,10.2,51.8,ARI,WR,2011
 3,Julio Jones,54,95,959,17.8,80,0,8,6,56,0,1,13,147.5,11.3,60.7,TEN,WR,2011

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Derrick Henry,32,211,6.6,53,2,3,0,0,0,0.0,0,0,1,39.1,39.1,78.0,TEN,RB,17,2019
 2,Boston Scott,19,54,2.8,15,0,3,4,6,84,21.0,0,0,1,31.8,31.8,27.7,PHI,RB,17,2019
 3,Joe Mixon,26,162,6.2,41,3,2,1,1,14,14.0,0,0,1,29.6,29.6,98.1,CIN,RB,17,2019

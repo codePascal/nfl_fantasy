@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ryan Griffin,4,4,66,16.5,24,2,2,0,0,0,0,1,20.6,20.6,0.6,NYJ,TE,8,2019
 2,Darren Fells,6,6,58,9.7,23,1,2,0,0,0,0,1,17.8,17.8,0.0,FA,TE,8,2019
 3,Jonnu Smith,6,7,78,13.0,26,2,1,0,0,0,0,1,13.8,13.8,22.7,NE,TE,8,2019

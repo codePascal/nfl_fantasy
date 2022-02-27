@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adam Thielen,12,15,202,16.8,71,3,2,1,4,0,0,1,32.6,32.6,82.7,MIN,WR,16,2016
 2,Jordy Nelson,9,11,154,17.1,48,3,2,0,0,0,0,1,27.4,27.4,0.1,FA,WR,16,2016
 3,Doug Baldwin,13,19,171,13.2,42,3,1,2,6,0,0,1,23.7,23.7,0.0,FA,WR,16,2016

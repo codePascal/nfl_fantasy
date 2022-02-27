@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Golden Tate,8,9,129,16.1,47,1,1,1,2,0,0,1,19.1,19.1,0.1,FA,WR,17,2013
 2,Randall Cobb,2,2,55,27.5,48,1,2,0,0,0,0,1,17.5,17.5,7.6,GB,WR,17,2013
 3,Dez Bryant,8,13,99,12.4,32,1,1,0,0,0,0,1,15.9,15.9,2.6,FA,WR,17,2013

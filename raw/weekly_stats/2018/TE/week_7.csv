@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Trey Burton,9,11,126,14.0,22,2,1,0,0,0,0,1,18.6,18.6,0.0,FA,TE,7,2018
 2,Michael Roberts,3,3,48,16.0,29,1,2,0,0,0,0,1,16.8,16.8,0.0,FA,TE,7,2018
 3,George Kittle,5,8,98,19.6,35,3,1,0,0,0,0,1,15.8,15.8,99.7,SF,TE,7,2018

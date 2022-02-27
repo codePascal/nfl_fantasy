@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Patrick Mahomes II,23,38,60.5,295,7.8,4,0,0,9,52,0,0,1,33.0,33.0,100.0,KC,QB,13,2018
 2,Josh Allen,18,33,54.5,231,7.0,2,2,2,9,135,0,0,1,28.7,28.7,100.0,BUF,QB,13,2018
 3,Russell Wilson,11,17,64.7,185,10.9,4,0,3,4,14,0,0,1,24.8,24.8,90.4,SEA,QB,13,2018

@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,74,74,100,3,0,53,53,11.5,15.5,10,2012
 Adrian Peterson,RB,TEN,1,20,20,33,40,5,45,45,2.0,10.0,10,2012
 Brian Hoyer,QB,NE,1,9,9,13,22,0,56,56,7.2,80.0,10,2012

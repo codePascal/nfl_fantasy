@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cam Newton,21,34,61.8,246,7.2,5,0,2,4,16,0,0,1,31.4,31.4,20.3,CAR,QB,11,2015
 2,Jameis Winston,19,29,65.5,246,8.5,5,0,1,4,0,0,0,1,29.8,29.8,5.2,NO,QB,11,2015
 3,Russell Wilson,24,29,82.8,260,9.0,3,0,2,9,30,0,0,1,25.4,25.4,90.4,SEA,QB,11,2015

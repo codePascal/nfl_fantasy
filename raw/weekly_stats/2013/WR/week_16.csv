@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,A.J. Green,7,12,97,13.9,29,1,2,0,0,0,0,1,21.7,21.7,51.8,ARI,WR,16,2013
 2,Dez Bryant,4,11,73,18.3,31,1,1,0,0,0,0,1,13.3,13.3,2.6,FA,WR,16,2013
 3,Josh Gordon,6,16,97,16.2,24,3,0,1,22,0,0,1,11.9,11.9,1.8,KC,WR,16,2013

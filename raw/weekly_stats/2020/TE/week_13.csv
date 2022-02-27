@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Darren Waller,13,17,200,15.4,38,0,2,0,0,0,0,1,32.0,32.0,92.6,LV,TE,13,2020
 2,Travis Kelce,8,12,136,17.0,28,0,1,0,0,0,0,1,19.6,19.6,100.0,KC,TE,13,2020
 3,Dan Arnold,2,3,61,30.5,59,0,2,0,0,0,0,1,18.1,18.1,6.7,JAC,TE,13,2020

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,George Kittle,13,15,151,11.6,21,0,1,0,0,0,0,1,21.1,21.1,99.7,SF,TE,14,2021
 2,Mark Andrews,11,11,115,10.5,32,0,1,0,0,0,0,1,17.5,17.5,99.9,BAL,TE,14,2021
 3,Dawson Knox,7,9,60,8.6,24,0,1,0,0,0,0,1,12.0,12.0,87.2,BUF,TE,14,2021

@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Graham Gano,24,35,68.6,49,1,7,4,7,1,0,0,16,69.0,4.3,31.4,NYG,K,2010
 2,Nick Folk,30,39,76.9,56,0,7,10,1,2,0,0,16,65.0,4.1,81.8,NE,K,2010
 3,Mason Crosby,22,28,78.6,56,1,4,4,7,2,0,0,16,65.0,4.1,40.7,GB,K,2010

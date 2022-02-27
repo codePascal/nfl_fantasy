@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Josh Allen,409,646,63.3,4407,6.8,36,15,26,122,763,6,3,17,417.7,24.6,100.0,BUF,QB,2021
 2,Justin Herbert,443,672,65.9,5014,7.5,38,15,31,63,302,3,1,17,395.6,23.3,98.8,LAC,QB,2021
 3,Tom Brady,485,719,67.5,5316,7.4,43,12,22,28,81,2,3,17,386.7,22.7,99.1,FA,QB,2021

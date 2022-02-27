@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,3,2,1,1,2,0,0,1,28.0,28.0,35.9,CHI,DST,5,2012
 2,Carolina Panthers,2,2,1,0,1,1,0,1,17.0,17.0,27.8,CAR,DST,5,2012
 3,Baltimore Ravens,0,2,2,1,0,0,0,1,15.0,15.0,51.9,BAL,DST,5,2012

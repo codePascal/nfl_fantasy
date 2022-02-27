@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alvin Kamara,20,51,2.6,12,0,0,10,11,128,12.8,1,0,1,23.9,23.9,100.0,NO,RB,7,2021
 2,Damien Harris,14,106,7.6,32,0,2,2,2,7,3.5,0,0,1,23.3,23.3,89.8,NE,RB,7,2021
 3,D'Ernest Johnson,22,146,6.6,20,0,1,2,2,22,11.0,0,0,1,22.8,22.8,18.7,CLE,RB,7,2021

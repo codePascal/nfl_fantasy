@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Philip Rivers,28,37,75.7,387,10.5,3,0,1,1,5,0,0,1,28.0,28.0,20.6,FA,QB,17,2017
 2,Matthew Stafford,20,29,69.0,323,11.1,3,0,2,2,2,0,0,1,27.1,27.1,97.2,LAR,QB,17,2017
 3,DeShone Kizer,16,30,53.3,314,10.5,2,1,6,6,61,0,0,1,24.7,24.7,0.0,FA,QB,17,2017

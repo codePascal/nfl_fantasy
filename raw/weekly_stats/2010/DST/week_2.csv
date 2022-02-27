@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Pittsburgh Steelers,4,3,4,5,0,0,1,1,28.0,28.0,44.6,PIT,DST,2,2010
 2,Miami Dolphins,3,3,1,1,1,0,0,1,27.0,27.0,60.2,MIA,DST,2,2010
 3,Indianapolis Colts,4,1,2,3,1,0,0,1,26.0,26.0,66.4,IND,DST,2,2010

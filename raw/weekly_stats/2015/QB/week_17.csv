@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cam Newton,21,26,80.8,293,11.3,2,0,4,6,10,2,0,1,32.7,32.7,20.3,CAR,QB,17,2015
 2,Matthew Stafford,28,39,71.8,298,7.6,3,0,4,6,10,0,0,1,24.9,24.9,97.2,LAR,QB,17,2015
 3,Ben Roethlisberger,24,36,66.7,349,9.7,3,2,0,2,-2,0,0,1,23.8,23.8,23.8,FA,QB,17,2015

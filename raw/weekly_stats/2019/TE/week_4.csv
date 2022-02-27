@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ricky Seals-Jones,3,3,82,27.3,59,1,1,0,0,0,0,1,14.2,14.2,10.8,WAS,TE,4,2019
 2,Austin Hooper,9,11,130,14.4,28,2,0,0,0,0,0,1,13.0,13.0,28.8,CLE,TE,4,2019
 3,Jimmy Graham,6,9,61,10.2,15,0,1,0,0,0,0,1,12.1,12.1,0.8,CHI,TE,4,2019

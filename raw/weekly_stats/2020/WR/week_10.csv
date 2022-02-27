@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Marquez Valdes-Scantling,4,6,149,37.3,78,0,1,0,0,0,0,1,20.9,20.9,36.0,GB,WR,10,2020
 2,DeAndre Hopkins,7,12,127,18.1,43,0,1,0,0,0,0,1,18.7,18.7,69.3,ARI,WR,10,2020
 3,Willie Snead IV,5,7,64,12.8,21,0,2,0,0,0,0,1,18.4,18.4,0.1,FA,WR,10,2020

@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Alex Smith,QB,KC,1,75,75,100,1,0,68,68,17.7,23.6,4,2016
 Ben Roethlisberger,QB,PIT,1,55,55,92,2,0,51,51,33.9,61.6,4,2016
 Brian Hoyer,QB,CHI,1,69,69,100,4,0,57,57,19.8,28.7,4,2016

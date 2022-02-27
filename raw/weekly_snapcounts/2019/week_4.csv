@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,79,79,99,6,0,73,73,26.5,33.5,4,2019
 Adrian Peterson,RB,WAS,1,20,20,41,55,0,55,55,2.8,14.0,4,2019
 Chase Daniel,QB,CHI,1,64,64,90,8,0,55,55,12.2,19.1,4,2019

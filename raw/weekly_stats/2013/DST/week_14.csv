@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tampa Bay Buccaneers,7,4,1,0,0,0,0,1,24.0,24.0,98.0,TB,DST,14,2013
 2,Arizona Cardinals,4,2,0,1,1,1,0,1,20.0,20.0,60.9,ARI,DST,14,2013
 3,Atlanta Falcons,5,1,1,1,1,0,0,1,15.0,15.0,5.8,ATL,DST,14,2013

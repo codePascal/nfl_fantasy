@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,year
 Aaron Rodgers,QB,GB,16,983,61,93,3,0,57,57,336.3,34.2,2021
 Adrian Peterson,RB,SEA,4,72,18,27,53,6,58,58,22.6,31.4,2021
 Ben Roethlisberger,QB,PIT,16,1076,67,99,2,0,58,58,228.0,21.2,2021

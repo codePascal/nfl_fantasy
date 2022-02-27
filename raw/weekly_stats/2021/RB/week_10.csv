@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,AJ Dillon,21,66,3.1,11,0,2,2,2,62,31.0,0,0,1,24.8,24.8,87.4,GB,RB,10,2021
 2,Rhamondre Stevenson,20,100,5.0,18,0,2,4,5,14,3.5,0,0,1,23.4,23.4,50.4,NE,RB,10,2021
 3,Darrel Williams,11,43,3.9,21,0,0,9,9,101,11.2,1,0,1,20.4,20.4,79.6,KC,RB,10,2021

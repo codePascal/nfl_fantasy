@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Ryan,22,38,57.9,320,8.4,4,0,3,3,0,0,0,1,28.8,28.8,36.3,ATL,QB,14,2011
 2,Tom Brady,22,37,59.5,357,9.6,3,1,1,4,8,0,0,1,25.1,25.1,99.1,FA,QB,14,2011
 3,Joe Webb III,12,23,52.2,84,3.7,1,0,1,7,109,1,1,1,22.3,22.3,0.0,FA,QB,14,2011

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Schaub,43,55,78.2,527,9.6,5,2,2,0,0,0,0,1,37.1,37.1,0.0,FA,QB,11,2012
 2,Robert Griffin III,14,15,93.3,200,13.3,4,0,2,12,84,0,0,1,32.4,32.4,0.6,FA,QB,11,2012
 3,Chad Henne,16,33,48.5,354,10.7,4,0,1,2,7,0,0,1,30.9,30.9,0.1,KC,QB,11,2012

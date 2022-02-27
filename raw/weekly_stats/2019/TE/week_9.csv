@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Noah Fant,3,4,115,38.3,75,2,1,0,0,0,0,1,17.5,17.5,80.3,DEN,TE,9,2019
 2,Zach Ertz,9,11,103,11.4,25,1,1,0,0,0,0,1,16.3,16.3,85.8,ARI,TE,9,2019
 3,Jacob Hollister,4,6,37,9.3,22,1,2,0,0,0,0,1,15.7,15.7,0.0,JAC,TE,9,2019

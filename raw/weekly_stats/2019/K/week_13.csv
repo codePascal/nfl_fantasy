@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Wil Lutz,4,4,100.0,47,0,1,0,3,0,2,2,1,17.0,17.0,3.3,NO,K,13,2019
 2,Brandon McManus,3,3,100.0,53,0,0,1,0,2,2,2,1,15.0,15.0,44.3,DEN,K,13,2019
 3,Jason Sanders,1,1,100.0,51,0,0,0,0,1,2,3,1,13.1,13.1,22.6,MIA,K,13,2019

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jared Cook,8,8,169,21.1,55,0,1,0,0,0,0,1,22.9,22.9,50.2,LAC,TE,16,2011
 2,Jimmy Graham,4,9,42,10.5,17,0,1,0,0,0,0,1,10.2,10.2,0.8,CHI,TE,16,2011
 3,Kyle Rudolph,2,2,23,11.5,17,0,1,0,0,0,0,1,8.3,8.3,0.3,NYG,TE,16,2011

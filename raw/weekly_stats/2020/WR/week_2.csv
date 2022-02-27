@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Calvin Ridley,7,10,109,15.6,25,0,2,0,0,0,0,1,22.9,22.9,56.8,ATL,WR,2,2020
 2,Stefon Diggs,8,13,153,19.1,47,0,1,0,0,0,0,1,21.3,21.3,100.0,BUF,WR,2,2020
 3,Terry McLaurin,7,10,125,17.9,26,0,1,0,0,0,0,1,18.5,18.5,97.0,WAS,WR,2,2020

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tampa Bay Buccaneers,5,2,2,3,1,0,0,1,23.0,23.0,98.0,TB,DST,13,2019
 2,Tennessee Titans,3,2,1,1,0,0,1,1,22.0,22.0,48.4,TEN,DST,13,2019
 3,Los Angeles Rams,6,1,0,0,1,0,0,1,18.0,18.0,74.5,LAR,DST,13,2019

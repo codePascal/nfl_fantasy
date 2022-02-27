@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Colin Kaepernick,29,46,63.0,296,6.4,3,1,2,10,113,0,0,1,33.1,33.1,0.3,FA,QB,12,2016
 2,Drew Brees,28,36,77.8,310,8.6,4,0,2,1,1,1,1,1,32.5,32.5,35.7,FA,QB,12,2016
 3,Kirk Cousins,41,53,77.4,449,8.5,3,0,0,1,2,0,0,1,30.2,30.2,70.7,MIN,QB,12,2016

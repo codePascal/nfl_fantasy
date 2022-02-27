@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Sam Darnold,26,39,66.7,301,7.7,2,2,5,6,35,2,0,1,33.5,33.5,5.5,CAR,QB,4,2021
 2,Patrick Mahomes II,24,30,80.0,267,8.9,5,1,1,5,26,0,0,1,32.3,32.3,100.0,KC,QB,4,2021
 3,Matt Ryan,25,42,59.5,283,6.7,4,0,1,1,17,0,0,1,29.0,29.0,36.3,ATL,QB,4,2021

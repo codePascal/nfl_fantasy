@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Jefferson,9,11,166,18.4,49,0,2,0,0,0,0,1,30.6,30.6,99.9,MIN,WR,6,2020
 2,Julio Jones,8,10,137,17.1,40,0,2,0,0,0,0,1,25.7,25.7,60.7,TEN,WR,6,2020
 3,Christian Kirk,2,3,86,43.0,80,0,2,0,0,0,0,1,20.6,20.6,79.5,ARI,WR,6,2020

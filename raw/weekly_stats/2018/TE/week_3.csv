@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Vance McDonald,4,4,112,28.0,75,1,1,0,0,0,0,1,17.2,17.2,0.0,FA,TE,3,2018
 2,Dallas Goedert,7,7,73,10.4,19,0,1,0,0,0,0,1,13.3,13.3,89.8,PHI,TE,3,2018
 3,Travis Kelce,8,10,114,14.3,25,2,0,0,0,0,0,1,11.4,11.4,100.0,KC,TE,3,2018

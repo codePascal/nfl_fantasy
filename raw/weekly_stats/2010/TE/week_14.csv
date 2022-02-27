@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jason Witten,7,7,69,9.9,22,0,2,0,0,0,0,1,18.9,18.9,0.1,FA,TE,14,2010
 2,Marcedes Lewis,4,4,57,14.3,20,0,1,0,0,0,0,1,11.7,11.7,0.2,GB,TE,14,2010
 3,Rob Gronkowski,5,6,43,8.6,15,0,1,0,0,0,0,1,10.3,10.3,97.7,TB,TE,14,2010

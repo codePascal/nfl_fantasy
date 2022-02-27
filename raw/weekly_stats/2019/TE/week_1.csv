@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,T.J. Hockenson,6,9,131,21.8,39,4,1,0,0,0,0,1,19.1,19.1,57.4,DET,TE,1,2019
 2,Evan Engram,11,14,116,10.5,22,1,1,0,0,0,0,1,17.6,17.6,28.5,NYG,TE,1,2019
 3,Delanie Walker,5,6,55,11.0,16,0,2,0,0,0,0,1,17.5,17.5,0.1,FA,TE,1,2019

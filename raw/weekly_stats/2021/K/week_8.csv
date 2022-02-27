@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Zane Gonzalez,4,4,100.0,57,0,2,0,0,2,1,1,1,17.0,17.0,2.6,CAR,K,8,2021
 2,Jake Elliott,3,3,100.0,43,0,1,0,2,0,5,5,1,16.0,16.0,22.5,PHI,K,8,2021
 3,Joey Slye,4,5,80.0,52,0,1,1,1,1,1,2,1,16.0,16.0,1.6,WAS,K,8,2021

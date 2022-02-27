@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Richard Rodgers,8,8,146,18.3,61,3,1,0,0,0,0,1,20.6,20.6,0.0,PHI,TE,13,2015
 2,Delanie Walker,8,12,92,11.5,29,1,1,0,0,0,0,1,15.2,15.2,0.1,FA,TE,13,2015
 3,Charles Clay,4,7,66,16.5,40,1,1,0,0,0,0,1,12.6,12.6,0.0,FA,TE,13,2015

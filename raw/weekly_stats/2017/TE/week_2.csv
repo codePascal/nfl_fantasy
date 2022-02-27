@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,6,9,116,19.3,53,2,1,0,0,0,0,1,17.6,17.6,97.7,TB,TE,2,2017
 2,Travis Kelce,8,10,103,12.9,44,1,1,0,0,0,0,1,16.3,16.3,100.0,KC,TE,2,2017
 3,Jason Witten,10,13,97,9.7,28,1,1,0,0,0,0,1,15.7,15.7,0.1,FA,TE,2,2017

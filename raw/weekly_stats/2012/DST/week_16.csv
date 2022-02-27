@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,4,2,1,2,2,0,0,1,26.0,26.0,35.9,CHI,DST,16,2012
 2,Cincinnati Bengals,4,2,1,1,1,0,0,1,20.0,20.0,14.7,CIN,DST,16,2012
 3,Indianapolis Colts,1,2,1,1,1,0,0,1,17.0,17.0,66.4,IND,DST,16,2012

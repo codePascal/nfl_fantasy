@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,David Johnson,293,1239,4.2,58,6,16,80,120,879,11.0,4,3,16,327.8,20.5,35.4,HOU,RB,2016
 2,Ezekiel Elliott,322,1631,5.1,60,14,15,32,40,363,11.3,1,1,15,293.4,19.6,99.7,DAL,RB,2016
 3,LeSean McCoy,234,1267,5.4,75,11,13,50,57,356,7.1,1,0,15,248.3,16.6,2.0,FA,RB,2016

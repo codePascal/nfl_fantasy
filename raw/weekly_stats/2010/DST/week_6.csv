@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Pittsburgh Steelers,6,2,1,1,0,0,0,1,22.0,22.0,44.6,PIT,DST,6,2010
 2,Tennessee Titans,2,3,1,0,0,0,0,1,20.0,20.0,48.4,TEN,DST,6,2010
 3,Seattle Seahawks,6,0,0,1,0,1,0,1,19.0,19.0,39.4,SEA,DST,6,2010

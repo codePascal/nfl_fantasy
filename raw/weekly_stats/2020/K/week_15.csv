@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cairo Santos,4,4,100.0,48,0,0,1,3,0,3,3,1,18.0,18.0,2.1,CHI,K,15,2020
 2,Nick Folk,4,4,100.0,45,0,0,1,3,0,0,0,1,15.0,15.0,81.8,NE,K,15,2020
 3,Greg Zuerlein,2,3,66.7,48,0,0,0,2,0,5,5,1,13.0,13.0,74.2,DAL,K,15,2020

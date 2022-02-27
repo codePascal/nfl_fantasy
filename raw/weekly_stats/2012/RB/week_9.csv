@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adrian Peterson,17,182,10.7,74,3,2,3,4,11,3.7,0,0,1,31.3,31.3,4.9,SEA,RB,9,2012
 2,LeSean McCoy,19,119,6.3,34,2,0,2,3,14,7.0,0,0,1,13.3,13.3,2.0,FA,RB,9,2012
 3,Alfred Morris,13,76,5.8,18,0,0,0,1,0,0.0,0,0,1,7.6,7.6,0.0,NYG,RB,9,2012

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Drew Brees,446,650,68.6,5162,7.9,39,12,37,35,52,3,2,16,357.6,22.4,35.7,FA,QB,2013
 2,Cam Newton,292,473,61.7,3379,7.1,24,13,43,111,585,6,1,16,297.8,18.6,20.3,CAR,QB,2013
 3,Andy Dalton,363,586,61.9,4293,7.3,33,20,29,61,183,2,3,16,288.0,18.0,1.6,CHI,QB,2013

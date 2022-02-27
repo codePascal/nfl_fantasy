@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Adrian Peterson,348,2097,6.0,82,27,12,40,51,217,5.4,1,2,16,307.4,19.2,4.9,SEA,RB,2012
 2,Alfred Morris,335,1613,4.8,39,9,13,11,16,77,7.0,0,3,16,241.0,15.1,0.0,NYG,RB,2012
 3,Frank Gore,258,1214,4.7,37,7,8,28,36,234,8.4,1,1,16,196.8,12.3,12.2,FA,RB,2012

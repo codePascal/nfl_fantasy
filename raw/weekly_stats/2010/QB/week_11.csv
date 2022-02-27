@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ben Roethlisberger,18,29,62.1,275,9.5,3,0,2,3,55,1,0,1,34.5,34.5,23.8,FA,QB,11,2010
 2,Aaron Rodgers,22,31,71.0,301,9.7,4,0,3,3,21,0,0,1,30.1,30.1,97.4,GB,QB,11,2010
 3,Drew Brees,29,43,67.4,382,8.9,4,2,0,0,0,0,0,1,27.3,27.3,35.7,FA,QB,11,2010

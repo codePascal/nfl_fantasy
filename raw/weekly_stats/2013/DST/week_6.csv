@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kansas City Chiefs,9,3,0,0,1,0,0,1,25.0,25.0,45.7,KC,DST,6,2013
 2,Pittsburgh Steelers,3,2,0,1,0,0,0,1,14.0,14.0,44.6,PIT,DST,6,2013
 3,Chicago Bears,1,3,0,0,1,0,0,1,13.0,13.0,35.9,CHI,DST,6,2013

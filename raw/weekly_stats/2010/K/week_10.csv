@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Robbie Gould,2,3,66.7,37,0,0,2,0,0,0,0,1,6.0,6.0,22.5,SF,K,10,2010
 2,Ryan Succop,1,2,50.0,40,0,0,0,1,0,0,0,1,4.0,4.0,57.4,TB,K,10,2010
 3,Adam Vinatieri,3,3,100.0,47,0,0,0,0,0,0,0,1,0.0,0.0,0.2,FA,K,10,2010

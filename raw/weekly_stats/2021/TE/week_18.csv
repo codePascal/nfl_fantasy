@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyler Higbee,6,8,55,9.2,15,0,2,0,0,0,0,1,17.5,17.5,77.4,LAR,TE,18,2021
 2,Dalton Schultz,3,3,21,7.0,10,0,2,0,0,0,0,1,14.1,14.1,89.9,DAL,TE,18,2021
 3,Rob Gronkowski,7,10,137,19.6,42,0,0,0,0,0,0,1,13.7,13.7,97.7,TB,TE,18,2021

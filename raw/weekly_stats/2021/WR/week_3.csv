@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mike Williams,7,9,122,17.4,43,0,2,0,0,0,0,1,26.2,26.2,91.9,LAC,WR,3,2021
 2,Cooper Kupp,9,12,96,10.7,22,0,2,0,0,0,0,1,21.6,21.6,100.0,LAR,WR,3,2021
 3,Emmanuel Sanders,5,6,94,18.8,41,0,2,0,0,0,0,1,21.4,21.4,46.6,BUF,WR,3,2021

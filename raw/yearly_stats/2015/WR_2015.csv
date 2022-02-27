@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Antonio Brown,136,193,1834,13.5,59,25,10,3,28,0,2,16,246.2,15.4,84.1,FA,WR,2015
 2,Julio Jones,136,203,1871,13.8,70,25,8,0,0,0,1,16,239.1,14.9,60.7,TEN,WR,2015
 3,Brandon Marshall,109,173,1502,13.8,69,19,14,0,0,0,2,16,230.2,14.4,2.6,FA,WR,2015

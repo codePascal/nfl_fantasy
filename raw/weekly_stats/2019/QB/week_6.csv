@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deshaun Watson,30,42,71.4,280,6.7,1,2,0,10,42,2,0,1,31.4,31.4,5.0,HOU,QB,6,2019
 2,Matt Ryan,30,36,83.3,356,9.9,4,0,2,2,7,0,0,1,30.9,30.9,36.3,ATL,QB,6,2019
 3,Lamar Jackson,21,33,63.6,236,7.2,0,0,1,19,152,1,0,1,30.6,30.6,94.0,BAL,QB,6,2019

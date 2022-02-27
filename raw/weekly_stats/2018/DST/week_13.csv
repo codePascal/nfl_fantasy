@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Houston Texans,0,3,1,1,1,0,0,1,18.0,18.0,6.4,HOU,DST,13,2018
 2,New York Giants,5,2,1,2,1,0,0,1,17.0,17.0,4.5,NYG,DST,13,2018
 3,Jacksonville Jaguars,3,1,1,1,0,0,0,1,17.0,17.0,6.9,JAC,DST,13,2018

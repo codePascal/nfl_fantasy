@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deshaun Watson,25,34,73.5,283,8.3,4,1,1,4,24,1,0,1,33.7,33.7,5.0,HOU,QB,4,2017
 2,Cam Newton,22,29,75.9,316,10.9,3,1,2,8,44,1,0,1,33.0,33.0,20.3,CAR,QB,4,2017
 3,Andy Dalton,25,30,83.3,286,9.5,4,0,3,4,29,0,1,1,28.3,28.3,1.6,CHI,QB,4,2017

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Aaron Rodgers,34,42,81.0,480,11.4,4,0,4,3,-3,0,0,1,34.9,34.9,97.4,GB,QB,2,2013
 2,Matt Ryan,33,43,76.7,374,8.7,2,0,2,0,0,0,0,1,23.0,23.0,36.3,ATL,QB,2,2013
 3,Robert Griffin III,26,40,65.0,320,8.0,3,1,1,4,1,0,0,1,22.9,22.9,0.6,FA,QB,2,2013

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Washington Commanders,8,2,1,2,0,0,0,1,15.0,15.0,27.5,WAS,DST,1,2020
 2,Baltimore Ravens,2,1,2,3,0,0,0,1,15.0,15.0,51.9,BAL,DST,1,2020
 3,New Orleans Saints,3,2,1,1,1,0,0,1,15.0,15.0,79.3,NO,DST,1,2020

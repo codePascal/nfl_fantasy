@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Miami Dolphins,2,2,0,1,0,0,0,1,23.0,23.0,60.2,MIA,DST,11,2011
 2,Denver Broncos,3,1,1,1,1,0,0,1,23.0,23.0,48.5,DEN,DST,11,2011
 3,San Francisco 49ers,2,3,2,1,0,0,0,1,22.0,22.0,79.5,SF,DST,11,2011

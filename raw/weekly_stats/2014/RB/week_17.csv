@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Lamar Miller,19,178,9.4,97,2,1,0,2,0,0.0,0,0,1,23.8,23.8,0.0,FA,RB,17,2014
 2,Frank Gore,25,144,5.8,24,2,0,2,3,5,2.5,0,0,1,14.9,14.9,12.2,FA,RB,17,2014
 3,Giovani Bernard,3,8,2.7,7,0,0,7,8,56,8.0,1,0,1,12.4,12.4,5.4,TB,RB,17,2014

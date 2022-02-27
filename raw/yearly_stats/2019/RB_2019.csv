@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Christian McCaffrey,287,1387,4.8,84,6,15,116,142,1005,8.7,4,0,16,355.2,22.2,47.2,CAR,RB,2019
 2,Derrick Henry,303,1540,5.1,74,9,16,18,24,206,11.4,2,3,15,276.6,18.4,78.0,TEN,RB,2019
 3,Aaron Jones,236,1084,4.6,56,5,16,49,68,474,9.7,3,2,16,265.8,16.6,98.9,GB,RB,2019

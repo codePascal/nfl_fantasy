@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Joe Burrow,37,46,80.4,525,11.4,4,0,3,2,11,0,0,1,38.1,38.1,88.3,CIN,QB,16,2021
 2,Dak Prescott,28,39,71.8,330,8.5,4,0,3,4,21,0,0,1,31.3,31.3,98.2,DAL,QB,16,2021
 3,Josh Allen,30,47,63.8,314,6.7,3,0,0,12,64,0,0,1,31.0,31.0,100.0,BUF,QB,16,2021

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Gordon,14,17,237,16.9,47,4,1,0,0,0,0,1,29.7,29.7,1.8,KC,WR,12,2013
 2,Julian Edelman,9,11,110,12.2,43,1,2,0,0,0,0,1,23.0,23.0,13.1,FA,WR,12,2013
 3,Larry Fitzgerald,5,11,52,10.4,26,1,2,1,4,0,0,1,17.6,17.6,0.3,FA,WR,12,2013

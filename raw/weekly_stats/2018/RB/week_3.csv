@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adrian Peterson,19,120,6.3,41,1,2,0,0,0,0.0,0,0,1,24.0,24.0,4.9,SEA,RB,3,2018
 2,Carlos Hyde,23,98,4.3,22,1,2,2,2,5,2.5,0,0,1,22.3,22.3,6.9,JAC,RB,3,2018
 3,Todd Gurley II,23,105,4.6,14,0,1,5,6,51,10.2,0,1,1,19.6,19.6,0.4,FA,RB,3,2018

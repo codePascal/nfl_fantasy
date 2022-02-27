@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adam Thielen,8,11,123,15.4,51,0,2,0,0,0,0,1,24.3,24.3,82.7,MIN,WR,11,2020
 2,Damiere Byrd,6,7,132,22.0,42,0,1,1,11,0,0,1,20.3,20.3,0.1,CHI,WR,11,2020
 3,Robert Woods,12,15,130,10.8,35,0,1,2,-4,0,0,1,18.6,18.6,29.9,LAR,WR,11,2020

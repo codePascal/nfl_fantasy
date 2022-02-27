@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Lamar Jackson,15,17,88.2,223,13.1,3,0,0,7,65,1,0,1,33.4,33.4,94.0,BAL,QB,10,2019
 2,Daniel Jones,26,40,65.0,308,7.7,4,0,6,3,20,0,1,1,30.3,30.3,13.6,NYG,QB,10,2019
 3,Patrick Mahomes II,36,50,72.0,446,8.9,3,0,2,0,0,0,0,1,29.8,29.8,100.0,KC,QB,10,2019

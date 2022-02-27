@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Andrew Luck,27,39,69.2,353,9.1,3,0,2,5,17,0,0,1,27.8,27.8,2.2,FA,QB,7,2016
 2,Drew Brees,37,48,77.1,367,7.6,3,1,1,0,0,0,0,1,24.7,24.7,35.7,FA,QB,7,2016
 3,Tyrod Taylor,14,28,50.0,221,7.9,1,0,4,7,35,1,0,1,24.3,24.3,4.9,HOU,QB,7,2016

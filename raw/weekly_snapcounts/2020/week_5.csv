@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Alex Smith,QB,WAS,1,29,29,54,3,0,62,62,1.6,5.5,5,2020
 Ben Roethlisberger,QB,PIT,1,75,75,97,3,0,48,48,21.4,28.5,5,2020
 Drew Brees,QB,NO,1,72,72,95,1,0,67,67,22.1,30.7,5,2020

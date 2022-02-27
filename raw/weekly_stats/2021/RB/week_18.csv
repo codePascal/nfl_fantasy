@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rashaad Penny,23,190,8.3,62,0,1,0,0,0,0.0,0,0,1,25.0,25.0,78.9,SEA,RB,18,2021
 2,Austin Ekeler,16,64,4.0,14,0,1,5,12,35,7.0,1,0,1,23.9,23.9,99.9,LAC,RB,18,2021
 3,Devin Singletary,19,88,4.6,40,0,1,2,2,24,12.0,1,0,1,23.2,23.2,89.1,BUF,RB,18,2021

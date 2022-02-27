@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Antonio Brown,10,14,139,13.9,56,2,2,0,0,0,0,1,27.9,27.9,84.1,FA,WR,10,2015
 2,Michael Floyd,7,9,113,16.1,35,2,2,0,0,0,0,1,23.3,23.3,0.0,FA,WR,10,2015
 3,Brandin Cooks,5,8,98,19.6,60,1,2,1,11,0,0,1,22.9,22.9,92.7,HOU,WR,10,2015

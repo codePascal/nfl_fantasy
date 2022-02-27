@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cam Newton,29,46,63.0,284,6.2,2,1,0,17,107,1,0,1,34.1,34.1,20.3,CAR,QB,6,2014
 2,Joe Flacco,21,28,75.0,306,10.9,5,0,0,0,0,0,0,1,32.2,32.2,0.3,NYJ,QB,6,2014
 3,Tom Brady,27,37,73.0,361,9.8,4,0,2,4,3,0,0,1,30.7,30.7,99.1,FA,QB,6,2014

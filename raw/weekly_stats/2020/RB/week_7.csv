@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jeff Wilson Jr.,17,112,6.6,17,0,3,2,2,8,4.0,0,0,1,30.0,30.0,56.1,SF,RB,7,2020
 2,James Robinson,22,119,5.4,22,0,1,4,6,18,4.5,1,0,1,27.7,27.7,76.3,JAC,RB,7,2020
 3,Todd Gurley II,23,63,2.7,13,0,2,2,3,19,9.5,0,0,1,20.2,20.2,0.4,FA,RB,7,2020

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Travis Kelce,103,150,1336,13.0,43,18,10,0,0,0,1,16,191.6,12.0,100.0,KC,TE,2018
 2,George Kittle,88,135,1377,15.6,85,20,5,1,10,0,0,16,170.7,10.7,99.7,SF,TE,2018
 3,Zach Ertz,116,156,1163,10.0,34,13,8,0,0,0,0,16,164.3,10.3,85.8,ARI,TE,2018

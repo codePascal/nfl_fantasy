@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chandler Catanzaro,3,3,100.0,47,0,0,2,1,0,5,5,1,15.0,15.0,0.0,FA,K,17,2016
 2,Stephen Hauschka,4,4,100.0,33,0,1,3,0,0,1,2,1,13.0,13.0,0.0,FA,K,17,2016
 3,Cairo Santos,3,3,100.0,37,0,1,2,0,0,4,4,1,13.0,13.0,2.1,CHI,K,17,2016

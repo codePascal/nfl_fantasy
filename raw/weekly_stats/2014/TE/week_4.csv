@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,8,9,93,11.6,33,1,1,0,0,0,0,1,15.3,15.3,100.0,KC,TE,4,2014
 2,Jimmy Graham,8,10,86,10.8,17,0,1,0,0,0,1,1,12.6,12.6,0.8,CHI,TE,4,2014
 3,Eric Ebron,3,4,34,11.3,16,0,1,0,0,0,0,1,9.4,9.4,3.0,FA,TE,4,2014

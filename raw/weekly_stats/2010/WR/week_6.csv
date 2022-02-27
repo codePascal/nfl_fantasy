@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeSean Jackson,1,1,34,34.0,34,0,1,2,44,1,0,1,19.8,19.8,4.4,LV,WR,6,2010
 2,Dez Bryant,1,2,31,31.0,31,0,1,0,0,0,0,1,9.1,9.1,2.6,FA,WR,6,2010
 3,Emmanuel Sanders,2,2,37,18.5,22,0,0,0,0,0,0,1,3.7,3.7,46.6,BUF,WR,6,2010

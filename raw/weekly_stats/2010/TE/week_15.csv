@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jason Witten,10,12,140,14.0,33,0,1,0,0,0,0,1,20.0,20.0,0.1,FA,TE,15,2010
 2,Jimmy Graham,5,7,29,5.8,18,0,2,0,0,0,0,1,14.9,14.9,0.8,CHI,TE,15,2010
 3,Marcedes Lewis,6,7,63,10.5,25,0,0,0,0,0,0,1,6.3,6.3,0.2,GB,TE,15,2010

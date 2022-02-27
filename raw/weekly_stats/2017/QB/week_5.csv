@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deshaun Watson,16,31,51.6,261,8.4,5,0,3,3,31,0,0,1,35.5,35.5,5.0,HOU,QB,5,2017
 2,Dak Prescott,25,36,69.4,251,7.0,3,1,1,4,37,1,0,1,29.7,29.7,98.2,DAL,QB,5,2017
 3,Carson Wentz,21,30,70.0,304,10.1,4,1,1,6,11,0,0,1,27.3,27.3,44.0,IND,QB,5,2017

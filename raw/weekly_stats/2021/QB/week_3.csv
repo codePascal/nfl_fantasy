@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,32,43,74.4,358,8.3,4,0,0,4,9,1,0,1,37.2,37.2,100.0,BUF,QB,3,2021
 2,Justin Herbert,26,38,68.4,281,7.4,4,0,1,4,16,0,0,1,30.8,30.8,98.8,LAC,QB,3,2021
 3,Matthew Stafford,27,38,71.1,343,9.0,4,0,1,2,-2,0,0,1,29.5,29.5,97.2,LAR,QB,3,2021

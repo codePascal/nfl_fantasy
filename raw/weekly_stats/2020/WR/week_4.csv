@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Odell Beckham Jr.,5,8,81,16.2,37,0,2,2,73,1,0,1,33.4,33.4,90.8,LAR,WR,4,2020
 2,D.J. Chark Jr.,8,9,95,11.9,22,0,2,0,0,0,0,1,21.5,21.5,17.9,JAC,WR,4,2020
 3,Amari Cooper,12,16,134,11.2,20,0,1,0,0,0,0,1,21.4,21.4,97.7,DAL,WR,4,2020

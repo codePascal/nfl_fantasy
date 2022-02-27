@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,12,15,253,21.1,51,7,2,1,15,0,0,1,38.8,38.8,60.7,TEN,WR,12,2017
 2,Antonio Brown,10,12,169,16.9,39,4,2,0,0,0,0,1,30.9,30.9,84.1,FA,WR,12,2017
 3,Robby Anderson,6,10,146,24.3,54,4,2,0,0,0,0,1,26.6,26.6,42.2,CAR,WR,12,2017

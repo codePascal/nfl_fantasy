@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Marvin Jones Jr.,6,8,205,34.2,73,4,2,0,0,0,0,1,32.5,32.5,55.4,JAC,WR,3,2016
 2,Terrelle Pryor Sr.,8,14,144,18.0,40,3,0,4,21,1,0,1,23.9,23.9,0.0,FA,WR,3,2016
 3,Emmanuel Sanders,9,13,117,13.0,41,1,2,0,0,0,0,1,23.7,23.7,46.6,BUF,WR,3,2016

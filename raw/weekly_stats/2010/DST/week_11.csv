@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cleveland Browns,4,4,2,2,1,0,0,1,32.0,32.0,40.8,CLE,DST,11,2010
 2,Baltimore Ravens,3,2,0,1,2,0,0,1,29.0,29.0,51.9,BAL,DST,11,2010
 3,Pittsburgh Steelers,6,2,1,3,0,0,0,1,22.0,22.0,44.6,PIT,DST,11,2010

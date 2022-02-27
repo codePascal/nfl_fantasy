@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyreek Hill,5,7,101,20.2,67,1,1,1,15,1,0,1,23.6,23.6,100.0,KC,WR,17,2018
 2,Chris Godwin,6,9,114,19.0,30,3,2,0,0,0,0,1,23.4,23.4,67.1,TB,WR,17,2018
 3,Mike Evans,6,9,106,17.7,33,1,2,0,0,0,0,1,22.6,22.6,97.8,TB,WR,17,2018

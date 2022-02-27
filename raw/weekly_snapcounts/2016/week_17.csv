@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,75,75,100,13,0,65,65,34.2,45.6,17,2016
 Alex Smith,QB,KC,1,58,58,95,10,0,59,59,24.7,42.6,17,2016
 Darren Sproles,RB,PHI,1,29,29,38,31,17,41,48,3.6,12.4,17,2016

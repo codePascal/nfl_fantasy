@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Prater,5,5,100.0,54,0,2,0,1,2,1,1,1,21.0,21.0,52.8,ARI,K,6,2019
 2,Joey Slye,3,5,60.0,49,0,1,0,2,0,4,4,1,15.0,15.0,1.6,WAS,K,6,2019
 3,Brett Maher,3,4,75.0,62,0,0,1,0,2,1,1,1,14.0,14.0,1.9,FA,K,6,2019

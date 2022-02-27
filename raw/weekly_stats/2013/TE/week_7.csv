@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jordan Reed,9,9,134,14.9,38,2,1,0,0,0,0,1,19.4,19.4,19.0,FA,TE,7,2013
 2,Rob Gronkowski,8,17,114,14.3,30,2,0,0,0,0,0,1,11.4,11.4,97.7,TB,TE,7,2013
 3,Tyler Eifert,3,4,45,15.0,32,1,1,0,0,0,0,1,10.5,10.5,0.0,FA,TE,7,2013

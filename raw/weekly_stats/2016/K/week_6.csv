@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Wil Lutz,2,3,66.7,52,0,0,1,0,1,5,5,1,13.0,13.0,3.3,NO,K,6,2016
 2,Josh Lambo,4,4,100.0,37,0,1,3,0,0,1,1,1,13.0,13.0,3.2,FA,K,6,2016
 3,Dan Bailey,3,3,100.0,44,0,1,1,1,0,3,3,1,13.0,13.0,0.0,FA,K,6,2016

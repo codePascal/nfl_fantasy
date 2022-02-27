@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Antonio Brown,9,13,196,21.8,45,5,2,0,0,0,0,1,31.6,31.6,84.1,FA,WR,3,2013
 2,Josh Gordon,10,19,146,14.6,47,3,1,1,22,0,0,1,22.8,22.8,1.8,KC,WR,3,2013
 3,Ted Ginn Jr.,3,4,71,23.7,47,1,1,1,11,0,0,1,14.2,14.2,0.0,FA,WR,3,2013

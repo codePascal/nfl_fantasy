@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Graham Gano,4,4,100.0,53,0,2,0,1,1,0,0,1,15.0,15.0,31.4,NYG,K,16,2011
 2,Mike Nugent,3,5,60.0,41,0,1,1,1,0,0,0,1,10.0,10.0,1.0,FA,K,16,2011
 3,Stephen Gostkowski,2,3,66.7,45,0,0,0,2,0,0,0,1,8.0,8.0,0.1,FA,K,16,2011

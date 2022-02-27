@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New England Patriots,6,4,0,1,0,0,1,1,25.0,25.0,93.2,NE,DST,2,2014
 2,Washington Commanders,10,1,0,0,0,0,0,1,16.0,16.0,27.5,WAS,DST,2,2014
 3,Baltimore Ravens,2,1,2,2,0,0,0,1,15.0,15.0,51.9,BAL,DST,2,2014

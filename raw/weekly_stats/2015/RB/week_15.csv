@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,David Johnson,29,187,6.4,47,1,3,4,4,42,10.5,0,0,1,40.9,40.9,35.4,HOU,RB,15,2015
 2,Danny Woodhead,8,10,1.3,8,0,1,6,6,50,8.3,3,0,1,30.0,30.0,20.6,FA,RB,15,2015
 3,Matt Forte,8,47,5.9,13,0,0,6,7,57,9.5,1,0,1,16.4,16.4,19.1,FA,RB,15,2015

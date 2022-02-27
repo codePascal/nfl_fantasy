@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Larry Fitzgerald,6,12,72,12.0,24,0,2,0,0,0,0,1,19.2,19.2,0.3,FA,WR,8,2010
 2,Dez Bryant,7,9,84,12.0,29,0,0,0,0,0,0,1,8.4,8.4,2.6,FA,WR,8,2010
 3,Golden Tate,2,7,36,18.0,24,0,0,0,0,0,0,1,3.6,3.6,0.1,FA,WR,8,2010

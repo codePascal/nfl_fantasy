@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Jason Sanders,36,39,92.3,56,1,8,7,12,8,36,36,16,172.0,10.8,22.6,MIA,K,2020
 2,Younghoe Koo,37,39,94.9,54,0,10,11,8,8,33,36,15,168.0,11.2,40.9,ATL,K,2020
 3,Tyler Bass,28,34,82.4,58,1,9,6,8,4,57,59,16,157.0,9.8,84.8,BUF,K,2020

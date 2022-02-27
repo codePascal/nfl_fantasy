@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyler Higbee,7,8,107,15.3,26,4,1,0,0,0,0,1,16.7,16.7,77.4,LAR,TE,13,2019
 2,Mike Gesicki,5,7,79,15.8,21,2,1,0,0,0,0,1,13.9,13.9,87.6,MIA,TE,13,2019
 3,Jack Doyle,6,11,73,12.2,21,1,1,0,0,0,0,1,13.3,13.3,2.2,IND,TE,13,2019

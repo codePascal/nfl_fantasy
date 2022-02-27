@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jared Goff,22,38,57.9,301,7.9,4,0,1,3,-6,0,1,1,25.4,25.4,5.3,DET,QB,16,2017
 2,Kirk Cousins,19,37,51.4,299,8.1,3,1,0,5,8,0,0,1,22.8,22.8,70.7,MIN,QB,16,2017
 3,Blake Bortles,32,50,64.0,382,7.6,2,3,1,5,31,0,0,1,22.4,22.4,0.1,NO,QB,16,2017

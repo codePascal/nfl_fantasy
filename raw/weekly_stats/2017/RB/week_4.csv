@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Le'Veon Bell,35,144,4.1,21,1,2,4,6,42,10.5,0,0,1,30.6,30.6,5.4,FA,RB,4,2017
 2,Todd Gurley II,23,121,5.3,17,0,0,7,8,94,13.4,1,0,1,27.5,27.5,0.4,FA,RB,4,2017
 3,Ezekiel Elliott,21,85,4.0,16,0,1,4,5,54,13.5,1,0,1,25.9,25.9,99.7,DAL,RB,4,2017

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Joe Mixon,29,127,4.4,19,0,1,4,4,23,5.8,0,0,1,21.0,21.0,98.1,CIN,RB,1,2021
 2,Nick Chubb,15,83,5.5,18,0,2,2,2,18,9.0,0,1,1,20.1,20.1,99.8,CLE,RB,1,2021
 3,Christian McCaffrey,21,98,4.7,18,0,0,9,9,89,9.9,0,0,1,18.7,18.7,47.2,CAR,RB,1,2021

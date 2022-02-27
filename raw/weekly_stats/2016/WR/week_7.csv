@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Davante Adams,13,16,132,10.2,24,1,2,0,0,0,0,1,25.2,25.2,100.0,GB,WR,7,2016
 2,A.J. Green,8,8,169,21.1,48,2,1,0,0,0,0,1,22.9,22.9,51.8,ARI,WR,7,2016
 3,Mike Evans,8,13,96,12.0,31,1,2,0,0,0,0,1,21.6,21.6,97.8,TB,WR,7,2016

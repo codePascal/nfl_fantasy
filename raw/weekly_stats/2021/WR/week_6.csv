@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,CeeDee Lamb,9,11,149,16.6,35,0,2,1,2,0,0,1,27.1,27.1,99.7,DAL,WR,6,2021
 2,Cooper Kupp,9,12,130,14.4,30,0,2,0,0,0,0,1,25.0,25.0,100.0,LAR,WR,6,2021
 3,Donovan Peoples-Jones,4,5,101,25.3,57,0,2,0,0,0,0,1,22.1,22.1,14.3,CLE,WR,6,2021

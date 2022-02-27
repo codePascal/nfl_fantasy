@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jordan Reed,9,11,129,14.3,28,2,2,0,0,0,0,1,24.9,24.9,19.0,FA,TE,16,2015
 2,Vance McDonald,5,7,61,12.2,26,2,1,0,0,0,0,1,12.1,12.1,0.0,FA,TE,16,2015
 3,Austin Seferian-Jenkins,2,4,60,30.0,43,1,1,0,0,0,0,1,12.0,12.0,0.0,FA,TE,16,2015

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deshaun Watson,19,24,79.2,210,8.8,2,0,4,9,70,1,0,1,29.4,29.4,5.0,HOU,QB,12,2018
 2,Dak Prescott,22,31,71.0,289,9.3,2,0,4,6,18,1,0,1,27.4,27.4,98.2,DAL,QB,12,2018
 3,Kirk Cousins,29,38,76.3,342,9.0,3,0,2,6,17,0,0,1,27.4,27.4,70.7,MIN,QB,12,2018

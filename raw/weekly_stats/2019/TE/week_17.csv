@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyler Higbee,8,12,84,10.5,22,1,1,0,0,0,0,1,14.4,14.4,77.4,LAR,TE,17,2019
 2,Dan Arnold,4,6,76,19.0,37,2,1,0,0,0,0,1,13.6,13.6,6.7,JAC,TE,17,2019
 3,Joshua Perkins,4,6,50,12.5,24,1,1,0,0,0,0,1,11.0,11.0,0.0,FA,TE,17,2019

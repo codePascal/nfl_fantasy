@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Nick Foles,22,28,78.6,406,14.5,7,0,1,4,10,0,0,1,45.2,45.2,0.7,CHI,QB,9,2013
 2,Tom Brady,23,33,69.7,432,13.1,4,0,3,1,-1,0,0,1,33.2,33.2,99.1,FA,QB,9,2013
 3,Case Keenum,20,34,58.8,350,10.3,3,0,1,3,26,0,0,1,28.6,28.6,0.9,CLE,QB,9,2013

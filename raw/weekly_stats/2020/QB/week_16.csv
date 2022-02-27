@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,27,36,75.0,320,8.9,4,0,0,4,35,0,0,1,32.3,32.3,100.0,BUF,QB,16,2020
 2,Tom Brady,22,27,81.5,348,12.9,4,0,1,0,0,0,0,1,29.9,29.9,99.1,FA,QB,16,2020
 3,Andy Dalton,22,30,73.3,377,12.6,3,1,2,5,15,0,0,1,27.6,27.6,1.6,CHI,QB,16,2020

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeMarco Murray,25,95,3.8,14,0,2,2,2,24,12.0,0,0,1,23.9,23.9,0.1,FA,RB,4,2016
 2,Ezekiel Elliott,23,138,6.0,26,2,1,1,1,19,19.0,0,0,1,21.7,21.7,99.7,DAL,RB,4,2016
 3,Matt Jones,22,117,5.3,25,1,1,2,2,21,10.5,0,0,1,19.8,19.8,0.0,FA,RB,4,2016

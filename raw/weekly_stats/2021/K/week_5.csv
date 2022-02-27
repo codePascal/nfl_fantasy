@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Nick Folk,4,4,100.0,52,0,1,1,0,2,1,2,1,17.0,17.0,81.8,NE,K,5,2021
 2,Greg Joseph,4,5,80.0,55,0,0,2,0,2,1,1,1,17.0,17.0,69.1,MIN,K,5,2021
 3,Mason Crosby,4,7,57.1,49,0,1,0,3,0,1,2,1,16.0,16.0,40.7,GB,K,5,2021

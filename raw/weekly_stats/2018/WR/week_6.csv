@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyreek Hill,7,12,142,20.3,75,2,3,1,0,0,0,1,32.2,32.2,100.0,KC,WR,6,2018
 2,Albert Wilson,6,9,155,25.8,75,3,2,1,-5,0,0,1,27.0,27.0,0.8,MIA,WR,6,2018
 3,Davante Adams,10,16,132,13.2,38,1,2,0,0,0,0,1,25.2,25.2,100.0,GB,WR,6,2018

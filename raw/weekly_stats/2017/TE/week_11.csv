@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jimmy Graham,7,11,58,8.3,12,0,1,0,0,0,0,1,13.8,13.8,0.8,CHI,TE,11,2017
 2,O.J. Howard,3,4,52,17.3,24,2,1,0,0,0,0,1,11.2,11.2,1.2,TB,TE,11,2017
 3,Adam Shaheen,4,4,41,10.3,22,1,1,0,0,0,0,1,10.1,10.1,0.0,MIA,TE,11,2017

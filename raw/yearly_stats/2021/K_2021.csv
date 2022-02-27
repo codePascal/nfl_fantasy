@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Daniel Carlson,40,43,93.0,56,0,10,12,12,6,30,33,17,174.0,10.2,74.3,LV,K,2021
 2,Nick Folk,36,39,92.3,53,0,9,11,11,5,42,47,17,171.0,10.1,81.8,NE,K,2021
 3,Chris Boswell,36,40,90.0,56,0,9,8,11,8,27,29,17,162.0,9.5,51.0,PIT,K,2021

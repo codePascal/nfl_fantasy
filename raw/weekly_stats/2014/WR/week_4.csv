@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Antonio Brown,7,11,131,18.7,27,3,2,0,0,0,0,1,25.8,25.8,84.1,FA,WR,4,2014
 2,Randall Cobb,7,9,113,16.1,46,3,2,0,0,0,0,1,23.3,23.3,7.6,GB,WR,4,2014
 3,Mike Evans,4,7,65,16.3,40,1,1,0,0,0,0,1,12.5,12.5,97.8,TB,WR,4,2014

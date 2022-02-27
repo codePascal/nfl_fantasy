@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tom Brady,31,40,77.5,423,10.6,3,0,2,2,3,0,0,1,29.2,29.2,99.1,FA,QB,2,2011
 2,Cam Newton,28,46,60.9,432,9.4,1,3,4,10,53,1,0,1,26.6,26.6,20.3,CAR,QB,2,2011
 3,Matthew Stafford,23,39,59.0,294,7.5,4,1,0,1,1,0,0,1,25.9,25.9,97.2,LAR,QB,2,2011

@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Tucker,4,4,100.0,57,0,0,1,0,3,1,1,1,19.0,19.0,98.0,BAL,K,12,2016
 2,Matt Prater,3,3,100.0,48,0,1,0,2,0,1,1,1,12.0,12.0,52.8,ARI,K,12,2016
 3,Stephen Gostkowski,3,4,75.0,41,0,2,0,1,0,1,1,1,11.0,11.0,0.1,FA,K,12,2016

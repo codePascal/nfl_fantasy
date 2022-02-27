@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jimmy Graham,9,12,116,12.9,51,1,2,0,0,0,0,1,23.6,23.6,0.8,CHI,TE,9,2013
 2,Rob Gronkowski,9,10,143,15.9,34,2,1,0,0,0,0,1,20.3,20.3,97.7,TB,TE,9,2013
 3,Jason Witten,8,10,102,12.8,26,2,1,0,0,0,0,1,16.2,16.2,0.1,FA,TE,9,2013

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Leonard Fournette,24,97,4.0,16,0,2,9,12,62,6.9,0,0,1,27.9,27.9,74.8,TB,RB,12,2019
 2,Derrick Henry,19,159,8.4,74,1,2,1,1,16,16.0,0,1,1,27.5,27.5,78.0,TEN,RB,12,2019
 3,Christian McCaffrey,22,64,2.9,9,0,1,9,9,69,7.7,1,0,1,25.3,25.3,47.2,CAR,RB,12,2019

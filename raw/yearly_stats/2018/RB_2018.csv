@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Todd Gurley II,256,1251,4.9,36,11,17,59,81,580,9.8,4,1,14,313.1,22.4,0.4,FA,RB,2018
 2,Saquon Barkley,261,1307,5.0,78,16,11,91,121,721,7.9,4,0,16,294.8,18.4,97.6,NYG,RB,2018
 3,Christian McCaffrey,219,1098,5.0,59,6,7,107,124,867,8.1,6,1,16,278.5,17.4,47.2,CAR,RB,2018

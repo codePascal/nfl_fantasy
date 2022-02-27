@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Larry Fitzgerald,8,9,112,14.0,28,3,3,0,0,0,0,1,29.2,29.2,0.3,FA,WR,2,2015
 2,Antonio Brown,9,11,195,21.7,59,3,1,0,0,0,0,1,27.5,27.5,84.1,FA,WR,2,2015
 3,Allen Robinson II,6,12,155,25.8,52,3,2,0,0,0,0,1,27.5,27.5,53.7,CHI,WR,2,2015

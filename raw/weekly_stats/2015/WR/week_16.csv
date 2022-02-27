@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,9,11,178,19.8,70,3,1,0,0,0,0,1,23.8,23.8,60.7,TEN,WR,16,2015
 2,Brandon Marshall,8,10,115,14.4,33,2,2,0,0,0,0,1,23.5,23.5,2.6,FA,WR,16,2015
 3,Allen Hurns,8,10,107,13.4,24,2,2,0,0,0,0,1,22.6,22.6,0.0,MIA,WR,16,2015

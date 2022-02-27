@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Devonta Freeman,265,1056,4.0,39,6,11,73,97,578,7.9,3,2,15,243.9,16.3,74.2,BAL,RB,2015
 2,Adrian Peterson,327,1485,4.5,80,10,11,30,36,222,7.4,0,3,16,230.7,14.4,4.9,SEA,RB,2015
 3,Doug Martin,288,1402,4.9,84,14,6,33,44,271,8.2,1,5,16,199.3,12.5,0.0,FA,RB,2015

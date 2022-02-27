@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Todd Gurley II,23,132,5.7,36,2,2,3,5,33,11.0,0,0,1,28.5,28.5,0.4,FA,RB,13,2018
 2,Phillip Lindsay,19,157,8.3,65,1,2,1,1,2,2.0,0,0,1,27.9,27.9,9.0,MIA,RB,13,2018
 3,Tarik Cohen,8,30,3.8,11,0,0,12,14,156,13.0,0,0,1,22.6,22.6,3.0,CHI,RB,13,2018

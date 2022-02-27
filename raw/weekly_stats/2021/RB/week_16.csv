@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Damien Harris,18,103,5.7,31,0,3,0,0,0,0.0,0,0,1,28.3,28.3,89.8,NE,RB,16,2021
 2,Rex Burkhead,22,149,6.8,36,0,2,2,2,0,0.0,0,0,1,26.9,26.9,31.5,HOU,RB,16,2021
 3,Justin Jackson,11,64,5.8,17,0,2,8,9,98,12.3,0,1,1,26.2,26.2,42.5,LAC,RB,16,2021

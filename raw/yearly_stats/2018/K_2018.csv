@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Ka'imi Fairbairn,37,42,88.1,54,1,9,11,12,4,39,41,16,170.0,10.6,0.8,HOU,K,2018
 2,Justin Tucker,35,39,89.7,56,0,12,9,9,5,36,37,16,160.0,10.0,98.0,BAL,K,2018
 3,Jason Myers,33,36,91.7,56,0,4,13,10,6,30,33,16,151.0,9.4,22.1,SEA,K,2018

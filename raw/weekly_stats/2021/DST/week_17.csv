@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,4,2,2,3,0,1,0,1,21.0,21.0,35.9,CHI,DST,17,2021
 2,New Orleans Saints,7,1,1,1,0,0,0,1,15.0,15.0,79.3,NO,DST,17,2021
 3,Tennessee Titans,4,1,1,1,0,0,0,1,15.0,15.0,48.4,TEN,DST,17,2021

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kyle Rudolph,9,9,122,13.6,44,1,2,0,0,0,0,1,24.2,24.2,0.3,NYG,TE,16,2018
 2,Zach Ertz,12,16,110,9.2,23,2,2,0,0,0,0,1,23.0,23.0,85.8,ARI,TE,16,2018
 3,Mark Andrews,2,2,83,41.5,68,1,1,0,0,0,0,1,14.3,14.3,99.9,BAL,TE,16,2018

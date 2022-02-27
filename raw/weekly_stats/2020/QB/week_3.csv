@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Patrick Mahomes II,31,42,73.8,385,9.2,4,0,0,4,26,1,0,1,40.0,40.0,100.0,KC,QB,3,2020
 2,Russell Wilson,27,40,67.5,315,7.9,5,0,4,6,22,0,0,1,36.8,36.8,90.4,SEA,QB,3,2020
 3,Josh Allen,24,33,72.7,311,9.4,4,1,4,4,8,1,1,1,32.2,32.2,100.0,BUF,QB,3,2020

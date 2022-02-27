@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mike Williams,8,16,165,20.6,72,0,2,0,0,0,0,1,28.5,28.5,91.9,LAC,WR,5,2021
 2,Davante Adams,11,16,206,18.7,59,0,1,0,0,0,0,1,26.6,26.6,100.0,GB,WR,5,2021
 3,Marquise Brown,9,10,125,13.9,43,0,2,0,0,0,0,1,24.5,24.5,92.8,BAL,WR,5,2021

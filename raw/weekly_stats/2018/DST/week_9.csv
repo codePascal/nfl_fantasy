@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chicago Bears,4,3,1,1,2,0,0,1,28.0,28.0,35.9,CHI,DST,9,2018
 2,Miami Dolphins,4,4,0,0,1,0,0,1,25.0,25.0,60.2,MIA,DST,9,2018
 3,Minnesota Vikings,10,0,1,0,1,0,0,1,22.0,22.0,28.0,MIN,DST,9,2018

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,34,49,69.4,465,9.5,4,1,1,0,0,0,0,1,32.6,32.6,35.7,FA,QB,6,2016
 2,Case Keenum,27,32,84.4,321,10.0,3,1,1,3,7,1,0,1,29.5,29.5,0.9,CLE,QB,6,2016
 3,Matthew Stafford,23,31,74.2,270,8.7,4,0,1,5,14,0,0,1,28.2,28.2,97.2,LAR,QB,6,2016

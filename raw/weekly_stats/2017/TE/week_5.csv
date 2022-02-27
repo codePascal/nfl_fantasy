@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ed Dickson,5,5,175,35.0,64,3,0,0,0,0,0,1,17.5,17.5,0.0,FA,TE,5,2017
 2,Darren Fells,2,2,24,12.0,20,1,2,0,0,0,0,1,14.4,14.4,0.0,FA,TE,5,2017
 3,George Kittle,7,9,83,11.9,27,1,1,0,0,0,0,1,14.3,14.3,99.7,SF,TE,5,2017

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Michael Carter,15,77,5.1,18,0,1,9,14,95,10.6,0,0,1,23.2,23.2,79.1,NYJ,RB,8,2021
 2,Darrell Henderson Jr.,14,90,6.4,19,0,1,1,2,3,3.0,1,0,1,21.3,21.3,76.0,LAR,RB,8,2021
 3,Joe Mixon,14,33,2.4,8,0,1,4,5,58,14.5,1,0,1,21.1,21.1,98.1,CIN,RB,8,2021

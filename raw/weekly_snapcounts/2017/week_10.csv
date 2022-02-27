@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,ARI,1,36,36,45,58,6,61,64,2.2,6.1,10,2017
 Ben Roethlisberger,QB,PIT,1,67,67,100,3,0,49,49,17.9,26.7,10,2017
 Brian Hoyer,QB,NE,1,9,9,13,0,0,33,33,1.5,16.7,10,2017

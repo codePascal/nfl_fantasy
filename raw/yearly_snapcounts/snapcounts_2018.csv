@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,year
 Aaron Rodgers,QB,GB,16,1011,63,94,4,0,63,63,312.5,30.9,2018
 Adrian Peterson,RB,WAS,16,479,30,47,52,5,57,58,169.0,35.3,2018
 Alex Smith,QB,WAS,10,651,65,96,6,0,57,57,137.9,21.2,2018

@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,74,74,95,4,0,73,73,27.5,37.2,10,2016
 Alex Smith,QB,KC,1,64,64,100,6,0,66,66,8.4,13.1,10,2016
 Ben Roethlisberger,QB,PIT,1,73,73,99,1,0,64,64,28.4,38.9,10,2016

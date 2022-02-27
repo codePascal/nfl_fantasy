@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,10,13,191,19.1,69,0,2,0,0,0,0,1,31.1,31.1,100.0,KC,TE,15,2021
 2,Mark Andrews,10,13,136,13.6,43,0,2,0,0,0,0,1,25.6,25.6,99.9,BAL,TE,15,2021
 3,Hunter Henry,6,8,77,12.8,25,0,2,0,0,0,0,1,19.7,19.7,65.9,NE,TE,15,2021

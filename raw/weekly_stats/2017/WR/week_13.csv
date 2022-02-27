@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyreek Hill,6,9,185,30.8,79,3,2,0,0,0,0,1,30.5,30.5,100.0,KC,WR,13,2017
 2,Nelson Agholor,7,12,141,20.1,51,3,1,0,0,0,0,1,20.1,20.1,13.6,NE,WR,13,2017
 3,A.J. Green,7,16,77,11.0,17,0,2,0,0,0,0,1,19.7,19.7,51.8,ARI,WR,13,2017

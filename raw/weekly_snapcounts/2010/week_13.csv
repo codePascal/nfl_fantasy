@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,SEA,1,18,18,26,61,0,61,61,7.6,42.2,13,2010
 Ben Roethlisberger,QB,PIT,1,60,60,100,2,0,53,53,19.3,32.2,13,2010
 DeSean Jackson,WR,LV,1,24,24,41,0,4,4,4,1.4,5.8,13,2010

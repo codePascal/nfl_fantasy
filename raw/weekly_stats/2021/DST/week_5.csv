@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Buffalo Bills,2,2,2,0,1,0,0,1,17.0,17.0,95.9,BUF,DST,5,2021
 2,Tennessee Titans,2,1,1,1,1,0,0,1,13.0,13.0,48.4,TEN,DST,5,2021
 3,Philadelphia Eagles,3,3,0,0,0,0,0,1,12.0,12.0,52.5,PHI,DST,5,2021

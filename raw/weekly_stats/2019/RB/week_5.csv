@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Aaron Jones,19,107,5.6,18,0,4,7,8,75,10.7,0,0,1,42.2,42.2,98.9,GB,RB,5,2019
 2,Christian McCaffrey,19,176,9.3,84,1,2,6,8,61,10.2,1,0,1,41.7,41.7,47.2,CAR,RB,5,2019
 3,Josh Jacobs,26,123,4.7,21,1,2,3,3,20,6.7,0,0,1,26.3,26.3,98.0,LV,RB,5,2019

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Larry Fitzgerald,3,15,43,14.3,21,0,1,0,0,0,0,1,10.3,10.3,0.3,FA,WR,1,2010
 2,Dez Bryant,8,13,56,7.0,15,0,0,0,0,0,0,1,5.6,5.6,2.6,FA,WR,1,2010
 3,DeSean Jackson,4,11,30,7.5,12,0,0,0,0,0,0,1,3.0,3.0,4.4,LV,WR,1,2010

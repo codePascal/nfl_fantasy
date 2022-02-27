@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Odell Beckham Jr.,12,21,185,15.4,63,2,1,0,0,0,0,1,24.5,24.5,90.8,LAR,WR,17,2014
 2,Dez Bryant,4,6,99,24.8,65,2,2,0,0,0,0,1,21.9,21.9,2.6,FA,WR,17,2014
 3,Antonio Brown,7,13,128,18.3,63,1,1,0,0,0,0,1,18.8,18.8,84.1,FA,WR,17,2014

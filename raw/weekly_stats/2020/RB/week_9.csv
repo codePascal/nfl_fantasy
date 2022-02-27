@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dalvin Cook,22,206,9.4,70,0,2,2,2,46,23.0,0,0,1,37.2,37.2,100.0,MIN,RB,9,2020
 2,Christian McCaffrey,18,69,3.8,13,0,1,10,10,82,8.2,1,0,1,27.1,27.1,47.2,CAR,RB,9,2020
 3,James Robinson,25,99,4.0,12,0,1,0,2,0,0.0,0,0,1,15.9,15.9,76.3,JAC,RB,9,2020

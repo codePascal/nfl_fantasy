@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Houston Texans,3,4,1,1,1,0,0,1,20.0,20.0,6.4,HOU,DST,16,2019
 2,Indianapolis Colts,5,3,0,0,0,0,2,1,18.0,18.0,66.4,IND,DST,16,2019
 3,New York Jets,4,2,0,0,0,0,0,1,12.0,12.0,3.3,NYJ,DST,16,2019

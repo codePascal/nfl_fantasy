@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New York Giants,8,2,1,2,1,0,0,1,27.0,27.0,4.5,NYG,DST,14,2014
 2,Cleveland Browns,3,2,2,2,2,0,0,1,23.0,23.0,40.8,CLE,DST,14,2014
 3,Minnesota Vikings,3,1,1,1,1,0,0,1,13.0,13.0,28.0,MIN,DST,14,2014

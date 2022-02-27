@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Hunter Henry,4,4,37,9.3,19,0,2,0,0,0,0,1,15.7,15.7,65.9,NE,TE,10,2021
 2,Tyler Conklin,3,5,11,3.7,5,0,2,0,0,0,0,1,13.1,13.1,40.5,MIN,TE,10,2021
 3,Mark Andrews,6,8,63,10.5,15,0,1,0,0,0,0,1,12.3,12.3,99.9,BAL,TE,10,2021

@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Chris Hogan,5,7,129,25.8,79,2,1,2,7,0,0,1,19.6,19.6,0.0,FA,WR,14,2016
 2,J.J. Nelson,1,2,8,8.0,8,0,1,1,56,1,0,1,18.4,18.4,0.0,IND,WR,14,2016
 3,T.Y. Hilton,9,13,115,12.8,35,1,1,0,0,0,0,1,17.5,17.5,16.8,IND,WR,14,2016

@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Austin Ekeler,12,58,4.8,19,0,1,6,7,96,16.0,2,0,1,33.4,33.4,99.9,LAC,RB,1,2019
 2,Christian McCaffrey,19,128,6.7,23,1,2,10,11,81,8.1,0,0,1,32.9,32.9,47.2,CAR,RB,1,2019
 3,Derrick Henry,19,84,4.4,18,0,1,1,2,75,75.0,1,0,1,27.9,27.9,78.0,TEN,RB,1,2019

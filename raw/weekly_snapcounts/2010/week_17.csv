@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,63,63,84,3,0,63,63,20.3,32.2,17,2010
 Ben Roethlisberger,QB,PIT,1,81,81,100,1,0,58,58,7.8,9.6,17,2010
 Brian Hoyer,QB,NE,1,13,13,18,15,0,46,46,2.6,20.0,17,2010

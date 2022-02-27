@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Dallas Cowboys,41,26,8,13,6,0,3,17,185.0,10.9,82.9,DAL,DST,2021
 2,New England Patriots,36,23,7,11,3,0,0,17,161.0,9.5,93.2,NE,DST,2021
 3,Miami Dolphins,48,14,13,14,5,0,1,17,155.0,9.1,60.2,MIA,DST,2021

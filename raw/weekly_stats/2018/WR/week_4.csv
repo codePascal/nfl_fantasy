@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cooper Kupp,9,11,162,18.0,70,2,2,0,0,0,0,1,28.2,28.2,100.0,LAR,WR,4,2018
 2,Golden Tate,8,8,132,16.5,45,3,2,0,0,0,0,1,25.2,25.2,0.1,FA,WR,4,2018
 3,Taylor Gabriel,7,7,104,14.9,33,2,2,1,10,0,0,1,23.4,23.4,0.1,FA,WR,4,2018

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New Orleans Saints,2,2,1,0,1,0,0,1,18.0,18.0,79.3,NO,DST,17,2019
 2,Baltimore Ravens,2,0,2,2,1,1,0,1,18.0,18.0,51.9,BAL,DST,17,2019
 3,Atlanta Falcons,1,2,1,2,1,0,0,1,14.0,14.0,5.8,ATL,DST,17,2019

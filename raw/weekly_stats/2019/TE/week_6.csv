@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Hunter Henry,8,9,100,12.5,21,1,2,0,0,0,0,1,22.0,22.0,65.9,NE,TE,6,2019
 2,Austin Hooper,8,8,117,14.6,30,2,1,0,0,0,0,1,17.7,17.7,28.8,CLE,TE,6,2019
 3,Ricky Seals-Jones,3,6,47,15.7,31,1,1,0,0,0,0,1,10.7,10.7,10.8,WAS,TE,6,2019

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Philip Rivers,23,38,60.5,358,9.4,3,0,2,1,-1,0,0,1,26.2,26.2,20.6,FA,QB,4,2015
 2,Sam Bradford,15,28,53.6,270,9.6,3,0,5,1,14,0,0,1,24.2,24.2,0.0,FA,QB,4,2015
 3,Drew Brees,33,41,80.5,359,8.8,2,0,3,0,0,0,0,1,22.4,22.4,35.7,FA,QB,4,2015

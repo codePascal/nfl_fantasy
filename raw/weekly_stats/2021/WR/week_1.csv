@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyreek Hill,11,15,197,17.9,75,0,1,1,4,0,0,1,26.1,26.1,100.0,KC,WR,1,2021
 2,Amari Cooper,13,17,139,10.7,28,0,2,0,0,0,0,1,25.9,25.9,97.7,DAL,WR,1,2021
 3,Deebo Samuel,9,12,189,21.0,79,0,1,0,0,0,1,1,22.9,22.9,98.8,SF,WR,1,2021

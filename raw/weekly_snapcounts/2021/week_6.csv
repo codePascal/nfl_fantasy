@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,59,59,100,12,0,51,51,23.7,40.2,6,2021
 Ben Roethlisberger,QB,PIT,1,75,75,100,3,0,56,56,10.9,14.5,6,2021
 DeSean Jackson,WR,LAR,1,16,16,24,0,6,6,6,0.6,3.8,6,2021

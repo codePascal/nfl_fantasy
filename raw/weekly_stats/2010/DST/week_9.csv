@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Green Bay Packers,4,2,2,2,2,0,0,1,34.0,34.0,60.6,GB,DST,9,2010
 2,Arizona Cardinals,3,2,1,0,1,0,1,1,25.0,25.0,60.9,ARI,DST,9,2010
 3,New Orleans Saints,4,1,1,1,1,0,0,1,24.0,24.0,79.3,NO,DST,9,2010

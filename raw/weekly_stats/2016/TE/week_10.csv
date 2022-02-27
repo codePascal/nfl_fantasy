@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Delanie Walker,9,11,124,13.8,41,1,1,0,0,0,0,1,18.4,18.4,0.1,FA,TE,10,2016
 2,Cameron Brate,7,7,84,12.0,16,0,1,0,0,0,0,1,14.4,14.4,2.8,TB,TE,10,2016
 3,Kyle Rudolph,5,8,69,13.8,20,2,1,0,0,0,0,1,12.9,12.9,0.3,NYG,TE,10,2016

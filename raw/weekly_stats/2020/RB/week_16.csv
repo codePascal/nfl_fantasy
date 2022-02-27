@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alvin Kamara,22,155,7.0,40,0,6,3,5,17,5.7,0,0,1,53.2,53.2,100.0,NO,RB,16,2020
 2,Myles Gaskin,14,87,6.2,24,0,0,5,5,82,16.4,2,0,1,28.9,28.9,83.2,MIA,RB,16,2020
 3,Jeff Wilson Jr.,22,183,8.3,34,0,0,1,2,21,21.0,1,0,1,26.4,26.4,56.1,SF,RB,16,2020

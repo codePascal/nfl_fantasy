@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Marcedes Lewis,4,5,54,13.5,27,0,2,0,0,0,0,1,17.4,17.4,0.2,GB,TE,5,2010
 2,Jason Witten,5,9,84,16.8,31,0,1,0,0,0,0,1,14.4,14.4,0.1,FA,TE,5,2010
 3,Cole Kmet,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,33.3,CHI,TE,5,2010

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jared Goff,14,22,63.6,311,14.1,4,0,0,0,0,0,0,1,28.4,28.4,5.3,DET,QB,9,2017
 2,Tyrod Taylor,29,40,72.5,285,7.1,2,0,7,6,35,1,1,1,26.9,26.9,4.9,HOU,QB,9,2017
 3,Dak Prescott,21,33,63.6,249,7.5,2,0,1,3,27,1,0,1,26.7,26.7,98.2,DAL,QB,9,2017

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ben Roethlisberger,36,49,73.5,384,7.8,4,0,1,1,8,0,0,1,32.2,32.2,23.8,FA,QB,3,2012
 2,Joe Flacco,28,39,71.8,382,9.8,3,1,0,2,3,0,0,1,25.6,25.6,0.3,NYJ,QB,3,2012
 3,Matt Schaub,17,30,56.7,290,9.7,4,1,1,0,0,0,0,1,25.6,25.6,0.0,FA,QB,3,2012

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,31,35,88.6,325,9.3,5,0,2,0,0,0,0,1,33.0,33.0,35.7,FA,QB,7,2011
 2,Aaron Rodgers,24,30,80.0,335,11.2,3,0,4,2,8,0,0,1,26.2,26.2,97.4,GB,QB,7,2011
 3,Ben Roethlisberger,26,39,66.7,361,9.3,3,0,2,2,-2,0,0,1,26.2,26.2,23.8,FA,QB,7,2011

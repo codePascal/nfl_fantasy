@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Gordon,10,15,261,26.1,95,6,2,0,0,0,0,1,38.1,38.1,1.8,KC,WR,13,2013
 2,Alshon Jeffery,12,15,249,20.8,80,3,2,1,0,0,0,1,36.9,36.9,0.1,FA,WR,13,2013
 3,A.J. Green,5,7,83,16.6,28,2,1,0,0,0,0,1,14.3,14.3,51.8,ARI,WR,13,2013

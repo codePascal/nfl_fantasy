@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dalton Schultz,6,7,80,13.3,22,0,2,0,0,0,0,1,20.0,20.0,89.9,DAL,TE,3,2021
 2,Tyler Conklin,7,8,70,10.0,17,0,1,0,0,0,0,1,13.0,13.0,40.5,MIN,TE,3,2021
 3,Zach Ertz,4,7,53,13.3,27,0,1,0,0,0,0,1,11.3,11.3,85.8,ARI,TE,3,2021

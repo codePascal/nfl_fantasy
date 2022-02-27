@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Adrian Peterson,23,140,6.1,60,1,2,0,1,0,0.0,0,0,1,26.0,26.0,4.9,SEA,RB,4,2013
 2,Le'Veon Bell,16,57,3.6,11,0,2,4,5,27,6.8,0,0,1,20.4,20.4,5.4,FA,RB,4,2013
 3,Frank Gore,20,153,7.7,34,2,1,0,2,0,0.0,0,1,1,19.3,19.3,12.2,FA,RB,4,2013

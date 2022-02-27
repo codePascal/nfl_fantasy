@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jameis Winston,28,41,68.3,385,9.4,4,1,2,1,-1,0,0,1,30.3,30.3,5.2,NO,QB,4,2019
 2,Aaron Rodgers,34,53,64.2,422,8.0,2,1,1,5,46,0,1,1,26.5,26.5,97.4,GB,QB,4,2019
 3,Lamar Jackson,24,34,70.6,247,7.3,3,2,4,9,66,0,0,1,26.5,26.5,94.0,BAL,QB,4,2019

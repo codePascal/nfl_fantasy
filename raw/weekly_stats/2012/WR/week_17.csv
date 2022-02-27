@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,T.Y. Hilton,4,6,111,27.8,70,1,1,0,0,0,0,1,17.1,17.1,16.8,IND,WR,17,2012
 2,Golden Tate,3,4,105,35.0,44,3,0,0,0,0,0,1,10.5,10.5,0.1,FA,WR,17,2012
 3,Marvin Jones Jr.,5,8,45,9.0,14,0,1,0,0,0,0,1,10.5,10.5,55.4,JAC,WR,17,2012

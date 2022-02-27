@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cincinnati Bengals,4,3,1,2,1,0,1,1,26.0,26.0,14.7,CIN,DST,11,2013
 2,Buffalo Bills,4,3,1,1,1,0,0,1,19.0,19.0,95.9,BUF,DST,11,2013
 3,Seattle Seahawks,2,3,1,1,1,0,0,1,17.0,17.0,39.4,SEA,DST,11,2013

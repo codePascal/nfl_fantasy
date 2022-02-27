@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Duke Johnson Jr.,22,107,4.9,12,0,2,1,1,20,20.0,0,0,1,24.7,24.7,7.4,MIA,RB,15,2021
 2,Jonathan Taylor,29,170,5.9,67,0,1,0,0,0,0.0,0,0,1,23.0,23.0,100.0,IND,RB,15,2021
 3,Jeff Wilson Jr.,21,110,5.2,17,0,1,2,2,9,4.5,0,0,1,17.9,17.9,56.1,SF,RB,15,2021

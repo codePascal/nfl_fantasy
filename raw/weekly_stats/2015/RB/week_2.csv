@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeAngelo Williams,20,77,3.9,16,0,3,4,5,15,3.8,0,0,1,27.2,27.2,0.1,FA,RB,2,2015
 2,Matt Jones,19,123,6.5,39,2,2,3,3,23,7.7,0,1,1,24.6,24.6,0.0,FA,RB,2,2015
 3,Dion Lewis,7,40,5.7,13,0,1,6,9,98,16.3,0,1,1,17.8,17.8,2.0,FA,RB,2,2015

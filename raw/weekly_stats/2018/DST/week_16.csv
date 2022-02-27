@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Baltimore Ravens,4,2,1,1,1,0,0,1,20.0,20.0,51.9,BAL,DST,16,2018
 2,Jacksonville Jaguars,3,1,1,1,1,0,0,1,17.0,17.0,6.9,JAC,DST,16,2018
 3,Atlanta Falcons,2,3,1,1,0,0,0,1,14.0,14.0,5.8,ATL,DST,16,2018

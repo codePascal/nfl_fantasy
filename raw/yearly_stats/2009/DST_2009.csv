@@ -1,0 +1,33 @@
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+1,New Orleans Saints,35,26,13,12,8,0,1,16,315.0,19.7,79.3,NO,DST,2009
+2,Philadelphia Eagles,44,25,13,11,4,2,2,16,306.0,19.1,52.5,PHI,DST,2009
+3,Green Bay Packers,37,30,10,10,4,1,0,16,301.0,18.8,60.6,GB,DST,2009
+4,San Francisco 49ers,44,18,15,21,3,0,1,16,293.0,18.3,79.5,SF,DST,2009
+5,Baltimore Ravens,32,22,10,13,3,0,1,16,272.0,17.0,51.9,BAL,DST,2009
+6,Tennessee Titans,32,20,7,14,4,0,0,16,271.0,16.9,48.4,TEN,DST,2009
+7,Arizona Cardinals,43,21,8,11,1,0,2,16,267.0,16.7,60.9,ARI,DST,2009
+8,Denver Broncos,39,17,13,18,2,0,2,16,266.0,16.6,48.5,DEN,DST,2009
+9,New York Jets,32,17,14,11,2,0,2,16,265.0,16.6,3.3,NYJ,DST,2009
+10,Tampa Bay Buccaneers,28,19,10,8,2,0,3,16,264.0,16.5,98.0,TB,DST,2009
+11,Buffalo Bills,32,28,5,12,2,0,0,16,262.0,16.4,95.9,BUF,DST,2009
+12,Kansas City Chiefs,22,15,13,11,3,1,1,16,262.0,16.4,45.7,KC,DST,2009
+13,Chicago Bears,35,13,15,21,1,1,2,16,261.0,16.3,35.9,CHI,DST,2009
+14,Carolina Panthers,31,22,15,20,1,2,0,16,261.0,16.3,27.8,CAR,DST,2009
+15,Pittsburgh Steelers,47,12,10,14,3,0,0,16,261.0,16.3,44.6,PIT,DST,2009
+16,Atlanta Falcons,28,15,13,17,3,0,0,16,259.0,16.2,5.8,ATL,DST,2009
+17,New York Giants,32,13,11,18,3,0,1,16,259.0,16.2,4.5,NYG,DST,2009
+18,Cincinnati Bengals,34,19,6,8,3,0,1,16,257.0,16.1,14.7,CIN,DST,2009
+19,Minnesota Vikings,48,11,13,20,1,1,2,16,256.0,16.0,28.0,MIN,DST,2009
+20,Miami Dolphins,44,15,6,11,2,0,2,16,255.0,15.9,60.2,MIA,DST,2009
+21,New England Patriots,31,18,10,13,3,0,0,16,253.0,15.8,93.2,NE,DST,2009
+22,Indianapolis Colts,34,16,9,13,2,0,1,16,253.0,15.8,66.4,IND,DST,2009
+23,Houston Texans,30,14,13,12,2,2,1,16,251.0,15.7,6.4,HOU,DST,2009
+24,Seattle Seahawks,28,13,10,11,3,0,0,16,250.0,15.6,39.4,SEA,DST,2009
+25,Dallas Cowboys,42,11,10,17,1,0,2,16,249.0,15.6,82.9,DAL,DST,2009
+26,Detroit Lions,26,9,13,16,3,2,0,16,245.0,15.3,1.1,DET,DST,2009
+27,Cleveland Browns,40,10,9,8,0,1,4,16,231.0,14.4,40.8,CLE,DST,2009
+28,Washington Commanders,40,11,6,14,0,0,0,16,219.0,13.7,27.5,WAS,DST,2009
+29,Jacksonville Jaguars,14,15,10,15,0,0,0,16,218.0,13.6,6.9,JAC,DST,2009
+30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2009
+31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2009
+32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2009

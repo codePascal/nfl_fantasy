@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Doug Baldwin,6,8,59,9.8,18,0,3,0,0,0,0,1,23.9,23.9,0.0,FA,WR,10,2016
 2,Antonio Brown,14,18,154,11.0,44,2,1,1,-10,0,0,1,20.4,20.4,84.1,FA,WR,10,2016
 3,Allen Robinson II,9,13,107,11.9,19,0,1,0,0,0,0,1,18.7,18.7,53.7,CHI,WR,10,2016

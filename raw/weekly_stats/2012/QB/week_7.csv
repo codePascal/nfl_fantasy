@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,27,37,73.0,377,10.2,4,1,0,1,1,0,0,1,29.2,29.2,35.7,FA,QB,7,2012
 2,Aaron Rodgers,30,37,81.1,342,9.2,3,0,3,2,0,0,0,1,25.7,25.7,97.4,GB,QB,7,2012
 3,Robert Griffin III,20,28,71.4,258,9.2,2,1,3,9,89,0,1,1,23.2,23.2,0.6,FA,QB,7,2012

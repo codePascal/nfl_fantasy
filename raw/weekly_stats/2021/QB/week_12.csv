@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Josh Allen,23,28,82.1,260,9.3,4,2,2,8,43,0,0,1,28.7,28.7,100.0,BUF,QB,12,2021
 2,Aaron Rodgers,28,45,62.2,307,6.8,2,0,1,2,0,1,0,1,26.3,26.3,97.4,GB,QB,12,2021
 3,Dak Prescott,32,47,68.1,375,8.0,2,0,1,1,3,0,0,1,25.3,25.3,98.2,DAL,QB,12,2021

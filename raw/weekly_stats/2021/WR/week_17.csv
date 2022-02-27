@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Ja'Marr Chase,11,12,266,24.2,72,0,3,0,0,0,0,1,44.6,44.6,98.5,CIN,WR,17,2021
 2,Amon-Ra St. Brown,8,11,111,13.9,31,0,1,2,23,1,0,1,27.4,27.4,82.8,DET,WR,17,2021
 3,D.K. Metcalf,6,9,63,10.5,17,0,3,1,6,0,0,1,24.9,24.9,98.9,SEA,WR,17,2021

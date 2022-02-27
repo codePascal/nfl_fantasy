@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Amari Cooper,12,15,173,14.4,34,4,1,0,0,0,0,1,23.3,23.3,97.7,DAL,WR,8,2016
 2,J.J. Nelson,8,12,79,9.9,19,0,2,0,0,0,0,1,19.9,19.9,0.0,IND,WR,8,2016
 3,Dez Bryant,4,14,113,28.3,53,3,1,0,0,0,0,1,17.3,17.3,2.6,FA,WR,8,2016

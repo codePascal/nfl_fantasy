@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,ARI,1,50,50,68,40,10,48,50,9.9,19.8,12,2017
 Alex Smith,QB,KC,1,58,58,100,9,0,71,71,13.5,23.3,12,2017
 Ben Roethlisberger,QB,PIT,1,74,74,100,4,0,65,65,30.5,41.2,12,2017

@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Stephen Gostkowski,33,36,91.7,57,0,6,11,12,4,52,52,16,171.0,10.7,0.1,FA,K,2015
 2,Graham Gano,30,36,83.3,52,1,10,4,13,2,56,58,16,163.0,10.2,31.4,NYG,K,2015
 3,Blair Walsh,34,39,87.2,54,0,9,13,6,6,33,37,16,153.0,9.6,0.1,FA,K,2015

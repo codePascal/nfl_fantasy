@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dan Bailey,4,4,100.0,50,0,2,0,1,1,1,1,1,16.0,16.0,0.0,FA,K,8,2019
 2,Adam Vinatieri,3,4,75.0,55,0,0,0,1,2,0,1,1,14.0,14.0,0.2,FA,K,8,2019
 3,Jason Myers,2,2,100.0,54,0,0,0,1,1,3,3,1,12.0,12.0,22.1,SEA,K,8,2019

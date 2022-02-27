@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeAndre Hopkins,5,12,118,23.6,61,2,2,0,0,0,0,1,23.8,23.8,69.3,ARI,WR,11,2015
 2,J.J. Nelson,4,6,142,35.5,64,3,1,0,0,0,0,1,20.2,20.2,0.0,IND,WR,11,2015
 3,James Jones,6,11,109,18.2,37,3,1,0,0,0,0,1,18.9,18.9,0.0,FA,WR,11,2015

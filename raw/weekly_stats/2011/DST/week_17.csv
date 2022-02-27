@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New England Patriots,2,4,0,0,1,0,0,1,26.0,26.0,93.2,NE,DST,17,2011
 2,Chicago Bears,2,3,0,0,1,0,0,1,25.0,25.0,35.9,CHI,DST,17,2011
 3,Atlanta Falcons,2,3,1,2,1,0,0,1,23.0,23.0,5.8,ATL,DST,17,2011

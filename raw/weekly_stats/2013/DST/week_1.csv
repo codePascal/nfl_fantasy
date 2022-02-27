@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dallas Cowboys,3,3,3,2,2,0,0,1,26.0,26.0,82.9,DAL,DST,1,2013
 2,Kansas City Chiefs,6,2,0,0,1,0,0,1,23.0,23.0,45.7,KC,DST,1,2013
 3,Miami Dolphins,6,3,0,1,0,0,0,1,16.0,16.0,60.2,MIA,DST,1,2013

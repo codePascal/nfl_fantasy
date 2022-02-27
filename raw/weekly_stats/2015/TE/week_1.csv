@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,5,8,94,18.8,52,1,3,0,0,0,0,1,27.4,27.4,97.7,TB,TE,1,2015
 2,Austin Seferian-Jenkins,5,7,110,22.0,41,3,2,0,0,0,0,1,23.0,23.0,0.0,FA,TE,1,2015
 3,Travis Kelce,6,6,106,17.7,42,1,2,0,0,0,0,1,22.6,22.6,100.0,KC,TE,1,2015

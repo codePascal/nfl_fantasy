@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Travis Kelce,85,117,1125,13.2,80,14,4,1,-5,0,0,16,138.0,8.6,100.0,KC,TE,2016
 2,Greg Olsen,80,129,1073,13.4,78,14,3,0,0,0,0,16,127.3,8.0,7.0,FA,TE,2016
 3,Kyle Rudolph,83,132,840,10.1,44,11,7,0,0,0,0,16,126.0,7.9,0.3,NYG,TE,2016

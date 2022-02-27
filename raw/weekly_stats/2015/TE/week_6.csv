@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Greg Olsen,7,11,131,18.7,32,4,1,0,0,0,0,1,19.1,19.1,7.0,FA,TE,6,2015
 2,Benjamin Watson,10,12,127,12.7,28,2,1,0,0,0,0,1,18.7,18.7,2.8,FA,TE,6,2015
 3,Gary Barnidge,3,9,39,13.0,14,0,2,0,0,0,0,1,15.9,15.9,0.1,FA,TE,6,2015

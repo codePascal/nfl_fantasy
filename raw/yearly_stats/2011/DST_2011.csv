@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Detroit Lions,41,21,13,17,7,1,0,16,308.0,19.3,1.1,DET,DST,2011
 2,Green Bay Packers,29,31,7,12,5,0,2,16,295.0,18.4,60.6,GB,DST,2011
 3,Chicago Bears,33,20,11,13,6,1,3,16,287.0,17.9,35.9,CHI,DST,2011

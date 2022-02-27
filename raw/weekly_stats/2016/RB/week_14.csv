@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Le'Veon Bell,38,236,6.2,33,2,3,4,5,62,15.5,0,0,1,47.8,47.8,5.4,FA,RB,14,2016
 2,Bilal Powell,29,145,5.0,19,0,2,5,5,34,6.8,0,0,1,29.9,29.9,0.0,FA,RB,14,2016
 3,Carlos Hyde,17,193,11.4,47,4,0,1,1,7,7.0,1,0,1,26.0,26.0,6.9,JAC,RB,14,2016

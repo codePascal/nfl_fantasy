@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,29,46,63.0,267,5.8,3,1,3,0,0,0,0,1,20.7,20.7,35.7,FA,QB,15,2010
 2,Matt Schaub,35,54,64.8,325,6.0,2,1,4,0,0,0,0,1,19.0,19.0,0.0,FA,QB,15,2010
 3,Colt McCoy,19,25,76.0,243,9.7,2,0,4,0,0,0,0,1,17.7,17.7,0.4,ARI,QB,15,2010

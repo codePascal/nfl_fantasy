@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Drew Brees,29,36,80.6,375,10.4,3,0,2,3,2,0,0,1,27.2,27.2,35.7,FA,QB,15,2014
 2,Alex Smith,18,30,60.0,297,9.9,2,0,1,3,17,0,0,1,21.6,21.6,5.0,FA,QB,15,2014
 3,Matt Ryan,26,37,70.3,310,8.4,2,1,0,3,27,0,0,1,21.1,21.1,36.3,ATL,QB,15,2014

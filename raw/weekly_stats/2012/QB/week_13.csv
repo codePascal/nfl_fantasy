@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cam Newton,15,27,55.6,232,8.6,3,0,2,7,78,0,0,1,29.1,29.1,20.3,CAR,QB,13,2012
 2,Russell Wilson,23,37,62.2,293,7.9,2,0,2,9,71,0,0,1,26.8,26.8,90.4,SEA,QB,13,2012
 3,Matthew Stafford,27,46,58.7,313,6.8,2,1,0,1,0,0,0,1,18.5,18.5,97.2,LAR,QB,13,2012

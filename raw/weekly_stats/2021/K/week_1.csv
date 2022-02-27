@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Joey Slye,3,3,100.0,40,0,2,0,1,0,4,4,1,14.0,14.0,1.6,WAS,K,1,2021
 2,Robbie Gould,2,3,66.7,52,0,0,0,1,1,5,5,1,14.0,14.0,22.5,SF,K,1,2021
 3,Dustin Hopkins,3,4,75.0,48,0,0,1,2,0,1,1,1,12.0,12.0,14.5,LAC,K,1,2021

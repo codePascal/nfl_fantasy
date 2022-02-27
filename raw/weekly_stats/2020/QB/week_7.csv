@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Herbert,27,43,62.8,347,8.1,3,0,1,9,66,1,0,1,38.5,38.5,98.8,LAC,QB,7,2020
 2,Kyler Murray,34,48,70.8,360,7.5,3,1,0,14,67,1,0,1,38.1,38.1,99.3,ARI,QB,7,2020
 3,Tom Brady,33,45,73.3,369,8.2,4,0,0,1,1,1,0,1,36.9,36.9,99.1,FA,QB,7,2020

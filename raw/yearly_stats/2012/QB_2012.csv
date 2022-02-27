@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Drew Brees,422,670,63.0,5177,7.7,43,19,26,15,5,1,1,16,345.6,21.6,35.7,FA,QB,2012
 2,Aaron Rodgers,371,552,67.2,4295,7.8,39,8,51,54,259,2,4,16,343.5,21.5,97.4,GB,QB,2012
 3,Tom Brady,401,637,63.0,4827,7.6,34,8,27,23,32,4,0,16,340.2,21.3,99.1,FA,QB,2012

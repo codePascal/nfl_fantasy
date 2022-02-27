@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Stefon Diggs,9,11,182,20.2,46,3,1,0,0,0,0,1,24.2,24.2,100.0,BUF,WR,2,2016
 2,Travis Benjamin,6,6,115,19.2,45,2,2,1,-1,0,0,1,23.4,23.4,0.0,SF,WR,2,2016
 3,Kelvin Benjamin,7,9,108,15.4,25,2,2,0,0,0,0,1,22.8,22.8,0.1,FA,WR,2,2016

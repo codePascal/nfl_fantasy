@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Carlos Hyde,26,168,6.5,18,0,2,2,2,14,7.0,0,0,1,30.2,30.2,6.9,JAC,RB,1,2015
 2,Matt Forte,24,141,5.9,23,3,1,5,8,25,5.0,0,0,1,22.6,22.6,19.1,FA,RB,1,2015
 3,Chris Ivory,20,91,4.6,19,0,2,1,1,9,9.0,0,0,1,22.0,22.0,0.0,FA,RB,1,2015

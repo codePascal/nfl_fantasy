@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Nick Chubb,20,165,8.3,88,1,3,3,4,18,6.0,0,0,1,36.3,36.3,99.8,CLE,RB,4,2019
 2,Jordan Howard,15,87,5.8,19,0,2,3,4,28,9.3,1,0,1,29.5,29.5,18.7,PHI,RB,4,2019
 3,Leonard Fournette,29,225,7.8,81,2,0,2,3,20,10.0,0,0,1,24.5,24.5,74.8,TB,RB,4,2019

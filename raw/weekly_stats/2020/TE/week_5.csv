@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,8,12,108,13.5,32,0,1,0,0,0,0,1,16.8,16.8,100.0,KC,TE,5,2020
 2,Jonnu Smith,5,7,40,8.0,14,0,2,0,0,0,0,1,16.0,16.0,22.7,NE,TE,5,2020
 3,Darren Fells,2,2,57,28.5,44,0,1,0,0,0,0,1,11.7,11.7,0.0,FA,TE,5,2020

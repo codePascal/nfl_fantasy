@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Emmanuel Sanders,9,9,120,13.3,38,2,3,1,6,0,0,1,30.6,30.6,46.6,BUF,WR,8,2014
 2,Antonio Brown,10,13,133,13.3,47,1,2,1,5,0,0,1,25.8,25.8,84.1,FA,WR,8,2014
 3,Larry Fitzgerald,7,10,160,22.9,80,2,1,0,0,0,0,1,22.0,22.0,0.3,FA,WR,8,2014

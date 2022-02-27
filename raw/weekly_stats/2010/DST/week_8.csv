@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tampa Bay Buccaneers,1,4,0,1,2,0,0,1,28.0,28.0,98.0,TB,DST,8,2010
 2,Detroit Lions,7,1,1,1,1,0,0,1,27.0,27.0,1.1,DET,DST,8,2010
 3,Indianapolis Colts,3,1,1,2,1,0,0,1,23.0,23.0,66.4,IND,DST,8,2010

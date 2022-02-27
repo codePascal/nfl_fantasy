@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tom Brady,30,43,69.8,350,8.1,3,0,0,1,3,1,0,1,32.3,32.3,99.1,FA,QB,10,2010
 2,Ben Roethlisberger,30,49,61.2,387,7.9,3,1,5,1,12,0,0,1,26.7,26.7,23.8,FA,QB,10,2010
 3,Matt Ryan,32,50,64.0,316,6.3,3,0,2,1,5,0,0,1,25.1,25.1,36.3,ATL,QB,10,2010

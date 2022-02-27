@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matthew Stafford,36,59,61.0,520,8.8,5,2,2,0,0,0,0,1,36.8,36.8,97.2,LAR,QB,17,2011
 2,Drew Brees,28,35,80.0,389,11.1,5,1,0,1,5,0,0,1,34.1,34.1,35.7,FA,QB,17,2011
 3,Tom Brady,23,35,65.7,338,9.7,3,1,4,0,0,0,0,1,23.5,23.5,99.1,FA,QB,17,2011

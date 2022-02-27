@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Arizona Cardinals,6,1,2,2,0,0,0,1,16.0,16.0,60.9,ARI,DST,1,2021
 2,New Orleans Saints,2,2,1,1,0,0,0,1,15.0,15.0,79.3,NO,DST,1,2021
 3,Pittsburgh Steelers,3,0,1,4,0,0,1,1,14.0,14.0,44.6,PIT,DST,1,2021

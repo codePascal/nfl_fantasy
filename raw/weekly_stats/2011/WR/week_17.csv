@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,4,5,76,19.0,48,0,2,1,9,0,0,1,20.5,20.5,60.7,TEN,WR,17,2011
 2,Larry Fitzgerald,9,18,149,16.6,41,0,0,0,0,0,0,1,14.9,14.9,0.3,FA,WR,17,2011
 3,DeSean Jackson,4,6,86,21.5,62,0,1,0,0,0,0,1,14.6,14.6,4.4,LV,WR,17,2011

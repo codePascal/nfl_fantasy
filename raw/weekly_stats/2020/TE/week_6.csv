@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Trey Burton,4,5,58,14.5,20,0,1,1,1,1,0,1,17.9,17.9,0.0,FA,TE,6,2020
 2,Anthony Firkser,8,9,113,14.1,45,0,1,0,0,0,0,1,17.3,17.3,3.7,TEN,TE,6,2020
 3,George Kittle,7,10,109,15.6,44,0,1,0,0,0,0,1,16.9,16.9,99.7,SF,TE,6,2020

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,New England Patriots,36,25,13,11,5,0,4,16,310.0,19.4,93.2,NE,DST,2010
 2,Pittsburgh Steelers,48,21,14,20,3,0,1,16,294.0,18.4,44.6,PIT,DST,2010
 3,Arizona Cardinals,33,17,13,11,7,0,2,16,292.0,18.3,60.9,ARI,DST,2010

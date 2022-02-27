@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,5,8,82,16.4,21,3,2,0,0,0,0,1,20.2,20.2,97.7,TB,TE,12,2017
 2,Kyle Rudolph,4,4,63,15.8,34,2,2,0,0,0,0,1,18.3,18.3,0.3,NYG,TE,12,2017
 3,Zach Ertz,10,12,103,10.3,22,1,1,0,0,0,0,1,16.3,16.3,85.8,ARI,TE,12,2017

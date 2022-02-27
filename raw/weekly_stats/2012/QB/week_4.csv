@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tom Brady,22,36,61.1,340,9.4,3,0,1,1,4,1,0,1,32.0,32.0,99.1,FA,QB,4,2012
 2,Cam Newton,15,24,62.5,215,9.0,2,0,3,9,86,1,0,1,31.2,31.2,20.3,CAR,QB,4,2012
 3,Drew Brees,35,54,64.8,446,8.3,3,0,2,0,0,0,0,1,29.8,29.8,35.7,FA,QB,4,2012

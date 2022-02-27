@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kirk Cousins,20,25,80.0,324,13.0,4,0,3,0,0,0,0,1,29.0,29.0,70.7,MIN,QB,10,2015
 2,Ben Roethlisberger,22,33,66.7,379,11.5,3,1,1,2,-2,0,0,1,27.0,27.0,23.8,FA,QB,10,2015
 3,Jay Cutler,19,24,79.2,258,10.8,3,0,2,3,24,0,0,1,24.7,24.7,0.2,FA,QB,10,2015

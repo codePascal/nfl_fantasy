@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeVante Parker,7,10,159,22.7,43,3,2,0,0,0,0,1,27.9,27.9,64.3,MIA,WR,13,2019
 2,Kenny Golladay,4,5,158,39.5,75,4,1,0,0,0,0,1,21.8,21.8,51.8,NYG,WR,13,2019
 3,Alshon Jeffery,9,16,137,15.2,27,2,1,0,0,0,0,1,19.7,19.7,0.1,FA,WR,13,2019

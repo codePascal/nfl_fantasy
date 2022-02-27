@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Zach Ertz,13,16,139,10.7,20,1,2,0,0,0,0,1,25.9,25.9,85.8,ARI,TE,17,2016
 2,Kyle Rudolph,11,15,117,10.6,22,2,1,0,0,0,0,1,17.7,17.7,0.3,NYG,TE,17,2016
 3,Antonio Gates,5,8,55,11.0,23,2,1,0,0,0,0,1,11.5,11.5,0.2,FA,TE,17,2016

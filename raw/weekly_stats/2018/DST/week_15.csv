@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Atlanta Falcons,7,2,1,1,1,0,0,1,20.0,20.0,5.8,ATL,DST,15,2018
 2,Tennessee Titans,3,1,1,1,0,0,0,1,17.0,17.0,48.4,TEN,DST,15,2018
 3,Indianapolis Colts,3,1,0,1,0,0,0,1,15.0,15.0,66.4,IND,DST,15,2018

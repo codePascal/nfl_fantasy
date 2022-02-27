@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Brandin Cooks,6,9,143,23.8,98,1,2,1,11,0,0,1,27.4,27.4,92.7,HOU,WR,1,2016
 2,Antonio Brown,8,11,126,15.8,29,3,2,0,0,0,0,1,24.6,24.6,84.1,FA,WR,1,2016
 3,A.J. Green,12,13,180,15.0,54,3,1,0,0,0,0,1,24.0,24.0,51.8,ARI,WR,1,2016

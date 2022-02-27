@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dak Prescott,23,33,69.7,303,9.2,4,0,3,3,35,0,1,1,29.6,29.6,98.2,DAL,QB,17,2019
 2,Gardner Minshew II,27,39,69.2,295,7.6,3,1,3,5,7,0,0,1,25.5,25.5,2.2,PHI,QB,17,2019
 3,Jared Goff,29,45,64.4,319,7.1,3,0,1,2,4,0,0,1,25.2,25.2,5.3,DET,QB,17,2019

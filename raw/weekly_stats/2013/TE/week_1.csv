@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jason Witten,8,9,70,8.8,21,1,2,0,0,0,0,1,19.0,19.0,0.1,FA,TE,1,2013
 2,Jimmy Graham,4,7,45,11.3,21,1,1,0,0,0,0,1,10.5,10.5,0.8,CHI,TE,1,2013
 3,Garrett Graham,4,5,27,6.8,12,0,1,0,0,0,0,1,8.7,8.7,0.0,FA,TE,1,2013

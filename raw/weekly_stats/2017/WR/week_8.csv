@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,DeAndre Hopkins,8,11,224,28.0,72,6,1,0,0,0,0,1,28.4,28.4,69.3,ARI,WR,8,2017
 2,JuJu Smith-Schuster,7,10,193,27.6,97,2,1,0,0,0,0,1,25.3,25.3,18.5,FA,WR,8,2017
 3,William Fuller V,5,8,125,25.0,59,3,2,0,0,0,0,1,24.5,24.5,22.8,MIA,WR,8,2017

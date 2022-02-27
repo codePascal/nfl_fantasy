@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Los Angeles Rams,3,3,2,2,2,0,0,1,21.0,21.0,74.5,LAR,DST,11,2018
 2,Chicago Bears,2,2,1,1,1,0,0,1,15.0,15.0,35.9,CHI,DST,11,2018
 3,Houston Texans,5,2,0,1,1,0,0,1,15.0,15.0,6.4,HOU,DST,11,2018

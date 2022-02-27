@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Andy Dalton,24,34,70.6,372,10.9,3,0,1,1,6,0,0,1,27.5,27.5,1.6,CHI,QB,7,2013
 2,Matthew Stafford,28,51,54.9,357,7.0,3,0,0,0,0,0,0,1,26.3,26.3,97.2,LAR,QB,7,2013
 3,Robert Griffin III,18,29,62.1,298,10.3,2,1,1,11,84,0,0,1,26.3,26.3,0.6,FA,QB,7,2013

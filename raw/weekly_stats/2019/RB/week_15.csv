@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kenyan Drake,22,137,6.2,21,1,4,1,1,9,9.0,0,0,1,38.6,38.6,29.4,LV,RB,15,2019
 2,Christian McCaffrey,19,87,4.6,15,0,2,8,10,88,11.0,0,0,1,29.5,29.5,47.2,CAR,RB,15,2019
 3,Miles Sanders,19,122,6.4,56,1,1,6,6,50,8.3,1,0,1,29.2,29.2,77.0,PHI,RB,15,2019

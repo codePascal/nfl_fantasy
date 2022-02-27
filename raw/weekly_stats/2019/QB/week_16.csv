@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Daniel Jones,28,42,66.7,352,8.4,5,0,1,3,12,0,0,1,35.3,35.3,13.6,NYG,QB,16,2019
 2,Andy Dalton,33,56,58.9,396,7.1,4,0,4,0,0,0,1,1,33.8,33.8,1.6,CHI,QB,16,2019
 3,Ryan Fitzpatrick,31,52,59.6,419,8.1,4,1,2,5,9,0,0,1,32.7,32.7,6.1,WAS,QB,16,2019

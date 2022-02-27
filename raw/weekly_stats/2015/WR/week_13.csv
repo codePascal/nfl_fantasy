@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Allen Robinson II,10,15,153,15.3,44,3,3,0,0,0,0,1,33.3,33.3,53.7,CHI,WR,13,2015
 2,Antonio Brown,8,11,118,14.8,48,2,2,0,0,0,0,1,23.8,23.8,84.1,FA,WR,13,2015
 3,Doug Baldwin,5,7,94,18.8,53,2,2,0,0,0,0,1,21.4,21.4,0.0,FA,WR,13,2015

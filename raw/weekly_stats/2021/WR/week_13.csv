@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Justin Jefferson,11,14,182,16.5,48,0,1,1,4,0,0,1,24.6,24.6,99.9,MIN,WR,13,2021
 2,Diontae Johnson,8,11,105,13.1,29,0,2,0,0,0,0,1,22.5,22.5,98.1,PIT,WR,13,2021
 3,Tee Higgins,9,14,138,15.3,29,0,1,0,0,0,0,1,19.8,19.8,95.2,CIN,WR,13,2021

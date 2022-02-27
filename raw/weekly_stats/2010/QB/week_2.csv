@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Schaub,38,52,73.1,497,9.6,3,1,5,1,2,0,0,1,30.1,30.1,0.0,FA,QB,2,2010
 2,Aaron Rodgers,19,29,65.5,255,8.8,2,0,0,5,20,1,0,1,26.2,26.2,97.4,GB,QB,2,2010
 3,Matt Ryan,21,32,65.6,225,7.0,3,0,1,6,6,0,1,1,19.6,19.6,36.3,ATL,QB,2,2010

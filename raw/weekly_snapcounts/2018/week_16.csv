@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,90,90,99,6,0,67,67,42.9,47.7,16,2018
 Adrian Peterson,RB,WAS,1,38,38,61,68,5,71,74,12.7,33.4,16,2018
 Ben Roethlisberger,QB,PIT,1,75,75,100,3,0,69,69,29.6,39.5,16,2018

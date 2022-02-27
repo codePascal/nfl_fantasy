@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Marvin Jones Jr.,8,8,122,15.3,45,2,4,0,0,0,0,1,36.2,36.2,55.4,JAC,WR,8,2013
 2,Kenny Stills,3,4,129,43.0,69,2,2,1,4,0,0,1,25.3,25.3,0.1,NO,WR,8,2013
 3,Golden Tate,5,7,93,18.6,80,1,2,0,0,0,0,1,21.3,21.3,0.1,FA,WR,8,2013

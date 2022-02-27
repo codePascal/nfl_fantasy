@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Alex Smith,QB,KC,1,79,79,100,5,0,54,54,17.5,22.2,16,2017
 Ben Roethlisberger,QB,PIT,1,53,53,88,2,0,57,57,16.9,31.9,16,2017
 Benjamin Watson,TE,BAL,1,48,48,66,0,13,10,13,4.0,8.3,16,2017

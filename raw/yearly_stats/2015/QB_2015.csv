@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Cam Newton,296,495,59.8,3837,7.8,35,10,33,132,636,10,4,16,389.1,24.3,20.3,CAR,QB,2015
 2,Tom Brady,402,624,64.4,4770,7.6,36,7,38,34,53,3,2,16,343.7,21.5,99.1,FA,QB,2015
 3,Russell Wilson,329,483,68.1,4024,8.3,34,8,45,103,553,1,3,16,336.4,21.0,90.4,SEA,QB,2015

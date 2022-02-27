@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jared Cook,9,12,180,20.0,45,4,0,0,0,0,0,1,18.0,18.0,50.2,LAC,TE,1,2018
 2,Will Dissly,3,5,105,35.0,66,2,1,0,0,0,0,1,16.5,16.5,0.2,SEA,TE,1,2018
 3,Rob Gronkowski,7,8,123,17.6,30,4,1,0,0,0,1,1,16.3,16.3,97.7,TB,TE,1,2018

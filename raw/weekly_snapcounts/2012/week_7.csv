@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Aaron Rodgers,QB,GB,1,56,56,100,4,0,66,66,24.7,44.1,7,2012
 Brian Hoyer,QB,NE,1,12,12,16,25,0,58,58,2.9,24.2,7,2012
 Chad Henne,QB,KC,1,18,18,25,6,0,94,94,3.7,20.6,7,2012

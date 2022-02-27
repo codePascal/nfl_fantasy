@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Giovani Bernard,8,38,4.8,8,0,1,1,2,27,27.0,1,0,1,18.5,18.5,5.4,TB,RB,2,2013
 2,LeSean McCoy,11,53,4.8,17,0,0,5,6,114,22.8,0,0,1,16.7,16.7,2.0,FA,RB,2,2013
 3,Lamar Miller,14,69,4.9,14,0,1,2,2,6,3.0,0,0,1,13.5,13.5,0.0,FA,RB,2,2013

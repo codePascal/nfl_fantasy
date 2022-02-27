@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Brandon Bolden,16,137,8.6,27,2,1,1,1,11,11.0,0,0,1,20.8,20.8,10.7,NE,RB,4,2012
 2,Alfred Morris,21,113,5.4,39,1,1,1,2,-4,-4.0,0,0,1,16.9,16.9,0.0,NYG,RB,4,2012
 3,LeSean McCoy,23,123,5.3,34,2,0,3,4,17,5.7,0,0,1,14.0,14.0,2.0,FA,RB,4,2012

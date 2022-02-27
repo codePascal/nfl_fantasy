@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Rob Gronkowski,8,15,101,12.6,27,0,1,0,0,0,0,1,16.1,16.1,97.7,TB,TE,9,2011
 2,Jason Witten,4,7,71,17.8,33,0,1,0,0,0,0,1,13.1,13.1,0.1,FA,TE,9,2011
 3,Bruce Miller,1,1,30,30.0,30,0,1,0,0,0,0,1,9.0,9.0,0.0,FA,TE,9,2011

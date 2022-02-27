@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Jack Doyle,3,4,35,11.7,16,0,2,0,0,0,0,1,15.5,15.5,2.2,IND,TE,1,2016
 2,Dwayne Allen,4,6,53,13.3,19,0,1,0,0,0,0,1,13.3,13.3,0.0,FA,TE,1,2016
 3,Julius Thomas,5,5,64,12.8,22,1,1,0,0,0,0,1,12.4,12.4,0.0,FA,TE,1,2016

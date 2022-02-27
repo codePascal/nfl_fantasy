@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,San Francisco 49ers,3,3,1,2,2,0,0,1,27.0,27.0,79.5,SF,DST,1,2019
 2,Tennessee Titans,5,3,0,0,1,1,0,1,23.0,23.0,48.4,TEN,DST,1,2019
 3,New York Jets,1,2,2,1,1,1,0,1,18.0,18.0,3.3,NYJ,DST,1,2019

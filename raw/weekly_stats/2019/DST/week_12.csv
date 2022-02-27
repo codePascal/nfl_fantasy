@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New York Jets,1,1,1,0,1,0,0,1,18.0,18.0,3.3,NYJ,DST,12,2019
 2,Seattle Seahawks,3,2,3,3,0,0,0,1,17.0,17.0,39.4,SEA,DST,12,2019
 3,Tampa Bay Buccaneers,6,1,1,2,1,0,0,1,16.0,16.0,98.0,TB,DST,12,2019

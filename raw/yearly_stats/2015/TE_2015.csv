@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Rob Gronkowski,72,120,1176,16.3,76,22,11,0,0,0,0,15,183.6,12.2,97.7,TB,TE,2015
 2,Gary Barnidge,79,125,1043,13.2,40,16,9,0,0,0,0,16,158.3,9.9,0.1,FA,TE,2015
 3,Jordan Reed,87,114,952,10.9,32,14,11,0,0,0,2,14,157.2,11.2,19.0,FA,TE,2015

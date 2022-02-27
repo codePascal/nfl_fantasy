@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Melvin Gordon III,32,196,6.1,47,2,1,4,4,65,16.3,0,0,1,32.1,32.1,87.8,DEN,RB,9,2016
 2,Latavius Murray,20,114,5.7,42,1,3,1,1,13,13.0,0,0,1,30.7,30.7,22.2,BAL,RB,9,2016
 3,Mark Ingram II,15,158,10.5,75,1,1,2,2,13,6.5,1,0,1,29.1,29.1,39.1,NO,RB,9,2016

@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mason Crosby,4,5,80.0,50,0,0,2,1,1,1,1,1,16.0,16.0,40.7,GB,K,6,2013
 2,Stephen Gostkowski,3,3,100.0,54,0,1,1,0,1,3,3,1,14.0,14.0,0.1,FA,K,6,2013
 3,Robbie Gould,2,2,100.0,52,0,0,0,1,1,3,3,1,12.0,12.0,22.5,SF,K,6,2013

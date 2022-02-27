@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Los Angeles Rams,53,14,8,12,4,1,0,16,151.0,9.4,74.5,LAR,DST,2020
 2,Pittsburgh Steelers,56,18,9,12,3,1,0,17,148.0,8.7,44.6,PIT,DST,2020
 3,Indianapolis Colts,40,15,10,11,4,3,2,16,146.0,9.1,66.4,IND,DST,2020

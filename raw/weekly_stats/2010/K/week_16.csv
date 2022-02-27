@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Graham Gano,2,2,100.0,48,0,0,1,0,1,0,0,1,8.0,8.0,31.4,NYG,K,16,2010
 2,Ryan Succop,2,3,66.7,42,0,0,1,1,0,0,0,1,7.0,7.0,57.4,TB,K,16,2010
 3,Nick Folk,2,2,100.0,34,0,1,1,0,0,0,0,1,6.0,6.0,81.8,NE,K,16,2010

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dallas Cowboys,2,3,0,1,0,0,1,1,23.0,23.0,82.9,DAL,DST,10,2021
 2,Miami Dolphins,4,1,1,2,1,0,0,1,18.0,18.0,60.2,MIA,DST,10,2021
 3,Green Bay Packers,3,2,0,0,0,0,0,1,17.0,17.0,60.6,GB,DST,10,2021

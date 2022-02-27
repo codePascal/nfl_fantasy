@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Tyreek Hill,7,8,169,24.1,58,5,2,2,4,0,0,1,29.3,29.3,100.0,KC,WR,1,2018
 2,DeSean Jackson,5,5,146,29.2,58,3,2,0,0,0,0,1,26.6,26.6,4.4,LV,WR,1,2018
 3,Kenny Stills,4,5,106,26.5,75,1,2,0,0,0,0,1,22.6,22.6,0.1,NO,WR,1,2018

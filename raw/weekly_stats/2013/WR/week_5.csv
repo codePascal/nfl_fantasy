@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Alshon Jeffery,10,13,218,21.8,58,5,1,0,0,0,0,1,27.8,27.8,0.1,FA,WR,5,2013
 2,T.Y. Hilton,5,6,140,28.0,73,2,2,0,0,0,0,1,26.0,26.0,16.8,IND,WR,5,2013
 3,Dez Bryant,6,10,141,23.5,79,2,2,0,0,0,1,1,24.1,24.1,2.6,FA,WR,5,2013

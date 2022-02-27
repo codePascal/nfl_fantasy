@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Cooper Kupp,145,191,1947,13.4,59,0,16,4,18,0,0,17,294.5,17.3,100.0,LAR,WR,2021
 2,Deebo Samuel,77,121,1405,18.2,83,0,6,59,365,8,2,16,262.0,16.4,98.8,SF,WR,2021
 3,Ja'Marr Chase,81,128,1455,18.0,82,0,13,7,21,0,1,17,223.6,13.2,98.5,CIN,WR,2021

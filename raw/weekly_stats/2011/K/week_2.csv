@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Mike Nugent,3,3,100.0,45,0,1,1,1,0,0,0,1,10.0,10.0,1.0,FA,K,2,2011
 2,Nick Folk,3,3,100.0,45,0,1,1,1,0,0,0,1,10.0,10.0,81.8,NE,K,2,2011
 3,Graham Gano,3,4,75.0,34,0,2,1,0,0,0,0,1,9.0,9.0,31.4,NYG,K,2,2011

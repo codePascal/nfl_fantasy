@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Ryan,22,36,61.1,231,6.4,2,0,2,3,18,1,0,1,25.0,25.0,36.3,ATL,QB,15,2018
 2,Deshaun Watson,22,28,78.6,294,10.5,2,0,6,4,26,0,0,1,22.4,22.4,5.0,HOU,QB,15,2018
 3,Sam Darnold,24,38,63.2,253,6.7,2,0,3,6,35,0,0,1,21.6,21.6,5.5,CAR,QB,15,2018

@@ -1,4 +1,4 @@
-player,position,team,games,snaps,snaps_per_game,snaps_percent,rush_percent,tgt_percent,touch_percent,util_percent,fantasy_points,points_per_100_snaps,week,year
+player,position,team,games,snaps,snaps_per_game,snaps_pct,rush_pct,tgt_pct,touch_pct,util_pct,fantasy_points,points_per_100_snaps,week,year
 Adrian Peterson,RB,TEN,1,19,19,33,53,5,58,58,8.6,45.3,9,2011
 Ben Roethlisberger,QB,PIT,1,72,72,100,3,0,44,44,16.2,22.5,9,2011
 Brian Hoyer,QB,NE,1,6,6,10,50,0,50,50,-0.3,-5.0,9,2011

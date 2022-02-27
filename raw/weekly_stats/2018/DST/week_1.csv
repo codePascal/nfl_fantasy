@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New York Jets,0,5,0,0,1,0,1,1,20.0,20.0,3.3,NYJ,DST,1,2018
 2,Minnesota Vikings,3,3,1,2,1,0,0,1,18.0,18.0,28.0,MIN,DST,1,2018
 3,Baltimore Ravens,6,2,0,0,0,0,0,1,17.0,17.0,51.9,BAL,DST,1,2018

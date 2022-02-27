@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Dustin Hopkins,4,4,100.0,42,0,1,2,1,0,1,1,1,14.0,14.0,14.5,LAC,K,12,2019
 2,Chase McLaughlin,3,3,100.0,48,0,2,0,1,0,4,4,1,14.0,14.0,7.1,CLE,K,12,2019
 3,Austin Seibert,2,3,66.7,40,0,1,0,1,0,5,5,1,12.0,12.0,0.1,DET,K,12,2019

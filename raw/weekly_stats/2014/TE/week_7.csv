@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Greg Olsen,8,8,105,13.1,23,2,0,0,0,0,0,1,10.5,10.5,7.0,FA,TE,7,2014
 2,Rob Gronkowski,5,10,68,13.6,24,2,0,0,0,0,0,1,6.8,6.8,97.7,TB,TE,7,2014
 3,Jordan Reed,5,6,54,10.8,22,1,0,0,0,0,0,1,5.4,5.4,19.0,FA,TE,7,2014

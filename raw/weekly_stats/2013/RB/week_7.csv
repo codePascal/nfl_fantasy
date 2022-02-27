@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Frank Gore,24,70,2.9,7,0,2,2,3,34,17.0,0,0,1,22.4,22.4,12.2,FA,RB,7,2013
 2,Brandon Bolden,8,36,4.5,9,0,1,1,3,7,7.0,0,0,1,10.3,10.3,10.7,NE,RB,7,2013
 3,Le'Veon Bell,19,93,4.9,11,0,0,1,1,6,6.0,0,0,1,9.9,9.9,5.4,FA,RB,7,2013

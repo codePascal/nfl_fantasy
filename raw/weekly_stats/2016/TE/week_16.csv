@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,11,12,160,14.5,80,1,1,0,0,0,0,1,22.0,22.0,100.0,KC,TE,16,2016
 2,Charles Clay,8,10,85,10.6,18,0,2,0,0,0,0,1,20.5,20.5,0.0,FA,TE,16,2016
 3,Antonio Gates,8,13,94,11.8,25,2,1,0,0,0,0,1,15.4,15.4,0.2,FA,TE,16,2016

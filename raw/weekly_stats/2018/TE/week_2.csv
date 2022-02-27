@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Travis Kelce,7,10,109,15.6,31,2,2,0,0,0,0,1,22.9,22.9,100.0,KC,TE,2,2018
 2,Jesse James,5,5,138,27.6,46,4,1,0,0,0,0,1,19.8,19.8,0.0,CHI,TE,2,2018
 3,O.J. Howard,3,4,96,32.0,75,2,1,0,0,0,0,1,15.6,15.6,1.2,TB,TE,2,2018

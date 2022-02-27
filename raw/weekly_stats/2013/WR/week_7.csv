@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,A.J. Green,6,8,155,25.8,82,2,1,0,0,0,0,1,21.5,21.5,51.8,ARI,WR,7,2013
 2,DeAndre Hopkins,3,4,76,25.3,35,2,1,0,0,0,0,1,13.6,13.6,69.3,ARI,WR,7,2013
 3,Alshon Jeffery,4,7,105,26.3,35,4,0,2,16,0,0,1,12.1,12.1,0.1,FA,WR,7,2013

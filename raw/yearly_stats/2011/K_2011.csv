@@ -1,4 +1,4 @@
-rank,player,field_goal,field_goal_att,pct,lg,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,fg,fg_att,fg_pct,long,1-19,20-29,30-39,40-49,50+,XPT,XPA,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,Mike Nugent,33,38,86.8,49,0,14,5,14,0,0,0,16,113.0,7.1,1.0,FA,K,2011
 2,Dan Bailey,32,37,86.5,51,1,8,11,10,2,0,0,16,110.0,6.9,0.0,FA,K,2011
 3,Graham Gano,31,41,75.6,59,0,14,5,8,4,0,0,16,109.0,6.8,31.4,NYG,K,2011

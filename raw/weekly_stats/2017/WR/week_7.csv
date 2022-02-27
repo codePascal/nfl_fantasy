@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Amari Cooper,11,19,210,19.1,45,4,2,0,0,0,0,1,33.0,33.0,97.7,DAL,WR,7,2017
 2,Kenny Stills,6,9,85,14.2,36,2,2,0,0,0,0,1,20.5,20.5,0.1,NO,WR,7,2017
 3,Tyreek Hill,6,8,125,20.8,64,2,1,2,7,0,0,1,19.2,19.2,100.0,KC,WR,7,2017

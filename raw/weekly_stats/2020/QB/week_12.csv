@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Deshaun Watson,17,25,68.0,318,12.7,4,0,2,8,24,0,0,1,33.1,33.1,5.0,HOU,QB,12,2020
 2,Patrick Mahomes II,37,49,75.5,462,9.4,3,0,2,4,28,0,1,1,31.3,31.3,100.0,KC,QB,12,2020
 3,Kirk Cousins,34,45,75.6,307,6.8,3,0,2,3,19,0,1,1,26.2,26.2,70.7,MIN,QB,12,2020

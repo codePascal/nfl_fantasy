@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Russell Wilson,15,31,48.4,210,6.8,2,1,2,13,102,0,1,1,22.6,22.6,90.4,SEA,QB,5,2013
 2,Geno Smith,16,20,80.0,199,10.0,3,0,4,3,21,0,0,1,22.1,22.1,0.6,SEA,QB,5,2013
 3,Ryan Fitzpatrick,21,41,51.2,247,6.0,1,2,3,6,50,1,0,1,20.9,20.9,6.1,WAS,QB,5,2013

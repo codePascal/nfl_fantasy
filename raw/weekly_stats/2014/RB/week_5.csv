@@ -1,4 +1,4 @@
-rank,player,rushing_att,rushing_yds,rushing_ya,rushing_lg,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,rushing_att,rushing_yds,rushing_avg,rushing_lng,rushing_20p,rushing_td,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Le'Veon Bell,15,82,5.5,29,1,0,5,6,36,7.2,0,0,1,11.8,11.8,5.4,FA,RB,5,2014
 2,Frank Gore,18,107,5.9,14,0,0,1,1,1,1.0,0,0,1,10.8,10.8,12.2,FA,RB,5,2014
 3,Devonta Freeman,4,38,9.5,24,1,0,5,6,44,8.8,0,0,1,8.2,8.2,74.2,BAL,RB,5,2014

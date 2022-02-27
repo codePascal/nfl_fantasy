@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Julio Jones,9,11,161,17.9,40,3,2,0,0,0,0,1,28.1,28.1,60.7,TEN,WR,3,2014
 2,Antonio Brown,10,10,90,9.0,30,1,2,0,0,0,0,1,21.0,21.0,84.1,FA,WR,3,2014
 3,Jordan Matthews,8,9,59,7.4,13,0,2,0,0,0,0,1,17.9,17.9,0.0,SF,WR,3,2014

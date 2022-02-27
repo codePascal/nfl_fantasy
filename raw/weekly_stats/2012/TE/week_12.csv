@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Kyle Rudolph,5,9,55,11.0,25,1,1,0,0,0,0,1,11.5,11.5,0.3,NYG,TE,12,2012
 2,Jason Witten,9,15,74,8.2,15,0,0,0,0,0,0,1,7.4,7.4,0.1,FA,TE,12,2012
 3,Lee Smith,1,1,1,1.0,1,0,1,0,0,0,0,1,6.1,6.1,0.0,FA,TE,12,2012

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Matt Schaub,31,62,50.0,393,6.3,3,2,2,1,8,0,0,1,24.5,24.5,0.0,FA,QB,14,2010
 2,Alex Smith,17,27,63.0,255,9.4,3,0,2,4,12,0,0,1,23.4,23.4,5.0,FA,QB,14,2010
 3,Tom Brady,27,40,67.5,369,9.2,2,0,3,0,0,0,0,1,22.8,22.8,99.1,FA,QB,14,2010

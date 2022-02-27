@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,T.Y. Hilton,4,15,150,37.5,87,2,2,0,0,0,0,1,27.0,27.0,16.8,IND,WR,7,2015
 2,Nate Washington,9,16,127,14.1,27,3,2,0,0,0,0,1,24.7,24.7,0.0,FA,WR,7,2015
 3,Mike Evans,8,12,164,20.5,40,4,1,0,0,0,0,1,22.4,22.4,97.8,TB,WR,7,2015

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Robert Griffin III,20,29,69.0,206,7.1,1,1,1,11,82,2,0,1,30.4,30.4,0.6,FA,QB,2,2012
 2,Cam Newton,14,20,70.0,253,12.7,1,0,1,13,71,1,1,1,25.2,25.2,20.3,CAR,QB,2,2012
 3,Andy Dalton,24,31,77.4,318,10.3,3,1,6,3,4,0,0,1,23.1,23.1,1.6,CHI,QB,2,2012

@@ -1,4 +1,4 @@
-rank,player,passing_cmp,passing_att,passing_pct,passing_yds,passing_ya,passing_td,passing_int,passing_sacks,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Carson Wentz,17,25,68.0,268,10.7,4,1,3,8,63,0,0,1,31.0,31.0,44.0,IND,QB,7,2017
 2,Derek Carr,29,52,55.8,417,8.0,3,0,0,1,15,0,0,1,30.2,30.2,58.1,LV,QB,7,2017
 3,Dak Prescott,16,25,64.0,234,9.4,3,0,0,4,26,1,0,1,30.0,30.0,98.2,DAL,QB,7,2017

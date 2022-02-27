@@ -1,4 +1,4 @@
-rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_yr,receiving_lg,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Pat Freiermuth,4,7,44,11.0,22,0,1,0,0,0,0,1,10.4,10.4,56.7,PIT,TE,8,2021
 2,Brevin Jordan,3,4,41,13.7,23,0,1,0,0,0,0,1,10.1,10.1,1.4,HOU,TE,8,2021
 3,Jesse James,3,3,38,12.7,19,0,1,0,0,0,0,1,9.8,9.8,0.0,CHI,TE,8,2021

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,year
 1,New England Patriots,47,25,11,14,5,1,2,16,236.0,14.8,93.2,NE,DST,2019
 2,Pittsburgh Steelers,54,20,18,19,3,0,1,16,173.0,10.8,44.6,PIT,DST,2019
 3,San Francisco 49ers,48,12,15,21,5,0,0,16,163.0,10.2,79.5,SF,DST,2019
