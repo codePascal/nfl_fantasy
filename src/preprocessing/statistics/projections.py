@@ -28,7 +28,7 @@ class Projections(Preprocessing, ABC):
         """ Concatenates the weekly projections into one. """
         df = pd.DataFrame()
         for week in range(1, week_map[self.year] + 1):
-            df = pd.concat([df, Loader(self.position, week).get_data()])
+            df = pd.concat([df, Loader(self.position, week, self.refresh).get_data()])
         return df.reset_index(drop=True)
 
 

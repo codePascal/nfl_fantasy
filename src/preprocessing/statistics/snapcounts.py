@@ -27,7 +27,7 @@ class Snapcounts(Preprocessing, ABC):
         """ Concatenates the weekly snapcounts into one. """
         df = pd.DataFrame()
         for week in range(1, week_map[self.year] + 1):
-            df = pd.concat([df, Loader(week, self.year).get_data()])
+            df = pd.concat([df, Loader(week, self.year, self.refresh).get_data()])
         return df.reset_index(drop=True)
 
 
