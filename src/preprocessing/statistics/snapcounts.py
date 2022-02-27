@@ -9,6 +9,7 @@ Running this script will store all summaries for a denoted year
 range or refresh them if available offline.
 """
 import pandas as pd
+import sys
 
 from abc import ABC
 
@@ -20,6 +21,11 @@ from src.preprocessing.preprocessing import Preprocessing
 class Snapcounts(Preprocessing, ABC):
     def __init__(self, year, refresh=False):
         Preprocessing.__init__(self, year, refresh)
+
+        # check year
+        if self.year < 2016:
+            sys.exit("Snapcounts are only available for seasons 2016 and onwards.")
+
         self.filename = f"snapcounts_summary_{self.year}.csv"
         self.dir = f"../preprocessed/snapcounts"
 

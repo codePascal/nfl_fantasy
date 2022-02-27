@@ -16,6 +16,8 @@ Snapcounts are only available back to season 2016.
 If this script is run, all snapcounts for denoted year range are
 stored or refreshed if already available offline.
 """
+import sys
+
 from abc import ABC
 
 from config.fantasypros import snapcounts_type
@@ -26,6 +28,11 @@ from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
 class Snapcounts(Loader, ABC):
     def __init__(self, year, refresh=False):
         Loader.__init__(self, year, refresh)
+
+        # check year
+        if self.year < 2016:
+            sys.exit("Snapcounts are only available for seasons 2016 and onwards.")
+
         self.mapping = snapcounts_type
         self.to_add = dict()
 

@@ -28,15 +28,19 @@ class Statistics(Preprocessing, ABC):
     def concat_data(self):
         """ Concatenates weekly stats, snapcounts and schedule
         for given position. """
-        # get snapcounts only for position
-        snapcounts = Snapcounts(self.year, refresh=self.refresh).get_accumulated_data()
-        snapcounts = snapcounts.loc[snapcounts["position"] == self.position]
+        # snapcounts only available back to 2016
+        if self.year < 2015:
+            stats = Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data()
+        else:
+            # get snapcounts only for position
+            snapcounts = Snapcounts(self.year, refresh=self.refresh).get_accumulated_data()
+            snapcounts = snapcounts.loc[snapcounts["position"] == self.position]
 
-        # merge with weekly accumulated stats
-        stats = pd.merge(snapcounts,
-                         Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
-                         how="outer",
-                         on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
+            # merge with weekly accumulated stats
+            stats = pd.merge(snapcounts,
+                             Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
+                             how="outer",
+                             on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
 
         # drop not relevant columns
         stats.drop(["rank", "rost", "fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
@@ -63,7 +67,7 @@ def fix_teams(team):
 def store_all():
     """ Accumulates and stores the accumulated statistics. """
     for position in ["QB", "RB", "TE", "WR"]:
-        for year in range(2016, 2021):
+        for year in week_map.keys():
             Statistics(position, year, refresh=True).store_accumulated_data()
 
 
