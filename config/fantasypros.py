@@ -203,18 +203,19 @@ projections_type = {
 }
 
 # maps the column name and type for points allowed
+# rank is float to deal with missing data
 pa_type = {
     "team": str,
-    "rank_qb": int,
+    "rank_qb": float,
     "pa_qb": float,
-    "rank_rb": int,
+    "rank_rb": float,
     "pa_rb": float,
-    "rank_wr": int,
+    "rank_wr": float,
     "pa_wr": float,
-    "rank_te": int,
+    "rank_te": float,
     "pa_te": float,
-    "rank_k": int,
+    "rank_k": float,
     "pa_k": float,
-    "rank_dst": int,
+    "rank_dst": float,
     "pa_dst": float
 }
