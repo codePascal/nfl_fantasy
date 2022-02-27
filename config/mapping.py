@@ -56,15 +56,33 @@ team_map = {
 # stores list of team abbreviations
 teams = list(team_map.values())
 
-# map team changes
+# map team changes: https://de.wikipedia.org/wiki/National_Football_League#Mannschaften
 team_changes_map = {
-    "OAK": "LV",
-    "Oakland Raiders": "Las Vegas Raiders",
-    "Washington": "Washington Commanders",
-    "Washington Redskins": "Washington Commanders",
-    "SD": "LAC",
-    "San Diego Chargers": "Los Angeles Chargers",
-    "STL": "LAR",
-    "St. Louis Rams": "Los Angeles Rams",
-
+    "general": {
+        "JAX": "JAC",
+        "GNB": "GB",
+        "NWE": "NE",
+        "SFO": "SF",
+        "NOR": "NO",
+        "SDG": "SD",
+        "KAN": "KC",
+        "TAM": "TB",
+        "2TM": "CIN",  # TODO verify
+    },
+    2022: {
+        "Washington Football Team": "Washington Commanders",
+    },
+    2020: {
+        "OAK": "LV",
+        "Oakland Raiders": "Las Vegas Raiders",
+        "Washington Redskins": "Washington Football Team",
+    },
+    2017: {
+        "SD": "LAC",
+        "San Diego Chargers": "Los Angeles Chargers",
+    },
+    2016: {
+        "STL": "LAR",
+        "St. Louis Rams": "Los Angeles Rams",
+    }
 }
