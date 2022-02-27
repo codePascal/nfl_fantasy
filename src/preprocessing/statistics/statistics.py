@@ -54,6 +54,7 @@ class Statistics(Preprocessing, ABC):
 
         # merge schedule
         stats = pd.merge(stats, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
+        stats = stats.loc[stats["opponent"] != "BYE"]
 
         return stats
 
