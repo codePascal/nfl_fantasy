@@ -3,10 +3,11 @@ import unittest
 
 from config.fantasypros import snapcounts_type, projections_type
 
-from preprocessing.fantasypros.projections import Projections
-from preprocessing.fantasypros.snapcounts import Snapcounts
-from preprocessing.fantasypros.stats import Stats
-from src.preprocessing.statistics import Statistics
+from src.preprocessing.statistics.projections import Projections
+from src.preprocessing.statistics.snapcounts import Snapcounts
+from src.preprocessing.statistics.stats import Stats
+from src.preprocessing.statistics.statistics import Statistics
+from src.preprocessing.statistics.defense import MergeDefense
 
 # TODO implement more specific tests
 # TODO include more positions
@@ -15,7 +16,7 @@ from src.preprocessing.statistics import Statistics
 
 class TestPreprocessing(unittest.TestCase):
     def test_predictions(self):
-        df = Projections("QB").get_accumulated_data()
+        df = Projections("QB", refresh=True).get_accumulated_data()
 
         # test column names not altered
         cols_should = list(projections_type["QB"].keys()) + ["team", "position", "week", "year"]
@@ -32,7 +33,7 @@ class TestPreprocessing(unittest.TestCase):
         self.assertEqual("Jacoby Brissett", df.iloc[-1, 0])
 
     def test_snapcounts(self):
-        df = Snapcounts(2021).get_accumulated_data()
+        df = Snapcounts(2021, refresh=True).get_accumulated_data()
 
         # test column names not altered
         cols_should = list(snapcounts_type.keys()) + ["week", "year"]
@@ -49,7 +50,7 @@ class TestPreprocessing(unittest.TestCase):
         self.assertEqual("C.J. Saunders", df.iloc[-1, 0])
 
     def test_stats(self):
-        df = Stats("QB", 2021).get_accumulated_data()
+        df = Stats("QB", 2021, refresh=True).get_accumulated_data()
 
         # test content
         self.assertEqual(1, len(df.position.unique()))
@@ -62,13 +63,24 @@ class TestPreprocessing(unittest.TestCase):
         self.assertEqual("Kyler Murray", df.iloc[0, 1])
         self.assertEqual("Tim Boyle", df.iloc[-1, 1])
 
-    @unittest.skip("Deprecated")
     def test_statistics(self):
-        df = Statistics(2021).get_accumulated_data()
+        df = Statistics("QB", 2021, refresh=True).get_accumulated_data()
 
-        # test entries
-        self.assertEqual(df.iloc[0, 1], "Arizona Cardinals")
-        self.assertEqual(df.iloc[-1, 1], "Jakeem Grant Sr.")
+        # test content
+        unique_names = df.player.unique()
+        for unique_name in unique_names:
+            self.assertGreater(19, len(df.loc[df["player"] == unique_name]), f"{unique_name} appears too much.")
+        self.assertEqual(32, len(df.team.unique()))
+        self.assertEqual(32, len(df.opponent.unique()))
+
+    def test_defense(self):
+        df = MergeDefense(2021, refresh=True).get_accumulated_data()
+
+        # test content
+        unique_teams = df.team.unique()
+        for unique_team in unique_teams:
+            self.assertEqual(1, len(df.loc[df["team"] == unique_team]), f"{unique_team} appears too much.")
+        self.assertEqual(32, len(df.team.unique()))
 
 
 if __name__ == "__main__":
