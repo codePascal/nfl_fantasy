@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,San Francisco 49ers,3,3,1,2,2,0,0,1,27.0,27.0,79.5,SF,DST,1,2019
 2,Tennessee Titans,5,3,0,0,1,1,0,1,23.0,23.0,48.4,TEN,DST,1,2019
 3,New York Jets,1,2,2,1,1,1,0,1,18.0,18.0,3.3,NYJ,DST,1,2019
@@ -121,9 +121,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Minnesota Vikings,1,0,0,0,0,0,0,1,2.0,2.0,28.0,MIN,DST,4,2019
 25,Jacksonville Jaguars,0,1,0,0,0,0,0,1,2.0,2.0,6.9,JAC,DST,4,2019
 26,Cincinnati Bengals,0,0,1,1,0,0,0,1,2.0,2.0,14.7,CIN,DST,4,2019
-27,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,4,2019
 28,Atlanta Falcons,0,0,0,3,0,0,0,1,0.0,0.0,5.8,ATL,DST,4,2019
-29,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,4,2019
 30,Miami Dolphins,1,0,0,0,0,0,0,1,0.0,0.0,60.2,MIA,DST,4,2019
 31,Green Bay Packers,0,0,0,0,0,0,0,1,-1.0,-1.0,60.6,GB,DST,4,2019
 32,Baltimore Ravens,1,1,0,0,0,0,0,1,-1.0,-1.0,51.9,BAL,DST,4,2019
@@ -156,8 +154,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Dallas Cowboys,2,0,0,0,0,0,0,1,1.0,1.0,82.9,DAL,DST,5,2019
 28,Cleveland Browns,2,0,0,0,0,0,0,1,1.0,1.0,40.8,CLE,DST,5,2019
 29,Cincinnati Bengals,1,0,0,0,0,0,0,1,1.0,1.0,14.7,CIN,DST,5,2019
-30,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,5,2019
-31,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,5,2019
 32,Atlanta Falcons,0,0,1,3,0,0,0,1,-2.0,-2.0,5.8,ATL,DST,5,2019
 1,New England Patriots,1,3,1,1,1,0,1,1,31.0,31.0,93.2,NE,DST,6,2019
 2,Denver Broncos,7,3,0,1,0,0,0,1,23.0,23.0,48.5,DEN,DST,6,2019
@@ -185,11 +181,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Philadelphia Eagles,1,1,1,1,0,0,0,1,1.0,1.0,52.5,PHI,DST,6,2019
 25,New York Jets,1,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,6,2019
 26,Miami Dolphins,0,0,0,0,0,0,0,1,1.0,1.0,60.2,MIA,DST,6,2019
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,6,2019
-28,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,6,2019
-29,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,6,2019
 30,Tampa Bay Buccaneers,2,0,1,0,0,0,0,1,0.0,0.0,98.0,TB,DST,6,2019
-31,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,6,2019
 32,Atlanta Falcons,0,0,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,DST,6,2019
 1,New England Patriots,1,4,2,1,0,1,0,1,25.0,25.0,93.2,NE,DST,7,2019
 2,Kansas City Chiefs,9,0,1,3,1,0,0,1,24.0,24.0,45.7,KC,DST,7,2019
@@ -215,10 +207,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Miami Dolphins,2,0,0,0,0,0,0,1,1.0,1.0,60.2,MIA,DST,7,2019
 23,Denver Broncos,1,0,0,0,0,0,0,1,1.0,1.0,48.5,DEN,DST,7,2019
 24,New York Jets,0,1,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,7,2019
-25,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,7,2019
-26,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,7,2019
-27,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,7,2019
-28,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,7,2019
 29,Atlanta Falcons,0,0,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,DST,7,2019
 30,Chicago Bears,1,0,0,0,0,0,1,1,-3.0,-3.0,35.9,CHI,DST,7,2019
 31,Las Vegas Raiders,1,0,0,0,0,0,0,1,-3.0,-3.0,7.6,LV,DST,7,2019
@@ -252,9 +240,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Atlanta Falcons,2,0,0,0,0,0,0,1,2.0,2.0,5.8,ATL,DST,8,2019
 28,Arizona Cardinals,0,1,0,0,0,0,0,1,1.0,1.0,60.9,ARI,DST,8,2019
 29,Houston Texans,0,0,0,0,0,0,0,1,0.0,0.0,6.4,HOU,DST,8,2019
-30,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,8,2019
 31,Cincinnati Bengals,0,0,0,0,0,0,0,1,0.0,0.0,14.7,CIN,DST,8,2019
-32,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,8,2019
 1,Houston Texans,4,2,2,3,0,0,0,1,19.0,19.0,6.4,HOU,DST,9,2019
 2,Dallas Cowboys,5,1,2,2,1,0,0,1,18.0,18.0,82.9,DAL,DST,9,2019
 3,Pittsburgh Steelers,5,1,2,1,1,0,0,1,17.0,17.0,44.6,PIT,DST,9,2019
@@ -281,11 +267,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Green Bay Packers,2,0,0,0,0,0,0,1,2.0,2.0,60.6,GB,DST,9,2019
 25,Kansas City Chiefs,1,0,0,0,0,0,0,1,1.0,1.0,45.7,KC,DST,9,2019
 26,Tampa Bay Buccaneers,3,0,1,2,0,0,0,1,1.0,1.0,98.0,TB,DST,9,2019
-27,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,9,2019
-28,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,9,2019
 29,Detroit Lions,1,0,0,0,0,0,0,1,0.0,0.0,1.1,DET,DST,9,2019
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2019
-31,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,9,2019
 32,Arizona Cardinals,1,0,0,0,0,0,0,1,0.0,0.0,60.9,ARI,DST,9,2019
 1,Pittsburgh Steelers,4,3,1,3,1,0,0,1,25.0,25.0,44.6,PIT,DST,10,2019
 2,Baltimore Ravens,2,1,2,2,2,0,0,1,24.0,24.0,51.9,BAL,DST,10,2019
@@ -311,13 +293,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Cleveland Browns,1,0,0,1,0,0,0,1,2.0,2.0,40.8,CLE,DST,10,2019
 23,Carolina Panthers,2,0,0,0,0,0,0,1,2.0,2.0,27.8,CAR,DST,10,2019
 24,New York Giants,2,0,0,0,0,0,0,1,1.0,1.0,4.5,NYG,DST,10,2019
-25,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,10,2019
-26,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,10,2019
 27,Dallas Cowboys,1,0,0,0,0,0,0,1,0.0,0.0,82.9,DAL,DST,10,2019
-28,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,10,2019
-29,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,10,2019
-30,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,10,2019
-31,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,10,2019
 32,Cincinnati Bengals,1,1,0,0,0,0,0,1,-1.0,-1.0,14.7,CIN,DST,10,2019
 1,Atlanta Falcons,5,4,0,0,0,0,1,1,20.0,20.0,5.8,ATL,DST,11,2019
 2,New Orleans Saints,2,4,0,0,1,0,0,1,17.0,17.0,79.3,NO,DST,11,2019
@@ -343,11 +319,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Philadelphia Eagles,1,0,0,0,0,0,0,1,2.0,2.0,52.5,PHI,DST,11,2019
 23,Carolina Panthers,3,0,0,1,0,0,0,1,2.0,2.0,27.8,CAR,DST,11,2019
 24,Pittsburgh Steelers,1,0,0,0,0,0,0,1,1.0,1.0,44.6,PIT,DST,11,2019
-25,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,11,2019
-26,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,11,2019
-27,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,11,2019
 28,Tampa Bay Buccaneers,1,0,0,1,0,0,0,1,0.0,0.0,98.0,TB,DST,11,2019
-29,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,11,2019
 30,Detroit Lions,1,0,1,1,0,0,0,1,-1.0,-1.0,1.1,DET,DST,11,2019
 31,Houston Texans,0,0,0,0,0,0,0,1,-4.0,-4.0,6.4,HOU,DST,11,2019
 32,Miami Dolphins,0,0,0,2,0,0,1,1,-4.0,-4.0,60.2,MIA,DST,11,2019
@@ -376,10 +348,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Las Vegas Raiders,1,0,1,0,0,0,0,1,2.0,2.0,7.6,LV,DST,12,2019
 24,Houston Texans,1,0,0,0,0,0,0,1,2.0,2.0,6.4,HOU,DST,12,2019
 25,Jacksonville Jaguars,1,0,2,2,0,0,0,1,1.0,1.0,6.9,JAC,DST,12,2019
-26,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,12,2019
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,12,2019
-28,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,12,2019
-29,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,12,2019
 30,Los Angeles Rams,3,0,0,0,0,0,0,1,-1.0,-1.0,74.5,LAR,DST,12,2019
 31,Green Bay Packers,3,0,0,0,0,0,0,1,-1.0,-1.0,60.6,GB,DST,12,2019
 32,Miami Dolphins,1,1,0,0,0,0,0,1,-1.0,-1.0,60.2,MIA,DST,12,2019

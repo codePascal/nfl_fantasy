@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,New York Giants,4,3,2,2,0,0,0,1,24.0,24.0,4.5,NYG,DST,1,2010
 2,Detroit Lions,4,1,3,4,0,0,0,1,22.0,22.0,1.1,DET,DST,1,2010
 3,Seattle Seahawks,2,2,0,1,1,0,0,1,22.0,22.0,39.4,SEA,DST,1,2010
@@ -28,9 +28,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,San Francisco 49ers,1,1,0,0,0,0,0,1,10.0,10.0,79.5,SF,DST,1,2010
 28,Dallas Cowboys,1,0,0,1,0,0,0,1,8.0,8.0,82.9,DAL,DST,1,2010
 29,Cincinnati Bengals,0,0,0,0,0,0,0,1,7.0,7.0,14.7,CIN,DST,1,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,1,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,1,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,1,2010
 1,Pittsburgh Steelers,4,3,4,5,0,0,1,1,28.0,28.0,44.6,PIT,DST,2,2010
 2,Miami Dolphins,3,3,1,1,1,0,0,1,27.0,27.0,60.2,MIA,DST,2,2010
 3,Indianapolis Colts,4,1,2,3,1,0,0,1,26.0,26.0,66.4,IND,DST,2,2010
@@ -60,9 +57,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,New York Giants,1,0,1,1,0,0,0,1,10.0,10.0,4.5,NYG,DST,2,2010
 28,Carolina Panthers,0,0,0,0,0,0,0,1,10.0,10.0,27.8,CAR,DST,2,2010
 29,Buffalo Bills,0,0,0,2,0,0,0,1,10.0,10.0,95.9,BUF,DST,2,2010
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2010
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2010
-32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2010
 1,Seattle Seahawks,4,2,3,2,0,0,2,1,24.0,24.0,39.4,SEA,DST,3,2010
 2,Pittsburgh Steelers,4,1,1,1,1,0,0,1,24.0,24.0,44.6,PIT,DST,3,2010
 3,Tennessee Titans,2,2,1,1,0,1,0,1,20.0,20.0,48.4,TEN,DST,3,2010
@@ -92,9 +86,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Cleveland Browns,0,0,0,0,0,0,0,1,10.0,10.0,40.8,CLE,DST,3,2010
 28,Denver Broncos,0,0,0,0,0,0,0,1,10.0,10.0,48.5,DEN,DST,3,2010
 29,Houston Texans,0,0,0,0,0,0,0,1,10.0,10.0,6.4,HOU,DST,3,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,3,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,3,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,3,2010
 1,New England Patriots,2,4,0,0,1,0,2,1,34.0,34.0,93.2,NE,DST,4,2010
 2,New York Giants,10,2,1,3,0,0,0,1,26.0,26.0,4.5,NYG,DST,4,2010
 3,Green Bay Packers,3,2,1,1,1,0,0,1,25.0,25.0,60.6,GB,DST,4,2010
@@ -120,13 +111,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Indianapolis Colts,0,0,0,0,0,0,0,1,10.0,10.0,66.4,IND,DST,4,2010
 24,Buffalo Bills,0,0,0,0,0,0,0,1,10.0,10.0,95.9,BUF,DST,4,2010
 25,Miami Dolphins,3,0,0,0,0,0,0,1,10.0,10.0,60.2,MIA,DST,4,2010
-26,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,4,2010
-27,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,4,2010
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2010
-29,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,4,2010
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2010
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2010
-32,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,4,2010
 1,Arizona Cardinals,1,3,1,2,2,0,0,1,31.0,31.0,60.9,ARI,DST,5,2010
 2,Philadelphia Eagles,2,2,3,3,1,0,0,1,28.0,28.0,52.5,PHI,DST,5,2010
 3,New York Jets,4,1,2,1,1,0,0,1,26.0,26.0,3.3,NYJ,DST,5,2010
@@ -152,13 +136,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Cleveland Browns,2,0,1,1,0,0,0,1,12.0,12.0,40.8,CLE,DST,5,2010
 24,Denver Broncos,1,0,0,0,0,0,0,1,11.0,11.0,48.5,DEN,DST,5,2010
 25,Minnesota Vikings,2,0,0,1,0,0,0,1,9.0,9.0,28.0,MIN,DST,5,2010
-26,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,5,2010
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2010
-28,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,5,2010
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2010
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2010
-31,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,5,2010
-32,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,5,2010
 1,Pittsburgh Steelers,6,2,1,1,0,0,0,1,22.0,22.0,44.6,PIT,DST,6,2010
 2,Tennessee Titans,2,3,1,0,0,0,0,1,20.0,20.0,48.4,TEN,DST,6,2010
 3,Seattle Seahawks,6,0,0,1,0,1,0,1,19.0,19.0,39.4,SEA,DST,6,2010
@@ -184,13 +161,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Houston Texans,1,0,0,0,0,0,0,1,11.0,11.0,6.4,HOU,DST,6,2010
 24,Jacksonville Jaguars,0,0,0,0,0,0,0,1,10.0,10.0,6.9,JAC,DST,6,2010
 25,Chicago Bears,0,0,0,0,0,0,1,1,10.0,10.0,35.9,CHI,DST,6,2010
-26,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,6,2010
-27,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,6,2010
-28,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,6,2010
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,6,2010
-30,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,6,2010
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,6,2010
-32,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,6,2010
 1,Cleveland Browns,3,4,0,0,2,0,0,1,33.0,33.0,40.8,CLE,DST,7,2010
 2,Washington Commanders,4,4,2,2,1,0,0,1,29.0,29.0,27.5,WAS,DST,7,2010
 3,Tennessee Titans,1,2,2,1,1,0,0,1,25.0,25.0,48.4,TEN,DST,7,2010
@@ -216,13 +186,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Carolina Panthers,2,1,0,0,0,0,0,1,11.0,11.0,27.8,CAR,DST,7,2010
 24,New Orleans Saints,1,0,0,0,0,0,0,1,8.0,8.0,79.3,NO,DST,7,2010
 25,Jacksonville Jaguars,1,0,0,0,0,0,0,1,8.0,8.0,6.9,JAC,DST,7,2010
-26,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,7,2010
-27,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,7,2010
-28,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,7,2010
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,7,2010
-30,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,7,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,7,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,7,2010
 1,Tampa Bay Buccaneers,1,4,0,1,2,0,0,1,28.0,28.0,98.0,TB,DST,8,2010
 2,Detroit Lions,7,1,1,1,1,0,0,1,27.0,27.0,1.1,DET,DST,8,2010
 3,Indianapolis Colts,3,1,1,2,1,0,0,1,23.0,23.0,66.4,IND,DST,8,2010
@@ -246,15 +209,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Denver Broncos,0,0,0,0,0,0,0,1,10.0,10.0,48.5,DEN,DST,8,2010
 22,Minnesota Vikings,0,0,0,0,0,0,0,1,10.0,10.0,28.0,MIN,DST,8,2010
 23,Houston Texans,1,0,0,0,0,0,0,1,8.0,8.0,6.4,HOU,DST,8,2010
-24,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,8,2010
-25,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,8,2010
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,8,2010
-27,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,8,2010
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,8,2010
-29,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,8,2010
-30,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,8,2010
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,8,2010
-32,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,8,2010
 1,Green Bay Packers,4,2,2,2,2,0,0,1,34.0,34.0,60.6,GB,DST,9,2010
 2,Arizona Cardinals,3,2,1,0,1,0,1,1,25.0,25.0,60.9,ARI,DST,9,2010
 3,New Orleans Saints,4,1,1,1,1,0,0,1,24.0,24.0,79.3,NO,DST,9,2010
@@ -279,14 +233,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Carolina Panthers,1,1,0,0,0,0,0,1,10.0,10.0,27.8,CAR,DST,9,2010
 23,Tampa Bay Buccaneers,0,0,0,0,0,0,1,1,10.0,10.0,98.0,TB,DST,9,2010
 24,Dallas Cowboys,1,0,0,1,0,0,0,1,9.0,9.0,82.9,DAL,DST,9,2010
-25,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,9,2010
-26,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2010
-27,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,9,2010
-28,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,9,2010
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,9,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,9,2010
-31,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,9,2010
-32,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,9,2010
 1,Indianapolis Colts,3,3,2,2,1,0,0,1,29.0,29.0,66.4,IND,DST,10,2010
 2,Philadelphia Eagles,2,3,0,0,1,0,0,1,24.0,24.0,52.5,PHI,DST,10,2010
 3,New England Patriots,5,1,0,0,1,0,0,1,23.0,23.0,93.2,NE,DST,10,2010
@@ -314,11 +260,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Washington Commanders,1,0,0,1,0,0,0,1,8.0,8.0,27.5,WAS,DST,10,2010
 26,Pittsburgh Steelers,0,0,0,0,0,0,0,1,7.0,7.0,44.6,PIT,DST,10,2010
 27,Kansas City Chiefs,0,0,0,0,0,0,0,1,7.0,7.0,45.7,KC,DST,10,2010
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,10,2010
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,10,2010
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,10,2010
-31,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,10,2010
-32,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,10,2010
 1,Cleveland Browns,4,4,2,2,1,0,0,1,32.0,32.0,40.8,CLE,DST,11,2010
 2,Baltimore Ravens,3,2,0,1,2,0,0,1,29.0,29.0,51.9,BAL,DST,11,2010
 3,Pittsburgh Steelers,6,2,1,3,0,0,0,1,22.0,22.0,44.6,PIT,DST,11,2010
@@ -348,9 +289,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,San Francisco 49ers,2,0,0,0,0,0,0,1,12.0,12.0,79.5,SF,DST,11,2010
 28,Indianapolis Colts,1,0,0,0,0,0,0,1,11.0,11.0,66.4,IND,DST,11,2010
 29,Arizona Cardinals,0,0,0,0,0,0,0,1,10.0,10.0,60.9,ARI,DST,11,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,11,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,11,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,11,2010
 1,Carolina Panthers,2,2,1,2,1,0,0,1,24.0,24.0,27.8,CAR,DST,12,2010
 2,New York Jets,3,2,1,0,0,1,1,1,21.0,21.0,3.3,NYJ,DST,12,2010
 3,Seattle Seahawks,0,0,1,1,0,0,1,1,20.0,20.0,39.4,SEA,DST,12,2010
@@ -380,9 +318,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Detroit Lions,1,0,0,0,0,0,0,1,11.0,11.0,1.1,DET,DST,12,2010
 28,Jacksonville Jaguars,0,0,0,0,0,0,0,1,10.0,10.0,6.9,JAC,DST,12,2010
 29,Baltimore Ravens,0,0,0,0,0,0,0,1,10.0,10.0,51.9,BAL,DST,12,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,12,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,12,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,12,2010
 1,Dallas Cowboys,0,4,0,0,2,0,0,1,27.0,27.0,82.9,DAL,DST,13,2010
 2,New York Giants,4,2,4,6,0,0,0,1,26.0,26.0,4.5,NYG,DST,13,2010
 3,Buffalo Bills,1,4,0,0,1,0,0,1,25.0,25.0,95.9,BUF,DST,13,2010
@@ -412,9 +347,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Miami Dolphins,2,0,0,0,0,0,0,1,12.0,12.0,60.2,MIA,DST,13,2010
 28,Chicago Bears,2,0,0,1,0,0,0,1,12.0,12.0,35.9,CHI,DST,13,2010
 29,Washington Commanders,0,1,0,0,0,0,0,1,12.0,12.0,27.5,WAS,DST,13,2010
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2010
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2010
-32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2010
 1,Pittsburgh Steelers,3,3,0,0,2,0,0,1,31.0,31.0,44.6,PIT,DST,14,2010
 2,San Francisco 49ers,1,4,1,1,1,0,0,1,27.0,27.0,79.5,SF,DST,14,2010
 3,New England Patriots,2,2,2,2,1,0,0,1,26.0,26.0,93.2,NE,DST,14,2010
@@ -444,9 +376,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Tennessee Titans,1,0,0,0,0,0,0,1,11.0,11.0,48.4,TEN,DST,14,2010
 28,Chicago Bears,3,0,0,0,0,0,0,1,10.0,10.0,35.9,CHI,DST,14,2010
 29,Seattle Seahawks,2,0,0,0,0,0,1,1,9.0,9.0,39.4,SEA,DST,14,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,14,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,14,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,14,2010
 1,New England Patriots,5,1,1,1,1,0,0,1,25.0,25.0,93.2,NE,DST,15,2010
 2,Atlanta Falcons,2,2,1,1,1,0,0,1,24.0,24.0,5.8,ATL,DST,15,2010
 3,Chicago Bears,4,3,2,3,0,0,1,1,24.0,24.0,35.9,CHI,DST,15,2010
@@ -476,9 +405,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Cleveland Browns,0,0,0,0,0,0,0,1,10.0,10.0,40.8,CLE,DST,15,2010
 28,Seattle Seahawks,1,1,0,2,0,0,0,1,10.0,10.0,39.4,SEA,DST,15,2010
 29,Tampa Bay Buccaneers,0,0,0,0,0,0,0,1,10.0,10.0,98.0,TB,DST,15,2010
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,15,2010
-31,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,15,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,15,2010
 1,Arizona Cardinals,5,2,1,1,2,0,0,1,33.0,33.0,60.9,ARI,DST,16,2010
 2,Minnesota Vikings,6,1,2,2,1,0,0,1,28.0,28.0,28.0,MIN,DST,16,2010
 3,New England Patriots,3,3,4,3,0,0,0,1,27.0,27.0,93.2,NE,DST,16,2010
@@ -508,9 +434,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Chicago Bears,0,1,1,2,0,0,0,1,11.0,11.0,35.9,CHI,DST,16,2010
 28,Miami Dolphins,2,0,0,0,0,0,0,1,9.0,9.0,60.2,MIA,DST,16,2010
 29,Dallas Cowboys,1,0,0,0,0,0,0,1,8.0,8.0,82.9,DAL,DST,16,2010
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,16,2010
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,16,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,16,2010
 1,Dallas Cowboys,5,3,1,2,1,0,0,1,29.0,29.0,82.9,DAL,DST,17,2010
 2,New York Jets,3,4,2,3,1,0,0,1,28.0,28.0,3.3,NYJ,DST,17,2010
 3,San Francisco 49ers,6,2,0,2,1,0,0,1,26.0,26.0,79.5,SF,DST,17,2010
@@ -540,6 +463,3 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 27,Philadelphia Eagles,2,0,1,0,0,0,0,1,11.0,11.0,52.5,PHI,DST,17,2010
 28,Jacksonville Jaguars,0,0,0,0,0,0,0,1,10.0,10.0,6.9,JAC,DST,17,2010
 29,Arizona Cardinals,2,0,0,0,0,0,0,1,9.0,9.0,60.9,ARI,DST,17,2010
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,17,2010
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,17,2010
-32,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,17,2010

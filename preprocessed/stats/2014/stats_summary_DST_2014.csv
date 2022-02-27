@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Houston Texans,3,0,2,1,0,0,1,1,22.0,22.0,6.4,HOU,DST,1,2014
 2,Minnesota Vikings,5,2,0,1,1,0,0,1,22.0,22.0,28.0,MIN,DST,1,2014
 3,San Francisco 49ers,3,3,1,1,1,0,0,1,18.0,18.0,79.5,SF,DST,1,2014
@@ -24,10 +24,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Tampa Bay Buccaneers,1,0,0,0,0,0,0,1,2.0,2.0,98.0,TB,DST,1,2014
 24,Baltimore Ravens,0,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,1,2014
 25,Dallas Cowboys,1,0,0,0,0,0,0,1,1.0,1.0,82.9,DAL,DST,1,2014
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,1,2014
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,1,2014
 28,Indianapolis Colts,1,0,0,1,0,0,0,1,0.0,0.0,66.4,IND,DST,1,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,1,2014
 30,New Orleans Saints,1,0,1,1,0,0,0,1,-1.0,-1.0,79.3,NO,DST,1,2014
 31,Green Bay Packers,1,0,1,1,0,0,0,1,-1.0,-1.0,60.6,GB,DST,1,2014
 32,New York Giants,1,0,0,1,0,0,0,1,-3.0,-3.0,4.5,NYG,DST,1,2014
@@ -56,11 +53,8 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,San Francisco 49ers,1,0,0,0,0,0,0,1,1.0,1.0,79.5,SF,DST,2,2014
 24,Indianapolis Colts,0,1,0,0,0,0,0,1,1.0,1.0,66.4,IND,DST,2,2014
 25,Atlanta Falcons,0,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,DST,2,2014
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2014
 27,Pittsburgh Steelers,0,0,0,0,0,0,0,1,0.0,0.0,44.6,PIT,DST,2,2014
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2014
 29,Seattle Seahawks,1,0,0,1,0,0,0,1,0.0,0.0,39.4,SEA,DST,2,2014
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2014
 31,Jacksonville Jaguars,3,0,0,0,0,0,0,1,-1.0,-1.0,6.9,JAC,DST,2,2014
 32,Miami Dolphins,0,0,0,0,0,0,0,1,-1.0,-1.0,60.2,MIA,DST,2,2014
 1,Atlanta Falcons,3,1,4,2,1,0,1,1,23.0,23.0,5.8,ATL,DST,3,2014
@@ -89,10 +83,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Philadelphia Eagles,0,1,0,1,0,0,1,1,1.0,1.0,52.5,PHI,DST,3,2014
 25,Baltimore Ravens,0,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,3,2014
 26,Tennessee Titans,0,1,0,0,0,0,0,1,1.0,1.0,48.4,TEN,DST,3,2014
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,3,2014
 28,Carolina Panthers,1,0,0,0,0,0,0,1,0.0,0.0,27.8,CAR,DST,3,2014
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,3,2014
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,3,2014
 31,Jacksonville Jaguars,2,0,0,0,0,0,0,1,-2.0,-2.0,6.9,JAC,DST,3,2014
 32,Washington Commanders,0,0,1,2,0,0,0,1,-2.0,-2.0,27.5,WAS,DST,3,2014
 1,Philadelphia Eagles,4,1,0,0,1,0,1,1,19.0,19.0,52.5,PHI,DST,4,2014
@@ -112,14 +103,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 15,Minnesota Vikings,1,2,0,0,0,0,0,1,4.0,4.0,28.0,MIN,DST,4,2014
 16,Pittsburgh Steelers,1,1,0,0,0,0,0,1,3.0,3.0,44.6,PIT,DST,4,2014
 17,Jacksonville Jaguars,2,0,0,0,0,0,0,1,1.0,1.0,6.9,JAC,DST,4,2014
-18,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2014
-19,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2014
-20,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,4,2014
-21,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2014
-22,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,4,2014
-23,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,4,2014
-24,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,4,2014
-25,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,4,2014
 26,Washington Commanders,1,1,0,0,0,0,0,1,-1.0,-1.0,27.5,WAS,DST,4,2014
 27,New England Patriots,2,0,0,0,0,0,0,1,-2.0,-2.0,93.2,NE,DST,4,2014
 28,Chicago Bears,1,0,0,0,0,0,0,1,-2.0,-2.0,35.9,CHI,DST,4,2014
@@ -153,11 +136,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Seattle Seahawks,1,0,0,1,0,0,0,1,2.0,2.0,39.4,SEA,DST,5,2014
 25,Tennessee Titans,1,1,0,0,0,0,0,1,2.0,2.0,48.4,TEN,DST,5,2014
 26,Arizona Cardinals,1,2,0,0,0,0,0,1,1.0,1.0,60.9,ARI,DST,5,2014
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2014
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2014
 30,Minnesota Vikings,2,1,0,0,0,0,0,1,0.0,0.0,28.0,MIN,DST,5,2014
-31,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,5,2014
 32,Cincinnati Bengals,1,0,0,0,0,0,0,1,-3.0,-3.0,14.7,CIN,DST,5,2014
 1,Detroit Lions,8,3,0,1,0,0,0,1,21.0,21.0,1.1,DET,DST,6,2014
 2,Philadelphia Eagles,8,0,1,3,0,0,0,1,20.0,20.0,52.5,PHI,DST,6,2014
@@ -183,11 +162,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Pittsburgh Steelers,1,0,1,1,0,0,0,1,2.0,2.0,44.6,PIT,DST,6,2014
 23,Carolina Panthers,1,2,0,0,0,0,0,1,1.0,1.0,27.8,CAR,DST,6,2014
 24,Washington Commanders,1,0,0,1,0,0,0,1,1.0,1.0,27.5,WAS,DST,6,2014
-25,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,6,2014
-26,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,6,2014
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,6,2014
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,6,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,6,2014
 30,Tampa Bay Buccaneers,0,0,1,0,0,0,0,1,-1.0,-1.0,98.0,TB,DST,6,2014
 31,Cincinnati Bengals,0,1,0,0,0,0,0,1,-2.0,-2.0,14.7,CIN,DST,6,2014
 32,Buffalo Bills,2,0,0,0,0,0,0,1,-2.0,-2.0,95.9,BUF,DST,6,2014
@@ -215,11 +189,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Dallas Cowboys,0,0,2,2,0,0,0,1,4.0,4.0,82.9,DAL,DST,7,2014
 23,New York Giants,2,1,0,0,0,0,0,1,3.0,3.0,4.5,NYG,DST,7,2014
 24,New York Jets,1,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,7,2014
-25,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,7,2014
-26,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,7,2014
-27,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,7,2014
-28,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,7,2014
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,7,2014
 30,Seattle Seahawks,0,0,0,1,0,0,0,1,-1.0,-1.0,39.4,SEA,DST,7,2014
 31,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,DST,7,2014
 32,Carolina Panthers,2,0,0,1,0,0,0,1,-2.0,-2.0,27.8,CAR,DST,7,2014
@@ -248,11 +217,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Philadelphia Eagles,0,0,1,1,0,0,0,1,2.0,2.0,52.5,PHI,DST,8,2014
 24,Indianapolis Colts,0,0,2,2,0,0,0,1,1.0,1.0,66.4,IND,DST,8,2014
 25,Green Bay Packers,2,0,1,1,0,0,0,1,0.0,0.0,60.6,GB,DST,8,2014
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,8,2014
-27,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,8,2014
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,8,2014
-29,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,8,2014
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,8,2014
 31,New York Jets,4,0,0,0,0,0,0,1,0.0,0.0,3.3,NYJ,DST,8,2014
 32,Chicago Bears,1,0,0,0,0,0,0,1,-3.0,-3.0,35.9,CHI,DST,8,2014
 1,Miami Dolphins,4,3,1,1,0,0,0,1,22.0,22.0,60.2,MIA,DST,9,2014
@@ -276,15 +240,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 19,New York Jets,1,0,0,1,0,0,0,1,1.0,1.0,3.3,NYJ,DST,9,2014
 20,Baltimore Ravens,3,0,1,0,0,0,1,1,1.0,1.0,51.9,BAL,DST,9,2014
 21,Washington Commanders,2,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,DST,9,2014
-22,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,9,2014
-23,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,9,2014
-24,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,9,2014
-25,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,9,2014
-26,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,9,2014
-27,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,9,2014
-28,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2014
-29,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,9,2014
-30,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,9,2014
 31,Denver Broncos,1,1,0,1,0,0,0,1,-1.0,-1.0,48.5,DEN,DST,9,2014
 32,New York Giants,1,0,0,1,0,0,0,1,-3.0,-3.0,4.5,NYG,DST,9,2014
 1,Philadelphia Eagles,9,3,2,3,1,0,1,1,25.0,25.0,52.5,PHI,DST,10,2014
@@ -309,14 +264,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 20,Cincinnati Bengals,0,0,1,0,0,0,0,1,2.0,2.0,14.7,CIN,DST,10,2014
 21,Tennessee Titans,1,0,0,0,0,0,0,1,1.0,1.0,48.4,TEN,DST,10,2014
 22,Tampa Bay Buccaneers,1,0,0,0,0,0,0,1,1.0,1.0,98.0,TB,DST,10,2014
-23,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,10,2014
-24,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,10,2014
-25,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,10,2014
-26,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,10,2014
-27,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,10,2014
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,10,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,10,2014
-30,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,10,2014
 31,Chicago Bears,0,0,1,1,0,0,1,1,-2.0,-2.0,35.9,CHI,DST,10,2014
 32,Carolina Panthers,1,0,0,0,0,0,0,1,-3.0,-3.0,27.8,CAR,DST,10,2014
 1,Green Bay Packers,3,2,2,0,2,0,1,1,24.0,24.0,60.6,GB,DST,11,2014
@@ -342,14 +289,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Denver Broncos,3,0,0,1,0,0,0,1,3.0,3.0,48.5,DEN,DST,11,2014
 22,Cleveland Browns,0,1,0,0,0,0,0,1,2.0,2.0,40.8,CLE,DST,11,2014
 23,New Orleans Saints,1,0,0,2,0,0,0,1,1.0,1.0,79.3,NO,DST,11,2014
-24,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,11,2014
-25,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,11,2014
-26,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,11,2014
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,11,2014
 28,Indianapolis Colts,0,2,0,0,0,0,0,1,0.0,0.0,66.4,IND,DST,11,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,11,2014
-30,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,11,2014
-31,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,11,2014
 32,Philadelphia Eagles,1,0,0,1,0,0,0,1,-1.0,-1.0,52.5,PHI,DST,11,2014
 1,Buffalo Bills,7,1,0,0,0,0,0,1,23.0,23.0,95.9,BUF,DST,12,2014
 2,Chicago Bears,5,2,2,3,0,0,0,1,17.0,17.0,35.9,CHI,DST,12,2014
@@ -375,12 +315,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,New Orleans Saints,1,0,1,1,0,0,0,1,2.0,2.0,79.3,NO,DST,12,2014
 23,Detroit Lions,0,1,0,0,0,0,0,1,1.0,1.0,1.1,DET,DST,12,2014
 24,Minnesota Vikings,1,0,0,1,0,0,0,1,1.0,1.0,28.0,MIN,DST,12,2014
-25,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,12,2014
-26,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,12,2014
 27,New York Jets,1,0,0,0,0,0,0,1,0.0,0.0,3.3,NYJ,DST,12,2014
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,12,2014
-29,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,12,2014
-30,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,12,2014
 31,Denver Broncos,1,1,0,3,0,0,0,1,-1.0,-1.0,48.5,DEN,DST,12,2014
 32,Miami Dolphins,1,0,1,0,0,0,0,1,-1.0,-1.0,60.2,MIA,DST,12,2014
 1,Minnesota Vikings,4,1,0,0,0,0,2,1,24.0,24.0,28.0,MIN,DST,13,2014
@@ -411,9 +346,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 26,Kansas City Chiefs,1,0,1,1,0,0,0,1,2.0,2.0,45.7,KC,DST,13,2014
 27,Dallas Cowboys,1,0,1,1,0,0,0,1,2.0,2.0,82.9,DAL,DST,13,2014
 28,Green Bay Packers,1,0,0,0,0,0,0,1,1.0,1.0,60.6,GB,DST,13,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2014
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2014
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2014
 32,Pittsburgh Steelers,1,0,0,0,0,0,0,1,-3.0,-3.0,44.6,PIT,DST,13,2014
 1,New York Giants,8,2,1,2,1,0,0,1,27.0,27.0,4.5,NYG,DST,14,2014
 2,Cleveland Browns,3,2,2,2,2,0,0,1,23.0,23.0,40.8,CLE,DST,14,2014
@@ -439,10 +371,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Miami Dolphins,1,1,0,0,0,0,0,1,2.0,2.0,60.2,MIA,DST,14,2014
 23,Jacksonville Jaguars,1,0,0,1,0,0,0,1,1.0,1.0,6.9,JAC,DST,14,2014
 24,San Francisco 49ers,1,0,0,0,0,0,0,1,1.0,1.0,79.5,SF,DST,14,2014
-25,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,14,2014
 26,Green Bay Packers,1,1,0,0,0,0,0,1,0.0,0.0,60.6,GB,DST,14,2014
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,14,2014
-28,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,14,2014
 29,Atlanta Falcons,1,0,0,1,0,0,0,1,-2.0,-2.0,5.8,ATL,DST,14,2014
 30,Chicago Bears,1,0,0,0,0,0,0,1,-3.0,-3.0,35.9,CHI,DST,14,2014
 31,New Orleans Saints,0,0,0,1,0,0,0,1,-4.0,-4.0,79.3,NO,DST,14,2014
@@ -475,9 +404,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 26,Philadelphia Eagles,3,0,1,1,0,0,0,1,1.0,1.0,52.5,PHI,DST,15,2014
 27,Minnesota Vikings,0,0,0,0,0,0,0,1,1.0,1.0,28.0,MIN,DST,15,2014
 28,Atlanta Falcons,1,0,0,0,0,0,0,1,1.0,1.0,5.8,ATL,DST,15,2014
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,15,2014
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,15,2014
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,15,2014
 32,Miami Dolphins,0,1,0,1,0,0,0,1,-2.0,-2.0,60.2,MIA,DST,15,2014
 1,Atlanta Falcons,5,2,2,3,1,0,0,1,20.0,20.0,5.8,ATL,DST,16,2014
 2,Cincinnati Bengals,2,4,0,0,1,0,0,1,16.0,16.0,14.7,CIN,DST,16,2014
@@ -506,9 +432,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Minnesota Vikings,1,1,1,0,0,0,0,1,1.0,1.0,28.0,MIN,DST,16,2014
 26,Buffalo Bills,1,0,0,0,0,0,0,1,1.0,1.0,95.9,BUF,DST,16,2014
 27,New Orleans Saints,0,0,0,0,0,0,0,1,0.0,0.0,79.3,NO,DST,16,2014
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,16,2014
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,16,2014
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,16,2014
 31,Indianapolis Colts,1,0,1,1,0,0,0,1,-1.0,-1.0,66.4,IND,DST,16,2014
 32,Arizona Cardinals,1,0,0,1,0,0,0,1,-3.0,-3.0,60.9,ARI,DST,16,2014
 1,Carolina Panthers,6,2,1,1,2,0,0,1,31.0,31.0,27.8,CAR,DST,17,2014
@@ -538,8 +461,5 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Arizona Cardinals,1,0,0,0,0,0,0,1,2.0,2.0,60.9,ARI,DST,17,2014
 26,Atlanta Falcons,1,0,0,0,0,0,0,1,1.0,1.0,5.8,ATL,DST,17,2014
 27,Tennessee Titans,1,0,0,1,0,0,0,1,1.0,1.0,48.4,TEN,DST,17,2014
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,17,2014
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,17,2014
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,17,2014
 31,Miami Dolphins,1,0,1,1,0,0,0,1,-1.0,-1.0,60.2,MIA,DST,17,2014
 32,Washington Commanders,0,1,0,0,0,0,0,1,-2.0,-2.0,27.5,WAS,DST,17,2014

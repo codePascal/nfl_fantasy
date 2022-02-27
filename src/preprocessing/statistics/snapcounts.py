@@ -28,6 +28,7 @@ class Snapcounts(Preprocessing, ABC):
         df = pd.DataFrame()
         for week in range(1, week_map[self.year] + 1):
             df = pd.concat([df, Loader(week, self.year, self.refresh).get_data()])
+        df = df.loc[df["games"] == 1]
         return df.reset_index(drop=True)
 
 

@@ -1,4 +1,4 @@
-rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,defense_safety,defense_spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
+rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
 1,Cleveland Browns,2,4,1,2,1,0,0,1,19.0,19.0,40.8,CLE,DST,1,2012
 2,Baltimore Ravens,4,1,1,1,1,0,0,1,18.0,18.0,51.9,BAL,DST,1,2012
 3,New England Patriots,2,1,1,1,1,0,0,1,16.0,16.0,93.2,NE,DST,1,2012
@@ -24,10 +24,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Green Bay Packers,4,0,0,1,0,0,1,1,3.0,3.0,60.6,GB,DST,1,2012
 24,Carolina Panthers,2,0,0,0,0,0,0,1,3.0,3.0,27.8,CAR,DST,1,2012
 25,Miami Dolphins,2,0,0,0,0,0,1,1,1.0,1.0,60.2,MIA,DST,1,2012
-26,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,1,2012
-27,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,1,2012
 28,Tennessee Titans,1,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,1,2012
-29,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,1,2012
 30,Cincinnati Bengals,3,0,0,0,0,0,0,1,-1.0,-1.0,14.7,CIN,DST,1,2012
 31,Buffalo Bills,0,1,0,2,0,0,0,1,-2.0,-2.0,95.9,BUF,DST,1,2012
 32,Kansas City Chiefs,1,0,0,1,0,0,0,1,-3.0,-3.0,45.7,KC,DST,1,2012
@@ -58,10 +55,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Dallas Cowboys,2,0,0,0,0,0,0,1,2.0,2.0,82.9,DAL,DST,2,2012
 26,Tennessee Titans,4,1,0,3,0,0,0,1,2.0,2.0,48.4,TEN,DST,2,2012
 27,Denver Broncos,1,0,0,1,0,0,0,1,1.0,1.0,48.5,DEN,DST,2,2012
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,2,2012
 29,Jacksonville Jaguars,0,0,0,0,0,0,0,1,0.0,0.0,6.9,JAC,DST,2,2012
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,2,2012
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,2,2012
 32,Kansas City Chiefs,0,0,0,0,0,0,0,1,-4.0,-4.0,45.7,KC,DST,2,2012
 1,Arizona Cardinals,5,0,3,2,1,0,0,1,24.0,24.0,60.9,ARI,DST,3,2012
 2,Chicago Bears,6,2,0,0,1,0,0,1,23.0,23.0,35.9,CHI,DST,3,2012
@@ -90,10 +84,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Baltimore Ravens,2,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,3,2012
 26,Indianapolis Colts,1,0,0,1,0,0,0,1,1.0,1.0,66.4,IND,DST,3,2012
 27,New England Patriots,0,1,0,0,0,0,0,1,1.0,1.0,93.2,NE,DST,3,2012
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,3,2012
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,3,2012
 30,Detroit Lions,0,0,2,1,0,0,0,1,0.0,0.0,1.1,DET,DST,3,2012
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,3,2012
 32,Carolina Panthers,2,0,0,1,0,0,0,1,-2.0,-2.0,27.8,CAR,DST,3,2012
 1,San Francisco 49ers,3,1,3,2,1,0,0,1,28.0,28.0,79.5,SF,DST,4,2012
 2,Chicago Bears,1,5,0,1,2,0,0,1,24.0,24.0,35.9,CHI,DST,4,2012
@@ -121,11 +112,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Kansas City Chiefs,3,1,0,0,0,0,0,1,1.0,1.0,45.7,KC,DST,4,2012
 25,New York Jets,2,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,4,2012
 26,Tampa Bay Buccaneers,1,0,0,1,0,0,0,1,1.0,1.0,98.0,TB,DST,4,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2012
-28,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,4,2012
-29,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,4,2012
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2012
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2012
 32,Tennessee Titans,0,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,4,2012
 1,Chicago Bears,3,2,1,1,2,0,0,1,28.0,28.0,35.9,CHI,DST,5,2012
 2,Carolina Panthers,2,2,1,0,1,1,0,1,17.0,17.0,27.8,CAR,DST,5,2012
@@ -152,12 +138,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,New York Jets,0,1,0,0,0,0,1,1,2.0,2.0,3.3,NYJ,DST,5,2012
 24,Philadelphia Eagles,0,0,0,0,0,0,0,1,1.0,1.0,52.5,PHI,DST,5,2012
 25,Cleveland Browns,0,1,1,0,0,0,0,1,0.0,0.0,40.8,CLE,DST,5,2012
-26,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,5,2012
-27,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,5,2012
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2012
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2012
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2012
-31,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,5,2012
 32,Buffalo Bills,0,0,1,1,0,0,0,1,-2.0,-2.0,95.9,BUF,DST,5,2012
 1,Denver Broncos,4,4,2,3,2,0,0,1,28.0,28.0,48.5,DEN,DST,6,2012
 2,New York Giants,6,3,0,0,0,0,0,1,19.0,19.0,4.5,NYG,DST,6,2012
@@ -182,14 +162,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Philadelphia Eagles,0,1,0,0,0,0,0,1,2.0,2.0,52.5,PHI,DST,6,2012
 22,Baltimore Ravens,1,1,0,0,0,0,1,1,2.0,2.0,51.9,BAL,DST,6,2012
 23,San Francisco 49ers,0,0,0,0,0,0,0,1,1.0,1.0,79.5,SF,DST,6,2012
-24,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,6,2012
-25,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,6,2012
-26,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,6,2012
 27,Dallas Cowboys,1,0,0,0,0,0,0,1,0.0,0.0,82.9,DAL,DST,6,2012
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,6,2012
-29,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,6,2012
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,6,2012
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,6,2012
 32,Indianapolis Colts,1,0,0,0,0,0,0,1,-3.0,-3.0,66.4,IND,DST,6,2012
 1,Houston Texans,4,2,0,1,1,1,0,1,20.0,20.0,6.4,HOU,DST,7,2012
 2,Minnesota Vikings,7,1,1,1,1,0,0,1,18.0,18.0,28.0,MIN,DST,7,2012
@@ -212,14 +185,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 19,Carolina Panthers,0,0,1,1,0,0,0,1,3.0,3.0,27.8,CAR,DST,7,2012
 20,New York Jets,1,0,1,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,7,2012
 21,New Orleans Saints,2,0,0,1,0,0,0,1,1.0,1.0,79.3,NO,DST,7,2012
-22,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,7,2012
-23,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,7,2012
-24,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,7,2012
-25,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,7,2012
-26,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,7,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,7,2012
-28,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,7,2012
-29,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,7,2012
 30,Buffalo Bills,2,0,0,1,0,0,1,1,-2.0,-2.0,95.9,BUF,DST,7,2012
 31,Baltimore Ravens,2,0,0,0,0,0,0,1,-2.0,-2.0,51.9,BAL,DST,7,2012
 32,Tampa Bay Buccaneers,0,1,0,0,0,0,0,1,-2.0,-2.0,98.0,TB,DST,7,2012
@@ -247,13 +212,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 22,Philadelphia Eagles,2,0,0,1,0,0,0,1,2.0,2.0,52.5,PHI,DST,8,2012
 23,New Orleans Saints,0,0,1,2,0,0,0,1,1.0,1.0,79.3,NO,DST,8,2012
 24,Washington Commanders,1,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,DST,8,2012
-25,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,8,2012
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,8,2012
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,8,2012
-28,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,8,2012
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,8,2012
-30,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,8,2012
-31,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,8,2012
 32,Minnesota Vikings,1,0,0,0,0,0,0,1,-3.0,-3.0,28.0,MIN,DST,8,2012
 1,Chicago Bears,2,1,4,5,1,0,1,1,26.0,26.0,35.9,CHI,DST,9,2012
 2,New Orleans Saints,7,1,1,2,1,0,0,1,21.0,21.0,79.3,NO,DST,9,2012
@@ -280,12 +238,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Cleveland Browns,1,0,0,0,0,0,0,1,1.0,1.0,40.8,CLE,DST,9,2012
 24,Minnesota Vikings,1,0,0,0,0,0,0,1,1.0,1.0,28.0,MIN,DST,9,2012
 25,Washington Commanders,0,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,DST,9,2012
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,9,2012
-27,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,9,2012
-28,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,9,2012
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,9,2012
-30,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,9,2012
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2012
 32,Jacksonville Jaguars,1,0,0,0,0,0,0,1,0.0,0.0,6.9,JAC,DST,9,2012
 1,Tennessee Titans,2,3,1,1,1,0,0,1,23.0,23.0,48.4,TEN,DST,10,2012
 2,Denver Broncos,7,2,0,2,1,1,1,1,20.0,20.0,48.5,DEN,DST,10,2012
@@ -310,14 +262,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Atlanta Falcons,1,1,0,0,0,0,0,1,2.0,2.0,5.8,ATL,DST,10,2012
 22,Detroit Lions,2,0,0,0,0,0,0,1,1.0,1.0,1.1,DET,DST,10,2012
 23,New York Giants,0,0,1,0,0,0,0,1,1.0,1.0,4.5,NYG,DST,10,2012
-24,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,10,2012
-25,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,10,2012
 26,Miami Dolphins,1,0,0,0,0,0,0,1,0.0,0.0,60.2,MIA,DST,10,2012
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,10,2012
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,10,2012
-29,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,10,2012
-30,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,10,2012
-31,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,10,2012
 32,Buffalo Bills,1,0,0,0,0,0,0,1,-3.0,-3.0,95.9,BUF,DST,10,2012
 1,New England Patriots,1,3,1,2,2,0,1,1,21.0,21.0,93.2,NE,DST,11,2012
 2,Green Bay Packers,5,2,2,1,1,0,0,1,20.0,20.0,60.6,GB,DST,11,2012
@@ -342,13 +287,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Kansas City Chiefs,2,0,0,1,0,0,0,1,1.0,1.0,45.7,KC,DST,11,2012
 22,Chicago Bears,2,0,0,0,0,0,0,1,1.0,1.0,35.9,CHI,DST,11,2012
 23,Philadelphia Eagles,2,0,0,1,0,0,0,1,1.0,1.0,52.5,PHI,DST,11,2012
-24,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,11,2012
-25,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,11,2012
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,11,2012
-27,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,11,2012
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,11,2012
-29,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,11,2012
-30,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,11,2012
 31,Houston Texans,2,0,1,1,0,0,0,1,0.0,0.0,6.4,HOU,DST,11,2012
 32,Indianapolis Colts,0,0,0,1,0,0,0,1,-4.0,-4.0,66.4,IND,DST,11,2012
 1,New England Patriots,2,1,4,3,2,0,0,1,25.0,25.0,93.2,NE,DST,12,2012
@@ -378,10 +316,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 25,Miami Dolphins,2,0,0,0,0,0,0,1,2.0,2.0,60.2,MIA,DST,12,2012
 26,Philadelphia Eagles,2,0,0,0,0,0,0,1,1.0,1.0,52.5,PHI,DST,12,2012
 27,Dallas Cowboys,3,1,0,0,0,0,0,1,1.0,1.0,82.9,DAL,DST,12,2012
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,12,2012
 29,New York Jets,0,0,1,1,0,1,0,1,0.0,0.0,3.3,NYJ,DST,12,2012
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,12,2012
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,12,2012
 32,Green Bay Packers,1,0,0,0,0,0,0,1,-3.0,-3.0,60.6,GB,DST,12,2012
 1,Houston Texans,6,3,3,2,0,0,0,1,22.0,22.0,6.4,HOU,DST,13,2012
 2,Arizona Cardinals,3,3,1,1,0,0,0,1,15.0,15.0,60.9,ARI,DST,13,2012
@@ -411,10 +346,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 26,Carolina Panthers,1,0,0,0,0,0,0,1,1.0,1.0,27.8,CAR,DST,13,2012
 27,Seattle Seahawks,0,0,0,1,0,0,0,1,1.0,1.0,39.4,SEA,DST,13,2012
 28,Indianapolis Colts,0,1,0,0,0,0,0,1,1.0,1.0,66.4,IND,DST,13,2012
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2012
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2012
 31,Tennessee Titans,0,0,0,1,0,0,0,1,0.0,0.0,48.4,TEN,DST,13,2012
-32,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2012
 1,Seattle Seahawks,3,4,4,2,2,0,0,1,41.0,41.0,39.4,SEA,DST,14,2012
 2,Tennessee Titans,4,2,0,1,1,0,0,1,14.0,14.0,48.4,TEN,DST,14,2012
 3,Minnesota Vikings,2,2,0,1,1,0,0,1,13.0,13.0,28.0,MIN,DST,14,2012
@@ -441,10 +373,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,Kansas City Chiefs,3,0,0,1,0,0,0,1,2.0,2.0,45.7,KC,DST,14,2012
 25,Philadelphia Eagles,2,0,0,0,0,0,0,1,2.0,2.0,52.5,PHI,DST,14,2012
 26,Atlanta Falcons,1,0,0,1,0,0,0,1,0.0,0.0,5.8,ATL,DST,14,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,14,2012
 28,Pittsburgh Steelers,1,0,0,0,0,0,0,1,0.0,0.0,44.6,PIT,DST,14,2012
-29,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,14,2012
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,14,2012
 31,Houston Texans,1,1,0,2,0,0,0,1,-1.0,-1.0,6.4,HOU,DST,14,2012
 32,Arizona Cardinals,1,1,0,0,0,0,0,1,-1.0,-1.0,60.9,ARI,DST,14,2012
 1,Arizona Cardinals,2,3,1,0,2,0,0,1,26.0,26.0,60.9,ARI,DST,15,2012
@@ -473,9 +402,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 24,New England Patriots,1,1,1,1,0,0,0,1,1.0,1.0,93.2,NE,DST,15,2012
 25,Baltimore Ravens,2,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,15,2012
 26,New York Giants,1,0,0,0,0,0,0,1,0.0,0.0,4.5,NYG,DST,15,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,15,2012
-28,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,15,2012
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,15,2012
 30,Cleveland Browns,2,1,0,2,0,0,0,1,0.0,0.0,40.8,CLE,DST,15,2012
 31,Buffalo Bills,2,0,0,0,0,0,0,1,-1.0,-1.0,95.9,BUF,DST,15,2012
 32,Tampa Bay Buccaneers,1,0,0,0,0,0,0,1,-3.0,-3.0,98.0,TB,DST,15,2012
@@ -504,9 +430,6 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 23,Tampa Bay Buccaneers,0,1,1,1,0,0,0,1,3.0,3.0,98.0,TB,DST,16,2012
 24,Detroit Lions,1,0,0,0,0,1,0,1,2.0,2.0,1.1,DET,DST,16,2012
 25,Cleveland Browns,0,1,0,0,0,0,0,1,1.0,1.0,40.8,CLE,DST,16,2012
-26,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,16,2012
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,16,2012
-28,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,16,2012
 29,New York Giants,0,0,0,0,0,0,0,1,-1.0,-1.0,4.5,NYG,DST,16,2012
 30,Dallas Cowboys,0,0,0,2,0,0,0,1,-1.0,-1.0,82.9,DAL,DST,16,2012
 31,San Francisco 49ers,1,1,0,0,0,0,0,1,-1.0,-1.0,79.5,SF,DST,16,2012
@@ -534,10 +457,7 @@ rank,player,defense_sacks,defense_ints,fumble_recovery,fumble_forced,defense_td,
 21,Cleveland Browns,2,0,0,0,0,0,0,1,2.0,2.0,40.8,CLE,DST,17,2012
 22,New York Jets,0,0,1,1,0,0,0,1,2.0,2.0,3.3,NYJ,DST,17,2012
 23,Arizona Cardinals,1,0,0,1,0,0,0,1,1.0,1.0,60.9,ARI,DST,17,2012
-24,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,17,2012
-25,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,17,2012
 26,Houston Texans,1,0,0,0,0,0,0,1,0.0,0.0,6.4,HOU,DST,17,2012
-27,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,17,2012
 28,Dallas Cowboys,1,0,0,0,0,0,0,1,0.0,0.0,82.9,DAL,DST,17,2012
 29,Miami Dolphins,1,0,0,0,0,0,0,1,0.0,0.0,60.2,MIA,DST,17,2012
 30,Kansas City Chiefs,0,0,1,1,0,0,0,1,-2.0,-2.0,45.7,KC,DST,17,2012
