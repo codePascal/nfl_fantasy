@@ -35,7 +35,7 @@ class Statistics(Preprocessing, ABC):
         # merge with weekly accumulated stats
         stats = pd.merge(snapcounts,
                          Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
-                         how="inner",
+                         how="outer",
                          on=["player", "week", "year", "fantasy_points", "games", "position", "team"])
 
         # drop not relevant columns
@@ -45,7 +45,7 @@ class Statistics(Preprocessing, ABC):
         stats["team"] = stats["team"].apply(fix_teams)
 
         # merge schedule
-        stats = pd.merge(stats, Schedule(self.year).get_data(), how="inner", on=["team", "week", "year"])
+        stats = pd.merge(stats, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
 
         return stats
 
