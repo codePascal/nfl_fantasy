@@ -1,16 +1,20 @@
-""" Handles configuration for data from fantasy pros. """
+""" Handles configuration for data from fantasy pros.
+
+Glossary for help:
+https://www.hometeamsonline.com/teams/popups/Glossary.asp?s=football
+"""
 # maps the column name and type for stats
 stats_type = {
     "DST": {
         "rank": int,
         "player": str,
-        "defense_sacks": int,
-        "defense_ints": int,
-        "fumble_recovery": int,
-        "fumble_forced": int,
+        "sacks": int,
+        "ints": int,
+        "frec": int,
+        "ff": int,
         "defense_td": int,
-        "defense_safety": int,
-        "defense_spc_td": int,
+        "sfty": int,
+        "spc_td": int,
         "games": int,
         "fantasy_points": float,
         "fantasy_points_per_game": float,
@@ -19,10 +23,10 @@ stats_type = {
     "K": {
         "rank": int,
         "player": str,
-        "field_goal": int,
-        "field_goal_att": int,
-        "pct": float,
-        "lg": int,
+        "fg": int,
+        "fg_att": int,
+        "fg_pct": float,
+        "long": int,
         "1-19": int,
         "20-29": int,
         "30-39": int,
@@ -40,16 +44,16 @@ stats_type = {
         "player": str,
         "passing_cmp": int,
         "passing_att": int,
-        "passing_pct": float,
+        "passing_cmppct": float,
         "passing_yds": int,
-        "passing_ya": float,
+        "passing_avg": float,
         "passing_td": int,
         "passing_int": int,
-        "passing_sacks": int,
+        "sacked": int,
         "rushing_att": int,
         "rushing_yds": int,
         "rushing_td": int,
-        "fumbles_lost": int,
+        "lst": int,
         "games": int,
         "fantasy_points": float,
         "fantasy_points_per_game": float,
@@ -60,16 +64,16 @@ stats_type = {
         "player": str,
         "rushing_att": int,
         "rushing_yds": int,
-        "rushing_ya": float,
-        "rushing_lg": int,
+        "rushing_avg": float,
+        "rushing_lng": int,
         "rushing_20p": int,
         "rushing_td": int,
         "receiving_rec": int,
         "receiving_tgt": int,
         "receiving_yds": int,
-        "receiving_yr": float,
+        "receiving_avg": float,
         "receiving_td": int,
-        "fumbles_lost": int,
+        "lst": int,
         "games": int,
         "fantasy_points": float,
         "fantasy_points_per_game": float,
@@ -81,14 +85,14 @@ stats_type = {
         "receiving_rec": int,
         "receiving_tgt": int,
         "receiving_yds": int,
-        "receiving_yr": float,
-        "receiving_lg": int,
+        "receiving_avg": float,
+        "receiving_long": int,
         "receiving_20p": int,
         "receiving_td": int,
         "rushing_att": int,
         "rushing_yds": int,
         "rushing_td": int,
-        "fumbles_lost": int,
+        "lst": int,
         "games": int,
         "fantasy_points": float,
         "fantasy_points_per_game": float,
@@ -100,14 +104,14 @@ stats_type = {
         "receiving_rec": int,
         "receiving_tgt": int,
         "receiving_yds": int,
-        "receiving_yr": float,
+        "receiving_avg": float,
         "receiving_lg": int,
         "receiving_20p": int,
         "receiving_td": int,
         "rushing_att": int,
         "rushing_yds": int,
         "rushing_td": int,
-        "fumbles_lost": int,
+        "lst": int,
         "games": int,
         "fantasy_points": float,
         "fantasy_points_per_game": float,
@@ -123,11 +127,11 @@ snapcounts_type = {
     "games": int,
     "snaps": int,
     "snaps_per_game": int,
-    "snaps_percent": int,
-    "rush_percent": int,
-    "tgt_percent": int,
-    "touch_percent": int,
-    "util_percent": int,
+    "snaps_pct": int,
+    "rush_pct": int,
+    "tgt_pct": int,
+    "touch_pct": int,
+    "util_pct": int,
     "fantasy_points": float,
     "points_per_100_snaps": float
 }
@@ -136,20 +140,20 @@ snapcounts_type = {
 projections_type = {
     "DST": {
         "player": str,
-        "sacks": float,
-        "defense_int": float,
-        "fumble_recovery": float,
-        "fumble_forced": float,
+        "sacks_proj": float,
+        "ints_proj": float,
+        "frec": float,
+        "ff": float,
         "defense_td": float,
-        "defense_safety": float,
-        "pa": float,
-        "yds_against": float,
+        "sfty": float,
+        "pts_against": float,  # TODO verify
+        "yds_against": float,  # TODO verify
         "fantasy_points": float
     },
     "K": {
         "player": str,
-        "field_goal": float,
-        "field_goal_att": float,
+        "fg": float,
+        "fg_att": float,
         "XPT": float,
         "fantasy_points": float
     },
@@ -163,7 +167,7 @@ projections_type = {
         "rushing_att": float,
         "rushing_yds": float,
         "rushing_td": float,
-        "fumbles_lost": float,
+        "lst": float,
         "fantasy_points": float
     },
     "RB": {
@@ -174,7 +178,7 @@ projections_type = {
         "receiving_rec": float,
         "receiving_yds": float,
         "receiving_td": float,
-        "fumbles_lost": float,
+        "lst": float,
         "fantasy_points": float
     },
     "TE": {
@@ -182,7 +186,7 @@ projections_type = {
         "receiving_rec": float,
         "receiving_yds": float,
         "receiving_td": float,
-        "fumbles_lost": float,
+        "lst": float,
         "fantasy_points": float
     },
     "WR": {
@@ -193,7 +197,7 @@ projections_type = {
         "rushing_att": float,
         "rushing_yds": float,
         "rushing_td": float,
-        "fumbles_lost": float,
+        "lst": float,
         "fantasy_points": float
     }
 }
