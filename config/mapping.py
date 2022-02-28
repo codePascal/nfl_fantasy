@@ -35,9 +35,9 @@ team_map = {
     "Indianapolis Colts": "IND",
     "Jacksonville Jaguars": "JAC",
     "Kansas City Chiefs": "KC",
-    "Las Vegas Raiders": "LV",
     "Los Angeles Chargers": "LAC",
     "Los Angeles Rams": "LAR",
+    "Las Vegas Raiders": "LV",
     "Miami Dolphins": "MIA",
     "Minnesota Vikings": "MIN",
     "New England Patriots": "NE",
@@ -64,25 +64,36 @@ team_changes_map = {
         "NWE": "NE",
         "SFO": "SF",
         "NOR": "NO",
-        "SDG": "SD",
         "KAN": "KC",
         "TAM": "TB",
         "2TM": "CIN",  # TODO verify
+        "HTX": "HOU",
+        "CLT": "IND",
+        "RAV": "BAL",
+        "CRD": "ARI",
+        "OTI": "TEN",
+        "RAI": "LV",  # changed team name in 2020
+        "SDG": "LAC",  # changed team name in 2017
+        "RAM": "LAR",  # changed team name in 2016
     },
-    2022: {
-        "Washington Football Team": "Washington Commanders",
-    },
+    2022: {},
+    2021: {},
     2020: {
-        "OAK": "LV",
-        "Oakland Raiders": "Las Vegas Raiders",
-        "Washington Redskins": "Washington Football Team",
+        "OAK": "LV",  # team change in 2020
     },
+    2019: {},
+    2018: {},
     2017: {
-        "SD": "LAC",
-        "San Diego Chargers": "Los Angeles Chargers",
+        "SD": "LAC",  # team change in 2017
     },
     2016: {
-        "STL": "LAR",
-        "St. Louis Rams": "Los Angeles Rams",
-    }
+        "STL": "LAR",  # team change in 2016
+    },
+    2015: {},
+    2014: {},
+    2013: {},
+    2012: {},
+    2011: {},
+    2010: {},
+    2009: {},
 }
