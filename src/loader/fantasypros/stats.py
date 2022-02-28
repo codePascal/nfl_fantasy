@@ -122,7 +122,7 @@ class YearlyStats(Stats, ABC):
         df["rost"] = df["rost"].apply(transform_rost)
 
         # TODO fix team assignment -> what to do if player changed his team during the season
-        df["team"] = np.nan
+        df["team"] = "team"
 
         return df.astype(self.mapping)
 
@@ -155,5 +155,4 @@ def store_all():
 
 
 if __name__ == "__main__":
-    # store_all()
-    YearlyStats("QB", 2020, refresh=True).store_data()
+    store_all()
