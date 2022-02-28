@@ -6,9 +6,9 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 5,Adam Thielen,11,13,126,11.5,35,0,1,1,2,0,0,1,18.8,18.8,82.7,MIN,WR,6,2021
 6,DeAndre Hopkins,3,4,55,18.3,33,0,2,0,0,0,0,1,17.5,17.5,69.3,ARI,WR,6,2021
 7,Marvin Jones Jr.,7,10,100,14.3,28,0,1,0,0,0,0,1,16.0,16.0,55.4,JAC,WR,6,2021
-8,Henry Ruggs III,3,4,97,32.3,48,0,1,0,0,0,0,1,15.7,15.7,10.9,FA,WR,6,2021
+8,Henry Ruggs III,3,4,97,32.3,48,0,1,0,0,0,0,1,15.7,15.7,10.9,LV,WR,6,2021
 9,Courtland Sutton,8,14,94,11.8,18,0,1,0,0,0,0,1,15.4,15.4,67.5,DEN,WR,6,2021
-10,Antonio Brown,9,13,93,10.3,27,0,1,0,0,0,0,1,15.3,15.3,84.1,FA,WR,6,2021
+10,Antonio Brown,9,13,93,10.3,27,0,1,0,0,0,0,1,15.3,15.3,84.1,TB,WR,6,2021
 11,Stefon Diggs,9,11,89,9.9,17,0,1,0,0,0,0,1,14.9,14.9,100.0,BUF,WR,6,2021
 12,Cole Beasley,7,9,88,12.6,29,0,1,0,0,0,0,1,14.8,14.8,63.2,BUF,WR,6,2021
 13,A.J. Green,5,6,79,15.8,34,0,1,0,0,0,0,1,13.9,13.9,51.8,ARI,WR,6,2021
@@ -124,7 +124,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 123,Nsimba Webster,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,CHI,WR,6,2021
 124,Steven Sims Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,PIT,WR,6,2021
 125,Jason Moore Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,LAC,WR,6,2021
-126,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,FA,WR,6,2021
+126,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,LAC,WR,6,2021
 127,Denzel Mims,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.7,NYJ,WR,6,2021
 128,Aleva Hifo,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,ARI,WR,6,2021
 129,Dan Chisena,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIN,WR,6,2021
@@ -187,7 +187,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 186,Trenton Irwin,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,CIN,WR,6,2021
 187,DaeSean Hamilton,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,DEN,WR,6,2021
 188,Dylan Cantrell,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,WAS,WR,6,2021
-189,Damion Ratley,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,FA,WR,6,2021
+189,Damion Ratley,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,MIN,WR,6,2021
 190,Austin Proehl,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,NYG,WR,6,2021
 191,Marquez Valdes-Scantling,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,36.0,GB,WR,6,2021
 192,Daurice Fountain,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,KC,WR,6,2021
@@ -327,7 +327,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 326,Reece Horn,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,CIN,WR,6,2021
 327,Darius Jennings,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,DET,WR,6,2021
 328,Cody Core,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIA,WR,6,2021
-329,Jakeem Grant Sr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,1.2,FA,WR,6,2021
+329,Jakeem Grant Sr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,1.2,CHI,WR,6,2021
 330,William Fuller V,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,22.8,MIA,WR,6,2021
 331,Tajae Sharpe,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,1.1,ATL,WR,6,2021
 332,Rashard Higgins,0,3,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.7,CLE,WR,6,2021
@@ -362,7 +362,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 361,Corey Davis,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,29.9,NYJ,WR,6,2021
 362,Bennie Fowler III,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,SF,WR,6,2021
 363,Allen Hurns,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,MIA,WR,6,2021
-364,Willie Snead IV,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,FA,WR,6,2021
+364,Willie Snead IV,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,CAR,WR,6,2021
 365,J.J. Nelson,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,IND,WR,6,2021
 366,Damiere Byrd,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,CHI,WR,6,2021
 367,DeAndre Carter,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,1.8,WAS,WR,6,2021

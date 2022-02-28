@@ -50,7 +50,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 49,John Bates,1,1,4,4.0,4,0,0,0,0,0,0,1,0.4,0.4,0.6,WAS,TE,8,2021
 50,Hayden Hurst,2,3,4,2.0,7,0,0,0,0,0,0,1,0.4,0.4,0.9,ATL,TE,8,2021
 51,Luke Farrell,1,2,3,3.0,3,0,0,0,0,0,0,1,0.3,0.3,0.0,JAC,TE,8,2021
-52,Gerald Everett,1,2,7,7.0,7,0,0,1,-5,0,0,1,0.2,0.2,35.7,FA,TE,8,2021
+52,Gerald Everett,1,2,7,7.0,7,0,0,1,-5,0,0,1,0.2,0.2,35.7,SEA,TE,8,2021
 53,Matthew Orzech,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,LAR,TE,8,2021
 54,Jake Bargas,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIN,TE,8,2021
 55,Ian Bunting,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,DAL,TE,8,2021
@@ -166,7 +166,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 165,Mark Vital Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,KC,TE,8,2021
 166,Jason Croom,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,PHI,TE,8,2021
 167,Cethan Carter,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,MIA,TE,8,2021
-168,Lee Smith,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,FA,TE,8,2021
+168,Lee Smith,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,ATL,TE,8,2021
 169,Jimmy Graham,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.8,CHI,TE,8,2021
 170,Rob Gronkowski,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,97.7,TB,TE,8,2021
 171,Marquez Branson,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,ATL,TE,8,2021

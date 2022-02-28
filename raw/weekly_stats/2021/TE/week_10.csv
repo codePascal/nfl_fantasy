@@ -9,7 +9,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 8,Tyler Higbee,3,5,20,6.7,12,0,1,0,0,0,0,1,8.0,8.0,77.4,LAR,TE,10,2021
 9,Albert Okwuegbunam,3,3,77,25.7,64,0,0,0,0,0,0,1,7.7,7.7,1.0,DEN,TE,10,2021
 10,Cameron Brate,1,3,6,6.0,6,0,1,0,0,0,0,1,6.6,6.6,2.8,TB,TE,10,2021
-11,Gerald Everett,8,8,63,7.9,12,0,0,0,0,0,0,1,6.3,6.3,35.7,FA,TE,10,2021
+11,Gerald Everett,8,8,63,7.9,12,0,0,0,0,0,0,1,6.3,6.3,35.7,SEA,TE,10,2021
 12,MyCole Pruitt,1,1,2,2.0,2,0,1,0,0,0,0,1,6.2,6.2,0.0,TEN,TE,10,2021
 13,Noah Gray,1,3,1,1.0,1,0,1,0,0,0,0,1,6.1,6.1,0.3,KC,TE,10,2021
 14,Kyle Pitts,4,7,60,15.0,18,0,0,0,0,0,0,1,6.0,6.0,97.4,ATL,TE,10,2021
@@ -34,7 +34,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 33,Sean McKeon,2,2,15,7.5,12,0,0,0,0,0,0,1,1.5,1.5,0.0,DAL,TE,10,2021
 34,Dalton Schultz,1,2,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,89.9,DAL,TE,10,2021
 35,Chris Herndon IV,1,2,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,0.2,MIN,TE,10,2021
-36,Eric Ebron,2,2,13,6.5,9,0,0,0,0,0,0,1,1.3,1.3,3.0,FA,TE,10,2021
+36,Eric Ebron,2,2,13,6.5,9,0,0,0,0,0,0,1,1.3,1.3,3.0,PIT,TE,10,2021
 37,Pat Freiermuth,5,9,31,6.2,10,0,0,0,0,0,1,1,1.1,1.1,56.7,PIT,TE,10,2021
 38,David Njoku,1,4,11,11.0,11,0,0,0,0,0,0,1,1.1,1.1,12.9,CLE,TE,10,2021
 39,Jared Cook,1,3,10,10.0,10,0,0,0,0,0,0,1,1.0,1.0,50.2,LAC,TE,10,2021

@@ -187,7 +187,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 186,Rico Gafford,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,GB,WR,8,2021
 187,Cameron Batson,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,TEN,WR,8,2021
 188,Trent Sherfield,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.1,SF,WR,8,2021
-189,Keith Kirkwood,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,FA,WR,8,2021
+189,Keith Kirkwood,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,CAR,WR,8,2021
 190,Christian Blake,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,ATL,WR,8,2021
 191,Caleb Scott,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,TEN,WR,8,2021
 192,Deon Cain,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,PHI,WR,8,2021
@@ -328,7 +328,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 327,Alex Erickson,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,CAR,WR,8,2021
 328,Cody Core,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIA,WR,8,2021
 329,Robby Anderson,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,42.2,CAR,WR,8,2021
-330,Jakeem Grant Sr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,1.2,FA,WR,8,2021
+330,Jakeem Grant Sr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,1.2,CHI,WR,8,2021
 331,William Fuller V,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,22.8,MIA,WR,8,2021
 332,Michael Thomas,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,20.6,NO,WR,8,2021
 333,Laquon Treadwell,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,2.5,JAC,WR,8,2021

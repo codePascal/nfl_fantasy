@@ -43,14 +43,14 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 42,DeAndre Hopkins,4,7,67,16.8,25,0,0,0,0,0,0,1,6.7,6.7,69.3,ARI,WR,4,2021
 43,Cooper Kupp,5,13,64,12.8,35,0,0,0,0,0,0,1,6.4,6.4,100.0,LAR,WR,4,2021
 44,Davante Adams,6,11,64,10.7,21,0,0,0,0,0,0,1,6.4,6.4,100.0,GB,WR,4,2021
-45,Antonio Brown,7,11,63,9.0,27,0,0,0,0,0,0,1,6.3,6.3,84.1,FA,WR,4,2021
+45,Antonio Brown,7,11,63,9.0,27,0,0,0,0,0,0,1,6.3,6.3,84.1,TB,WR,4,2021
 46,Rashard Higgins,4,7,63,15.8,21,0,0,0,0,0,0,1,6.3,6.3,0.7,CLE,WR,4,2021
 47,Allen Robinson II,3,3,63,21.0,28,0,0,0,0,0,0,1,6.3,6.3,53.7,CHI,WR,4,2021
 48,Chester Rogers,5,6,63,12.6,20,0,0,0,0,0,0,1,6.3,6.3,0.6,TEN,WR,4,2021
 49,Brandon Zylstra,2,2,63,31.5,55,0,0,0,0,0,0,1,6.3,6.3,0.1,CAR,WR,4,2021
 50,Jody Fortson,1,1,2,2.0,2,0,1,0,0,0,0,1,6.2,6.2,0.0,KC,WR,4,2021
 51,Cameron Batson,1,4,2,2.0,2,0,1,0,0,0,0,1,6.2,6.2,0.0,TEN,WR,4,2021
-52,Henry Ruggs III,3,6,60,20.0,51,0,0,0,0,0,0,1,6.0,6.0,10.9,FA,WR,4,2021
+52,Henry Ruggs III,3,6,60,20.0,51,0,0,0,0,0,0,1,6.0,6.0,10.9,LV,WR,4,2021
 53,Nelson Agholor,3,5,55,18.3,30,0,0,1,4,0,0,1,5.9,5.9,13.6,NE,WR,4,2021
 54,Josh Reynolds,6,9,59,9.8,12,0,0,0,0,0,0,1,5.9,5.9,6.9,DET,WR,4,2021
 55,Michael Pittman Jr.,6,8,59,9.8,20,0,0,0,0,0,0,1,5.9,5.9,92.6,IND,WR,4,2021
@@ -91,11 +91,11 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 90,Ashton Dulin,1,1,17,17.0,17,0,0,0,0,0,0,1,1.7,1.7,0.1,IND,WR,4,2021
 91,Cole Beasley,2,2,16,8.0,9,0,0,0,0,0,0,1,1.6,1.6,63.2,BUF,WR,4,2021
 92,Brandon Aiyuk,1,3,15,15.0,15,0,0,0,0,0,0,1,1.5,1.5,88.8,SF,WR,4,2021
-93,Willie Snead IV,1,1,15,15.0,15,0,0,0,0,0,0,1,1.5,1.5,0.1,FA,WR,4,2021
+93,Willie Snead IV,1,1,15,15.0,15,0,0,0,0,0,0,1,1.5,1.5,0.1,CAR,WR,4,2021
 94,Braxton Berrios,1,1,0,0.0,0,0,0,2,15,0,0,1,1.5,1.5,6.3,NYJ,WR,4,2021
 95,Olamide Zaccheaus,1,3,15,15.0,15,0,0,0,0,0,0,1,1.5,1.5,0.8,ATL,WR,4,2021
 96,Tajae Sharpe,2,2,15,7.5,8,0,0,0,0,0,0,1,1.5,1.5,1.1,ATL,WR,4,2021
-97,Chris Hogan,2,2,15,7.5,9,0,0,0,0,0,0,1,1.5,1.5,0.0,FA,WR,4,2021
+97,Chris Hogan,2,2,15,7.5,9,0,0,0,0,0,0,1,1.5,1.5,0.0,NO,WR,4,2021
 98,Jauan Jennings,1,1,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,0.6,SF,WR,4,2021
 99,KhaDarel Hodge,1,1,13,13.0,13,0,0,0,0,0,0,1,1.3,1.3,0.1,DET,WR,4,2021
 100,Kendall Hinton,1,3,13,13.0,13,0,0,0,0,0,0,1,1.3,1.3,0.1,DEN,WR,4,2021
@@ -103,7 +103,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 102,Trinity Benson,2,3,12,6.0,9,0,0,0,0,0,0,1,1.2,1.2,0.0,DET,WR,4,2021
 103,Albert Wilson,1,2,11,11.0,11,0,0,0,0,0,0,1,1.1,1.1,0.8,MIA,WR,4,2021
 104,Mike Williams,1,4,11,11.0,11,0,0,0,0,0,0,1,1.1,1.1,91.9,LAC,WR,4,2021
-105,JuJu Smith-Schuster,2,8,11,5.5,9,0,0,0,0,0,0,1,1.1,1.1,18.5,FA,WR,4,2021
+105,JuJu Smith-Schuster,2,8,11,5.5,9,0,0,0,0,0,0,1,1.1,1.1,18.5,PIT,WR,4,2021
 106,N'Keal Harry,1,1,10,10.0,10,0,0,0,0,0,0,1,1.0,1.0,0.2,NE,WR,4,2021
 107,Tavon Austin,1,3,8,8.0,8,0,0,0,0,0,0,1,0.8,0.8,0.1,JAC,WR,4,2021
 108,William Fuller V,1,2,6,6.0,6,0,0,0,0,0,0,1,0.6,0.6,22.8,MIA,WR,4,2021
@@ -164,7 +164,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 163,Aleva Hifo,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,ARI,WR,4,2021
 164,Josh Hammond,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,JAC,WR,4,2021
 165,Scotty Washington,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,CIN,WR,4,2021
-166,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,FA,WR,4,2021
+166,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,LAC,WR,4,2021
 167,Tutu Atwell,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.2,LAR,WR,4,2021
 168,Anthony Schwartz,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.3,CLE,WR,4,2021
 169,Lynn Bowden Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIA,WR,4,2021
@@ -375,4 +375,4 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 374,Phillip Dorsett II,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,HOU,WR,4,2021
 375,Ty Montgomery,3,3,42,14.0,21,0,0,2,7,0,0,1,0.0,0.0,0.6,NO,WR,4,2021
 376,Breshad Perriman,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,2.5,TB,WR,4,2021
-377,Jakeem Grant Sr.,1,1,-7,-7.0,0,0,0,0,0,0,1,1,-2.7,-2.7,1.2,FA,WR,4,2021
+377,Jakeem Grant Sr.,1,1,-7,-7.0,0,0,0,0,0,0,1,1,-2.7,-2.7,1.2,CHI,WR,4,2021

@@ -12,7 +12,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 11,Harrison Bryant,2,2,11,5.5,6,0,1,0,0,0,0,1,7.1,7.1,0.2,CLE,TE,15,2021
 12,Foster Moreau,7,9,65,9.3,14,0,0,0,0,0,0,1,6.5,6.5,23.7,LV,TE,15,2021
 13,James O'Shaughnessy,4,4,60,15.0,30,0,0,0,0,0,0,1,6.0,6.0,1.7,JAC,TE,15,2021
-14,Gerald Everett,4,4,60,15.0,34,0,0,0,0,0,0,1,6.0,6.0,35.7,FA,TE,15,2021
+14,Gerald Everett,4,4,60,15.0,34,0,0,0,0,0,0,1,6.0,6.0,35.7,SEA,TE,15,2021
 15,Albert Okwuegbunam,3,4,58,19.3,24,0,0,0,0,0,0,1,5.8,5.8,1.0,DEN,TE,15,2021
 16,Noah Fant,5,6,57,11.4,28,0,0,0,0,0,0,1,5.7,5.7,80.3,DEN,TE,15,2021
 17,Mike Gesicki,5,8,43,8.6,20,0,0,0,0,0,0,1,4.3,4.3,87.6,MIA,TE,15,2021
@@ -165,7 +165,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 164,Mark Vital Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,KC,TE,15,2021
 165,Cethan Carter,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIA,TE,15,2021
 166,Johnny Mundt,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,LAR,TE,15,2021
-167,Lee Smith,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,FA,TE,15,2021
+167,Lee Smith,0,1,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,ATL,TE,15,2021
 168,Luke Stocker,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,MIN,TE,15,2021
 169,Dominique Curry,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,DET,TE,15,2021
 170,John Nalbone,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,CIN,TE,15,2021

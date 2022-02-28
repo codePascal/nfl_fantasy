@@ -5,7 +5,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 4,Mark Andrews,4,10,65,16.3,39,0,1,0,0,0,0,1,12.5,12.5,99.9,BAL,TE,12,2021
 5,Rob Gronkowski,7,9,123,17.6,32,0,0,0,0,0,0,1,12.3,12.3,97.7,TB,TE,12,2021
 6,Pat Freiermuth,4,4,40,10.0,15,0,1,0,0,0,0,1,10.0,10.0,56.7,PIT,TE,12,2021
-7,Gerald Everett,5,9,37,7.4,12,0,1,0,0,0,0,1,9.7,9.7,35.7,FA,TE,12,2021
+7,Gerald Everett,5,9,37,7.4,12,0,1,0,0,0,0,1,9.7,9.7,35.7,SEA,TE,12,2021
 8,David Njoku,3,5,35,11.7,20,0,1,0,0,0,0,1,9.5,9.5,12.9,CLE,TE,12,2021
 9,T.J. Hockenson,3,3,35,11.7,17,0,1,0,0,0,0,1,9.5,9.5,57.4,DET,TE,12,2021
 10,Jimmy Graham,2,3,34,17.0,17,0,1,0,0,0,0,1,9.4,9.4,0.8,CHI,TE,12,2021
@@ -166,7 +166,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 165,Mark Vital Jr.,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,KC,TE,12,2021
 166,Jason Croom,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,PHI,TE,12,2021
 167,Cethan Carter,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIA,TE,12,2021
-168,Lee Smith,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,FA,TE,12,2021
+168,Lee Smith,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.0,ATL,TE,12,2021
 169,Dominique Curry,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,DET,TE,12,2021
 170,Luke Stocker,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,MIN,TE,12,2021
 171,John Nalbone,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,CIN,TE,12,2021

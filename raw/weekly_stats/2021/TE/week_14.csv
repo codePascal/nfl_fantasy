@@ -5,7 +5,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 4,Albert Okwuegbunam,5,5,41,8.2,16,0,1,0,0,0,0,1,10.1,10.1,1.0,DEN,TE,14,2021
 5,Pat Freiermuth,2,3,32,16.0,17,0,1,0,0,0,0,1,9.2,9.2,56.7,PIT,TE,14,2021
 6,Austin Hooper,5,6,30,6.0,9,0,1,0,0,0,0,1,9.0,9.0,28.8,CLE,TE,14,2021
-7,Gerald Everett,2,2,15,7.5,14,0,1,1,13,0,0,1,8.8,8.8,35.7,FA,TE,14,2021
+7,Gerald Everett,2,2,15,7.5,14,0,1,1,13,0,0,1,8.8,8.8,35.7,SEA,TE,14,2021
 8,Brevin Jordan,4,7,26,6.5,11,0,1,0,0,0,0,1,8.6,8.6,1.4,HOU,TE,14,2021
 9,Jared Cook,2,5,8,4.0,7,0,1,0,0,0,0,1,6.8,6.8,50.2,LAC,TE,14,2021
 10,Kyle Rudolph,2,2,66,33.0,60,0,0,0,0,0,0,1,6.6,6.6,0.3,NYG,TE,14,2021
@@ -36,7 +36,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 35,Drew Sample,1,1,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,0.1,CIN,TE,14,2021
 36,Donald Parham Jr.,2,2,13,6.5,15,0,0,0,0,0,0,1,1.3,1.3,0.7,LAC,TE,14,2021
 37,Foster Moreau,3,6,13,4.3,7,0,0,0,0,0,0,1,1.3,1.3,23.7,LV,TE,14,2021
-38,Lee Smith,1,1,12,12.0,12,0,0,0,0,0,0,1,1.2,1.2,0.0,FA,TE,14,2021
+38,Lee Smith,1,1,12,12.0,12,0,0,0,0,0,0,1,1.2,1.2,0.0,ATL,TE,14,2021
 39,Stephen Anderson,1,1,11,11.0,11,0,0,0,0,0,0,1,1.1,1.1,0.2,LAC,TE,14,2021
 40,Cameron Brate,2,4,11,5.5,6,0,0,0,0,0,0,1,1.1,1.1,2.8,TB,TE,14,2021
 41,Jimmy Graham,2,3,9,4.5,6,0,0,0,0,0,0,1,0.9,0.9,0.8,CHI,TE,14,2021

@@ -5,14 +5,15 @@ fantasy pros.
 If this script is run, all stats for denoted year range are stored
 or refreshed if already available offline.
 """
+import numpy as np
+import pandas as pd
+
 from abc import ABC
+
 
 from config.fantasypros import stats_type
 from config.mapping import week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
-
-
-# TODO fix free agents during season
 
 
 class Stats(Loader, ABC):
@@ -48,6 +49,7 @@ class Stats(Loader, ABC):
         df["rost"] = df["rost"].apply(transform_rost)
 
         # clean up specific columns
+        fix_team = False
         if self.position == "DST":
             pass
         elif self.position == "K":
@@ -55,19 +57,38 @@ class Stats(Loader, ABC):
         elif self.position == "QB":
             df["passing_yds"] = df["passing_yds"].apply(self.fix_thousands)
             df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
+            fix_team = True
         elif self.position == "RB":
             df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
             df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
+            fix_team = True
         elif self.position == "TE":
             df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
             df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
+            fix_team = True
         elif self.position == "WR":
             df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
             df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
+            fix_team = True
 
         # add specified data to dataframe
         for key, val in self.to_add.items():
             df[key] = val
+
+        if fix_team:
+            # merge with player info of that year
+            df = pd.merge(df, pd.read_csv(f"../raw/players/players_{self.year}.csv"),
+                          how="inner", on=["player", "position"])
+
+            # take the team the player was in the end of the season
+            df.rename(columns={"team_x": "team"}, inplace=True)
+            df["team"] = df["team_y"]
+            df.drop(["team_y"], axis=1, inplace=True)
+
+            # check team assignment
+            for _, player in df.iterrows():
+                if player["team"] == "FA" or player["team"] is np.nan:
+                    print(self.year, player["player"], player["team"])
 
         return df.astype(self.mapping)
 

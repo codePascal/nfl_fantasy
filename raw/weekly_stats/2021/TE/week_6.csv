@@ -13,7 +13,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 12,C.J. Uzomah,3,3,15,5.0,8,0,1,0,0,0,0,1,7.5,7.5,20.8,CIN,TE,6,2021
 13,T.J. Hockenson,8,11,74,9.3,33,0,0,0,0,0,0,1,7.4,7.4,57.4,DET,TE,6,2021
 14,Tyler Conklin,3,5,71,23.7,40,0,0,0,0,0,0,1,7.1,7.1,40.5,MIN,TE,6,2021
-15,Eric Ebron,2,2,10,5.0,6,0,0,1,1,1,0,1,7.1,7.1,3.0,FA,TE,6,2021
+15,Eric Ebron,2,2,10,5.0,6,0,0,1,1,1,0,1,7.1,7.1,3.0,PIT,TE,6,2021
 16,Will Dissly,2,2,8,4.0,7,0,1,0,0,0,0,1,6.8,6.8,0.2,SEA,TE,6,2021
 17,Chris Herndon IV,1,1,2,2.0,2,0,1,0,0,0,0,1,6.2,6.2,0.2,MIN,TE,6,2021
 18,Blake Jarwin,1,2,1,1.0,1,0,1,0,0,0,0,1,6.1,6.1,2.7,DAL,TE,6,2021
@@ -25,7 +25,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lo
 24,Dawson Knox,3,3,25,8.3,11,0,0,0,0,0,0,1,4.5,4.5,87.2,BUF,TE,6,2021
 25,Ian Thomas,1,2,41,41.0,41,0,0,0,0,0,0,1,4.1,4.1,0.1,CAR,TE,6,2021
 26,Jordan Akins,4,6,41,10.3,13,0,0,0,0,0,0,1,4.1,4.1,0.3,HOU,TE,6,2021
-27,Gerald Everett,2,3,40,20.0,41,0,0,0,0,0,0,1,4.0,4.0,35.7,FA,TE,6,2021
+27,Gerald Everett,2,3,40,20.0,41,0,0,0,0,0,0,1,4.0,4.0,35.7,SEA,TE,6,2021
 28,Tyler Higbee,5,5,36,7.2,10,0,0,0,0,0,0,1,3.6,3.6,77.4,LAR,TE,6,2021
 29,Kyle Rudolph,1,2,8,8.0,8,0,0,0,0,0,0,1,2.8,2.8,0.3,NYG,TE,6,2021
 30,Dan Arnold,2,5,27,13.5,19,0,0,0,0,0,0,1,2.7,2.7,6.7,JAC,TE,6,2021

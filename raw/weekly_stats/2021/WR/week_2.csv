@@ -2,7 +2,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 1,Cooper Kupp,9,11,163,18.1,44,0,2,1,-5,0,0,1,27.8,27.8,100.0,LAR,WR,2,2021
 2,Tyler Lockett,8,11,178,22.3,63,0,1,0,0,0,0,1,23.8,23.8,97.5,SEA,WR,2,2021
 3,Mike Evans,5,9,75,15.0,26,0,2,0,0,0,0,1,19.5,19.5,97.8,TB,WR,2,2021
-4,Henry Ruggs III,5,7,113,22.6,61,0,1,1,2,0,0,1,17.5,17.5,10.9,FA,WR,2,2021
+4,Henry Ruggs III,5,7,113,22.6,61,0,1,1,2,0,0,1,17.5,17.5,10.9,LV,WR,2,2021
 5,Rondale Moore,7,8,114,16.3,77,0,1,0,0,0,0,1,17.4,17.4,20.4,ARI,WR,2,2021
 6,Marquise Brown,6,10,113,18.8,42,0,1,0,0,0,0,1,17.3,17.3,92.8,BAL,WR,2,2021
 7,Terry McLaurin,11,14,107,9.7,18,0,1,0,0,0,0,1,16.7,16.7,97.0,WAS,WR,2,2021
@@ -31,7 +31,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 30,Diontae Johnson,9,12,105,11.7,41,0,0,0,0,0,0,1,10.5,10.5,98.1,PIT,WR,2,2021
 31,A.J. Green,3,6,44,14.7,29,0,1,0,0,0,0,1,10.4,10.4,51.8,ARI,WR,2,2021
 32,Brandon Zylstra,3,3,44,14.7,20,0,1,0,0,0,0,1,10.4,10.4,0.1,CAR,WR,2,2021
-33,JuJu Smith-Schuster,6,7,41,6.8,17,0,0,1,3,1,0,1,10.4,10.4,18.5,FA,WR,2,2021
+33,JuJu Smith-Schuster,6,7,41,6.8,17,0,0,1,3,1,0,1,10.4,10.4,18.5,PIT,WR,2,2021
 34,Deebo Samuel,6,8,93,15.5,40,0,0,2,8,0,0,1,10.1,10.1,98.8,SF,WR,2,2021
 35,Tee Higgins,6,10,60,10.0,14,0,1,0,0,0,1,1,10.0,10.0,95.2,CIN,WR,2,2021
 36,Adam Thielen,6,7,39,6.5,15,0,1,0,0,0,0,1,9.9,9.9,82.7,MIN,WR,2,2021
@@ -85,13 +85,13 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 84,Kalif Raymond,2,2,18,9.0,10,0,0,0,0,0,0,1,1.8,1.8,3.3,DET,WR,2,2021
 85,Amon-Ra St. Brown,3,5,18,6.0,7,0,0,0,0,0,0,1,1.8,1.8,82.8,DET,WR,2,2021
 86,Terrace Marshall Jr.,3,3,17,5.7,11,0,0,0,0,0,0,1,1.7,1.7,3.0,CAR,WR,2,2021
-87,Antonio Brown,1,3,17,17.0,17,0,0,0,0,0,0,1,1.7,1.7,84.1,FA,WR,2,2021
+87,Antonio Brown,1,3,17,17.0,17,0,0,0,0,0,0,1,1.7,1.7,84.1,TB,WR,2,2021
 88,DeVonta Smith,2,7,16,8.0,11,0,0,0,0,0,0,1,1.6,1.6,86.6,PHI,WR,2,2021
-89,Chris Hogan,1,3,16,16.0,16,0,0,0,0,0,0,1,1.6,1.6,0.0,FA,WR,2,2021
+89,Chris Hogan,1,3,16,16.0,16,0,0,0,0,0,0,1,1.6,1.6,0.0,NO,WR,2,2021
 90,Andre Roberts,1,2,35,35.0,35,0,0,0,0,0,1,1,1.5,1.5,0.1,LAC,WR,2,2021
 91,Kendall Hinton,1,1,15,15.0,15,0,0,0,0,0,0,1,1.5,1.5,0.1,DEN,WR,2,2021
 92,Van Jefferson,1,3,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,68.1,LAR,WR,2,2021
-93,Willie Snead IV,1,1,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,0.1,FA,WR,2,2021
+93,Willie Snead IV,1,1,14,14.0,14,0,0,0,0,0,0,1,1.4,1.4,0.1,CAR,WR,2,2021
 94,Chris Conley,1,2,13,13.0,13,0,0,0,0,0,0,1,1.3,1.3,0.4,HOU,WR,2,2021
 95,Jody Fortson,1,1,11,11.0,11,0,0,0,0,0,0,1,1.1,1.1,0.0,KC,WR,2,2021
 96,Ashton Dulin,1,2,10,10.0,10,0,0,0,0,0,0,1,1.0,1.0,0.1,IND,WR,2,2021
@@ -123,7 +123,7 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 122,James Proche II,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,BAL,WR,2,2021
 123,Denzel Mims,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.7,NYJ,WR,2,2021
 124,Antonio Gandy-Golden,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,WAS,WR,2,2021
-125,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,FA,WR,2,2021
+125,KJ Hill Jr.,0,0,0,0.0,0,0,0,0,0,0,0,1,0.0,0.0,0.1,LAC,WR,2,2021
 126,John Hightower,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,PHI,WR,2,2021
 127,Quartney Davis,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,IND,WR,2,2021
 128,Aaron Fuller,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,0.0,SEA,WR,2,2021
@@ -375,4 +375,4 @@ rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_lg
 374,Breshad Perriman,0,0,0,0.0,0,0,0,0,0,0,0,0,0.0,0.0,2.5,TB,WR,2,2021
 375,Laviska Shenault Jr.,2,7,-3,-1.5,5,0,0,1,0,0,0,1,-0.3,-0.3,34.3,JAC,WR,2,2021
 376,Donovan Peoples-Jones,1,1,14,14.0,14,0,0,0,0,0,1,1,-0.6,-0.6,14.3,CLE,WR,2,2021
-377,Jakeem Grant Sr.,1,1,0,0.0,0,0,0,0,0,0,1,1,-2.0,-2.0,1.2,FA,WR,2,2021
+377,Jakeem Grant Sr.,1,1,0,0.0,0,0,0,0,0,0,1,1,-2.0,-2.0,1.2,CHI,WR,2,2021
