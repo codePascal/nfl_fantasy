@@ -3,6 +3,9 @@ Generates .csv file from weekly stats from
 https://github.com/fantasydatapros/data. The csv file contains the
 players name, the year and his team for that week and season.
 
+As the season 2021 is not covered there, the snapcounts are taken
+to generate such .csv file.
+
 This script should only be run to generate the assignments and then
 use these.
 """
@@ -20,9 +23,12 @@ class TeamsLoader:
         self.dir = f"../raw/players"
 
     def get_data(self):
+        """ Returns data. """
         return pd.read_csv(os.path.join(self.dir, self.filename))
 
     def fetch_all(self):
+        """ Reads the stats and transforms into player, position,
+        team, week and year only. """
         df = pd.DataFrame()
         for week in range(1, week_map[self.year] + 1):
             if self.year < 2021:
@@ -42,6 +48,7 @@ class TeamsLoader:
         return df
 
     def fix_team(self, team):
+        """ Fixes teams to the state of the specific year. """
         # fix uncommon abbreviations
         if team in team_changes_map["general"]:
             # print("Updating", team)
@@ -64,12 +71,14 @@ class TeamsLoader:
             return team
 
     def modify_data(self):
+        """ If data is already stored, modifies only teams. """
         df = self.get_data()
         df["team"] = df["team"].apply(self.fix_team)
         df["test"] = "test"
         return df
 
     def store_data(self):
+        """ Stores the data. """
         if os.path.exists(os.path.join(self.dir, self.filename)):
             self.modify_data().to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
         self.fetch_all().to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
