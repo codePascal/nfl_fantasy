@@ -22,28 +22,74 @@ from src.loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffen
 # TODO make clean with test functions
 
 
-class TestFantasyProsLoader(unittest.TestCase):
-    def test_weekly_stats(self):
+class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
+    def test_weekly_stats_QB(self):
         df = WeeklyStats("QB", 1, 2021, refresh=True).get_data()
 
         # test shape
-        self.assertEqual(120, df.shape[0])
+        self.assertEqual(39, df.shape[0])
         self.assertEqual(22, df.shape[1])
 
         # test column names
-        cols_should = list(stats_type["QB"].keys()) + ["team", "position", "week", "year"]
+        cols_should = list(stats_type["QB"].keys()) + ["position", "week", "year", "team"]
         self.assertListEqual(cols_should, df.columns.to_list())
 
         # test content
         self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(1, len(df.week.unique()))
         self.assertEqual(32, len(df.team.unique()))
 
-        # test entries
-        entries_should = [1, "Kyler Murray", 21, 32, 65.6, 289, 9.0, 4, 1, 2, 5, 20, 1, 0, 1, 34.6, 34.6, 99.3, "ARI",
-                          "QB", 1, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+    def test_weekly_stats_RB(self):
+        df = WeeklyStats("RB", 1, 2021, refresh=True).get_data()
 
-    def test_yearly_stats(self):
+        # test shape
+        self.assertEqual(94, df.shape[0])
+        self.assertEqual(22, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["RB"].keys()) + ["position", "week", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(1, len(df.week.unique()))
+        self.assertEqual(32, len(df.team.unique()))
+
+    def test_weekly_stats_TE(self):
+        df = WeeklyStats("TE", 1, 2021, refresh=True).get_data()
+
+        # test shape
+        self.assertEqual(66, df.shape[0])
+        self.assertEqual(21, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["TE"].keys()) + ["position", "week", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(1, len(df.week.unique()))
+        self.assertEqual(32, len(df.team.unique()))
+
+    def test_weekly_stats_WR(self):
+        df = WeeklyStats("WR", 1, 2021, refresh=True).get_data()
+
+        # test shape
+        self.assertEqual(143, df.shape[0])
+        self.assertEqual(21, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["WR"].keys()) + ["position", "week", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(1, len(df.week.unique()))
+        self.assertEqual(32, len(df.team.unique()))
+
+
+class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
+    def test_yearly_stats_QB(self):
         df = YearlyStats("QB", 2021, refresh=True).get_data()
 
         # test shape
@@ -51,18 +97,56 @@ class TestFantasyProsLoader(unittest.TestCase):
         self.assertEqual(21, df.shape[1])
 
         # test column names
-        cols_should = list(stats_type["QB"].keys()) + ["team", "position", "year"]
+        cols_should = list(stats_type["QB"].keys()) + ["position", "year", "team"]
         self.assertListEqual(cols_should, df.columns.to_list())
 
         # test content
         self.assertEqual(1, len(df.position.unique()))
-        self.assertEqual(32, len(df.team.unique()))
 
-        # test entries
-        entries_should = [1, "Josh Allen", 409, 646, 63.3, 4407, 6.8, 36, 15, 26, 122, 763, 6, 3, 17, 417.7, 24.6,
-                          100.0, "BUF", "QB", 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+    def test_yearly_stats_RB(self):
+        df = YearlyStats("RB", 2021, refresh=True).get_data()
 
+        # test shape
+        self.assertEqual(247, df.shape[0])
+        self.assertEqual(21, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["RB"].keys()) + ["position", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+
+    def test_yearly_stats_TE(self):
+        df = YearlyStats("TE", 2021, refresh=True).get_data()
+
+        # test shape
+        self.assertEqual(224, df.shape[0])
+        self.assertEqual(20, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["TE"].keys()) + ["position", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+
+    def test_yearly_stats_WR(self):
+        df = YearlyStats("WR", 2021, refresh=True).get_data()
+
+        # test shape
+        self.assertEqual(388, df.shape[0])
+        self.assertEqual(20, df.shape[1])
+
+        # test column names
+        cols_should = list(stats_type["WR"].keys()) + ["position", "year", "team"]
+        self.assertListEqual(cols_should, df.columns.to_list())
+
+        # test content
+        self.assertEqual(1, len(df.position.unique()))
+
+
+class TestFantasyProsLoader(unittest.TestCase):
     def test_weekly_snapcounts(self):
         df = WeeklySnapcounts(1, 2021, refresh=True).get_data()
 
