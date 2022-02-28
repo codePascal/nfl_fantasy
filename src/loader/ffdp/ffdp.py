@@ -13,7 +13,6 @@ import os
 import pandas as pd
 
 from config.mapping import team_changes_map, week_map
-from src.loader.fantasypros.snapcounts import WeeklySnapcounts
 
 
 class TeamsLoader:
@@ -41,7 +40,7 @@ class TeamsLoader:
                 weekly["year"] = self.year
             else:
                 # use snapcounts data
-                weekly = WeeklySnapcounts(week, self.year, refresh=True).get_data()
+                weekly = pd.read_csv(f"../raw/weekly_snapcounts/{self.year}/week_{week}.csv", header=0)
                 weekly = weekly.loc[:, ["player", "team", "position", "week", "year"]]
                 weekly["team"] = weekly["team"].apply(self.fix_team)
             df = pd.concat([df, weekly])
