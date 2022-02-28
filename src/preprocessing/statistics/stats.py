@@ -33,19 +33,7 @@ class Stats(Preprocessing, ABC):
         for week in range(1, week_map[self.year] + 1):
             df = pd.concat([df, Loader(self.position, week, self.year, self.refresh).get_data()])
         df = df.loc[df["games"] == 1]
-        df["team"] = df["team"].apply(fix_team)
         return df.reset_index(drop=True)
-
-
-def fix_team(team):
-    """ Checks that latest team abbreviations are used. """
-    if team not in teams and team is not np.nan:
-        if team in team_changes_map.keys():
-            return team_changes_map[team]
-        elif team != "FA":
-            print("Team abbreviation", team, "not available.")
-    else:
-        return team
 
 
 def store_all():
