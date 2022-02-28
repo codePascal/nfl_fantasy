@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 New England Patriots,2.0,1.0,0.6,0.8,0.2,0.0,12.1,307.4,10.1,NE,DST,17,2021
 Tampa Bay Buccaneers,3.2,1.1,0.6,0.7,0.2,0.0,16.7,306.9,8.8,TB,DST,17,2021
 New Orleans Saints,2.7,1.0,0.6,0.7,0.2,0.1,15.4,317.0,8.2,NO,DST,17,2021

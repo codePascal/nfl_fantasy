@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Jonathan Taylor,24.2,110.7,1.0,2.1,17.0,0.1,0.1,19.0,IND,RB,17,2021
 Alvin Kamara,16.4,68.2,0.6,4.3,38.9,0.2,0.1,15.1,NO,RB,17,2021
 Najee Harris,18.3,73.9,0.6,3.7,27.3,0.1,0.1,14.3,PIT,RB,17,2021

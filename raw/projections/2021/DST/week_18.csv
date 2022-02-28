@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Tampa Bay Buccaneers,3.0,1.1,0.6,0.7,0.2,0.1,16.0,311.2,8.7,TB,DST,18,2021
 Buffalo Bills,3.1,1.0,0.5,0.6,0.2,0.1,13.5,294.9,8.4,BUF,DST,18,2021
 Tennessee Titans,2.7,0.9,0.5,0.8,0.2,0.0,16.1,304.6,7.5,TEN,DST,18,2021

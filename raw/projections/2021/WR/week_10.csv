@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Cordarrelle Patterson,5.2,60.6,0.8,8.8,34.1,0.3,0.1,15.6,ATL,WR,10,2021
 Cooper Kupp,8.0,104.5,0.8,0.2,0.8,0.0,0.1,15.3,LAR,WR,10,2021
 Davante Adams,7.5,95.8,0.8,0.0,0.0,0.0,0.1,14.0,GB,WR,10,2021

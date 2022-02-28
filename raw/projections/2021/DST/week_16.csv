@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Dallas Cowboys,2.6,1.1,0.7,1.1,0.2,0.0,18.3,330.0,8.5,DAL,DST,16,2021
 Tampa Bay Buccaneers,2.7,1.1,0.7,0.9,0.2,0.0,18.3,303.1,8.4,TB,DST,16,2021
 Cincinnati Bengals,2.8,1.1,0.6,0.9,0.2,0.0,18.3,337.5,8.3,CIN,DST,16,2021

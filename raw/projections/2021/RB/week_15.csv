@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Dalvin Cook,20.8,93.9,0.8,3.4,28.5,0.1,0.2,17.2,MIN,RB,15,2021
 Jonathan Taylor,18.2,90.4,0.9,2.8,24.3,0.1,0.1,16.9,IND,RB,15,2021
 Nick Chubb,18.3,90.4,0.7,2.3,18.4,0.1,0.1,15.2,CLE,RB,15,2021

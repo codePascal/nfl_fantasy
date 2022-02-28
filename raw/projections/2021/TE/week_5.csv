@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Travis Kelce,6.6,84.2,0.7,0.1,12.6,KC,TE,5,2021
 Darren Waller,6.4,77.1,0.7,0.1,11.6,LV,TE,5,2021
 T.J. Hockenson,5.1,61.5,0.5,0.1,9.0,DET,TE,5,2021

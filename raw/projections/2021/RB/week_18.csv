@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Jonathan Taylor,24.5,118.5,1.0,1.8,15.1,0.1,0.1,19.9,IND,RB,18,2021
 Dalvin Cook,20.2,86.2,0.7,2.8,20.6,0.1,0.2,14.9,MIN,RB,18,2021
 Alvin Kamara,15.3,62.7,0.5,4.4,38.5,0.2,0.1,14.2,NO,RB,18,2021

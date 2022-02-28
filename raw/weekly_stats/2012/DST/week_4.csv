@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,San Francisco 49ers,3,1,3,2,1,0,0,1,28.0,28.0,79.5,SF,DST,4,2012
-2,Chicago Bears,1,5,0,1,2,0,0,1,24.0,24.0,35.9,CHI,DST,4,2012
-3,Houston Texans,4,2,1,1,2,0,0,1,23.0,23.0,6.4,HOU,DST,4,2012
-4,Cincinnati Bengals,6,1,1,0,0,0,0,1,14.0,14.0,14.7,CIN,DST,4,2012
-5,New England Patriots,3,4,2,3,0,0,0,1,14.0,14.0,93.2,NE,DST,4,2012
-6,Arizona Cardinals,4,2,2,2,0,0,0,1,12.0,12.0,60.9,ARI,DST,4,2012
-7,Miami Dolphins,8,2,0,0,0,0,0,1,12.0,12.0,60.2,MIA,DST,4,2012
-8,Baltimore Ravens,1,1,1,0,1,0,0,1,12.0,12.0,51.9,BAL,DST,4,2012
-9,Minnesota Vikings,5,0,1,1,0,0,2,1,11.0,11.0,28.0,MIN,DST,4,2012
-10,Denver Broncos,3,0,0,1,0,0,0,1,10.0,10.0,48.5,DEN,DST,4,2012
-11,Carolina Panthers,7,1,0,0,0,0,0,1,8.0,8.0,27.8,CAR,DST,4,2012
-12,Cleveland Browns,4,1,0,0,0,0,0,1,7.0,7.0,40.8,CLE,DST,4,2012
-13,Seattle Seahawks,2,1,0,0,0,0,0,1,5.0,5.0,39.4,SEA,DST,4,2012
-14,Dallas Cowboys,2,0,1,1,0,0,0,1,4.0,4.0,82.9,DAL,DST,4,2012
-15,Jacksonville Jaguars,0,1,1,2,0,0,0,1,4.0,4.0,6.9,JAC,DST,4,2012
-16,Atlanta Falcons,3,0,1,3,0,0,0,1,4.0,4.0,5.8,ATL,DST,4,2012
-17,Philadelphia Eagles,0,1,0,0,0,0,0,1,3.0,3.0,52.5,PHI,DST,4,2012
-18,New York Giants,2,0,0,0,0,0,0,1,3.0,3.0,4.5,NYG,DST,4,2012
-19,New Orleans Saints,0,1,1,0,0,0,0,1,3.0,3.0,79.3,NO,DST,4,2012
-20,Washington Commanders,1,1,0,0,0,0,0,1,3.0,3.0,27.5,WAS,DST,4,2012
-21,Detroit Lions,2,0,0,0,0,0,0,1,3.0,3.0,1.1,DET,DST,4,2012
-22,Green Bay Packers,2,0,0,0,0,0,0,1,2.0,2.0,60.6,GB,DST,4,2012
-23,Buffalo Bills,1,0,2,3,0,0,0,1,1.0,1.0,95.9,BUF,DST,4,2012
-24,Kansas City Chiefs,3,1,0,0,0,0,0,1,1.0,1.0,45.7,KC,DST,4,2012
-25,New York Jets,2,0,0,0,0,0,0,1,1.0,1.0,3.3,NYJ,DST,4,2012
-26,Tampa Bay Buccaneers,1,0,0,1,0,0,0,1,1.0,1.0,98.0,TB,DST,4,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,4,2012
-28,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,4,2012
-29,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,4,2012
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,4,2012
-31,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,4,2012
-32,Tennessee Titans,0,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,4,2012
+1.0,San Francisco 49ers,3.0,1.0,3.0,2.0,1.0,0.0,0.0,1.0,28.0,28.0,79.5,SF,DST,4,2012
+2.0,Chicago Bears,1.0,5.0,0.0,1.0,2.0,0.0,0.0,1.0,24.0,24.0,35.9,CHI,DST,4,2012
+3.0,Houston Texans,4.0,2.0,1.0,1.0,2.0,0.0,0.0,1.0,23.0,23.0,6.4,HOU,DST,4,2012
+4.0,Cincinnati Bengals,6.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,14.7,CIN,DST,4,2012
+5.0,New England Patriots,3.0,4.0,2.0,3.0,0.0,0.0,0.0,1.0,14.0,14.0,93.2,NE,DST,4,2012
+6.0,Arizona Cardinals,4.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,12.0,12.0,60.9,ARI,DST,4,2012
+7.0,Miami Dolphins,8.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,12.0,12.0,60.2,MIA,DST,4,2012
+8.0,Baltimore Ravens,1.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,12.0,12.0,51.9,BAL,DST,4,2012
+9.0,Minnesota Vikings,5.0,0.0,1.0,1.0,0.0,0.0,2.0,1.0,11.0,11.0,28.0,MIN,DST,4,2012
+10.0,Denver Broncos,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,10.0,10.0,48.5,DEN,DST,4,2012
+11.0,Carolina Panthers,7.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,27.8,CAR,DST,4,2012
+12.0,Cleveland Browns,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,40.8,CLE,DST,4,2012
+13.0,Seattle Seahawks,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,39.4,SEA,DST,4,2012
+14.0,Dallas Cowboys,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,82.9,DAL,DST,4,2012
+15.0,Jacksonville Jaguars,0.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,6.9,JAC,DST,4,2012
+16.0,Atlanta Falcons,3.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,4.0,4.0,5.8,ATL,DST,4,2012
+17.0,Philadelphia Eagles,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,52.5,PHI,DST,4,2012
+18.0,New York Giants,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,4.5,NYG,DST,4,2012
+19.0,New Orleans Saints,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,79.3,NO,DST,4,2012
+20.0,Washington Commanders,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,27.5,WAS,DST,4,2012
+21.0,Detroit Lions,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,1.1,DET,DST,4,2012
+22.0,Green Bay Packers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.6,GB,DST,4,2012
+23.0,Buffalo Bills,1.0,0.0,2.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,95.9,BUF,DST,4,2012
+24.0,Kansas City Chiefs,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,45.7,KC,DST,4,2012
+25.0,New York Jets,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,3.3,NYJ,DST,4,2012
+26.0,Tampa Bay Buccaneers,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,98.0,TB,DST,4,2012
+27.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6,LV,DST,4,2012
+28.0,Indianapolis Colts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,66.4,IND,DST,4,2012
+29.0,Pittsburgh Steelers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.6,PIT,DST,4,2012
+30.0,Los Angeles Chargers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3,LAC,DST,4,2012
+31.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,4,2012
+32.0,Tennessee Titans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,48.4,TEN,DST,4,2012

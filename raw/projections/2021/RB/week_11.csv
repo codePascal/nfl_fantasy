@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Christian McCaffrey,16.6,69.8,0.6,5.3,47.2,0.2,0.1,16.3,CAR,RB,11,2021
 Nick Chubb,18.7,95.3,0.8,1.8,14.7,0.1,0.1,16.1,CLE,RB,11,2021
 Najee Harris,20.5,81.2,0.6,4.1,32.0,0.2,0.1,15.5,PIT,RB,11,2021

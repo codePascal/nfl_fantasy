@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Darren Waller,6.4,80.6,0.5,0.1,10.9,LV,TE,12,2021
 Kyle Pitts,5.2,68.4,0.5,0.1,9.4,ATL,TE,12,2021
 George Kittle,5.1,63.7,0.5,0.0,9.3,SF,TE,12,2021

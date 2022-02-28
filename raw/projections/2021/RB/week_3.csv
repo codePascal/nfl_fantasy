@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Christian McCaffrey,19.7,88.9,0.9,5.9,50.2,0.2,0.2,19.8,CAR,RB,3,2021
 Derrick Henry,23.5,107.2,0.9,2.3,18.4,0.1,0.2,18.2,TEN,RB,3,2021
 Alvin Kamara,14.7,66.4,0.6,5.3,45.9,0.2,0.1,16.1,NO,RB,3,2021

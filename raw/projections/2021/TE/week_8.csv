@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Travis Kelce,6.7,82.7,0.7,0.1,12.3,KC,TE,8,2021
 Kyle Pitts,5.1,63.9,0.5,0.0,9.1,ATL,TE,8,2021
 T.J. Hockenson,5.0,54.7,0.5,0.0,8.7,DET,TE,8,2021

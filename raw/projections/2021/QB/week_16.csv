@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Justin Herbert,36.2,24.0,277.2,2.3,0.8,4.5,23.7,0.2,0.1,22.9,LAC,QB,16,2021
 Jalen Hurts,28.8,17.6,208.3,1.3,0.6,10.2,58.6,0.6,0.2,21.9,PHI,QB,16,2021
 Patrick Mahomes II,37.5,24.2,284.0,2.0,0.6,4.5,25.1,0.2,0.2,21.7,KC,QB,16,2021

@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Justin Tucker,2.0,2.3,2.7,8.6,BAL,K,2,2021
 Jason Myers,1.8,2.1,3.2,8.6,SEA,K,2,2021
 Ryan Succop,1.7,2.0,3.5,8.5,TB,K,2,2021

@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Davante Adams,7.6,100.4,0.8,0.0,0.0,0.0,0.1,14.9,GB,WR,4,2021
 Tyreek Hill,6.4,90.4,0.7,0.9,6.2,0.0,0.1,14.3,KC,WR,4,2021
 Stefon Diggs,6.9,92.2,0.8,0.1,0.5,0.0,0.1,14.0,BUF,WR,4,2021

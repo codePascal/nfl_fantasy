@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Ryan Succop,1.8,2.2,3.1,8.7,TB,K,6,2021
 Matt Gay,1.8,2.1,2.8,8.2,LAR,K,6,2021
 Mason Crosby,2.0,2.3,2.3,8.1,GB,K,6,2021

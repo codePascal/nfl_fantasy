@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Greg Zuerlein,2.0,2.0,3.0,9.0,DAL,K,10,2021
 Justin Tucker,2.0,2.2,2.8,8.8,BAL,K,10,2021
 Lirim Hajrullahu,1.8,2.3,3.0,8.4,CAR,K,10,2021

@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Matt Gay,1.9,2.3,2.9,8.6,LAR,K,13,2021
 Michael Badgley,1.9,2.4,2.7,8.5,IND,K,13,2021
 Daniel Carlson,2.0,2.4,2.3,8.4,LV,K,13,2021

@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Kyler Murray,33.9,23.8,285.1,2.5,0.6,7.6,41.3,0.5,0.2,27.2,ARI,QB,7,2021
 Patrick Mahomes II,38.4,26.1,321.5,2.8,0.7,4.5,25.8,0.2,0.2,26.6,KC,QB,7,2021
 Lamar Jackson,32.5,21.1,252.1,1.8,0.9,9.9,58.9,0.4,0.3,24.2,BAL,QB,7,2021

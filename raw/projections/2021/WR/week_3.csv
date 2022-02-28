@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Tyreek Hill,6.2,88.9,0.8,0.9,5.9,0.0,0.1,14.4,KC,WR,3,2021
 Diontae Johnson,7.0,93.0,0.8,0.2,1.0,0.0,0.0,14.2,PIT,WR,3,2021
 Davante Adams,7.5,95.9,0.7,0.0,0.0,0.0,0.1,13.9,GB,WR,3,2021

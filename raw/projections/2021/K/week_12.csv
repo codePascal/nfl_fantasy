@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Greg Zuerlein,2.0,2.4,2.9,8.9,DAL,K,12,2021
 Nick Folk,2.1,2.5,2.4,8.8,NE,K,12,2021
 Robbie Gould,1.8,2.2,2.9,8.3,SF,K,12,2021

@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Kansas City Chiefs,5,4,1,1,1,0,0,1,22.0,22.0,45.7,KC,DST,5,2018
-2,Cincinnati Bengals,3,2,1,1,2,0,0,1,22.0,22.0,14.7,CIN,DST,5,2018
-3,Arizona Cardinals,4,2,3,3,1,0,0,1,21.0,21.0,60.9,ARI,DST,5,2018
-4,Pittsburgh Steelers,6,0,1,1,1,0,0,1,15.0,15.0,44.6,PIT,DST,5,2018
-5,Minnesota Vikings,3,0,2,1,1,0,0,1,13.0,13.0,28.0,MIN,DST,5,2018
-6,Buffalo Bills,2,1,2,3,0,0,0,1,12.0,12.0,95.9,BUF,DST,5,2018
-7,Carolina Panthers,1,2,1,0,1,0,0,1,12.0,12.0,27.8,CAR,DST,5,2018
-8,Baltimore Ravens,5,1,0,1,0,0,0,1,11.0,11.0,51.9,BAL,DST,5,2018
-9,Los Angeles Chargers,3,1,1,1,0,0,0,1,11.0,11.0,44.3,LAC,DST,5,2018
-10,Cleveland Browns,2,1,1,1,0,0,0,1,10.0,10.0,40.8,CLE,DST,5,2018
-11,Detroit Lions,4,0,3,2,0,0,0,1,10.0,10.0,1.1,DET,DST,5,2018
-12,New Orleans Saints,3,1,1,1,0,0,0,1,8.0,8.0,79.3,NO,DST,5,2018
-13,Tennessee Titans,1,1,0,0,0,0,0,1,7.0,7.0,48.4,TEN,DST,5,2018
-14,New England Patriots,1,2,1,1,0,0,0,1,7.0,7.0,93.2,NE,DST,5,2018
-15,Houston Texans,2,2,0,0,0,0,0,1,7.0,7.0,6.4,HOU,DST,5,2018
-16,New York Jets,4,1,0,2,0,0,0,1,7.0,7.0,3.3,NYJ,DST,5,2018
-17,Dallas Cowboys,1,1,1,1,0,0,0,1,6.0,6.0,82.9,DAL,DST,5,2018
-18,New York Giants,1,2,0,1,0,0,0,1,5.0,5.0,4.5,NYG,DST,5,2018
-19,Miami Dolphins,2,1,0,0,0,0,1,1,5.0,5.0,60.2,MIA,DST,5,2018
-20,Jacksonville Jaguars,1,2,0,0,0,0,0,1,5.0,5.0,6.9,JAC,DST,5,2018
-21,Philadelphia Eagles,1,0,1,0,0,0,0,1,4.0,4.0,52.5,PHI,DST,5,2018
-22,Denver Broncos,1,1,1,1,0,0,0,1,4.0,4.0,48.5,DEN,DST,5,2018
-23,Seattle Seahawks,1,2,0,1,0,0,0,1,4.0,4.0,39.4,SEA,DST,5,2018
-24,Green Bay Packers,3,0,0,0,0,0,0,1,2.0,2.0,60.6,GB,DST,5,2018
-25,Las Vegas Raiders,1,0,0,0,0,0,0,1,1.0,1.0,7.6,LV,DST,5,2018
-26,San Francisco 49ers,1,0,0,0,0,0,0,1,1.0,1.0,79.5,SF,DST,5,2018
-27,Los Angeles Rams,2,0,0,0,0,0,0,1,1.0,1.0,74.5,LAR,DST,5,2018
-28,Indianapolis Colts,0,2,0,0,0,0,0,1,0.0,0.0,66.4,IND,DST,5,2018
-29,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,5,2018
-30,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,5,2018
-31,Washington Commanders,2,0,1,2,0,0,0,1,0.0,0.0,27.5,WAS,DST,5,2018
-32,Atlanta Falcons,0,1,0,1,0,0,0,1,-2.0,-2.0,5.8,ATL,DST,5,2018
+1.0,Kansas City Chiefs,5.0,4.0,1.0,1.0,1.0,0.0,0.0,1.0,22.0,22.0,45.7,KC,DST,5,2018
+2.0,Cincinnati Bengals,3.0,2.0,1.0,1.0,2.0,0.0,0.0,1.0,22.0,22.0,14.7,CIN,DST,5,2018
+3.0,Arizona Cardinals,4.0,2.0,3.0,3.0,1.0,0.0,0.0,1.0,21.0,21.0,60.9,ARI,DST,5,2018
+4.0,Pittsburgh Steelers,6.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,44.6,PIT,DST,5,2018
+5.0,Minnesota Vikings,3.0,0.0,2.0,1.0,1.0,0.0,0.0,1.0,13.0,13.0,28.0,MIN,DST,5,2018
+6.0,Buffalo Bills,2.0,1.0,2.0,3.0,0.0,0.0,0.0,1.0,12.0,12.0,95.9,BUF,DST,5,2018
+7.0,Carolina Panthers,1.0,2.0,1.0,0.0,1.0,0.0,0.0,1.0,12.0,12.0,27.8,CAR,DST,5,2018
+8.0,Baltimore Ravens,5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,51.9,BAL,DST,5,2018
+9.0,Los Angeles Chargers,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,44.3,LAC,DST,5,2018
+10.0,Cleveland Browns,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,10.0,10.0,40.8,CLE,DST,5,2018
+11.0,Detroit Lions,4.0,0.0,3.0,2.0,0.0,0.0,0.0,1.0,10.0,10.0,1.1,DET,DST,5,2018
+12.0,New Orleans Saints,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,79.3,NO,DST,5,2018
+13.0,Tennessee Titans,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,48.4,TEN,DST,5,2018
+14.0,New England Patriots,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,93.2,NE,DST,5,2018
+15.0,Houston Texans,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,6.4,HOU,DST,5,2018
+16.0,New York Jets,4.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,7.0,7.0,3.3,NYJ,DST,5,2018
+17.0,Dallas Cowboys,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,82.9,DAL,DST,5,2018
+18.0,New York Giants,1.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,4.5,NYG,DST,5,2018
+19.0,Miami Dolphins,2.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,5.0,5.0,60.2,MIA,DST,5,2018
+20.0,Jacksonville Jaguars,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,6.9,JAC,DST,5,2018
+21.0,Philadelphia Eagles,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,52.5,PHI,DST,5,2018
+22.0,Denver Broncos,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,48.5,DEN,DST,5,2018
+23.0,Seattle Seahawks,1.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,39.4,SEA,DST,5,2018
+24.0,Green Bay Packers,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.6,GB,DST,5,2018
+25.0,Las Vegas Raiders,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,7.6,LV,DST,5,2018
+26.0,San Francisco 49ers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,79.5,SF,DST,5,2018
+27.0,Los Angeles Rams,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,74.5,LAR,DST,5,2018
+28.0,Indianapolis Colts,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,66.4,IND,DST,5,2018
+29.0,Tampa Bay Buccaneers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,98.0,TB,DST,5,2018
+30.0,Chicago Bears,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.9,CHI,DST,5,2018
+31.0,Washington Commanders,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,27.5,WAS,DST,5,2018
+32.0,Atlanta Falcons,0.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,-2.0,-2.0,5.8,ATL,DST,5,2018

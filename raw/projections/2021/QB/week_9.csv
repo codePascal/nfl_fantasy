@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Josh Allen,37.0,25.3,304.2,2.5,0.6,8.0,38.1,0.4,0.2,27.4,BUF,QB,9,2021
 Lamar Jackson,32.5,20.5,256.1,1.8,0.7,10.0,65.1,0.5,0.3,25.8,BAL,QB,9,2021
 Aaron Rodgers,32.0,22.0,271.0,3.0,1.0,3.0,15.0,0.0,0.0,23.3,GB,QB,9,2021

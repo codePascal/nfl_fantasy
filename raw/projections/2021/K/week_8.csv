@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Matt Gay,2.0,2.4,3.0,9.0,LAR,K,8,2021
 Tyler Bass,1.8,2.1,3.3,8.5,BUF,K,8,2021
 Ryan Succop,1.6,1.9,2.9,7.9,TB,K,8,2021

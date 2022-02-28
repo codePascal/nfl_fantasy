@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Baltimore Ravens,3.5,1.1,0.7,0.7,0.2,0.0,19.7,302.0,9.1,BAL,DST,11,2021
 Tennessee Titans,2.9,0.9,0.6,0.9,0.2,0.1,16.8,305.4,8.1,TEN,DST,11,2021
 Tampa Bay Buccaneers,2.8,0.9,0.7,1.2,0.2,0.0,18.9,321.5,8.0,TB,DST,11,2021

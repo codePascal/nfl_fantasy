@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Jonathan Taylor,17.6,84.4,0.9,3.2,26.3,0.2,0.1,16.9,IND,RB,12,2021
 Christian McCaffrey,15.9,70.0,0.5,5.6,48.9,0.2,0.1,16.2,CAR,RB,12,2021
 Austin Ekeler,13.6,61.8,0.5,4.8,42.5,0.3,0.1,15.3,LAC,RB,12,2021

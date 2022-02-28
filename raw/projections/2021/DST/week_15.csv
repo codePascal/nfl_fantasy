@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Miami Dolphins,3.0,1.2,0.5,0.9,0.2,0.0,16.6,305.2,8.8,MIA,DST,15,2021
 Buffalo Bills,2.4,1.2,0.6,0.9,0.2,0.0,15.2,299.3,8.4,BUF,DST,15,2021
 Dallas Cowboys,2.4,1.1,0.6,1.2,0.2,0.0,16.6,311.4,8.2,DAL,DST,15,2021

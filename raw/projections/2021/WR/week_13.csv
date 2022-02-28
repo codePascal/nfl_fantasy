@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Cooper Kupp,7.6,99.5,0.8,0.1,0.3,0.0,0.1,14.6,LAR,WR,13,2021
 Justin Jefferson,6.5,94.7,0.7,0.4,2.2,0.0,0.1,13.6,MIN,WR,13,2021
 Tyreek Hill,6.7,83.6,0.7,0.8,5.4,0.0,0.1,13.2,KC,WR,13,2021

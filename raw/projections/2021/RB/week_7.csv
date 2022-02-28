@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Derrick Henry,24.4,119.8,1.1,2.1,18.3,0.1,0.2,20.3,TEN,RB,7,2021
 Alvin Kamara,20.1,88.2,0.7,4.8,43.7,0.3,0.1,18.8,NO,RB,7,2021
 Darrell Henderson Jr.,18.2,79.5,0.7,2.3,22.2,0.2,0.1,15.4,LAR,RB,7,2021

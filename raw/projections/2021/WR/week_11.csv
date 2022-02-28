@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Deebo Samuel,6.2,90.7,0.6,1.8,13.1,0.1,0.1,14.4,SF,WR,11,2021
 Tyreek Hill,6.9,90.8,0.7,0.7,4.8,0.0,0.1,13.9,KC,WR,11,2021
 Davante Adams,7.5,96.2,0.7,0.0,0.0,0.0,0.1,13.7,GB,WR,11,2021

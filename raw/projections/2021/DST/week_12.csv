@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 New England Patriots,2.5,1.0,0.6,0.7,0.2,0.0,18.1,334.4,7.6,NE,DST,12,2021
 Houston Texans,3.0,1.2,0.6,0.9,0.2,0.0,20.4,342.1,7.5,HOU,DST,12,2021
 Carolina Panthers,2.3,1.0,0.7,1.1,0.2,0.0,19.4,316.9,7.4,CAR,DST,12,2021

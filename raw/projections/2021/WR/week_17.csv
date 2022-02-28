@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Cooper Kupp,8.2,110.2,0.8,0.4,2.1,0.0,0.0,16.1,LAR,WR,17,2021
 Davante Adams,7.6,96.1,0.8,0.0,0.1,0.0,0.0,14.4,GB,WR,17,2021
 Stefon Diggs,6.3,82.2,0.7,0.0,0.0,0.0,0.0,12.6,BUF,WR,17,2021

@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Jonathan Taylor,22.1,107.1,1.0,3.2,26.4,0.1,0.1,19.8,IND,RB,13,2021
 Joe Mixon,20.0,85.7,0.8,2.8,20.6,0.1,0.1,15.9,CIN,RB,13,2021
 Austin Ekeler,12.5,55.9,0.5,4.8,42.0,0.3,0.1,14.5,LAC,RB,13,2021

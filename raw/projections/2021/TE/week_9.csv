@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Travis Kelce,6.5,77.8,0.6,0.1,11.3,KC,TE,9,2021
 Darren Waller,6.3,77.5,0.6,0.1,11.0,LV,TE,9,2021
 Mark Andrews,5.0,64.2,0.6,0.0,9.8,BAL,TE,9,2021

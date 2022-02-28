@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Cooper Kupp,8.0,103.1,0.7,0.1,0.2,0.0,0.1,14.6,LAR,WR,12,2021
 Deebo Samuel,5.3,79.3,0.6,2.5,18.4,0.2,0.1,14.0,SF,WR,12,2021
 Davante Adams,7.5,93.8,0.7,0.0,0.0,0.0,0.1,13.4,GB,WR,12,2021

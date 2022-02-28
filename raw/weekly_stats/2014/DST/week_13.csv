@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Minnesota Vikings,4,1,0,0,0,0,2,1,24.0,24.0,28.0,MIN,DST,13,2014
-2,Jacksonville Jaguars,4,0,3,3,2,0,0,1,22.0,22.0,6.9,JAC,DST,13,2014
-3,Buffalo Bills,2,2,1,1,1,0,0,1,18.0,18.0,95.9,BUF,DST,13,2014
-4,Seattle Seahawks,4,2,1,0,0,0,0,1,17.0,17.0,39.4,SEA,DST,13,2014
-5,Philadelphia Eagles,4,2,1,1,0,0,0,1,14.0,14.0,52.5,PHI,DST,13,2014
-6,Indianapolis Colts,6,0,1,3,1,0,0,1,14.0,14.0,66.4,IND,DST,13,2014
-7,Denver Broncos,6,1,2,1,0,0,0,1,13.0,13.0,48.5,DEN,DST,13,2014
-8,Houston Texans,3,3,1,1,0,0,0,1,12.0,12.0,6.4,HOU,DST,13,2014
-9,New York Giants,7,0,0,0,0,0,0,1,11.0,11.0,4.5,NYG,DST,13,2014
-10,Atlanta Falcons,0,2,1,1,0,0,0,1,10.0,10.0,5.8,ATL,DST,13,2014
-11,Tampa Bay Buccaneers,2,3,0,0,0,0,0,1,9.0,9.0,98.0,TB,DST,13,2014
-12,Arizona Cardinals,1,1,0,0,1,0,0,1,8.0,8.0,60.9,ARI,DST,13,2014
-13,Miami Dolphins,2,1,0,0,0,0,0,1,8.0,8.0,60.2,MIA,DST,13,2014
-14,Detroit Lions,3,2,0,0,0,0,0,1,8.0,8.0,1.1,DET,DST,13,2014
-15,Cleveland Browns,1,2,0,0,0,0,0,1,7.0,7.0,40.8,CLE,DST,13,2014
-16,Cincinnati Bengals,1,1,0,0,0,0,0,1,7.0,7.0,14.7,CIN,DST,13,2014
-17,San Francisco 49ers,4,0,0,0,0,0,0,1,5.0,5.0,79.5,SF,DST,13,2014
-18,New York Jets,2,1,0,0,0,0,0,1,5.0,5.0,3.3,NYJ,DST,13,2014
-19,Tennessee Titans,0,0,1,1,1,0,0,1,5.0,5.0,48.4,TEN,DST,13,2014
-20,Baltimore Ravens,2,1,1,1,0,0,0,1,5.0,5.0,51.9,BAL,DST,13,2014
-21,New Orleans Saints,1,2,0,0,0,0,0,1,4.0,4.0,79.3,NO,DST,13,2014
-22,Carolina Panthers,3,0,0,3,0,0,0,1,4.0,4.0,27.8,CAR,DST,13,2014
-23,Washington Commanders,1,1,2,2,0,0,0,1,3.0,3.0,27.5,WAS,DST,13,2014
-24,New England Patriots,3,0,0,1,0,0,0,1,3.0,3.0,93.2,NE,DST,13,2014
-25,Chicago Bears,2,0,1,1,0,0,0,1,3.0,3.0,35.9,CHI,DST,13,2014
-26,Kansas City Chiefs,1,0,1,1,0,0,0,1,2.0,2.0,45.7,KC,DST,13,2014
-27,Dallas Cowboys,1,0,1,1,0,0,0,1,2.0,2.0,82.9,DAL,DST,13,2014
-28,Green Bay Packers,1,0,0,0,0,0,0,1,1.0,1.0,60.6,GB,DST,13,2014
-29,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,13,2014
-30,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,13,2014
-31,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,13,2014
-32,Pittsburgh Steelers,1,0,0,0,0,0,0,1,-3.0,-3.0,44.6,PIT,DST,13,2014
+1.0,Minnesota Vikings,4.0,1.0,0.0,0.0,0.0,0.0,2.0,1.0,24.0,24.0,28.0,MIN,DST,13,2014
+2.0,Jacksonville Jaguars,4.0,0.0,3.0,3.0,2.0,0.0,0.0,1.0,22.0,22.0,6.9,JAC,DST,13,2014
+3.0,Buffalo Bills,2.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,18.0,18.0,95.9,BUF,DST,13,2014
+4.0,Seattle Seahawks,4.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,17.0,17.0,39.4,SEA,DST,13,2014
+5.0,Philadelphia Eagles,4.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,14.0,14.0,52.5,PHI,DST,13,2014
+6.0,Indianapolis Colts,6.0,0.0,1.0,3.0,1.0,0.0,0.0,1.0,14.0,14.0,66.4,IND,DST,13,2014
+7.0,Denver Broncos,6.0,1.0,2.0,1.0,0.0,0.0,0.0,1.0,13.0,13.0,48.5,DEN,DST,13,2014
+8.0,Houston Texans,3.0,3.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,6.4,HOU,DST,13,2014
+9.0,New York Giants,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,11.0,4.5,NYG,DST,13,2014
+10.0,Atlanta Falcons,0.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,10.0,10.0,5.8,ATL,DST,13,2014
+11.0,Tampa Bay Buccaneers,2.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,98.0,TB,DST,13,2014
+12.0,Arizona Cardinals,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,8.0,8.0,60.9,ARI,DST,13,2014
+13.0,Miami Dolphins,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,60.2,MIA,DST,13,2014
+14.0,Detroit Lions,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,1.1,DET,DST,13,2014
+15.0,Cleveland Browns,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,40.8,CLE,DST,13,2014
+16.0,Cincinnati Bengals,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,14.7,CIN,DST,13,2014
+17.0,San Francisco 49ers,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,79.5,SF,DST,13,2014
+18.0,New York Jets,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,3.3,NYJ,DST,13,2014
+19.0,Tennessee Titans,0.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,5.0,5.0,48.4,TEN,DST,13,2014
+20.0,Baltimore Ravens,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,51.9,BAL,DST,13,2014
+21.0,New Orleans Saints,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,79.3,NO,DST,13,2014
+22.0,Carolina Panthers,3.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0,4.0,4.0,27.8,CAR,DST,13,2014
+23.0,Washington Commanders,1.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,3.0,3.0,27.5,WAS,DST,13,2014
+24.0,New England Patriots,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,93.2,NE,DST,13,2014
+25.0,Chicago Bears,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,35.9,CHI,DST,13,2014
+26.0,Kansas City Chiefs,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,45.7,KC,DST,13,2014
+27.0,Dallas Cowboys,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,82.9,DAL,DST,13,2014
+28.0,Green Bay Packers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,60.6,GB,DST,13,2014
+29.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,13,2014
+30.0,Los Angeles Chargers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3,LAC,DST,13,2014
+31.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6,LV,DST,13,2014
+32.0,Pittsburgh Steelers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,44.6,PIT,DST,13,2014

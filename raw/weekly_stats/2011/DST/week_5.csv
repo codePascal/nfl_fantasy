@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Seattle Seahawks,3,3,2,2,1,1,0,1,31.0,31.0,39.4,SEA,DST,5,2011
-2,Buffalo Bills,0,4,1,1,1,0,0,1,26.0,26.0,95.9,BUF,DST,5,2011
-3,San Francisco 49ers,3,2,1,1,1,0,0,1,25.0,25.0,79.5,SF,DST,5,2011
-4,Denver Broncos,5,1,1,1,1,0,0,1,25.0,25.0,48.5,DEN,DST,5,2011
-5,Cincinnati Bengals,3,0,2,1,1,0,0,1,23.0,23.0,14.7,CIN,DST,5,2011
-6,Minnesota Vikings,4,3,1,2,0,0,0,1,22.0,22.0,28.0,MIN,DST,5,2011
-7,New York Giants,6,1,2,2,0,0,0,1,19.0,19.0,4.5,NYG,DST,5,2011
-8,New York Jets,4,1,0,0,0,0,0,1,16.0,16.0,3.3,NYJ,DST,5,2011
-9,Atlanta Falcons,4,0,1,1,0,0,0,1,16.0,16.0,5.8,ATL,DST,5,2011
-10,Pittsburgh Steelers,3,1,0,1,0,0,0,1,15.0,15.0,44.6,PIT,DST,5,2011
-11,Houston Texans,3,1,0,0,0,0,0,1,15.0,15.0,6.4,HOU,DST,5,2011
-12,Green Bay Packers,1,2,0,0,0,0,0,1,15.0,15.0,60.6,GB,DST,5,2011
-13,New Orleans Saints,1,1,0,1,0,0,0,1,14.0,14.0,79.3,NO,DST,5,2011
-14,Carolina Panthers,2,1,0,0,0,0,0,1,14.0,14.0,27.8,CAR,DST,5,2011
-15,Tennessee Titans,1,1,0,0,0,0,0,1,14.0,14.0,48.4,TEN,DST,5,2011
-16,Detroit Lions,3,0,0,0,0,0,0,1,13.0,13.0,1.1,DET,DST,5,2011
-17,Chicago Bears,1,1,0,0,0,0,0,1,13.0,13.0,35.9,CHI,DST,5,2011
-18,Arizona Cardinals,1,0,1,1,0,0,0,1,13.0,13.0,60.9,ARI,DST,5,2011
-19,Indianapolis Colts,2,0,0,1,0,0,0,1,12.0,12.0,66.4,IND,DST,5,2011
-20,New England Patriots,2,0,0,0,0,0,0,1,12.0,12.0,93.2,NE,DST,5,2011
-21,Jacksonville Jaguars,2,1,0,0,0,0,0,1,11.0,11.0,6.9,JAC,DST,5,2011
-22,Kansas City Chiefs,0,0,0,0,0,0,0,1,10.0,10.0,45.7,KC,DST,5,2011
-23,Philadelphia Eagles,1,1,0,0,0,0,0,1,10.0,10.0,52.5,PHI,DST,5,2011
-24,Tampa Bay Buccaneers,0,0,1,0,0,0,0,1,9.0,9.0,98.0,TB,DST,5,2011
-25,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,5,2011
-26,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,5,2011
-27,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,5,2011
-28,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,5,2011
-29,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,5,2011
-30,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,5,2011
-31,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,5,2011
-32,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,5,2011
+1.0,Seattle Seahawks,3.0,3.0,2.0,2.0,1.0,1.0,0.0,1.0,31.0,31.0,39.4,SEA,DST,5,2011
+2.0,Buffalo Bills,0.0,4.0,1.0,1.0,1.0,0.0,0.0,1.0,26.0,26.0,95.9,BUF,DST,5,2011
+3.0,San Francisco 49ers,3.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,25.0,25.0,79.5,SF,DST,5,2011
+4.0,Denver Broncos,5.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,25.0,25.0,48.5,DEN,DST,5,2011
+5.0,Cincinnati Bengals,3.0,0.0,2.0,1.0,1.0,0.0,0.0,1.0,23.0,23.0,14.7,CIN,DST,5,2011
+6.0,Minnesota Vikings,4.0,3.0,1.0,2.0,0.0,0.0,0.0,1.0,22.0,22.0,28.0,MIN,DST,5,2011
+7.0,New York Giants,6.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,19.0,19.0,4.5,NYG,DST,5,2011
+8.0,New York Jets,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,16.0,16.0,3.3,NYJ,DST,5,2011
+9.0,Atlanta Falcons,4.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,16.0,16.0,5.8,ATL,DST,5,2011
+10.0,Pittsburgh Steelers,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,15.0,15.0,44.6,PIT,DST,5,2011
+11.0,Houston Texans,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,15.0,6.4,HOU,DST,5,2011
+12.0,Green Bay Packers,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,15.0,60.6,GB,DST,5,2011
+13.0,New Orleans Saints,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,14.0,14.0,79.3,NO,DST,5,2011
+14.0,Carolina Panthers,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,27.8,CAR,DST,5,2011
+15.0,Tennessee Titans,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,48.4,TEN,DST,5,2011
+16.0,Detroit Lions,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,13.0,13.0,1.1,DET,DST,5,2011
+17.0,Chicago Bears,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,13.0,13.0,35.9,CHI,DST,5,2011
+18.0,Arizona Cardinals,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,13.0,13.0,60.9,ARI,DST,5,2011
+19.0,Indianapolis Colts,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,66.4,IND,DST,5,2011
+20.0,New England Patriots,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,12.0,12.0,93.2,NE,DST,5,2011
+21.0,Jacksonville Jaguars,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,11.0,6.9,JAC,DST,5,2011
+22.0,Kansas City Chiefs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,45.7,KC,DST,5,2011
+23.0,Philadelphia Eagles,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,52.5,PHI,DST,5,2011
+24.0,Tampa Bay Buccaneers,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,98.0,TB,DST,5,2011
+25.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,5,2011
+26.0,Miami Dolphins,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.2,MIA,DST,5,2011
+27.0,Los Angeles Chargers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3,LAC,DST,5,2011
+28.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6,LV,DST,5,2011
+29.0,Dallas Cowboys,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,82.9,DAL,DST,5,2011
+30.0,Cleveland Browns,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8,CLE,DST,5,2011
+31.0,Baltimore Ravens,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.9,BAL,DST,5,2011
+32.0,Washington Commanders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.5,WAS,DST,5,2011

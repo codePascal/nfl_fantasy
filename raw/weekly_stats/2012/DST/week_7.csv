@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Houston Texans,4,2,0,1,1,1,0,1,20.0,20.0,6.4,HOU,DST,7,2012
-2,Minnesota Vikings,7,1,1,1,1,0,0,1,18.0,18.0,28.0,MIN,DST,7,2012
-3,Chicago Bears,3,1,3,4,0,0,0,1,15.0,15.0,35.9,CHI,DST,7,2012
-4,San Francisco 49ers,2,1,0,0,0,0,0,1,11.0,11.0,79.5,SF,DST,7,2012
-5,New York Giants,3,1,3,4,0,0,0,1,11.0,11.0,4.5,NYG,DST,7,2012
-6,New England Patriots,4,1,1,2,0,1,1,1,10.0,10.0,93.2,NE,DST,7,2012
-7,Detroit Lions,5,0,0,0,0,0,0,1,10.0,10.0,1.1,DET,DST,7,2012
-8,Arizona Cardinals,3,2,0,0,0,0,0,1,8.0,8.0,60.9,ARI,DST,7,2012
-9,Jacksonville Jaguars,2,1,2,1,0,0,0,1,8.0,8.0,6.9,JAC,DST,7,2012
-10,Seattle Seahawks,2,1,0,1,0,0,0,1,8.0,8.0,39.4,SEA,DST,7,2012
-11,Cincinnati Bengals,3,1,1,1,0,0,0,1,7.0,7.0,14.7,CIN,DST,7,2012
-12,Dallas Cowboys,2,1,1,0,0,0,0,1,7.0,7.0,82.9,DAL,DST,7,2012
-13,Cleveland Browns,3,0,1,1,0,0,0,1,6.0,6.0,40.8,CLE,DST,7,2012
-14,Green Bay Packers,3,1,0,0,0,0,0,1,6.0,6.0,60.6,GB,DST,7,2012
-15,Washington Commanders,1,2,0,0,0,0,0,1,5.0,5.0,27.5,WAS,DST,7,2012
-16,Indianapolis Colts,0,0,0,0,0,0,0,1,4.0,4.0,66.4,IND,DST,7,2012
-17,Tennessee Titans,1,1,1,1,0,0,0,1,4.0,4.0,48.4,TEN,DST,7,2012
-18,Pittsburgh Steelers,0,1,0,0,0,0,0,1,3.0,3.0,44.6,PIT,DST,7,2012
-19,Carolina Panthers,0,0,1,1,0,0,0,1,3.0,3.0,27.8,CAR,DST,7,2012
-20,New York Jets,1,0,1,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,7,2012
-21,New Orleans Saints,2,0,0,1,0,0,0,1,1.0,1.0,79.3,NO,DST,7,2012
-22,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,7,2012
-23,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,7,2012
-24,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,7,2012
-25,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,7,2012
-26,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,7,2012
-27,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,7,2012
-28,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,7,2012
-29,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,7,2012
-30,Buffalo Bills,2,0,0,1,0,0,1,1,-2.0,-2.0,95.9,BUF,DST,7,2012
-31,Baltimore Ravens,2,0,0,0,0,0,0,1,-2.0,-2.0,51.9,BAL,DST,7,2012
-32,Tampa Bay Buccaneers,0,1,0,0,0,0,0,1,-2.0,-2.0,98.0,TB,DST,7,2012
+1.0,Houston Texans,4.0,2.0,0.0,1.0,1.0,1.0,0.0,1.0,20.0,20.0,6.4,HOU,DST,7,2012
+2.0,Minnesota Vikings,7.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,18.0,18.0,28.0,MIN,DST,7,2012
+3.0,Chicago Bears,3.0,1.0,3.0,4.0,0.0,0.0,0.0,1.0,15.0,15.0,35.9,CHI,DST,7,2012
+4.0,San Francisco 49ers,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,11.0,79.5,SF,DST,7,2012
+5.0,New York Giants,3.0,1.0,3.0,4.0,0.0,0.0,0.0,1.0,11.0,11.0,4.5,NYG,DST,7,2012
+6.0,New England Patriots,4.0,1.0,1.0,2.0,0.0,1.0,1.0,1.0,10.0,10.0,93.2,NE,DST,7,2012
+7.0,Detroit Lions,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,1.1,DET,DST,7,2012
+8.0,Arizona Cardinals,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,60.9,ARI,DST,7,2012
+9.0,Jacksonville Jaguars,2.0,1.0,2.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,6.9,JAC,DST,7,2012
+10.0,Seattle Seahawks,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,39.4,SEA,DST,7,2012
+11.0,Cincinnati Bengals,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,14.7,CIN,DST,7,2012
+12.0,Dallas Cowboys,2.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,82.9,DAL,DST,7,2012
+13.0,Cleveland Browns,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,40.8,CLE,DST,7,2012
+14.0,Green Bay Packers,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,7,2012
+15.0,Washington Commanders,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,27.5,WAS,DST,7,2012
+16.0,Indianapolis Colts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,66.4,IND,DST,7,2012
+17.0,Tennessee Titans,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,48.4,TEN,DST,7,2012
+18.0,Pittsburgh Steelers,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,44.6,PIT,DST,7,2012
+19.0,Carolina Panthers,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,27.8,CAR,DST,7,2012
+20.0,New York Jets,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,3.3,NYJ,DST,7,2012
+21.0,New Orleans Saints,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,79.3,NO,DST,7,2012
+22.0,Kansas City Chiefs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.7,KC,DST,7,2012
+23.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,7,2012
+24.0,Los Angeles Chargers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3,LAC,DST,7,2012
+25.0,Philadelphia Eagles,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.5,PHI,DST,7,2012
+26.0,Atlanta Falcons,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.8,ATL,DST,7,2012
+27.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6,LV,DST,7,2012
+28.0,Denver Broncos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5,DEN,DST,7,2012
+29.0,Miami Dolphins,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.2,MIA,DST,7,2012
+30.0,Buffalo Bills,2.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,-2.0,-2.0,95.9,BUF,DST,7,2012
+31.0,Baltimore Ravens,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,51.9,BAL,DST,7,2012
+32.0,Tampa Bay Buccaneers,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,98.0,TB,DST,7,2012

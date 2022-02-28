@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Tyler Bass,1.8,2.2,3.1,8.6,BUF,K,4,2021
 Justin Tucker,2.0,2.3,2.2,8.3,BAL,K,4,2021
 Ryan Succop,1.9,2.2,2.7,8.3,TB,K,4,2021

@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Atlanta Falcons,2.6,1.2,0.5,0.8,0.2,0.0,19.7,329.6,8.1,ATL,DST,5,2021
 Las Vegas Raiders,2.9,1.0,0.6,0.7,0.2,0.0,19.4,316.4,8.0,LV,DST,5,2021
 New England Patriots,2.6,1.1,0.5,0.8,0.2,0.0,16.1,308.1,7.9,NE,DST,5,2021

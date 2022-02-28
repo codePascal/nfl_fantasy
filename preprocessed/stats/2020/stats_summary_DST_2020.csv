@@ -1,515 +1,515 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Washington Commanders,8,2,1,2,0,0,0,1,15.0,15.0,27.5,WAS,DST,1,2020
-2,Baltimore Ravens,2,1,2,3,0,0,0,1,15.0,15.0,51.9,BAL,DST,1,2020
-3,New Orleans Saints,3,2,1,1,1,0,0,1,15.0,15.0,79.3,NO,DST,1,2020
-4,Los Angeles Chargers,3,1,1,1,0,0,0,1,11.0,11.0,44.3,LAC,DST,1,2020
-5,New England Patriots,1,3,0,0,0,0,0,1,11.0,11.0,93.2,NE,DST,1,2020
-6,Buffalo Bills,3,1,1,1,0,0,0,1,8.0,8.0,95.9,BUF,DST,1,2020
-7,Pittsburgh Steelers,3,2,0,0,0,0,0,1,8.0,8.0,44.6,PIT,DST,1,2020
-8,Kansas City Chiefs,4,1,0,0,0,0,0,1,7.0,7.0,45.7,KC,DST,1,2020
-9,New York Jets,3,0,2,2,0,0,0,1,7.0,7.0,3.3,NYJ,DST,1,2020
-10,Seattle Seahawks,2,1,1,1,0,0,0,1,6.0,6.0,39.4,SEA,DST,1,2020
-11,Jacksonville Jaguars,1,2,0,0,0,0,0,1,6.0,6.0,6.9,JAC,DST,1,2020
-12,Green Bay Packers,2,1,0,0,0,1,0,1,5.0,5.0,60.6,GB,DST,1,2020
-13,Los Angeles Rams,3,0,0,0,0,0,0,1,4.0,4.0,74.5,LAR,DST,1,2020
-14,San Francisco 49ers,2,1,0,2,0,0,0,1,4.0,4.0,79.5,SF,DST,1,2020
-15,New York Giants,2,0,1,1,0,0,0,1,4.0,4.0,4.5,NYG,DST,1,2020
-16,Arizona Cardinals,3,0,0,0,0,0,0,1,4.0,4.0,60.9,ARI,DST,1,2020
-17,Dallas Cowboys,1,1,0,0,0,0,0,1,4.0,4.0,82.9,DAL,DST,1,2020
-18,Indianapolis Colts,4,0,0,0,0,0,0,1,4.0,4.0,66.4,IND,DST,1,2020
-19,Philadelphia Eagles,3,0,0,1,0,0,0,1,3.0,3.0,52.5,PHI,DST,1,2020
-20,Cincinnati Bengals,2,0,0,0,0,0,0,1,3.0,3.0,14.7,CIN,DST,1,2020
-21,Chicago Bears,1,1,0,0,0,0,0,1,3.0,3.0,35.9,CHI,DST,1,2020
-22,Tennessee Titans,0,0,1,2,0,0,0,1,3.0,3.0,48.4,TEN,DST,1,2020
-23,Denver Broncos,1,0,0,0,0,0,0,1,2.0,2.0,48.5,DEN,DST,1,2020
-24,Miami Dolphins,2,0,0,1,0,0,0,1,2.0,2.0,60.2,MIA,DST,1,2020
-25,Detroit Lions,1,0,0,1,0,0,0,1,1.0,1.0,1.1,DET,DST,1,2020
-26,Houston Texans,1,0,0,0,0,0,0,1,0.0,0.0,6.4,HOU,DST,1,2020
-27,Las Vegas Raiders,1,0,0,0,0,0,0,1,0.0,0.0,7.6,LV,DST,1,2020
-28,Cleveland Browns,2,0,1,1,0,0,0,1,0.0,0.0,40.8,CLE,DST,1,2020
-29,Tampa Bay Buccaneers,1,0,0,0,0,0,0,1,0.0,0.0,98.0,TB,DST,1,2020
-30,Atlanta Falcons,3,0,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,DST,1,2020
-31,Carolina Panthers,0,0,0,1,0,0,0,1,-1.0,-1.0,27.8,CAR,DST,1,2020
-32,Minnesota Vikings,0,0,0,1,0,0,0,1,-4.0,-4.0,28.0,MIN,DST,1,2020
-1,Baltimore Ravens,4,1,1,1,1,0,0,1,15.0,15.0,51.9,BAL,DST,2,2020
-2,Indianapolis Colts,3,3,0,0,0,1,0,1,15.0,15.0,66.4,IND,DST,2,2020
-3,Tampa Bay Buccaneers,5,2,2,2,0,0,0,1,14.0,14.0,98.0,TB,DST,2,2020
-4,Pittsburgh Steelers,7,1,1,1,0,1,0,1,13.0,13.0,44.6,PIT,DST,2,2020
-5,Chicago Bears,4,1,1,1,0,0,0,1,12.0,12.0,35.9,CHI,DST,2,2020
-6,Green Bay Packers,4,1,0,0,1,0,0,1,12.0,12.0,60.6,GB,DST,2,2020
-7,Arizona Cardinals,4,0,2,1,0,0,0,1,9.0,9.0,60.9,ARI,DST,2,2020
-8,New York Giants,4,2,0,1,0,0,0,1,9.0,9.0,4.5,NYG,DST,2,2020
-9,Los Angeles Rams,0,2,1,1,0,0,0,1,7.0,7.0,74.5,LAR,DST,2,2020
-10,New England Patriots,2,1,0,0,1,0,0,1,6.0,6.0,93.2,NE,DST,2,2020
-11,Tennessee Titans,2,2,0,0,0,0,0,1,5.0,5.0,48.4,TEN,DST,2,2020
-12,San Francisco 49ers,1,0,0,0,0,0,0,1,5.0,5.0,79.5,SF,DST,2,2020
-13,Denver Broncos,1,1,1,1,0,0,0,1,5.0,5.0,48.5,DEN,DST,2,2020
-14,Kansas City Chiefs,2,1,0,0,0,0,0,1,5.0,5.0,45.7,KC,DST,2,2020
-15,New York Jets,3,1,0,1,0,0,0,1,4.0,4.0,3.3,NYJ,DST,2,2020
-16,New Orleans Saints,3,0,1,0,0,0,0,1,4.0,4.0,79.3,NO,DST,2,2020
-17,Washington Commanders,3,1,0,1,0,0,0,1,4.0,4.0,27.5,WAS,DST,2,2020
-18,Cleveland Browns,3,0,1,1,0,0,0,1,4.0,4.0,40.8,CLE,DST,2,2020
-19,Houston Texans,4,0,0,0,0,0,0,1,4.0,4.0,6.4,HOU,DST,2,2020
-20,Minnesota Vikings,2,1,0,1,0,0,0,1,3.0,3.0,28.0,MIN,DST,2,2020
-21,Atlanta Falcons,1,0,3,4,0,0,0,1,3.0,3.0,5.8,ATL,DST,2,2020
-22,Seattle Seahawks,1,1,0,0,0,0,0,1,3.0,3.0,39.4,SEA,DST,2,2020
-23,Carolina Panthers,0,1,1,0,0,0,0,1,3.0,3.0,27.8,CAR,DST,2,2020
-24,Las Vegas Raiders,0,1,0,0,0,0,0,1,2.0,2.0,7.6,LV,DST,2,2020
-25,Buffalo Bills,3,0,0,1,0,0,0,1,2.0,2.0,95.9,BUF,DST,2,2020
-26,Miami Dolphins,1,0,1,1,0,0,0,1,2.0,2.0,60.2,MIA,DST,2,2020
-27,Los Angeles Chargers,1,0,0,0,0,0,0,1,1.0,1.0,44.3,LAC,DST,2,2020
-28,Jacksonville Jaguars,1,0,0,0,0,0,0,1,0.0,0.0,6.9,JAC,DST,2,2020
-29,Philadelphia Eagles,1,0,1,0,0,0,0,1,-1.0,-1.0,52.5,PHI,DST,2,2020
-30,Cincinnati Bengals,0,1,0,0,0,0,0,1,-2.0,-2.0,14.7,CIN,DST,2,2020
-31,Detroit Lions,1,0,0,0,0,0,0,1,-3.0,-3.0,1.1,DET,DST,2,2020
-32,Dallas Cowboys,1,0,0,0,0,0,0,1,-3.0,-3.0,82.9,DAL,DST,2,2020
-1,Indianapolis Colts,2,3,0,0,2,1,0,1,26.0,26.0,66.4,IND,DST,3,2020
-2,Tampa Bay Buccaneers,6,2,0,1,0,1,0,1,16.0,16.0,98.0,TB,DST,3,2020
-3,New England Patriots,2,0,3,3,1,0,0,1,15.0,15.0,93.2,NE,DST,3,2020
-4,Cleveland Browns,3,3,2,3,0,0,0,1,14.0,14.0,40.8,CLE,DST,3,2020
-5,Miami Dolphins,4,1,1,1,0,0,0,1,12.0,12.0,60.2,MIA,DST,3,2020
-6,San Francisco 49ers,2,1,2,2,0,0,0,1,12.0,12.0,79.5,SF,DST,3,2020
-7,Carolina Panthers,2,1,3,2,0,0,0,1,11.0,11.0,27.8,CAR,DST,3,2020
-8,Seattle Seahawks,2,2,1,1,0,1,0,1,9.0,9.0,39.4,SEA,DST,3,2020
-9,Philadelphia Eagles,8,0,0,0,0,0,0,1,8.0,8.0,52.5,PHI,DST,3,2020
-10,Cincinnati Bengals,3,2,0,1,0,0,0,1,7.0,7.0,14.7,CIN,DST,3,2020
-11,Detroit Lions,1,3,0,0,0,0,0,1,7.0,7.0,1.1,DET,DST,3,2020
-12,Tennessee Titans,2,2,1,1,0,0,0,1,7.0,7.0,48.4,TEN,DST,3,2020
-13,Baltimore Ravens,0,0,1,1,0,0,1,1,7.0,7.0,51.9,BAL,DST,3,2020
-14,Pittsburgh Steelers,5,1,0,0,0,0,0,1,7.0,7.0,44.6,PIT,DST,3,2020
-15,Kansas City Chiefs,4,0,1,3,0,0,0,1,7.0,7.0,45.7,KC,DST,3,2020
-16,Buffalo Bills,2,1,1,0,0,0,0,1,5.0,5.0,95.9,BUF,DST,3,2020
-17,Atlanta Falcons,2,2,0,2,0,0,0,1,5.0,5.0,5.8,ATL,DST,3,2020
-18,Los Angeles Rams,4,1,1,1,0,0,0,1,4.0,4.0,74.5,LAR,DST,3,2020
-19,Arizona Cardinals,4,0,0,0,0,0,0,1,4.0,4.0,60.9,ARI,DST,3,2020
-20,Chicago Bears,2,1,0,1,0,0,0,1,4.0,4.0,35.9,CHI,DST,3,2020
-21,Las Vegas Raiders,2,1,0,0,0,0,0,1,3.0,3.0,7.6,LV,DST,3,2020
-22,Minnesota Vikings,2,1,0,1,0,0,0,1,3.0,3.0,28.0,MIN,DST,3,2020
-23,Green Bay Packers,2,0,1,2,0,0,0,1,3.0,3.0,60.6,GB,DST,3,2020
-24,Los Angeles Chargers,2,0,0,0,0,0,0,1,2.0,2.0,44.3,LAC,DST,3,2020
-25,Houston Texans,2,0,0,1,0,0,0,1,1.0,1.0,6.4,HOU,DST,3,2020
-26,Denver Broncos,2,0,0,0,0,0,0,1,1.0,1.0,48.5,DEN,DST,3,2020
-27,Washington Commanders,2,0,0,0,0,0,0,1,1.0,1.0,27.5,WAS,DST,3,2020
-28,New York Jets,0,0,0,0,0,0,0,1,0.0,0.0,3.3,NYJ,DST,3,2020
-29,Jacksonville Jaguars,1,0,0,0,0,0,0,1,0.0,0.0,6.9,JAC,DST,3,2020
-30,Dallas Cowboys,4,0,0,1,0,0,0,1,0.0,0.0,82.9,DAL,DST,3,2020
-31,New York Giants,2,0,0,0,0,0,0,1,-2.0,-2.0,4.5,NYG,DST,3,2020
-32,New Orleans Saints,1,0,0,0,0,0,0,1,-3.0,-3.0,79.3,NO,DST,3,2020
-1,Kansas City Chiefs,2,3,1,1,1,0,0,1,20.0,20.0,45.7,KC,DST,4,2020
-2,Philadelphia Eagles,5,2,1,1,1,0,0,1,18.0,18.0,52.5,PHI,DST,4,2020
-3,Los Angeles Rams,5,1,0,1,0,0,0,1,11.0,11.0,74.5,LAR,DST,4,2020
-4,New York Jets,0,3,0,0,1,0,0,1,8.0,8.0,3.3,NYJ,DST,4,2020
-5,Indianapolis Colts,1,1,0,0,0,0,0,1,7.0,7.0,66.4,IND,DST,4,2020
-6,Denver Broncos,6,0,0,0,0,0,0,1,6.0,6.0,48.5,DEN,DST,4,2020
-7,San Francisco 49ers,3,1,0,0,0,0,0,1,6.0,6.0,79.5,SF,DST,4,2020
-8,Tampa Bay Buccaneers,2,1,1,1,0,0,0,1,6.0,6.0,98.0,TB,DST,4,2020
-9,Buffalo Bills,2,0,2,2,0,0,0,1,6.0,6.0,95.9,BUF,DST,4,2020
-10,Baltimore Ravens,3,0,1,1,0,0,0,1,6.0,6.0,51.9,BAL,DST,4,2020
-11,Cleveland Browns,3,1,2,2,0,0,0,1,5.0,5.0,40.8,CLE,DST,4,2020
-12,Minnesota Vikings,3,0,1,0,0,0,0,1,5.0,5.0,28.0,MIN,DST,4,2020
-13,Cincinnati Bengals,3,1,0,0,0,0,0,1,5.0,5.0,14.7,CIN,DST,4,2020
-14,New York Giants,2,0,1,2,0,0,0,1,5.0,5.0,4.5,NYG,DST,4,2020
-15,Green Bay Packers,4,0,0,0,0,0,0,1,5.0,5.0,60.6,GB,DST,4,2020
-16,Seattle Seahawks,1,2,0,1,0,0,0,1,5.0,5.0,39.4,SEA,DST,4,2020
-17,New England Patriots,1,0,1,1,0,0,0,1,4.0,4.0,93.2,NE,DST,4,2020
-18,Washington Commanders,1,2,0,0,0,0,0,1,4.0,4.0,27.5,WAS,DST,4,2020
-19,Los Angeles Chargers,0,1,0,0,1,0,0,1,4.0,4.0,44.3,LAC,DST,4,2020
-20,New Orleans Saints,3,1,0,0,0,0,0,1,4.0,4.0,79.3,NO,DST,4,2020
-21,Miami Dolphins,2,1,0,1,0,0,0,1,3.0,3.0,60.2,MIA,DST,4,2020
-22,Carolina Panthers,1,0,1,1,0,0,0,1,3.0,3.0,27.8,CAR,DST,4,2020
-23,Jacksonville Jaguars,1,1,0,0,0,0,0,1,2.0,2.0,6.9,JAC,DST,4,2020
-24,Houston Texans,3,0,0,0,0,0,0,1,2.0,2.0,6.4,HOU,DST,4,2020
-25,Chicago Bears,1,0,0,0,0,0,0,1,2.0,2.0,35.9,CHI,DST,4,2020
-26,Arizona Cardinals,0,1,0,0,0,0,0,1,1.0,1.0,60.9,ARI,DST,4,2020
-27,Atlanta Falcons,1,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,DST,4,2020
-28,Las Vegas Raiders,1,0,0,0,0,0,0,1,0.0,0.0,7.6,LV,DST,4,2020
-29,Pittsburgh Steelers,0,0,0,0,0,0,0,1,0.0,0.0,44.6,PIT,DST,4,2020
-30,Detroit Lions,2,1,0,1,0,0,0,1,0.0,0.0,1.1,DET,DST,4,2020
-31,Tennessee Titans,0,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,4,2020
-32,Dallas Cowboys,2,0,0,0,0,0,0,1,-2.0,-2.0,82.9,DAL,DST,4,2020
-1,Baltimore Ravens,7,1,2,3,1,0,0,1,26.0,26.0,51.9,BAL,DST,5,2020
-2,Cleveland Browns,1,2,0,0,1,1,0,1,13.0,13.0,40.8,CLE,DST,5,2020
-3,Miami Dolphins,5,2,1,2,0,0,0,1,12.0,12.0,60.2,MIA,DST,5,2020
-4,Los Angeles Rams,8,0,0,1,0,0,0,1,12.0,12.0,74.5,LAR,DST,5,2020
-5,Indianapolis Colts,1,2,0,1,0,0,1,1,12.0,12.0,66.4,IND,DST,5,2020
-6,New York Giants,2,1,1,0,1,0,0,1,11.0,11.0,4.5,NYG,DST,5,2020
-7,Houston Texans,4,0,2,1,0,0,0,1,9.0,9.0,6.4,HOU,DST,5,2020
-8,Dallas Cowboys,2,0,1,1,1,0,0,1,9.0,9.0,82.9,DAL,DST,5,2020
-9,Tennessee Titans,1,2,1,1,0,0,0,1,8.0,8.0,48.4,TEN,DST,5,2020
-10,Pittsburgh Steelers,5,2,0,0,0,0,0,1,8.0,8.0,44.6,PIT,DST,5,2020
-11,Seattle Seahawks,3,1,1,2,0,0,0,1,7.0,7.0,39.4,SEA,DST,5,2020
-12,Arizona Cardinals,3,0,0,0,0,0,0,1,7.0,7.0,60.9,ARI,DST,5,2020
-13,Tampa Bay Buccaneers,3,1,0,1,0,0,0,1,6.0,6.0,98.0,TB,DST,5,2020
-14,Minnesota Vikings,4,1,0,0,0,0,0,1,6.0,6.0,28.0,MIN,DST,5,2020
-15,Chicago Bears,3,0,1,1,0,0,0,1,6.0,6.0,35.9,CHI,DST,5,2020
-16,Carolina Panthers,2,1,0,1,0,0,0,1,5.0,5.0,27.8,CAR,DST,5,2020
-17,Las Vegas Raiders,3,1,0,0,0,0,0,1,4.0,4.0,7.6,LV,DST,5,2020
-18,Jacksonville Jaguars,1,2,0,0,0,0,0,1,4.0,4.0,6.9,JAC,DST,5,2020
-19,Cincinnati Bengals,1,1,0,0,0,0,0,1,3.0,3.0,14.7,CIN,DST,5,2020
-20,New Orleans Saints,3,0,0,0,0,0,0,1,3.0,3.0,79.3,NO,DST,5,2020
-21,Los Angeles Chargers,2,1,0,1,0,0,0,1,3.0,3.0,44.3,LAC,DST,5,2020
-22,Washington Commanders,1,1,0,1,0,0,0,1,2.0,2.0,27.5,WAS,DST,5,2020
-23,New York Jets,1,1,0,0,0,0,0,1,2.0,2.0,3.3,NYJ,DST,5,2020
-27,Atlanta Falcons,0,0,0,0,0,0,0,1,0.0,0.0,5.8,ATL,DST,5,2020
-29,Philadelphia Eagles,1,0,1,1,0,0,0,1,-1.0,-1.0,52.5,PHI,DST,5,2020
-30,Kansas City Chiefs,1,1,0,0,0,0,0,1,-1.0,-1.0,45.7,KC,DST,5,2020
-31,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,DST,5,2020
-32,Buffalo Bills,0,0,0,0,0,0,0,1,-4.0,-4.0,95.9,BUF,DST,5,2020
-1,Tampa Bay Buccaneers,5,2,0,1,1,0,0,1,19.0,19.0,98.0,TB,DST,6,2020
-2,Pittsburgh Steelers,4,2,0,1,1,0,0,1,18.0,18.0,44.6,PIT,DST,6,2020
-3,Arizona Cardinals,3,2,2,2,0,0,0,1,15.0,15.0,60.9,ARI,DST,6,2020
-4,Miami Dolphins,3,1,0,0,0,0,0,1,15.0,15.0,60.2,MIA,DST,6,2020
-5,New York Giants,3,1,1,1,1,0,0,1,14.0,14.0,4.5,NYG,DST,6,2020
-6,Denver Broncos,4,2,1,3,0,0,0,1,14.0,14.0,48.5,DEN,DST,6,2020
-7,Chicago Bears,4,2,1,1,0,0,0,1,11.0,11.0,35.9,CHI,DST,6,2020
-8,New England Patriots,2,2,0,0,0,0,0,1,7.0,7.0,93.2,NE,DST,6,2020
-9,Atlanta Falcons,1,3,0,0,0,0,0,1,7.0,7.0,5.8,ATL,DST,6,2020
-10,Baltimore Ravens,6,0,1,3,0,0,0,1,7.0,7.0,51.9,BAL,DST,6,2020
-11,New York Jets,2,2,0,0,0,0,0,1,6.0,6.0,3.3,NYJ,DST,6,2020
-12,Detroit Lions,1,1,1,2,0,0,0,1,6.0,6.0,1.1,DET,DST,6,2020
-13,Washington Commanders,1,1,0,0,0,0,0,1,4.0,4.0,27.5,WAS,DST,6,2020
-14,Indianapolis Colts,2,1,0,1,0,0,0,1,4.0,4.0,66.4,IND,DST,6,2020
-15,Cincinnati Bengals,1,1,1,0,0,0,0,1,4.0,4.0,14.7,CIN,DST,6,2020
-16,Kansas City Chiefs,0,1,0,0,0,0,0,1,3.0,3.0,45.7,KC,DST,6,2020
-17,San Francisco 49ers,0,1,0,0,0,0,0,1,3.0,3.0,79.5,SF,DST,6,2020
-18,Buffalo Bills,1,0,1,1,0,0,0,1,3.0,3.0,95.9,BUF,DST,6,2020
-19,Philadelphia Eagles,3,0,0,1,0,0,0,1,2.0,2.0,52.5,PHI,DST,6,2020
-20,Carolina Panthers,0,1,0,0,0,0,0,1,2.0,2.0,27.8,CAR,DST,6,2020
-21,Houston Texans,2,1,1,1,0,0,0,1,2.0,2.0,6.4,HOU,DST,6,2020
-22,Cleveland Browns,2,0,0,0,0,0,0,1,1.0,1.0,40.8,CLE,DST,6,2020
-23,Jacksonville Jaguars,0,1,0,0,0,0,0,1,1.0,1.0,6.9,JAC,DST,6,2020
-27,Minnesota Vikings,2,0,1,1,0,0,0,1,0.0,0.0,28.0,MIN,DST,6,2020
-28,Los Angeles Rams,0,0,0,0,0,0,0,1,0.0,0.0,74.5,LAR,DST,6,2020
-30,Green Bay Packers,0,0,0,0,0,0,0,1,-1.0,-1.0,60.6,GB,DST,6,2020
-31,Tennessee Titans,2,0,0,0,0,0,0,1,-2.0,-2.0,48.4,TEN,DST,6,2020
-32,Dallas Cowboys,1,0,0,0,0,0,0,1,-3.0,-3.0,82.9,DAL,DST,6,2020
-1,Kansas City Chiefs,3,2,2,2,1,0,1,1,24.0,24.0,45.7,KC,DST,7,2020
-2,Washington Commanders,6,1,0,2,0,1,0,1,17.0,17.0,27.5,WAS,DST,7,2020
-3,San Francisco 49ers,2,4,0,1,0,0,0,1,17.0,17.0,79.5,SF,DST,7,2020
-4,Los Angeles Rams,4,2,0,0,0,0,0,1,15.0,15.0,74.5,LAR,DST,7,2020
-5,Buffalo Bills,6,2,0,1,0,0,0,1,14.0,14.0,95.9,BUF,DST,7,2020
-6,Jacksonville Jaguars,1,0,0,0,0,0,1,1,9.0,9.0,6.9,JAC,DST,7,2020
-7,Chicago Bears,1,0,1,2,1,0,0,1,9.0,9.0,35.9,CHI,DST,7,2020
-8,Philadelphia Eagles,3,1,2,2,0,0,0,1,9.0,9.0,52.5,PHI,DST,7,2020
-9,Los Angeles Chargers,5,0,1,0,0,0,0,1,8.0,8.0,44.3,LAC,DST,7,2020
-10,Arizona Cardinals,2,3,0,0,0,0,0,1,7.0,7.0,60.9,ARI,DST,7,2020
-11,Cleveland Browns,4,1,1,1,0,0,0,1,7.0,7.0,40.8,CLE,DST,7,2020
-12,Tennessee Titans,0,3,0,2,0,0,0,1,6.0,6.0,48.4,TEN,DST,7,2020
-13,Tampa Bay Buccaneers,3,1,0,1,0,0,0,1,6.0,6.0,98.0,TB,DST,7,2020
-14,Green Bay Packers,3,0,1,2,0,0,0,1,6.0,6.0,60.6,GB,DST,7,2020
-15,New York Jets,2,0,1,1,0,0,0,1,5.0,5.0,3.3,NYJ,DST,7,2020
-16,New York Giants,3,1,0,0,0,0,0,1,5.0,5.0,4.5,NYG,DST,7,2020
-17,New England Patriots,1,2,0,0,0,0,0,1,4.0,4.0,93.2,NE,DST,7,2020
-18,Detroit Lions,2,0,1,2,0,0,0,1,4.0,4.0,1.1,DET,DST,7,2020
-19,Carolina Panthers,1,0,1,1,0,0,0,1,3.0,3.0,27.8,CAR,DST,7,2020
-20,Atlanta Falcons,2,0,0,0,0,0,0,1,2.0,2.0,5.8,ATL,DST,7,2020
-21,Dallas Cowboys,2,0,0,0,0,0,0,1,2.0,2.0,82.9,DAL,DST,7,2020
-22,Denver Broncos,4,0,1,1,0,0,0,1,2.0,2.0,48.5,DEN,DST,7,2020
-23,Pittsburgh Steelers,2,0,0,0,0,0,0,1,2.0,2.0,44.6,PIT,DST,7,2020
-24,New Orleans Saints,1,0,0,0,0,0,0,1,1.0,1.0,79.3,NO,DST,7,2020
-26,Seattle Seahawks,0,1,1,2,0,0,0,1,0.0,0.0,39.4,SEA,DST,7,2020
-30,Cincinnati Bengals,0,1,0,0,0,0,0,1,-2.0,-2.0,14.7,CIN,DST,7,2020
-31,Las Vegas Raiders,0,0,0,1,0,0,0,1,-4.0,-4.0,7.6,LV,DST,7,2020
-32,Houston Texans,0,0,0,0,0,0,0,1,-4.0,-4.0,6.4,HOU,DST,7,2020
-1,Miami Dolphins,2,2,2,2,1,0,1,1,23.0,23.0,60.2,MIA,DST,8,2020
-2,Philadelphia Eagles,4,0,2,2,1,1,0,1,20.0,20.0,52.5,PHI,DST,8,2020
-3,Pittsburgh Steelers,4,2,2,3,1,0,0,1,18.0,18.0,44.6,PIT,DST,8,2020
-4,Indianapolis Colts,5,1,1,1,1,0,0,1,15.0,15.0,66.4,IND,DST,8,2020
-5,Dallas Cowboys,4,2,2,3,0,0,0,1,13.0,13.0,82.9,DAL,DST,8,2020
-6,Las Vegas Raiders,0,0,1,1,0,0,0,1,9.0,9.0,7.6,LV,DST,8,2020
-7,Kansas City Chiefs,1,0,1,1,0,0,0,1,7.0,7.0,45.7,KC,DST,8,2020
-8,Tampa Bay Buccaneers,3,2,0,0,0,0,0,1,7.0,7.0,98.0,TB,DST,8,2020
-9,Seattle Seahawks,3,1,1,1,0,0,0,1,7.0,7.0,39.4,SEA,DST,8,2020
-10,New Orleans Saints,5,1,0,0,0,0,0,1,7.0,7.0,79.3,NO,DST,8,2020
-11,Atlanta Falcons,3,1,0,0,0,0,0,1,6.0,6.0,5.8,ATL,DST,8,2020
-12,Los Angeles Rams,1,0,2,2,0,0,0,1,5.0,5.0,74.5,LAR,DST,8,2020
-13,Denver Broncos,2,2,0,0,0,0,0,1,5.0,5.0,48.5,DEN,DST,8,2020
-14,Baltimore Ravens,2,0,1,2,0,0,0,1,4.0,4.0,51.9,BAL,DST,8,2020
-15,New York Giants,2,0,1,1,0,0,0,1,4.0,4.0,4.5,NYG,DST,8,2020
-16,Cincinnati Bengals,1,1,0,0,0,0,0,1,4.0,4.0,14.7,CIN,DST,8,2020
-17,Buffalo Bills,2,0,1,1,0,0,0,1,4.0,4.0,95.9,BUF,DST,8,2020
-18,Carolina Panthers,2,1,0,0,0,0,0,1,4.0,4.0,27.8,CAR,DST,8,2020
-19,Cleveland Browns,2,0,0,1,0,0,0,1,3.0,3.0,40.8,CLE,DST,8,2020
-20,Minnesota Vikings,1,0,1,1,0,0,0,1,3.0,3.0,28.0,MIN,DST,8,2020
-21,New England Patriots,1,1,0,0,0,0,0,1,3.0,3.0,93.2,NE,DST,8,2020
-22,Los Angeles Chargers,2,1,0,0,0,0,0,1,3.0,3.0,44.3,LAC,DST,8,2020
-23,Chicago Bears,1,0,0,3,0,0,0,1,1.0,1.0,35.9,CHI,DST,8,2020
-27,Green Bay Packers,1,0,0,0,0,0,0,1,0.0,0.0,60.6,GB,DST,8,2020
-29,Tennessee Titans,0,0,0,0,0,0,0,1,-1.0,-1.0,48.4,TEN,DST,8,2020
-30,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,DST,8,2020
-31,Detroit Lions,2,0,0,1,0,0,0,1,-2.0,-2.0,1.1,DET,DST,8,2020
-32,New York Jets,0,0,0,1,0,0,0,1,-4.0,-4.0,3.3,NYJ,DST,8,2020
-1,New Orleans Saints,3,3,0,0,0,0,0,1,16.0,16.0,79.3,NO,DST,9,2020
-2,Baltimore Ravens,0,1,1,1,1,0,0,1,14.0,14.0,51.9,BAL,DST,9,2020
-3,Tennessee Titans,3,0,2,2,1,0,0,1,14.0,14.0,48.4,TEN,DST,9,2020
-4,New York Giants,2,3,2,1,0,0,0,1,13.0,13.0,4.5,NYG,DST,9,2020
-5,Buffalo Bills,5,2,2,2,0,0,0,1,12.0,12.0,95.9,BUF,DST,9,2020
-6,Minnesota Vikings,2,3,0,1,0,0,0,1,9.0,9.0,28.0,MIN,DST,9,2020
-7,Miami Dolphins,1,0,1,1,1,0,0,1,8.0,8.0,60.2,MIA,DST,9,2020
-8,Pittsburgh Steelers,2,1,1,1,0,0,0,1,7.0,7.0,44.6,PIT,DST,9,2020
-9,Green Bay Packers,1,1,1,1,0,0,0,1,6.0,6.0,60.6,GB,DST,9,2020
-10,Indianapolis Colts,2,0,1,1,0,0,0,1,5.0,5.0,66.4,IND,DST,9,2020
-11,Washington Commanders,5,0,0,1,0,0,0,1,5.0,5.0,27.5,WAS,DST,9,2020
-12,Houston Texans,2,1,0,1,0,0,0,1,4.0,4.0,6.4,HOU,DST,9,2020
-13,Jacksonville Jaguars,2,0,1,1,0,0,0,1,4.0,4.0,6.9,JAC,DST,9,2020
-14,Las Vegas Raiders,2,0,1,1,0,0,0,1,4.0,4.0,7.6,LV,DST,9,2020
-15,Chicago Bears,3,0,0,0,0,0,0,1,4.0,4.0,35.9,CHI,DST,9,2020
-16,Seattle Seahawks,7,0,0,0,0,0,0,1,3.0,3.0,39.4,SEA,DST,9,2020
-17,Denver Broncos,2,1,0,0,0,0,0,1,3.0,3.0,48.5,DEN,DST,9,2020
-18,Atlanta Falcons,1,1,0,1,0,0,0,1,3.0,3.0,5.8,ATL,DST,9,2020
-19,Carolina Panthers,2,0,1,1,0,0,0,1,3.0,3.0,27.8,CAR,DST,9,2020
-20,New England Patriots,1,1,0,0,0,0,0,1,3.0,3.0,93.2,NE,DST,9,2020
-21,Arizona Cardinals,3,0,0,0,0,0,0,1,2.0,2.0,60.9,ARI,DST,9,2020
-22,Los Angeles Chargers,1,0,1,1,0,0,0,1,2.0,2.0,44.3,LAC,DST,9,2020
-23,Kansas City Chiefs,2,0,0,1,0,0,0,1,1.0,1.0,45.7,KC,DST,9,2020
-24,Tampa Bay Buccaneers,1,0,2,2,0,0,0,1,1.0,1.0,98.0,TB,DST,9,2020
-26,San Francisco 49ers,1,0,0,0,0,0,0,1,0.0,0.0,79.5,SF,DST,9,2020
-27,Detroit Lions,1,0,0,0,0,0,0,1,0.0,0.0,1.1,DET,DST,9,2020
-31,Dallas Cowboys,0,0,0,0,0,0,0,1,0.0,0.0,82.9,DAL,DST,9,2020
-32,New York Jets,0,0,0,1,0,0,0,1,-1.0,-1.0,3.3,NYJ,DST,9,2020
-1,Las Vegas Raiders,2,4,1,2,0,0,0,1,16.0,16.0,7.6,LV,DST,10,2020
-2,New Orleans Saints,2,2,2,0,0,0,0,1,14.0,14.0,79.3,NO,DST,10,2020
-3,Los Angeles Rams,6,2,1,0,0,0,0,1,13.0,13.0,74.5,LAR,DST,10,2020
-4,Chicago Bears,1,1,1,2,0,0,1,1,12.0,12.0,35.9,CHI,DST,10,2020
-5,Pittsburgh Steelers,4,0,2,1,0,0,0,1,12.0,12.0,44.6,PIT,DST,10,2020
-6,Jacksonville Jaguars,1,1,1,2,0,0,1,1,11.0,11.0,6.9,JAC,DST,10,2020
-7,Minnesota Vikings,2,1,1,0,0,0,0,1,10.0,10.0,28.0,MIN,DST,10,2020
-8,Indianapolis Colts,1,0,0,0,0,0,1,1,10.0,10.0,66.4,IND,DST,10,2020
-9,San Francisco 49ers,3,0,2,1,0,0,0,1,7.0,7.0,79.5,SF,DST,10,2020
-10,Green Bay Packers,3,1,0,0,0,0,0,1,6.0,6.0,60.6,GB,DST,10,2020
-11,Miami Dolphins,2,1,0,0,0,0,0,1,6.0,6.0,60.2,MIA,DST,10,2020
-12,Cleveland Browns,2,0,0,0,0,0,0,1,6.0,6.0,40.8,CLE,DST,10,2020
-13,Buffalo Bills,3,1,1,1,0,0,0,1,6.0,6.0,95.9,BUF,DST,10,2020
-14,Houston Texans,1,0,0,0,0,0,0,1,5.0,5.0,6.4,HOU,DST,10,2020
-15,Seattle Seahawks,3,0,1,1,0,0,0,1,5.0,5.0,39.4,SEA,DST,10,2020
-16,Tampa Bay Buccaneers,3,1,0,0,0,0,0,1,5.0,5.0,98.0,TB,DST,10,2020
-17,New England Patriots,2,1,0,0,0,0,0,1,5.0,5.0,93.2,NE,DST,10,2020
-18,New York Giants,3,0,0,0,0,0,0,1,4.0,4.0,4.5,NYG,DST,10,2020
-19,Detroit Lions,2,0,1,2,0,0,0,1,4.0,4.0,1.1,DET,DST,10,2020
-20,Philadelphia Eagles,3,0,0,0,0,0,0,1,3.0,3.0,52.5,PHI,DST,10,2020
-21,Arizona Cardinals,0,2,0,0,0,0,0,1,3.0,3.0,60.9,ARI,DST,10,2020
-22,Los Angeles Chargers,0,0,1,0,0,0,0,1,1.0,1.0,44.3,LAC,DST,10,2020
-23,Carolina Panthers,1,0,1,1,0,0,0,1,1.0,1.0,27.8,CAR,DST,10,2020
-24,Baltimore Ravens,1,0,0,0,0,0,0,1,1.0,1.0,51.9,BAL,DST,10,2020
-29,Tennessee Titans,1,0,0,0,0,0,0,1,0.0,0.0,48.4,TEN,DST,10,2020
-30,Washington Commanders,1,0,0,0,0,0,0,1,0.0,0.0,27.5,WAS,DST,10,2020
-31,Denver Broncos,0,0,0,0,0,0,0,1,-4.0,-4.0,48.5,DEN,DST,10,2020
-32,Cincinnati Bengals,0,0,0,0,0,0,0,1,-4.0,-4.0,14.7,CIN,DST,10,2020
-1,Cleveland Browns,5,2,1,2,1,1,0,1,20.0,20.0,40.8,CLE,DST,11,2020
-2,Pittsburgh Steelers,2,4,0,1,0,0,0,1,17.0,17.0,44.6,PIT,DST,11,2020
-3,Carolina Panthers,5,0,1,0,0,0,0,1,17.0,17.0,27.8,CAR,DST,11,2020
-4,New Orleans Saints,8,2,0,0,0,0,0,1,16.0,16.0,79.3,NO,DST,11,2020
-5,Washington Commanders,4,1,1,1,0,0,0,1,12.0,12.0,27.5,WAS,DST,11,2020
-6,Denver Broncos,6,1,0,0,0,0,0,1,12.0,12.0,48.5,DEN,DST,11,2020
-7,Los Angeles Chargers,1,1,0,0,1,0,0,1,8.0,8.0,44.3,LAC,DST,11,2020
-8,Philadelphia Eagles,3,0,1,1,0,0,0,1,8.0,8.0,52.5,PHI,DST,11,2020
-9,New York Jets,3,0,1,1,0,1,0,1,8.0,8.0,3.3,NYJ,DST,11,2020
-10,Indianapolis Colts,1,1,3,1,0,0,0,1,8.0,8.0,66.4,IND,DST,11,2020
-11,Detroit Lions,1,2,0,1,0,0,0,1,6.0,6.0,1.1,DET,DST,11,2020
-12,Atlanta Falcons,3,0,1,1,0,0,0,1,5.0,5.0,5.8,ATL,DST,11,2020
-13,Los Angeles Rams,1,2,0,0,0,0,0,1,5.0,5.0,74.5,LAR,DST,11,2020
-14,Seattle Seahawks,3,0,0,0,0,1,0,1,5.0,5.0,39.4,SEA,DST,11,2020
-15,Miami Dolphins,0,1,1,1,0,0,0,1,5.0,5.0,60.2,MIA,DST,11,2020
-16,Dallas Cowboys,2,0,2,2,0,0,0,1,5.0,5.0,82.9,DAL,DST,11,2020
-17,Cincinnati Bengals,2,1,0,1,0,0,0,1,5.0,5.0,14.7,CIN,DST,11,2020
-18,Minnesota Vikings,1,1,0,0,0,0,0,1,4.0,4.0,28.0,MIN,DST,11,2020
-19,Tampa Bay Buccaneers,0,2,0,0,0,0,0,1,4.0,4.0,98.0,TB,DST,11,2020
-20,Green Bay Packers,1,1,1,1,0,0,0,1,4.0,4.0,60.6,GB,DST,11,2020
-21,Tennessee Titans,1,1,0,0,0,0,0,1,3.0,3.0,48.4,TEN,DST,11,2020
-22,Houston Texans,2,0,0,0,0,0,0,1,3.0,3.0,6.4,HOU,DST,11,2020
-23,Baltimore Ravens,2,1,0,1,0,0,0,1,3.0,3.0,51.9,BAL,DST,11,2020
-24,Arizona Cardinals,3,0,0,0,0,0,0,1,2.0,2.0,60.9,ARI,DST,11,2020
-25,Jacksonville Jaguars,0,1,0,0,0,0,0,1,2.0,2.0,6.9,JAC,DST,11,2020
-26,Kansas City Chiefs,0,1,0,0,0,0,0,1,1.0,1.0,45.7,KC,DST,11,2020
-31,New England Patriots,0,0,0,0,0,0,0,1,0.0,0.0,93.2,NE,DST,11,2020
-32,Las Vegas Raiders,0,1,0,0,0,0,0,1,-2.0,-2.0,7.6,LV,DST,11,2020
-1,Atlanta Falcons,5,1,4,4,1,0,0,1,28.0,28.0,5.8,ATL,DST,12,2020
-2,Carolina Panthers,2,0,3,2,2,0,0,1,19.0,19.0,27.8,CAR,DST,12,2020
-3,San Francisco 49ers,2,2,2,2,1,0,0,1,17.0,17.0,79.5,SF,DST,12,2020
-4,Houston Texans,4,1,2,3,1,0,0,1,16.0,16.0,6.4,HOU,DST,12,2020
-5,Washington Commanders,4,1,1,1,1,0,0,1,15.0,15.0,27.5,WAS,DST,12,2020
-6,Green Bay Packers,3,2,1,1,1,0,0,1,15.0,15.0,60.6,GB,DST,12,2020
-7,Los Angeles Rams,2,1,2,3,1,0,0,1,15.0,15.0,74.5,LAR,DST,12,2020
-8,Pittsburgh Steelers,3,1,1,0,1,0,0,1,14.0,14.0,44.6,PIT,DST,12,2020
-9,New Orleans Saints,1,2,1,0,0,0,0,1,14.0,14.0,79.3,NO,DST,12,2020
-10,Miami Dolphins,3,2,0,0,0,0,0,1,14.0,14.0,60.2,MIA,DST,12,2020
-11,Tennessee Titans,2,1,0,0,0,0,1,1,10.0,10.0,48.4,TEN,DST,12,2020
-12,New York Jets,4,0,2,4,0,0,0,1,9.0,9.0,3.3,NYJ,DST,12,2020
-13,Cincinnati Bengals,0,0,1,1,0,0,1,1,9.0,9.0,14.7,CIN,DST,12,2020
-14,Seattle Seahawks,6,1,0,0,0,0,0,1,9.0,9.0,39.4,SEA,DST,12,2020
-15,Los Angeles Chargers,3,1,2,1,0,0,0,1,9.0,9.0,44.3,LAC,DST,12,2020
-16,New York Giants,2,1,2,2,0,0,0,1,9.0,9.0,4.5,NYG,DST,12,2020
-17,Baltimore Ravens,0,1,1,2,0,0,0,1,8.0,8.0,51.9,BAL,DST,12,2020
-18,Arizona Cardinals,3,2,0,0,0,0,0,1,8.0,8.0,60.9,ARI,DST,12,2020
-19,Buffalo Bills,3,1,0,1,0,0,0,1,6.0,6.0,95.9,BUF,DST,12,2020
-20,New England Patriots,2,1,0,0,0,0,0,1,5.0,5.0,93.2,NE,DST,12,2020
-21,Minnesota Vikings,0,1,0,0,0,0,0,1,5.0,5.0,28.0,MIN,DST,12,2020
-22,Kansas City Chiefs,1,2,0,0,0,0,0,1,5.0,5.0,45.7,KC,DST,12,2020
-23,Denver Broncos,3,1,0,2,0,0,0,1,4.0,4.0,48.5,DEN,DST,12,2020
-24,Jacksonville Jaguars,2,0,1,1,0,0,0,1,4.0,4.0,6.9,JAC,DST,12,2020
-25,Tampa Bay Buccaneers,2,0,1,1,0,0,0,1,4.0,4.0,98.0,TB,DST,12,2020
-26,Philadelphia Eagles,2,0,0,0,0,0,0,1,2.0,2.0,52.5,PHI,DST,12,2020
-27,Dallas Cowboys,3,1,0,0,0,0,0,1,1.0,1.0,82.9,DAL,DST,12,2020
-28,Cleveland Browns,0,0,0,1,0,0,0,1,0.0,0.0,40.8,CLE,DST,12,2020
-29,Detroit Lions,2,0,1,1,0,0,0,1,0.0,0.0,1.1,DET,DST,12,2020
-30,Las Vegas Raiders,1,1,0,0,0,0,0,1,-1.0,-1.0,7.6,LV,DST,12,2020
-31,Indianapolis Colts,1,0,0,0,0,0,0,1,-3.0,-3.0,66.4,IND,DST,12,2020
-32,Chicago Bears,0,0,0,0,0,0,0,1,-4.0,-4.0,35.9,CHI,DST,12,2020
-1,New England Patriots,3,2,0,0,0,0,2,1,31.0,31.0,93.2,NE,DST,13,2020
-2,Miami Dolphins,6,2,0,0,0,0,0,1,14.0,14.0,60.2,MIA,DST,13,2020
-3,Jacksonville Jaguars,4,1,1,0,1,0,0,1,14.0,14.0,6.9,JAC,DST,13,2020
-4,Minnesota Vikings,2,2,2,2,0,1,0,1,13.0,13.0,28.0,MIN,DST,13,2020
-5,New York Giants,5,1,1,2,0,0,0,1,13.0,13.0,4.5,NYG,DST,13,2020
-6,Indianapolis Colts,5,1,1,1,0,1,0,1,12.0,12.0,66.4,IND,DST,13,2020
-7,Los Angeles Rams,2,1,1,1,1,0,0,1,11.0,11.0,74.5,LAR,DST,13,2020
-8,Green Bay Packers,7,1,0,0,0,0,0,1,10.0,10.0,60.6,GB,DST,13,2020
-9,Seattle Seahawks,2,1,0,0,0,1,0,1,9.0,9.0,39.4,SEA,DST,13,2020
-10,Las Vegas Raiders,3,1,2,2,0,0,0,1,8.0,8.0,7.6,LV,DST,13,2020
-11,Philadelphia Eagles,2,0,0,0,0,0,1,1,7.0,7.0,52.5,PHI,DST,13,2020
-12,New Orleans Saints,3,0,1,1,0,0,0,1,6.0,6.0,79.3,NO,DST,13,2020
-13,New York Jets,2,1,1,2,0,0,0,1,5.0,5.0,3.3,NYJ,DST,13,2020
-14,Cleveland Browns,3,1,2,3,0,0,0,1,5.0,5.0,40.8,CLE,DST,13,2020
-15,Kansas City Chiefs,0,2,0,0,0,0,0,1,5.0,5.0,45.7,KC,DST,13,2020
-16,Detroit Lions,2,0,1,1,0,0,0,1,5.0,5.0,1.1,DET,DST,13,2020
-17,Atlanta Falcons,2,0,1,2,0,0,0,1,4.0,4.0,5.8,ATL,DST,13,2020
-18,Buffalo Bills,0,2,0,0,0,0,0,1,4.0,4.0,95.9,BUF,DST,13,2020
-19,Baltimore Ravens,1,1,0,0,0,0,0,1,4.0,4.0,51.9,BAL,DST,13,2020
-20,Pittsburgh Steelers,3,0,0,1,0,0,0,1,3.0,3.0,44.6,PIT,DST,13,2020
-21,Washington Commanders,0,1,0,0,0,0,0,1,3.0,3.0,27.5,WAS,DST,13,2020
-22,Houston Texans,3,0,0,0,0,0,0,1,3.0,3.0,6.4,HOU,DST,13,2020
-23,Cincinnati Bengals,0,0,1,1,0,0,0,1,3.0,3.0,14.7,CIN,DST,13,2020
-24,Chicago Bears,2,1,0,0,0,0,0,1,3.0,3.0,35.9,CHI,DST,13,2020
-25,San Francisco 49ers,1,0,1,1,0,0,0,1,2.0,2.0,79.5,SF,DST,13,2020
-26,Arizona Cardinals,1,0,1,0,0,0,0,1,2.0,2.0,60.9,ARI,DST,13,2020
-27,Denver Broncos,1,0,0,0,0,0,0,1,1.0,1.0,48.5,DEN,DST,13,2020
-28,Dallas Cowboys,0,1,0,0,0,0,0,1,1.0,1.0,82.9,DAL,DST,13,2020
-31,Tennessee Titans,0,0,1,1,0,0,0,1,-2.0,-2.0,48.4,TEN,DST,13,2020
-32,Los Angeles Chargers,1,0,0,1,0,0,0,1,-3.0,-3.0,44.3,LAC,DST,13,2020
-1,Washington Commanders,4,1,2,2,2,0,0,1,23.0,23.0,27.5,WAS,DST,14,2020
-2,Los Angeles Rams,6,1,0,0,1,0,0,1,21.0,21.0,74.5,LAR,DST,14,2020
-3,Dallas Cowboys,2,0,3,2,1,0,0,1,18.0,18.0,82.9,DAL,DST,14,2020
-4,Arizona Cardinals,8,0,3,4,0,0,0,1,18.0,18.0,60.9,ARI,DST,14,2020
-5,Chicago Bears,7,0,2,1,0,1,0,1,17.0,17.0,35.9,CHI,DST,14,2020
-6,Kansas City Chiefs,4,1,0,0,0,1,1,1,14.0,14.0,45.7,KC,DST,14,2020
-7,Buffalo Bills,1,2,0,1,1,0,0,1,12.0,12.0,95.9,BUF,DST,14,2020
-8,Seattle Seahawks,3,0,1,1,0,0,0,1,12.0,12.0,39.4,SEA,DST,14,2020
-9,Indianapolis Colts,0,2,1,1,1,0,0,1,12.0,12.0,66.4,IND,DST,14,2020
-10,Miami Dolphins,3,3,1,1,0,0,0,1,10.0,10.0,60.2,MIA,DST,14,2020
-11,Denver Broncos,4,0,0,0,0,0,1,1,10.0,10.0,48.5,DEN,DST,14,2020
-12,Tampa Bay Buccaneers,6,0,1,2,0,0,0,1,9.0,9.0,98.0,TB,DST,14,2020
-13,Los Angeles Chargers,2,3,0,0,0,0,0,1,9.0,9.0,44.3,LAC,DST,14,2020
-14,Philadelphia Eagles,5,1,1,1,0,0,0,1,9.0,9.0,52.5,PHI,DST,14,2020
-15,Tennessee Titans,0,1,0,0,0,0,0,1,8.0,8.0,48.4,TEN,DST,14,2020
-16,San Francisco 49ers,2,1,0,0,0,0,0,1,8.0,8.0,79.5,SF,DST,14,2020
-17,Pittsburgh Steelers,1,1,1,2,0,0,0,1,6.0,6.0,44.6,PIT,DST,14,2020
-18,New England Patriots,1,1,0,0,0,0,0,1,4.0,4.0,93.2,NE,DST,14,2020
-19,Green Bay Packers,4,0,0,0,0,0,0,1,4.0,4.0,60.6,GB,DST,14,2020
-20,Atlanta Falcons,1,1,0,2,0,0,0,1,4.0,4.0,5.8,ATL,DST,14,2020
-21,New Orleans Saints,0,0,1,1,0,0,0,1,2.0,2.0,79.3,NO,DST,14,2020
-22,Jacksonville Jaguars,1,0,1,1,0,0,0,1,2.0,2.0,6.9,JAC,DST,14,2020
-23,Cleveland Browns,4,0,0,1,0,0,0,1,2.0,2.0,40.8,CLE,DST,14,2020
-24,Cincinnati Bengals,2,0,0,0,0,0,0,1,2.0,2.0,14.7,CIN,DST,14,2020
-25,Carolina Panthers,1,0,1,1,0,0,0,1,2.0,2.0,27.8,CAR,DST,14,2020
-26,New York Giants,1,0,0,2,0,0,0,1,1.0,1.0,4.5,NYG,DST,14,2020
-27,Minnesota Vikings,0,0,0,0,0,0,0,1,0.0,0.0,28.0,MIN,DST,14,2020
-28,Baltimore Ravens,0,1,0,3,0,1,0,1,0.0,0.0,51.9,BAL,DST,14,2020
-29,New York Jets,1,1,0,0,0,0,0,1,-1.0,-1.0,3.3,NYJ,DST,14,2020
-30,Houston Texans,3,0,0,0,0,0,0,1,-1.0,-1.0,6.4,HOU,DST,14,2020
-31,Detroit Lions,0,0,0,0,0,0,0,1,-1.0,-1.0,1.1,DET,DST,14,2020
-32,Las Vegas Raiders,0,0,0,0,0,0,0,1,-4.0,-4.0,7.6,LV,DST,14,2020
-1,Dallas Cowboys,2,2,2,1,0,0,1,1,15.0,15.0,82.9,DAL,DST,15,2020
-2,Buffalo Bills,3,0,1,1,1,0,0,1,12.0,12.0,95.9,BUF,DST,15,2020
-3,Arizona Cardinals,6,0,0,3,0,1,0,1,10.0,10.0,60.9,ARI,DST,15,2020
-4,Baltimore Ravens,5,0,1,1,0,1,0,1,10.0,10.0,51.9,BAL,DST,15,2020
-5,Indianapolis Colts,5,0,2,3,0,0,0,1,10.0,10.0,66.4,IND,DST,15,2020
-6,Seattle Seahawks,4,2,0,1,0,0,0,1,9.0,9.0,39.4,SEA,DST,15,2020
-7,Miami Dolphins,3,0,1,3,0,0,0,1,9.0,9.0,60.2,MIA,DST,15,2020
-8,Cleveland Browns,1,0,0,0,0,0,0,1,8.0,8.0,40.8,CLE,DST,15,2020
-9,Cincinnati Bengals,1,1,2,2,0,0,0,1,8.0,8.0,14.7,CIN,DST,15,2020
-10,New York Jets,3,1,0,0,0,0,0,1,8.0,8.0,3.3,NYJ,DST,15,2020
-11,New Orleans Saints,4,0,1,1,0,1,0,1,7.0,7.0,79.3,NO,DST,15,2020
-12,Green Bay Packers,3,0,1,2,0,0,0,1,6.0,6.0,60.6,GB,DST,15,2020
-13,Philadelphia Eagles,1,1,2,2,0,0,0,1,6.0,6.0,52.5,PHI,DST,15,2020
-14,Tennessee Titans,0,1,2,2,0,0,0,1,6.0,6.0,48.4,TEN,DST,15,2020
-15,Chicago Bears,3,1,0,1,0,0,0,1,5.0,5.0,35.9,CHI,DST,15,2020
-16,Carolina Panthers,5,0,0,0,0,0,0,1,5.0,5.0,27.8,CAR,DST,15,2020
-17,New England Patriots,2,1,0,0,0,0,0,1,4.0,4.0,93.2,NE,DST,15,2020
-18,Tampa Bay Buccaneers,3,0,0,0,0,0,0,1,3.0,3.0,98.0,TB,DST,15,2020
-19,Los Angeles Chargers,1,1,0,0,0,0,0,1,3.0,3.0,44.3,LAC,DST,15,2020
-20,Washington Commanders,0,1,0,0,0,0,0,1,3.0,3.0,27.5,WAS,DST,15,2020
-21,New York Giants,1,0,0,0,0,0,0,1,2.0,2.0,4.5,NYG,DST,15,2020
-22,Pittsburgh Steelers,2,0,0,0,0,0,0,1,2.0,2.0,44.6,PIT,DST,15,2020
-23,Minnesota Vikings,1,1,0,0,0,0,0,1,2.0,2.0,28.0,MIN,DST,15,2020
-24,Atlanta Falcons,3,0,0,1,0,0,0,1,2.0,2.0,5.8,ATL,DST,15,2020
-25,Los Angeles Rams,2,0,0,1,0,0,0,1,2.0,2.0,74.5,LAR,DST,15,2020
-26,Kansas City Chiefs,1,1,0,0,0,0,0,1,2.0,2.0,45.7,KC,DST,15,2020
-27,Houston Texans,1,0,0,0,0,0,0,1,1.0,1.0,6.4,HOU,DST,15,2020
-28,Las Vegas Raiders,1,0,0,1,0,0,0,1,0.0,0.0,7.6,LV,DST,15,2020
-29,Detroit Lions,1,0,0,0,0,1,0,1,-1.0,-1.0,1.1,DET,DST,15,2020
-30,Jacksonville Jaguars,1,1,0,2,0,0,0,1,-1.0,-1.0,6.9,JAC,DST,15,2020
-31,Denver Broncos,1,0,1,1,0,0,0,1,-1.0,-1.0,48.5,DEN,DST,15,2020
-32,San Francisco 49ers,2,0,0,0,0,0,0,1,-2.0,-2.0,79.5,SF,DST,15,2020
-1,Carolina Panthers,3,2,2,1,1,0,0,1,21.0,21.0,27.8,CAR,DST,16,2020
-2,Tampa Bay Buccaneers,4,1,1,1,0,0,0,1,12.0,12.0,98.0,TB,DST,16,2020
-3,San Francisco 49ers,3,1,1,2,0,0,0,1,11.0,11.0,79.5,SF,DST,16,2020
-4,Baltimore Ravens,6,0,0,0,0,0,0,1,10.0,10.0,51.9,BAL,DST,16,2020
-5,Dallas Cowboys,3,2,1,3,0,0,0,1,10.0,10.0,82.9,DAL,DST,16,2020
-6,Washington Commanders,4,1,1,2,0,0,0,1,9.0,9.0,27.5,WAS,DST,16,2020
-7,Seattle Seahawks,3,1,0,0,0,0,0,1,9.0,9.0,39.4,SEA,DST,16,2020
-8,Pittsburgh Steelers,5,1,1,1,0,0,0,1,9.0,9.0,44.6,PIT,DST,16,2020
-9,New York Jets,4,0,2,3,0,0,0,1,9.0,9.0,3.3,NYJ,DST,16,2020
-10,Kansas City Chiefs,4,0,1,3,0,0,0,1,7.0,7.0,45.7,KC,DST,16,2020
-11,Buffalo Bills,3,0,0,0,0,0,0,1,7.0,7.0,95.9,BUF,DST,16,2020
-12,Los Angeles Chargers,2,2,0,0,0,0,0,1,7.0,7.0,44.3,LAC,DST,16,2020
-13,Green Bay Packers,2,2,0,1,0,0,0,1,7.0,7.0,60.6,GB,DST,16,2020
-14,Los Angeles Rams,5,0,0,0,0,0,0,1,6.0,6.0,74.5,LAR,DST,16,2020
-15,Arizona Cardinals,3,0,1,1,0,0,0,1,6.0,6.0,60.9,ARI,DST,16,2020
-16,Cleveland Browns,2,0,0,0,0,0,0,1,6.0,6.0,40.8,CLE,DST,16,2020
-17,Chicago Bears,1,2,0,0,0,0,0,1,6.0,6.0,35.9,CHI,DST,16,2020
-18,Miami Dolphins,3,0,1,0,0,0,0,1,5.0,5.0,60.2,MIA,DST,16,2020
-19,Atlanta Falcons,0,2,0,0,0,0,0,1,5.0,5.0,5.8,ATL,DST,16,2020
-20,Detroit Lions,2,0,0,1,0,0,1,1,4.0,4.0,1.1,DET,DST,16,2020
-21,Las Vegas Raiders,3,0,0,0,0,0,0,1,3.0,3.0,7.6,LV,DST,16,2020
-22,Denver Broncos,2,0,0,1,0,0,0,1,3.0,3.0,48.5,DEN,DST,16,2020
-23,Cincinnati Bengals,1,0,1,4,0,0,0,1,2.0,2.0,14.7,CIN,DST,16,2020
-24,New York Giants,0,0,1,0,0,0,0,1,2.0,2.0,4.5,NYG,DST,16,2020
-25,New Orleans Saints,2,0,0,2,0,0,0,1,1.0,1.0,79.3,NO,DST,16,2020
-26,Philadelphia Eagles,2,1,0,0,0,0,0,1,0.0,0.0,52.5,PHI,DST,16,2020
-27,Indianapolis Colts,1,0,0,0,0,0,0,1,0.0,0.0,66.4,IND,DST,16,2020
-28,Minnesota Vikings,0,2,0,0,0,0,0,1,0.0,0.0,28.0,MIN,DST,16,2020
-29,Tennessee Titans,1,1,0,0,0,0,0,1,-1.0,-1.0,48.4,TEN,DST,16,2020
-30,Jacksonville Jaguars,1,1,0,1,0,0,0,1,-1.0,-1.0,6.9,JAC,DST,16,2020
-31,Houston Texans,0,0,0,0,0,0,0,1,-4.0,-4.0,6.4,HOU,DST,16,2020
-32,New England Patriots,0,0,0,1,0,0,0,1,-4.0,-4.0,93.2,NE,DST,16,2020
-1,Buffalo Bills,1,3,1,1,1,0,1,1,21.0,21.0,95.9,BUF,DST,17,2020
-2,Los Angeles Rams,4,1,0,1,1,1,0,1,20.0,20.0,74.5,LAR,DST,17,2020
-3,New Orleans Saints,3,5,0,0,0,0,0,1,17.0,17.0,79.3,NO,DST,17,2020
-4,Baltimore Ravens,0,2,0,0,0,0,0,1,11.0,11.0,51.9,BAL,DST,17,2020
-5,Arizona Cardinals,2,1,1,1,0,0,0,1,10.0,10.0,60.9,ARI,DST,17,2020
-6,Denver Broncos,3,2,2,2,0,0,0,1,10.0,10.0,48.5,DEN,DST,17,2020
-7,Washington Commanders,3,2,1,0,0,0,0,1,10.0,10.0,27.5,WAS,DST,17,2020
-8,Indianapolis Colts,6,0,1,1,0,0,0,1,9.0,9.0,66.4,IND,DST,17,2020
-9,New York Giants,6,1,0,0,0,0,0,1,9.0,9.0,4.5,NYG,DST,17,2020
-10,Philadelphia Eagles,3,2,0,0,0,0,0,1,8.0,8.0,52.5,PHI,DST,17,2020
-11,New England Patriots,3,2,0,0,0,0,0,1,8.0,8.0,93.2,NE,DST,17,2020
-12,Green Bay Packers,1,1,1,1,0,0,0,1,6.0,6.0,60.6,GB,DST,17,2020
-13,Dallas Cowboys,2,1,1,0,0,0,0,1,6.0,6.0,82.9,DAL,DST,17,2020
-14,Tampa Bay Buccaneers,1,0,2,2,0,0,0,1,5.0,5.0,98.0,TB,DST,17,2020
-15,Seattle Seahawks,3,0,1,1,0,0,0,1,5.0,5.0,39.4,SEA,DST,17,2020
-16,Los Angeles Chargers,1,0,1,0,0,1,0,1,5.0,5.0,44.3,LAC,DST,17,2020
-17,Las Vegas Raiders,2,0,0,0,0,0,0,1,5.0,5.0,7.6,LV,DST,17,2020
-18,Pittsburgh Steelers,4,0,0,0,0,0,0,1,4.0,4.0,44.6,PIT,DST,17,2020
-19,Cleveland Browns,1,1,0,0,0,0,0,1,3.0,3.0,40.8,CLE,DST,17,2020
-20,Tennessee Titans,4,1,0,0,0,0,0,1,2.0,2.0,48.4,TEN,DST,17,2020
-21,San Francisco 49ers,2,0,0,0,0,0,0,1,2.0,2.0,79.5,SF,DST,17,2020
-22,New York Jets,3,0,0,1,0,0,0,1,2.0,2.0,3.3,NYJ,DST,17,2020
-23,Carolina Panthers,2,0,0,1,0,0,0,1,1.0,1.0,27.8,CAR,DST,17,2020
-24,Miami Dolphins,1,2,0,0,0,0,0,1,1.0,1.0,60.2,MIA,DST,17,2020
-25,Minnesota Vikings,1,1,1,0,0,0,0,1,1.0,1.0,28.0,MIN,DST,17,2020
-26,Jacksonville Jaguars,0,1,0,0,0,0,0,1,1.0,1.0,6.9,JAC,DST,17,2020
-27,Houston Texans,2,0,1,2,0,0,0,1,0.0,0.0,6.4,HOU,DST,17,2020
-28,Atlanta Falcons,1,1,0,0,0,0,0,1,-1.0,-1.0,5.8,ATL,DST,17,2020
-29,Kansas City Chiefs,3,0,0,0,0,0,0,1,-1.0,-1.0,45.7,KC,DST,17,2020
-30,Detroit Lions,3,0,0,2,0,0,0,1,-1.0,-1.0,1.1,DET,DST,17,2020
-31,Chicago Bears,1,0,1,0,0,0,0,1,-1.0,-1.0,35.9,CHI,DST,17,2020
-32,Cincinnati Bengals,0,1,0,0,0,0,0,1,-2.0,-2.0,14.7,CIN,DST,17,2020
+1.0,Washington Commanders,8.0,2.0,1.0,2.0,0.0,0.0,0.0,1.0,15.0,15.0,27.5,WAS,DST,1,2020
+2.0,Baltimore Ravens,2.0,1.0,2.0,3.0,0.0,0.0,0.0,1.0,15.0,15.0,51.9,BAL,DST,1,2020
+3.0,New Orleans Saints,3.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,79.3,NO,DST,1,2020
+4.0,Los Angeles Chargers,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,44.3,LAC,DST,1,2020
+5.0,New England Patriots,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,11.0,93.2,NE,DST,1,2020
+6.0,Buffalo Bills,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,95.9,BUF,DST,1,2020
+7.0,Pittsburgh Steelers,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,44.6,PIT,DST,1,2020
+8.0,Kansas City Chiefs,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,45.7,KC,DST,1,2020
+9.0,New York Jets,3.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,7.0,7.0,3.3,NYJ,DST,1,2020
+10.0,Seattle Seahawks,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,39.4,SEA,DST,1,2020
+11.0,Jacksonville Jaguars,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,6.9,JAC,DST,1,2020
+12.0,Green Bay Packers,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,5.0,5.0,60.6,GB,DST,1,2020
+13.0,Los Angeles Rams,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,74.5,LAR,DST,1,2020
+14.0,San Francisco 49ers,2.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,79.5,SF,DST,1,2020
+15.0,New York Giants,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,4.5,NYG,DST,1,2020
+16.0,Arizona Cardinals,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,60.9,ARI,DST,1,2020
+17.0,Dallas Cowboys,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,82.9,DAL,DST,1,2020
+18.0,Indianapolis Colts,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,66.4,IND,DST,1,2020
+19.0,Philadelphia Eagles,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,52.5,PHI,DST,1,2020
+20.0,Cincinnati Bengals,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,14.7,CIN,DST,1,2020
+21.0,Chicago Bears,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,35.9,CHI,DST,1,2020
+22.0,Tennessee Titans,0.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,3.0,3.0,48.4,TEN,DST,1,2020
+23.0,Denver Broncos,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,48.5,DEN,DST,1,2020
+24.0,Miami Dolphins,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,60.2,MIA,DST,1,2020
+25.0,Detroit Lions,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,1.1,DET,DST,1,2020
+26.0,Houston Texans,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,6.4,HOU,DST,1,2020
+27.0,Las Vegas Raiders,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,7.6,LV,DST,1,2020
+28.0,Cleveland Browns,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,40.8,CLE,DST,1,2020
+29.0,Tampa Bay Buccaneers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,98.0,TB,DST,1,2020
+30.0,Atlanta Falcons,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,5.8,ATL,DST,1,2020
+31.0,Carolina Panthers,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-1.0,-1.0,27.8,CAR,DST,1,2020
+32.0,Minnesota Vikings,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-4.0,-4.0,28.0,MIN,DST,1,2020
+1.0,Baltimore Ravens,4.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,51.9,BAL,DST,2,2020
+2.0,Indianapolis Colts,3.0,3.0,0.0,0.0,0.0,1.0,0.0,1.0,15.0,15.0,66.4,IND,DST,2,2020
+3.0,Tampa Bay Buccaneers,5.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,14.0,14.0,98.0,TB,DST,2,2020
+4.0,Pittsburgh Steelers,7.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,13.0,13.0,44.6,PIT,DST,2,2020
+5.0,Chicago Bears,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,35.9,CHI,DST,2,2020
+6.0,Green Bay Packers,4.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,12.0,12.0,60.6,GB,DST,2,2020
+7.0,Arizona Cardinals,4.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,60.9,ARI,DST,2,2020
+8.0,New York Giants,4.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,4.5,NYG,DST,2,2020
+9.0,Los Angeles Rams,0.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,74.5,LAR,DST,2,2020
+10.0,New England Patriots,2.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,6.0,6.0,93.2,NE,DST,2,2020
+11.0,Tennessee Titans,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,48.4,TEN,DST,2,2020
+12.0,San Francisco 49ers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,79.5,SF,DST,2,2020
+13.0,Denver Broncos,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,48.5,DEN,DST,2,2020
+14.0,Kansas City Chiefs,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,45.7,KC,DST,2,2020
+15.0,New York Jets,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,3.3,NYJ,DST,2,2020
+16.0,New Orleans Saints,3.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,79.3,NO,DST,2,2020
+17.0,Washington Commanders,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,27.5,WAS,DST,2,2020
+18.0,Cleveland Browns,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,40.8,CLE,DST,2,2020
+19.0,Houston Texans,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,6.4,HOU,DST,2,2020
+20.0,Minnesota Vikings,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,28.0,MIN,DST,2,2020
+21.0,Atlanta Falcons,1.0,0.0,3.0,4.0,0.0,0.0,0.0,1.0,3.0,3.0,5.8,ATL,DST,2,2020
+22.0,Seattle Seahawks,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,39.4,SEA,DST,2,2020
+23.0,Carolina Panthers,0.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,27.8,CAR,DST,2,2020
+24.0,Las Vegas Raiders,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,7.6,LV,DST,2,2020
+25.0,Buffalo Bills,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,95.9,BUF,DST,2,2020
+26.0,Miami Dolphins,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,60.2,MIA,DST,2,2020
+27.0,Los Angeles Chargers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,44.3,LAC,DST,2,2020
+28.0,Jacksonville Jaguars,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,6.9,JAC,DST,2,2020
+29.0,Philadelphia Eagles,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,52.5,PHI,DST,2,2020
+30.0,Cincinnati Bengals,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,14.7,CIN,DST,2,2020
+31.0,Detroit Lions,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,1.1,DET,DST,2,2020
+32.0,Dallas Cowboys,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,82.9,DAL,DST,2,2020
+1.0,Indianapolis Colts,2.0,3.0,0.0,0.0,2.0,1.0,0.0,1.0,26.0,26.0,66.4,IND,DST,3,2020
+2.0,Tampa Bay Buccaneers,6.0,2.0,0.0,1.0,0.0,1.0,0.0,1.0,16.0,16.0,98.0,TB,DST,3,2020
+3.0,New England Patriots,2.0,0.0,3.0,3.0,1.0,0.0,0.0,1.0,15.0,15.0,93.2,NE,DST,3,2020
+4.0,Cleveland Browns,3.0,3.0,2.0,3.0,0.0,0.0,0.0,1.0,14.0,14.0,40.8,CLE,DST,3,2020
+5.0,Miami Dolphins,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,60.2,MIA,DST,3,2020
+6.0,San Francisco 49ers,2.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,12.0,12.0,79.5,SF,DST,3,2020
+7.0,Carolina Panthers,2.0,1.0,3.0,2.0,0.0,0.0,0.0,1.0,11.0,11.0,27.8,CAR,DST,3,2020
+8.0,Seattle Seahawks,2.0,2.0,1.0,1.0,0.0,1.0,0.0,1.0,9.0,9.0,39.4,SEA,DST,3,2020
+9.0,Philadelphia Eagles,8.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,52.5,PHI,DST,3,2020
+10.0,Cincinnati Bengals,3.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,14.7,CIN,DST,3,2020
+11.0,Detroit Lions,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,1.1,DET,DST,3,2020
+12.0,Tennessee Titans,2.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,48.4,TEN,DST,3,2020
+13.0,Baltimore Ravens,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,7.0,7.0,51.9,BAL,DST,3,2020
+14.0,Pittsburgh Steelers,5.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,44.6,PIT,DST,3,2020
+15.0,Kansas City Chiefs,4.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,7.0,7.0,45.7,KC,DST,3,2020
+16.0,Buffalo Bills,2.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,95.9,BUF,DST,3,2020
+17.0,Atlanta Falcons,2.0,2.0,0.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,5.8,ATL,DST,3,2020
+18.0,Los Angeles Rams,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,74.5,LAR,DST,3,2020
+19.0,Arizona Cardinals,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,60.9,ARI,DST,3,2020
+20.0,Chicago Bears,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,35.9,CHI,DST,3,2020
+21.0,Las Vegas Raiders,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,7.6,LV,DST,3,2020
+22.0,Minnesota Vikings,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,28.0,MIN,DST,3,2020
+23.0,Green Bay Packers,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,3.0,3.0,60.6,GB,DST,3,2020
+24.0,Los Angeles Chargers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,44.3,LAC,DST,3,2020
+25.0,Houston Texans,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,6.4,HOU,DST,3,2020
+26.0,Denver Broncos,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,48.5,DEN,DST,3,2020
+27.0,Washington Commanders,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,27.5,WAS,DST,3,2020
+28.0,New York Jets,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,3.3,NYJ,DST,3,2020
+29.0,Jacksonville Jaguars,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,6.9,JAC,DST,3,2020
+30.0,Dallas Cowboys,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,82.9,DAL,DST,3,2020
+31.0,New York Giants,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,4.5,NYG,DST,3,2020
+32.0,New Orleans Saints,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,79.3,NO,DST,3,2020
+1.0,Kansas City Chiefs,2.0,3.0,1.0,1.0,1.0,0.0,0.0,1.0,20.0,20.0,45.7,KC,DST,4,2020
+2.0,Philadelphia Eagles,5.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,18.0,18.0,52.5,PHI,DST,4,2020
+3.0,Los Angeles Rams,5.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,74.5,LAR,DST,4,2020
+4.0,New York Jets,0.0,3.0,0.0,0.0,1.0,0.0,0.0,1.0,8.0,8.0,3.3,NYJ,DST,4,2020
+5.0,Indianapolis Colts,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,66.4,IND,DST,4,2020
+6.0,Denver Broncos,6.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,48.5,DEN,DST,4,2020
+7.0,San Francisco 49ers,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,79.5,SF,DST,4,2020
+8.0,Tampa Bay Buccaneers,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,98.0,TB,DST,4,2020
+9.0,Buffalo Bills,2.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,95.9,BUF,DST,4,2020
+10.0,Baltimore Ravens,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,51.9,BAL,DST,4,2020
+11.0,Cleveland Browns,3.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,40.8,CLE,DST,4,2020
+12.0,Minnesota Vikings,3.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,28.0,MIN,DST,4,2020
+13.0,Cincinnati Bengals,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,14.7,CIN,DST,4,2020
+14.0,New York Giants,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,4.5,NYG,DST,4,2020
+15.0,Green Bay Packers,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,60.6,GB,DST,4,2020
+16.0,Seattle Seahawks,1.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,39.4,SEA,DST,4,2020
+17.0,New England Patriots,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,93.2,NE,DST,4,2020
+18.0,Washington Commanders,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,27.5,WAS,DST,4,2020
+19.0,Los Angeles Chargers,0.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,4.0,4.0,44.3,LAC,DST,4,2020
+20.0,New Orleans Saints,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,79.3,NO,DST,4,2020
+21.0,Miami Dolphins,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,60.2,MIA,DST,4,2020
+22.0,Carolina Panthers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,27.8,CAR,DST,4,2020
+23.0,Jacksonville Jaguars,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,6.9,JAC,DST,4,2020
+24.0,Houston Texans,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,6.4,HOU,DST,4,2020
+25.0,Chicago Bears,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,35.9,CHI,DST,4,2020
+26.0,Arizona Cardinals,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,60.9,ARI,DST,4,2020
+27.0,Atlanta Falcons,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,5.8,ATL,DST,4,2020
+28.0,Las Vegas Raiders,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,7.6,LV,DST,4,2020
+29.0,Pittsburgh Steelers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,44.6,PIT,DST,4,2020
+30.0,Detroit Lions,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.1,DET,DST,4,2020
+31.0,Tennessee Titans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,48.4,TEN,DST,4,2020
+32.0,Dallas Cowboys,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,82.9,DAL,DST,4,2020
+1.0,Baltimore Ravens,7.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,26.0,26.0,51.9,BAL,DST,5,2020
+2.0,Cleveland Browns,1.0,2.0,0.0,0.0,1.0,1.0,0.0,1.0,13.0,13.0,40.8,CLE,DST,5,2020
+3.0,Miami Dolphins,5.0,2.0,1.0,2.0,0.0,0.0,0.0,1.0,12.0,12.0,60.2,MIA,DST,5,2020
+4.0,Los Angeles Rams,8.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,74.5,LAR,DST,5,2020
+5.0,Indianapolis Colts,1.0,2.0,0.0,1.0,0.0,0.0,1.0,1.0,12.0,12.0,66.4,IND,DST,5,2020
+6.0,New York Giants,2.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,11.0,11.0,4.5,NYG,DST,5,2020
+7.0,Houston Texans,4.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,6.4,HOU,DST,5,2020
+8.0,Dallas Cowboys,2.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,9.0,9.0,82.9,DAL,DST,5,2020
+9.0,Tennessee Titans,1.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,48.4,TEN,DST,5,2020
+10.0,Pittsburgh Steelers,5.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,44.6,PIT,DST,5,2020
+11.0,Seattle Seahawks,3.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,7.0,7.0,39.4,SEA,DST,5,2020
+12.0,Arizona Cardinals,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,60.9,ARI,DST,5,2020
+13.0,Tampa Bay Buccaneers,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,98.0,TB,DST,5,2020
+14.0,Minnesota Vikings,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,28.0,MIN,DST,5,2020
+15.0,Chicago Bears,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,35.9,CHI,DST,5,2020
+16.0,Carolina Panthers,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,27.8,CAR,DST,5,2020
+17.0,Las Vegas Raiders,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,7.6,LV,DST,5,2020
+18.0,Jacksonville Jaguars,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,6.9,JAC,DST,5,2020
+19.0,Cincinnati Bengals,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,14.7,CIN,DST,5,2020
+20.0,New Orleans Saints,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,79.3,NO,DST,5,2020
+21.0,Los Angeles Chargers,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,44.3,LAC,DST,5,2020
+22.0,Washington Commanders,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,27.5,WAS,DST,5,2020
+23.0,New York Jets,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,3.3,NYJ,DST,5,2020
+27.0,Atlanta Falcons,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,5.8,ATL,DST,5,2020
+29.0,Philadelphia Eagles,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,-1.0,-1.0,52.5,PHI,DST,5,2020
+30.0,Kansas City Chiefs,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,45.7,KC,DST,5,2020
+31.0,San Francisco 49ers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,79.5,SF,DST,5,2020
+32.0,Buffalo Bills,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,95.9,BUF,DST,5,2020
+1.0,Tampa Bay Buccaneers,5.0,2.0,0.0,1.0,1.0,0.0,0.0,1.0,19.0,19.0,98.0,TB,DST,6,2020
+2.0,Pittsburgh Steelers,4.0,2.0,0.0,1.0,1.0,0.0,0.0,1.0,18.0,18.0,44.6,PIT,DST,6,2020
+3.0,Arizona Cardinals,3.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,15.0,15.0,60.9,ARI,DST,6,2020
+4.0,Miami Dolphins,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,15.0,60.2,MIA,DST,6,2020
+5.0,New York Giants,3.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,14.0,14.0,4.5,NYG,DST,6,2020
+6.0,Denver Broncos,4.0,2.0,1.0,3.0,0.0,0.0,0.0,1.0,14.0,14.0,48.5,DEN,DST,6,2020
+7.0,Chicago Bears,4.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,35.9,CHI,DST,6,2020
+8.0,New England Patriots,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,93.2,NE,DST,6,2020
+9.0,Atlanta Falcons,1.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,5.8,ATL,DST,6,2020
+10.0,Baltimore Ravens,6.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,7.0,7.0,51.9,BAL,DST,6,2020
+11.0,New York Jets,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,3.3,NYJ,DST,6,2020
+12.0,Detroit Lions,1.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,1.1,DET,DST,6,2020
+13.0,Washington Commanders,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,27.5,WAS,DST,6,2020
+14.0,Indianapolis Colts,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,66.4,IND,DST,6,2020
+15.0,Cincinnati Bengals,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,14.7,CIN,DST,6,2020
+16.0,Kansas City Chiefs,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,45.7,KC,DST,6,2020
+17.0,San Francisco 49ers,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,79.5,SF,DST,6,2020
+18.0,Buffalo Bills,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,95.9,BUF,DST,6,2020
+19.0,Philadelphia Eagles,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,52.5,PHI,DST,6,2020
+20.0,Carolina Panthers,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,27.8,CAR,DST,6,2020
+21.0,Houston Texans,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,6.4,HOU,DST,6,2020
+22.0,Cleveland Browns,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,40.8,CLE,DST,6,2020
+23.0,Jacksonville Jaguars,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,6.9,JAC,DST,6,2020
+27.0,Minnesota Vikings,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,28.0,MIN,DST,6,2020
+28.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,74.5,LAR,DST,6,2020
+30.0,Green Bay Packers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,60.6,GB,DST,6,2020
+31.0,Tennessee Titans,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,48.4,TEN,DST,6,2020
+32.0,Dallas Cowboys,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,82.9,DAL,DST,6,2020
+1.0,Kansas City Chiefs,3.0,2.0,2.0,2.0,1.0,0.0,1.0,1.0,24.0,24.0,45.7,KC,DST,7,2020
+2.0,Washington Commanders,6.0,1.0,0.0,2.0,0.0,1.0,0.0,1.0,17.0,17.0,27.5,WAS,DST,7,2020
+3.0,San Francisco 49ers,2.0,4.0,0.0,1.0,0.0,0.0,0.0,1.0,17.0,17.0,79.5,SF,DST,7,2020
+4.0,Los Angeles Rams,4.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,15.0,15.0,74.5,LAR,DST,7,2020
+5.0,Buffalo Bills,6.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,14.0,14.0,95.9,BUF,DST,7,2020
+6.0,Jacksonville Jaguars,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,9.0,9.0,6.9,JAC,DST,7,2020
+7.0,Chicago Bears,1.0,0.0,1.0,2.0,1.0,0.0,0.0,1.0,9.0,9.0,35.9,CHI,DST,7,2020
+8.0,Philadelphia Eagles,3.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,9.0,9.0,52.5,PHI,DST,7,2020
+9.0,Los Angeles Chargers,5.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,44.3,LAC,DST,7,2020
+10.0,Arizona Cardinals,2.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,60.9,ARI,DST,7,2020
+11.0,Cleveland Browns,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,40.8,CLE,DST,7,2020
+12.0,Tennessee Titans,0.0,3.0,0.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,48.4,TEN,DST,7,2020
+13.0,Tampa Bay Buccaneers,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,98.0,TB,DST,7,2020
+14.0,Green Bay Packers,3.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,7,2020
+15.0,New York Jets,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,3.3,NYJ,DST,7,2020
+16.0,New York Giants,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,4.5,NYG,DST,7,2020
+17.0,New England Patriots,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,93.2,NE,DST,7,2020
+18.0,Detroit Lions,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,1.1,DET,DST,7,2020
+19.0,Carolina Panthers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,27.8,CAR,DST,7,2020
+20.0,Atlanta Falcons,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,5.8,ATL,DST,7,2020
+21.0,Dallas Cowboys,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,82.9,DAL,DST,7,2020
+22.0,Denver Broncos,4.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,48.5,DEN,DST,7,2020
+23.0,Pittsburgh Steelers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,44.6,PIT,DST,7,2020
+24.0,New Orleans Saints,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,79.3,NO,DST,7,2020
+26.0,Seattle Seahawks,0.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,39.4,SEA,DST,7,2020
+30.0,Cincinnati Bengals,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,14.7,CIN,DST,7,2020
+31.0,Las Vegas Raiders,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-4.0,-4.0,7.6,LV,DST,7,2020
+32.0,Houston Texans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,6.4,HOU,DST,7,2020
+1.0,Miami Dolphins,2.0,2.0,2.0,2.0,1.0,0.0,1.0,1.0,23.0,23.0,60.2,MIA,DST,8,2020
+2.0,Philadelphia Eagles,4.0,0.0,2.0,2.0,1.0,1.0,0.0,1.0,20.0,20.0,52.5,PHI,DST,8,2020
+3.0,Pittsburgh Steelers,4.0,2.0,2.0,3.0,1.0,0.0,0.0,1.0,18.0,18.0,44.6,PIT,DST,8,2020
+4.0,Indianapolis Colts,5.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,66.4,IND,DST,8,2020
+5.0,Dallas Cowboys,4.0,2.0,2.0,3.0,0.0,0.0,0.0,1.0,13.0,13.0,82.9,DAL,DST,8,2020
+6.0,Las Vegas Raiders,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,7.6,LV,DST,8,2020
+7.0,Kansas City Chiefs,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,45.7,KC,DST,8,2020
+8.0,Tampa Bay Buccaneers,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,98.0,TB,DST,8,2020
+9.0,Seattle Seahawks,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,39.4,SEA,DST,8,2020
+10.0,New Orleans Saints,5.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,79.3,NO,DST,8,2020
+11.0,Atlanta Falcons,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,5.8,ATL,DST,8,2020
+12.0,Los Angeles Rams,1.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,74.5,LAR,DST,8,2020
+13.0,Denver Broncos,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,48.5,DEN,DST,8,2020
+14.0,Baltimore Ravens,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,51.9,BAL,DST,8,2020
+15.0,New York Giants,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,4.5,NYG,DST,8,2020
+16.0,Cincinnati Bengals,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,14.7,CIN,DST,8,2020
+17.0,Buffalo Bills,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,95.9,BUF,DST,8,2020
+18.0,Carolina Panthers,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,27.8,CAR,DST,8,2020
+19.0,Cleveland Browns,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,40.8,CLE,DST,8,2020
+20.0,Minnesota Vikings,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,28.0,MIN,DST,8,2020
+21.0,New England Patriots,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,93.2,NE,DST,8,2020
+22.0,Los Angeles Chargers,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,44.3,LAC,DST,8,2020
+23.0,Chicago Bears,1.0,0.0,0.0,3.0,0.0,0.0,0.0,1.0,1.0,1.0,35.9,CHI,DST,8,2020
+27.0,Green Bay Packers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,60.6,GB,DST,8,2020
+29.0,Tennessee Titans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,48.4,TEN,DST,8,2020
+30.0,San Francisco 49ers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,79.5,SF,DST,8,2020
+31.0,Detroit Lions,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-2.0,-2.0,1.1,DET,DST,8,2020
+32.0,New York Jets,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-4.0,-4.0,3.3,NYJ,DST,8,2020
+1.0,New Orleans Saints,3.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,16.0,16.0,79.3,NO,DST,9,2020
+2.0,Baltimore Ravens,0.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,14.0,14.0,51.9,BAL,DST,9,2020
+3.0,Tennessee Titans,3.0,0.0,2.0,2.0,1.0,0.0,0.0,1.0,14.0,14.0,48.4,TEN,DST,9,2020
+4.0,New York Giants,2.0,3.0,2.0,1.0,0.0,0.0,0.0,1.0,13.0,13.0,4.5,NYG,DST,9,2020
+5.0,Buffalo Bills,5.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,12.0,12.0,95.9,BUF,DST,9,2020
+6.0,Minnesota Vikings,2.0,3.0,0.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,28.0,MIN,DST,9,2020
+7.0,Miami Dolphins,1.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,8.0,8.0,60.2,MIA,DST,9,2020
+8.0,Pittsburgh Steelers,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,44.6,PIT,DST,9,2020
+9.0,Green Bay Packers,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,9,2020
+10.0,Indianapolis Colts,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,66.4,IND,DST,9,2020
+11.0,Washington Commanders,5.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,27.5,WAS,DST,9,2020
+12.0,Houston Texans,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,6.4,HOU,DST,9,2020
+13.0,Jacksonville Jaguars,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,6.9,JAC,DST,9,2020
+14.0,Las Vegas Raiders,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,7.6,LV,DST,9,2020
+15.0,Chicago Bears,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,35.9,CHI,DST,9,2020
+16.0,Seattle Seahawks,7.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,39.4,SEA,DST,9,2020
+17.0,Denver Broncos,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,48.5,DEN,DST,9,2020
+18.0,Atlanta Falcons,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,5.8,ATL,DST,9,2020
+19.0,Carolina Panthers,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,27.8,CAR,DST,9,2020
+20.0,New England Patriots,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,93.2,NE,DST,9,2020
+21.0,Arizona Cardinals,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.9,ARI,DST,9,2020
+22.0,Los Angeles Chargers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,44.3,LAC,DST,9,2020
+23.0,Kansas City Chiefs,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,45.7,KC,DST,9,2020
+24.0,Tampa Bay Buccaneers,1.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,98.0,TB,DST,9,2020
+26.0,San Francisco 49ers,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,79.5,SF,DST,9,2020
+27.0,Detroit Lions,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.1,DET,DST,9,2020
+31.0,Dallas Cowboys,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,82.9,DAL,DST,9,2020
+32.0,New York Jets,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-1.0,-1.0,3.3,NYJ,DST,9,2020
+1.0,Las Vegas Raiders,2.0,4.0,1.0,2.0,0.0,0.0,0.0,1.0,16.0,16.0,7.6,LV,DST,10,2020
+2.0,New Orleans Saints,2.0,2.0,2.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,79.3,NO,DST,10,2020
+3.0,Los Angeles Rams,6.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,13.0,13.0,74.5,LAR,DST,10,2020
+4.0,Chicago Bears,1.0,1.0,1.0,2.0,0.0,0.0,1.0,1.0,12.0,12.0,35.9,CHI,DST,10,2020
+5.0,Pittsburgh Steelers,4.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,44.6,PIT,DST,10,2020
+6.0,Jacksonville Jaguars,1.0,1.0,1.0,2.0,0.0,0.0,1.0,1.0,11.0,11.0,6.9,JAC,DST,10,2020
+7.0,Minnesota Vikings,2.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,28.0,MIN,DST,10,2020
+8.0,Indianapolis Colts,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,10.0,10.0,66.4,IND,DST,10,2020
+9.0,San Francisco 49ers,3.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,79.5,SF,DST,10,2020
+10.0,Green Bay Packers,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,10,2020
+11.0,Miami Dolphins,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,60.2,MIA,DST,10,2020
+12.0,Cleveland Browns,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,40.8,CLE,DST,10,2020
+13.0,Buffalo Bills,3.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,95.9,BUF,DST,10,2020
+14.0,Houston Texans,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,6.4,HOU,DST,10,2020
+15.0,Seattle Seahawks,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,39.4,SEA,DST,10,2020
+16.0,Tampa Bay Buccaneers,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,98.0,TB,DST,10,2020
+17.0,New England Patriots,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,93.2,NE,DST,10,2020
+18.0,New York Giants,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,4.5,NYG,DST,10,2020
+19.0,Detroit Lions,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,1.1,DET,DST,10,2020
+20.0,Philadelphia Eagles,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,52.5,PHI,DST,10,2020
+21.0,Arizona Cardinals,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,60.9,ARI,DST,10,2020
+22.0,Los Angeles Chargers,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,44.3,LAC,DST,10,2020
+23.0,Carolina Panthers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,27.8,CAR,DST,10,2020
+24.0,Baltimore Ravens,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,51.9,BAL,DST,10,2020
+29.0,Tennessee Titans,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,48.4,TEN,DST,10,2020
+30.0,Washington Commanders,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,27.5,WAS,DST,10,2020
+31.0,Denver Broncos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,48.5,DEN,DST,10,2020
+32.0,Cincinnati Bengals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,14.7,CIN,DST,10,2020
+1.0,Cleveland Browns,5.0,2.0,1.0,2.0,1.0,1.0,0.0,1.0,20.0,20.0,40.8,CLE,DST,11,2020
+2.0,Pittsburgh Steelers,2.0,4.0,0.0,1.0,0.0,0.0,0.0,1.0,17.0,17.0,44.6,PIT,DST,11,2020
+3.0,Carolina Panthers,5.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,17.0,17.0,27.8,CAR,DST,11,2020
+4.0,New Orleans Saints,8.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,16.0,16.0,79.3,NO,DST,11,2020
+5.0,Washington Commanders,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,27.5,WAS,DST,11,2020
+6.0,Denver Broncos,6.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,12.0,12.0,48.5,DEN,DST,11,2020
+7.0,Los Angeles Chargers,1.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,8.0,8.0,44.3,LAC,DST,11,2020
+8.0,Philadelphia Eagles,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,52.5,PHI,DST,11,2020
+9.0,New York Jets,3.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,8.0,8.0,3.3,NYJ,DST,11,2020
+10.0,Indianapolis Colts,1.0,1.0,3.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,66.4,IND,DST,11,2020
+11.0,Detroit Lions,1.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,1.1,DET,DST,11,2020
+12.0,Atlanta Falcons,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,5.8,ATL,DST,11,2020
+13.0,Los Angeles Rams,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,74.5,LAR,DST,11,2020
+14.0,Seattle Seahawks,3.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,5.0,5.0,39.4,SEA,DST,11,2020
+15.0,Miami Dolphins,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,60.2,MIA,DST,11,2020
+16.0,Dallas Cowboys,2.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,82.9,DAL,DST,11,2020
+17.0,Cincinnati Bengals,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,14.7,CIN,DST,11,2020
+18.0,Minnesota Vikings,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,28.0,MIN,DST,11,2020
+19.0,Tampa Bay Buccaneers,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,98.0,TB,DST,11,2020
+20.0,Green Bay Packers,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,60.6,GB,DST,11,2020
+21.0,Tennessee Titans,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,48.4,TEN,DST,11,2020
+22.0,Houston Texans,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,6.4,HOU,DST,11,2020
+23.0,Baltimore Ravens,2.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,51.9,BAL,DST,11,2020
+24.0,Arizona Cardinals,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.9,ARI,DST,11,2020
+25.0,Jacksonville Jaguars,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,6.9,JAC,DST,11,2020
+26.0,Kansas City Chiefs,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,45.7,KC,DST,11,2020
+31.0,New England Patriots,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,93.2,NE,DST,11,2020
+32.0,Las Vegas Raiders,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,7.6,LV,DST,11,2020
+1.0,Atlanta Falcons,5.0,1.0,4.0,4.0,1.0,0.0,0.0,1.0,28.0,28.0,5.8,ATL,DST,12,2020
+2.0,Carolina Panthers,2.0,0.0,3.0,2.0,2.0,0.0,0.0,1.0,19.0,19.0,27.8,CAR,DST,12,2020
+3.0,San Francisco 49ers,2.0,2.0,2.0,2.0,1.0,0.0,0.0,1.0,17.0,17.0,79.5,SF,DST,12,2020
+4.0,Houston Texans,4.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,16.0,16.0,6.4,HOU,DST,12,2020
+5.0,Washington Commanders,4.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,27.5,WAS,DST,12,2020
+6.0,Green Bay Packers,3.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,15.0,15.0,60.6,GB,DST,12,2020
+7.0,Los Angeles Rams,2.0,1.0,2.0,3.0,1.0,0.0,0.0,1.0,15.0,15.0,74.5,LAR,DST,12,2020
+8.0,Pittsburgh Steelers,3.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,14.0,14.0,44.6,PIT,DST,12,2020
+9.0,New Orleans Saints,1.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,79.3,NO,DST,12,2020
+10.0,Miami Dolphins,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,60.2,MIA,DST,12,2020
+11.0,Tennessee Titans,2.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,10.0,10.0,48.4,TEN,DST,12,2020
+12.0,New York Jets,4.0,0.0,2.0,4.0,0.0,0.0,0.0,1.0,9.0,9.0,3.3,NYJ,DST,12,2020
+13.0,Cincinnati Bengals,0.0,0.0,1.0,1.0,0.0,0.0,1.0,1.0,9.0,9.0,14.7,CIN,DST,12,2020
+14.0,Seattle Seahawks,6.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,39.4,SEA,DST,12,2020
+15.0,Los Angeles Chargers,3.0,1.0,2.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,44.3,LAC,DST,12,2020
+16.0,New York Giants,2.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,9.0,9.0,4.5,NYG,DST,12,2020
+17.0,Baltimore Ravens,0.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,8.0,8.0,51.9,BAL,DST,12,2020
+18.0,Arizona Cardinals,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,60.9,ARI,DST,12,2020
+19.0,Buffalo Bills,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,95.9,BUF,DST,12,2020
+20.0,New England Patriots,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,93.2,NE,DST,12,2020
+21.0,Minnesota Vikings,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,28.0,MIN,DST,12,2020
+22.0,Kansas City Chiefs,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,45.7,KC,DST,12,2020
+23.0,Denver Broncos,3.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,48.5,DEN,DST,12,2020
+24.0,Jacksonville Jaguars,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,6.9,JAC,DST,12,2020
+25.0,Tampa Bay Buccaneers,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,98.0,TB,DST,12,2020
+26.0,Philadelphia Eagles,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,52.5,PHI,DST,12,2020
+27.0,Dallas Cowboys,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,82.9,DAL,DST,12,2020
+28.0,Cleveland Browns,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,40.8,CLE,DST,12,2020
+29.0,Detroit Lions,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,1.1,DET,DST,12,2020
+30.0,Las Vegas Raiders,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,7.6,LV,DST,12,2020
+31.0,Indianapolis Colts,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-3.0,-3.0,66.4,IND,DST,12,2020
+32.0,Chicago Bears,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,35.9,CHI,DST,12,2020
+1.0,New England Patriots,3.0,2.0,0.0,0.0,0.0,0.0,2.0,1.0,31.0,31.0,93.2,NE,DST,13,2020
+2.0,Miami Dolphins,6.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,14.0,14.0,60.2,MIA,DST,13,2020
+3.0,Jacksonville Jaguars,4.0,1.0,1.0,0.0,1.0,0.0,0.0,1.0,14.0,14.0,6.9,JAC,DST,13,2020
+4.0,Minnesota Vikings,2.0,2.0,2.0,2.0,0.0,1.0,0.0,1.0,13.0,13.0,28.0,MIN,DST,13,2020
+5.0,New York Giants,5.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,13.0,13.0,4.5,NYG,DST,13,2020
+6.0,Indianapolis Colts,5.0,1.0,1.0,1.0,0.0,1.0,0.0,1.0,12.0,12.0,66.4,IND,DST,13,2020
+7.0,Los Angeles Rams,2.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,11.0,11.0,74.5,LAR,DST,13,2020
+8.0,Green Bay Packers,7.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,60.6,GB,DST,13,2020
+9.0,Seattle Seahawks,2.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,9.0,9.0,39.4,SEA,DST,13,2020
+10.0,Las Vegas Raiders,3.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,8.0,8.0,7.6,LV,DST,13,2020
+11.0,Philadelphia Eagles,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,7.0,7.0,52.5,PHI,DST,13,2020
+12.0,New Orleans Saints,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,79.3,NO,DST,13,2020
+13.0,New York Jets,2.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,3.3,NYJ,DST,13,2020
+14.0,Cleveland Browns,3.0,1.0,2.0,3.0,0.0,0.0,0.0,1.0,5.0,5.0,40.8,CLE,DST,13,2020
+15.0,Kansas City Chiefs,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,45.7,KC,DST,13,2020
+16.0,Detroit Lions,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,1.1,DET,DST,13,2020
+17.0,Atlanta Falcons,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,5.8,ATL,DST,13,2020
+18.0,Buffalo Bills,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,95.9,BUF,DST,13,2020
+19.0,Baltimore Ravens,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,51.9,BAL,DST,13,2020
+20.0,Pittsburgh Steelers,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,44.6,PIT,DST,13,2020
+21.0,Washington Commanders,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,27.5,WAS,DST,13,2020
+22.0,Houston Texans,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,6.4,HOU,DST,13,2020
+23.0,Cincinnati Bengals,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,14.7,CIN,DST,13,2020
+24.0,Chicago Bears,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,35.9,CHI,DST,13,2020
+25.0,San Francisco 49ers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,79.5,SF,DST,13,2020
+26.0,Arizona Cardinals,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.9,ARI,DST,13,2020
+27.0,Denver Broncos,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,48.5,DEN,DST,13,2020
+28.0,Dallas Cowboys,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,82.9,DAL,DST,13,2020
+31.0,Tennessee Titans,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,-2.0,-2.0,48.4,TEN,DST,13,2020
+32.0,Los Angeles Chargers,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-3.0,-3.0,44.3,LAC,DST,13,2020
+1.0,Washington Commanders,4.0,1.0,2.0,2.0,2.0,0.0,0.0,1.0,23.0,23.0,27.5,WAS,DST,14,2020
+2.0,Los Angeles Rams,6.0,1.0,0.0,0.0,1.0,0.0,0.0,1.0,21.0,21.0,74.5,LAR,DST,14,2020
+3.0,Dallas Cowboys,2.0,0.0,3.0,2.0,1.0,0.0,0.0,1.0,18.0,18.0,82.9,DAL,DST,14,2020
+4.0,Arizona Cardinals,8.0,0.0,3.0,4.0,0.0,0.0,0.0,1.0,18.0,18.0,60.9,ARI,DST,14,2020
+5.0,Chicago Bears,7.0,0.0,2.0,1.0,0.0,1.0,0.0,1.0,17.0,17.0,35.9,CHI,DST,14,2020
+6.0,Kansas City Chiefs,4.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,14.0,14.0,45.7,KC,DST,14,2020
+7.0,Buffalo Bills,1.0,2.0,0.0,1.0,1.0,0.0,0.0,1.0,12.0,12.0,95.9,BUF,DST,14,2020
+8.0,Seattle Seahawks,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,39.4,SEA,DST,14,2020
+9.0,Indianapolis Colts,0.0,2.0,1.0,1.0,1.0,0.0,0.0,1.0,12.0,12.0,66.4,IND,DST,14,2020
+10.0,Miami Dolphins,3.0,3.0,1.0,1.0,0.0,0.0,0.0,1.0,10.0,10.0,60.2,MIA,DST,14,2020
+11.0,Denver Broncos,4.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,10.0,10.0,48.5,DEN,DST,14,2020
+12.0,Tampa Bay Buccaneers,6.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,9.0,9.0,98.0,TB,DST,14,2020
+13.0,Los Angeles Chargers,2.0,3.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,44.3,LAC,DST,14,2020
+14.0,Philadelphia Eagles,5.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,52.5,PHI,DST,14,2020
+15.0,Tennessee Titans,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,48.4,TEN,DST,14,2020
+16.0,San Francisco 49ers,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,79.5,SF,DST,14,2020
+17.0,Pittsburgh Steelers,1.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,44.6,PIT,DST,14,2020
+18.0,New England Patriots,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,93.2,NE,DST,14,2020
+19.0,Green Bay Packers,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,60.6,GB,DST,14,2020
+20.0,Atlanta Falcons,1.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,4.0,4.0,5.8,ATL,DST,14,2020
+21.0,New Orleans Saints,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,79.3,NO,DST,14,2020
+22.0,Jacksonville Jaguars,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,6.9,JAC,DST,14,2020
+23.0,Cleveland Browns,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,40.8,CLE,DST,14,2020
+24.0,Cincinnati Bengals,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,14.7,CIN,DST,14,2020
+25.0,Carolina Panthers,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,27.8,CAR,DST,14,2020
+26.0,New York Giants,1.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,4.5,NYG,DST,14,2020
+27.0,Minnesota Vikings,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,28.0,MIN,DST,14,2020
+28.0,Baltimore Ravens,0.0,1.0,0.0,3.0,0.0,1.0,0.0,1.0,0.0,0.0,51.9,BAL,DST,14,2020
+29.0,New York Jets,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,3.3,NYJ,DST,14,2020
+30.0,Houston Texans,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,6.4,HOU,DST,14,2020
+31.0,Detroit Lions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,1.1,DET,DST,14,2020
+32.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,7.6,LV,DST,14,2020
+1.0,Dallas Cowboys,2.0,2.0,2.0,1.0,0.0,0.0,1.0,1.0,15.0,15.0,82.9,DAL,DST,15,2020
+2.0,Buffalo Bills,3.0,0.0,1.0,1.0,1.0,0.0,0.0,1.0,12.0,12.0,95.9,BUF,DST,15,2020
+3.0,Arizona Cardinals,6.0,0.0,0.0,3.0,0.0,1.0,0.0,1.0,10.0,10.0,60.9,ARI,DST,15,2020
+4.0,Baltimore Ravens,5.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,10.0,10.0,51.9,BAL,DST,15,2020
+5.0,Indianapolis Colts,5.0,0.0,2.0,3.0,0.0,0.0,0.0,1.0,10.0,10.0,66.4,IND,DST,15,2020
+6.0,Seattle Seahawks,4.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,39.4,SEA,DST,15,2020
+7.0,Miami Dolphins,3.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,9.0,9.0,60.2,MIA,DST,15,2020
+8.0,Cleveland Browns,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,40.8,CLE,DST,15,2020
+9.0,Cincinnati Bengals,1.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,8.0,8.0,14.7,CIN,DST,15,2020
+10.0,New York Jets,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,3.3,NYJ,DST,15,2020
+11.0,New Orleans Saints,4.0,0.0,1.0,1.0,0.0,1.0,0.0,1.0,7.0,7.0,79.3,NO,DST,15,2020
+12.0,Green Bay Packers,3.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,15,2020
+13.0,Philadelphia Eagles,1.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,52.5,PHI,DST,15,2020
+14.0,Tennessee Titans,0.0,1.0,2.0,2.0,0.0,0.0,0.0,1.0,6.0,6.0,48.4,TEN,DST,15,2020
+15.0,Chicago Bears,3.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,35.9,CHI,DST,15,2020
+16.0,Carolina Panthers,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,27.8,CAR,DST,15,2020
+17.0,New England Patriots,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,93.2,NE,DST,15,2020
+18.0,Tampa Bay Buccaneers,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,98.0,TB,DST,15,2020
+19.0,Los Angeles Chargers,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,44.3,LAC,DST,15,2020
+20.0,Washington Commanders,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,27.5,WAS,DST,15,2020
+21.0,New York Giants,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,4.5,NYG,DST,15,2020
+22.0,Pittsburgh Steelers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,44.6,PIT,DST,15,2020
+23.0,Minnesota Vikings,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,28.0,MIN,DST,15,2020
+24.0,Atlanta Falcons,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,5.8,ATL,DST,15,2020
+25.0,Los Angeles Rams,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,74.5,LAR,DST,15,2020
+26.0,Kansas City Chiefs,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,45.7,KC,DST,15,2020
+27.0,Houston Texans,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,6.4,HOU,DST,15,2020
+28.0,Las Vegas Raiders,1.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,0.0,0.0,7.6,LV,DST,15,2020
+29.0,Detroit Lions,1.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,-1.0,-1.0,1.1,DET,DST,15,2020
+30.0,Jacksonville Jaguars,1.0,1.0,0.0,2.0,0.0,0.0,0.0,1.0,-1.0,-1.0,6.9,JAC,DST,15,2020
+31.0,Denver Broncos,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,-1.0,-1.0,48.5,DEN,DST,15,2020
+32.0,San Francisco 49ers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,79.5,SF,DST,15,2020
+1.0,Carolina Panthers,3.0,2.0,2.0,1.0,1.0,0.0,0.0,1.0,21.0,21.0,27.8,CAR,DST,16,2020
+2.0,Tampa Bay Buccaneers,4.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,12.0,12.0,98.0,TB,DST,16,2020
+3.0,San Francisco 49ers,3.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,11.0,11.0,79.5,SF,DST,16,2020
+4.0,Baltimore Ravens,6.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,51.9,BAL,DST,16,2020
+5.0,Dallas Cowboys,3.0,2.0,1.0,3.0,0.0,0.0,0.0,1.0,10.0,10.0,82.9,DAL,DST,16,2020
+6.0,Washington Commanders,4.0,1.0,1.0,2.0,0.0,0.0,0.0,1.0,9.0,9.0,27.5,WAS,DST,16,2020
+7.0,Seattle Seahawks,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,39.4,SEA,DST,16,2020
+8.0,Pittsburgh Steelers,5.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,44.6,PIT,DST,16,2020
+9.0,New York Jets,4.0,0.0,2.0,3.0,0.0,0.0,0.0,1.0,9.0,9.0,3.3,NYJ,DST,16,2020
+10.0,Kansas City Chiefs,4.0,0.0,1.0,3.0,0.0,0.0,0.0,1.0,7.0,7.0,45.7,KC,DST,16,2020
+11.0,Buffalo Bills,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,95.9,BUF,DST,16,2020
+12.0,Los Angeles Chargers,2.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,44.3,LAC,DST,16,2020
+13.0,Green Bay Packers,2.0,2.0,0.0,1.0,0.0,0.0,0.0,1.0,7.0,7.0,60.6,GB,DST,16,2020
+14.0,Los Angeles Rams,5.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,74.5,LAR,DST,16,2020
+15.0,Arizona Cardinals,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,60.9,ARI,DST,16,2020
+16.0,Cleveland Browns,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,40.8,CLE,DST,16,2020
+17.0,Chicago Bears,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,35.9,CHI,DST,16,2020
+18.0,Miami Dolphins,3.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,60.2,MIA,DST,16,2020
+19.0,Atlanta Falcons,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,5.8,ATL,DST,16,2020
+20.0,Detroit Lions,2.0,0.0,0.0,1.0,0.0,0.0,1.0,1.0,4.0,4.0,1.1,DET,DST,16,2020
+21.0,Las Vegas Raiders,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,7.6,LV,DST,16,2020
+22.0,Denver Broncos,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,48.5,DEN,DST,16,2020
+23.0,Cincinnati Bengals,1.0,0.0,1.0,4.0,0.0,0.0,0.0,1.0,2.0,2.0,14.7,CIN,DST,16,2020
+24.0,New York Giants,0.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,4.5,NYG,DST,16,2020
+25.0,New Orleans Saints,2.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,79.3,NO,DST,16,2020
+26.0,Philadelphia Eagles,2.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,52.5,PHI,DST,16,2020
+27.0,Indianapolis Colts,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,66.4,IND,DST,16,2020
+28.0,Minnesota Vikings,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,28.0,MIN,DST,16,2020
+29.0,Tennessee Titans,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,48.4,TEN,DST,16,2020
+30.0,Jacksonville Jaguars,1.0,1.0,0.0,1.0,0.0,0.0,0.0,1.0,-1.0,-1.0,6.9,JAC,DST,16,2020
+31.0,Houston Texans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-4.0,-4.0,6.4,HOU,DST,16,2020
+32.0,New England Patriots,0.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,-4.0,-4.0,93.2,NE,DST,16,2020
+1.0,Buffalo Bills,1.0,3.0,1.0,1.0,1.0,0.0,1.0,1.0,21.0,21.0,95.9,BUF,DST,17,2020
+2.0,Los Angeles Rams,4.0,1.0,0.0,1.0,1.0,1.0,0.0,1.0,20.0,20.0,74.5,LAR,DST,17,2020
+3.0,New Orleans Saints,3.0,5.0,0.0,0.0,0.0,0.0,0.0,1.0,17.0,17.0,79.3,NO,DST,17,2020
+4.0,Baltimore Ravens,0.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,11.0,11.0,51.9,BAL,DST,17,2020
+5.0,Arizona Cardinals,2.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,10.0,10.0,60.9,ARI,DST,17,2020
+6.0,Denver Broncos,3.0,2.0,2.0,2.0,0.0,0.0,0.0,1.0,10.0,10.0,48.5,DEN,DST,17,2020
+7.0,Washington Commanders,3.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,10.0,10.0,27.5,WAS,DST,17,2020
+8.0,Indianapolis Colts,6.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,9.0,9.0,66.4,IND,DST,17,2020
+9.0,New York Giants,6.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,9.0,9.0,4.5,NYG,DST,17,2020
+10.0,Philadelphia Eagles,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,52.5,PHI,DST,17,2020
+11.0,New England Patriots,3.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,8.0,8.0,93.2,NE,DST,17,2020
+12.0,Green Bay Packers,1.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,6.0,6.0,60.6,GB,DST,17,2020
+13.0,Dallas Cowboys,2.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,82.9,DAL,DST,17,2020
+14.0,Tampa Bay Buccaneers,1.0,0.0,2.0,2.0,0.0,0.0,0.0,1.0,5.0,5.0,98.0,TB,DST,17,2020
+15.0,Seattle Seahawks,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,39.4,SEA,DST,17,2020
+16.0,Los Angeles Chargers,1.0,0.0,1.0,0.0,0.0,1.0,0.0,1.0,5.0,5.0,44.3,LAC,DST,17,2020
+17.0,Las Vegas Raiders,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,5.0,5.0,7.6,LV,DST,17,2020
+18.0,Pittsburgh Steelers,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,44.6,PIT,DST,17,2020
+19.0,Cleveland Browns,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,40.8,CLE,DST,17,2020
+20.0,Tennessee Titans,4.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,48.4,TEN,DST,17,2020
+21.0,San Francisco 49ers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,79.5,SF,DST,17,2020
+22.0,New York Jets,3.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,3.3,NYJ,DST,17,2020
+23.0,Carolina Panthers,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,1.0,1.0,27.8,CAR,DST,17,2020
+24.0,Miami Dolphins,1.0,2.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,60.2,MIA,DST,17,2020
+25.0,Minnesota Vikings,1.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,28.0,MIN,DST,17,2020
+26.0,Jacksonville Jaguars,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,6.9,JAC,DST,17,2020
+27.0,Houston Texans,2.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,0.0,0.0,6.4,HOU,DST,17,2020
+28.0,Atlanta Falcons,1.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,5.8,ATL,DST,17,2020
+29.0,Kansas City Chiefs,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,45.7,KC,DST,17,2020
+30.0,Detroit Lions,3.0,0.0,0.0,2.0,0.0,0.0,0.0,1.0,-1.0,-1.0,1.1,DET,DST,17,2020
+31.0,Chicago Bears,1.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,-1.0,-1.0,35.9,CHI,DST,17,2020
+32.0,Cincinnati Bengals,0.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,-2.0,-2.0,14.7,CIN,DST,17,2020

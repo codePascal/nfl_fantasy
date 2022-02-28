@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Josh Allen,39.1,25.4,285.7,2.0,0.9,6.0,30.5,0.5,0.3,23.6,BUF,QB,14,2021
 Patrick Mahomes II,38.2,24.9,281.6,2.1,0.5,4.2,22.6,0.2,0.2,22.0,KC,QB,14,2021
 Lamar Jackson,33.1,21.0,247.6,1.3,1.1,10.0,61.4,0.4,0.3,22.0,BAL,QB,14,2021

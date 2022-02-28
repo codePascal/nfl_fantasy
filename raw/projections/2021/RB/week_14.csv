@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Austin Ekeler,14.5,63.7,0.6,5.4,45.2,0.3,0.1,16.3,LAC,RB,14,2021
 Alvin Kamara,15.9,67.5,0.6,4.9,43.6,0.2,0.1,15.7,NO,RB,14,2021
 Najee Harris,18.0,71.6,0.5,4.0,30.7,0.1,0.1,14.0,PIT,RB,14,2021

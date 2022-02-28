@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Jonathan Taylor,20.5,101.3,0.8,2.6,21.3,0.1,0.1,17.5,IND,RB,16,2021
 James Robinson,17.6,76.2,0.7,2.9,22.1,0.1,0.1,14.0,JAC,RB,16,2021
 Nick Chubb,17.0,84.6,0.6,2.0,15.5,0.1,0.1,13.8,CLE,RB,16,2021

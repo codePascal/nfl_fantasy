@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Justin Jefferson,6.9,104.9,0.7,0.4,2.3,0.0,0.1,15.0,MIN,WR,14,2021
 Davante Adams,7.8,102.1,0.8,0.0,0.0,0.0,0.1,14.8,GB,WR,14,2021
 Cooper Kupp,8.0,100.3,0.7,0.1,0.3,0.0,0.1,14.1,LAR,WR,14,2021

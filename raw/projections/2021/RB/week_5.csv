@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Derrick Henry,25.7,115.6,0.9,2.5,22.4,0.1,0.2,19.0,TEN,RB,5,2021
 Alvin Kamara,18.3,79.2,0.6,4.3,35.9,0.3,0.1,16.5,NO,RB,5,2021
 Aaron Jones,15.1,69.4,0.6,3.4,28.7,0.2,0.1,14.7,GB,RB,5,2021

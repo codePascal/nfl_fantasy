@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Alvin Kamara,15.8,73.8,0.7,5.3,45.4,0.3,0.1,17.6,NO,RB,2,2021
 Nick Chubb,19.6,100.1,1.0,1.7,14.7,0.1,0.1,17.6,CLE,RB,2,2021
 Christian McCaffrey,18.7,77.5,0.7,5.7,45.3,0.2,0.1,17.3,CAR,RB,2,2021

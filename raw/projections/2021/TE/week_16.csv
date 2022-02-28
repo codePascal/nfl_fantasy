@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 George Kittle,6.0,78.5,0.5,0.1,11.0,SF,TE,16,2021
 Mark Andrews,5.9,71.0,0.5,0.1,10.0,BAL,TE,16,2021
 Rob Gronkowski,4.6,55.4,0.6,0.0,8.9,TB,TE,16,2021

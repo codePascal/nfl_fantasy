@@ -1,4 +1,4 @@
-player,sacks,defense_int,fumble_recovery,fumble_forced,defense_td,defense_safety,pa,yds_against,fantasy_points,team,position,week,year
+player,sacks_proj,ints_proj,frec,ff,defense_td,sfty,pts_against,yds_against,fantasy_points,team,position,week,year
 Buffalo Bills,2.8,0.9,0.6,1.0,0.2,0.0,15.3,309.1,8.2,BUF,DST,4,2021
 Tennessee Titans,2.7,1.2,0.4,0.6,0.2,0.0,19.1,317.6,8.1,TEN,DST,4,2021
 New Orleans Saints,2.9,0.9,0.7,1.0,0.2,0.0,16.7,312.7,8.0,NO,DST,4,2021

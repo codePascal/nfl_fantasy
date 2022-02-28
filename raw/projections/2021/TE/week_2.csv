@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Travis Kelce,7.1,89.4,0.8,0.1,13.4,KC,TE,2,2021
 Darren Waller,6.8,80.3,0.6,0.1,11.4,LV,TE,2,2021
 George Kittle,5.4,69.0,0.5,0.1,10.1,SF,TE,2,2021

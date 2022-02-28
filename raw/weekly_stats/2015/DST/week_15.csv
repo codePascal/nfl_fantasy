@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Arizona Cardinals,0,0,0,0,0,0,0,0,0.0,0.0,60.9,ARI,DST,15,2015
-2,Minnesota Vikings,0,0,0,0,0,0,0,0,0.0,0.0,28.0,MIN,DST,15,2015
-3,Tennessee Titans,0,0,0,0,0,0,0,0,0.0,0.0,48.4,TEN,DST,15,2015
-4,Tampa Bay Buccaneers,0,0,0,0,0,0,0,0,0.0,0.0,98.0,TB,DST,15,2015
-5,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,15,2015
-6,San Francisco 49ers,0,0,0,0,0,0,0,0,0.0,0.0,79.5,SF,DST,15,2015
-7,Seattle Seahawks,0,0,0,0,0,0,0,0,0.0,0.0,39.4,SEA,DST,15,2015
-8,Los Angeles Chargers,0,0,0,0,0,0,0,0,0.0,0.0,44.3,LAC,DST,15,2015
-9,Pittsburgh Steelers,0,0,0,0,0,0,0,0,0.0,0.0,44.6,PIT,DST,15,2015
-10,Philadelphia Eagles,0,0,0,0,0,0,0,0,0.0,0.0,52.5,PHI,DST,15,2015
-11,Las Vegas Raiders,0,0,0,0,0,0,0,0,0.0,0.0,7.6,LV,DST,15,2015
-12,New York Jets,0,0,0,0,0,0,0,0,0.0,0.0,3.3,NYJ,DST,15,2015
-13,New York Giants,0,0,0,0,0,0,0,0,0.0,0.0,4.5,NYG,DST,15,2015
-14,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,15,2015
-15,New England Patriots,0,0,0,0,0,0,0,0,0.0,0.0,93.2,NE,DST,15,2015
-16,Miami Dolphins,0,0,0,0,0,0,0,0,0.0,0.0,60.2,MIA,DST,15,2015
-17,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,15,2015
-18,Kansas City Chiefs,0,0,0,0,0,0,0,0,0.0,0.0,45.7,KC,DST,15,2015
-19,Jacksonville Jaguars,0,0,0,0,0,0,0,0,0.0,0.0,6.9,JAC,DST,15,2015
-20,Indianapolis Colts,0,0,0,0,0,0,0,0,0.0,0.0,66.4,IND,DST,15,2015
-21,Houston Texans,0,0,0,0,0,0,0,0,0.0,0.0,6.4,HOU,DST,15,2015
-22,Green Bay Packers,0,0,0,0,0,0,0,0,0.0,0.0,60.6,GB,DST,15,2015
-23,Detroit Lions,0,0,0,0,0,0,0,0,0.0,0.0,1.1,DET,DST,15,2015
-24,Denver Broncos,0,0,0,0,0,0,0,0,0.0,0.0,48.5,DEN,DST,15,2015
-25,Dallas Cowboys,0,0,0,0,0,0,0,0,0.0,0.0,82.9,DAL,DST,15,2015
-26,Cleveland Browns,0,0,0,0,0,0,0,0,0.0,0.0,40.8,CLE,DST,15,2015
-27,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,15,2015
-28,Chicago Bears,0,0,0,0,0,0,0,0,0.0,0.0,35.9,CHI,DST,15,2015
-29,Carolina Panthers,0,0,0,0,0,0,0,0,0.0,0.0,27.8,CAR,DST,15,2015
-30,Buffalo Bills,0,0,0,0,0,0,0,0,0.0,0.0,95.9,BUF,DST,15,2015
-31,Baltimore Ravens,0,0,0,0,0,0,0,0,0.0,0.0,51.9,BAL,DST,15,2015
-32,Washington Commanders,0,0,0,0,0,0,0,0,0.0,0.0,27.5,WAS,DST,15,2015
+1.0,Arizona Cardinals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.9,ARI,DST,15,2015
+2.0,Minnesota Vikings,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,28.0,MIN,DST,15,2015
+3.0,Tennessee Titans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.4,TEN,DST,15,2015
+4.0,Tampa Bay Buccaneers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,98.0,TB,DST,15,2015
+5.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,15,2015
+6.0,San Francisco 49ers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.5,SF,DST,15,2015
+7.0,Seattle Seahawks,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,39.4,SEA,DST,15,2015
+8.0,Los Angeles Chargers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.3,LAC,DST,15,2015
+9.0,Pittsburgh Steelers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,44.6,PIT,DST,15,2015
+10.0,Philadelphia Eagles,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,52.5,PHI,DST,15,2015
+11.0,Las Vegas Raiders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,7.6,LV,DST,15,2015
+12.0,New York Jets,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,3.3,NYJ,DST,15,2015
+13.0,New York Giants,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,4.5,NYG,DST,15,2015
+14.0,New Orleans Saints,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.3,NO,DST,15,2015
+15.0,New England Patriots,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,93.2,NE,DST,15,2015
+16.0,Miami Dolphins,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.2,MIA,DST,15,2015
+17.0,Atlanta Falcons,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.8,ATL,DST,15,2015
+18.0,Kansas City Chiefs,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,45.7,KC,DST,15,2015
+19.0,Jacksonville Jaguars,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.9,JAC,DST,15,2015
+20.0,Indianapolis Colts,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,66.4,IND,DST,15,2015
+21.0,Houston Texans,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,6.4,HOU,DST,15,2015
+22.0,Green Bay Packers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,60.6,GB,DST,15,2015
+23.0,Detroit Lions,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,1.1,DET,DST,15,2015
+24.0,Denver Broncos,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,48.5,DEN,DST,15,2015
+25.0,Dallas Cowboys,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,82.9,DAL,DST,15,2015
+26.0,Cleveland Browns,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,40.8,CLE,DST,15,2015
+27.0,Cincinnati Bengals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.7,CIN,DST,15,2015
+28.0,Chicago Bears,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,35.9,CHI,DST,15,2015
+29.0,Carolina Panthers,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.8,CAR,DST,15,2015
+30.0,Buffalo Bills,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,95.9,BUF,DST,15,2015
+31.0,Baltimore Ravens,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,51.9,BAL,DST,15,2015
+32.0,Washington Commanders,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,27.5,WAS,DST,15,2015

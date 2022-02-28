@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Lamar Jackson,33.3,21.3,253.8,1.6,1.0,10.6,65.9,0.2,0.3,23.1,BAL,QB,13,2021
 Patrick Mahomes II,38.6,25.0,287.0,2.0,0.6,4.1,23.2,0.1,0.2,21.9,KC,QB,13,2021
 Justin Herbert,38.3,25.4,286.5,1.9,0.9,4.1,23.6,0.2,0.1,21.2,LAC,QB,13,2021

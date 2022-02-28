@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Cooper Kupp,7.6,104.4,0.9,0.2,0.7,0.0,0.1,15.8,LAR,WR,8,2021
 Stefon Diggs,7.0,92.9,0.8,0.0,0.2,0.0,0.1,14.0,BUF,WR,8,2021
 Tyreek Hill,6.5,86.4,0.8,1.0,6.4,0.0,0.1,14.0,KC,WR,8,2021

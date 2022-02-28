@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Justin Tucker,2.2,2.5,2.7,9.2,BAL,K,5,2021
 Daniel Carlson,2.1,2.5,2.3,8.7,LV,K,5,2021
 Greg Zuerlein,1.8,2.5,3.0,8.5,DAL,K,5,2021

@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Davante Adams,7.9,105.2,0.8,0.0,0.0,0.0,0.1,15.1,GB,WR,6,2021
 Tyreek Hill,6.5,91.7,0.8,1.0,6.1,0.0,0.1,14.7,KC,WR,6,2021
 Cooper Kupp,7.1,88.6,0.8,0.3,1.2,0.0,0.1,13.6,LAR,WR,6,2021

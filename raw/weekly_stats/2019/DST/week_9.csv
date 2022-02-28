@@ -1,33 +1,33 @@
 rank,player,sacks,ints,frec,ff,defense_td,sfty,spc_td,games,fantasy_points,fantasy_points_per_game,rost,team,position,week,year
-1,Houston Texans,4,2,2,3,0,0,0,1,19.0,19.0,6.4,HOU,DST,9,2019
-2,Dallas Cowboys,5,1,2,2,1,0,0,1,18.0,18.0,82.9,DAL,DST,9,2019
-3,Pittsburgh Steelers,5,1,2,1,1,0,0,1,17.0,17.0,44.6,PIT,DST,9,2019
-4,Baltimore Ravens,2,1,1,1,1,0,0,1,13.0,13.0,51.9,BAL,DST,9,2019
-5,Carolina Panthers,4,2,1,1,0,0,0,1,11.0,11.0,27.8,CAR,DST,9,2019
-6,Miami Dolphins,3,1,0,0,0,1,0,1,8.0,8.0,60.2,MIA,DST,9,2019
-7,Buffalo Bills,4,0,0,1,0,0,0,1,8.0,8.0,95.9,BUF,DST,9,2019
-8,Indianapolis Colts,1,1,1,2,0,1,0,1,8.0,8.0,66.4,IND,DST,9,2019
-9,Minnesota Vikings,5,0,1,2,0,0,0,1,7.0,7.0,28.0,MIN,DST,9,2019
-10,Los Angeles Chargers,3,0,0,0,0,0,0,1,7.0,7.0,44.3,LAC,DST,9,2019
-11,Philadelphia Eagles,3,0,1,0,0,0,0,1,6.0,6.0,52.5,PHI,DST,9,2019
-12,New York Jets,4,0,0,0,0,1,0,1,6.0,6.0,3.3,NYJ,DST,9,2019
-13,Las Vegas Raiders,2,1,1,0,0,0,0,1,6.0,6.0,7.6,LV,DST,9,2019
-14,Cleveland Browns,3,0,1,1,0,0,0,1,5.0,5.0,40.8,CLE,DST,9,2019
-15,Tennessee Titans,3,1,0,0,0,0,0,1,4.0,4.0,48.4,TEN,DST,9,2019
-16,New England Patriots,1,0,2,1,0,0,0,1,4.0,4.0,93.2,NE,DST,9,2019
-17,Chicago Bears,4,0,0,0,0,0,0,1,4.0,4.0,35.9,CHI,DST,9,2019
-18,San Francisco 49ers,3,0,0,0,0,0,0,1,3.0,3.0,79.5,SF,DST,9,2019
-19,Jacksonville Jaguars,1,0,1,1,0,0,0,1,3.0,3.0,6.9,JAC,DST,9,2019
-20,Denver Broncos,2,0,0,0,0,0,0,1,3.0,3.0,48.5,DEN,DST,9,2019
-21,New York Giants,0,1,1,1,0,0,0,1,3.0,3.0,4.5,NYG,DST,9,2019
-22,Seattle Seahawks,2,0,1,1,0,0,0,1,3.0,3.0,39.4,SEA,DST,9,2019
-23,Washington Commanders,2,0,0,1,0,0,0,1,2.0,2.0,27.5,WAS,DST,9,2019
-24,Green Bay Packers,2,0,0,0,0,0,0,1,2.0,2.0,60.6,GB,DST,9,2019
-25,Kansas City Chiefs,1,0,0,0,0,0,0,1,1.0,1.0,45.7,KC,DST,9,2019
-26,Tampa Bay Buccaneers,3,0,1,2,0,0,0,1,1.0,1.0,98.0,TB,DST,9,2019
-27,New Orleans Saints,0,0,0,0,0,0,0,0,0.0,0.0,79.3,NO,DST,9,2019
-28,Atlanta Falcons,0,0,0,0,0,0,0,0,0.0,0.0,5.8,ATL,DST,9,2019
-29,Detroit Lions,1,0,0,0,0,0,0,1,0.0,0.0,1.1,DET,DST,9,2019
-30,Los Angeles Rams,0,0,0,0,0,0,0,0,0.0,0.0,74.5,LAR,DST,9,2019
-31,Cincinnati Bengals,0,0,0,0,0,0,0,0,0.0,0.0,14.7,CIN,DST,9,2019
-32,Arizona Cardinals,1,0,0,0,0,0,0,1,0.0,0.0,60.9,ARI,DST,9,2019
+1.0,Houston Texans,4.0,2.0,2.0,3.0,0.0,0.0,0.0,1.0,19.0,19.0,6.4,HOU,DST,9,2019
+2.0,Dallas Cowboys,5.0,1.0,2.0,2.0,1.0,0.0,0.0,1.0,18.0,18.0,82.9,DAL,DST,9,2019
+3.0,Pittsburgh Steelers,5.0,1.0,2.0,1.0,1.0,0.0,0.0,1.0,17.0,17.0,44.6,PIT,DST,9,2019
+4.0,Baltimore Ravens,2.0,1.0,1.0,1.0,1.0,0.0,0.0,1.0,13.0,13.0,51.9,BAL,DST,9,2019
+5.0,Carolina Panthers,4.0,2.0,1.0,1.0,0.0,0.0,0.0,1.0,11.0,11.0,27.8,CAR,DST,9,2019
+6.0,Miami Dolphins,3.0,1.0,0.0,0.0,0.0,1.0,0.0,1.0,8.0,8.0,60.2,MIA,DST,9,2019
+7.0,Buffalo Bills,4.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,8.0,8.0,95.9,BUF,DST,9,2019
+8.0,Indianapolis Colts,1.0,1.0,1.0,2.0,0.0,1.0,0.0,1.0,8.0,8.0,66.4,IND,DST,9,2019
+9.0,Minnesota Vikings,5.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,7.0,7.0,28.0,MIN,DST,9,2019
+10.0,Los Angeles Chargers,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,7.0,7.0,44.3,LAC,DST,9,2019
+11.0,Philadelphia Eagles,3.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,52.5,PHI,DST,9,2019
+12.0,New York Jets,4.0,0.0,0.0,0.0,0.0,1.0,0.0,1.0,6.0,6.0,3.3,NYJ,DST,9,2019
+13.0,Las Vegas Raiders,2.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,6.0,6.0,7.6,LV,DST,9,2019
+14.0,Cleveland Browns,3.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,5.0,5.0,40.8,CLE,DST,9,2019
+15.0,Tennessee Titans,3.0,1.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,48.4,TEN,DST,9,2019
+16.0,New England Patriots,1.0,0.0,2.0,1.0,0.0,0.0,0.0,1.0,4.0,4.0,93.2,NE,DST,9,2019
+17.0,Chicago Bears,4.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,4.0,4.0,35.9,CHI,DST,9,2019
+18.0,San Francisco 49ers,3.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,79.5,SF,DST,9,2019
+19.0,Jacksonville Jaguars,1.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,6.9,JAC,DST,9,2019
+20.0,Denver Broncos,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,3.0,3.0,48.5,DEN,DST,9,2019
+21.0,New York Giants,0.0,1.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,4.5,NYG,DST,9,2019
+22.0,Seattle Seahawks,2.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0,3.0,3.0,39.4,SEA,DST,9,2019
+23.0,Washington Commanders,2.0,0.0,0.0,1.0,0.0,0.0,0.0,1.0,2.0,2.0,27.5,WAS,DST,9,2019
+24.0,Green Bay Packers,2.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,2.0,2.0,60.6,GB,DST,9,2019
+25.0,Kansas City Chiefs,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,1.0,1.0,45.7,KC,DST,9,2019
+26.0,Tampa Bay Buccaneers,3.0,0.0,1.0,2.0,0.0,0.0,0.0,1.0,1.0,1.0,98.0,TB,DST,9,2019
+27.0,New Orleans Saints,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,79.3,NO,DST,9,2019
+28.0,Atlanta Falcons,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,5.8,ATL,DST,9,2019
+29.0,Detroit Lions,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,1.1,DET,DST,9,2019
+30.0,Los Angeles Rams,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,74.5,LAR,DST,9,2019
+31.0,Cincinnati Bengals,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,14.7,CIN,DST,9,2019
+32.0,Arizona Cardinals,1.0,0.0,0.0,0.0,0.0,0.0,0.0,1.0,0.0,0.0,60.9,ARI,DST,9,2019

@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Josh Allen,37.4,25.0,291.6,2.0,0.8,7.0,33.4,0.3,0.2,23.9,BUF,QB,11,2021
 Patrick Mahomes II,41.0,26.7,310.6,2.3,0.9,3.8,22.2,0.1,0.2,23.6,KC,QB,11,2021
 Dak Prescott,38.4,25.8,299.6,2.2,0.6,3.4,14.5,0.1,0.2,21.9,DAL,QB,11,2021

@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Travis Kelce,6.4,80.2,0.6,0.0,11.6,KC,TE,17,2021
 Mark Andrews,6.3,72.8,0.5,0.1,10.4,BAL,TE,17,2021
 George Kittle,4.9,62.7,0.6,0.0,9.6,SF,TE,17,2021

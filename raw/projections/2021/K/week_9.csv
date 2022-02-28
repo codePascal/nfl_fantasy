@@ -1,4 +1,4 @@
-player,field_goal,field_goal_att,XPT,fantasy_points,team,position,week,year
+player,fg,fg_att,XPT,fantasy_points,team,position,week,year
 Tyler Bass,2.1,2.5,3.0,9.4,BUF,K,9,2021
 Greg Zuerlein,1.9,2.5,2.9,8.7,DAL,K,9,2021
 Justin Tucker,1.9,2.2,3.1,8.7,BAL,K,9,2021

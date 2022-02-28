@@ -1,4 +1,4 @@
-player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,passing_att,passing_cmp,passing_yds,passing_td,passing_int,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Josh Allen,35.3,22.9,252.1,2.1,0.8,7.3,39.6,0.4,0.3,23.5,BUF,QB,15,2021
 Kyler Murray,32.2,22.1,268.2,1.9,0.6,7.3,31.8,0.3,0.2,22.7,ARI,QB,15,2021
 Justin Herbert,39.8,26.2,299.1,2.0,0.9,4.2,23.3,0.2,0.1,22.2,LAC,QB,15,2021

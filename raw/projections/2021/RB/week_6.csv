@@ -1,4 +1,4 @@
-player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,fumbles_lost,fantasy_points,team,position,week,year
+player,rushing_att,rushing_yds,rushing_td,receiving_rec,receiving_yds,receiving_td,lst,fantasy_points,team,position,week,year
 Kareem Hunt,18.0,83.6,0.8,3.7,32.9,0.2,0.1,17.5,CLE,RB,6,2021
 Derrick Henry,23.0,103.4,0.8,2.1,18.1,0.1,0.2,16.8,TEN,RB,6,2021
 Najee Harris,19.7,77.1,0.7,4.8,39.7,0.2,0.1,16.6,PIT,RB,6,2021
