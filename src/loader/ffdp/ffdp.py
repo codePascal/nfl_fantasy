@@ -1,10 +1,7 @@
 """
-Generates .csv file from yearly stats from
+Generates .csv file from weekly stats from
 https://github.com/fantasydatapros/data. The csv file contains the
-players name, the year and his team for that season.
-
-Note: it currently just assigns teams at is and without notice when
-players switched teams during the season.
+players name, the year and his team for that week and season.
 
 This script should only be run to generate the assignments and then
 use these.
@@ -12,48 +9,72 @@ use these.
 import os
 import pandas as pd
 
-from config.mapping import teams, team_changes_map
-from src.loader.fantasypros.stats import YearlyStats
+from config.mapping import team_changes_map, week_map
+from src.loader.fantasypros.snapcounts import WeeklySnapcounts
 
 
-class FFDPLoader:
+class TeamsLoader:
     def __init__(self, year):
         self.year = year
         self.filename = f"players_{self.year}.csv"
         self.dir = f"../raw/players"
 
-    def fetch_data(self):
-        df = self.load_data()
-        df = df.loc[:, ["Player", "Tm", "Pos"]]
-        df["Tm"] = df["Tm"].apply(self.fix_team)
-        df.columns = ["player", "team", "position"]
+    def get_data(self):
+        return pd.read_csv(os.path.join(self.dir, self.filename))
+
+    def fetch_all(self):
+        df = pd.DataFrame()
+        for week in range(1, week_map[self.year] + 1):
+            if self.year < 2021:
+                # use stats from fantasypros data github
+                weekly = pd.read_csv(f"../../data/weekly/{self.year}/week{week}.csv")
+                weekly = weekly.loc[:, ["Player", "Tm", "Pos"]]
+                weekly["Tm"] = weekly["Tm"].apply(self.fix_team)
+                weekly.columns = ["player", "team", "position"]
+                weekly["week"] = week
+                weekly["year"] = self.year
+            else:
+                # use snapcounts data
+                weekly = WeeklySnapcounts(week, self.year, refresh=True).get_data()
+                weekly = weekly.loc[:, ["player", "team", "position", "week", "year"]]
+                weekly["team"] = weekly["team"].apply(self.fix_team)
+            df = pd.concat([df, weekly])
         return df
 
-    def load_data(self):
-        return pd.read_csv(f"../../data/yearly/{self.year}.csv")
-
     def fix_team(self, team):
-        if team in teams:
-            # team has not changed its name since that year year
-            return team
+        # fix uncommon abbreviations
+        if team in team_changes_map["general"]:
+            # print("Updating", team)
+            team = team_changes_map["general"][team]
+
+        # iterate through the years
+        if self.year < 2016 and team == "LAR":
+            return "STL"
+        elif self.year >= 2016 and team == "STL":
+            return "LAR"
+        elif self.year < 2017 and team == "LAC":
+            return "SD"
+        elif self.year >= 2017 and team == "SD":
+            return "LAC"
+        elif self.year < 2020 and team == "LV":
+            return "OAK"
+        elif self.year >= 2020 and team == "OAK":
+            return "LV"
         else:
-            if team in team_changes_map["general"]:
-                # abbreviation is not consistent
-                return team_changes_map["general"][team]
-            elif self.year in team_changes_map and team in team_changes_map[self.year]:
-                # team changed its name in that year
-                return team_changes_map[self.year][team]
-            else:
-                # back then, the team was named that
-                return team
+            return team
+
+    def modify_data(self):
+        df = self.get_data()
+        df["team"] = df["team"].apply(self.fix_team)
+        df["test"] = "test"
+        return df
 
     def store_data(self):
-        self.fetch_data().to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
+        if os.path.exists(os.path.join(self.dir, self.filename)):
+            self.modify_data().to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
+        self.fetch_all().to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
 
-    def add_data(self):
-        df = pd.DataFrame()
-        for position in ["QB", "RB", "TE", "WR"]:
-            yearly = YearlyStats(position, self.year).get_data()
-            yearly = yearly.loc[:, ["player", "team", "position"]]
-            df = pd.concat([df, yearly])
-        df.to_csv(os.path.join(self.dir, self.filename), index=False, header=True)
+
+if __name__ == "__main__":
+    for year in list(week_map.keys()):
+        TeamsLoader(year).store_data()
