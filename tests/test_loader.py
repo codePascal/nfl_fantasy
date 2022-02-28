@@ -36,6 +36,7 @@ class TestFantasyProsLoader(unittest.TestCase):
 
         # test content
         self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(32, len(df.team.unique()))
 
         # test entries
         entries_should = [1, "Kyler Murray", 21, 32, 65.6, 289, 9.0, 4, 1, 2, 5, 20, 1, 0, 1, 34.6, 34.6, 99.3, "ARI",
@@ -55,6 +56,7 @@ class TestFantasyProsLoader(unittest.TestCase):
 
         # test content
         self.assertEqual(1, len(df.position.unique()))
+        self.assertEqual(32, len(df.team.unique()))
 
         # test entries
         entries_should = [1, "Josh Allen", 409, 646, 63.3, 4407, 6.8, 36, 15, 26, 122, 763, 6, 3, 17, 417.7, 24.6,
