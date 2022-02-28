@@ -4,6 +4,8 @@ fantasy pros.
 
 A word on teams: somehow the statistics are updated recursively. E.g.
 if a player retired, all stats of that player will have (FA).
+A workaround is used to overcome this and use other stats to update
+the team accordingly.
 
 If this script is run, all stats for denoted year range are stored
 or refreshed if already available offline.
@@ -13,13 +15,10 @@ import pandas as pd
 
 from abc import ABC
 
-
 from config.fantasypros import stats_type
 from config.mapping import week_map
+from src.loader.ffdp.ffdp import TeamsLoader
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
-
-
-# TODO fix teams -> take snapcount records?
 
 
 class Stats(Loader, ABC):
@@ -44,59 +43,9 @@ class Stats(Loader, ABC):
                    'FPTS', 'FPTS/G', 'ROST']}
         self.original_columns = self.original_columns_dict[self.position]
 
-    def clean_data(self, df):
-        """ Cleans the stats' data. """
-        # map column names
-        df = self.map_columns(df)
-
-        # transform team, player and rost
-        df["team"] = df.apply(get_team, axis=1)
-        df["player"] = df["player"].apply(transform_name)
-        df["rost"] = df["rost"].apply(transform_rost)
-
-        # clean up specific columns
-        fix_team = False
-        if self.position == "DST":
-            pass
-        elif self.position == "K":
-            pass
-        elif self.position == "QB":
-            df["passing_yds"] = df["passing_yds"].apply(self.fix_thousands)
-            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
-            fix_team = True
-        elif self.position == "RB":
-            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
-            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
-            fix_team = True
-        elif self.position == "TE":
-            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
-            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
-            fix_team = True
-        elif self.position == "WR":
-            df["receiving_yds"] = df["receiving_yds"].apply(self.fix_thousands)
-            df["rushing_yds"] = df["rushing_yds"].apply(self.fix_thousands)
-            fix_team = True
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        if fix_team:
-            # merge with player info of that year
-            df = pd.merge(df, pd.read_csv(f"../raw/players/players_{self.year}.csv"),
-                          how="inner", on=["player", "position"])
-
-            # take the team the player was in the end of the season
-            df.rename(columns={"team_x": "team"}, inplace=True)
-            df["team"] = df["team_y"]
-            df.drop(["team_y"], axis=1, inplace=True)
-
-            # check team assignment
-            for _, player in df.iterrows():
-                if player["team"] == "FA" or player["team"] is np.nan:
-                    print(self.year, player["player"], player["team"])
-
-        return df.astype(self.mapping)
+        # TODO fix kicker and defense team assignment
+        if self.position == "K" or self.position == "DST":
+            raise NotImplementedError
 
     def restore_data(self, df):
         """ Restores data specifically for stats since some columns
@@ -121,6 +70,30 @@ class WeeklyStats(Stats, ABC):
         self.dir = f"../raw/weekly_stats/{self.year}/{self.position.upper()}"
         self.url = f"https://www.fantasypros.com/nfl/stats/{self.position.lower()}.php?year={self.year}&week={self.week}&range=week"
 
+    def clean_data(self, df):
+        """ Cleans the stats' data. """
+        # map column names
+        df = self.map_columns(df)
+
+        # fix a thousand notations
+        for column in df.columns.to_list():
+            df[column] = df[column].apply(self.fix_thousands)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        # transform team, player and rost
+        df["player"] = df["player"].apply(transform_name)
+        df["rost"] = df["rost"].apply(transform_rost)
+
+        # load player info and merge
+        teams = TeamsLoader(self.year).get_data()
+        teams = teams.loc[:, ["player", "team", "week", "year"]]
+        df = pd.merge(df, teams, how="inner", on=["player", "week", "year"])
+
+        return df.astype(self.mapping)
+
 
 class YearlyStats(Stats, ABC):
     def __init__(self, position, year, refresh=False):
@@ -130,6 +103,28 @@ class YearlyStats(Stats, ABC):
         self.filename = f"{position.upper()}_{year}.csv"
         self.dir = f"../raw/yearly_stats/{year}/"
         self.url = f"https://www.fantasypros.com/nfl/stats/{position.lower()}.php?year={year}&range=full"
+
+    def clean_data(self, df):
+        """ Cleans the stats' data. """
+        # map column names
+        df = self.map_columns(df)
+
+        # fix a thousand notations
+        for column in df.columns.to_list():
+            df[column] = df[column].apply(self.fix_thousands)
+
+        # add specified data to dataframe
+        for key, val in self.to_add.items():
+            df[key] = val
+
+        # transform team, player and rost
+        df["player"] = df["player"].apply(transform_name)
+        df["rost"] = df["rost"].apply(transform_rost)
+
+        # TODO fix team assignment -> what to do if player changed his team during the season
+        df["team"] = np.nan
+
+        return df.astype(self.mapping)
 
 
 def get_team(player):
@@ -152,7 +147,7 @@ def transform_rost(rost):
 
 def store_all():
     """ Stores all stats for given year range. """
-    for position in ["DST", "K", "QB", "RB", "TE", "WR"]:
+    for position in ["QB", "RB", "TE", "WR"]:
         for year in week_map.keys():
             YearlyStats(position, year, refresh=True).store_data()
             for week in range(1, week_map[year] + 1):
@@ -160,4 +155,5 @@ def store_all():
 
 
 if __name__ == "__main__":
-    store_all()
+    # store_all()
+    YearlyStats("QB", 2020, refresh=True).store_data()
