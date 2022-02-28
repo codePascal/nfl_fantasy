@@ -2,6 +2,9 @@
 Implements the data loading for weekly and yearly stats from
 fantasy pros.
 
+A word on teams: somehow the statistics are updated recursively. E.g.
+if a player retired, all stats of that player will have (FA).
+
 If this script is run, all stats for denoted year range are stored
 or refreshed if already available offline.
 """
@@ -14,6 +17,9 @@ from abc import ABC
 from config.fantasypros import stats_type
 from config.mapping import week_map
 from src.loader.fantasypros.fantasypros import FantasyProsLoader as Loader
+
+
+# TODO fix teams -> take snapcount records?
 
 
 class Stats(Loader, ABC):
