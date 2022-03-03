@@ -1,4 +1,4 @@
-player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,fumbles_lost,fantasy_points,team,position,week,year
+player,receiving_rec,receiving_yds,receiving_td,rushing_att,rushing_yds,rushing_td,lst,fantasy_points,team,position,week,year
 Tyreek Hill,6.5,93.8,0.8,0.8,4.6,0.0,0.1,14.6,KC,WR,1,2021
 Davante Adams,7.5,93.5,0.8,0.0,0.0,0.0,0.1,14.1,GB,WR,1,2021
 Calvin Ridley,6.0,89.0,0.7,0.3,1.5,0.0,0.1,13.1,ATL,WR,1,2021
