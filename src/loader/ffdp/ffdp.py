@@ -39,7 +39,6 @@ class TeamsLoader:
                 weekly = pd.read_csv(
                     f"https://raw.githubusercontent.com/fantasydatapros/data/master/weekly/{self.year}/week{week}.csv")
                 weekly = weekly.loc[:, ["Player", "Tm", "Pos"]]
-                weekly["Tm"] = weekly["Tm"].apply(self.fix_team)
                 weekly.columns = ["player", "team", "position"]
                 weekly["week"] = week
                 weekly["year"] = self.year
@@ -47,8 +46,15 @@ class TeamsLoader:
                 # use snapcounts data
                 weekly = pd.read_csv(f"../raw/weekly_snapcounts/{self.year}/week_{week}.csv", header=0)
                 weekly = weekly.loc[:, ["player", "team", "position", "week", "year"]]
-                weekly["team"] = weekly["team"].apply(self.fix_team)
+
+            # fix teams and positions
+            weekly["team"] = weekly["team"].apply(self.fix_team)
             weekly["position"] = weekly.apply(self.fix_position, axis=1)
+
+            # fix duplicates
+            duplicates = weekly.duplicated(keep="first")
+            weekly = weekly.loc[~duplicates, :]
+
             df = pd.concat([df, weekly])
         return df
 
