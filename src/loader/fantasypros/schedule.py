@@ -55,8 +55,8 @@ class Schedule(Loader, ABC):
 
 def get_opponent(game):
     """ Returns the opponent of the game on the view of the team. """
-    if game == "BYE":
-        return game
+    if game == "BYE" or game == '-':
+        return "BYE"
     elif game.startswith("@"):
         return game[1:]
     elif game.startswith("vs"):
