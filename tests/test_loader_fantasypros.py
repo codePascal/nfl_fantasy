@@ -1,10 +1,11 @@
-""" Implements quick and dirty tests for the data loading. """
+"""
+Implements quick and dirty tests for the data loading for fantasy
+pros.
+"""
 import unittest
 import numpy as np
 
 from config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
-from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
-from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from config.mapping import teams, week_map
 
 from src.loader.fantasypros.points_allowed import PointsAllowed
@@ -13,19 +14,14 @@ from src.loader.fantasypros.schedule import Schedule
 from src.loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
 from src.loader.fantasypros.stats import WeeklyStats, YearlyStats
 
-from src.loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense, DownsDefense
-from src.loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, DownsOffense
-
 
 # TODO make clean with test functions
 
+SKIP = True
+
 
 class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
-    @unittest.skip
-    def test_general(self):
-        pass
-
-    @unittest.skip
+    @unittest.skipIf(SKIP, "extensive test")
     def test_weekly_stats_loading(self):
         for position in ["QB", "RB", "WR", "TE"]:
             for year in week_map.keys():
@@ -117,11 +113,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
 
 
 class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
-    @unittest.skip
-    def test_general(self):
-        pass
-
-    @unittest.skip
+    @unittest.skipIf(SKIP, "extensive test")
     def test_yearly_stats_loading(self):
         for position in ["QB", "RB", "WR", "TE"]:
             for year in week_map.keys():
@@ -202,11 +194,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
 
 
 class TestFantasyProsSnapcountsLoader(unittest.TestCase):
-    @unittest.skip
-    def test_general(self):
-        pass
-
-    @unittest.skip
+    @unittest.skipIf(SKIP, "extensive test")
     def test_weekly_snapcounts_loading(self):
         for year in week_map.keys():
             for week in range(1, week_map[year] + 1):
@@ -217,15 +205,6 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
                 self.assertEqual(1, len(df.week.unique()))
                 self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
-    @unittest.skip
-    def test_yearly_snapcounts_loading(self):
-        for year in week_map.keys():
-            df = YearlySnapcounts(year, refresh=True).get_data()
-
-            self.assertListEqual(list(snapcounts_type.keys()) + ["year"], df.columns.to_list())
-
-            self.assertEqual(1, len(df.week.unique()))
-            self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
     def test_weekly_snapcounts(self):
         df = WeeklySnapcounts(1, 2021, refresh=True).get_data()
@@ -244,6 +223,16 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
         self.assertListEqual(
             ['Mike Strachan', 'WR', 'IND', 1.0, 18.0, 18.0, 24.0, 0.0, 11.0, 11.0, 11.0, 2.6, 14.4, 1, 2021],
             df.iloc[-1, :].to_list())
+
+    @unittest.skipIf(SKIP, "extensive test")
+    def test_yearly_snapcounts_loading(self):
+        for year in week_map.keys():
+            df = YearlySnapcounts(year, refresh=True).get_data()
+
+            self.assertListEqual(list(snapcounts_type.keys()) + ["year"], df.columns.to_list())
+
+            self.assertEqual(1, len(df.week.unique()))
+            self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
     def test_yearly_snapcounts(self):
         df = YearlySnapcounts(2021, refresh=True).get_data()
@@ -264,28 +253,47 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
 
 
 class TestFantasyProsScheduleLoader(unittest.TestCase):
+    @unittest.skipIf(SKIP, "extensive test")
+    def test_schedule_loading(self):
+        for year in week_map.keys():
+            df = Schedule(year).get_data()
+
+            self.assertEqual(32 * week_map[year], df.shape[0])
+            self.assertEqual(5, df.shape[1])
+
+            self.assertEqual(32, len(df.team.unique()))
+            self.assertEqual(33, len(df.opponent.unique()))
+            self.assertEqual(week_map[year], len(df.week.unique()))
+
     def test_schedule(self):
         df = Schedule(2021).get_data()
 
-        # test shape
         self.assertEqual(32 * 18, df.shape[0])
         self.assertEqual(5, df.shape[1])
 
-        # test column names
-        cols_should = ["team", "opponent", "week", "home", "year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
+        self.assertListEqual(["team", "opponent", "week", "home", "year"], df.columns.to_list())
 
-        # test content
         self.assertEqual(32, len(df.team.unique()))
         self.assertEqual(33, len(df.opponent.unique()))
         self.assertEqual(18, len(df.week.unique()))
 
-        # test entries
-        entries_should = ["ARI", "TEN", 1, False, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+        self.assertListEqual(["ARI", "TEN", 1, False, 2021], df.iloc[0, :].to_list())
 
 
 class TestFantasyProsProjectionsLoader(unittest.TestCase):
+    @unittest.skipIf(SKIP, "extensive test")
+    def test_predictions_loading(self):
+        for position in ["QB", "RB", "WR", "TE"]:
+            for week in range(1, week_map[2021] + 1):
+                df = Projections(position, week, refresh=True).get_data()
+
+                self.assertListEqual(list(stats_type[position].keys()) + ["position", "week", "year", "team"],
+                                     df.columns.to_list())
+
+                self.assertEqual(32, len(df.team.unique()))
+                self.assertEqual(1, len(df.week.unique()))
+                self.assertEqual(1, len(df.position.unique()))
+
     def test_predictions_qb(self):
         df = Projections("QB", 1, refresh=True).get_data()
 
@@ -362,166 +370,15 @@ class TestFantasyProsPointsAllowedLoader(unittest.TestCase):
     def test_points_allowed(self):
         df = PointsAllowed(2020, refresh=True).get_data()
 
-        # test shape
         self.assertEqual(32, df.shape[0])
         self.assertEqual(14, df.shape[1])
 
-        # test column names
-        cols_should = list(pa_type.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
         self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
 
-        # test entries
-        entries_should = ["ARI", 14, 19.7, 11, 19.5, 19, 22.5, 29, 6.2, 16, 7.9, 21, 4.7, 2020]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+        self.assertListEqual(list(pa_type.keys()) + ["year"], df.columns.to_list())
 
-
-class TestEspnLoader(unittest.TestCase):
-    def test_defense_passing(self):
-        df = PassingDefense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(15, df.shape[1])
-
-        # test column names
-        cols_should = list(defense_passing_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["BUF", 17, 297, 530, 56.0, 2771, 5.7, 163.0, 73, 12, 19, 42, 276, 65.3, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_defense_rushing(self):
-        df = RushingDefense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(11, df.shape[1])
-
-        # test column names
-        cols_should = list(defense_rushing_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["BAL", 17, 378, 1436, 3.8, 84.5, 66, 13, 7, 1, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_defense_receiving(self):
-        df = ReceivingDefense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(11, df.shape[1])
-
-        # test column names
-        cols_should = list(defense_receiving_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["BUF", 17, 297, 3047, 10.3, 179.2, 73, 12, 9, 5, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_offense_passing(self):
-        df = PassingOffense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(15, df.shape[1])
-
-        # test column names
-        cols_should = list(offense_passing_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["TB", 17, 492, 731, 67.3, 5229, 7.4, 307.6, 62, 43, 12, 23, 154, 101.6, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_offense_rushing(self):
-        df = RushingOffense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(11, df.shape[1])
-
-        # test column names
-        cols_should = list(offense_rushing_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["PHI", 17, 550, 2715, 4.9, 159.7, 38, 25, 17, 3, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_offense_receiving(self):
-        df = ReceivingOffense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(11, df.shape[1])
-
-        # test column names
-        cols_should = list(offense_receiving_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["TB", 17, 492, 5383, 10.9, 316.6, 62, 43, 7, 4, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_defense_downs(self):
-        df = DownsDefense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(15, df.shape[1])
-
-        # test column names
-        cols_should = list(defense_downs_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["BUF", 17, 285, 108, 138, 39, 66, 214, 30.8, 16, 35, 45.7, 102, 844, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
-
-    def test_offense_downs(self):
-        df = DownsOffense(2021, "REG", refresh=True).get_data()
-
-        # test shape
-        self.assertEqual(32, df.shape[0])
-        self.assertEqual(15, df.shape[1])
-
-        # test column names
-        cols_should = list(offense_downs_map.keys()) + ["year"]
-        self.assertListEqual(cols_should, df.columns.to_list())
-
-        # test content
-        self.assertEqual(np.sort(teams).tolist(), np.sort(df.iloc[:, 0].to_list()).tolist())
-
-        # test entries
-        entries_should = ["KC", 17, 419, 119, 267, 33, 107, 205, 52.2, 10, 15, 66.7, 111, 925, 2021]
-        self.assertListEqual(entries_should, df.iloc[0, :].to_list())
+        self.assertListEqual(
+            ["ARI", 14, 19.7, 11, 19.5, 19, 22.5, 29, 6.2, 16, 7.9, 21, 4.7, 2020], df.iloc[0, :].to_list())
 
 
 if __name__ == "__main__":
