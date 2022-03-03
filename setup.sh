@@ -23,5 +23,6 @@ echo $PWD >> venv/lib/python3.8/site-packages/search_path.pth
 # add build directory
 mkdir $PWD/build
 
-# run tests
-
+# symlink and run tests
+ln -s $PWD/tests $PWD/build
+python -m unittest
