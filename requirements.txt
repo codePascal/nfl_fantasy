@@ -1,0 +1,11 @@
+##### Requirements without Version Specifiers #####
+beautifulsoup4
+numpy
+pandas
+requests
+statsmodels
+matplotlib
+tqdm
+
+##### Requirements with Version Specifiers #####
+# pdmarima TODO version
