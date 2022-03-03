@@ -1,0 +1,45 @@
+""" Implements quick and dirty tests for the data loading. """
+import unittest
+import numpy as np
+
+from config.mapping import week_map, teams
+from src.loader.ffdp.ffdp import TeamsLoader
+
+
+class TestTeamsLoader(unittest.TestCase):
+    def test_teams(self):
+        for year in week_map.keys():
+            df = TeamsLoader(year).get_data()
+            self.assertListEqual(list(np.sort(teams)), list(np.sort(df.team.unique())))
+
+    def test_players_qb(self):
+        for year in week_map.keys():
+            df = TeamsLoader(year).get_data()
+            for week in range(1, week_map[year] + 1):
+                df_mod = df.loc[(df["week"] == week) & df["position"] == "QB"]
+                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+
+    def test_players_rb(self):
+        for year in week_map.keys():
+            df = TeamsLoader(year).get_data()
+            for week in range(1, week_map[year] + 1):
+                df_mod = df.loc[(df["week"] == week) & df["position"] == "RB"]
+                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+
+    def test_players_te(self):
+        for year in week_map.keys():
+            df = TeamsLoader(year).get_data()
+            for week in range(1, week_map[year] + 1):
+                df_mod = df.loc[(df["week"] == week) & df["position"] == "TE"]
+                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+
+    def test_players_wr(self):
+        for year in week_map.keys():
+            df = TeamsLoader(year).get_data()
+            for week in range(1, week_map[year] + 1):
+                df_mod = df.loc[(df["week"] == week) & df["position"] == "WR"]
+                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+
+
+if __name__ == "__main__":
+    unittest.main()
