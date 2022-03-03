@@ -89,7 +89,7 @@ class WeeklyStats(Stats, ABC):
 
         # load player info and merge
         teams = TeamsLoader(self.year).get_data()
-        teams = teams.loc[:, ["player", "team", "week", "year"]]
+        teams = teams.loc[teams["position"] == self.position, ["player", "team", "week", "year"]]
         df = pd.merge(df, teams, how="inner", on=["player", "week", "year"])
 
         return df.astype(self.mapping)
@@ -155,4 +155,5 @@ def store_all():
 
 
 if __name__ == "__main__":
-    store_all()
+    # store_all()
+    WeeklyStats("QB", 1, 2009, refresh=True).store_data()
