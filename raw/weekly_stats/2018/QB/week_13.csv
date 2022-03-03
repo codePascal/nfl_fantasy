@@ -1,7 +1,7 @@
 rank,player,passing_cmp,passing_att,passing_cmppct,passing_yds,passing_avg,passing_td,passing_int,sacked,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,position,week,year,team
 2.0,Josh Allen,18.0,33.0,54.5,231.0,7.0,2.0,2.0,2.0,9.0,135.0,0.0,0.0,1.0,28.7,28.7,100.0,QB,13,2018,BUF
 3.0,Russell Wilson,11.0,17.0,64.7,185.0,10.9,4.0,0.0,3.0,4.0,14.0,0.0,0.0,1.0,24.8,24.8,90.4,QB,13,2018,SEA
-4.0,Derek Carr,29.0,38.0,76.3,285.0,7.5,3.0,0.0,3.0,1.0,8.0,0.0,0.0,1.0,24.2,24.2,58.1,QB,13,2018,OAK
+4.0,Derek Carr,29.0,38.0,76.3,285.0,7.5,3.0,0.0,3.0,1.0,8.0,0.0,0.0,1.0,24.2,24.2,58.1,QB,13,2018,LV
 5.0,Philip Rivers,26.0,36.0,72.2,299.0,8.3,2.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,24.0,24.0,20.6,QB,13,2018,LAC
 6.0,Jameis Winston,20.0,30.0,66.7,249.0,8.3,2.0,0.0,4.0,5.0,48.0,0.0,0.0,1.0,22.8,22.8,5.2,QB,13,2018,TB
 7.0,Nick Mullens,30.0,48.0,62.5,414.0,8.6,2.0,1.0,3.0,2.0,1.0,0.0,0.0,1.0,22.7,22.7,0.3,QB,13,2018,SF

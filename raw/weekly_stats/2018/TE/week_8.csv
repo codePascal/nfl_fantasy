@@ -1,7 +1,7 @@
 rank,player,receiving_rec,receiving_tgt,receiving_yds,receiving_avg,receiving_long,receiving_20p,receiving_td,rushing_att,rushing_yds,rushing_td,lst,games,fantasy_points,fantasy_points_per_game,rost,position,week,year,team
 1.0,Jordan Thomas,4.0,4.0,29.0,7.3,13.0,0.0,2.0,0.0,0.0,0.0,0.0,1.0,14.9,14.9,0.0,TE,8,2018,HOU
 2.0,Travis Kelce,6.0,10.0,79.0,13.2,18.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,13.9,13.9,100.0,TE,8,2018,KC
-3.0,Jared Cook,4.0,5.0,74.0,18.5,30.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,13.4,13.4,50.2,TE,8,2018,OAK
+3.0,Jared Cook,4.0,5.0,74.0,18.5,30.0,2.0,1.0,0.0,0.0,0.0,0.0,1.0,13.4,13.4,50.2,TE,8,2018,LV
 4.0,Jack Doyle,6.0,7.0,70.0,11.7,17.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,13.0,13.0,2.2,TE,8,2018,IND
 5.0,O.J. Howard,4.0,4.0,68.0,17.0,20.0,1.0,1.0,0.0,0.0,0.0,0.0,1.0,12.8,12.8,1.2,TE,8,2018,TB
 6.0,Greg Olsen,4.0,4.0,56.0,14.0,17.0,0.0,1.0,0.0,0.0,0.0,0.0,1.0,11.6,11.6,7.0,TE,8,2018,CAR
