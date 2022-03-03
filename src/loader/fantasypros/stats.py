@@ -155,5 +155,4 @@ def store_all():
 
 
 if __name__ == "__main__":
-    # store_all()
-    WeeklyStats("QB", 1, 2009, refresh=True).store_data()
+    store_all()
