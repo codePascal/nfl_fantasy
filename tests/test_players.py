@@ -1,4 +1,4 @@
-""" Implements quick and dirty tests for the data loading. """
+""" Implements quick and dirty tests for the players loading. """
 import unittest
 import numpy as np
 
@@ -16,29 +16,33 @@ class TestTeamsLoader(unittest.TestCase):
         for year in week_map.keys():
             df = TeamsLoader(year).get_data()
             for week in range(1, week_map[year] + 1):
-                df_mod = df.loc[(df["week"] == week) & df["position"] == "QB"]
-                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+                df_mod = df.loc[(df["week"] == week) & (df["position"] == "QB")]
+                df_dropped = df_mod.drop_duplicates()
+                self.assertEqual(len(df_mod), len(df_dropped), msg=f"year:{year}, week:{week}")
 
     def test_players_rb(self):
         for year in week_map.keys():
             df = TeamsLoader(year).get_data()
             for week in range(1, week_map[year] + 1):
-                df_mod = df.loc[(df["week"] == week) & df["position"] == "RB"]
-                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+                df_mod = df.loc[(df["week"] == week) & (df["position"] == "RB")]
+                df_dropped = df_mod.drop_duplicates()
+                self.assertEqual(len(df_mod), len(df_dropped), msg=f"year:{year}, week:{week}")
 
     def test_players_te(self):
         for year in week_map.keys():
             df = TeamsLoader(year).get_data()
             for week in range(1, week_map[year] + 1):
-                df_mod = df.loc[(df["week"] == week) & df["position"] == "TE"]
-                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+                df_mod = df.loc[(df["week"] == week) & (df["position"] == "TE")]
+                df_dropped = df_mod.drop_duplicates()
+                self.assertEqual(len(df_mod), len(df_dropped), msg=f"year:{year}, week:{week}")
 
     def test_players_wr(self):
         for year in week_map.keys():
             df = TeamsLoader(year).get_data()
             for week in range(1, week_map[year] + 1):
-                df_mod = df.loc[(df["week"] == week) & df["position"] == "WR"]
-                self.assertEqual(len(df_mod), len(df_mod.player.unique()))
+                df_mod = df.loc[(df["week"] == week) & (df["position"] == "WR")]
+                df_dropped = df_mod.drop_duplicates()
+                self.assertEqual(len(df_mod), len(df_dropped), msg=f"year:{year}, week:{week}")
 
 
 if __name__ == "__main__":
