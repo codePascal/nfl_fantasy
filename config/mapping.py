@@ -58,42 +58,23 @@ teams = list(team_map.values())
 
 # map team changes: https://de.wikipedia.org/wiki/National_Football_League#Mannschaften
 team_changes_map = {
-    "general": {
-        "JAX": "JAC",
-        "GNB": "GB",
-        "NWE": "NE",
-        "SFO": "SF",
-        "NOR": "NO",
-        "KAN": "KC",
-        "TAM": "TB",
-        "2TM": "CIN",  # TODO verify
-        "HTX": "HOU",
-        "CLT": "IND",
-        "RAV": "BAL",
-        "CRD": "ARI",
-        "OTI": "TEN",
-        "RAI": "LV",  # changed team name in 2020
-        "SDG": "LAC",  # changed team name in 2017
-        "RAM": "LAR",  # changed team name in 2016
-    },
-    2022: {},
-    2021: {},
-    2020: {
-        "OAK": "LV",  # team change in 2020
-    },
-    2019: {},
-    2018: {},
-    2017: {
-        "SD": "LAC",  # team change in 2017
-    },
-    2016: {
-        "STL": "LAR",  # team change in 2016
-    },
-    2015: {},
-    2014: {},
-    2013: {},
-    2012: {},
-    2011: {},
-    2010: {},
-    2009: {},
+    "JAX": "JAC",
+    "GNB": "GB",
+    "NWE": "NE",
+    "SFO": "SF",
+    "NOR": "NO",
+    "KAN": "KC",
+    "TAM": "TB",
+    "2TM": "CIN",  # TODO verify
+    "HTX": "HOU",
+    "CLT": "IND",
+    "RAV": "BAL",
+    "CRD": "ARI",
+    "OTI": "TEN",
+    "RAI": "LV",  # changed team name in 2020
+    "OAK": "LV",  # changed team name in 2020
+    "SD": "LAC",  # changed team name in 2017
+    "SDG": "LAC",  # changed team name in 2017
+    "STL": "LAR",  # changed team name in 2016
+    "RAM": "LAR",  # changed team name in 2016
 }

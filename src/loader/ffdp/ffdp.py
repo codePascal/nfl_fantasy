@@ -31,8 +31,9 @@ class TeamsLoader:
         df = pd.DataFrame()
         for week in range(1, week_map[self.year] + 1):
             if self.year < 2021:
-                # use stats from fantasypros data github
-                weekly = pd.read_csv(f"../../data/weekly/{self.year}/week{week}.csv")
+                # use stats from github
+                weekly = pd.read_csv(
+                    f"https://raw.githubusercontent.com/fantasydatapros/data/master/weekly/{self.year}/week{week}.csv")
                 weekly = weekly.loc[:, ["Player", "Tm", "Pos"]]
                 weekly["Tm"] = weekly["Tm"].apply(self.fix_team)
                 weekly.columns = ["player", "team", "position"]
@@ -46,34 +47,18 @@ class TeamsLoader:
             df = pd.concat([df, weekly])
         return df
 
-    def fix_team(self, team):
+    @staticmethod
+    def fix_team(team):
         """ Fixes teams to the state of the specific year. """
         # fix uncommon abbreviations
-        if team in team_changes_map["general"]:
-            # print("Updating", team)
-            team = team_changes_map["general"][team]
-
-        # iterate through the years
-        if self.year < 2016 and team == "LAR":
-            return "STL"
-        elif self.year >= 2016 and team == "STL":
-            return "LAR"
-        elif self.year < 2017 and team == "LAC":
-            return "SD"
-        elif self.year >= 2017 and team == "SD":
-            return "LAC"
-        elif self.year < 2020 and team == "LV":
-            return "OAK"
-        elif self.year >= 2020 and team == "OAK":
-            return "LV"
-        else:
-            return team
+        if team in team_changes_map:
+            return team_changes_map[team]
+        return team
 
     def modify_data(self):
         """ If data is already stored, modifies only teams. """
         df = self.get_data()
         df["team"] = df["team"].apply(self.fix_team)
-        df["test"] = "test"
         return df
 
     def store_data(self):

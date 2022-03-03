@@ -22,7 +22,7 @@ Mitchell Trubisky,CHI,QB,1,2018
 Eli Manning,NYG,QB,1,2018
 Blake Bortles,JAC,QB,1,2018
 Deshaun Watson,HOU,QB,1,2018
-Derek Carr,OAK,QB,1,2018
+Derek Carr,LV,QB,1,2018
 Ben Roethlisberger,PIT,QB,1,2018
 Sam Bradford,ARI,QB,1,2018
 Matt Ryan,ATL,QB,1,2018
@@ -67,7 +67,7 @@ Matt Breida,SF,RB,1,2018
 Kenneth Dixon,BAL,RB,1,2018
 Latavius Murray,MIN,RB,1,2018
 Leonard Fournette,JAC,RB,1,2018
-Marshawn Lynch,OAK,RB,1,2018
+Marshawn Lynch,LV,RB,1,2018
 Dalvin Cook,MIN,HB,1,2018
 Jordan Wilkins,IND,RB,1,2018
 Austin Ekeler,LAC,RB,1,2018
@@ -84,10 +84,10 @@ Derrick Henry,TEN,RB,1,2018
 Tarik Cohen,CHI,RB,1,2018
 Jeremy Hill,NE,RB,1,2018
 Chase Edmonds,ARI,RB,1,2018
-Jalen Richard,OAK,RB,1,2018
+Jalen Richard,LV,RB,1,2018
 LeSean McCoy,BUF,RB,1,2018
 Nick Chubb,CLE,RB,1,2018
-Doug Martin,OAK,RB,1,2018
+Doug Martin,LV,RB,1,2018
 Theo Riddick,DET,RB,1,2018
 Travis Benjamin,LAC,WR,1,2018
 Tevin Coleman,ATL,RB,1,2018
@@ -102,7 +102,7 @@ Alex Collins,BAL,RB,1,2018
 Cordarrelle Patterson,NE,WR,1,2018
 Julio Jones,ATL,WR,1,2018
 Darren Sproles,PHI,RB,1,2018
-Amari Cooper,OAK,WR,1,2018
+Amari Cooper,LV,WR,1,2018
 Mike Gillislee,NO,RB,1,2018
 Christine Michael,IND,RB,1,2018
 Stefon Diggs,MIN,WR,1,2018
@@ -138,7 +138,7 @@ Giovani Bernard,CIN,HB,1,2018
 LeGarrette Blount,DET,RB,1,2018
 DeAndre Hopkins,HOU,WR,1,2018
 Robby Anderson,NYJ,WR,1,2018
-Jared Cook,OAK,TE,1,2018
+Jared Cook,LV,TE,1,2018
 Michael Thomas,NO,WR,1,2018
 Mike Evans,TB,WR,1,2018
 DeSean Jackson,TB,WR,1,2018
@@ -214,7 +214,7 @@ Taylor Gabriel,CHI,WR,1,2018
 Austin Seferian-Jenkins,JAC,TE,1,2018
 Austin Hooper,ATL,TE,1,2018
 Logan Thomas,BUF,TE,1,2018
-Jordy Nelson,OAK,WR,1,2018
+Jordy Nelson,LV,WR,1,2018
 Jarius Wright,CAR,WR,1,2018
 James Develin,NE,FB,1,2018
 Paul Richardson,WAS,WR,1,2018
@@ -222,7 +222,7 @@ Pierre Garcon,SF,WR,1,2018
 Virgil Green,LAC,TE,1,2018
 Sammy Watkins,KC,WR,1,2018
 Austin Carr,NO,WR,1,2018
-Derek Carrier,OAK,TE,1,2018
+Derek Carrier,LV,TE,1,2018
 Allen Hurns,DAL,WR,1,2018
 Ricky Seals-Jones,ARI,TE,1,2018
 Jason Croom,BUF,TE,1,2018
@@ -254,7 +254,7 @@ Jordan Akins,HOU,TE,1,2018
 Josh Doctson,WAS,WR,1,2018
 Mike Gesicki,MIA,TE,1,2018
 Chris Hogan,NE,WR,1,2018
-Seth Roberts,OAK,WR,1,2018
+Seth Roberts,LV,WR,1,2018
 Kyle Rudolph,MIN,TE,1,2018
 Nick Vannett,SEA,TE,1,2018
 Kelvin Benjamin,BUF,WR,1,2018
@@ -300,7 +300,7 @@ Kirk Cousins,MIN,QB,2,2018
 Jimmy Garoppolo,SF,QB,2,2018
 Matt Ryan,ATL,QB,2,2018
 Drew Brees,NO,QB,2,2018
-Derek Carr,OAK,QB,2,2018
+Derek Carr,LV,QB,2,2018
 Blake Bortles,JAC,QB,2,2018
 Jared Goff,LAR,QB,2,2018
 Andy Dalton,CIN,QB,2,2018
@@ -333,7 +333,7 @@ Ezekiel Elliott,DAL,RB,2,2018
 Austin Ekeler,LAC,RB,2,2018
 Kareem Hunt,KC,RB,2,2018
 Lamar Miller,HOU,RB,2,2018
-Marshawn Lynch,OAK,RB,2,2018
+Marshawn Lynch,LV,RB,2,2018
 Jordan Wilkins,IND,RB,2,2018
 Jamaal Williams,GB,RB,2,2018
 T.J. Yeldon,JAC,RB,2,2018
@@ -370,7 +370,7 @@ Wendell Smallwood,PHI,RB,2,2018
 Giovani Bernard,CIN,HB,2,2018
 Frank Gore,MIA,RB,2,2018
 Chris Carson,SEA,RB,2,2018
-Doug Martin,OAK,RB,2,2018
+Doug Martin,LV,RB,2,2018
 Jay Ajayi,PHI,RB,2,2018
 Peyton Barber,TB,RB,2,2018
 Rex Burkhead,NE,WR,2,2018
@@ -407,7 +407,7 @@ Alex Armah,CAR,RB,2,2018
 Brandon Wilds,JAC,RB,2,2018
 Mike Davis,SEA,RB,2,2018
 Duke Johnson,CLE,RB,2,2018
-Jalen Richard,OAK,RB,2,2018
+Jalen Richard,LV,RB,2,2018
 Calvin Ridley,ATL,WR,2,2018
 Spencer Ware,KC,RB,2,2018
 Nelson Agholor,PHI,WR,2,2018
@@ -434,7 +434,7 @@ Adam Thielen,MIN,WR,2,2018
 DeSean Jackson,TB,WR,2,2018
 JuJu Smith-Schuster,PIT,WR,2,2018
 Keelan Cole,JAC,WR,2,2018
-Amari Cooper,OAK,WR,2,2018
+Amari Cooper,LV,WR,2,2018
 Will Fuller,HOU,WR,2,2018
 DeAndre Hopkins,HOU,WR,2,2018
 Travis Kelce,KC,TE,2,2018
@@ -481,7 +481,7 @@ Jordan Reed,WAS,TE,2,2018
 Marvin Jones,DET,WR,2,2018
 Willie Snead,BAL,WR,2,2018
 Odell Beckham,NYG,WR,2,2018
-Jared Cook,OAK,TE,2,2018
+Jared Cook,LV,TE,2,2018
 Jake Butt,DEN,TE,2,2018
 Tyrell Williams,LAC,WR,2,2018
 Rashard Higgins,CLE,WR,2,2018
@@ -490,7 +490,7 @@ Bruce Ellington,HOU,WR,2,2018
 C.J. Uzomah,CIN,TE,2,2018
 Phillip Dorsett,NE,WR,2,2018
 Brandon Marshall,SEA,WR,2,2018
-Seth Roberts,OAK,WR,2,2018
+Seth Roberts,LV,WR,2,2018
 Will Dissly,SEA,TE,2,2018
 Chris Hogan,NE,WR,2,2018
 Cody Latimer,NYG,WR,2,2018
@@ -504,13 +504,13 @@ Torrey Smith,CAR,WR,2,2018
 Deonte Thompson,DAL,WR,2,2018
 Danny Amendola,MIA,WR,2,2018
 Taywan Taylor,TEN,WR,2,2018
-Martavis Bryant,OAK,WR,2,2018
+Martavis Bryant,LV,WR,2,2018
 Randall Cobb,GB,WR,2,2018
 Robert Foster,BUF,WR,2,2018
 Ryan Grant,IND,WR,2,2018
 Marvin Hall,ATL,WR,2,2018
 Chris Herndon,NYJ,TE,2,2018
-Jordy Nelson,OAK,WR,2,2018
+Jordy Nelson,LV,WR,2,2018
 Charles Clay,BUF,TE,2,2018
 Larry Fitzgerald,ARI,WR,2,2018
 Robby Anderson,NYJ,WR,2,2018
@@ -559,7 +559,7 @@ Cole Beasley,DAL,WR,2,2018
 DJ Chark,JAC,WR,2,2018
 Kyle Juszczyk,SF,FB,2,2018
 Luke Willson,DET,TE,2,2018
-Keith Smith,OAK,FB,2,2018
+Keith Smith,LV,FB,2,2018
 Terrance Williams,DAL,WR,2,2018
 Andy Janovich,DEN,FB,2,2018
 Tyler Kroft,CIN,TE,2,2018
@@ -575,7 +575,7 @@ Jason Croom,BUF,TE,2,2018
 Vernon Davis,WAS,TE,2,2018
 Logan Thomas,BUF,TE,2,2018
 Josh Bellamy,CHI,WR,2,2018
-Derek Carrier,OAK,TE,2,2018
+Derek Carrier,LV,TE,2,2018
 Rhett Ellison,NYG,TE,2,2018
 Michael Gallup,DAL,WR,2,2018
 Josh Hill,NO,TE,2,2018
@@ -613,7 +613,7 @@ Aaron Rodgers,GB,QB,3,2018
 Joe Flacco,BAL,QB,3,2018
 Sam Bradford,ARI,QB,3,2018
 Carson Wentz,PHI,QB,3,2018
-Derek Carr,OAK,QB,3,2018
+Derek Carr,LV,QB,3,2018
 Kirk Cousins,MIN,QB,3,2018
 Ryan Fitzpatrick,TB,QB,3,2018
 Marcus Mariota,TEN,QB,3,2018
@@ -644,7 +644,7 @@ Bilal Powell,NYJ,RB,3,2018
 Alex Collins,BAL,RB,3,2018
 Alfred Morris,SF,RB,3,2018
 Alvin Kamara,NO,RB,3,2018
-Marshawn Lynch,OAK,RB,3,2018
+Marshawn Lynch,LV,RB,3,2018
 Giovani Bernard,CIN,HB,3,2018
 James Conner,PIT,RB,3,2018
 Jordan Howard,CHI,RB,3,2018
@@ -659,7 +659,7 @@ LeGarrette Blount,DET,RB,3,2018
 Austin Ekeler,LAC,RB,3,2018
 Kareem Hunt,KC,RB,3,2018
 T.J. Yeldon,JAC,RB,3,2018
-Doug Martin,OAK,RB,3,2018
+Doug Martin,LV,RB,3,2018
 Malcolm Brown,LAR,RB,3,2018
 Aaron Jones,GB,RB,3,2018
 Taysom Hill,NO,QB,3,2018
@@ -706,7 +706,7 @@ Tyreek Hill,KC,WR,3,2018
 Tyler Lockett,SEA,WR,3,2018
 Rashaad Penny,SEA,RB,3,2018
 Brandon Wilds,JAC,RB,3,2018
-Martavis Bryant,OAK,WR,3,2018
+Martavis Bryant,LV,WR,3,2018
 Adam Humphries,TB,WR,3,2018
 Kapri Bibbs,WAS,RB,3,2018
 Kenyan Drake,MIA,RB,3,2018
@@ -718,13 +718,13 @@ Spencer Ware,KC,RB,3,2018
 Jonathan Williams,NO,RB,3,2018
 Odell Beckham,NYG,WR,3,2018
 Raheem Mostert,SF,RB,3,2018
-Keith Smith,OAK,FB,3,2018
+Keith Smith,LV,FB,3,2018
 Jacquizz Rodgers,TB,RB,3,2018
 Marquise Goodwin,SF,WR,3,2018
 Marcus Johnson,IND,WR,3,2018
 Cooper Kupp,LAR,WR,3,2018
 Ito Smith,ATL,RB,3,2018
-Jordy Nelson,OAK,WR,3,2018
+Jordy Nelson,LV,WR,3,2018
 Mike Evans,TB,WR,3,2018
 Michael Thomas,NO,WR,3,2018
 JuJu Smith-Schuster,PIT,WR,3,2018
@@ -758,7 +758,7 @@ Demaryius Thomas,DEN,WR,3,2018
 Michael Crabtree,BAL,WR,3,2018
 Kenny Stills,MIA,WR,3,2018
 Mark Andrews,BAL,TE,3,2018
-Jalen Richard,OAK,RB,3,2018
+Jalen Richard,LV,RB,3,2018
 A.J. Green,CIN,WR,3,2018
 Quincy Enunwa,NYJ,WR,3,2018
 Trey Burton,CHI,TE,3,2018
@@ -800,7 +800,7 @@ Taylor Gabriel,CHI,WR,3,2018
 Eric Ebron,IND,TE,3,2018
 Laquon Treadwell,MIN,WR,3,2018
 Rashard Higgins,CLE,WR,3,2018
-Jared Cook,OAK,TE,3,2018
+Jared Cook,LV,TE,3,2018
 Mike Gesicki,MIA,TE,3,2018
 Chris Hogan,NE,WR,3,2018
 Dede Westbrook,JAC,WR,3,2018
@@ -833,7 +833,7 @@ C.J. Uzomah,CIN,TE,3,2018
 Jordan Akins,HOU,TE,3,2018
 Charles Clay,BUF,TE,3,2018
 Austin Seferian-Jenkins,JAC,TE,3,2018
-Amari Cooper,OAK,WR,3,2018
+Amari Cooper,LV,WR,3,2018
 Stefon Diggs,MIN,WR,3,2018
 Michael Gallup,DAL,WR,3,2018
 Josh Hill,NO,TE,3,2018
@@ -853,7 +853,7 @@ Derrick Coleman,ARI,FB,3,2018
 Josh Malone,CIN,WR,3,2018
 Cordarrelle Patterson,NE,WR,3,2018
 Pierre Garcon,SF,WR,3,2018
-Dwayne Harris,OAK,WR,3,2018
+Dwayne Harris,LV,WR,3,2018
 Cameron Meredith,NO,WR,3,2018
 Logan Paulsen,ATL,TE,3,2018
 Luke Stocker,TEN,TE,3,2018
@@ -917,7 +917,7 @@ Carson Wentz,PHI,QB,4,2018
 Eli Manning,NYG,QB,4,2018
 Philip Rivers,LAC,QB,4,2018
 Tom Brady,NE,QB,4,2018
-Derek Carr,OAK,QB,4,2018
+Derek Carr,LV,QB,4,2018
 Russell Wilson,SEA,QB,4,2018
 Patrick Mahomes,KC,QB,4,2018
 Josh Rosen,ARI,QB,4,2018
@@ -936,7 +936,7 @@ Johnny Hekker,LAR,P,4,2018
 Josh Allen,BUF,QB,4,2018
 Ezekiel Elliott,DAL,RB,4,2018
 Alvin Kamara,NO,RB,4,2018
-Marshawn Lynch,OAK,RB,4,2018
+Marshawn Lynch,LV,RB,4,2018
 Kareem Hunt,KC,RB,4,2018
 Sony Michel,NE,RB,4,2018
 Nick Chubb,CLE,RB,4,2018
@@ -987,7 +987,7 @@ Alfred Morris,SF,RB,4,2018
 LeGarrette Blount,DET,RB,4,2018
 Kenjon Barner,NE,RB,4,2018
 Duke Johnson,CLE,RB,4,2018
-Doug Martin,OAK,RB,4,2018
+Doug Martin,LV,RB,4,2018
 Cordarrelle Patterson,NE,WR,4,2018
 Dede Westbrook,JAC,WR,4,2018
 Odell Beckham,NYG,WR,4,2018
@@ -1024,10 +1024,10 @@ Ryan Switzer,PIT,WR,4,2018
 Isaiah Crowell,NYJ,RB,4,2018
 Benny Cunningham,CHI,RB,4,2018
 Dion Lewis,TEN,RB,4,2018
-Dwayne Harris,OAK,WR,4,2018
+Dwayne Harris,LV,WR,4,2018
 Keke Coutee,HOU,WR,4,2018
 Chase Daniel,CHI,QB,4,2018
-Jalen Richard,OAK,RB,4,2018
+Jalen Richard,LV,RB,4,2018
 Brian Hoyer,NE,QB,4,2018
 Julio Jones,ATL,WR,4,2018
 DeAndre Hopkins,HOU,WR,4,2018
@@ -1035,14 +1035,14 @@ Cooper Kupp,LAR,WR,4,2018
 Corey Davis,TEN,WR,4,2018
 Adam Thielen,MIN,WR,4,2018
 Golden Tate,DET,WR,4,2018
-Amari Cooper,OAK,WR,4,2018
+Amari Cooper,LV,WR,4,2018
 George Kittle,SF,TE,4,2018
 Stefon Diggs,MIN,WR,4,2018
 T.Y. Hilton,IND,WR,4,2018
 Zach Ertz,PHI,TE,4,2018
 DeSean Jackson,TB,WR,4,2018
 Mohamed Sanu,ATL,WR,4,2018
-Jared Cook,OAK,TE,4,2018
+Jared Cook,LV,TE,4,2018
 Donte Moncrief,JAC,WR,4,2018
 Alshon Jeffery,PHI,WR,4,2018
 Robert Woods,LAR,WR,4,2018
@@ -1080,12 +1080,12 @@ Pierre Garcon,SF,WR,4,2018
 David Njoku,CLE,TE,4,2018
 John Ross,CIN,WR,4,2018
 Ricky Seals-Jones,ARI,TE,4,2018
-Martavis Bryant,OAK,WR,4,2018
+Martavis Bryant,LV,WR,4,2018
 Courtland Sutton,DEN,WR,4,2018
 Maxx Williams,BAL,TE,4,2018
 Darren Fells,CLE,TE,4,2018
 Will Fuller,HOU,WR,4,2018
-Jordy Nelson,OAK,WR,4,2018
+Jordy Nelson,LV,WR,4,2018
 Tyrell Williams,LAC,WR,4,2018
 Michael Thomas,NO,WR,4,2018
 Laquon Treadwell,MIN,WR,4,2018
@@ -1126,7 +1126,7 @@ Demaryius Thomas,DEN,WR,4,2018
 Jesse James,PIT,TE,4,2018
 Jermaine Kearse,NYJ,WR,4,2018
 Allen Robinson,CHI,WR,4,2018
-Lee Smith,OAK,TE,4,2018
+Lee Smith,LV,TE,4,2018
 Ben Watson,NO,TE,4,2018
 Nelson Agholor,PHI,WR,4,2018
 Chris Godwin,TB,WR,4,2018
@@ -1154,7 +1154,7 @@ Jordan Leggett,NYJ,TE,4,2018
 Mark Andrews,BAL,TE,4,2018
 Sammie Coates,HOU,WR,4,2018
 Ryan Griffin,HOU,TE,4,2018
-Seth Roberts,OAK,WR,4,2018
+Seth Roberts,LV,WR,4,2018
 Trent Taylor,SF,WR,4,2018
 Levine Toilolo,DET,TE,4,2018
 Niles Paul,JAC,TE,4,2018
@@ -1205,7 +1205,7 @@ Matt Ryan,ATL,QB,5,2018
 Deshaun Watson,HOU,QB,5,2018
 Sam Darnold,NYJ,QB,5,2018
 Case Keenum,DEN,QB,5,2018
-Derek Carr,OAK,QB,5,2018
+Derek Carr,LV,QB,5,2018
 Andy Dalton,CIN,QB,5,2018
 Jared Goff,LAR,QB,5,2018
 Eli Manning,NYG,QB,5,2018
@@ -1264,7 +1264,7 @@ Dion Lewis,TEN,RB,5,2018
 Jamaal Williams,GB,RB,5,2018
 Devonta Freeman,ATL,RB,5,2018
 Royce Freeman,DEN,RB,5,2018
-Marshawn Lynch,OAK,RB,5,2018
+Marshawn Lynch,LV,RB,5,2018
 Jay Ajayi,PHI,RB,5,2018
 Wendell Smallwood,PHI,RB,5,2018
 Tyreek Hill,KC,WR,5,2018
@@ -1293,14 +1293,14 @@ Keenan Allen,LAC,WR,5,2018
 Christian Kirk,ARI,WR,5,2018
 Ito Smith,ATL,RB,5,2018
 Alex Armah,CAR,FB,5,2018
-Jalen Richard,OAK,RB,5,2018
+Jalen Richard,LV,RB,5,2018
 Theo Riddick,DET,RB,5,2018
 Mike Williams,LAC,WR,5,2018
 Kalen Ballage,MIA,RB,5,2018
 Nick Chubb,CLE,RB,5,2018
 Keke Coutee,HOU,WR,5,2018
 Mike Boone,MIN,RB,5,2018
-Doug Martin,OAK,RB,5,2018
+Doug Martin,LV,RB,5,2018
 Melvin Ingram,LAC,DE,5,2018
 Spencer Ware,KC,RB,5,2018
 James White,NE,RB,5,2018
@@ -1323,7 +1323,7 @@ Demaryius Thomas,DEN,WR,5,2018
 Antonio Brown,PIT,WR,5,2018
 Travis Kelce,KC,TE,5,2018
 Kenny Golladay,DET,WR,5,2018
-Martavis Bryant,OAK,WR,5,2018
+Martavis Bryant,LV,WR,5,2018
 Cooper Kupp,LAR,WR,5,2018
 Equanimeous St. Brown,GB,WR,5,2018
 George Kittle,SF,TE,5,2018
@@ -1372,12 +1372,12 @@ Tavon Austin,DAL,WR,5,2018
 Tyler Boyd,CIN,WR,5,2018
 DaeSean Hamilton,DEN,WR,5,2018
 Erik Swoope,IND,TE,5,2018
-Jordy Nelson,OAK,WR,5,2018
+Jordy Nelson,LV,WR,5,2018
 C.J. Uzomah,CIN,TE,5,2018
 Nick Vannett,SEA,TE,5,2018
 Albert Wilson,MIA,WR,5,2018
 Golden Tate,DET,WR,5,2018
-Seth Roberts,OAK,WR,5,2018
+Seth Roberts,LV,WR,5,2018
 Kyle Rudolph,MIN,TE,5,2018
 Alshon Jeffery,PHI,WR,5,2018
 David Moore,SEA,WR,5,2018
@@ -1410,7 +1410,7 @@ Antonio Callaway,CLE,WR,5,2018
 Chris Conley,KC,WR,5,2018
 Jordan Reed,WAS,TE,5,2018
 Laquon Treadwell,MIN,WR,5,2018
-Jared Cook,OAK,TE,5,2018
+Jared Cook,LV,TE,5,2018
 Jesse James,PIT,TE,5,2018
 Zay Jones,BUF,WR,5,2018
 Chris Moore,BAL,WR,5,2018
@@ -1442,7 +1442,7 @@ Cordarrelle Patterson,NE,WR,5,2018
 Jordan Thomas,HOU,TE,5,2018
 Victor Bolden,SF,WR,5,2018
 Nick Boyle,BAL,TE,5,2018
-Amari Cooper,OAK,WR,5,2018
+Amari Cooper,LV,WR,5,2018
 Jordan Leggett,NYJ,TE,5,2018
 Jordan Akins,HOU,TE,5,2018
 Jason Croom,BUF,TE,5,2018
@@ -1495,7 +1495,7 @@ Case Keenum,DEN,QB,6,2018
 Marcus Mariota,TEN,QB,6,2018
 Alex Smith,WAS,QB,6,2018
 Kirk Cousins,MIN,QB,6,2018
-Derek Carr,OAK,QB,6,2018
+Derek Carr,LV,QB,6,2018
 Joe Flacco,BAL,QB,6,2018
 Andrew Luck,IND,QB,6,2018
 Josh Rosen,ARI,QB,6,2018
@@ -1532,7 +1532,7 @@ Alex Collins,BAL,RB,6,2018
 David Johnson,ARI,RB,6,2018
 Wendell Smallwood,PHI,RB,6,2018
 Lamar Miller,HOU,RB,6,2018
-Marshawn Lynch,OAK,RB,6,2018
+Marshawn Lynch,LV,RB,6,2018
 Corey Clement,PHI,RB,6,2018
 Rashaad Penny,SEA,RB,6,2018
 Gus Edwards,BAL,RB,6,2018
@@ -1589,7 +1589,7 @@ Rod Smith,DAL,RB,6,2018
 Ronald Jones,TB,RB,6,2018
 Cordarrelle Patterson,NE,WR,6,2018
 Samaje Perine,WAS,RB,6,2018
-Jalen Richard,OAK,RB,6,2018
+Jalen Richard,LV,RB,6,2018
 Derrick Coleman,ARI,FB,6,2018
 Paul Richardson,WAS,WR,6,2018
 Stevan Ridley,PIT,RB,6,2018
@@ -1678,7 +1678,7 @@ Will Fuller,HOU,WR,6,2018
 Justin Hardy,ATL,WR,6,2018
 Tajae Sharpe,TEN,WR,6,2018
 Jakeem Grant,MIA,WR,6,2018
-Seth Roberts,OAK,WR,6,2018
+Seth Roberts,LV,WR,6,2018
 Kyle Juszczyk,SF,FB,6,2018
 George Kittle,SF,TE,6,2018
 Anthony Miller,CHI,WR,6,2018
@@ -1704,7 +1704,7 @@ Josh Doctson,WAS,WR,6,2018
 Andre Holmes,BUF,WR,6,2018
 Chris Conley,KC,WR,6,2018
 Equanimeous St. Brown,GB,WR,6,2018
-Martavis Bryant,OAK,WR,6,2018
+Martavis Bryant,LV,WR,6,2018
 Cameron Brate,TB,TE,6,2018
 Rico Gathers,DAL,TE,6,2018
 Neal Sterling,NYJ,TE,6,2018
@@ -1716,22 +1716,22 @@ DeAndre Carter,PHI,WR,6,2018
 Mike Gesicki,MIA,TE,6,2018
 Jarvis Landry,CLE,WR,6,2018
 Brandon Marshall,SEA,WR,6,2018
-Jared Cook,OAK,TE,6,2018
+Jared Cook,LV,TE,6,2018
 J'Mon Moore,GB,WR,6,2018
 Antonio Callaway,CLE,WR,6,2018
 Russell Gage,ATL,WR,6,2018
 JJ Nelson,ARI,WR,6,2018
 Orson Charles,CLE,TE,6,2018
 Alex Erickson,CIN,WR,6,2018
-Doug Martin,OAK,RB,6,2018
+Doug Martin,LV,RB,6,2018
 Nick Boyle,BAL,TE,6,2018
 Dallas Goedert,PHI,TE,6,2018
 David Grinnage,JAC,TE,6,2018
-Dwayne Harris,OAK,WR,6,2018
+Dwayne Harris,LV,WR,6,2018
 Matt LaCosse,DEN,TE,6,2018
 Ryan Switzer,PIT,WR,6,2018
 Jordan Akins,HOU,TE,6,2018
-Jordy Nelson,OAK,WR,6,2018
+Jordy Nelson,LV,WR,6,2018
 Antony Auclair,TB,TE,6,2018
 Jaron Brown,SEA,WR,6,2018
 Antonio Gates,LAC,TE,6,2018
@@ -2014,7 +2014,7 @@ Russell Wilson,SEA,QB,8,2018
 Deshaun Watson,HOU,QB,8,2018
 Ryan Fitzpatrick,TB,QB,8,2018
 Lamar Jackson,BAL,QB,8,2018
-Derek Carr,OAK,QB,8,2018
+Derek Carr,LV,QB,8,2018
 Andrew Luck,IND,QB,8,2018
 Patrick Mahomes,KC,QB,8,2018
 Carson Wentz,PHI,QB,8,2018
@@ -2057,7 +2057,7 @@ Peyton Barber,TB,RB,8,2018
 Jordan Howard,CHI,RB,8,2018
 Devontae Booker,DEN,RB,8,2018
 Nyheim Hines,IND,RB,8,2018
-Doug Martin,OAK,RB,8,2018
+Doug Martin,LV,RB,8,2018
 Nick Chubb,CLE,RB,8,2018
 Mark Ingram,NO,RB,8,2018
 Josh Adams,PHI,RB,8,2018
@@ -2087,10 +2087,10 @@ Jaylen Samuels,PIT,RB,8,2018
 Adam Thielen,MIN,WR,8,2018
 James White,NE,RB,8,2018
 Nelson Agholor,PHI,WR,8,2018
-Jalen Richard,OAK,RB,8,2018
+Jalen Richard,LV,RB,8,2018
 Jordan Wilkins,IND,RB,8,2018
 Julian Edelman,NE,WR,8,2018
-Dwayne Harris,OAK,WR,8,2018
+Dwayne Harris,LV,WR,8,2018
 Tyler Lockett,SEA,WR,8,2018
 LeSean McCoy,BUF,RB,8,2018
 Tim Patrick,DEN,WR,8,2018
@@ -2117,7 +2117,7 @@ Kalen Ballage,MIA,RB,8,2018
 Kenjon Barner,NE,RB,8,2018
 DeSean Jackson,TB,WR,8,2018
 Jacquizz Rodgers,TB,RB,8,2018
-DeAndre Washington,OAK,RB,8,2018
+DeAndre Washington,LV,RB,8,2018
 LeGarrette Blount,DET,RB,8,2018
 Golden Tate,DET,WR,8,2018
 C.J. Ham,MIN,RB,8,2018
@@ -2150,7 +2150,7 @@ Courtland Sutton,DEN,WR,8,2018
 A.J. Green,CIN,WR,8,2018
 Adam Humphries,TB,WR,8,2018
 Antonio Brown,PIT,WR,8,2018
-Jared Cook,OAK,TE,8,2018
+Jared Cook,LV,TE,8,2018
 Kendrick Bourne,SF,WR,8,2018
 Jack Doyle,IND,TE,8,2018
 Tyreek Hill,KC,WR,8,2018
@@ -2176,10 +2176,10 @@ Marquez Valdes-Scantling,GB,WR,8,2018
 Rob Gronkowski,NE,TE,8,2018
 Josh Gordon,NE,WR,8,2018
 Christian Kirk,ARI,WR,8,2018
-Seth Roberts,OAK,WR,8,2018
+Seth Roberts,LV,WR,8,2018
 DJ Chark,JAC,WR,8,2018
 Randall Cobb,GB,WR,8,2018
-Brandon LaFell,OAK,WR,8,2018
+Brandon LaFell,LV,WR,8,2018
 Jarvis Landry,CLE,WR,8,2018
 Kyle Rudolph,MIN,TE,8,2018
 Jordan Reed,WAS,TE,8,2018
@@ -2236,7 +2236,7 @@ Ian Thomas,CAR,TE,8,2018
 Geronimo Allison,GB,WR,8,2018
 Jason Croom,BUF,TE,8,2018
 Mike Gesicki,MIA,TE,8,2018
-Jordy Nelson,OAK,WR,8,2018
+Jordy Nelson,LV,WR,8,2018
 Charone Peake,NYJ,WR,8,2018
 Blake Bell,JAC,TE,8,2018
 Cameron Brate,TB,TE,8,2018
@@ -2249,7 +2249,7 @@ Anthony Sherman,KC,FB,8,2018
 Rashad Greene,JAC,WR,8,2018
 Jesse James,PIT,TE,8,2018
 Cam Phillips,BUF,WR,8,2018
-Keith Smith,OAK,FB,8,2018
+Keith Smith,LV,FB,8,2018
 Nick Boyle,BAL,TE,8,2018
 James Develin,NE,FB,8,2018
 Neal Sterling,NYJ,TE,8,2018
@@ -2284,7 +2284,7 @@ Lamar Jackson,BAL,QB,9,2018
 Jared Goff,LAR,QB,9,2018
 Tyrod Taylor,CLE,QB,9,2018
 Philip Rivers,LAC,QB,9,2018
-Derek Carr,OAK,QB,9,2018
+Derek Carr,LV,QB,9,2018
 Dak Prescott,DAL,QB,9,2018
 Tom Brady,NE,QB,9,2018
 Baker Mayfield,CLE,QB,9,2018
@@ -2300,7 +2300,7 @@ Brock Osweiler,MIA,QB,9,2018
 Joe Flacco,BAL,QB,9,2018
 Mitchell Trubisky,CHI,QB,9,2018
 Nathan Peterman,BUF,QB,9,2018
-A.J. McCarron,OAK,QB,9,2018
+A.J. McCarron,LV,QB,9,2018
 Bryan Anger,TB,P,9,2018
 Cole Beasley,DAL,WR,9,2018
 Sam Darnold,NYJ,QB,9,2018
@@ -2323,7 +2323,7 @@ Phillip Lindsay,DEN,RB,9,2018
 Ito Smith,ATL,RB,9,2018
 Frank Gore,MIA,RB,9,2018
 Isaiah Crowell,NYJ,RB,9,2018
-Doug Martin,OAK,RB,9,2018
+Doug Martin,LV,RB,9,2018
 Jordan Howard,CHI,RB,9,2018
 Matt Breida,SF,RB,9,2018
 Chris Carson,SEA,RB,9,2018
@@ -2341,12 +2341,12 @@ James White,NE,RB,9,2018
 Elijah McGuire,NYJ,RB,9,2018
 Keenan Allen,LAC,WR,9,2018
 Derrick Henry,TEN,RB,9,2018
-DeAndre Washington,OAK,RB,9,2018
+DeAndre Washington,LV,RB,9,2018
 Austin Ekeler,LAC,RB,9,2018
 Lamar Miller,HOU,RB,9,2018
 Kapri Bibbs,WAS,RB,9,2018
 Samaje Perine,WAS,RB,9,2018
-Martavis Bryant,OAK,WR,9,2018
+Martavis Bryant,LV,WR,9,2018
 Adrian Peterson,WAS,RB,9,2018
 Tyreek Hill,KC,WR,9,2018
 Devontae Booker,DEN,RB,9,2018
@@ -2373,7 +2373,7 @@ Tarik Cohen,CHI,RB,9,2018
 Adam Thielen,MIN,WR,9,2018
 Kenjon Barner,NE,RB,9,2018
 Corey Davis,TEN,WR,9,2018
-Jalen Richard,OAK,RB,9,2018
+Jalen Richard,LV,RB,9,2018
 Robert Woods,LAR,WR,9,2018
 Johnny Hekker,LAR,P,9,2018
 Marquise Goodwin,SF,WR,9,2018
@@ -2465,9 +2465,9 @@ Chad Beebe,MIN,WR,9,2018
 Hayden Hurst,BAL,TE,9,2018
 Ryan Switzer,PIT,WR,9,2018
 Deonte Thompson,DAL,WR,9,2018
-Jared Cook,OAK,TE,9,2018
+Jared Cook,LV,TE,9,2018
 Jermaine Kearse,NYJ,WR,9,2018
-Brandon LaFell,OAK,WR,9,2018
+Brandon LaFell,LV,WR,9,2018
 Aldrick Robinson,MIN,WR,9,2018
 Rashard Higgins,CLE,WR,9,2018
 Kenny Stills,MIA,WR,9,2018
@@ -2478,7 +2478,7 @@ Luke Willson,DET,TE,9,2018
 Mike Evans,TB,WR,9,2018
 Jakeem Grant,MIA,WR,9,2018
 David Moore,SEA,WR,9,2018
-Jordy Nelson,OAK,WR,9,2018
+Jordy Nelson,LV,WR,9,2018
 Damion Ratley,CLE,WR,9,2018
 Paul Richardson,WAS,WR,9,2018
 Cameron Brate,TB,TE,9,2018
@@ -2486,16 +2486,16 @@ John Brown,BAL,WR,9,2018
 Trenton Cannon,NYJ,RB,9,2018
 Blake Jarwin,DAL,TE,9,2018
 Ryan Griffin,HOU,TE,9,2018
-Dwayne Harris,OAK,WR,9,2018
+Dwayne Harris,LV,WR,9,2018
 T.J. Jones,DET,WR,9,2018
 Michael Roberts,DET,TE,9,2018
 Jaron Brown,SEA,WR,9,2018
 Josh Hill,NO,TE,9,2018
 Andy Janovich,DEN,FB,9,2018
-Derek Carrier,OAK,TE,9,2018
+Derek Carrier,LV,TE,9,2018
 Ross Dwelley,SF,TE,9,2018
 DeVante Parker,MIA,WR,9,2018
-Seth Roberts,OAK,WR,9,2018
+Seth Roberts,LV,WR,9,2018
 Rod Smith,DAL,RB,9,2018
 Jarius Wright,CAR,WR,9,2018
 Jordan Thomas,HOU,TE,9,2018
@@ -2535,7 +2535,7 @@ Matt Ryan,ATL,QB,10,2018
 Alex Smith,WAS,QB,10,2018
 Brian Hoyer,NE,QB,10,2018
 Julian Edelman,NE,WR,10,2018
-Derek Carr,OAK,QB,10,2018
+Derek Carr,LV,QB,10,2018
 Logan Cooke,JAC,P,10,2018
 Ryan Fitzpatrick,TB,QB,10,2018
 Matthew Stafford,DET,QB,10,2018
@@ -2567,7 +2567,7 @@ Adrian Peterson,WAS,RB,10,2018
 Saquon Barkley,NYG,RB,10,2018
 James Conner,PIT,RB,10,2018
 Peyton Barber,TB,RB,10,2018
-Doug Martin,OAK,RB,10,2018
+Doug Martin,LV,RB,10,2018
 Joe Mixon,CIN,HB,10,2018
 Mike Davis,SEA,RB,10,2018
 Derrick Henry,TEN,RB,10,2018
@@ -2579,7 +2579,7 @@ Kerryon Johnson,DET,WR,10,2018
 Josh Adams,PHI,RB,10,2018
 Dwayne Washington,NO,RB,10,2018
 Tevin Coleman,ATL,RB,10,2018
-Johnny Townsend,OAK,P,10,2018
+Johnny Townsend,LV,P,10,2018
 Isaiah McKenzie,BUF,WR,10,2018
 Sony Michel,NE,RB,10,2018
 Trenton Cannon,NYJ,RB,10,2018
@@ -2612,7 +2612,7 @@ Ito Smith,ATL,RB,10,2018
 Brandin Cooks,LAR,WR,10,2018
 Rod Smith,DAL,RB,10,2018
 Chase Edmonds,ARI,RB,10,2018
-Jalen Richard,OAK,RB,10,2018
+Jalen Richard,LV,RB,10,2018
 Jaylen Samuels,PIT,RB,10,2018
 Shaun Wilson,TB,RB,10,2018
 Giovani Bernard,CIN,HB,10,2018
@@ -2629,7 +2629,7 @@ Nyheim Hines,IND,RB,10,2018
 Kyle Juszczyk,SF,RB,10,2018
 Calvin Ridley,ATL,WR,10,2018
 Jamaal Williams,GB,RB,10,2018
-Martavis Bryant,OAK,WR,10,2018
+Martavis Bryant,LV,WR,10,2018
 Eric Ebron,IND,TE,10,2018
 Derek Watt,LAC,FB,10,2018
 James Develin,NE,FB,10,2018
@@ -2672,13 +2672,13 @@ Keenan Allen,LAC,WR,10,2018
 Austin Hooper,ATL,TE,10,2018
 Marvin Jones,DET,WR,10,2018
 Adam Humphries,TB,WR,10,2018
-Jared Cook,OAK,TE,10,2018
+Jared Cook,LV,TE,10,2018
 Mike Evans,TB,WR,10,2018
 Jordan Reed,WAS,TE,10,2018
 Ricky Seals-Jones,ARI,TE,10,2018
 Larry Fitzgerald,ARI,WR,10,2018
 Alshon Jeffery,PHI,WR,10,2018
-Brandon LaFell,OAK,WR,10,2018
+Brandon LaFell,LV,WR,10,2018
 Mohamed Sanu,ATL,WR,10,2018
 Josh Doctson,WAS,WR,10,2018
 Evan Engram,NYG,TE,10,2018
@@ -2698,7 +2698,7 @@ Greg Olsen,CAR,TE,10,2018
 Doug Baldwin,SEA,WR,10,2018
 Antonio Callaway,CLE,WR,10,2018
 Cooper Kupp,LAR,WR,10,2018
-Seth Roberts,OAK,WR,10,2018
+Seth Roberts,LV,WR,10,2018
 John Ross,CIN,WR,10,2018
 Cole Beasley,DAL,WR,10,2018
 Cameron Batson,TEN,WR,10,2018
@@ -2774,13 +2774,13 @@ Ryan Grant,IND,WR,10,2018
 Jordan Leggett,NYJ,TE,10,2018
 Brandon Powell,DET,WR,10,2018
 Tommy Bohanon,JAC,FB,10,2018
-Derek Carrier,OAK,TE,10,2018
+Derek Carrier,LV,TE,10,2018
 Mike Gesicki,MIA,TE,10,2018
 Nick O'Leary,MIA,TE,10,2018
 Equanimeous St. Brown,GB,WR,10,2018
 Anthony Sherman,KC,FB,10,2018
 Ben Watson,NO,TE,10,2018
-Dwayne Harris,OAK,WR,10,2018
+Dwayne Harris,LV,WR,10,2018
 Spencer Pulley,NYG,C,10,2018
 Tramon Williams,GB,S,10,2018
 Ryan Jensen,TB,C,10,2018
@@ -2796,7 +2796,7 @@ Jared Goff,LAR,QB,11,2018
 Colby Wadman,DEN,P,11,2018
 Cam Newton,CAR,QB,11,2018
 Russell Wilson,SEA,QB,11,2018
-Derek Carr,OAK,QB,11,2018
+Derek Carr,LV,QB,11,2018
 Matt Ryan,ATL,QB,11,2018
 Philip Rivers,LAC,QB,11,2018
 Colt McCoy,WAS,QB,11,2018
@@ -2837,19 +2837,19 @@ Kareem Hunt,KC,RB,11,2018
 Melvin Gordon,LAC,RB,11,2018
 Jordan Howard,CHI,RB,11,2018
 Marlon Mack,IND,RB,11,2018
-Jalen Richard,OAK,RB,11,2018
+Jalen Richard,LV,RB,11,2018
 Tevin Coleman,ATL,RB,11,2018
 Todd Gurley,LAR,HB,11,2018
 Josh Adams,PHI,RB,11,2018
 Christian McCaffrey,CAR,RB,11,2018
-Doug Martin,OAK,RB,11,2018
+Doug Martin,LV,RB,11,2018
 Adrian Peterson,WAS,RB,11,2018
 Alfred Blue,HOU,RB,11,2018
 Derrick Henry,TEN,RB,11,2018
 Rashaad Penny,SEA,RB,11,2018
 Carlos Hyde,JAC,RB,11,2018
 Aaron Jones,GB,RB,11,2018
-DeAndre Washington,OAK,RB,11,2018
+DeAndre Washington,LV,RB,11,2018
 Jordan Wilkins,IND,RB,11,2018
 Austin Ekeler,LAC,RB,11,2018
 Tarik Cohen,CHI,RB,11,2018
@@ -2935,7 +2935,7 @@ Doug Baldwin,SEA,WR,11,2018
 Bruce Ellington,DET,WR,11,2018
 Cole Beasley,DAL,WR,11,2018
 Willie Snead,BAL,WR,11,2018
-Marcell Ateman,OAK,WR,11,2018
+Marcell Ateman,LV,WR,11,2018
 Chris Godwin,TB,WR,11,2018
 Gerald Everett,LAR,TE,11,2018
 Anthony Firkser,TEN,TE,11,2018
@@ -2947,7 +2947,7 @@ Jarius Wright,CAR,WR,11,2018
 Devin Funchess,CAR,WR,11,2018
 Allen Robinson,CHI,WR,11,2018
 DeSean Jackson,TB,WR,11,2018
-Seth Roberts,OAK,WR,11,2018
+Seth Roberts,LV,WR,11,2018
 Jordan Matthews,PHI,WR,11,2018
 Tajae Sharpe,TEN,WR,11,2018
 Nick Boyle,BAL,TE,11,2018
@@ -2956,8 +2956,8 @@ Dontrelle Inman,IND,WR,11,2018
 Alshon Jeffery,PHI,WR,11,2018
 Keith Kirkwood,NO,WR,11,2018
 Josh Doctson,WAS,WR,11,2018
-Jared Cook,OAK,TE,11,2018
-Brandon LaFell,OAK,WR,11,2018
+Jared Cook,LV,TE,11,2018
+Brandon LaFell,LV,WR,11,2018
 Ryan Switzer,PIT,WR,11,2018
 Virgil Green,LAC,TE,11,2018
 Austin Hooper,ATL,TE,11,2018
@@ -3011,7 +3011,7 @@ Marquez Valdes-Scantling,GB,WR,11,2018
 Michael Crabtree,BAL,WR,11,2018
 Laquon Treadwell,MIN,WR,11,2018
 Trent Sherfield,ARI,WR,11,2018
-Lee Smith,OAK,TE,11,2018
+Lee Smith,LV,TE,11,2018
 Jordan Franks,CIN,TE,11,2018
 Ricky Seals-Jones,ARI,TE,11,2018
 Auden Tate,CIN,WR,11,2018
@@ -3053,7 +3053,7 @@ Josh Allen,BUF,QB,12,2018
 Ben Roethlisberger,PIT,QB,12,2018
 Jeff Driskel,CIN,QB,12,2018
 Jacoby Brissett,IND,QB,12,2018
-Derek Carr,OAK,QB,12,2018
+Derek Carr,LV,QB,12,2018
 Josh McCown,NYJ,QB,12,2018
 Josh Rosen,ARI,QB,12,2018
 Andy Dalton,CIN,QB,12,2018
@@ -3088,7 +3088,7 @@ Justin Jackson,LAC,RB,12,2018
 Chris Carson,SEA,RB,12,2018
 James Conner,PIT,RB,12,2018
 Mark Ingram,NO,RB,12,2018
-Doug Martin,OAK,RB,12,2018
+Doug Martin,LV,RB,12,2018
 Ty Montgomery,BAL,WR,12,2018
 Alfred Blue,HOU,RB,12,2018
 Peyton Barber,TB,RB,12,2018
@@ -3122,14 +3122,14 @@ Taysom Hill,NO,QB,12,2018
 Jordan Howard,CHI,RB,12,2018
 Stefon Diggs,MIN,WR,12,2018
 Theo Riddick,DET,RB,12,2018
-Seth Roberts,OAK,WR,12,2018
+Seth Roberts,LV,WR,12,2018
 Giovani Bernard,CIN,HB,12,2018
 George Kittle,SF,TE,12,2018
 Cordarrelle Patterson,NE,WR,12,2018
 Zach Zenner,DET,RB,12,2018
 Dion Lewis,TEN,RB,12,2018
 Isaiah McKenzie,BUF,WR,12,2018
-DeAndre Washington,OAK,RB,12,2018
+DeAndre Washington,LV,RB,12,2018
 Taquan Mizzell,CHI,RB,12,2018
 D.J. Moore,CAR,WR,12,2018
 Rod Smith,DAL,RB,12,2018
@@ -3143,15 +3143,15 @@ Mohamed Sanu,ATL,WR,12,2018
 Javorius Allen,BAL,RB,12,2018
 Bruce Ellington,DET,WR,12,2018
 Julio Jones,ATL,WR,12,2018
-Jalen Richard,OAK,RB,12,2018
+Jalen Richard,LV,RB,12,2018
 Tommy Bohanon,JAC,FB,12,2018
 Chase Edmonds,ARI,RB,12,2018
 C.J. Ham,MIN,FB,12,2018
 Ito Smith,ATL,RB,12,2018
 Luke Stocker,TEN,TE,12,2018
 Tyler Lockett,SEA,WR,12,2018
-A.J. McCarron,OAK,QB,12,2018
-Jordy Nelson,OAK,WR,12,2018
+A.J. McCarron,LV,QB,12,2018
+Jordy Nelson,LV,WR,12,2018
 Breshad Perriman,CLE,WR,12,2018
 JuJu Smith-Schuster,PIT,WR,12,2018
 Amari Cooper,DAL,WR,12,2018
@@ -3200,7 +3200,7 @@ Christian Kirk,ARI,WR,12,2018
 Dontrelle Inman,IND,WR,12,2018
 Doug Baldwin,SEA,WR,12,2018
 Alshon Jeffery,PHI,WR,12,2018
-Lee Smith,OAK,TE,12,2018
+Lee Smith,LV,TE,12,2018
 C.J. Uzomah,CIN,TE,12,2018
 Ryan Griffin,HOU,TE,12,2018
 Demaryius Thomas,HOU,WR,12,2018
@@ -3212,7 +3212,7 @@ Jimmy Graham,GB,TE,12,2018
 Matt LaCosse,DEN,TE,12,2018
 Dallas Goedert,PHI,TE,12,2018
 Kelvin Benjamin,BUF,WR,12,2018
-Jared Cook,OAK,TE,12,2018
+Jared Cook,LV,TE,12,2018
 Jordan Wilkins,IND,RB,12,2018
 Austin Hooper,ATL,TE,12,2018
 John Ross,CIN,WR,12,2018
@@ -3249,7 +3249,7 @@ Nick Boyle,BAL,TE,12,2018
 Michael Gallup,DAL,WR,12,2018
 Malik Turner,SEA,WR,12,2018
 Antonio Gates,LAC,TE,12,2018
-Marcell Ateman,OAK,WR,12,2018
+Marcell Ateman,LV,WR,12,2018
 Jason Croom,BUF,TE,12,2018
 Jack Doyle,IND,TE,12,2018
 Michael Roberts,DET,TE,12,2018
@@ -3275,7 +3275,7 @@ Jamize Olawale,DAL,FB,12,2018
 DeVante Parker,MIA,WR,12,2018
 Jordan Akins,HOU,TE,12,2018
 Antony Auclair,TB,TE,12,2018
-Keon Hatcher,OAK,WR,12,2018
+Keon Hatcher,LV,WR,12,2018
 Josh Bellamy,CHI,WR,12,2018
 Cody Core,CIN,WR,12,2018
 Allen Hurns,DAL,WR,12,2018
@@ -3310,7 +3310,7 @@ Jerome Baker,MIA,LB,12,2018
 Billy Price,CIN,C,12,2018
 Odell Beckham,NYG,WR,13,2018
 Russell Wilson,SEA,QB,13,2018
-Derek Carr,OAK,QB,13,2018
+Derek Carr,LV,QB,13,2018
 Patrick Mahomes,KC,QB,13,2018
 Tarik Cohen,CHI,RB,13,2018
 Sam Koch,BAL,P,13,2018
@@ -3355,7 +3355,7 @@ Christian McCaffrey,CAR,RB,13,2018
 Lamar Miller,HOU,RB,13,2018
 Isaiah Crowell,NYJ,RB,13,2018
 Adrian Peterson,WAS,RB,13,2018
-Jalen Richard,OAK,RB,13,2018
+Jalen Richard,LV,RB,13,2018
 Josh Adams,PHI,RB,13,2018
 Dalvin Cook,MIN,HB,13,2018
 Gus Edwards,BAL,RB,13,2018
@@ -3368,7 +3368,7 @@ Rashaad Penny,SEA,RB,13,2018
 Justin Jackson,LAC,RB,13,2018
 Sony Michel,NE,RB,13,2018
 LeGarrette Blount,DET,RB,13,2018
-Doug Martin,OAK,RB,13,2018
+Doug Martin,LV,RB,13,2018
 Jeff Wilson,SF,RB,13,2018
 James Conner,PIT,RB,13,2018
 Alfred Blue,HOU,RB,13,2018
@@ -3421,7 +3421,7 @@ Tevin Coleman,ATL,RB,13,2018
 Curtis Samuel,CAR,WR,13,2018
 Taquan Mizzell,CHI,RB,13,2018
 Marcus Murphy,BUF,RB,13,2018
-DeAndre Washington,OAK,RB,13,2018
+DeAndre Washington,LV,RB,13,2018
 Zach Zenner,DET,RB,13,2018
 Matt Breida,SF,RB,13,2018
 Cordarrelle Patterson,NE,WR,13,2018
@@ -3451,9 +3451,9 @@ Keenan Allen,LAC,WR,13,2018
 Taywan Taylor,TEN,WR,13,2018
 Jarvis Landry,CLE,WR,13,2018
 Chris Godwin,TB,WR,13,2018
-Jared Cook,OAK,TE,13,2018
+Jared Cook,LV,TE,13,2018
 Tyler Boyd,CIN,WR,13,2018
-Jordy Nelson,OAK,WR,13,2018
+Jordy Nelson,LV,WR,13,2018
 Davante Adams,GB,WR,13,2018
 DeAndre Hopkins,HOU,WR,13,2018
 Levine Toilolo,DET,TE,13,2018
@@ -3523,7 +3523,7 @@ Brice Butler,MIA,WR,13,2018
 Randall Cobb,GB,WR,13,2018
 Chris Conley,KC,WR,13,2018
 T.J. Jones,DET,WR,13,2018
-Seth Roberts,OAK,WR,13,2018
+Seth Roberts,LV,WR,13,2018
 Scott Simonson,NYG,TE,13,2018
 Doug Baldwin,SEA,WR,13,2018
 Calvin Ridley,ATL,WR,13,2018
@@ -3542,7 +3542,7 @@ Emmanuel Sanders,DEN,WR,13,2018
 Julio Jones,ATL,WR,13,2018
 Jordan Leggett,NYJ,TE,13,2018
 Taylor Gabriel,CHI,WR,13,2018
-Marcell Ateman,OAK,WR,13,2018
+Marcell Ateman,LV,WR,13,2018
 Keelan Cole,JAC,WR,13,2018
 Vernon Davis,WAS,TE,13,2018
 Dontrelle Inman,IND,WR,13,2018
@@ -3566,7 +3566,7 @@ Noah Brown,DAL,WR,13,2018
 Charles Clay,BUF,TE,13,2018
 Quincy Enunwa,NYJ,WR,13,2018
 Michael Floyd,WAS,WR,13,2018
-Dwayne Harris,OAK,WR,13,2018
+Dwayne Harris,LV,WR,13,2018
 Matt Lengel,CIN,TE,13,2018
 Nick O'Leary,MIA,TE,13,2018
 Ryan Switzer,PIT,WR,13,2018
@@ -3591,7 +3591,7 @@ Nick Vannett,SEA,TE,13,2018
 Alan Cross,TB,TE,13,2018
 Damion Ratley,CLE,WR,13,2018
 Anthony Miller,CHI,WR,13,2018
-Lee Smith,OAK,TE,13,2018
+Lee Smith,LV,TE,13,2018
 Malik Turner,SEA,WR,13,2018
 Jordan Wilkins,IND,RB,13,2018
 Weston Richburg,SF,C,13,2018
@@ -3602,7 +3602,7 @@ Ryan Tannehill,MIA,QB,14,2018
 Eli Manning,NYG,QB,14,2018
 Ben Roethlisberger,PIT,QB,14,2018
 Baker Mayfield,CLE,QB,14,2018
-Derek Carr,OAK,QB,14,2018
+Derek Carr,LV,QB,14,2018
 Carson Wentz,PHI,QB,14,2018
 Taylor Heinicke,CAR,QB,14,2018
 Tom Brady,NE,QB,14,2018
@@ -3675,14 +3675,14 @@ Royce Freeman,DEN,RB,14,2018
 LeGarrette Blount,DET,RB,14,2018
 Marlon Mack,IND,RB,14,2018
 Lamar Miller,HOU,RB,14,2018
-Doug Martin,OAK,RB,14,2018
+Doug Martin,LV,RB,14,2018
 Phillip Lindsay,DEN,RB,14,2018
 Todd Gurley,LAR,HB,14,2018
 Theo Riddick,DET,RB,14,2018
 Jaylen Samuels,PIT,RB,14,2018
 Rod Smith,DAL,RB,14,2018
 Kenyan Drake,MIA,RB,14,2018
-Jalen Richard,OAK,RB,14,2018
+Jalen Richard,LV,RB,14,2018
 Chris Thompson,WAS,RB,14,2018
 Mike Davis,SEA,RB,14,2018
 Isaiah McKenzie,BUF,WR,14,2018
@@ -3744,7 +3744,7 @@ George Kittle,SF,TE,14,2018
 T.Y. Hilton,IND,WR,14,2018
 Kenny Stills,MIA,WR,14,2018
 JuJu Smith-Schuster,PIT,WR,14,2018
-Jared Cook,OAK,TE,14,2018
+Jared Cook,LV,TE,14,2018
 Rob Gronkowski,NE,TE,14,2018
 Julio Jones,ATL,WR,14,2018
 Robert Foster,BUF,WR,14,2018
@@ -3764,7 +3764,7 @@ Travis Kelce,KC,TE,14,2018
 Trent Sherfield,ARI,WR,14,2018
 Ian Thomas,CAR,TE,14,2018
 Robby Anderson,NYJ,WR,14,2018
-Seth Roberts,OAK,WR,14,2018
+Seth Roberts,LV,WR,14,2018
 Zach Pascal,IND,WR,14,2018
 Eric Ebron,IND,WR,14,2018
 Willie Snead,BAL,WR,14,2018
@@ -3779,11 +3779,11 @@ Cordarrelle Patterson,NE,WR,14,2018
 Alshon Jeffery,PHI,WR,14,2018
 Nelson Agholor,PHI,WR,14,2018
 Dante Pettis,SF,WR,14,2018
-Jordy Nelson,OAK,WR,14,2018
+Jordy Nelson,LV,WR,14,2018
 Demaryius Thomas,HOU,WR,14,2018
 DaeSean Hamilton,DEN,WR,14,2018
 Donte Moncrief,JAC,TE,14,2018
-Marcell Ateman,OAK,WR,14,2018
+Marcell Ateman,LV,WR,14,2018
 Mike Williams,LAC,WR,14,2018
 Dallas Goedert,PHI,TE,14,2018
 Randall Cobb,GB,WR,14,2018
@@ -3808,7 +3808,7 @@ Ricky Seals-Jones,ARI,TE,14,2018
 Jordan Thomas,HOU,TE,14,2018
 Cody Core,CIN,WR,14,2018
 Justin Hardy,ATL,WR,14,2018
-Derek Carrier,OAK,TE,14,2018
+Derek Carrier,LV,TE,14,2018
 Gerald Everett,LAR,TE,14,2018
 Demetrius Harris,KC,TE,14,2018
 Jesse James,PIT,TE,14,2018
@@ -3885,7 +3885,7 @@ Brian Parker,DEN,TE,14,2018
 Logan Thomas,BUF,TE,14,2018
 Ed Dickson,SEA,TE,14,2018
 Matt LaCosse,DEN,TE,14,2018
-Lee Smith,OAK,TE,14,2018
+Lee Smith,LV,TE,14,2018
 Bradley Sowell,CHI,OL,14,2018
 Derek Watt,LAC,FB,14,2018
 Ryan Switzer,PIT,WR,14,2018
@@ -3922,7 +3922,7 @@ Tom Brady,NE,QB,15,2018
 Nick Foles,PHI,QB,15,2018
 Josh Allen,BUF,QB,15,2018
 Philip Rivers,LAC,QB,15,2018
-Derek Carr,OAK,QB,15,2018
+Derek Carr,LV,QB,15,2018
 Baker Mayfield,CLE,QB,15,2018
 Andrew Luck,IND,QB,15,2018
 Ben Roethlisberger,PIT,QB,15,2018
@@ -3970,7 +3970,7 @@ Leonard Fournette,JAC,RB,15,2018
 Jeff Wilson,SF,RB,15,2018
 Zach Zenner,DET,RB,15,2018
 Elijah McGuire,NYJ,RB,15,2018
-Doug Martin,OAK,RB,15,2018
+Doug Martin,LV,RB,15,2018
 Dion Lewis,TEN,RB,15,2018
 Marcus Murphy,BUF,RB,15,2018
 Detrez Newsome,LAC,RB,15,2018
@@ -3987,7 +3987,7 @@ Phillip Lindsay,DEN,RB,15,2018
 Chase Edmonds,ARI,RB,15,2018
 D.J. Moore,CAR,WR,15,2018
 Mike Davis,SEA,RB,15,2018
-Darren Waller,OAK,TE,15,2018
+Darren Waller,LV,TE,15,2018
 Dede Westbrook,JAC,WR,15,2018
 Nyheim Hines,IND,RB,15,2018
 Mike Williams,LAC,WR,15,2018
@@ -4007,7 +4007,7 @@ Mohamed Sanu,ATL,WR,15,2018
 LeGarrette Blount,DET,RB,15,2018
 Stefon Diggs,MIN,WR,15,2018
 Patrick DiMarco,BUF,FB,15,2018
-Jalen Richard,OAK,RB,15,2018
+Jalen Richard,LV,RB,15,2018
 Chris Thompson,WAS,RB,15,2018
 Travis Benjamin,LAC,WR,15,2018
 Aaron Jones,GB,RB,15,2018
@@ -4031,11 +4031,11 @@ Ryan Switzer,PIT,WR,15,2018
 J.D. McKissic,SEA,RB,15,2018
 Elijhaa Penny,NYG,RB,15,2018
 Taquan Mizzell,CHI,RB,15,2018
-DeAndre Washington,OAK,RB,15,2018
+DeAndre Washington,LV,RB,15,2018
 Justin Davis,LAR,RB,15,2018
 Benny Cunningham,CHI,RB,15,2018
 Blaine Gabbert,TEN,QB,15,2018
-Seth Roberts,OAK,WR,15,2018
+Seth Roberts,LV,WR,15,2018
 T.J. Logan,ARI,RB,15,2018
 Tyreek Hill,KC,WR,15,2018
 Chris Moore,BAL,WR,15,2018
@@ -4047,7 +4047,7 @@ Davante Adams,GB,WR,15,2018
 Robert Foster,BUF,WR,15,2018
 Robby Anderson,NYJ,WR,15,2018
 Julian Edelman,NE,WR,15,2018
-Jordy Nelson,OAK,WR,15,2018
+Jordy Nelson,LV,WR,15,2018
 T.Y. Hilton,IND,WR,15,2018
 Dante Pettis,SF,WR,15,2018
 Larry Fitzgerald,ARI,WR,15,2018
@@ -4110,7 +4110,7 @@ Luke Stocker,TEN,TE,15,2018
 C.J. Uzomah,CIN,TE,15,2018
 Jason Croom,BUF,TE,15,2018
 Josh Hill,NO,TE,15,2018
-Jared Cook,OAK,TE,15,2018
+Jared Cook,LV,TE,15,2018
 Alex Erickson,CIN,WR,15,2018
 Mike Gesicki,MIA,TE,15,2018
 Adam Humphries,TB,WR,15,2018
@@ -4120,7 +4120,7 @@ Zach Ertz,PHI,TE,15,2018
 Ricky Seals-Jones,ARI,TE,15,2018
 Rob Gronkowski,NE,TE,15,2018
 Jarius Wright,CAR,WR,15,2018
-Marcell Ateman,OAK,WR,15,2018
+Marcell Ateman,LV,WR,15,2018
 Hayden Hurst,BAL,TE,15,2018
 Cordarrelle Patterson,NE,WR,15,2018
 Eli Rogers,PIT,WR,15,2018
@@ -4189,7 +4189,7 @@ Kyle Juszczyk,SF,FB,15,2018
 MyCole Pruitt,TEN,TE,15,2018
 Jordan Thomas,HOU,TE,15,2018
 Jacquizz Rodgers,TB,RB,15,2018
-Lee Smith,OAK,TE,15,2018
+Lee Smith,LV,TE,15,2018
 Ryan Griffin,HOU,TE,15,2018
 Ronald Jones,TB,RB,15,2018
 Tremon Smith,KC,CB,15,2018
@@ -4223,7 +4223,7 @@ Mike Glennon,ARI,QB,16,2018
 Jameis Winston,TB,QB,16,2018
 Andrew Luck,IND,QB,16,2018
 Blake Bortles,JAC,QB,16,2018
-Derek Carr,OAK,QB,16,2018
+Derek Carr,LV,QB,16,2018
 Cody Kessler,JAC,QB,16,2018
 Ryan Tannehill,MIA,QB,16,2018
 Case Keenum,DEN,QB,16,2018
@@ -4247,7 +4247,7 @@ Chris Carson,SEA,RB,16,2018
 Sony Michel,NE,RB,16,2018
 Brian Hill,ATL,RB,16,2018
 Nick Chubb,CLE,RB,16,2018
-Doug Martin,OAK,RB,16,2018
+Doug Martin,LV,RB,16,2018
 Damien Williams,KC,RB,16,2018
 Christian McCaffrey,CAR,RB,16,2018
 Jamaal Williams,GB,RB,16,2018
@@ -4299,7 +4299,7 @@ Phillip Dorsett,NE,WR,16,2018
 Tarik Cohen,CHI,RB,16,2018
 Wayne Gallman,NYG,RB,16,2018
 Duke Johnson,CLE,RB,16,2018
-Jalen Richard,OAK,RB,16,2018
+Jalen Richard,LV,RB,16,2018
 Kalen Ballage,MIA,RB,16,2018
 Brandon Bolden,MIA,RB,16,2018
 LeSean McCoy,BUF,RB,16,2018
@@ -4330,7 +4330,7 @@ Taquan Mizzell,CHI,RB,16,2018
 Charcandrick West,KC,RB,16,2018
 D'Onta Foreman,HOU,RB,16,2018
 Justin Jackson,LAC,RB,16,2018
-DeAndre Washington,OAK,RB,16,2018
+DeAndre Washington,LV,RB,16,2018
 Danny Amendola,MIA,WR,16,2018
 Sean Mannion,LAR,QB,16,2018
 Theo Riddick,DET,RB,16,2018
@@ -4357,7 +4357,7 @@ Alshon Jeffery,PHI,WR,16,2018
 Adam Humphries,TB,WR,16,2018
 Jamison Crowder,WAS,WR,16,2018
 Breshad Perriman,CLE,WR,16,2018
-Jordy Nelson,OAK,WR,16,2018
+Jordy Nelson,LV,WR,16,2018
 Marquez Valdes-Scantling,GB,WR,16,2018
 Ted Ginn,NO,WR,16,2018
 George Kittle,SF,TE,16,2018
@@ -4419,7 +4419,7 @@ Rashad Greene,JAC,WR,16,2018
 Jeremy Sprinkle,WAS,TE,16,2018
 Antonio Gates,LAC,TE,16,2018
 Dante Pettis,SF,WR,16,2018
-Jared Cook,OAK,TE,16,2018
+Jared Cook,LV,TE,16,2018
 Amari Cooper,DAL,WR,16,2018
 Michael Crabtree,BAL,WR,16,2018
 Ed Dickson,SEA,TE,16,2018
@@ -4439,7 +4439,7 @@ Nick Boyle,BAL,TE,16,2018
 Ryan Griffin,HOU,TE,16,2018
 Dontrell Hilliard,CLE,RB,16,2018
 Jalen Tolliver,ARI,WR,16,2018
-Seth Roberts,OAK,WR,16,2018
+Seth Roberts,LV,WR,16,2018
 Jordan Matthews,PHI,WR,16,2018
 DeVante Parker,MIA,WR,16,2018
 Golden Tate,PHI,WR,16,2018
@@ -4463,7 +4463,7 @@ Cameron Brate,TB,TE,16,2018
 Blake Jarwin,DAL,TE,16,2018
 Isaiah McKenzie,BUF,WR,16,2018
 Chris Moore,BAL,WR,16,2018
-Darren Waller,OAK,TE,16,2018
+Darren Waller,LV,TE,16,2018
 Tommy Bohanon,JAC,FB,16,2018
 Michael Floyd,WAS,WR,16,2018
 David Moore,SEA,WR,16,2018
@@ -4485,7 +4485,7 @@ Eli Rogers,PIT,WR,16,2018
 Danny Vitale,GB,FB,16,2018
 Seth Devalve,CLE,TE,16,2018
 Josh Hill,NO,TE,16,2018
-Keith Smith,OAK,FB,16,2018
+Keith Smith,LV,FB,16,2018
 Giovani Bernard,CIN,HB,16,2018
 Tremon Smith,KC,CB,16,2018
 Tramon Williams,GB,S,16,2018
@@ -4525,7 +4525,7 @@ Sam Darnold,NYJ,QB,17,2018
 Josh Rosen,ARI,QB,17,2018
 Teddy Bridgewater,NO,QB,17,2018
 Aaron Rodgers,GB,QB,17,2018
-Derek Carr,OAK,QB,17,2018
+Derek Carr,LV,QB,17,2018
 Philip Rivers,LAC,QB,17,2018
 Blaine Gabbert,TEN,QB,17,2018
 Jeff Driskel,CIN,QB,17,2018
@@ -4542,7 +4542,7 @@ Saquon Barkley,NYG,RB,17,2018
 Jordan Howard,CHI,RB,17,2018
 Dwayne Washington,NO,RB,17,2018
 Joe Mixon,CIN,HB,17,2018
-Doug Martin,OAK,RB,17,2018
+Doug Martin,LV,RB,17,2018
 Derrick Henry,TEN,RB,17,2018
 Zach Zenner,DET,RB,17,2018
 Gus Edwards,BAL,RB,17,2018
@@ -4569,7 +4569,7 @@ Rod Smith,DAL,RB,17,2018
 Darrel Williams,KC,RB,17,2018
 Brian Hill,ATL,RB,17,2018
 John Kelly,LAR,RB,17,2018
-DeAndre Washington,OAK,RB,17,2018
+DeAndre Washington,LV,RB,17,2018
 James White,NE,RB,17,2018
 Mark Ingram,NO,RB,17,2018
 LeSean McCoy,BUF,RB,17,2018
@@ -4623,7 +4623,7 @@ Kapri Bibbs,GB,RB,17,2018
 Jaylen Samuels,PIT,RB,17,2018
 David Williams,JAC,RB,17,2018
 Alex Armah,CAR,FB,17,2018
-Jalen Richard,OAK,RB,17,2018
+Jalen Richard,LV,RB,17,2018
 Robert Woods,LAR,WR,17,2018
 Adrian Peterson,WAS,RB,17,2018
 Maxx Williams,BAL,TE,17,2018
@@ -4631,7 +4631,7 @@ Adam Thielen,MIN,WR,17,2018
 Geno Smith,LAC,QB,17,2018
 Charcandrick West,KC,RB,17,2018
 Brian Hoyer,NE,QB,17,2018
-Seth Roberts,OAK,WR,17,2018
+Seth Roberts,LV,WR,17,2018
 Eli Rogers,PIT,WR,17,2018
 Mike Williams,LAC,WR,17,2018
 George Kittle,SF,TE,17,2018
@@ -4649,7 +4649,7 @@ Rashard Higgins,CLE,WR,17,2018
 Evan Engram,NYG,TE,17,2018
 D.J. Moore,CAR,WR,17,2018
 Antonio Callaway,CLE,WR,17,2018
-Jordy Nelson,OAK,WR,17,2018
+Jordy Nelson,LV,WR,17,2018
 Dontrelle Inman,IND,WR,17,2018
 Deontay Burnett,NYJ,WR,17,2018
 Cody Latimer,NYG,WR,17,2018
@@ -4706,7 +4706,7 @@ Tre'Quan Smith,NO,WR,17,2018
 John Phillips,ARI,TE,17,2018
 Michael Thomas,NO,WR,17,2018
 Ben Watson,NO,TE,17,2018
-Jared Cook,OAK,TE,17,2018
+Jared Cook,LV,TE,17,2018
 Andre Roberts,NYJ,WR,17,2018
 Vyncint Smith,HOU,WR,17,2018
 Doug Baldwin,SEA,WR,17,2018
@@ -4721,7 +4721,7 @@ Robby Anderson,NYJ,WR,17,2018
 Rob Gronkowski,NE,TE,17,2018
 Dion Lewis,TEN,RB,17,2018
 Trent Sherfield,ARI,WR,17,2018
-Darren Waller,OAK,TE,17,2018
+Darren Waller,LV,TE,17,2018
 Tyrell Williams,LAC,WR,17,2018
 Gehrig Dieter,KC,WR,17,2018
 Luke Stocker,TEN,TE,17,2018
@@ -4764,7 +4764,7 @@ Ryan Griffin,HOU,TE,17,2018
 Chris Herndon,NYJ,TE,17,2018
 Darvin Kidsy,WAS,WR,17,2018
 Taywan Taylor,TEN,WR,17,2018
-Marcell Ateman,OAK,WR,17,2018
+Marcell Ateman,LV,WR,17,2018
 Jaron Brown,SEA,WR,17,2018
 John Brown,BAL,WR,17,2018
 Jehu Chesson,WAS,WR,17,2018
