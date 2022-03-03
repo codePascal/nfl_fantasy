@@ -205,7 +205,6 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
                 self.assertEqual(1, len(df.week.unique()))
                 self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
-
     def test_weekly_snapcounts(self):
         df = WeeklySnapcounts(1, 2021, refresh=True).get_data()
 
