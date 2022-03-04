@@ -8,7 +8,7 @@ from src.preprocessing.statistics.projections import Projections
 from src.preprocessing.statistics.snapcounts import Snapcounts
 from src.preprocessing.statistics.stats import Stats
 from src.preprocessing.statistics.statistics import Statistics
-from src.preprocessing.statistics.defense import MergeDefense
+from src.preprocessing.statistics.teststats import Defense, Offense
 
 
 # TODO make clean with test functions
@@ -166,9 +166,17 @@ class TestPreprocessingProjections(unittest.TestCase):
             ['Marcus Kemp', 0.1, 1.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.1, 'KC', 'WR', 18, 2021], df.iloc[-1, :].to_list())
 
 
-class TestPreprocessingDefense(unittest.TestCase):
+class TestPreprocessingTeamStats(unittest.TestCase):
     def test_defense(self):
-        df = MergeDefense(2021, refresh=True).get_accumulated_data()
+        df = Defense(2021, refresh=True).get_accumulated_data()
+
+        self.assertEqual(32, len(df.team.unique()))
+        unique_teams = df.team.unique()
+        for unique_team in unique_teams:
+            self.assertEqual(1, len(df.loc[df["team"] == unique_team]), f"{unique_team} appears too much.")
+
+    def test_offense(self):
+        df = Offense(2021, refresh=True).get_accumulated_data()
 
         self.assertEqual(32, len(df.team.unique()))
         unique_teams = df.team.unique()
