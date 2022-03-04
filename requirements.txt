@@ -6,6 +6,7 @@ requests
 statsmodels
 matplotlib
 tqdm
+sklearn
+pmdarima
 
 ##### Requirements with Version Specifiers #####
-# pdmarima TODO version
