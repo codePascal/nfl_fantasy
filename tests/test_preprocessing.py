@@ -188,14 +188,13 @@ class TestPreprocessingStatistics(unittest.TestCase):
     def test_statistics(self):
         df = Statistics("QB", 2016, refresh=True).get_accumulated_data()
 
-        # test content
+        self.assertEqual(32, len(df.team.unique()))
+        self.assertEqual(32, len(df.opponent.unique()))
+        self.assertEqual(17, len(df.week.unique()))
+
         unique_names = df.player.unique()
         for unique_name in unique_names:
             self.assertGreater(19, len(df.loc[df["player"] == unique_name]), f"{unique_name} appears too much.")
-        # TODO fix me
-        # self.assertEqual(33, len(df.team.unique()))
-        # TODO fix me
-        # self.assertEqual(33, len(df.opponent.unique()))
 
 
 if __name__ == "__main__":
