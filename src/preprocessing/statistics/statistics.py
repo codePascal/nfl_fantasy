@@ -1,5 +1,6 @@
 """
-Accumulates weekly stats with snapcounts and schedule for a season.
+Accumulates weekly stats and schedule for a season with the yearly
+team stats for defense.
 
 Running this script will store the accumulated statistics for a given
 year range.
@@ -9,11 +10,11 @@ import pandas as pd
 
 from abc import ABC
 
-from config.mapping import teams, team_changes_map, week_map
+from config.mapping import week_map
 from src.loader.fantasypros.schedule import Schedule
 from src.preprocessing.preprocessing import Preprocessing
-from src.preprocessing.statistics.snapcounts import Snapcounts
 from src.preprocessing.statistics.stats import Stats
+from src.preprocessing.statistics.teststats import Defense
 
 
 class Statistics(Preprocessing, ABC):
@@ -26,68 +27,22 @@ class Statistics(Preprocessing, ABC):
         self.dir = f"../preprocessed/statistics/{self.year}"
 
     def concat_data(self):
-        """ Concatenates weekly stats, snapcounts and schedule
-        for given position. """
-        # snapcounts only available back to 2016
-        if self.year < 2016:
-            # TODO fix free agents -> snapcounts are correct
-            #  stats not, if player changed his team, stats are updated recursively somehow
-            stats = Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data()
-            stats.drop(["rank", "rost", "fantasy_points_per_game"], axis=1, inplace=True)
-        else:
-            # get snapcounts only for position
-            snapcounts = Snapcounts(self.year, refresh=self.refresh).get_accumulated_data()
-            snapcounts = snapcounts.loc[snapcounts["position"] == self.position]
+        """ Concatenates weekly stats and schedule for given position
+        with and opponent yearly stats.
+        """
+        season = Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data()
+        season.drop(["rank", "rost", "fantasy_points_per_game"], axis=1, inplace=True)
 
-            # merge with weekly accumulated stats
-            stats = pd.merge(snapcounts,
-                             Stats(self.position, self.year, refresh=self.refresh).get_accumulated_data(),
-                             how="outer",
-                             on=["player", "week", "year", "fantasy_points", "games", "position"])
+        schedule = Schedule(self.year).get_data()
+        season = pd.merge(season, schedule, how="inner", on=["team", "week", "year"])
+        season = season.loc[season["opponent"] != "BYE"]
 
-            # drop not relevant columns
-            stats.drop(["rank", "rost", "fantasy_points_per_game", "snaps_per_game"], axis=1, inplace=True)
+        defense = Defense(self.year).get_accumulated_data()
+        defense.drop(["games"], axis=1, inplace=True)
+        defense.rename(columns={"team": "opponent"}, inplace=True)
+        season = pd.merge(season, defense, how="inner", on=["opponent", "year"])
 
-            # clean up teams
-            stats["team"] = stats.apply(check_teams, axis=1)
-            stats.drop(["team_x", "team_y"], axis=1, inplace=True)
-
-        # merge schedule
-        stats = pd.merge(stats, Schedule(self.year).get_data(), how="outer", on=["team", "week", "year"])
-        stats = stats.loc[stats["opponent"] != "BYE"]
-
-        return stats
-
-
-def check_teams(player):
-    """ Compares the team from stats and snapcounts and finds
-    correct one. """
-    team_x = player["team_x"]  # team from snapcounts
-    team_y = player["team_y"]  # team from stats
-    if team_x == "FA" and team_y != "FA":
-        # fix free agent
-        return team_y
-    elif team_x != "FA" and team_y == "FA":
-        # fix free agent
-        return team_x
-    elif team_x == team_y:
-        # same teams but check abbreviations
-        team = team_x
-        if team not in teams and team is not np.nan:
-            # check for new abbreviation
-            if team in team_changes_map.keys():
-                return team_changes_map[team]
-            else:
-                print("Team abbreviation", team, "not available.")
-        else:
-            return team
-    elif team_x is None or team_x is np.nan:
-        return team_y
-    elif team_y is None or team_y is np.nan:
-        return team_x
-    else:
-        # snapcounts are correct
-        return team_x
+        return season
 
 
 def store_all():
