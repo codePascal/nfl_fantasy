@@ -101,7 +101,7 @@ class Leaders:
         df.set_index("player", drop=True, inplace=True)
         df = df.loc[:, [f"week_{i}" for i in range(1, week_map[self.year] + 1)]]
 
-        self.plot_stacked_barplot(df, f"Top {self.position} for total {self.metric} in {self.year}")
+        self.plot_stacked_barplot(df, f"Top {n} {self.position} for total {self.metric} in {self.year}")
 
     def plot_leaders_average(self, n=20):
         df = self.get_data()
@@ -112,7 +112,7 @@ class Leaders:
         df.set_index("player", drop=True, inplace=True)
         df = df.loc[:, [f"week_{i}" for i in range(1, week_map[self.year] + 1)]]
 
-        self.plot_stacked_barplot(df, f"Top {self.position} for {self.metric} per game in {self.year}")
+        self.plot_stacked_barplot(df, f"Top {n} {self.position} for {self.metric} per game in {self.year}")
 
     def plot_stacked_barplot(self, df, title):
         # plot stacked horizontal bar plot
@@ -143,6 +143,5 @@ class Leaders:
 
 
 if __name__ == "__main__":
-    Leaders("rushing_td", "RB", 2021).plot_leaders_total()
-    Leaders("rushing_td", "RB", 2021).plot_leaders_average()
+    Leaders("passing_cmp", "QB", 2021).plot_leaders_total()
 
