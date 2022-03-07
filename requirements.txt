@@ -8,5 +8,6 @@ matplotlib
 tqdm
 sklearn
 pmdarima
+seaborn
 
 ##### Requirements with Version Specifiers #####
