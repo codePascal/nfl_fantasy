@@ -2,12 +2,11 @@
 import unittest
 import numpy as np
 
+import src.loader.espn.statistics as loader
+
 from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
 from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
 from config.mapping import teams
-
-from src.loader.espn.teams import PassingDefense, RushingDefense, ReceivingDefense, DownsDefense
-from src.loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffense, DownsOffense
 
 
 # TODO make clean with test functions
@@ -15,7 +14,7 @@ from src.loader.espn.teams import PassingOffense, RushingOffense, ReceivingOffen
 
 class TestEspnLoader(unittest.TestCase):
     def test_defense_passing(self):
-        df = PassingDefense(2021, "REG", refresh=True).get_data()
+        df = loader.PassingDefense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(15, df.shape[1])
@@ -28,7 +27,7 @@ class TestEspnLoader(unittest.TestCase):
                              df.iloc[0, :].to_list())
 
     def test_defense_rushing(self):
-        df = RushingDefense(2021, "REG", refresh=True).get_data()
+        df = loader.RushingDefense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(11, df.shape[1])
@@ -40,7 +39,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(["BAL", 17, 378, 1436, 3.8, 84.5, 66, 13, 7, 1, 2021], df.iloc[0, :].to_list())
 
     def test_defense_receiving(self):
-        df = ReceivingDefense(2021, "REG", refresh=True).get_data()
+        df = loader.ReceivingDefense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(11, df.shape[1])
@@ -54,7 +53,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(entries_should, df.iloc[0, :].to_list())
 
     def test_offense_passing(self):
-        df = PassingOffense(2021, "REG", refresh=True).get_data()
+        df = loader.PassingOffense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(15, df.shape[1])
@@ -67,7 +66,7 @@ class TestEspnLoader(unittest.TestCase):
                              df.iloc[0, :].to_list())
 
     def test_offense_rushing(self):
-        df = RushingOffense(2021, "REG", refresh=True).get_data()
+        df = loader.RushingOffense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(11, df.shape[1])
@@ -79,7 +78,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(["PHI", 17, 550, 2715, 4.9, 159.7, 38, 25, 17, 3, 2021], df.iloc[0, :].to_list())
 
     def test_offense_receiving(self):
-        df = ReceivingOffense(2021, "REG", refresh=True).get_data()
+        df = loader.ReceivingOffense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(11, df.shape[1])
@@ -91,7 +90,7 @@ class TestEspnLoader(unittest.TestCase):
         self.assertListEqual(["TB", 17, 492, 5383, 10.9, 316.6, 62, 43, 7, 4, 2021], df.iloc[0, :].to_list())
 
     def test_defense_downs(self):
-        df = DownsDefense(2021, "REG", refresh=True).get_data()
+        df = loader.DownsDefense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(15, df.shape[1])
@@ -104,7 +103,7 @@ class TestEspnLoader(unittest.TestCase):
                              df.iloc[0, :].to_list())
 
     def test_offense_downs(self):
-        df = DownsOffense(2021, "REG", refresh=True).get_data()
+        df = loader.DownsOffense(2021, "REG", refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(15, df.shape[1])

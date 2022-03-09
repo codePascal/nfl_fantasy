@@ -1,23 +1,70 @@
 """
-Implements the yearly team stats loading from ESPN on
-https://www.espn.com/nfl/stats.
-
-Running this as a single script will fetch and store all passing,
-rushing, receiving and downs statistics over a given year range for
-defense and offense. If the data is already available offline, the
-data is only refreshed and stored again.
+Implements data handling for data fetched from
+https://www.espn.com/nfl/stats. If the data is not available offline,
+it is freshly fetched from the website.
 """
+import bs4
+import itertools
+import pandas as pd
+import requests
+
 from abc import ABC
 
 from config.mapping import teams, team_map, team_changes_map, week_map
 from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
 from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
-from src.loader.espn.espn import EspnLoader as Loader
+
+from src.loader.loader import Loader
 
 
-class TeamStats(Loader, ABC):
+class EspnLoader(Loader, ABC):
     def __init__(self, year, season, refresh=False):
-        Loader.__init__(self, year, season, refresh)
+        Loader.__init__(self, refresh)
+        self.year = year
+        self.season = season
+        self.seasontype = self.get_season_type(self.season)
+        self.skip = 0
+
+    def get_html_content(self):
+        """ Reads HTML content and returns data table. """
+        # get HTML config
+        print("Fetching from", self.url)
+        req = requests.get(self.url)
+
+        # observe HTML output -> https://webformatter.com/html
+        # print(req.text)
+
+        # get table raw
+        soup = bs4.BeautifulSoup(req.content, "html.parser")
+        tables = soup.find(class_="ResponsiveTable").find_all("table")
+        idx = list(itertools.chain.from_iterable(self.get_table_data(tables[0])))
+        content = self.get_table_data(tables[1])
+
+        # in case table has two headers:
+        if self.skip > 0:
+            idx = idx[self.skip:]
+            content = content[self.skip:]
+
+        # parse to table
+        data = pd.DataFrame(content[1:], index=idx[1:], columns=content[0])
+        data.index = data.index.set_names([idx[0]])
+        data.reset_index(inplace=True)
+
+        return data
+
+    @staticmethod
+    def get_season_type(season):
+        if season == "PRE":
+            return 1
+        elif season == "REG":
+            return 2
+        elif season == "POST":
+            return 3
+
+
+class TeamStats(EspnLoader, ABC):
+    def __init__(self, year, season, refresh=False):
+        EspnLoader.__init__(self, year, season, refresh)
         self.to_add = {"year": self.year}
 
     def clean_data(self, df):
@@ -26,7 +73,7 @@ class TeamStats(Loader, ABC):
         df = self.map_columns(df)
 
         # put team abbreviation instead of full name
-        df["team"] = df["team"].apply(add_team_abbreviation)
+        df["team"] = df["team"].apply(self.add_team_abbreviation)
 
         # fix a thousand notations
         for column in df.columns.to_list():
@@ -38,6 +85,19 @@ class TeamStats(Loader, ABC):
 
         # set types
         return df.astype(self.mapping)
+
+    @staticmethod
+    def add_team_abbreviation(team):
+        """ Returns team abbreviations if available. """
+        if team in teams:
+            return team
+        elif team in team_map:
+            return team_map[team]
+        elif team in team_changes_map:
+            return team_map[team_changes_map[team]]
+        else:
+            print(team, "not found.")
+            return team
 
 
 class OffenseStats(TeamStats, ABC):
@@ -148,31 +208,6 @@ class DownsDefense(DefenseStats, ABC):
         self.skip = 1
 
 
-def add_team_abbreviation(team):
-    """ Returns team abbreviations if available. """
-    if team in teams:
-        return team
-    elif team in team_map:
-        return team_map[team]
-    elif team in team_changes_map:
-        return team_map[team_changes_map[team]]
-    else:
-        print(team, "not found.")
-        return team
-
-
-def store_all():
-    """ Stores all team stats for given year range. """
-    for year in week_map.keys():
-        PassingDefense(year, "REG").store_data()
-        RushingDefense(year, "REG").store_data()
-        ReceivingDefense(year, "REG").store_data()
-        DownsDefense(year, "REG").store_data()
-        PassingOffense(year, "REG").store_data()
-        RushingOffense(year, "REG").store_data()
-        ReceivingOffense(year, "REG").store_data()
-        DownsOffense(year, "REG").store_data()
-
 
 if __name__ == "__main__":
-    store_all()
+    pass
