@@ -113,7 +113,7 @@ offense_receiving_map = {
     "receiving_fumbles_lost_offense": float
 }
 
-# maps the column names and types for defense downs
+# maps the column names and types for offense downs
 offense_downs_map = {
     "team": str,
     "games_offense": float,
