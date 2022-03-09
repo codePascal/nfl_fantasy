@@ -5,14 +5,10 @@ pros.
 import unittest
 import numpy as np
 
+import src.loader.fantasypros.statistics as loader
+
 from config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
 from config.mapping import teams, week_map
-
-from src.loader.fantasypros.points_allowed import PointsAllowed
-from src.loader.fantasypros.projections import Projections
-from src.loader.fantasypros.schedule import Schedule
-from src.loader.fantasypros.snapcounts import WeeklySnapcounts, YearlySnapcounts
-from src.loader.fantasypros.stats import WeeklyStats, YearlyStats
 
 
 # TODO make clean with test functions
@@ -26,7 +22,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
         for position in ["QB", "RB", "WR", "TE"]:
             for year in week_map.keys():
                 for week in range(1, week_map[year] + 1):
-                    df = WeeklyStats(position, week, year, refresh=True).get_data()
+                    df = loader.WeeklyStats(position, week, year, refresh=True).get_data()
 
                     self.assertListEqual(list(stats_type[position].keys()) + ["position", "week", "year", "team"],
                                          df.columns.to_list())
@@ -36,7 +32,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
                     self.assertEqual(1, len(df.position.unique()))
 
     def test_weekly_stats_QB(self):
-        df = WeeklyStats("QB", 1, 2021, refresh=True).get_data()
+        df = loader.WeeklyStats("QB", 1, 2021, refresh=True).get_data()
 
         self.assertEqual(39, df.shape[0])
         self.assertEqual(22, df.shape[1])
@@ -55,7 +51,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
              'QB', 1, 2021, 'NO'], df.iloc[-1, :].to_list())
 
     def test_weekly_stats_RB(self):
-        df = WeeklyStats("RB", 1, 2021, refresh=True).get_data()
+        df = loader.WeeklyStats("RB", 1, 2021, refresh=True).get_data()
 
         self.assertEqual(94, df.shape[0])
         self.assertEqual(22, df.shape[1])
@@ -74,7 +70,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
              50.4, 'RB', 1, 2021, 'NE'], df.iloc[-1, :].to_list())
 
     def test_weekly_stats_TE(self):
-        df = WeeklyStats("TE", 1, 2021, refresh=True).get_data()
+        df = loader.WeeklyStats("TE", 1, 2021, refresh=True).get_data()
 
         self.assertEqual(66, df.shape[0])
         self.assertEqual(21, df.shape[1])
@@ -93,7 +89,7 @@ class TestFantasyProsLoaderWeeklyStats(unittest.TestCase):
              1, 2021, 'PIT'], df.iloc[-1, :].to_list())
 
     def test_weekly_stats_WR(self):
-        df = WeeklyStats("WR", 1, 2021, refresh=True).get_data()
+        df = loader.WeeklyStats("WR", 1, 2021, refresh=True).get_data()
 
         self.assertEqual(140, df.shape[0])
         self.assertEqual(21, df.shape[1])
@@ -117,7 +113,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
     def test_yearly_stats_loading(self):
         for position in ["QB", "RB", "WR", "TE"]:
             for year in week_map.keys():
-                df = YearlyStats(position, year, refresh=True).get_data()
+                df = loader.YearlyStats(position, year, refresh=True).get_data()
 
                 self.assertListEqual(list(stats_type[position].keys()) + ["position", "year", "team"],
                                      df.columns.to_list())
@@ -125,7 +121,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
                 self.assertEqual(1, len(df.position.unique()))
 
     def test_yearly_stats_QB(self):
-        df = YearlyStats("QB", 2021, refresh=True).get_data()
+        df = loader.YearlyStats("QB", 2021, refresh=True).get_data()
 
         self.assertEqual(121, df.shape[0])
         self.assertEqual(21, df.shape[1])
@@ -142,7 +138,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
              'QB', 2021, 'team'], df.iloc[-1, :].to_list())
 
     def test_yearly_stats_RB(self):
-        df = YearlyStats("RB", 2021, refresh=True).get_data()
+        df = loader.YearlyStats("RB", 2021, refresh=True).get_data()
 
         self.assertEqual(247, df.shape[0])
         self.assertEqual(21, df.shape[1])
@@ -159,7 +155,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
              'RB', 2021, 'team'], df.iloc[-1, :].to_list())
 
     def test_yearly_stats_TE(self):
-        df = YearlyStats("TE", 2021, refresh=True).get_data()
+        df = loader.YearlyStats("TE", 2021, refresh=True).get_data()
 
         self.assertEqual(224, df.shape[0])
         self.assertEqual(20, df.shape[1])
@@ -176,7 +172,7 @@ class TestFantasyProsLoaderYearlyStats(unittest.TestCase):
              2021, 'team'], df.iloc[-1, :].to_list())
 
     def test_yearly_stats_WR(self):
-        df = YearlyStats("WR", 2021, refresh=True).get_data()
+        df = loader.YearlyStats("WR", 2021, refresh=True).get_data()
 
         self.assertEqual(388, df.shape[0])
         self.assertEqual(20, df.shape[1])
@@ -198,7 +194,7 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
     def test_weekly_snapcounts_loading(self):
         for year in week_map.keys():
             for week in range(1, week_map[year] + 1):
-                df = WeeklySnapcounts(week, year, refresh=True).get_data()
+                df = loader.WeeklySnapcounts(week, year, refresh=True).get_data()
 
                 self.assertListEqual(list(snapcounts_type.keys()) + ["week", "year"], df.columns.to_list())
 
@@ -206,7 +202,7 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
                 self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
     def test_weekly_snapcounts(self):
-        df = WeeklySnapcounts(1, 2021, refresh=True).get_data()
+        df = loader.WeeklySnapcounts(1, 2021, refresh=True).get_data()
 
         self.assertEqual(339, df.shape[0])
         self.assertEqual(15, df.shape[1])
@@ -226,7 +222,7 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
     @unittest.skipIf(SKIP, "extensive test")
     def test_yearly_snapcounts_loading(self):
         for year in week_map.keys():
-            df = YearlySnapcounts(year, refresh=True).get_data()
+            df = loader.YearlySnapcounts(year, refresh=True).get_data()
 
             self.assertListEqual(list(snapcounts_type.keys()) + ["year"], df.columns.to_list())
 
@@ -234,7 +230,7 @@ class TestFantasyProsSnapcountsLoader(unittest.TestCase):
             self.assertEqual(["QB", "RB", "TE", "WR"], np.sort(df.position.unique()).tolist())
 
     def test_yearly_snapcounts(self):
-        df = YearlySnapcounts(2021, refresh=True).get_data()
+        df = loader.YearlySnapcounts(2021, refresh=True).get_data()
 
         self.assertEqual(631, df.shape[0])
         self.assertEqual(14, df.shape[1])
@@ -255,7 +251,7 @@ class TestFantasyProsScheduleLoader(unittest.TestCase):
     @unittest.skipIf(SKIP, "extensive test")
     def test_schedule_loading(self):
         for year in week_map.keys():
-            df = Schedule(year).get_data()
+            df = loader.Schedule(year).get_data()
 
             self.assertEqual(32 * week_map[year], df.shape[0])
             self.assertEqual(5, df.shape[1])
@@ -265,7 +261,7 @@ class TestFantasyProsScheduleLoader(unittest.TestCase):
             self.assertEqual(week_map[year], len(df.week.unique()))
 
     def test_schedule(self):
-        df = Schedule(2021).get_data()
+        df = loader.Schedule(2021).get_data()
 
         self.assertEqual(32 * 18, df.shape[0])
         self.assertEqual(5, df.shape[1])
@@ -284,7 +280,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
     def test_predictions_loading(self):
         for position in ["QB", "RB", "WR", "TE"]:
             for week in range(1, week_map[2021] + 1):
-                df = Projections(position, week, refresh=True).get_data()
+                df = loader.Projections(position, week, refresh=True).get_data()
 
                 self.assertListEqual(list(stats_type[position].keys()) + ["position", "week", "year", "team"],
                                      df.columns.to_list())
@@ -294,7 +290,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
                 self.assertEqual(1, len(df.position.unique()))
 
     def test_predictions_qb(self):
-        df = Projections("QB", 1, refresh=True).get_data()
+        df = loader.Projections("QB", 1, refresh=True).get_data()
 
         self.assertEqual(66, df.shape[0])
         self.assertEqual(15, df.shape[1])
@@ -313,7 +309,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
             df.iloc[-1, :].to_list())
 
     def test_predictions_rb(self):
-        df = Projections("RB", 1, refresh=True).get_data()
+        df = loader.Projections("RB", 1, refresh=True).get_data()
 
         self.assertEqual(143, df.shape[0])
         self.assertEqual(13, df.shape[1])
@@ -331,7 +327,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
             ['Jordan Howard', 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 'PHI', 'RB', 1, 2021], df.iloc[-1, :].to_list())
 
     def test_predictions_te(self):
-        df = Projections("TE", 1, refresh=True).get_data()
+        df = loader.Projections("TE", 1, refresh=True).get_data()
 
         self.assertEqual(112, df.shape[0])
         self.assertEqual(10, df.shape[1])
@@ -348,7 +344,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
             ['Deon Yelder', 0.0, 0.0, 0.0, 0.0, 0.0, 'ARI', 'TE', 1, 2021], df.iloc[-1, :].to_list())
 
     def test_predictions_wr(self):
-        df = Projections("WR", 1, refresh=True).get_data()
+        df = loader.Projections("WR", 1, refresh=True).get_data()
 
         self.assertEqual(222, df.shape[0])
         self.assertEqual(13, df.shape[1])
@@ -367,7 +363,7 @@ class TestFantasyProsProjectionsLoader(unittest.TestCase):
 
 class TestFantasyProsPointsAllowedLoader(unittest.TestCase):
     def test_points_allowed(self):
-        df = PointsAllowed(2020, refresh=True).get_data()
+        df = loader.PointsAllowed(2020, refresh=True).get_data()
 
         self.assertEqual(32, df.shape[0])
         self.assertEqual(14, df.shape[1])
