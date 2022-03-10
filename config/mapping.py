@@ -77,4 +77,5 @@ team_changes_map = {
     "SDG": "LAC",  # changed team name in 2017
     "STL": "LAR",  # changed team name in 2016
     "RAM": "LAR",  # changed team name in 2016
+    "Washington": "WAS",  # sometimes called only Washington
 }
