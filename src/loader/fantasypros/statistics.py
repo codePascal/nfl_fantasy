@@ -7,15 +7,13 @@ The recorded fantasy points correspond to standard scoring. For other
 scoring schemes, e.g. PPR or Half-PPR, the stats can be used to
 calculate points scored in that specific scheme.
 """
-import bs4
 import pandas as pd
-import requests
 import numpy as np
 import sys
 
 from abc import ABC
 
-from config.mapping import team_map, teams
+from config.mapping import team_map, teams, week_map
 from config.fantasypros import projections_type, pa_type, snapcounts_type, stats_type
 
 from src.loader.loader import Loader
@@ -23,42 +21,20 @@ from src.loader.ffdp.ffdp import TeamsLoader
 
 
 class FantasyProsLoader(Loader, ABC):
-    def __init__(self, year, refresh=False):
-        Loader.__init__(self, refresh)
+    def __init__(self, year):
+        Loader.__init__(self)
         self.year = year
-
-    def get_html_content(self):
-        """ Reads HTML content and returns data table. """
-        # get HTML config
-        print("Fetching from", self.url)
-        req = requests.get(self.url)
-
-        # observe HTML output -> https://webformatter.com/html
-        # print(req.text)
-
-        # get table raw
-        soup = bs4.BeautifulSoup(req.content, "html.parser")
-        table = soup.find(id="data")
-        data = self.get_table_data(table)
-
-        # return as pandas DataFrame
-        return pd.DataFrame(data[1:], columns=data[0])
 
 
 class Schedule(FantasyProsLoader, ABC):
-    def __init__(self, year, refresh=False):
-        FantasyProsLoader.__init__(self, year, refresh)
-
-        self.filename = f"schedule_{self.year}.csv"
+    def __init__(self, year):
+        FantasyProsLoader.__init__(self, year)
         self.dir = f"../raw/schedules"
+        self.filename = f"schedule_{self.year}.csv"
+        self.to_add = {"year": self.year}
         self.url = f"https://www.fantasypros.com/nfl/schedule/grid.php?year={self.year}"
 
-        # no refreshing available for schedules
-        # TODO split into loading and preprocessing
-        self.refresh = False
-
     def clean_data(self, df):
-        """ Restructures schedule. """
         # drop unnamed columns
         df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
 
@@ -77,33 +53,26 @@ class Schedule(FantasyProsLoader, ABC):
                                                               "home": [self.get_location(game)]})],
                                      ignore_index=True)
 
-        # add year
-        schedule["year"] = self.year
-
+        schedule = self.add_columns(schedule)
         return schedule
 
     @staticmethod
+    def get_location(game):
+        if game.startswith('@'):
+            return False
+        elif game.startswith("vs"):
+            return True
+        else:
+            return np.nan
+
+    @staticmethod
     def get_opponent(game):
-        """ Returns the opponent of the game on the view of the team. """
         if game == "BYE" or game == '-':
             return "BYE"
         elif game.startswith("@"):
             return game[1:]
         elif game.startswith("vs"):
             return game[2:]
-
-    @staticmethod
-    def get_location(game):
-        """ Returns true if the team has a home game. """
-        if game.startswith('@'):
-            # away game
-            return False
-        elif game.startswith("vs"):
-            # home game
-            return True
-        else:
-            # bye week
-            return np.nan
 
 
 class Projections(FantasyProsLoader, ABC):
@@ -116,58 +85,25 @@ class Projections(FantasyProsLoader, ABC):
     the season, e.g. Tom Brady, its projections are not available
     anymore.
     """
-    def __init__(self, position, week, refresh=False):
-        FantasyProsLoader.__init__(self, 2021, refresh)
+
+    def __init__(self, position, week):
+        FantasyProsLoader.__init__(self, 2021)
         self.position = position
         self.week = week
+
+        self.dir = f"../raw/projections/{self.year}/{self.position.upper()}"
+        self.filename = f"week_{self.week}.csv"
         self.mapping = projections_type[self.position]
         self.to_add = {"position": self.position, "week": self.week, "year": self.year}
-
-        self.filename = f"week_{self.week}.csv"
-        self.dir = f"../raw/projections/{self.year}/{self.position.upper()}"
         self.url = f"https://www.fantasypros.com/nfl/projections/{self.position.lower()}.php?week={self.week}"
 
-        self.original_columns_dict = {
-            "DST": ['Player', 'SACK', 'INT', 'FR', 'FF', 'TD', 'SAFETY', 'PA', 'YDS AGN', 'FPTS'],
-            "K": ['Player', 'FG', 'FGA', 'XPT', 'FPTS'],
-            "QB": ['Player', 'ATT', 'CMP', 'YDS', 'TDS', 'INTS', 'ATT', 'YDS', 'TDS', 'FL', 'FPTS'],
-            "RB": ['Player', 'ATT', 'YDS', 'TDS', 'REC', 'YDS', 'TDS', 'FL', 'FPTS'],
-            "TE": ['Player', 'REC', 'YDS', 'TDS', 'FL', 'FPTS'],
-            "WR": ['Player', 'REC', 'YDS', 'TDS', 'ATT', 'YDS', 'TDS', 'FL', 'FPTS']}
-        self.original_columns = self.original_columns_dict[self.position]
-
-    def clean_data(self, df):
-        """ Cleans data specifically for projections. """
-        df = self.map_columns(df)
-
-        # clean up general columns
+    def fix_columns(self, df):
         df["team"] = df.apply(self.get_team, axis=1)
         df["player"] = df["player"].apply(self.transform_name)
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        # set column types
-        return df.astype(self.mapping)
-
-    def restore_data(self, df):
-        """ Restores data specifically for projections since some
-        columns are altered during cleaning and should not be
-        changed. """
-        if not self.position == "DST":
-            # restore specifically altered columns
-            df["player"] = df["player"] + df["team"]
-
-        # standard restoring
-        df = df.iloc[:, :len(self.original_columns)]
-        df.columns = self.original_columns
-
         return df
 
     @staticmethod
     def get_team(player):
-        """ Extracts team from player entry. """
         if player["player"] in team_map.keys():
             return team_map[player["player"]]
         else:
@@ -178,7 +114,6 @@ class Projections(FantasyProsLoader, ABC):
 
     @staticmethod
     def transform_name(name):
-        """ Removes team from players name. """
         to_drop = ""
         for subname in name.split():
             for team in teams:
@@ -205,67 +140,41 @@ class PointsAllowed(FantasyProsLoader, ABC):
     team are not available. Further, the points of the previous name are
     not available too.
     """
-    def __init__(self, year, refresh=False):
-        FantasyProsLoader.__init__(self, year, refresh)
+
+    def __init__(self, year):
+        FantasyProsLoader.__init__(self, year)
+        self.dir = f"../raw/points_allowed"
+        self.filename = f"points_allowed_{self.year}.csv"
         self.mapping = pa_type
         self.to_add = {"year": self.year}
-
-        self.filename = f"points_allowed_{self.year}.csv"
-        self.dir = f"../raw/points_allowed"
         self.url = f"https://www.fantasypros.com/nfl/points-allowed.php?year={self.year}"
 
-        # TODO add restoring
-        self.refresh = False
-
-    def clean_data(self, df):
-        """ Cleans data specifically for points allowed. """
+    def map_columns(self, df):
+        df = df.loc[:, ~df.columns.str.contains('^Unnamed')]
         # back in 2015, points against only features offense positions
         self.mapping = dict([item for item in self.mapping.items()][:df.shape[1]])
-        df = self.map_columns(df)
+        df.columns = list(self.mapping.keys())
+        return df
 
-        # assign team shortcut
-        df["team"] = df["team"].apply(self.add_team_shortcut)
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        # ranks might contain an empty string
+    def fix_columns(self, df):
+        df["team"] = df["team"].apply(self.add_team_abbreviation)
         for i, column in enumerate(df.columns.to_list()):
             if "rank_" in column:
                 for j in range(32):
                     if df.iloc[j, i] == "":
                         df.iloc[j, i] = np.nan
+        return df
 
-        # set column types
-        return df.astype(self.mapping)
-
-    def get_html_content(self):
-        """ Reads HTML content and returns data table. """
-        # get HTML config
-        print("Fetching from", self.url)
-        req = requests.get(self.url)
-
-        # observe HTML output -> https://webformatter.com/html
-        # print(req.text)
-
-        # get table raw
-        soup = bs4.BeautifulSoup(req.content, "html.parser")
-        table = soup.find(id="data")
-        data = self.get_table_data(table)
-
-        # in that specific case, the content of the table is within one single list
+    @staticmethod
+    def transform_to_frame(data):
         data_mod = list()
         data_mod.append(data[0])
         for i in range(0, len(data[1]), len(data[0])):
-            data_mod.append(data[1][i:i+len(data[0])])
-
-        # return as pandas DataFrame
+            data_mod.append(data[1][i:i + len(data[0])])
         return pd.DataFrame(data_mod[1:], columns=data[0])
 
     @staticmethod
-    def add_team_shortcut(team):
-        """ Replaces team name with commonly used shortcut. """
+    def add_team_abbreviation(team):
         return team_map[team]
 
 
@@ -285,38 +194,32 @@ class Snapcounts(FantasyProsLoader, ABC):
 
     Snapcounts are only available back to season 2016.
     """
-    def __init__(self, year, refresh=False):
-        FantasyProsLoader.__init__(self, year, refresh)
 
-        # check year
+    def __init__(self, year):
+        FantasyProsLoader.__init__(self, year)
         if self.year < 2016:
             sys.exit("Snapcounts are only available for seasons 2016 and onwards.")
-
         self.mapping = snapcounts_type
         self.to_add = dict()
 
-        self.original_columns = ['Player', 'Pos', 'Team', 'Games', 'Snaps', 'Snaps/Gm', 'Snap %', 'Rush %', 'Tgt %',
-                                 'Touch %', 'Util %', 'Fantasy Pts', 'Pts/100 Snaps']
-
 
 class WeeklySnapcounts(Snapcounts, ABC):
-    def __init__(self, week, year, refresh=False):
-        Snapcounts.__init__(self, year, refresh)
+    def __init__(self, week, year):
+        Snapcounts.__init__(self, year)
         self.week = week
-        self.to_add = {"week": self.week, "year": self.year}
 
-        self.filename = f"week_{self.week}.csv"
         self.dir = f"../raw/weekly_snapcounts/{self.year}"
+        self.filename = f"week_{self.week}.csv"
+        self.to_add = {"week": self.week, "year": self.year}
         self.url = f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?week={self.week}&snaps=0&range=week&year={self.year}"
 
 
 class YearlySnapcounts(Snapcounts, ABC):
-    def __init__(self, year, refresh=False):
-        Snapcounts.__init__(self, year, refresh)
-        self.to_add = {"year": self.year}
-
-        self.filename = f"snapcounts_{self.year}.csv"
+    def __init__(self, year):
+        Snapcounts.__init__(self, year)
         self.dir = f"../raw/yearly_snapcounts"
+        self.filename = f"snapcounts_{self.year}.csv"
+        self.to_add = {"year": self.year}
         self.url = f"https://www.fantasypros.com/nfl/reports/snap-count-analysis/?year={self.year}&snaps=0&range=full"
 
 
@@ -326,60 +229,32 @@ class Stats(FantasyProsLoader, ABC):
     fantasy pros.
 
     A word on teams: somehow the statistics are updated recursively. E.g.
-    if a player retired, all stats of that player will have (FA).
+    if a player retired, all stats of that player will have (FA) as team.
     A workaround is used to overcome this and use other stats to update
     the team accordingly.
     """
-    def __init__(self, position, year, refresh=False):
-        FantasyProsLoader.__init__(self, year, refresh)
+
+    def __init__(self, position, year):
+        FantasyProsLoader.__init__(self, year)
         self.position = position
+
         self.mapping = stats_type[self.position]
         self.to_add = dict()
-
-        self.original_columns_dict = {
-            "DST": ['Rank', 'Player', 'SACK', 'INT', 'FR', 'FF', 'DEF TD', 'SFTY', 'SPC TD', 'G', 'FPTS', 'FPTS/G',
-                    'ROST'],
-            "K": ['Rank', 'Player', 'FG', 'FGA', 'PCT', 'LG', '1-19', '20-29', '30-39', '40-49', '50+', 'XPT', 'XPA',
-                  'G', 'FPTS', 'FPTS/G', 'ROST'],
-            "QB": ['Rank', 'Player', 'CMP', 'ATT', 'PCT', 'YDS', 'Y/A', 'TD', 'INT', 'SACKS', 'ATT', 'YDS', 'TD', 'FL',
-                   'G', 'FPTS', 'FPTS/G', 'ROST'],
-            "RB": ['Rank', 'Player', 'ATT', 'YDS', 'Y/A', 'LG', '20+', 'TD', 'REC', 'TGT', 'YDS', 'Y/R', 'TD', 'FL',
-                   'G', 'FPTS', 'FPTS/G', 'ROST'],
-            "TE": ['Rank', 'Player', 'REC', 'TGT', 'YDS', 'Y/R', 'LG', '20+', 'TD', 'ATT', 'YDS', 'TD', 'FL', 'G',
-                   'FPTS', 'FPTS/G', 'ROST'],
-            "WR": ['Rank', 'Player', 'REC', 'TGT', 'YDS', 'Y/R', 'LG', '20+', 'TD', 'ATT', 'YDS', 'TD', 'FL', 'G',
-                   'FPTS', 'FPTS/G', 'ROST']}
-        self.original_columns = self.original_columns_dict[self.position]
 
         # TODO fix kicker and defense team assignment
         if self.position == "K" or self.position == "DST":
             raise NotImplementedError
 
-    def restore_data(self, df):
-        """ Restores data specifically for stats since some columns
-        are altered during cleaning and should not be changed. """
-        # restore specifically altered columns
-        df["player"] = df["player"] + "(" + df["team"] + ")"
-
-        # standard restoring
-        df = df.iloc[:, :len(self.original_columns)]
-        df.columns = self.original_columns
-
-        return df
-
     @staticmethod
     def get_team(player):
-        """ Extracts team from player entry. """
         return player["player"].split('(')[1].split(')')[0]
 
     @staticmethod
     def transform_name(name):
-        """ Removes team from players name. """
         return name.split('(')[0]
 
     @staticmethod
     def transform_rost(rost):
-        """ Removes the rost percentage sign. """
         if "%" in str(rost):
             return str(rost).replace("%", "")
         else:
@@ -387,67 +262,65 @@ class Stats(FantasyProsLoader, ABC):
 
 
 class WeeklyStats(Stats, ABC):
-    def __init__(self, position, week, year, refresh=False):
-        Stats.__init__(self, position, year, refresh)
+    def __init__(self, position, week, year):
+        Stats.__init__(self, position, year)
         self.week = week
-        self.to_add = {"position": self.position, "week": self.week, "year": self.year}
 
-        self.filename = f"week_{self.week}.csv"
         self.dir = f"../raw/weekly_stats/{self.year}/{self.position.upper()}"
+        self.filename = f"week_{self.week}.csv"
+        self.to_add = {"position": self.position, "week": self.week, "year": self.year}
         self.url = f"https://www.fantasypros.com/nfl/stats/{self.position.lower()}.php?year={self.year}&week={self.week}&range=week"
 
-    def clean_data(self, df):
-        """ Cleans the stats' data. """
-        # map column names
-        df = self.map_columns(df)
-
-        # fix a thousand notations
-        for column in df.columns.to_list():
-            df[column] = df[column].apply(self.fix_thousands)
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        # transform team, player and rost
+    def fix_columns(self, df):
         df["player"] = df["player"].apply(self.transform_name)
         df["rost"] = df["rost"].apply(self.transform_rost)
-
-        # load player info and merge
-        teams = TeamsLoader(self.year).get_data()
-        teams = teams.loc[teams["position"] == self.position, ["player", "team", "week", "year"]]
-        df = pd.merge(df, teams, how="inner", on=["player", "week", "year"])
-
-        return df.astype(self.mapping)
+        team_assignment = TeamsLoader(self.year).get_data()
+        team_assignment = team_assignment.loc[
+            team_assignment["position"] == self.position, ["player", "team", "week", "year"]]
+        df = pd.merge(df, team_assignment, how="inner", on=["player", "week", "year"])
+        return df
 
 
 class YearlyStats(Stats, ABC):
-    def __init__(self, position, year, refresh=False):
-        Stats.__init__(self, position, year, refresh)
-        self.to_add = {"position": self.position, "year": self.year}
-
-        self.filename = f"{position.upper()}_{year}.csv"
+    def __init__(self, position, year):
+        Stats.__init__(self, position, year)
         self.dir = f"../raw/yearly_stats/{year}/"
+        self.filename = f"{position.upper()}_{year}.csv"
+        self.to_add = {"position": self.position, "year": self.year}
         self.url = f"https://www.fantasypros.com/nfl/stats/{position.lower()}.php?year={year}&range=full"
 
-    def clean_data(self, df):
-        """ Cleans the stats' data. """
-        # map column names
-        df = self.map_columns(df)
-
-        # fix a thousand notations
-        for column in df.columns.to_list():
-            df[column] = df[column].apply(self.fix_thousands)
-
-        # add specified data to dataframe
-        for key, val in self.to_add.items():
-            df[key] = val
-
-        # transform team, player and rost
+    def fix_columns(self, df):
         df["player"] = df["player"].apply(self.transform_name)
         df["rost"] = df["rost"].apply(self.transform_rost)
-
         # TODO fix team assignment -> what to do if player changed his team during the season
         df["team"] = "team"
 
-        return df.astype(self.mapping)
+        return df
+
+
+def store_all():
+    for position in ["QB", "RB", "TE", "WR"]:
+        for year in week_map.keys():
+            YearlyStats(position, year).store_data()
+            for week in range(1, week_map[year] + 1):
+                WeeklyStats(position, week, year).store_data()
+
+    for position in ["QB", "RB", "TE", "WR"]:
+        for week in range(1, week_map[2021] + 1):
+            Projections(position, week).store_data()
+
+    for year in range(2016, list(week_map.keys())[0] + 1):
+        YearlySnapcounts(year).store_data()
+        for week in range(1, week_map[year] + 1):
+            WeeklySnapcounts(week, year).store_data()
+
+    for year in week_map.keys():
+        PointsAllowed(year).store_data()
+
+    for year in week_map.keys():
+        PointsAllowed(year).store_data()
+
+
+if __name__ == "__main__":
+    store_all()
+
