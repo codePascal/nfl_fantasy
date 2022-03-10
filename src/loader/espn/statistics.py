@@ -59,7 +59,7 @@ class TeamStats(EspnLoader, ABC):
         EspnLoader.__init__(self, year, season)
         self.to_add = {"year": self.year}
 
-    def add_columns(self, df):
+    def fix_columns(self, df):
         df["team"] = df["team"].apply(self.add_team_abbreviation)
         return df
 
@@ -70,7 +70,7 @@ class TeamStats(EspnLoader, ABC):
         elif team in team_map:
             return team_map[team]
         elif team in team_changes_map:
-            return team_map[team_changes_map[team]]
+            return team_changes_map[team]
         else:
             print(team, "not found.")
             return team
