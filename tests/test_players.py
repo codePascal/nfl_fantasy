@@ -3,7 +3,7 @@ import unittest
 import numpy as np
 
 from config.mapping import week_map, teams
-from src.loader.ffdp.ffdp import TeamsLoader
+from src.loader.fantasydatapros.statistics import TeamsLoader
 
 
 class TestTeamsLoader(unittest.TestCase):

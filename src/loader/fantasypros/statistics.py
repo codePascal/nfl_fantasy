@@ -17,7 +17,7 @@ from config.mapping import team_map, teams, week_map
 from config.fantasypros import projections_type, pa_type, snapcounts_type, stats_type
 
 from src.loader.loader import Loader
-from src.loader.ffdp.ffdp import TeamsLoader
+from src.loader.fantasydatapros.statistics import TeamsLoader
 
 
 class FantasyProsLoader(Loader, ABC):
