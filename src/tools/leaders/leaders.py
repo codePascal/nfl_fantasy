@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib.patches as mp
 import sys
 
-from config.mapping import week_map
+from src.config.mapping import week_map
 from src.preprocessing.statistics.stats import Stats
 
 

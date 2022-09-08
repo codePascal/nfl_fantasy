@@ -12,7 +12,7 @@ import pandas as pd
 
 from abc import ABC
 
-from config.mapping import week_map
+from src.config.mapping import week_map
 from src.loader.fantasypros.projections import Projections as Loader
 from src.preprocessing.preprocessing import Preprocessing
 

@@ -2,8 +2,8 @@
 import unittest
 import numpy as np
 
-from config.mapping import week_map, teams
-from src.loader.fantasydatapros.statistics import TeamsLoader
+from src.config.mapping import week_map, teams
+from src.loader.players import TeamsLoader
 
 
 class TestTeamsLoader(unittest.TestCase):

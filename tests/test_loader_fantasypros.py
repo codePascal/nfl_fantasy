@@ -7,9 +7,8 @@ import numpy as np
 
 import src.loader.fantasypros.statistics as loader
 
-from config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
-from config.mapping import teams, week_map
-
+from src.config.fantasypros import stats_type, snapcounts_type, projections_type, pa_type
+from src.config.mapping import teams
 
 # TODO make clean with test functions
 

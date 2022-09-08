@@ -8,13 +8,12 @@ the stats itself are refreshed.
 Running this script will store all summaries for a denoted year
 range or refresh them if available offline.
 """
-import numpy as np
 import pandas as pd
 import sys
 
 from abc import ABC
 
-from config.mapping import week_map, team_changes_map, teams
+from src.config.mapping import week_map
 from src.loader.fantasypros.snapcounts import WeeklySnapcounts as Loader
 from src.preprocessing.preprocessing import Preprocessing
 

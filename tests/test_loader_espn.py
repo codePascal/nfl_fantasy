@@ -4,9 +4,9 @@ import numpy as np
 
 import src.loader.espn.statistics as loader
 
-from config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
-from config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
-from config.mapping import teams
+from src.config.espn import defense_passing_map, defense_rushing_map, defense_receiving_map, defense_downs_map
+from src.config.espn import offense_passing_map, offense_rushing_map, offense_receiving_map, offense_downs_map
+from src.config.mapping import teams
 
 
 # TODO make clean with test functions

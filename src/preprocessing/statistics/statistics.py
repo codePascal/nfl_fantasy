@@ -5,12 +5,11 @@ team stats for defense.
 Running this script will store the accumulated statistics for a given
 year range.
 """
-import numpy as np
 import pandas as pd
 
 from abc import ABC
 
-from config.mapping import week_map
+from src.config.mapping import week_map
 from src.loader.fantasypros.schedule import Schedule
 from src.preprocessing.preprocessing import Preprocessing
 from src.preprocessing.statistics.stats import Stats

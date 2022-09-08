@@ -3,8 +3,6 @@ import pandas as pd
 
 from abc import ABC
 
-from config.mapping import week_map
-
 from src.models.models import Models
 from src.preprocessing.statistics.statistics import Statistics
 

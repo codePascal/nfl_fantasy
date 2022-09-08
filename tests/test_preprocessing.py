@@ -2,7 +2,7 @@
 import unittest
 import numpy as np
 
-from config.fantasypros import snapcounts_type, projections_type, stats_type
+from src.config.fantasypros import snapcounts_type, projections_type, stats_type
 
 from src.preprocessing.statistics.projections import Projections
 from src.preprocessing.statistics.snapcounts import Snapcounts
